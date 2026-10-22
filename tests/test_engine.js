@@ -792,6 +792,17 @@ test('真实数据：诊断题答案能被自己的判题器接受（判对率�
   assert.deepStrictEqual(bad, []);
 });
 
+test('章节解析：英语 Unit 级（义教与高中）', () => {
+  assert.deepStrictEqual(E.parseChapter('三年级上 Unit 1 Hello!'),
+    { volume: '三年级上', chapterNo: 'Unit 1', chapterName: 'Hello!', section: '' });
+  assert.deepStrictEqual(E.parseChapter('八年级下 Unit 4 Cartoons and comic strips'),
+    { volume: '八年级下', chapterNo: 'Unit 4', chapterName: 'Cartoons and comic strips', section: '' });
+  assert.deepStrictEqual(E.parseChapter('必修第一册 Unit 2 Places'),
+    { volume: '必修第一册', chapterNo: 'Unit 2', chapterName: 'Places', section: '' });
+  assert.deepStrictEqual(E.parseChapter('选择性必修第四册 Unit 2 Live longer, live better?'),
+    { volume: '选择性必修第四册', chapterNo: 'Unit 2', chapterName: 'Live longer, live better?', section: '' });
+});
+
 test('真实数据：章节名可解析', () => {
   formal.forEach((t) => {
     const c = E.parseChapter(t.chapter);

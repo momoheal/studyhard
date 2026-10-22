@@ -22,6 +22,7 @@ DEPS_PATH = os.path.join(ROOT, "data", "dependencies.json")
 STANDARDS_PATH = os.path.join(ROOT, "data", "cn-curriculum-standards.json")
 JUNIOR_STANDARDS_PATH = os.path.join(ROOT, "data", "cn-junior-curriculum-standards.json")
 ENGLISH_STANDARDS_PATH = os.path.join(ROOT, "data", "cn-english-curriculum-standards.json")
+HIGH_ENGLISH_STANDARDS_PATH = os.path.join(ROOT, "data", "cn-highschool-english-curriculum-standards.json")
 QUESTIONS_PATH = os.path.join(ROOT, "data", "questions.json")
 STRICT_STANDARDS = os.environ.get("STRICT_STANDARDS") == "1"
 
@@ -37,8 +38,10 @@ MAX_WARNINGS_LISTED = 30
 STD_DOMAIN_CODES = {"NA": "数与代数", "GG": "图形与几何", "SP": "统计与概率", "IP": "综合与实践"}
 STD_ID_RE = re.compile(r"^cms-2022:(\d)\.(NA|GG|SP|IP)\.(\d{2,})$")
 ESTD_ID_RE = re.compile(r"^ces-2022:([123])\.(PH|VO|GR|DS|PU)\.(\d{2})$")
+HSTD_ID_RE = re.compile(r"^chs-2017:([12])\.(PH|VO|GR|DS|PU)\.(\d{2})$")
 ESTD_DOMAIN_CODES = {"PH": "语音", "VO": "词汇", "GR": "语法", "DS": "语篇", "PU": "语用"}
 ESTD_STAGE_NAMES = {"1": "一级", "2": "二级", "3": "三级"}
+HSTD_STAGE_NAMES = {"1": "必修", "2": "选择性必修"}
 CORE_FIELDS = ["id", "name", "domain", "grade", "semester", "chapter", "type",
                "description", "mastery_criteria", "diagnostic_question", "external"]
 EXT_FIELDS = ["id", "name", "domain", "grade", "description", "external"]
@@ -117,10 +120,11 @@ def check_topics(topics):
             if t.get("grade") not in ("学前", "小学"):
                 err("%s 外部节点 grade 必须为 \"学前\" 或 \"小学\"" % where)
             continue
-        if t.get("grade") not in (1, 2, 3, 4, 5, 6, 7, 8, 9):
-            err("%s grade 必须是 1-9（小学 1-5，初中 6-9）" % where)
-        elif subject == "english" and t["grade"] < 3:
-            err("%s 英语知识点 grade 必须 >= 3（沪教版英语为三年级起点）" % where)
+        allowed_grades = (1, 2, 3, 4, 5, 6, 7, 8, 9)
+        if subject == "english":
+            allowed_grades = (3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
+        if t.get("grade") not in allowed_grades:
+            err("%s grade 取值非法：%r（数学 1-9；英语 3-9 加高中 10-12）" % (where, t.get("grade")))
         if t.get("semester") not in ("上", "下"):
             err("%s semester 必须是 上/下" % where)
         if t.get("type") not in TYPES:
@@ -223,7 +227,8 @@ def report(ids, prereqs, dependents, n_hard, n_soft):
         print("  %-8s %d" % (k, v))
     print("\n按 grade+semester（正式知识点）：")
     names = {1: "一年级", 2: "二年级", 3: "三年级", 4: "四年级", 5: "五年级",
-             6: "六年级", 7: "七年级", 8: "八年级", 9: "九年级"}
+             6: "六年级", 7: "七年级", 8: "八年级", 9: "九年级",
+             10: "高一", 11: "高二", 12: "高三"}
     c = Counter("%s%s" % (names.get(t["grade"], t["grade"]), t["semester"]) for t in core)
     for g in sorted({t["grade"] for t in core if isinstance(t["grade"], int)}):
         for sem in ("上", "下"):
@@ -279,6 +284,7 @@ def check_standards_file(std, label="cn-curriculum-standards.json"):
         items_by_id[sid] = it
         m = STD_ID_RE.match(sid)
         me = ESTD_ID_RE.match(sid)
+        mh = HSTD_ID_RE.match(sid)
         req_fields = ["domain", "section", "text"]
         if m:
             stage, code, num = m.group(1), m.group(2), int(m.group(3))
@@ -299,9 +305,20 @@ def check_standards_file(std, label="cn-curriculum-standards.json"):
                 err("%s 编号在域内不连续（上一条为 %02d）" % (where, last.get(key, 0)))
             last[key] = num
             req_fields = ["domain", "theme", "text"]
+        elif mh:
+            stage, code, num = mh.group(1), mh.group(2), int(mh.group(3))
+            if it.get("domain") != ESTD_DOMAIN_CODES[code]:
+                err("%s domain 与 id 中的领域代码不一致：%r" % (where, it.get("domain")))
+            if it.get("stage") != HSTD_STAGE_NAMES[stage]:
+                err("%s stage 与 id 中的学段不一致：%r" % (where, it.get("stage")))
+            key = ("high-english", stage, code)
+            if num != last.get(key, 0) + 1:
+                err("%s 编号在域内不连续（上一条为 %02d）" % (where, last.get(key, 0)))
+            last[key] = num
+            req_fields = ["domain", "theme", "text"]
         else:
-            err("%s id 格式不合法（应为 cms-2022:<学段>.<NA|GG|SP|IP>.<NN> "
-                "或 ces-2022:<学段>.<PH|VO|GR|DS|PU>.<NN>）" % where)
+            err("%s id 格式不合法（应为 cms-2022:<学段>.<NA|GG|SP|IP>.<NN>、"
+                "ces-2022:<学段>.<PH|VO|GR|DS|PU>.<NN> 或 chs-2017:<册次>.<PH|VO|GR|DS|PU>.<NN>）" % where)
         for f in req_fields:
             if not nonempty_str(it.get(f)):
                 err("%s 字段 %s 缺失或为空" % (where, f))
@@ -573,6 +590,16 @@ def main():
         if eng_items:
             std_items = dict(std_items or {})
             for sid, it in eng_items.items():
+                if sid in std_items:
+                    err("课标条目 id 在多个文件中重复：%s" % sid)
+                std_items[sid] = it
+    # 高中（必修 + 选择性必修）课标条目单独成文件，前缀 chs-2017:
+    if os.path.exists(HIGH_ENGLISH_STANDARDS_PATH):
+        hs_items = check_standards_file(load(HIGH_ENGLISH_STANDARDS_PATH),
+                                        "cn-highschool-english-curriculum-standards.json")
+        if hs_items:
+            std_items = dict(std_items or {})
+            for sid, it in hs_items.items():
                 if sid in std_items:
                     err("课标条目 id 在多个文件中重复：%s" % sid)
                 std_items[sid] = it

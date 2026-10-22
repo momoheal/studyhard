@@ -455,7 +455,10 @@
     // 数学：「六年级上 第一章 数的整除 1.1 整数和整除的意义」
     const m = /^(\S+) (第\S+[章单元]) (\S+?)(?: (.+))?$/.exec(chapter || '');
     if (m) return { volume: m[1], chapterNo: m[2], chapterName: m[3], section: m[4] || '' };
-    // 英语（知识领域成组）：「三年级上 全册 语音：26 个字母与常见字母组合」
+    // 英语 Unit 级：「三年级上 Unit 1 Hello!」「必修第一册 Unit 1 Our world」
+    const u = /^(\S+) (Unit \d+) (.+)$/.exec(chapter || '');
+    if (u) return { volume: u[1], chapterNo: u[2], chapterName: u[3], section: '' };
+    // 英语（知识领域成组，第一阶段写法）：「三年级上 全册 语音：26 个字母与常见字母组合」
     const e = /^(\S+) (全册) ([^：]+?)(?:[：](.+))?$/.exec(chapter || '');
     if (e) return { volume: e[1], chapterNo: e[2], chapterName: e[3], section: e[4] || '' };
     return { volume: '', chapterNo: '', chapterName: chapter || '', section: '' };

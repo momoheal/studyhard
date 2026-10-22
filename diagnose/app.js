@@ -15,7 +15,11 @@
     ['六年级上', '六年级上册'], ['六年级下', '六年级下册'],
     ['七年级上', '七年级上册'], ['七年级下', '七年级下册'],
     ['八年级上', '八年级上册'], ['八年级下', '八年级下册'],
-    ['九年级上', '九年级上册'], ['九年级下', '九年级下册']
+    ['九年级上', '九年级上册'], ['九年级下', '九年级下册'],
+    ['必修第一册', '高中 必修第一册'], ['必修第二册', '高中 必修第二册'],
+    ['必修第三册', '高中 必修第三册'], ['选择性必修第一册', '高中 选择性必修第一册'],
+    ['选择性必修第二册', '高中 选择性必修第二册'], ['选择性必修第三册', '高中 选择性必修第三册'],
+    ['选择性必修第四册', '高中 选择性必修第四册']
   ];
   const RESULT_LABEL = { correct: '对', wrong: '错', skip: '不会' };
   const STATUS_LABEL = { mastered: '已掌握', shaky: '不稳', weak: '薄弱', unknown: '未测' };
@@ -244,7 +248,7 @@
           }, SUBJECT_LABEL[k]);
         })),
       h('p', { class: 'muted small' }, subject === 'english'
-        ? '英语与数学单独成图：英语覆盖沪教版三至九年级，依据《义务教育英语课程标准（2022 年版）》（教材 2024 年审定），只出笔试题。'
+        ? '英语与数学单独成图：英语覆盖沪教版三至九年级（按教材 Unit 组织）与高中必修、选择性必修共 7 册；义教依据《义务教育英语课程标准（2022 年版）》，高中依据《普通高中英语课程标准（2017 年版 2020 年修订）》，只出笔试题。'
         : '数学覆盖沪教版一至九年级（五四学制）。'),
       h('p', { class: 'muted' }, '选一个你想学会（或想检查）的知识点，或者选整章。工具会从目标开始提问：第一题答对就算掌握；答错会再出一道同级或更容易的题——第二题也错才算薄弱，并回溯到它的先修知识点，找到真正薄弱的根因；第二题答对则标为「不稳」。'),
       h('div', { class: 'row' },
@@ -262,6 +266,10 @@
     show(page);
     fillList(listBox);
     if (startQuery) { const el = document.getElementById('search'); if (el) el.focus(); }
+  }
+
+  function chTopicsCount(ch) {
+    return ch.topics.filter(function (x) { return subjectOf(x.t) === subject; }).length;
   }
 
   function fillList(box) {
@@ -293,8 +301,11 @@
           h('div', { class: 'chap-head' },
             h('span', { class: 't', text: ch.label }),
             h('button', {
-              class: 'primary', title: '把本章全部 ' + ch.topics.length + ' 个知识点一起作为目标',
-              onclick: function () { startSession(ch.topics.map(function (x) { return x.t.id; }), ch.volume + ' ' + ch.label + '（整章）'); }
+              class: 'primary', title: '把本章全部 ' + chTopicsCount(ch) + ' 个知识点一起作为目标',
+              onclick: function () {
+                startSession(ch.topics.filter(function (x) { return subjectOf(x.t) === subject; })
+                  .map(function (x) { return x.t.id; }), ch.volume + ' ' + ch.label + '（整章）');
+              }
             }, '以整章为目标')),
           c.rows.map(function (x) {
             return h('div', { class: 'topic-row', title: x.t.description },

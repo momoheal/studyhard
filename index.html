@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>沪教版中小学知识图谱（数学 1-9 年级 · 英语 3-9 年级）· 辅导版</title>
+<title>沪教版中小学知识图谱（数学 1-9 年级 · 英语 3-12 年级含高中）· 辅导版</title>
 <style>
   :root { --bg:#f6f7f9; --panel:#fff; --line:#e1e4e8; --text:#1f2933; --muted:#6b7785; --accent:#2563eb;
           --hard:#c2410c; --soft:#6b7785; --ext:#7c3aed; }
@@ -71,8 +71,8 @@
 </head>
 <body>
 <header>
-  <h1>沪教版中小学知识图谱（数学 1-9 年级 · 英语 3-9 年级）</h1>
-  <span class="note">AI 生成的初稿，未经教师审核。数学对齐沪教版课本目录（小学一上/一下为 2024 审定版，其余为现行教材）；英语对齐沪教版三起点教材、依据《义务教育英语课程标准（2022 年版）》（教材 2024 年审定）。先修关系与辅导内容需一线教师审核。</span>
+  <h1>沪教版中小学知识图谱（数学 1-9 年级 · 英语 3-12 年级含高中）</h1>
+  <span class="note">AI 生成的初稿，未经教师审核。数学对齐沪教版课本目录（小学一上/一下为 2024 审定版，其余为现行教材）；英语对齐沪教版三起点教材与高中《英语》（必修 3 册 + 选择性必修 4 册），义教依据《义务教育英语课程标准（2022 年版）》（教材 2024 年审定）、高中依据《普通高中英语课程标准（2017 年版 2020 年修订）》。先修关系与辅导内容需一线教师审核。</span>
   <a class="tool-link" href="diagnose/">诊断小工具 →</a>
 </header>
 <div id="app">
@@ -113,6 +113,8 @@
 "use strict";
 const TYPE_ZH = {conceptual:"概念理解", procedural:"程序性技能", reasoning:"推理证明", application:"应用", modeling:"建模"};
 const GRADE_ZH = {1:"一", 2:"二", 3:"三", 4:"四", 5:"五", 6:"六", 7:"七", 8:"八", 9:"九"};
+const HIGH_ZH = {10:"高一", 11:"高二", 12:"高三"};
+function gradeName(g) { return HIGH_ZH[g] || (GRADE_ZH[g] + "年级"); }
 const $ = s => document.querySelector(s);
 const el = (tag, attrs, ...kids) => {
   const e = document.createElement(tag);
@@ -129,7 +131,7 @@ let subject = "math";
 const subjectOf = t => t.subject || "math";
 const topicsOfSubject = s => topics.filter(t => subjectOf(t) === s);
 
-function gradeKey(t) { return t.external ? "学前" : GRADE_ZH[t.grade] + "年级" + t.semester; }
+function gradeKey(t) { return t.external ? "学前" : gradeName(t.grade) + t.semester; }
 
 async function load() {
   try {
@@ -196,7 +198,7 @@ function rebuildSelects() {
   const pairs = [...new Set(topicsOfSubject(subject).filter(t => !t.external).map(t => t.grade + t.semester))]
     .sort((a, b) => parseInt(a) - parseInt(b) || (a.slice(-1) === "上" ? -1 : 1));
   $("#fGrade").replaceChildren(el("option", {value:"", text:"全部年级"}),
-    ...pairs.map(k => el("option", {value:k, text:GRADE_ZH[parseInt(k)] + "年级" + k.slice(-1)})));
+    ...pairs.map(k => el("option", {value:k, text:gradeName(parseInt(k)) + k.slice(-1)})));
   $("#fExt").parentElement.style.display = subject === "english" ? "none" : "";
   $("#fExt").checked = false;
   $("#fDomain").value = ""; $("#fGrade").value = ""; $("#fType").value = "";
@@ -224,7 +226,7 @@ function renderList() {
     const key = gradeKey(t);
     if (key !== last) {
       last = key;
-      ul.append(el("li", {class:"grp", text: t.external ? "学前先备（外部节点）" : GRADE_ZH[t.grade] + "年级" + t.semester + "册"}));
+      ul.append(el("li", {class:"grp", text: t.external ? "学前先备（外部节点）" : gradeName(t.grade) + t.semester + "册"}));
     }
     const li = el("li", {class:"item" + (t.id === selected ? " sel" : ""), "data-id":t.id, onclick:() => select(t.id, true)},
       el("span", {class:"nm", text:t.name}),
@@ -255,7 +257,7 @@ function renderDetail(t) {
       el("span", {class:"tag" + (t.external ? " ext" : ""), text:t.id}),
       el("span", {class:"tag", text:t.domain}),
       t.external ? el("span", {class:"tag ext", text:"学前先备（外部节点）"})
-                 : [el("span", {class:"tag", text:GRADE_ZH[t.grade] + "年级" + t.semester}),
+                 : [el("span", {class:"tag", text:gradeName(t.grade) + t.semester}),
                     el("span", {class:"tag", text:TYPE_ZH[t.type] || t.type}),
                     el("span", {class:"tag", text:t.chapter})]),
     el("p", {text:t.description}));

@@ -1,8 +1,8 @@
 # 题库说明（data/questions.json）
 
-每个正式知识点（384 个：数学小学 157、数学初中 164、英语 3-9 年级 63）配套 4 题，共 1536 题，供诊断工具“每点最多 2 题”出题策略使用。题目由 AI 基于课本生成，**未经教师审核**，正确性主要靠机器核验。
+每个正式知识点（489 个：数学小学 157、数学初中 164、英语义教 140、英语高中 28）配套 4 题，共 1956 题，供诊断工具“每点最多 2 题”出题策略使用。题目由 AI 基于课本生成，**未经教师审核**，正确性主要靠机器核验。
 
-> 英语题只出**笔试题**（选择、拼写、填空、词形变化），**不出听力与口语题**；选择题 2 个（含 1 道 basic）、短答题 2 个，短答题普遍带 `accept` 等价答案列表。
+> 英语题只出**笔试题**（选择、拼写、选词填空、翻译、单句语法填空），**不出听力与口语题**；每点 4 题 = 2 道 basic（词汇选择 + 拼写）+ 2 道 standard（选词填空 + 翻译），短答题普遍带 `accept` 等价写法。
 
 ## 1. 格式
 
@@ -22,12 +22,14 @@
 
 ## 2. 统计
 
-- 总数 **1536 题**，覆盖 384 个正式点，每点 4 题。
+- 总数 **1956 题**，覆盖 489 个正式点，每点 4 题。
   - 数学小学 628 题（numeric 425，choice 197，short 6；basic 314，standard 157，advanced 157）。
   - 数学初中 656 题（numeric 492，choice 164；basic 328，standard 164，advanced 164）。初中的 basic/standard/advanced 比例为 2:1:1，每点至少两道 basic。
-  - 英语 252 题（`cne_*`：choice 126、short 126；basic 126、standard 63、advanced 63）。英语题全部为人工可读的英文题干，不依赖配图与音频。
-- 按 type：numeric 917，choice 487，short 132；可自动判分（numeric + choice + short）占 100%。
-- 按 difficulty：basic 768，standard 384，advanced 384；每点含 basic 与 standard。
+  - 英语义教 560 题（`cne_001`–`cne_140`：choice 280、short 280；basic 280、standard 280）。
+  - 英语高中 112 题（`cne_141`–`cne_168`：choice 56、short 56；basic 56、standard 56）。
+- 按 type：numeric 917，choice 697，short 342；可自动判分（numeric + choice + short）占 100%。
+- 按 difficulty：basic 978，standard 657，advanced 321；每点含 basic 与 standard。
+- 英语题不依赖配图与音频：义教段题干由该 Unit 的核心词、重点句与译文生成（同一个 Unit 内题式统一、内容不同）；高中段 4 题按单元的语法点与读写重点单独编写。
 - choice 正确选项分布大致均匀。
 - 初中的 `verify` 表达式覆盖全部数值题（492 题），用到 `sqrt`、`sin/cos/tan`（弧度制）、`round`、`Fraction`、列表推导式等受限名字，机器核验 mismatch 0。
 - 英语题不带 `verify`（语言题无法用表达式核验），与数学的文字类选择题一样计入 `unverifiable`，依赖 `accept` 列表与人工审读。

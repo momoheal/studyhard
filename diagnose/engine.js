@@ -458,6 +458,9 @@
     // 英语 Unit 级：「三年级上 Unit 1 Hello!」「必修第一册 Unit 1 Our world」
     const u = /^(\S+) (Unit \d+) (.+)$/.exec(chapter || '');
     if (u) return { volume: u[1], chapterNo: u[2], chapterName: u[3], section: '' };
+    // 英语册末卷：「三年级上 册末卷 期末模拟」
+    const p = /^(\S+) (册末卷) (?:Unit \d+ )?(.+)$/.exec(chapter || '');
+    if (p) return { volume: p[1], chapterNo: p[2], chapterName: p[3], section: '' };
     // 英语（知识领域成组，第一阶段写法）：「三年级上 全册 语音：26 个字母与常见字母组合」
     const e = /^(\S+) (全册) ([^：]+?)(?:[：](.+))?$/.exec(chapter || '');
     if (e) return { volume: e[1], chapterNo: e[2], chapterName: e[3], section: e[4] || '' };
@@ -749,6 +752,8 @@
     for (let i = 0; i < refs.length; i++) {
       if (judgeAnswer(user, refs[i]).verdict === 'correct') return { verdict: 'correct', reason: 'equivalent' };
     }
+    // exact：题干只有一个正确写法（如首字母填空、语篇填空的空），对不上即判错，无需自评
+    if (q.exact === true) return { verdict: 'wrong', reason: 'exact' };
     return { verdict: 'manual', reason: 'unsure' }; // 文字 / 代数式写法太多，不可靠时让用户对照参考答案自评
   }
 

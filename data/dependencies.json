@@ -3766,5 +3766,257 @@
     "prerequisiteId": "cne_167",
     "strength": "hard",
     "reason": "「技术与未来（Unit 4 Technology）」的学习以「食物与伦理（Unit 3 Food and ethics）」为基础。"
+  },
+  {
+    "topicId": "cne_169",
+    "prerequisiteId": "cne_001",
+    "strength": "soft",
+    "reason": "「期末模拟（三年级上册末卷）」的学习以「问候与自我介绍（Unit 1 Hello!）」为基础。"
+  },
+  {
+    "topicId": "cne_169",
+    "prerequisiteId": "cne_012",
+    "strength": "soft",
+    "reason": "「期末模拟（三年级上册末卷）」的学习以「四季与天气（Unit 12 The four seasons）」为基础。"
+  },
+  {
+    "topicId": "cne_170",
+    "prerequisiteId": "cne_013",
+    "strength": "soft",
+    "reason": "「期末模拟（三年级下册末卷）」的学习以「颜色（Unit 1 Colours）」为基础。"
+  },
+  {
+    "topicId": "cne_170",
+    "prerequisiteId": "cne_024",
+    "strength": "soft",
+    "reason": "「期末模拟（三年级下册末卷）」的学习以「故事与复述（Unit 12 Three little pigs）」为基础。"
+  },
+  {
+    "topicId": "cne_171",
+    "prerequisiteId": "cne_025",
+    "strength": "soft",
+    "reason": "「期末模拟（四年级上册末卷）」的学习以「结识新朋友（Unit 1 Meeting new people）」为基础。"
+  },
+  {
+    "topicId": "cne_171",
+    "prerequisiteId": "cne_036",
+    "strength": "soft",
+    "reason": "「期末模拟（四年级上册末卷）」的学习以「天气（Unit 12 Weather）」为基础。"
+  },
+  {
+    "topicId": "cne_172",
+    "prerequisiteId": "cne_037",
+    "strength": "soft",
+    "reason": "「期末模拟（四年级下册末卷）」的学习以「触觉与质地（Unit 1 Touch and feel）」为基础。"
+  },
+  {
+    "topicId": "cne_172",
+    "prerequisiteId": "cne_048",
+    "strength": "soft",
+    "reason": "「期末模拟（四年级下册末卷）」的学习以「故事与道理（Unit 12 The ugly duckling）」为基础。"
+  },
+  {
+    "topicId": "cne_173",
+    "prerequisiteId": "cne_049",
+    "strength": "soft",
+    "reason": "「期末模拟（五年级上册末卷）」的学习以「未来职业与理想（Unit 1 My future）」为基础。"
+  },
+  {
+    "topicId": "cne_173",
+    "prerequisiteId": "cne_060",
+    "strength": "soft",
+    "reason": "「期末模拟（五年级上册末卷）」的学习以「火与安全（Unit 12 Fire）」为基础。"
+  },
+  {
+    "topicId": "cne_174",
+    "prerequisiteId": "cne_061",
+    "strength": "soft",
+    "reason": "「期末模拟（五年级下册末卷）」的学习以「整理与物主代词（Unit 1 Tidy up!）」为基础。"
+  },
+  {
+    "topicId": "cne_174",
+    "prerequisiteId": "cne_072",
+    "strength": "soft",
+    "reason": "「期末模拟（五年级下册末卷）」的学习以「故事与寓意（Unit 12 The giant's garden）」为基础。"
+  },
+  {
+    "topicId": "cne_175",
+    "prerequisiteId": "cne_073",
+    "strength": "soft",
+    "reason": "「期末模拟（六年级上册末卷）」的学习以「成长与变化（Unit 1 Growing up）」为基础。"
+  },
+  {
+    "topicId": "cne_175",
+    "prerequisiteId": "cne_084",
+    "strength": "soft",
+    "reason": "「期末模拟（六年级上册末卷）」的学习以「地球与环保（Unit 12 The Earth）」为基础。"
+  },
+  {
+    "topicId": "cne_176",
+    "prerequisiteId": "cne_085",
+    "strength": "soft",
+    "reason": "「期末模拟（六年级下册末卷）」的学习以「人际关系与共同点（Unit 1 You and me）」为基础。"
+  },
+  {
+    "topicId": "cne_176",
+    "prerequisiteId": "cne_096",
+    "strength": "soft",
+    "reason": "「期末模拟（六年级下册末卷）」的学习以「故事与寓意（Unit 12 The five peas）」为基础。"
+  },
+  {
+    "topicId": "cne_177",
+    "prerequisiteId": "cne_097",
+    "strength": "soft",
+    "reason": "「期末模拟（七年级上册末卷）」的学习以「交友与自我介绍（Unit 1 Making friends）」为基础。"
+  },
+  {
+    "topicId": "cne_177",
+    "prerequisiteId": "cne_104",
+    "strength": "soft",
+    "reason": "「期末模拟（七年级上册末卷）」的学习以「收藏与爱好（Unit 8 Collecting things）」为基础。"
+  },
+  {
+    "topicId": "cne_178",
+    "prerequisiteId": "cne_105",
+    "strength": "soft",
+    "reason": "「期末模拟（七年级下册末卷）」的学习以「身边的人（Unit 1 People around us）」为基础。"
+  },
+  {
+    "topicId": "cne_178",
+    "prerequisiteId": "cne_112",
+    "strength": "soft",
+    "reason": "「期末模拟（七年级下册末卷）」的学习以「从爱好到职业（Unit 8 From hobby to career）」为基础。"
+  },
+  {
+    "topicId": "cne_179",
+    "prerequisiteId": "cne_113",
+    "strength": "soft",
+    "reason": "「期末模拟（八年级上册末卷）」的学习以「百科全书与查阅（Unit 1 Encyclopaedias）」为基础。"
+  },
+  {
+    "topicId": "cne_179",
+    "prerequisiteId": "cne_120",
+    "strength": "soft",
+    "reason": "「期末模拟（八年级上册末卷）」的学习以「英语周与活动（Unit 8 English week）」为基础。"
+  },
+  {
+    "topicId": "cne_180",
+    "prerequisiteId": "cne_121",
+    "strength": "soft",
+    "reason": "「期末模拟（八年级下册末卷）」的学习以「帮助有需要的人（Unit 1 Helping those in need）」为基础。"
+  },
+  {
+    "topicId": "cne_180",
+    "prerequisiteId": "cne_127",
+    "strength": "soft",
+    "reason": "「期末模拟（八年级下册末卷）」的学习以「未知世界（Unit 7 The unknown world）」为基础。"
+  },
+  {
+    "topicId": "cne_181",
+    "prerequisiteId": "cne_128",
+    "strength": "soft",
+    "reason": "「期末模拟（九年级上册末卷）」的学习以「历史上的智者（Unit 1 Wise men in history）」为基础。"
+  },
+  {
+    "topicId": "cne_181",
+    "prerequisiteId": "cne_134",
+    "strength": "soft",
+    "reason": "「期末模拟（九年级上册末卷）」的学习以「小说阅读（Unit 7 The Adventures of Tom Sawyer）」为基础。"
+  },
+  {
+    "topicId": "cne_182",
+    "prerequisiteId": "cne_135",
+    "strength": "soft",
+    "reason": "「期末模拟（九年级下册末卷）」的学习以「伟大探索与航行（Unit 1 Great explorations）」为基础。"
+  },
+  {
+    "topicId": "cne_182",
+    "prerequisiteId": "cne_140",
+    "strength": "soft",
+    "reason": "「期末模拟（九年级下册末卷）」的学习以「健康与压力管理（Unit 6 Caring for your health）」为基础。"
+  },
+  {
+    "topicId": "cne_183",
+    "prerequisiteId": "cne_141",
+    "strength": "soft",
+    "reason": "「期末模拟（必修第一册册末卷）」的学习以「认识世界与高中英语起步（Unit 1 Our world）」为基础。"
+  },
+  {
+    "topicId": "cne_183",
+    "prerequisiteId": "cne_144",
+    "strength": "soft",
+    "reason": "「期末模拟（必修第一册册末卷）」的学习以「个人空间与书面表达（Unit 4 My space）」为基础。"
+  },
+  {
+    "topicId": "cne_184",
+    "prerequisiteId": "cne_145",
+    "strength": "soft",
+    "reason": "「期末模拟（必修第二册册末卷）」的学习以「突破极限与非谓语动词（Unit 1 No limits）」为基础。"
+  },
+  {
+    "topicId": "cne_184",
+    "prerequisiteId": "cne_148",
+    "strength": "soft",
+    "reason": "「期末模拟（必修第二册册末卷）」的学习以「成就与省略、替代（Unit 4 Achievements）」为基础。"
+  },
+  {
+    "topicId": "cne_185",
+    "prerequisiteId": "cne_149",
+    "strength": "soft",
+    "reason": "「期末模拟（必修第三册册末卷）」的学习以「媒体与信息素养（Unit 1 The media）」为基础。"
+  },
+  {
+    "topicId": "cne_185",
+    "prerequisiteId": "cne_152",
+    "strength": "soft",
+    "reason": "「期末模拟（必修第三册册末卷）」的学习以「旅行故事与叙事写作（Unit 4 Travellers' tales）」为基础。"
+  },
+  {
+    "topicId": "cne_186",
+    "prerequisiteId": "cne_153",
+    "strength": "soft",
+    "reason": "「期末模拟（选择性必修第一册册末卷）」的学习以「情绪与心理健康（Unit 1 Feeling good）」为基础。"
+  },
+  {
+    "topicId": "cne_186",
+    "prerequisiteId": "cne_156",
+    "strength": "soft",
+    "reason": "「期末模拟（选择性必修第一册册末卷）」的学习以「感官与描写（Unit 4 The senses）」为基础。"
+  },
+  {
+    "topicId": "cne_187",
+    "prerequisiteId": "cne_157",
+    "strength": "soft",
+    "reason": "「期末模拟（选择性必修第二册册末卷）」的学习以「决策与强调句（Unit 1 Decisions）」为基础。"
+  },
+  {
+    "topicId": "cne_187",
+    "prerequisiteId": "cne_160",
+    "strength": "soft",
+    "reason": "「期末模拟（选择性必修第二册册末卷）」的学习以「灵感与写作（Unit 4 Inspiration）」为基础。"
+  },
+  {
+    "topicId": "cne_188",
+    "prerequisiteId": "cne_161",
+    "strength": "soft",
+    "reason": "「期末模拟（选择性必修第三册册末卷）」的学习以「全球议题与跨文化交际（Unit 1 Across the globe）」为基础。"
+  },
+  {
+    "topicId": "cne_188",
+    "prerequisiteId": "cne_164",
+    "strength": "soft",
+    "reason": "「期末模拟（选择性必修第三册册末卷）」的学习以「语言与词汇的力量（Unit 4 Words）」为基础。"
+  },
+  {
+    "topicId": "cne_189",
+    "prerequisiteId": "cne_165",
+    "strength": "soft",
+    "reason": "「期末模拟（选择性必修第四册册末卷）」的学习以「媒体与信息传播（Unit 1 The media and the message）」为基础。"
+  },
+  {
+    "topicId": "cne_189",
+    "prerequisiteId": "cne_168",
+    "strength": "soft",
+    "reason": "「期末模拟（选择性必修第四册册末卷）」的学习以「技术与未来（Unit 4 Technology）」为基础。"
   }
 ]

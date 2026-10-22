@@ -33,6 +33,7 @@ SUBJECTS = {"math", "english"}
 TYPES = {"conceptual", "procedural", "reasoning", "application", "modeling"}
 STRENGTHS = {"hard", "soft"}
 CONFIDENCES = {"exact", "inferred"}
+LEVELS = {"unit", "paper"}
 MAX_STANDARDS_PER_TOPIC = 3
 MAX_WARNINGS_LISTED = 30
 STD_DOMAIN_CODES = {"NA": "数与代数", "GG": "图形与几何", "SP": "统计与概率", "IP": "综合与实践"}
@@ -137,6 +138,13 @@ def check_topics(topics):
             err("%s diagnostic_question 必须含非空 question 与 answer" % where)
         if "root_reason" in t and not nonempty_str(t["root_reason"]):
             err("%s root_reason 为空" % where)
+        if "level" in t and t["level"] not in LEVELS:
+            err("%s level 取值非法：%r（只能是 unit 或 paper）" % (where, t["level"]))
+        if t.get("level") == "paper":
+            if subject != "english":
+                err("%s 册末卷（level: paper）只能出现在英语里" % where)
+            if "册末卷" not in t.get("chapter", ""):
+                err("%s 册末卷的 chapter 应含「册末卷」" % where)
     return ids
 
 
@@ -407,7 +415,7 @@ def report_standards(ids, std_items, cited, empty_core):
 Q_DIFFICULTIES = ("basic", "standard", "advanced")
 Q_TYPES = ("numeric", "choice", "short", "self")
 Q_FIELDS = {"id", "topicId", "difficulty", "type", "prompt", "answer", "choices", "accept",
-            "explanation", "verify", "unordered", "fixed_from_source"}
+            "explanation", "verify", "unordered", "fixed_from_source", "exact"}
 Q_ID_RE = re.compile(r"^((?:cnm|cne)_\d{3,})_q([1-9]\d*)$")
 NUM_RE = re.compile(r"^-?\d+(?:\.\d+)?(?:/\d+(?:\.\d+)?)?$")
 MIN_QUESTIONS_PER_TOPIC = 3
@@ -480,6 +488,8 @@ def question_errors(questions, topics_by_id, require_coverage=True):
                 errs.append("%s accept 必须是非空字符串数组" % w)
         if "verify" in q and not nonempty_str(q["verify"]):
             errs.append("%s verify 必须是非空字符串" % w)
+        if "exact" in q and not (q["exact"] is True and typ == "short"):
+            errs.append("%s exact 只能用于 short 题且取值为 true" % w)
         if "unordered" in q and not (q["unordered"] is True and typ == "numeric"):
             errs.append("%s unordered 只能用于 numeric 题且取值为 true" % w)
         if "fixed_from_source" in q and not nonempty_str(q["fixed_from_source"]):

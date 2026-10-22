@@ -285,7 +285,7 @@ function renderDetail(t) {
     parts.push(el("div", {class:"card"}, el("h2", {text:"同步练习与诊断"}),
       el("p", {text:"想检测是否掌握“" + t.name + "”？试试诊断小工具："}),
       el("a", {class:"tool-link", href:"diagnose/?target=" + t.id, text:"去做 4 题小测 →"}),
-      el("span", {class:"muted", text:"  每知识点4题配套题库，诊断后可回溯先修并查看辅导要点。"})
+      el("span", {class:"muted", text:"  配套题库每知识点 4 题起（Unit 越多题越多），诊断后可回溯先修并查看辅导要点。"})
     ));
   }
   parts.push(prereqCard(t), postCard(t));

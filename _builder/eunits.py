@@ -11,8 +11,10 @@
 补一条跨册同领域的 soft 边。id 按册次与 Unit 顺序编号为 cne_001、cne_002 ……
 """
 
+import eextra
+import epapers
 import estandards
-from ecommon import VOLUMES, VOLUME_ZH, eunit
+from ecommon import VOLUMES, VOLUME_ZH, eunit, epaper, eq, es
 
 import eu_high
 import eu_junior
@@ -178,8 +180,13 @@ def _pack(rec, num, prereqs, stds, root=False):
     tip = "先跟读本单元对话，再用 %s 造两个句子，最后完成 4 道练习。" % words[0][0]
 
     rows = _primary_questions(rec)
+    qs = _questions_from_tuples(rows)
+    if vol in ELEMENTARY_VOLUMES:
+        qs += eextra.primary_questions(vol, no)
+    else:
+        qs += eextra.junior_questions(vol, no)
     return eunit(num, vol, no, unit, theme, dom, DOMAIN_TYPE[dom], desc, mastery, ex,
-                 mistakes, tip, prereqs, stds, _questions_from_tuples(rows),
+                 mistakes, tip, prereqs, stds, qs,
                  std_prefix="ces-2022:",
                  root_reason=ROOT_REASON if root else None)
 
@@ -189,10 +196,26 @@ def _pack_high(rec, num, prereqs, root=False):
     book = VOLUME_ZH[vol]
     desc = rec["desc"]
     ex = rec["ex"]
+    qs = list(rec["qs"]) + eextra.high_questions(vol, no)
     return eunit(num, vol, no, unit, theme, dom, DOMAIN_TYPE[dom], desc, rec["mastery"], ex,
-                 rec["mistakes"], rec["tip"], prereqs, rec["stds"], list(rec["qs"]),
+                 rec["mistakes"], rec["tip"], prereqs, rec["stds"], qs,
                  std_prefix="chs-2017:",
                  root_reason=ROOT_REASON if root else None)
+
+
+def _paper_question(item):
+    """把 epapers 里的紧凑条目转成 eq()/es() 的题目结构。"""
+    kind, diff = item[0], item[1]
+    if kind == "c":
+        _, _, prompt, opts, idx, expl = item
+        keys = "ABC"[:len(opts)]
+        return eq(diff, prompt, list(zip(keys, opts)), keys[idx], expl)
+    _, _, prompt, answer, expl = item[:5]
+    accept = item[5] if len(item) > 5 else None
+    q = es(diff, prompt, answer, expl, accept)
+    if kind == "s":
+        q["exact"] = True
+    return q
 
 
 def build():
@@ -252,5 +275,24 @@ def build():
         else:
             pack = _pack_high(rec, i, prereqs, root)
         packs.append(pack)
+
+    # 册末卷：每册 1 个 level:"paper" 知识点，与本册首、末 Unit 各连一条 soft 边
+    next_num = len(records) + 1
+    for paper in epapers.PAPERS:
+        vol = paper["vol"]
+        units = ids_by_vol[vol]
+        stds = []
+        for tid in (units[0], units[-1]):
+            for s in next(p for p in packs if p["topic"]["id"] == tid)["topic"]["standards"]:
+                sid = s["id"].split(":", 1)[-1]
+                if sid not in stds:
+                    stds.append(sid)
+        prefix = "chs-2017:" if vol.startswith(("必修", "选必")) else "ces-2022:"
+        packs.append(epaper(
+            next_num, vol, paper["title"], paper["desc"], paper["mastery"], paper["tip"],
+            [_paper_question(it) for it in paper["items"]],
+            [(units[0], "soft"), (units[-1], "soft")], ",".join(stds[:3]),
+            paper["mistakes"], paper["ex"], std_prefix=prefix))
+        next_num += 1
 
     return packs, order

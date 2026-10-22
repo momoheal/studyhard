@@ -24259,5 +24259,1181 @@
       ],
       "coaching_tip": "技术类写作固定两面：efficiency（效率）与 risk（风险），各举一例。"
     }
+  },
+  {
+    "id": "cne_169",
+    "name": "期末模拟（三年级上册末卷）",
+    "domain": "读写",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上 册末卷 期末模拟",
+    "type": "application",
+    "description": "三年级上册册末 mini 卷：问候、家庭、教室、水果、房间物品、数字与四季，共 10 题。",
+    "mastery_criteria": [
+      "能认读三上 12 个 Unit 的核心词并完成简单的首字母、选词与翻译题",
+      "能用 Good morning. / How are you? / Are you ...? 完成日常问答"
+    ],
+    "diagnostic_question": {
+      "question": "“早上好！”的英文是（　）。",
+      "answer": "Good morning!"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "paper",
+    "book": "三年级上",
+    "standards": [
+      {
+        "id": "ces-2022:1.PU.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:1.DS.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:1.PH.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读三上 12 个 Unit 的核心词并完成简单的首字母、选词与翻译题",
+        "能用 Good morning. / How are you? / Are you ...? 完成日常问答"
+      ],
+      "worked_example": {
+        "problem": "选出与句子相符的单词：The apple is ______.",
+        "steps": [
+          "先看主语 apple 是水果",
+          "再看选项中表示“红”的词 red",
+          "blue 是蓝色，yellow 是黄色"
+        ],
+        "answer": "red"
+      },
+      "common_mistakes": [
+        "把 hello 与 goodbye 的使用场合弄反",
+        "名词复数忘记加 -s（four season → four seasons）"
+      ],
+      "coaching_tip": "先按册把 12 个 Unit 的单词表读一遍，再做这张 10 题 mini 卷，错题回到对应 Unit。"
+    }
+  },
+  {
+    "id": "cne_170",
+    "name": "期末模拟（三年级下册末卷）",
+    "domain": "读写",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下 册末卷 期末模拟",
+    "type": "application",
+    "description": "三年级下册册末 mini 卷：颜色、味道、动物、玩具、食物、爱好与节日，共 10 题。",
+    "mastery_criteria": [
+      "能听辨并写出三下各 Unit 的核心词",
+      "能用 What colour ...? / My hobby is ... 谈论颜色与爱好"
+    ],
+    "diagnostic_question": {
+      "question": "The sky is ______ on a fine day.",
+      "answer": "blue"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "paper",
+    "book": "三年级下",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.02",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:1.DS.02",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:1.DS.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能听辨并写出三下各 Unit 的核心词",
+        "能用 What colour ...? / My hobby is ... 谈论颜色与爱好"
+      ],
+      "worked_example": {
+        "problem": "选择：The lemon is ______.",
+        "steps": [
+          "柠檬的味道是酸的",
+          "sour 表示“酸的”",
+          "sweet 是甜"
+        ],
+        "answer": "sour"
+      },
+      "common_mistakes": [
+        "colour 与 colour 的拼写错误（如 colur）",
+        "like 后接动词 -ing 形式时漏写（I like swim）"
+      ],
+      "coaching_tip": "把颜色、味道、玩具三类词做成卡片，先分类再说句子，最后做卷。"
+    }
+  },
+  {
+    "id": "cne_171",
+    "name": "期末模拟（四年级上册末卷）",
+    "domain": "读写",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上 册末卷 期末模拟",
+    "type": "application",
+    "description": "四年级上册册末 mini 卷：能力、情绪、家庭成员、职业、学校场所、购物、形状与天气，共 10 题。",
+    "mastery_criteria": [
+      "能用 can 谈论能力，用 Do you have ...? 询问家庭成员",
+      "能描述职业、场所与天气，正确使用 there be 句型"
+    ],
+    "diagnostic_question": {
+      "question": "I can ______, but I cannot skate.",
+      "answer": "swim"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "paper",
+    "book": "四年级上",
+    "standards": [
+      {
+        "id": "ces-2022:1.PU.02",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:1.DS.02",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:1.DS.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能用 can 谈论能力，用 Do you have ...? 询问家庭成员",
+        "能描述职业、场所与天气，正确使用 there be 句型"
+      ],
+      "worked_example": {
+        "problem": "填空：There ______ a park near my home.",
+        "steps": [
+          "主语是 a park，单数",
+          "there be 就近原则用 is",
+          "复数才用 are"
+        ],
+        "answer": "is"
+      },
+      "common_mistakes": [
+        "can 后误加 to（can to swim）",
+        "there be 句型中 be 与后面的名词数不一致"
+      ],
+      "coaching_tip": "先用 can 造三句“我会/我不会”，再用 there be 描述自己家周边，最后做卷。"
+    }
+  },
+  {
+    "id": "cne_172",
+    "name": "期末模拟（四年级下册末卷）",
+    "domain": "读写",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下 册末卷 期末模拟",
+    "type": "application",
+    "description": "四年级下册册末 mini 卷：触觉、气味味道、视觉、学科、运动、乐器、作息、星期与节日，共 10 题。",
+    "mastery_criteria": [
+      "能用 It is soft/hard ... 描述触感，用 smell/taste 描述感官",
+      "能谈论学科、运动与一天的作息，正确使用一般现在时"
+    ],
+    "diagnostic_question": {
+      "question": "The glass is ______. Be careful!",
+      "answer": "smooth"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "paper",
+    "book": "四年级下",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.02",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:1.DS.02",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:1.DS.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能用 It is soft/hard ... 描述触感，用 smell/taste 描述感官",
+        "能谈论学科、运动与一天的作息，正确使用一般现在时"
+      ],
+      "worked_example": {
+        "problem": "改错：The flowers smells nice.",
+        "steps": [
+          "主语 The flowers 是复数",
+          "一般现在时动词用原形 smell",
+          "改为 The flowers smell nice."
+        ],
+        "answer": "smell"
+      },
+      "common_mistakes": [
+        "感官动词后误加 -s（The flowers smells nice）",
+        "乐器前漏掉 the（play piano）"
+      ],
+      "coaching_tip": "把感官动词（look/sound/smell/taste/feel）各造一句，再复习学科与运动词汇。"
+    }
+  },
+  {
+    "id": "cne_173",
+    "name": "期末模拟（五年级上册末卷）",
+    "domain": "读写",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上 册末卷 期末模拟",
+    "type": "application",
+    "description": "五年级上册册末 mini 卷：未来职业、上学方式、生日月份、祖辈、家庭生活、海滩、郊游与安全，共 10 题。",
+    "mastery_criteria": [
+      "能用 will / be going to 谈论未来，用现在进行时描述正在发生的事",
+      "能就交通方式、地点与安全给出简单说明"
+    ],
+    "diagnostic_question": {
+      "question": "I want to be a ______ and fly a plane.",
+      "answer": "pilot"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "paper",
+    "book": "五年级上",
+    "standards": [
+      {
+        "id": "ces-2022:2.PU.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:2.DS.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:2.PH.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能用 will / be going to 谈论未来，用现在进行时描述正在发生的事",
+        "能就交通方式、地点与安全给出简单说明"
+      ],
+      "worked_example": {
+        "problem": "填空：Look! My mother ______ (cook) dinner.",
+        "steps": [
+          "Look! 提示动作正在发生",
+          "现在进行时结构 be + doing",
+          "主语 my mother 是单数，用 is cooking"
+        ],
+        "answer": "is cooking"
+      },
+      "common_mistakes": [
+        "三单形式漏加 -s（He go to school by bus）",
+        "现在进行时漏掉 be 动词"
+      ],
+      "coaching_tip": "先复习交通工具与地点的词组，再用现在进行时描述一张家庭照片。"
+    }
+  },
+  {
+    "id": "cne_174",
+    "name": "期末模拟（五年级下册末卷）",
+    "domain": "读写",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下 册末卷 期末模拟",
+    "type": "application",
+    "description": "五年级下册册末 mini 卷：物主代词、房间、未来生活、阅读、周末、假期、购物、看病与节日，共 10 题。",
+    "mastery_criteria": [
+      "能正确使用物主代词 mine/yours/hers 与 be going to 结构",
+      "能用英语完成购物、看病等日常交际"
+    ],
+    "diagnostic_question": {
+      "question": "This kite is ______. That one is yours.",
+      "answer": "mine"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "paper",
+    "book": "五年级下",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.04",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:2.DS.03",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:2.PU.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能正确使用物主代词 mine/yours/hers 与 be going to 结构",
+        "能用英语完成购物、看病等日常交际"
+      ],
+      "worked_example": {
+        "problem": "选择：This ball is ______.",
+        "steps": [
+          "空格后没有名词，要用名词性物主代词",
+          "my 后必须跟名词",
+          "因此用 mine"
+        ],
+        "answer": "mine"
+      },
+      "common_mistakes": [
+        "把 mine 与 my 混用（This is my.）",
+        "be going to 后误接 -ing 形式"
+      ],
+      "coaching_tip": "把 my/mine、your/yours、her/hers 成对抄写，再练习购物对话。"
+    }
+  },
+  {
+    "id": "cne_175",
+    "name": "期末模拟（六年级上册末卷）",
+    "domain": "读写",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上 册末卷 期末模拟",
+    "type": "application",
+    "description": "六年级上册册末 mini 卷：成长变化、假期经历、健康习惯、邻居、濒危动物、网友、电影、博物馆与环保，共 10 题。",
+    "mastery_criteria": [
+      "能用一般过去时讲述假期经历",
+      "能就健康习惯与环境保护表达观点"
+    ],
+    "diagnostic_question": {
+      "question": "I am ______ up now. I am taller than last year.",
+      "answer": "growing"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "paper",
+    "book": "六年级上",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:2.DS.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:2.PU.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能用一般过去时讲述假期经历",
+        "能就健康习惯与环境保护表达观点"
+      ],
+      "worked_example": {
+        "problem": "改错：Last summer I goed to Hainan.",
+        "steps": [
+          "go 是不规则动词",
+          "过去式为 went",
+          "改为 Last summer I went to Hainan."
+        ],
+        "answer": "went"
+      },
+      "common_mistakes": [
+        "不规则动词过去式写错（goed / visitted）",
+        "pollution 与 pollute 词性混用"
+      ],
+      "coaching_tip": "把本册的不规则动词过去式列表读三遍，再用三句话讲自己的暑假。"
+    }
+  },
+  {
+    "id": "cne_176",
+    "name": "期末模拟（六年级下册末卷）",
+    "domain": "读写",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 册末卷 期末模拟",
+    "type": "application",
+    "description": "六年级下册册末 mini 卷：人际异同、生活变化、未来学校、艺术、手工、体育、助人、标志、废物利用与节日，共 10 题。",
+    "mastery_criteria": [
+      "能用 both/similar/different 比较人与事",
+      "能读懂并说明公共标志的含义"
+    ],
+    "diagnostic_question": {
+      "question": "Jill and I are ______ good at English.",
+      "answer": "both"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "paper",
+    "book": "六年级下",
+    "standards": [
+      {
+        "id": "ces-2022:2.PU.02",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:2.DS.03",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:2.DS.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能用 both/similar/different 比较人与事",
+        "能读懂并说明公共标志的含义"
+      ],
+      "worked_example": {
+        "problem": "选择：We ______ good at English.",
+        "steps": [
+          "both 放在 be 动词之后",
+          "主语 we 用 are",
+          "We are both good at English."
+        ],
+        "answer": "are both"
+      },
+      "common_mistakes": [
+        "both 与 all 混用（两个人用 both）",
+        "mean 与 meaning 词性混用"
+      ],
+      "coaching_tip": "复习本册标志类词汇，用英语说五条校园规则，再做卷。"
+    }
+  },
+  {
+    "id": "cne_177",
+    "name": "期末模拟（七年级上册末卷）",
+    "domain": "读写",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上 册末卷 期末模拟",
+    "type": "application",
+    "description": "七年级上册册末 mini 卷：交友、日常作息、地球、季节、太空、亚洲旅行、社团与收藏，共 10 题。",
+    "mastery_criteria": [
+      "能用一般现在时描述日常习惯，正确使用频率副词",
+      "能谈论天气、旅行与兴趣爱好，写 3—5 句连贯短文"
+    ],
+    "diagnostic_question": {
+      "question": "My ______ are reading and swimming.",
+      "answer": "hobbies"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "paper",
+    "book": "七年级上",
+    "standards": [
+      {
+        "id": "ces-2022:3.PU.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:3.DS.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:3.PH.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能用一般现在时描述日常习惯，正确使用频率副词",
+        "能谈论天气、旅行与兴趣爱好，写 3—5 句连贯短文"
+      ],
+      "worked_example": {
+        "problem": "改错：He usually go to school by bus.",
+        "steps": [
+          "主语 He 是第三人称单数",
+          "一般现在时动词加 -s",
+          "改为 He usually goes to school by bus."
+        ],
+        "answer": "goes"
+      },
+      "common_mistakes": [
+        "第三人称单数漏加 -s",
+        "频率副词位置放错（I usually am late）"
+      ],
+      "coaching_tip": "用 usually/seldom/always 各写一句自己的作息，再完成整卷。"
+    }
+  },
+  {
+    "id": "cne_178",
+    "name": "期末模拟（七年级下册末卷）",
+    "domain": "读写",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下 册末卷 期末模拟",
+    "type": "application",
+    "description": "七年级下册册末 mini 卷：人物描述、世界旅行、动物、树木、水、电、诗歌与职业，共 10 题。",
+    "mastery_criteria": [
+      "能描述人物外貌与性格，使用情态动词 should 提建议",
+      "能用被动语态说明环保措施"
+    ],
+    "diagnostic_question": {
+      "question": "Our neighbour is a ______ teacher. She never gets angry.",
+      "answer": "patient"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "paper",
+    "book": "七年级下",
+    "standards": [
+      {
+        "id": "ces-2022:3.DS.02",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:3.PU.02",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:3.GR.09",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能描述人物外貌与性格，使用情态动词 should 提建议",
+        "能用被动语态说明环保措施"
+      ],
+      "worked_example": {
+        "problem": "改错：We should to save water.",
+        "steps": [
+          "should 是情态动词",
+          "后接动词原形，不加 to",
+          "改为 We should save water."
+        ],
+        "answer": "save"
+      },
+      "common_mistakes": [
+        "形容词与名词混用（She is patience.）",
+        "should 后误加 -s 或 to"
+      ],
+      "coaching_tip": "把本册的环保话题词（water, trees, electricity）各写一条建议句。"
+    }
+  },
+  {
+    "id": "cne_179",
+    "name": "期末模拟（八年级上册末卷）",
+    "domain": "读写",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上 册末卷 期末模拟",
+    "type": "application",
+    "description": "八年级上册册末 mini 卷：百科全书、数字、电脑、发明、教育交流、古代故事、记忆与英语周，共 10 题。",
+    "mastery_criteria": [
+      "能用被动语态描述发明与发现",
+      "能说明查找资料与提高记忆的方法"
+    ],
+    "diagnostic_question": {
+      "question": "An encyclopaedia is full of ______.",
+      "answer": "knowledge"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "paper",
+    "book": "八年级上",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.04",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:3.DS.04",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:3.PU.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能用被动语态描述发明与发现",
+        "能说明查找资料与提高记忆的方法"
+      ],
+      "worked_example": {
+        "problem": "改错：The telephone invented by Bell.",
+        "steps": [
+          "电话是“被发明”的",
+          "被动语态 be + 过去分词",
+          "改为 The telephone was invented by Bell."
+        ],
+        "answer": "was invented"
+      },
+      "common_mistakes": [
+        "被动语态漏掉 be 动词（It invented by Bell.）",
+        "knowledge 误作可数名词加 -s"
+      ],
+      "coaching_tip": "把本册出现的被动语态句子抄 5 句，标出 be 动词与过去分词。"
+    }
+  },
+  {
+    "id": "cne_180",
+    "name": "期末模拟（八年级下册末卷）",
+    "domain": "读写",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下 册末卷 期末模拟",
+    "type": "application",
+    "description": "八年级下册册末 mini 卷：公益助人、肢体语言、传统技艺、卡通、濒危动物、宠物与未知世界，共 10 题。",
+    "mastery_criteria": [
+      "能用被动语态与不定式表达目的",
+      "能就动物保护与传统文化表达看法"
+    ],
+    "diagnostic_question": {
+      "question": "You can ______ old books and clothes to poor children.",
+      "answer": "donate"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "paper",
+    "book": "八年级下",
+    "standards": [
+      {
+        "id": "ces-2022:3.PU.04",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:3.DS.04",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:3.VO.04",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能用被动语态与不定式表达目的",
+        "能就动物保护与传统文化表达看法"
+      ],
+      "worked_example": {
+        "problem": "选择：We must ______ endangered animals.",
+        "steps": [
+          "must 后接动词原形",
+          "protect 是动词",
+          "protection 是名词"
+        ],
+        "answer": "protect"
+      },
+      "common_mistakes": [
+        "gesture 与 guess 混淆",
+        "protect 与 protection 词性混用"
+      ],
+      "coaching_tip": "围绕“help animals”写三句：问题—原因—做法，再完成整卷。"
+    }
+  },
+  {
+    "id": "cne_181",
+    "name": "期末模拟（九年级上册末卷）",
+    "domain": "读写",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上 册末卷 期末模拟",
+    "type": "application",
+    "description": "九年级上册册末 mini 卷：历史智者、伟大头脑、家庭生活、问题与建议、志愿行动、健康饮食与小说阅读，共 10 题。",
+    "mastery_criteria": [
+      "能用宾语从句与被动语态表达观点",
+      "能就健康、家庭与阅读给出建议"
+    ],
+    "diagnostic_question": {
+      "question": "Confucius was a great thinker in ______ China.",
+      "answer": "ancient"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "paper",
+    "book": "九年级上",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:3.DS.04",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:3.VO.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能用宾语从句与被动语态表达观点",
+        "能就健康、家庭与阅读给出建议"
+      ],
+      "worked_example": {
+        "problem": "改错：I don't know where is he.",
+        "steps": [
+          "宾语从句要用陈述语序",
+          "主语 he 在 be 动词前",
+          "改为 I don't know where he is."
+        ],
+        "answer": "where he is"
+      },
+      "common_mistakes": [
+        "advice 与 advise 混用（advice 是名词）",
+        "宾语从句用疑问语序（I don't know where is he）"
+      ],
+      "coaching_tip": "把本册的 suggestion/advice 句型各写两句，注意 advice 不可数。"
+    }
+  },
+  {
+    "id": "cne_182",
+    "name": "期末模拟（九年级下册末卷）",
+    "domain": "读写",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下 册末卷 期末模拟",
+    "type": "application",
+    "description": "九年级下册册末 mini 卷：伟大探索、文化冲击、环境问题、自然灾害、体育与健康，共 10 题。",
+    "mastery_criteria": [
+      "能用被动语态与条件句说明环境与灾害问题",
+      "能就健康与压力给出建议"
+    ],
+    "diagnostic_question": {
+      "question": "Zheng He ______ to many countries seven times.",
+      "answer": "sailed"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "paper",
+    "book": "九年级下",
+    "standards": [
+      {
+        "id": "ces-2022:3.DS.02",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:3.PU.02",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:3.VO.04",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能用被动语态与条件句说明环境与灾害问题",
+        "能就健康与压力给出建议"
+      ],
+      "worked_example": {
+        "problem": "选择：It took me months to ______ to the new life.",
+        "steps": [
+          "adapt to 意为“适应”",
+          "adopt 意为“采用/收养”",
+          "因此选 adapt"
+        ],
+        "answer": "adapt"
+      },
+      "common_mistakes": [
+        "adapt 与 adopt 混用",
+        "during 与 for 表时间时混用"
+      ],
+      "coaching_tip": "用“problem—cause—action”三段式写一段环保短文，再完成整卷。"
+    }
+  },
+  {
+    "id": "cne_183",
+    "name": "期末模拟（必修第一册册末卷）",
+    "domain": "读写",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 册末卷 期末模拟",
+    "type": "application",
+    "description": "必修第一册册末 mini 卷：世界与文化、地点描写、选择与成长、个人空间，共 10 题，以定语从句与非谓语为重点。",
+    "mastery_criteria": [
+      "能在语篇中正确使用定语从句的关系词",
+      "能写 60 词左右的短文介绍一个地方"
+    ],
+    "diagnostic_question": {
+      "question": "The town ______ I grew up has changed a lot.",
+      "answer": "where"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "paper",
+    "book": "必修第一册",
+    "standards": [
+      {
+        "id": "chs-2017:1.VO.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "chs-2017:1.PH.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "chs-2017:1.DS.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能在语篇中正确使用定语从句的关系词",
+        "能写 60 词左右的短文介绍一个地方"
+      ],
+      "worked_example": {
+        "problem": "选择：The town ______ I grew up has changed a lot.",
+        "steps": [
+          "先行词 the town 表地点",
+          "从句 I grew up 不缺主语宾语",
+          "用关系副词 where"
+        ],
+        "answer": "where"
+      },
+      "common_mistakes": [
+        "关系代词 that 用于非限制性定语从句",
+        "介词后误用 that（in that / of that）"
+      ],
+      "coaching_tip": "把 where/when/why 与 which/that 的分工列表背一遍，再做卷。"
+    }
+  },
+  {
+    "id": "cne_184",
+    "name": "期末模拟（必修第二册册末卷）",
+    "domain": "读写",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "必修第二册 册末卷 期末模拟",
+    "type": "application",
+    "description": "必修第二册册末 mini 卷：突破极限、教育之路、进步与成就，共 10 题，以非谓语动词与被动语态为重点。",
+    "mastery_criteria": [
+      "能区分不定式、动名词与分词的功能",
+      "能用被动语态描述科技与成就"
+    ],
+    "diagnostic_question": {
+      "question": "______ by his teacher, he worked harder than before.",
+      "answer": "Encouraged"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "paper",
+    "book": "必修第二册",
+    "standards": [
+      {
+        "id": "chs-2017:1.GR.04",
+        "confidence": "exact"
+      },
+      {
+        "id": "chs-2017:1.DS.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "chs-2017:1.GR.05",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能区分不定式、动名词与分词的功能",
+        "能用被动语态描述科技与成就"
+      ],
+      "worked_example": {
+        "problem": "选择：______ by his teacher, he worked harder.",
+        "steps": [
+          "he 与 encourage 是被动关系",
+          "用过去分词作状语",
+          "Encouraged by his teacher, he worked harder."
+        ],
+        "answer": "Encouraged"
+      },
+      "common_mistakes": [
+        "demand 后 to do 与 doing 混用",
+        "分词作状语时逻辑主语与主句不一致"
+      ],
+      "coaching_tip": "每遇到一个非谓语空，先判断它与逻辑主语是主动还是被动。"
+    }
+  },
+  {
+    "id": "cne_185",
+    "name": "期末模拟（必修第三册册末卷）",
+    "domain": "读写",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第三册 册末卷 期末模拟",
+    "type": "application",
+    "description": "必修第三册册末 mini 卷：媒体素养、身边事物、行为方式与旅行故事，共 10 题，以名词性从句与情态动词为重点。",
+    "mastery_criteria": [
+      "能正确选用名词性从句的连接词",
+      "能用量词与情态动词表达判断与建议"
+    ],
+    "diagnostic_question": {
+      "question": "______ surprises me most is the simple design.",
+      "answer": "What"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "paper",
+    "book": "必修第三册",
+    "standards": [
+      {
+        "id": "chs-2017:1.VO.02",
+        "confidence": "exact"
+      },
+      {
+        "id": "chs-2017:1.DS.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "chs-2017:1.DS.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能正确选用名词性从句的连接词",
+        "能用量词与情态动词表达判断与建议"
+      ],
+      "worked_example": {
+        "problem": "选择：______ surprises me most is the design.",
+        "steps": [
+          "从句缺主语，指“事物”",
+          "用连接代词 what",
+          "that 不作成分"
+        ],
+        "answer": "What"
+      },
+      "common_mistakes": [
+        "名词性从句用 that 还是 what 判断错",
+        "whether 与 if 在主语从句中混用"
+      ],
+      "coaching_tip": "判断名词性从句：先看从句缺不缺成分，再选连接词。"
+    }
+  },
+  {
+    "id": "cne_186",
+    "name": "期末模拟（选择性必修第一册册末卷）",
+    "domain": "读写",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "选择性必修第一册 册末卷 期末模拟",
+    "type": "application",
+    "description": "选择性必修第一册册末 mini 卷：情绪健康、产生影响、环境代价与感官描写，共 10 题。",
+    "mastery_criteria": [
+      "能围绕心理健康与环境保护写议论文段落",
+      "能辨析情绪类形容词与名词"
+    ],
+    "diagnostic_question": {
+      "question": "Before the exam I felt ______ and could not sleep.",
+      "answer": "anxious"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "paper",
+    "book": "选择性必修第一册",
+    "standards": [
+      {
+        "id": "chs-2017:2.VO.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "chs-2017:2.PU.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "chs-2017:2.VO.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能围绕心理健康与环境保护写议论文段落",
+        "能辨析情绪类形容词与名词"
+      ],
+      "worked_example": {
+        "problem": "选择：I ______ the river for two hours.",
+        "steps": [
+          "强调持续到现在",
+          "用现在完成进行时",
+          "have been testing"
+        ],
+        "answer": "have been testing"
+      },
+      "common_mistakes": [
+        "anxious 与 anxiety 词性混用",
+        "现在完成进行时与现在完成时混用"
+      ],
+      "coaching_tip": "把情绪词按 -ed/-ing 与名词形式做成表格，再练习完成时态。"
+    }
+  },
+  {
+    "id": "cne_187",
+    "name": "期末模拟（选择性必修第二册册末卷）",
+    "domain": "读写",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选择性必修第二册 册末卷 期末模拟",
+    "type": "application",
+    "description": "选择性必修第二册册末 mini 卷：决策、数字人、创造力与灵感，共 10 题，以强调句与长难句为重点。",
+    "mastery_criteria": [
+      "能识别并改写强调句与倒装句",
+      "能分析含多个从句的长难句"
+    ],
+    "diagnostic_question": {
+      "question": "It was my grandfather ______ taught me how to decide.",
+      "answer": "who"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "paper",
+    "book": "选择性必修第二册",
+    "standards": [
+      {
+        "id": "chs-2017:2.GR.02",
+        "confidence": "exact"
+      },
+      {
+        "id": "chs-2017:2.DS.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "chs-2017:2.DS.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能识别并改写强调句与倒装句",
+        "能分析含多个从句的长难句"
+      ],
+      "worked_example": {
+        "problem": "选择：It was my father ______ taught me to decide.",
+        "steps": [
+          "强调人",
+          "强调句连接词用 who/that",
+          "which 不用于强调人"
+        ],
+        "answer": "who"
+      },
+      "common_mistakes": [
+        "强调句与定语从句混淆",
+        "It is ... that 中 that 误换成 which 指人"
+      ],
+      "coaching_tip": "把每个强调句还原成普通句，判断 it is ... that 是否可去掉。"
+    }
+  },
+  {
+    "id": "cne_188",
+    "name": "期末模拟（选择性必修第三册册末卷）",
+    "domain": "读写",
+    "grade": 12,
+    "semester": "下",
+    "chapter": "选择性必修第三册 册末卷 期末模拟",
+    "type": "application",
+    "description": "选择性必修第三册册末 mini 卷：全球议题、重要之事、身心关系与语言的力量，共 10 题，以倒装与词汇辨析为重点。",
+    "mastery_criteria": [
+      "能使用倒装结构强调，辨析近义词的语域差异",
+      "能讨论跨文化理解与身心健康话题"
+    ],
+    "diagnostic_question": {
+      "question": "Tolerance is a sign of ______.",
+      "answer": "confidence"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "paper",
+    "book": "选择性必修第三册",
+    "standards": [
+      {
+        "id": "chs-2017:2.PU.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "chs-2017:2.DS.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "chs-2017:2.VO.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能使用倒装结构强调，辨析近义词的语域差异",
+        "能讨论跨文化理解与身心健康话题"
+      ],
+      "worked_example": {
+        "problem": "选择：Hardly ______ she finished reading when tears came.",
+        "steps": [
+          "hardly 置于句首用部分倒装",
+          "had + 过去分词",
+          "Hardly had she finished ..."
+        ],
+        "answer": "had"
+      },
+      "common_mistakes": [
+        "Hardly ... when 从句时态用错",
+        "confident 与 confidence 词性混用"
+      ],
+      "coaching_tip": "背三组倒装：Never/Only/Hardly 开头的句子，先写助动词再写主语。"
+    }
+  },
+  {
+    "id": "cne_189",
+    "name": "期末模拟（选择性必修第四册册末卷）",
+    "domain": "读写",
+    "grade": 12,
+    "semester": "下",
+    "chapter": "选择性必修第四册 册末卷 期末模拟",
+    "type": "application",
+    "description": "选择性必修第四册册末 mini 卷：媒体与信息、健康长寿、食物伦理与科技，共 10 题，以复杂句式与观点表达为重点。",
+    "mastery_criteria": [
+      "能读懂议论文并概括作者观点",
+      "能就科技与伦理话题表达并支撑自己的看法"
+    ],
+    "diagnostic_question": {
+      "question": "A good headline catches the eye, but an ______ report gives the facts.",
+      "answer": "objective"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "paper",
+    "book": "选择性必修第四册",
+    "standards": [
+      {
+        "id": "chs-2017:2.DS.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "chs-2017:2.PU.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "chs-2017:2.DS.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能读懂议论文并概括作者观点",
+        "能就科技与伦理话题表达并支撑自己的看法"
+      ],
+      "worked_example": {
+        "problem": "选择：______ the message is clear or hidden, readers need to think.",
+        "steps": [
+          "句首引导让步状语从句",
+          "whether ... or ... 结构",
+          "用 Whether"
+        ],
+        "answer": "Whether"
+      },
+      "common_mistakes": [
+        "objective 与 objectivity 词性混用",
+        "whether 与 if 在主语从句中混用"
+      ],
+      "coaching_tip": "读一篇英文社论，用一句话写出作者观点与两个理由。"
+    }
   }
 ]

@@ -801,6 +801,10 @@ test('章节解析：英语 Unit 级（义教与高中）', () => {
     { volume: '必修第一册', chapterNo: 'Unit 2', chapterName: 'Places', section: '' });
   assert.deepStrictEqual(E.parseChapter('选择性必修第四册 Unit 2 Live longer, live better?'),
     { volume: '选择性必修第四册', chapterNo: 'Unit 2', chapterName: 'Live longer, live better?', section: '' });
+  assert.deepStrictEqual(E.parseChapter('三年级上 册末卷 期末模拟'),
+    { volume: '三年级上', chapterNo: '册末卷', chapterName: '期末模拟', section: '' });
+  assert.deepStrictEqual(E.parseChapter('选择性必修第三册 册末卷 期末模拟'),
+    { volume: '选择性必修第三册', chapterNo: '册末卷', chapterName: '期末模拟', section: '' });
 });
 
 test('真实数据：章节名可解析', () => {
@@ -837,15 +841,65 @@ test('题库：每个正式知识点至少 3 题；id 唯一且格式正确；�
   });
 });
 
-test('题库：type / difficulty 合法；必填字段非空；numeric + choice 占 60% 以上', () => {
+test('题库：type / difficulty 合法；必填字段非空；可自动判分题占 60% 以上', () => {
+  // 可自动判分 = numeric / choice，以及标了 exact 的 short（答案唯一，判错即错）
   let auto = 0;
   questions.forEach((q) => {
     assert.ok(['numeric', 'choice', 'short', 'self'].includes(q.type), q.id);
     assert.ok(['basic', 'standard', 'advanced'].includes(q.difficulty), q.id);
     ['prompt', 'answer', 'explanation'].forEach((f) => assert.ok(typeof q[f] === 'string' && q[f].trim(), q.id + ' ' + f));
-    if (q.type === 'numeric' || q.type === 'choice') auto++;
+    if (q.exact !== undefined) assert.strictEqual(q.type, 'short', q.id + ' exact 只用于 short');
+    if (q.type === 'numeric' || q.type === 'choice' || q.exact === true) auto++;
   });
-  assert.ok(auto / questions.length >= 0.6, 'numeric+choice 占比 ' + (auto / questions.length));
+  assert.ok(auto / questions.length >= 0.6, '可自动判分占比 ' + (auto / questions.length));
+});
+
+test('判题：exact 的填空题对不上即判错，普通 short 题留给自评', () => {
+  const strict = { type: 'short', answer: 'was raining', accept: ['rained'], exact: true, prompt: 'p', explanation: 'e' };
+  assert.strictEqual(E.judgeQuestion(strict, 'was raining').verdict, 'correct');
+  assert.strictEqual(E.judgeQuestion(strict, 'rained').verdict, 'correct');
+  assert.strictEqual(E.judgeQuestion(strict, 'rains').verdict, 'wrong');
+  const loose = Object.assign({}, strict);
+  delete loose.exact;
+  assert.strictEqual(E.judgeQuestion(loose, 'rains').verdict, 'manual');
+  assert.strictEqual(E.judgeQuestion(loose, 'was raining').verdict, 'correct');
+});
+
+test('册末卷：每册 1 套、每套 10 题，只与册首与册末 Unit 以 soft 边相连', () => {
+  const papers = topics.filter((t) => t.level === 'paper');
+  assert.strictEqual(papers.length, 21);
+  const byVol = {};
+  papers.forEach((p) => {
+    const vol = p.chapter.split(' ')[0];
+    assert.ok(!byVol[vol], '同一册出现多套册末卷：' + vol);
+    byVol[vol] = p;
+    assert.ok(p.chapter.includes('册末卷'), p.id);
+    assert.strictEqual(qByTopic[p.id].length, 10, p.id);
+  });
+  papers.forEach((p) => {
+    const vol = p.chapter.split(' ')[0];
+    const mine = deps.filter((d) => d.topicId === p.id);
+    assert.strictEqual(mine.length, 2, p.id + ' 应只有 2 条先修边');
+    const units = topics.filter((t) => (t.chapter || '').startsWith(vol + ' Unit '));
+    const first = units[0].id;
+    const last = units[units.length - 1].id;
+    mine.forEach((d) => {
+      assert.strictEqual(d.strength, 'soft', p.id);
+      assert.ok(d.prerequisiteId === first || d.prerequisiteId === last, p.id + ' 连到了非首末 Unit');
+    });
+  });
+});
+
+test('题库：多空语篇被拆成逐空 short 题（题干带全篇、答案唯一、可精确判分）', () => {
+  const blanks = questions.filter((q) => q.exact === true && q.prompt.includes('___1___'));
+  assert.ok(blanks.length > 500, '逐空题只有 ' + blanks.length + ' 道');
+  blanks.forEach((q) => {
+    assert.ok(q.type === 'short', q.id);
+    assert.ok(q.prompt.includes('空）'), q.id);
+    assert.ok(!/\n\s*$/.test(q.answer), q.id);
+    assert.strictEqual(E.judgeQuestion(q, q.answer).verdict, 'correct', q.id);
+    assert.strictEqual(E.judgeQuestion(q, q.answer + 'zzz').verdict, 'wrong', q.id);
+  });
 });
 
 test('题库：choice 题有 3–4 个选项、key 不重复、answer 是某个选项的 key', () => {

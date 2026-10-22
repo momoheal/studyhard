@@ -1,5 +1,31 @@
 # Changelog
 
+## 2026-10-22 — 英语习题扩充：每点 +2 组练习、每册 +1 套册末 mini 卷（1956 → 3320 题）
+
+在上一版「Unit 级知识点 + 每点 4 题」的基础上，为英语补足练习量：每个 Unit 再加两组手写题型，每册加一套 10 题的册末 mini 卷。题目全部按教材话题自写，未引用现成教辅原题。
+
+### 新增
+
+- **小学（96 个 Unit）**：每点追加「首字母填空短文（4—5 空）」+「连词成句」1 句，短文按单元话题自写，每空成题。
+- **初中（44 个 Unit）**：每点追加「语篇语法填空（6 空）」+「情景问答」1 题；填空覆盖一般现在时、被动语态、词形变化、宾语从句等本册语法重点。
+- **高中（28 个 Unit）**：每点追加「语篇语法填空（10 空）」+「中译英 3 句」；语法填空覆盖定语从句、名词性从句、非谓语、强调句、倒装与虚拟等。
+- **册末 mini 卷 21 套**（`cne_169`–`cne_189`，每册 1 套）：`level: "paper"`，`chapter` 形如「三年级上 册末卷 期末模拟」，每套 10 题（8 选择 + 2 短答），按该册各 Unit 的核心词与语法点自写；只与本册首、末 Unit 各连一条 **soft** 边，不进入常规单点路径。
+- **逐空拆题**：一篇短文的每个空各自成一道 `short` 题（题干带全篇短文与本题提示，解析给出全篇答案），并标 `exact: true`（答案唯一，判题器对不上即判错），使 951 道填空题可由机器精确判分。
+- **文档生成脚本** `scripts/gen_english_doc.py`：由 `data/topics.json` 重新生成 `docs/english-chapters.md`（现含 21 册逐 Unit 清单 + 册末卷）。
+
+### 变更
+
+- **`diagnose/engine.js`**：`judgeShort` 支持 `q.exact`——答案唯一时返回 `wrong` 而不是 `manual`；`parseChapter` 新增「册 + 册末卷 + 卷名」分支（`三年级上 册末卷 期末模拟`）。
+- **`scripts/validate.py`**：题库字段允许 `exact`（仅 `short` 且为 `true`）；知识点允许 `level: "paper"`（仅英语、`chapter` 必须含「册末卷」）。
+- **`tests/test_engine.js`**：「可自动判分占比」口径改为 numeric + choice + exact-short（现为 81.8%）；新增「exact 判题」「册末卷结构与 soft 边」「多空语篇逐空成题」三组用例（72 项）。
+- **`_builder/`**：新增 `ex_primary.py`、`ex_junior.py`、`ex_high.py`（三学段扩充素材）、`eextra.py`（装配器）、`epapers.py`（21 套册末卷素材）；`ecommon.py` 增加 `epaper()` 与题目 `exact` 透传；`eunits.py` 接入扩充题与册末卷。
+- **前端**：`index.html` 题库说明改为「每知识点 4 题起」；`diagnose/app.js` 在册末卷知识点名前加「〔卷〕」标记。
+- **文档**：README、`docs/questions.md`、`docs/standards-mapping.md`、`docs/english-chapters.md` 统计与题型说明同步。
+
+### 校验
+
+`python3 _builder/build_english.py` → 189 个英语知识点（168 Unit + 21 套卷）/ 310 条英语边 / 2036 题；`python3 scripts/validate.py` → `VALIDATION PASSED`（522 节点、正式 510、670 条边、195 条课标、3320 题、可自动判分 100%）；`python3 scripts/verify_questions.py` → `VERIFICATION PASSED`（auto_verified 917，mismatch 0，unverifiable 2403）；`node tests/test_engine.js` → 72 passed, 0 failed。
+
 ## 2026-10-22 — 英语细化到教材 Unit 级（63 → 168 个知识点）并补齐高中 7 册
 
 把英语从「册 × 领域」的 63 个模块级知识点，重建为**教材 Unit 级**图谱，并新增**高中英语**（必修第一至第三册、选择性必修第一至第四册）。

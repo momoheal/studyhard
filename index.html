@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>沪教版中小学数学知识图谱（1-9年级·五四学制）· 辅导版</title>
+<title>沪教版中小学知识图谱（数学 1-9 年级 · 英语 3-9 年级）· 辅导版</title>
 <style>
   :root { --bg:#f6f7f9; --panel:#fff; --line:#e1e4e8; --text:#1f2933; --muted:#6b7785; --accent:#2563eb;
           --hard:#c2410c; --soft:#6b7785; --ext:#7c3aed; }
@@ -20,6 +20,9 @@
   #filters { padding:10px 12px; border-bottom:1px solid var(--line); display:grid; gap:6px; }
   #filters input, #filters select { width:100%; padding:6px 8px; border:1px solid var(--line); border-radius:6px; font:inherit; background:#fff; }
   #filters .row { display:grid; grid-template-columns:1fr 1fr; gap:6px; }
+  #subjTabs { display:flex; gap:6px; }
+  #subjTabs button { flex:1; border:1px solid var(--line); background:#fff; border-radius:6px; padding:4px 0; font:inherit; cursor:pointer; }
+  #subjTabs button.on { background:var(--accent); border-color:var(--accent); color:#fff; }
   #filters label.chk { font-size:12px; color:var(--muted); display:flex; align-items:center; gap:4px; white-space:nowrap; }
   #filters label.chk input { width:auto; }
   #count { font-size:12px; color:var(--muted); }
@@ -68,16 +71,20 @@
 </head>
 <body>
 <header>
-  <h1>沪教版中小学数学知识图谱（1-9年级·五四学制）</h1>
-  <span class="note">AI 生成的初稿，未经教师审核；严格对齐沪教版课本目录（小学一上/一下为2024审定版、其余为现行教材；初中六至九年级为现行教材），先修关系与辅导内容需一线教师审核。</span>
+  <h1>沪教版中小学知识图谱（数学 1-9 年级 · 英语 3-9 年级）</h1>
+  <span class="note">AI 生成的初稿，未经教师审核。数学对齐沪教版课本目录（小学一上/一下为 2024 审定版，其余为现行教材）；英语对齐沪教版三起点教材、依据《义务教育英语课程标准（2022 年版）》（教材 2024 年审定）。先修关系与辅导内容需一线教师审核。</span>
   <a class="tool-link" href="diagnose/">诊断小工具 →</a>
 </header>
 <div id="app">
   <aside id="side">
     <div id="filters">
+      <div id="subjTabs">
+        <button type="button" data-subj="math" class="on">数学</button>
+        <button type="button" data-subj="english">英语</button>
+      </div>
       <input id="q" type="search" placeholder="搜索知识点名称、描述、章节…" autocomplete="off">
       <div class="row">
-        <select id="fDomain"><option value="">全部学科</option></select>
+        <select id="fDomain"><option value="">全部领域</option></select>
         <select id="fGrade">
           <option value="">全部年级</option>
           <option value="1上">一年级上</option><option value="1下">一年级下</option>
@@ -118,6 +125,9 @@ const el = (tag, attrs, ...kids) => {
 };
 
 let topics = [], deps = [], byId = new Map(), pre = new Map(), post = new Map(), selected = null;
+let subject = "math";
+const subjectOf = t => t.subject || "math";
+const topicsOfSubject = s => topics.filter(t => subjectOf(t) === s);
 
 function gradeKey(t) { return t.external ? "学前" : GRADE_ZH[t.grade] + "年级" + t.semester; }
 
@@ -143,20 +153,60 @@ async function load() {
   for (const m of [pre, post]) for (const arr of m.values())
     arr.sort((x, y) => (x.strength === y.strength ? 0 : x.strength === "hard" ? -1 : 1) || x.id.localeCompare(y.id));
 
-  const doms = [...new Set(topics.map(t => t.domain))];
-  for (const d of doms) $("#fDomain").append(el("option", {value:d, text:d}));
-  for (const [k, v] of Object.entries(TYPE_ZH)) $("#fType").append(el("option", {value:k, text:v}));
+  rebuildSelects();
+  for (const [k, v] of Object.entries(TYPE_ZH)) {
+    if (topics.some(t => t.type === k)) $("#fType").append(el("option", {value:k, text:v}));
+  }
+  for (const btn of document.querySelectorAll("#subjTabs button")) {
+    btn.addEventListener("click", () => switchSubject(btn.dataset.subj, true));
+  }
   for (const id of ["q", "fDomain", "fGrade", "fType", "fExt"]) $("#" + id).addEventListener("input", renderList);
-  window.addEventListener("hashchange", () => select(location.hash.slice(1), false));
+  window.addEventListener("hashchange", () => {
+    const id = location.hash.slice(1);
+    if (byId.has(id) && subjectOf(byId.get(id)) !== subject) switchSubject(subjectOf(byId.get(id)), false);
+    select(id, false);
+  });
+  const startId = location.hash.slice(1);
+  if (byId.has(startId) && subjectOf(byId.get(startId)) !== subject) switchSubject(subjectOf(byId.get(startId)), false);
   renderList();
-  if (byId.has(location.hash.slice(1))) select(location.hash.slice(1), true);
-  else $("#main").replaceChildren(el("div", {class:"empty", text:"← 请从左侧选择一个知识点。共 " + topics.filter(t => !t.external).length + " 个知识点、" + deps.length + " 条先修边。"}));
+  if (byId.has(startId)) select(startId, true);
+  else $("#main").replaceChildren(el("div", {class:"empty", text:"← 请从左侧选择一个知识点。数学 " +
+    topicsOfSubject("math").filter(t => !t.external).length + " 个知识点；英语 " +
+    topicsOfSubject("english").filter(t => !t.external).length + " 个知识点；共 " + deps.length + " 条先修边。"}));
+}
+
+function switchSubject(s, resetHash) {
+  if (subject === s) return;
+  subject = s;
+  for (const b of document.querySelectorAll("#subjTabs button")) b.classList.toggle("on", b.dataset.subj === s);
+  if (resetHash) { $("#q").value = ""; selected = null; }
+  rebuildSelects(); renderList();
+  if (resetHash) {
+    $("#main").replaceChildren(el("div", {class:"empty", text:"← 请从左侧选择一个知识点。当前「" +
+      (s === "english" ? "英语" : "数学") + "」共 " + topicsOfSubject(s).filter(t => !t.external).length +
+      " 个正式知识点。"}));
+    if (location.hash) history.replaceState(null, "", location.pathname + location.search);
+  }
+}
+
+function rebuildSelects() {
+  const doms = [...new Set(topicsOfSubject(subject).map(t => t.domain))];
+  $("#fDomain").replaceChildren(el("option", {value:"", text:"全部领域"}),
+    ...doms.map(d => el("option", {value:d, text:d})));
+  const pairs = [...new Set(topicsOfSubject(subject).filter(t => !t.external).map(t => t.grade + t.semester))]
+    .sort((a, b) => parseInt(a) - parseInt(b) || (a.slice(-1) === "上" ? -1 : 1));
+  $("#fGrade").replaceChildren(el("option", {value:"", text:"全部年级"}),
+    ...pairs.map(k => el("option", {value:k, text:GRADE_ZH[parseInt(k)] + "年级" + k.slice(-1)})));
+  $("#fExt").parentElement.style.display = subject === "english" ? "none" : "";
+  $("#fExt").checked = false;
+  $("#fDomain").value = ""; $("#fGrade").value = ""; $("#fType").value = "";
 }
 
 function filtered() {
   const q = $("#q").value.trim().toLowerCase(), d = $("#fDomain").value, g = $("#fGrade").value,
         ty = $("#fType").value, ext = $("#fExt").checked;
   return topics.filter(t => {
+    if (subjectOf(t) !== subject) return false;
     if (t.external && !ext) return false;
     if (d && t.domain !== d) return false;
     if (ty && t.type !== ty) return false;
@@ -181,7 +231,7 @@ function renderList() {
       el("span", {class:"meta", text: t.external ? t.domain : t.domain + " · " + (t.chapter || "").replace(/^\S+\s+/, "")}));
     ul.append(li);
   }
-  $("#count").textContent = "显示 " + items.length + " / " + topics.length;
+  $("#count").textContent = "显示 " + items.length + " / " + topicsOfSubject(subject).length;
 }
 
 function select(id, push) {

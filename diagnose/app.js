@@ -29,6 +29,9 @@
   let demo = null;         // 演示模式：{oracle}
   let ui = { key: null, phase: 'ask', answer: '', verdict: null };
   let startQuery = '';
+  let subject = 'math';       // 学科分图：数学（cnm_）/ 英语（cne_）
+  const subjectOf = function (t) { return (t && t.subject) || 'math'; };
+  const SUBJECT_LABEL = { math: '数学', english: '英语' };
   let seedParam = null;    // URL 参数 seed：固定选题的随机种子
 
   /* ------------------------------------------------------------ 小工具 */
@@ -229,6 +232,20 @@
     });
     page.append(h('div', { class: 'card' },
       h('h2', { text: '1. 选择诊断目标' }),
+      h('div', { class: 'row', style: 'margin-bottom:8px' },
+        h('label', null, '学科：'),
+        ['math', 'english'].map(function (k) {
+          return h('button', {
+            class: subject === k ? 'primary' : '', style: 'margin-right:6px',
+            onclick: function () {
+              if (subject === k) return;
+              subject = k; startQuery = ''; renderStart();
+            }
+          }, SUBJECT_LABEL[k]);
+        })),
+      h('p', { class: 'muted small' }, subject === 'english'
+        ? '英语与数学单独成图：英语覆盖沪教版三至九年级，依据《义务教育英语课程标准（2022 年版）》（教材 2024 年审定），只出笔试题。'
+        : '数学覆盖沪教版一至九年级（五四学制）。'),
       h('p', { class: 'muted' }, '选一个你想学会（或想检查）的知识点，或者选整章。工具会从目标开始提问：第一题答对就算掌握；答错会再出一道同级或更容易的题——第二题也错才算薄弱，并回溯到它的先修知识点，找到真正薄弱的根因；第二题答对则标为「不稳」。'),
       h('div', { class: 'row' },
         h('label', null, '题量上限（' + LIMIT_MIN + '–' + LIMIT_MAX + '）：', limitInput),
@@ -256,8 +273,10 @@
       if (!v) return;
       const chapters = [];
       v.chapters.forEach(function (ch) {
+        const chTopics = ch.topics.filter(function (x) { return subjectOf(x.t) === subject; });
+        if (!chTopics.length) return;
         const chHit = q && ch.label.toLowerCase().indexOf(q) >= 0;
-        const rows = ch.topics.filter(function (x) {
+        const rows = chTopics.filter(function (x) {
           if (!q || chHit) return true;
           return (x.t.name + ' ' + x.t.description + ' ' + x.t.chapter).toLowerCase().indexOf(q) >= 0;
         });
@@ -702,9 +721,12 @@
     if (c) {
       const hit = [];
       VOLUMES.forEach(function (vv) {
-        ((D.tree[vv[0]] || {}).chapters || []).forEach(function (ch) { if (ch.key === c.trim()) hit.push(ch); });
+        ((D.tree[vv[0]] || {}).chapters || []).forEach(function (ch) {
+          const q = c.trim();
+          if (ch.key === q || (ch.volume + ' ' + ch.label) === q) hit.push(ch);
+        });
       });
-      if (!hit.length) throw new Error('URL 参数 chapter 没有匹配的章节：' + c + '（格式如 “一年级上 第三单元”“六年级下 第五章”）');
+      if (!hit.length) throw new Error('URL 参数 chapter 没有匹配的章节：' + c + '（格式如 “一年级上 第三单元”“六年级下 第五章”“三年级上 全册 语音”）');
       return { ids: hit[0].topics.map(function (x) { return x.t.id; }), label: hit[0].volume + ' ' + hit[0].label + '（整章）' };
     }
     return null;
@@ -719,6 +741,8 @@
       return;
     }
     const params = new URLSearchParams(location.search);
+    const firstTarget = (params.get('target') || '').split(',')[0].trim();
+    if (firstTarget && D.graph.byId[firstTarget]) subject = subjectOf(D.graph.byId[firstTarget]);
     let resolved = null;
     try { resolved = resolveTargets(params); } catch (e) { renderStart(e.message); return; }
     if (params.get('seed')) seedParam = params.get('seed');

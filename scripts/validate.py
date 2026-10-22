@@ -21,10 +21,14 @@ TOPICS_PATH = os.path.join(ROOT, "data", "topics.json")
 DEPS_PATH = os.path.join(ROOT, "data", "dependencies.json")
 STANDARDS_PATH = os.path.join(ROOT, "data", "cn-curriculum-standards.json")
 JUNIOR_STANDARDS_PATH = os.path.join(ROOT, "data", "cn-junior-curriculum-standards.json")
+ENGLISH_STANDARDS_PATH = os.path.join(ROOT, "data", "cn-english-curriculum-standards.json")
 QUESTIONS_PATH = os.path.join(ROOT, "data", "questions.json")
 STRICT_STANDARDS = os.environ.get("STRICT_STANDARDS") == "1"
 
-DOMAINS = {"数与代数", "图形与几何", "统计与概率", "综合与实践"}
+MATH_DOMAINS = {"数与代数", "图形与几何", "统计与概率", "综合与实践"}
+ENGLISH_DOMAINS = {"语音", "词汇", "语法", "日常表达", "读写"}
+DOMAINS = MATH_DOMAINS | ENGLISH_DOMAINS
+SUBJECTS = {"math", "english"}
 TYPES = {"conceptual", "procedural", "reasoning", "application", "modeling"}
 STRENGTHS = {"hard", "soft"}
 CONFIDENCES = {"exact", "inferred"}
@@ -32,10 +36,14 @@ MAX_STANDARDS_PER_TOPIC = 3
 MAX_WARNINGS_LISTED = 30
 STD_DOMAIN_CODES = {"NA": "数与代数", "GG": "图形与几何", "SP": "统计与概率", "IP": "综合与实践"}
 STD_ID_RE = re.compile(r"^cms-2022:(\d)\.(NA|GG|SP|IP)\.(\d{2,})$")
+ESTD_ID_RE = re.compile(r"^ces-2022:([123])\.(PH|VO|GR|DS|PU)\.(\d{2})$")
+ESTD_DOMAIN_CODES = {"PH": "语音", "VO": "词汇", "GR": "语法", "DS": "语篇", "PU": "语用"}
+ESTD_STAGE_NAMES = {"1": "一级", "2": "二级", "3": "三级"}
 CORE_FIELDS = ["id", "name", "domain", "grade", "semester", "chapter", "type",
                "description", "mastery_criteria", "diagnostic_question", "external"]
 EXT_FIELDS = ["id", "name", "domain", "grade", "description", "external"]
-ID_RE = re.compile(r"^cnm_(ext_)?\d{3,}$")
+ID_RE = re.compile(r"^(cnm_(ext_)?\d{3,}|cne_\d{3})$")
+EID_RE = re.compile(r"^cne_\d{3}$")
 
 errors = []
 warnings = []
@@ -93,14 +101,26 @@ def check_topics(topics):
             elif f not in ("mastery_criteria", "diagnostic_question", "external") and not nonempty_str(t[f]) \
                     and not (f == "grade" and isinstance(t[f], int)):
                 err("%s 字段 %s 为空或类型错误" % (where, f))
-        if t.get("domain") not in DOMAINS:
-            err("%s domain 取值非法：%r" % (where, t.get("domain")))
+        subject = t.get("subject", "math")
+        if subject not in SUBJECTS:
+            err("%s subject 取值非法：%r" % (where, subject))
+        if subject == "english":
+            if not EID_RE.match(tid):
+                err("%s 英语知识点 id 必须是 cne_<三位数>" % where)
+            if t.get("domain") not in ENGLISH_DOMAINS:
+                err("%s 英语 domain 必须属于 %s：%r" % (where, "／".join(sorted(ENGLISH_DOMAINS)),
+                                                     t.get("domain")))
+        else:
+            if t.get("domain") not in MATH_DOMAINS:
+                err("%s domain 取值非法：%r" % (where, t.get("domain")))
         if ext:
             if t.get("grade") not in ("学前", "小学"):
                 err("%s 外部节点 grade 必须为 \"学前\" 或 \"小学\"" % where)
             continue
         if t.get("grade") not in (1, 2, 3, 4, 5, 6, 7, 8, 9):
             err("%s grade 必须是 1-9（小学 1-5，初中 6-9）" % where)
+        elif subject == "english" and t["grade"] < 3:
+            err("%s 英语知识点 grade 必须 >= 3（沪教版英语为三年级起点）" % where)
         if t.get("semester") not in ("上", "下"):
             err("%s semester 必须是 上/下" % where)
         if t.get("type") not in TYPES:
@@ -258,17 +278,31 @@ def check_standards_file(std, label="cn-curriculum-standards.json"):
             err("课标条目 id 重复：%s" % sid)
         items_by_id[sid] = it
         m = STD_ID_RE.match(sid)
-        if not m:
-            err("%s id 格式不合法（应为 cms-2022:<学段>.<NA|GG|SP|IP>.<NN>）" % where)
-        else:
+        me = ESTD_ID_RE.match(sid)
+        req_fields = ["domain", "section", "text"]
+        if m:
             stage, code, num = m.group(1), m.group(2), int(m.group(3))
             if it.get("domain") != STD_DOMAIN_CODES[code]:
                 err("%s domain 与 id 中的领域代码不一致：%r" % (where, it.get("domain")))
-            key = (stage, code)
+            key = ("math", stage, code)
             if num != last.get(key, 0) + 1:
                 err("%s 编号在域内不连续（上一条为 %02d）" % (where, last.get(key, 0)))
             last[key] = num
-        for f in ("domain", "section", "text"):
+        elif me:
+            stage, code, num = me.group(1), me.group(2), int(me.group(3))
+            if it.get("domain") != ESTD_DOMAIN_CODES[code]:
+                err("%s domain 与 id 中的领域代码不一致：%r" % (where, it.get("domain")))
+            if it.get("stage") != ESTD_STAGE_NAMES[stage]:
+                err("%s stage 与 id 中的学段不一致：%r" % (where, it.get("stage")))
+            key = ("english", stage, code)
+            if num != last.get(key, 0) + 1:
+                err("%s 编号在域内不连续（上一条为 %02d）" % (where, last.get(key, 0)))
+            last[key] = num
+            req_fields = ["domain", "theme", "text"]
+        else:
+            err("%s id 格式不合法（应为 cms-2022:<学段>.<NA|GG|SP|IP>.<NN> "
+                "或 ces-2022:<学段>.<PH|VO|GR|DS|PU>.<NN>）" % where)
+        for f in req_fields:
             if not nonempty_str(it.get(f)):
                 err("%s 字段 %s 缺失或为空" % (where, f))
         if "verbatim" in it and not isinstance(it["verbatim"], bool):
@@ -311,9 +345,9 @@ def check_topic_standards(ids, std_items):
                 err("%s 重复引用课标条目 %s" % (where, sid))
             seen.add(sid)
             if std_items is None:
-                err("%s 引用了 %s，但 data/cn-curriculum-standards.json 不存在" % (sw, sid))
+                err("%s 引用了 %s，但课标条目文件不存在" % (sw, sid))
             elif sid not in std_items:
-                err("%s 的课标条目不存在于 cn-curriculum-standards.json：%s" % (sw, sid))
+                err("%s 的课标条目不存在于课标条目文件：%s" % (sw, sid))
             else:
                 cited.add(sid)
             if s.get("confidence") not in CONFIDENCES:
@@ -329,8 +363,10 @@ def report_standards(ids, std_items, cited, empty_core):
         print("\n课标对齐：未找到 data/cn-curriculum-standards.json，跳过")
         return
     c = Counter(it.get("domain") for it in std_items.values())
-    print("\n课标条目：%d 条（%s）" % (len(std_items), "，".join("%s %d" % (k, c[k]) for k in
-                                                             ("数与代数", "图形与几何", "统计与概率", "综合与实践"))))
+    print("\n课标条目：%d 条（%s）" % (len(std_items), "，".join(
+        "%s %d" % (k, c[k]) for k in
+        ("数与代数", "图形与几何", "统计与概率", "综合与实践", "语音", "词汇", "语法", "语篇", "语用")
+        if c.get(k))))
     n_ok = len(core) - len(empty_core)
     pct = 100.0 * n_ok / len(core) if core else 0.0
     print("正式知识点 standards 非空：%d / %d（%.1f%%）；standards 为空：%d" % (n_ok, len(core), pct, len(empty_core)))
@@ -355,7 +391,7 @@ Q_DIFFICULTIES = ("basic", "standard", "advanced")
 Q_TYPES = ("numeric", "choice", "short", "self")
 Q_FIELDS = {"id", "topicId", "difficulty", "type", "prompt", "answer", "choices", "accept",
             "explanation", "verify", "unordered", "fixed_from_source"}
-Q_ID_RE = re.compile(r"^(cnm_\d{3,})_q([1-9]\d*)$")
+Q_ID_RE = re.compile(r"^((?:cnm|cne)_\d{3,})_q([1-9]\d*)$")
 NUM_RE = re.compile(r"^-?\d+(?:\.\d+)?(?:/\d+(?:\.\d+)?)?$")
 MIN_QUESTIONS_PER_TOPIC = 3
 MIN_AUTO_SHARE = 0.60
@@ -498,9 +534,9 @@ def report_questions(stats, topics_by_id):
     print("\n题库：共 %d 题" % stats["total"])
     print("按 type：" + "，".join("%s %d" % (k, stats["by_type"].get(k, 0)) for k in Q_TYPES))
     print("按 difficulty：" + "，".join("%s %d" % (k, stats["by_difficulty"].get(k, 0)) for k in Q_DIFFICULTIES))
-    auto = stats["by_type"].get("numeric", 0) + stats["by_type"].get("choice", 0)
+    auto = stats["total"] - stats["by_type"].get("self", 0)
     if stats["total"]:
-        print("numeric + choice 占比：%.1f%%" % (100.0 * auto / stats["total"]))
+        print("可自动判分（numeric + choice + short）占比：%.1f%%" % (100.0 * auto / stats["total"]))
     if counts:
         dist = Counter(counts)
         print("每知识点题数：最少 %d，最多 %d，平均 %.2f；分布 %s" % (
@@ -532,6 +568,14 @@ def main():
                 if sid in std_items:
                     err("课标条目 id 在两个文件中重复：%s" % sid)
                 std_items[sid] = it
+    if os.path.exists(ENGLISH_STANDARDS_PATH):
+        eng_items = check_standards_file(load(ENGLISH_STANDARDS_PATH), "cn-english-curriculum-standards.json")
+        if eng_items:
+            std_items = dict(std_items or {})
+            for sid, it in eng_items.items():
+                if sid in std_items:
+                    err("课标条目 id 在多个文件中重复：%s" % sid)
+                std_items[sid] = it
     cited, empty_core = check_topic_standards(ids, std_items)
     if STRICT_STANDARDS and std_items is not None and empty_core:
         err("STRICT_STANDARDS=1：%d 个正式知识点的 standards 为空" % len(empty_core))
@@ -543,9 +587,10 @@ def main():
             qerrs, qstats = question_errors(qs, ids, require_coverage=True)
             for e in qerrs:
                 err("题库：" + e)
-            auto = qstats["by_type"].get("numeric", 0) + qstats["by_type"].get("choice", 0)
+            auto = qstats["total"] - qstats["by_type"].get("self", 0)
             if qstats["total"] and auto < MIN_AUTO_SHARE * qstats["total"]:
-                err("题库：numeric + choice 占比 %.1f%% < %d%%" % (100.0 * auto / qstats["total"], MIN_AUTO_SHARE * 100))
+                err("题库：可自动判分（numeric + choice + short）占比 %.1f%% < %d%%"
+                    % (100.0 * auto / qstats["total"], MIN_AUTO_SHARE * 100))
             report_questions(qstats, ids)
     else:
         print("\n题库：未找到 data/questions.json，跳过")

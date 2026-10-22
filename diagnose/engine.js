@@ -452,9 +452,13 @@
 
   /** "一年级上 第一单元 10以内的数 3.1" -> {volume:'一年级上', chapterNo:'第一单元', chapterName:'10以内的数', section:'3.1 ...'}; also supports初中 "七上 第一章 有理数 1.1" */
   function parseChapter(chapter) {
+    // 数学：「六年级上 第一章 数的整除 1.1 整数和整除的意义」
     const m = /^(\S+) (第\S+[章单元]) (\S+?)(?: (.+))?$/.exec(chapter || '');
-    if (!m) return { volume: '', chapterNo: '', chapterName: chapter || '', section: '' };
-    return { volume: m[1], chapterNo: m[2], chapterName: m[3], section: m[4] || '' };
+    if (m) return { volume: m[1], chapterNo: m[2], chapterName: m[3], section: m[4] || '' };
+    // 英语（知识领域成组）：「三年级上 全册 语音：26 个字母与常见字母组合」
+    const e = /^(\S+) (全册) ([^：]+?)(?:[：](.+))?$/.exec(chapter || '');
+    if (e) return { volume: e[1], chapterNo: e[2], chapterName: e[3], section: e[4] || '' };
+    return { volume: '', chapterNo: '', chapterName: chapter || '', section: '' };
   }
 
   /* ------------------------------------------------------------------ 判题 */

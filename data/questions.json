@@ -17525,5 +17525,4489 @@
     "answer": "2",
     "explanation": "标准差＝√方差＝2。",
     "verify": "sqrt(4)"
+  },
+  {
+    "id": "cne_049_q1",
+    "topicId": "cne_049",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列单词中，字母 a 读 /eɪ/ 的是（　）。",
+    "answer": "B",
+    "explanation": "cake 中 a 读 /eɪ/；cat、bag 中读 /æ/。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "cat"
+      },
+      {
+        "key": "B",
+        "text": "cake"
+      },
+      {
+        "key": "C",
+        "text": "bag"
+      }
+    ]
+  },
+  {
+    "id": "cne_049_q2",
+    "topicId": "cne_049",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "字母组合 sh 在单词 she 中读 /ʃ/。请写出一个含 sh 且读 /ʃ/ 的单词。",
+    "answer": "she",
+    "explanation": "she、ship、shop、fish 中的 sh 都读 /ʃ/。",
+    "accept": [
+      "she",
+      "ship",
+      "shop",
+      "fish",
+      "shirt",
+      "shoe",
+      "short"
+    ]
+  },
+  {
+    "id": "cne_049_q3",
+    "topicId": "cne_049",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "字母表中排在 m 后面的字母是（　）。",
+    "answer": "B",
+    "explanation": "字母表顺序为 … l, m, n, o …。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "l"
+      },
+      {
+        "key": "B",
+        "text": "n"
+      },
+      {
+        "key": "C",
+        "text": "o"
+      }
+    ]
+  },
+  {
+    "id": "cne_049_q4",
+    "topicId": "cne_049",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "补全单词：__ range（橙子），首字母是 o。写出完整单词。",
+    "answer": "orange",
+    "explanation": "orange 以元音字母 o 开头，前面用 an。",
+    "accept": [
+      "orange"
+    ]
+  },
+  {
+    "id": "cne_050_q1",
+    "topicId": "cne_050",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "— What's this? — It's ______ apple.",
+    "answer": "B",
+    "explanation": "apple 以元音音素开头，用 an。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "a"
+      },
+      {
+        "key": "B",
+        "text": "an"
+      },
+      {
+        "key": "C",
+        "text": "two"
+      }
+    ]
+  },
+  {
+    "id": "cne_050_q2",
+    "topicId": "cne_050",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "写出“三”的英文单词。",
+    "answer": "three",
+    "explanation": "数字 3 的英文是 three。",
+    "accept": [
+      "three"
+    ]
+  },
+  {
+    "id": "cne_050_q3",
+    "topicId": "cne_050",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "There are two ______ in the picture.",
+    "answer": "B",
+    "explanation": "two 后接可数名词复数 cats。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "cat"
+      },
+      {
+        "key": "B",
+        "text": "cats"
+      },
+      {
+        "key": "C",
+        "text": "a cat"
+      }
+    ]
+  },
+  {
+    "id": "cne_050_q4",
+    "topicId": "cne_050",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "补全单词：cl__ssroom（教室）。写出完整单词。",
+    "answer": "classroom",
+    "explanation": "classroom = class + room。",
+    "accept": [
+      "classroom"
+    ]
+  },
+  {
+    "id": "cne_051_q1",
+    "topicId": "cne_051",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "The lemon is ______ . I don't like it.",
+    "answer": "B",
+    "explanation": "柠檬是酸的，用 sour。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "sweet"
+      },
+      {
+        "key": "B",
+        "text": "sour"
+      },
+      {
+        "key": "C",
+        "text": "red"
+      }
+    ]
+  },
+  {
+    "id": "cne_051_q2",
+    "topicId": "cne_051",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "写出“蓝色”的英文单词。",
+    "answer": "blue",
+    "explanation": "蓝色是 blue。",
+    "accept": [
+      "blue"
+    ]
+  },
+  {
+    "id": "cne_051_q3",
+    "topicId": "cne_051",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "I have a ______ . It can jump and it likes bananas.",
+    "answer": "A",
+    "explanation": "会跳、爱吃香蕉的是 monkey。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "monkey"
+      },
+      {
+        "key": "B",
+        "text": "duck"
+      },
+      {
+        "key": "C",
+        "text": "tiger"
+      }
+    ]
+  },
+  {
+    "id": "cne_051_q4",
+    "topicId": "cne_051",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "用括号内单词的正确形式填空：Look at the two ______ (duck) in the river.",
+    "answer": "ducks",
+    "explanation": "two 后接复数 ducks。",
+    "accept": [
+      "ducks"
+    ]
+  },
+  {
+    "id": "cne_052_q1",
+    "topicId": "cne_052",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "______ you swim? — Yes, I can.",
+    "answer": "B",
+    "explanation": "问能力用 Can you…?，答语 Yes, I can. 印证。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Do"
+      },
+      {
+        "key": "B",
+        "text": "Can"
+      },
+      {
+        "key": "C",
+        "text": "Are"
+      }
+    ]
+  },
+  {
+    "id": "cne_052_q2",
+    "topicId": "cne_052",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "用 am、is 或 are 填空：I ______ a pupil.",
+    "answer": "am",
+    "explanation": "主语 I 搭配 am。",
+    "accept": [
+      "am"
+    ]
+  },
+  {
+    "id": "cne_052_q3",
+    "topicId": "cne_052",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "She ______ dance, but she can sing.",
+    "answer": "B",
+    "explanation": "but 表示转折，前面应是不能跳舞 can't。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "can"
+      },
+      {
+        "key": "B",
+        "text": "can't"
+      },
+      {
+        "key": "C",
+        "text": "isn't"
+      }
+    ]
+  },
+  {
+    "id": "cne_052_q4",
+    "topicId": "cne_052",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "改错（只填正确形式）：He can plays football. → He can ______ football.",
+    "answer": "play",
+    "explanation": "can 后接动词原形。",
+    "accept": [
+      "play"
+    ]
+  },
+  {
+    "id": "cne_053_q1",
+    "topicId": "cne_053",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "— How are you? — ______",
+    "answer": "A",
+    "explanation": "How are you? 问候健康，答 I'm fine, thank you.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "I'm fine, thank you."
+      },
+      {
+        "key": "B",
+        "text": "I'm nine."
+      },
+      {
+        "key": "C",
+        "text": "It's red."
+      }
+    ]
+  },
+  {
+    "id": "cne_053_q2",
+    "topicId": "cne_053",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "别人说 Happy birthday! 时，常用答语是 Thank ______ .",
+    "answer": "you",
+    "explanation": "Thank you. 表示感谢。",
+    "accept": [
+      "you"
+    ]
+  },
+  {
+    "id": "cne_053_q3",
+    "topicId": "cne_053",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "介绍你的朋友给妈妈，应该说（　）。",
+    "answer": "A",
+    "explanation": "介绍他人用 This is…。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "This is my friend, Tom."
+      },
+      {
+        "key": "B",
+        "text": "I am Tom."
+      },
+      {
+        "key": "C",
+        "text": "How are you, Tom?"
+      }
+    ]
+  },
+  {
+    "id": "cne_053_q4",
+    "topicId": "cne_053",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "补全对话：— Good morning, Miss Li. — Good ______ , Tom.",
+    "answer": "morning",
+    "explanation": "早晨问候语为 Good morning。",
+    "accept": [
+      "morning"
+    ]
+  },
+  {
+    "id": "cne_054_q1",
+    "topicId": "cne_054",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列单词中，th 读 /θ/ 的是（　）。",
+    "answer": "B",
+    "explanation": "three、think、thank 中 th 读 /θ/；this、that 中读 /ð/。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "this"
+      },
+      {
+        "key": "B",
+        "text": "three"
+      },
+      {
+        "key": "C",
+        "text": "that"
+      }
+    ]
+  },
+  {
+    "id": "cne_054_q2",
+    "topicId": "cne_054",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "单词 teacher 中 -er 通常读作 /______ /（填一个音标符号）。",
+    "answer": "ə",
+    "explanation": "词尾 -er 弱读为 /ə/。",
+    "accept": [
+      "ə",
+      "/ə/"
+    ]
+  },
+  {
+    "id": "cne_054_q3",
+    "topicId": "cne_054",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "下列单词重音在第一个音节的是（　）。",
+    "answer": "B",
+    "explanation": "weather 是双音节词，重音在首音节。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "today"
+      },
+      {
+        "key": "B",
+        "text": "weather"
+      },
+      {
+        "key": "C",
+        "text": "begin"
+      }
+    ]
+  },
+  {
+    "id": "cne_054_q4",
+    "topicId": "cne_054",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "补全单词：t__cher（教师）。写出完整单词。",
+    "answer": "teacher",
+    "explanation": "teacher 由 teach + er 构成。",
+    "accept": [
+      "teacher"
+    ]
+  },
+  {
+    "id": "cne_055_q1",
+    "topicId": "cne_055",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "It is ______ today. We can't go out.",
+    "answer": "A",
+    "explanation": "be 动词后接形容词 rainy。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "rainy"
+      },
+      {
+        "key": "B",
+        "text": "rain"
+      },
+      {
+        "key": "C",
+        "text": "rains"
+      }
+    ]
+  },
+  {
+    "id": "cne_055_q2",
+    "topicId": "cne_055",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "写出“快乐的”英文单词。",
+    "answer": "happy",
+    "explanation": "happy 表示快乐。",
+    "accept": [
+      "happy"
+    ]
+  },
+  {
+    "id": "cne_055_q3",
+    "topicId": "cne_055",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "My ______ are my father and my mother.",
+    "answer": "A",
+    "explanation": "父亲和母亲是 parents。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "parents"
+      },
+      {
+        "key": "B",
+        "text": "cousins"
+      },
+      {
+        "key": "C",
+        "text": "friends"
+      }
+    ]
+  },
+  {
+    "id": "cne_055_q4",
+    "topicId": "cne_055",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "用括号内单词的正确形式填空：He is ______ (tall) than his brother.",
+    "answer": "taller",
+    "explanation": "than 提示比较级，tall 加 -er。",
+    "accept": [
+      "taller"
+    ]
+  },
+  {
+    "id": "cne_056_q1",
+    "topicId": "cne_056",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "The ice cream ______ sweet.",
+    "answer": "A",
+    "explanation": "主语是第三人称单数，taste 加 s。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "tastes"
+      },
+      {
+        "key": "B",
+        "text": "taste"
+      },
+      {
+        "key": "C",
+        "text": "tasting"
+      }
+    ]
+  },
+  {
+    "id": "cne_056_q2",
+    "topicId": "cne_056",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "写出“圆形”的英文单词。",
+    "answer": "circle",
+    "explanation": "circle 表示圆形。",
+    "accept": [
+      "circle"
+    ]
+  },
+  {
+    "id": "cne_056_q3",
+    "topicId": "cne_056",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "The stone is ______ . I can't break it.",
+    "answer": "B",
+    "explanation": "石头是硬的，用 hard。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "soft"
+      },
+      {
+        "key": "B",
+        "text": "hard"
+      },
+      {
+        "key": "C",
+        "text": "sweet"
+      }
+    ]
+  },
+  {
+    "id": "cne_056_q4",
+    "topicId": "cne_056",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "补全句子：The soup ______ (smell) good.",
+    "answer": "smells",
+    "explanation": "主语 the soup 第三人称单数，smell 加 s。",
+    "accept": [
+      "smells"
+    ]
+  },
+  {
+    "id": "cne_057_q1",
+    "topicId": "cne_057",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "There ______ two books on the desk.",
+    "answer": "B",
+    "explanation": "two books 是复数，用 There are。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "is"
+      },
+      {
+        "key": "B",
+        "text": "are"
+      },
+      {
+        "key": "C",
+        "text": "be"
+      }
+    ]
+  },
+  {
+    "id": "cne_057_q2",
+    "topicId": "cne_057",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "写出 box 的复数形式。",
+    "answer": "boxes",
+    "explanation": "以 x 结尾加 -es。",
+    "accept": [
+      "boxes"
+    ]
+  },
+  {
+    "id": "cne_057_q3",
+    "topicId": "cne_057",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "There ______ a cat and two dogs in the garden.",
+    "answer": "A",
+    "explanation": "there be 就近原则，靠近的是 a cat，用 is。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "is"
+      },
+      {
+        "key": "B",
+        "text": "are"
+      },
+      {
+        "key": "C",
+        "text": "have"
+      }
+    ]
+  },
+  {
+    "id": "cne_057_q4",
+    "topicId": "cne_057",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "写出 child 的复数形式。",
+    "answer": "children",
+    "explanation": "child 的复数是不规则形式 children。",
+    "accept": [
+      "children"
+    ]
+  },
+  {
+    "id": "cne_058_q1",
+    "topicId": "cne_058",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "She ______ drawing very much.",
+    "answer": "B",
+    "explanation": "主语 she 第三人称单数，like 加 s。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "like"
+      },
+      {
+        "key": "B",
+        "text": "likes"
+      },
+      {
+        "key": "C",
+        "text": "liking"
+      }
+    ]
+  },
+  {
+    "id": "cne_058_q2",
+    "topicId": "cne_058",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "用括号内单词的正确形式填空：He ______ (go) to school by bus.",
+    "answer": "goes",
+    "explanation": "go 以 o 结尾，第三人称单数加 es。",
+    "accept": [
+      "goes"
+    ]
+  },
+  {
+    "id": "cne_058_q3",
+    "topicId": "cne_058",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "下列句子正确的是（　）。",
+    "answer": "B",
+    "explanation": "watch 以 ch 结尾，第三人称单数加 es。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "My sister watch TV every day."
+      },
+      {
+        "key": "B",
+        "text": "My sister watches TV every day."
+      },
+      {
+        "key": "C",
+        "text": "My sister watchs TV every day."
+      }
+    ]
+  },
+  {
+    "id": "cne_058_q4",
+    "topicId": "cne_058",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "用括号内单词的正确形式填空：Tom ______ (have) a new bike.",
+    "answer": "has",
+    "explanation": "have 的第三人称单数是不规则形式 has。",
+    "accept": [
+      "has"
+    ]
+  },
+  {
+    "id": "cne_059_q1",
+    "topicId": "cne_059",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "朗读 Where are you going? 时，句末通常用（　）。",
+    "answer": "B",
+    "explanation": "特殊疑问句用降调。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "升调"
+      },
+      {
+        "key": "B",
+        "text": "降调"
+      },
+      {
+        "key": "C",
+        "text": "平调"
+      }
+    ]
+  },
+  {
+    "id": "cne_059_q2",
+    "topicId": "cne_059",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "朗读一般疑问句 Are you ready? 时，句末通常用升调还是降调？填“升调”或“降调”。",
+    "answer": "升调",
+    "explanation": "一般疑问句用升调。",
+    "accept": [
+      "升调"
+    ]
+  },
+  {
+    "id": "cne_059_q3",
+    "topicId": "cne_059",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "句子 I like apples very much. 中，通常重读的词是（　）。",
+    "answer": "B",
+    "explanation": "实词 like、apples 重读；虚词弱读。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "I 和 very"
+      },
+      {
+        "key": "B",
+        "text": "like 和 apples"
+      },
+      {
+        "key": "C",
+        "text": "the 和 and"
+      }
+    ]
+  },
+  {
+    "id": "cne_059_q4",
+    "topicId": "cne_059",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "补全句子（注意大小写）：______ do you go to school? — By bus.",
+    "answer": "How",
+    "explanation": "询问方式用 How，句首大写。",
+    "accept": [
+      "how",
+      "How"
+    ]
+  },
+  {
+    "id": "cne_060_q1",
+    "topicId": "cne_060",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "My father is a ______ . He flies a plane.",
+    "answer": "A",
+    "explanation": "开飞机的是 pilot。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "pilot"
+      },
+      {
+        "key": "B",
+        "text": "cook"
+      },
+      {
+        "key": "C",
+        "text": "driver"
+      }
+    ]
+  },
+  {
+    "id": "cne_060_q2",
+    "topicId": "cne_060",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "写出“地铁”的英文单词。",
+    "answer": "underground",
+    "explanation": "地铁在英式英语中常用 underground。",
+    "accept": [
+      "underground",
+      "subway",
+      "metro"
+    ]
+  },
+  {
+    "id": "cne_060_q3",
+    "topicId": "cne_060",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "We go to the park ______ bus.",
+    "answer": "A",
+    "explanation": "by + 交通工具（不加冠词）表示乘坐方式。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "by"
+      },
+      {
+        "key": "B",
+        "text": "on the"
+      },
+      {
+        "key": "C",
+        "text": "in"
+      }
+    ]
+  },
+  {
+    "id": "cne_060_q4",
+    "topicId": "cne_060",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "用括号内单词的正确形式填空：Fire is ______ (danger). We must be careful.",
+    "answer": "dangerous",
+    "explanation": "be 动词后接形容词 dangerous。",
+    "accept": [
+      "dangerous"
+    ]
+  },
+  {
+    "id": "cne_061_q1",
+    "topicId": "cne_061",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "I ______ my grandma last Sunday.",
+    "answer": "B",
+    "explanation": "last Sunday 表示过去，用过去式 visited。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "visit"
+      },
+      {
+        "key": "B",
+        "text": "visited"
+      },
+      {
+        "key": "C",
+        "text": "visiting"
+      }
+    ]
+  },
+  {
+    "id": "cne_061_q2",
+    "topicId": "cne_061",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "用括号内单词的正确形式填空：They ______ (be) at home yesterday.",
+    "answer": "were",
+    "explanation": "yesterday 表示过去，主语 they 接 were。",
+    "accept": [
+      "were"
+    ]
+  },
+  {
+    "id": "cne_061_q3",
+    "topicId": "cne_061",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "______ you go to the zoo yesterday?",
+    "answer": "B",
+    "explanation": "实义动词 go 的过去时疑问句用 Did 提问。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Do"
+      },
+      {
+        "key": "B",
+        "text": "Did"
+      },
+      {
+        "key": "C",
+        "text": "Were"
+      }
+    ]
+  },
+  {
+    "id": "cne_061_q4",
+    "topicId": "cne_061",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "改错（只填正确形式）：Did he watched TV last night? → Did he ______ TV last night?",
+    "answer": "watch",
+    "explanation": "Did 后接动词原形。",
+    "accept": [
+      "watch"
+    ]
+  },
+  {
+    "id": "cne_062_q1",
+    "topicId": "cne_062",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "We ______ visit the museum tomorrow.",
+    "answer": "A",
+    "explanation": "主语 we 接 are going to + 动词原形。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "are going to"
+      },
+      {
+        "key": "B",
+        "text": "is going to"
+      },
+      {
+        "key": "C",
+        "text": "going to"
+      }
+    ]
+  },
+  {
+    "id": "cne_062_q2",
+    "topicId": "cne_062",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "用括号内单词的正确形式填空：It ______ (be) sunny tomorrow.",
+    "answer": "will be",
+    "explanation": "明天天气是预测，用 will be。",
+    "accept": [
+      "will be",
+      "'ll be"
+    ]
+  },
+  {
+    "id": "cne_062_q3",
+    "topicId": "cne_062",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "Look at the clouds! It ______ rain.",
+    "answer": "A",
+    "explanation": "根据眼前迹象预测，常用 be going to。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "is going to"
+      },
+      {
+        "key": "B",
+        "text": "was"
+      },
+      {
+        "key": "C",
+        "text": "has"
+      }
+    ]
+  },
+  {
+    "id": "cne_062_q4",
+    "topicId": "cne_062",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "改错（只填正确形式）：She will goes to Beijing. → She will ______ to Beijing.",
+    "answer": "go",
+    "explanation": "will 后接动词原形。",
+    "accept": [
+      "go"
+    ]
+  },
+  {
+    "id": "cne_063_q1",
+    "topicId": "cne_063",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "日记中叙述昨天发生的事，应使用（　）。",
+    "answer": "B",
+    "explanation": "已经发生的事用一般过去时。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "一般现在时"
+      },
+      {
+        "key": "B",
+        "text": "一般过去时"
+      },
+      {
+        "key": "C",
+        "text": "现在进行时"
+      }
+    ]
+  },
+  {
+    "id": "cne_063_q2",
+    "topicId": "cne_063",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "补全短语：have a good ______ （玩得开心）。",
+    "answer": "time",
+    "explanation": "have a good time 表示玩得开心。",
+    "accept": [
+      "time"
+    ]
+  },
+  {
+    "id": "cne_063_q3",
+    "topicId": "cne_063",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "阅读：Yesterday was Sunday. Lily went to the zoo with her parents. She saw pandas and monkeys. She was very happy. 问：Where did Lily go?",
+    "answer": "A",
+    "explanation": "原文 went to the zoo。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "To the zoo."
+      },
+      {
+        "key": "B",
+        "text": "To the park."
+      },
+      {
+        "key": "C",
+        "text": "To school."
+      }
+    ]
+  },
+  {
+    "id": "cne_063_q4",
+    "topicId": "cne_063",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "补全句子：She saw pandas ______ monkeys at the zoo.",
+    "answer": "and",
+    "explanation": "两个并列宾语用 and 连接。",
+    "accept": [
+      "and"
+    ]
+  },
+  {
+    "id": "cne_001_q1",
+    "topicId": "cne_001",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列单词中，ea 读音与其他两个不同的是（　）。",
+    "answer": "C",
+    "explanation": "tea、sea 中 ea 读 /iː/，bread 中读 /e/。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "tea"
+      },
+      {
+        "key": "B",
+        "text": "sea"
+      },
+      {
+        "key": "C",
+        "text": "bread"
+      }
+    ]
+  },
+  {
+    "id": "cne_001_q2",
+    "topicId": "cne_001",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "写出一个含 ea 且 ea 读 /iː/ 的单词（如 tea）。",
+    "answer": "tea",
+    "explanation": "tea、sea、eat、read、meat、team 中的 ea 都读 /iː/。",
+    "accept": [
+      "tea",
+      "sea",
+      "eat",
+      "read",
+      "meat",
+      "team",
+      "clean",
+      "please",
+      "speak"
+    ]
+  },
+  {
+    "id": "cne_001_q3",
+    "topicId": "cne_001",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "下列单词中，oo 读 /ʊ/ 的是（　）。",
+    "answer": "B",
+    "explanation": "book、look、good 中的 oo 读 /ʊ/；food、moon 中读 /uː/。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "food"
+      },
+      {
+        "key": "B",
+        "text": "book"
+      },
+      {
+        "key": "C",
+        "text": "moon"
+      }
+    ]
+  },
+  {
+    "id": "cne_001_q4",
+    "topicId": "cne_001",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "单词 rain 中 ai 的读音与下列哪个单词相同：name、cat、map？请写出该单词。",
+    "answer": "name",
+    "explanation": "rain 与 name 中的 ai/a-e 都读 /eɪ/。",
+    "accept": [
+      "name"
+    ]
+  },
+  {
+    "id": "cne_002_q1",
+    "topicId": "cne_002",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "Wild animals are ______ danger. 选择正确的介词。",
+    "answer": "A",
+    "explanation": "固定短语 in danger 表示“处于危险中”。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "in"
+      },
+      {
+        "key": "B",
+        "text": "on"
+      },
+      {
+        "key": "C",
+        "text": "at"
+      }
+    ]
+  },
+  {
+    "id": "cne_002_q2",
+    "topicId": "cne_002",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "写出 holiday 的美式同义词。",
+    "answer": "vacation",
+    "explanation": "holiday 与 vacation 都可表示“假期”。",
+    "accept": [
+      "vacation"
+    ]
+  },
+  {
+    "id": "cne_002_q3",
+    "topicId": "cne_002",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "The air in the city is not ______. We should keep it clean.",
+    "answer": "A",
+    "explanation": "形容空气用 fresh（清新的）；famous 是“著名的”。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "fresh"
+      },
+      {
+        "key": "B",
+        "text": "famous"
+      },
+      {
+        "key": "C",
+        "text": "quiet"
+      }
+    ]
+  },
+  {
+    "id": "cne_002_q4",
+    "topicId": "cne_002",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "用括号内单词的正确形式填空：Eating too much sugar is ______ (health).",
+    "answer": "unhealthy",
+    "explanation": "此处需要形容词，且语义为“不健康”，用 unhealthy。",
+    "accept": [
+      "unhealthy"
+    ]
+  },
+  {
+    "id": "cne_003_q1",
+    "topicId": "cne_003",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "My sister ______ to school by bus every day.",
+    "answer": "B",
+    "explanation": "主语 sister 是第三人称单数，动词加 -es。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "go"
+      },
+      {
+        "key": "B",
+        "text": "goes"
+      },
+      {
+        "key": "C",
+        "text": "going"
+      }
+    ]
+  },
+  {
+    "id": "cne_003_q2",
+    "topicId": "cne_003",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "写出 go 的第三人称单数形式。",
+    "answer": "goes",
+    "explanation": "以 o 结尾的动词加 -es。",
+    "accept": [
+      "goes"
+    ]
+  },
+  {
+    "id": "cne_003_q3",
+    "topicId": "cne_003",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "______ he like playing football?",
+    "answer": "B",
+    "explanation": "一般现在时的疑问句借 does，后接动词原形 like。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Do"
+      },
+      {
+        "key": "B",
+        "text": "Does"
+      },
+      {
+        "key": "C",
+        "text": "Is"
+      }
+    ]
+  },
+  {
+    "id": "cne_003_q4",
+    "topicId": "cne_003",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "改错：She don't have any brothers.（只写出改正后的动词部分）",
+    "answer": "doesn't have",
+    "explanation": "主语是第三人称单数，助动词用 doesn't，后面动词用原形。",
+    "accept": [
+      "doesn't have",
+      "does not have"
+    ]
+  },
+  {
+    "id": "cne_004_q1",
+    "topicId": "cne_004",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "We ______ to the museum last Sunday.",
+    "answer": "B",
+    "explanation": "last Sunday 表示过去，go 的过去式是 went。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "go"
+      },
+      {
+        "key": "B",
+        "text": "went"
+      },
+      {
+        "key": "C",
+        "text": "gone"
+      }
+    ]
+  },
+  {
+    "id": "cne_004_q2",
+    "topicId": "cne_004",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "写出动词 see 的过去式。",
+    "answer": "saw",
+    "explanation": "see—saw—seen。",
+    "accept": [
+      "saw"
+    ]
+  },
+  {
+    "id": "cne_004_q3",
+    "topicId": "cne_004",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "There ______ many trees here ten years ago.",
+    "answer": "B",
+    "explanation": "ten years ago 表示过去，trees 是复数，用 were。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "are"
+      },
+      {
+        "key": "B",
+        "text": "were"
+      },
+      {
+        "key": "C",
+        "text": "was"
+      }
+    ]
+  },
+  {
+    "id": "cne_004_q4",
+    "topicId": "cne_004",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "用括号内单词的正确形式填空：He ______ (visit) his grandparents yesterday.",
+    "answer": "visited",
+    "explanation": "yesterday 表示过去，规则动词加 -ed。",
+    "accept": [
+      "visited"
+    ]
+  },
+  {
+    "id": "cne_005_q1",
+    "topicId": "cne_005",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "— Shall we go to the cinema this afternoon? — ______",
+    "answer": "A",
+    "explanation": "对建议表示赞同用 That's a good idea.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "That's a good idea."
+      },
+      {
+        "key": "B",
+        "text": "Yes, I did."
+      },
+      {
+        "key": "C",
+        "text": "I'm sorry to hear that."
+      }
+    ]
+  },
+  {
+    "id": "cne_005_q2",
+    "topicId": "cne_005",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "补全对话：— How are you? — I'm fine, ______ you.",
+    "answer": "thank",
+    "explanation": "回答 How are you? 常说 I'm fine, thank you.",
+    "accept": [
+      "thank",
+      "thanks"
+    ]
+  },
+  {
+    "id": "cne_005_q3",
+    "topicId": "cne_005",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "想邀请同学一起看电影，最恰当的说法是（　）。",
+    "answer": "A",
+    "explanation": "Shall we…? 是征询意见、提出建议的礼貌说法。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Shall we see a film?"
+      },
+      {
+        "key": "B",
+        "text": "You must see a film."
+      },
+      {
+        "key": "C",
+        "text": "I saw a film."
+      }
+    ]
+  },
+  {
+    "id": "cne_005_q4",
+    "topicId": "cne_005",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "朋友说 Thank you. 你回答 You're ______ .（填一个词）",
+    "answer": "welcome",
+    "explanation": "You're welcome. 是“不用谢”的标准说法。",
+    "accept": [
+      "welcome"
+    ]
+  },
+  {
+    "id": "cne_006_q1",
+    "topicId": "cne_006",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "Ben is from Canada. He came to Shanghai last month. He visits the Science Museum with his parents on Saturdays. Where does Ben go on Saturdays?",
+    "answer": "A",
+    "explanation": "原文明确写了 visits the Science Museum。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The Science Museum."
+      },
+      {
+        "key": "B",
+        "text": "The zoo."
+      },
+      {
+        "key": "C",
+        "text": "Canada."
+      }
+    ]
+  },
+  {
+    "id": "cne_006_q2",
+    "topicId": "cne_006",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "改成一般疑问句（只填句首单词）：______ he twelve years old?",
+    "answer": "Is",
+    "explanation": "含 be 动词的句子变疑问句时把 be 提到句首。",
+    "accept": [
+      "is"
+    ]
+  },
+  {
+    "id": "cne_006_q3",
+    "topicId": "cne_006",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "介绍一座城市的短文，开头通常先写（　）。",
+    "answer": "A",
+    "explanation": "说明文常按“是什么—怎么样—为什么”的顺序展开，开头交代对象。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "城市的名称与位置"
+      },
+      {
+        "key": "B",
+        "text": "作者的爱好"
+      },
+      {
+        "key": "C",
+        "text": "感谢读者"
+      }
+    ]
+  },
+  {
+    "id": "cne_006_q4",
+    "topicId": "cne_006",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "用括号内单词的正确形式填空：I ______ (go) to Beijing last summer.",
+    "answer": "went",
+    "explanation": "last summer 表示过去，go 的过去式是 went。",
+    "accept": [
+      "went"
+    ]
+  },
+  {
+    "id": "cne_007_q1",
+    "topicId": "cne_007",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列单词中，th 读 /ð/ 的是（　）。",
+    "answer": "B",
+    "explanation": "this、that、these、those 中的 th 读 /ð/；think、three 中读 /θ/。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "think"
+      },
+      {
+        "key": "B",
+        "text": "this"
+      },
+      {
+        "key": "C",
+        "text": "three"
+      }
+    ]
+  },
+  {
+    "id": "cne_007_q2",
+    "topicId": "cne_007",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "单词 chick 与 ship 中的 ch、sh 读音不同吗？填 yes 或 no。",
+    "answer": "yes",
+    "explanation": "ch 读 /tʃ/，sh 读 /ʃ/，两者不同。",
+    "accept": [
+      "yes"
+    ]
+  },
+  {
+    "id": "cne_007_q3",
+    "topicId": "cne_007",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "下列单词中，划线部分读音与其他两个不同的是（　）。",
+    "answer": "C",
+    "explanation": "who 中的 wh 读 /h/，when、what 中读 /w/。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "when"
+      },
+      {
+        "key": "B",
+        "text": "what"
+      },
+      {
+        "key": "C",
+        "text": "who"
+      }
+    ]
+  },
+  {
+    "id": "cne_007_q4",
+    "topicId": "cne_007",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "写出一个含 ng 且 ng 读 /ŋ/ 的单词（如 long）。",
+    "answer": "long",
+    "explanation": "long、sing、song、king、morning 中的 ng 都读 /ŋ/。",
+    "accept": [
+      "long",
+      "sing",
+      "song",
+      "king",
+      "thing",
+      "morning",
+      "evening",
+      "young",
+      "strong"
+    ]
+  },
+  {
+    "id": "cne_008_q1",
+    "topicId": "cne_008",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "Before you get on the plane, you should show your ______ .",
+    "answer": "A",
+    "explanation": "登机前要出示护照 passport。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "passport"
+      },
+      {
+        "key": "B",
+        "text": "picnic"
+      },
+      {
+        "key": "C",
+        "text": "season"
+      }
+    ]
+  },
+  {
+    "id": "cne_008_q2",
+    "topicId": "cne_008",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "写出 wind 的形容词形式。",
+    "answer": "windy",
+    "explanation": "wind + y → windy（多风的）。",
+    "accept": [
+      "windy"
+    ]
+  },
+  {
+    "id": "cne_008_q3",
+    "topicId": "cne_008",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "The Dragon Boat Festival is a traditional Chinese ______ .",
+    "answer": "A",
+    "explanation": "端午节是中国传统节日，用 festival。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "festival"
+      },
+      {
+        "key": "B",
+        "text": "factory"
+      },
+      {
+        "key": "C",
+        "text": "forest"
+      }
+    ]
+  },
+  {
+    "id": "cne_008_q4",
+    "topicId": "cne_008",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "用括号内单词的正确形式填空：We should ______ (protection) the forests.",
+    "answer": "protect",
+    "explanation": "should 后接动词原形，protection 的动词是 protect。",
+    "accept": [
+      "protect"
+    ]
+  },
+  {
+    "id": "cne_009_q1",
+    "topicId": "cne_009",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "I ______ visit my grandma next Sunday.",
+    "answer": "A",
+    "explanation": "next Sunday 表示将来，用 will + 动词原形。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "will"
+      },
+      {
+        "key": "B",
+        "text": "am"
+      },
+      {
+        "key": "C",
+        "text": "did"
+      }
+    ]
+  },
+  {
+    "id": "cne_009_q2",
+    "topicId": "cne_009",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "用 be going to 结构填空：She ______ going to buy a new bike.（填 be 动词）",
+    "answer": "is",
+    "explanation": "主语 She 是第三人称单数，be 用 is。",
+    "accept": [
+      "is"
+    ]
+  },
+  {
+    "id": "cne_009_q3",
+    "topicId": "cne_009",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "— ______ you go to the park tomorrow? — Yes, I will.",
+    "answer": "B",
+    "explanation": "答语用 will，问句也用 Will 提问。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Do"
+      },
+      {
+        "key": "B",
+        "text": "Will"
+      },
+      {
+        "key": "C",
+        "text": "Did"
+      }
+    ]
+  },
+  {
+    "id": "cne_009_q4",
+    "topicId": "cne_009",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "用括号内单词的正确形式填空：They ______ (have) a picnic tomorrow.",
+    "answer": "will have",
+    "explanation": "tomorrow 表示将来，用 will + have。",
+    "accept": [
+      "will have",
+      "'ll have"
+    ]
+  },
+  {
+    "id": "cne_010_q1",
+    "topicId": "cne_010",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "You ______ drink more water when you have a cold.",
+    "answer": "A",
+    "explanation": "给建议用 should。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "should"
+      },
+      {
+        "key": "B",
+        "text": "can't"
+      },
+      {
+        "key": "C",
+        "text": "needn't"
+      }
+    ]
+  },
+  {
+    "id": "cne_010_q2",
+    "topicId": "cne_010",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "用 must 或 mustn't 填空：We ______ play with fire.",
+    "answer": "mustn't",
+    "explanation": "玩火是禁止的，用 mustn't。",
+    "accept": [
+      "mustn't",
+      "must not"
+    ]
+  },
+  {
+    "id": "cne_010_q3",
+    "topicId": "cne_010",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "— Can you swim? — Yes, I ______ .",
+    "answer": "A",
+    "explanation": "用 can 提问，用 can 回答。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "can"
+      },
+      {
+        "key": "B",
+        "text": "do"
+      },
+      {
+        "key": "C",
+        "text": "am"
+      }
+    ]
+  },
+  {
+    "id": "cne_010_q4",
+    "topicId": "cne_010",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "把 You should see a doctor. 改成否定句（补全）：You ______ see a doctor.",
+    "answer": "shouldn't",
+    "explanation": "should 的否定形式是 shouldn't。",
+    "accept": [
+      "shouldn't",
+      "should not"
+    ]
+  },
+  {
+    "id": "cne_011_q1",
+    "topicId": "cne_011",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "— Excuse me, how can I get to the museum? — ______",
+    "answer": "A",
+    "explanation": "问路时用方向指引回答。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Go along this street and turn left."
+      },
+      {
+        "key": "B",
+        "text": "I'm fine, thank you."
+      },
+      {
+        "key": "C",
+        "text": "It's Monday."
+      }
+    ]
+  },
+  {
+    "id": "cne_011_q2",
+    "topicId": "cne_011",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "问路时礼貌地引起别人注意，常说 Excuse ______ .",
+    "answer": "me",
+    "explanation": "Excuse me. 用于打扰别人前。",
+    "accept": [
+      "me"
+    ]
+  },
+  {
+    "id": "cne_011_q3",
+    "topicId": "cne_011",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "At the airport, a clerk may ask: ______",
+    "answer": "A",
+    "explanation": "机场办手续时最常见的是查验护照。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "May I see your passport?"
+      },
+      {
+        "key": "B",
+        "text": "How old are you?"
+      },
+      {
+        "key": "C",
+        "text": "What's the weather like?"
+      }
+    ]
+  },
+  {
+    "id": "cne_011_q4",
+    "topicId": "cne_011",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "补全：— What's the weather like today? — It's ______ .（多云的）",
+    "answer": "cloudy",
+    "explanation": "多云的 = cloudy。",
+    "accept": [
+      "cloudy"
+    ]
+  },
+  {
+    "id": "cne_012_q1",
+    "topicId": "cne_012",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "The Dragon Boat Festival is in May or June. People eat rice dumplings and watch dragon boat races. What do people eat at the festival?",
+    "answer": "A",
+    "explanation": "原文说 eat rice dumplings。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Rice dumplings."
+      },
+      {
+        "key": "B",
+        "text": "Moon cakes."
+      },
+      {
+        "key": "C",
+        "text": "Noodles."
+      }
+    ]
+  },
+  {
+    "id": "cne_012_q2",
+    "topicId": "cne_012",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "用括号内单词的正确形式填空：The festival ______ (come) in May or June.",
+    "answer": "comes",
+    "explanation": "一般现在时描述事实，主语单数，动词加 -s。",
+    "accept": [
+      "comes"
+    ]
+  },
+  {
+    "id": "cne_012_q3",
+    "topicId": "cne_012",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "介绍节日的短文，一般不会写（　）。",
+    "answer": "C",
+    "explanation": "节日介绍围绕时间、来源、活动，与个人作业无关。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "节日的日期"
+      },
+      {
+        "key": "B",
+        "text": "人们的活动"
+      },
+      {
+        "key": "C",
+        "text": "作者昨天的作业"
+      }
+    ]
+  },
+  {
+    "id": "cne_012_q4",
+    "topicId": "cne_012",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "补全句子：I want to ______ a doctor in the future.",
+    "answer": "be",
+    "explanation": "表示“成为”用 be（be a doctor）。",
+    "accept": [
+      "be"
+    ]
+  },
+  {
+    "id": "cne_013_q1",
+    "topicId": "cne_013",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列单词中，重音在第一个音节的是（　）。",
+    "answer": "B",
+    "explanation": "festival 读 /ˈfestɪvl/，重音在首音节。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "delicious"
+      },
+      {
+        "key": "B",
+        "text": "festival"
+      },
+      {
+        "key": "C",
+        "text": "enjoy"
+      }
+    ]
+  },
+  {
+    "id": "cne_013_q2",
+    "topicId": "cne_013",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "写出 neighbour 的音节数（用阿拉伯数字）。",
+    "answer": "2",
+    "explanation": "neigh-bour，两个音节，重音在第一个。",
+    "accept": [
+      "2",
+      "two"
+    ]
+  },
+  {
+    "id": "cne_013_q3",
+    "topicId": "cne_013",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "朗读句子时，通常要重读的词是（　）。",
+    "answer": "A",
+    "explanation": "实词（名词、动词、形容词、副词）重读，虚词弱读。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "名词与动词"
+      },
+      {
+        "key": "B",
+        "text": "冠词 the"
+      },
+      {
+        "key": "C",
+        "text": "介词 of"
+      }
+    ]
+  },
+  {
+    "id": "cne_013_q4",
+    "topicId": "cne_013",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "单词 beautiful 的重音在第几个音节？",
+    "answer": "1",
+    "explanation": "beau-ti-ful，重音在第一个音节。",
+    "accept": [
+      "1",
+      "first"
+    ]
+  },
+  {
+    "id": "cne_014_q1",
+    "topicId": "cne_014",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "My uncle is a ______ . He looks after sick animals.",
+    "answer": "A",
+    "explanation": "vet 是兽医，照看生病的动物。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "vet"
+      },
+      {
+        "key": "B",
+        "text": "waiter"
+      },
+      {
+        "key": "C",
+        "text": "pilot"
+      }
+    ]
+  },
+  {
+    "id": "cne_014_q2",
+    "topicId": "cne_014",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "写出 relative 的中文意思（两个字）。",
+    "answer": "亲戚",
+    "explanation": "relative 指“亲戚、亲属”。",
+    "accept": [
+      "亲戚",
+      "亲属"
+    ]
+  },
+  {
+    "id": "cne_014_q3",
+    "topicId": "cne_014",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "There is only ______ bread on the table.",
+    "answer": "B",
+    "explanation": "bread 是不可数名词，用 a little。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "a few"
+      },
+      {
+        "key": "B",
+        "text": "a little"
+      },
+      {
+        "key": "C",
+        "text": "many"
+      }
+    ]
+  },
+  {
+    "id": "cne_014_q4",
+    "topicId": "cne_014",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "用括号内单词的正确形式填空：The soup smells ______ (delicious).",
+    "answer": "delicious",
+    "explanation": "smell 是系动词，后接形容词，delicious 本身即形容词。",
+    "accept": [
+      "delicious"
+    ]
+  },
+  {
+    "id": "cne_015_q1",
+    "topicId": "cne_015",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "This flat is ______ than that one.",
+    "answer": "B",
+    "explanation": "有 than 用比较级 bigger。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "big"
+      },
+      {
+        "key": "B",
+        "text": "bigger"
+      },
+      {
+        "key": "C",
+        "text": "biggest"
+      }
+    ]
+  },
+  {
+    "id": "cne_015_q2",
+    "topicId": "cne_015",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "写出 easy 的比较级。",
+    "answer": "easier",
+    "explanation": "辅音字母 + y 结尾，变 y 为 i 再加 -er。",
+    "accept": [
+      "easier"
+    ]
+  },
+  {
+    "id": "cne_015_q3",
+    "topicId": "cne_015",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "Of all the places in the city, this park is ______ .",
+    "answer": "B",
+    "explanation": "三者以上比较用最高级，多音节词用 the most + 原级。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "more beautiful"
+      },
+      {
+        "key": "B",
+        "text": "the most beautiful"
+      },
+      {
+        "key": "C",
+        "text": "beautifuler"
+      }
+    ]
+  },
+  {
+    "id": "cne_015_q4",
+    "topicId": "cne_015",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "用括号内单词的正确形式填空：He runs ______ (fast) than his brother.",
+    "answer": "faster",
+    "explanation": "than 提示比较级，fast 加 -er。",
+    "accept": [
+      "faster"
+    ]
+  },
+  {
+    "id": "cne_016_q1",
+    "topicId": "cne_016",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "We don't have ______ juice. Let's buy some.",
+    "answer": "B",
+    "explanation": "否定句中用 any。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "some"
+      },
+      {
+        "key": "B",
+        "text": "any"
+      },
+      {
+        "key": "C",
+        "text": "many"
+      }
+    ]
+  },
+  {
+    "id": "cne_016_q2",
+    "topicId": "cne_016",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "用 how many 或 how much 填空：______ milk do you need?",
+    "answer": "how much",
+    "explanation": "milk 不可数，用 how much 提问数量。",
+    "accept": [
+      "how much"
+    ]
+  },
+  {
+    "id": "cne_016_q3",
+    "topicId": "cne_016",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "There are ______ apples in the basket, but only ______ milk in the bottle.",
+    "answer": "A",
+    "explanation": "apples 可数用 a few，milk 不可数用 a little。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "a few; a little"
+      },
+      {
+        "key": "B",
+        "text": "a little; a few"
+      },
+      {
+        "key": "C",
+        "text": "much; many"
+      }
+    ]
+  },
+  {
+    "id": "cne_016_q4",
+    "topicId": "cne_016",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "用括号内单词的正确形式填空：This is ______ (Lucy) bag.",
+    "answer": "Lucy's",
+    "explanation": "表示“露西的书包”用名词所有格 Lucy's。",
+    "accept": [
+      "Lucy's",
+      "Lucy’s"
+    ]
+  },
+  {
+    "id": "cne_017_q1",
+    "topicId": "cne_017",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "— What does your father do? — ______",
+    "answer": "A",
+    "explanation": "What does he do? 问职业。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "He is a doctor."
+      },
+      {
+        "key": "B",
+        "text": "He is fine."
+      },
+      {
+        "key": "C",
+        "text": "He likes apples."
+      }
+    ]
+  },
+  {
+    "id": "cne_017_q2",
+    "topicId": "cne_017",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "补全问句：— ______ is your sister like? — She is friendly and kind.",
+    "answer": "What",
+    "explanation": "询问性格用 What is … like?",
+    "accept": [
+      "what"
+    ]
+  },
+  {
+    "id": "cne_017_q3",
+    "topicId": "cne_017",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "— ______ is this T-shirt? — It's fifty yuan.",
+    "answer": "B",
+    "explanation": "问价格用 How much。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "How many"
+      },
+      {
+        "key": "B",
+        "text": "How much"
+      },
+      {
+        "key": "C",
+        "text": "How long"
+      }
+    ]
+  },
+  {
+    "id": "cne_017_q4",
+    "topicId": "cne_017",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "补全答语：— What does he look like? — He is tall ______ short hair.",
+    "answer": "with",
+    "explanation": "描述“留着短发”用 with 短语作伴随说明。",
+    "accept": [
+      "with"
+    ]
+  },
+  {
+    "id": "cne_018_q1",
+    "topicId": "cne_018",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "Please come to my birthday party at 6 p.m. on Saturday. It is at my home. We will have a big cake. When is the party?",
+    "answer": "A",
+    "explanation": "题目问时间，原文 at 6 p.m. on Saturday。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "At 6 p.m. on Saturday."
+      },
+      {
+        "key": "B",
+        "text": "At home."
+      },
+      {
+        "key": "C",
+        "text": "A big cake."
+      }
+    ]
+  },
+  {
+    "id": "cne_018_q2",
+    "topicId": "cne_018",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "邀请函开头常用的称呼是 Dear ______ ,（填一个人名前的词，如 Tom）。",
+    "answer": "Tom",
+    "explanation": "邀请函通常以 Dear + 名字开头；填任意常见人名均可。",
+    "accept": [
+      "tom",
+      "ann",
+      "jim",
+      "lucy",
+      "lily",
+      "jack",
+      "mary",
+      "peter",
+      "sally",
+      "dear"
+    ]
+  },
+  {
+    "id": "cne_018_q3",
+    "topicId": "cne_018",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "活动海报中，用来吸引同学参加的一句话通常是（　）。",
+    "answer": "A",
+    "explanation": "Come and join us! 是招募式号召语。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Come and join us!"
+      },
+      {
+        "key": "B",
+        "text": "I finished my homework."
+      },
+      {
+        "key": "C",
+        "text": "The bus was late."
+      }
+    ]
+  },
+  {
+    "id": "cne_018_q4",
+    "topicId": "cne_018",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "补全句子（用将来时）：We ______ have a party next Friday.",
+    "answer": "will",
+    "explanation": "next Friday 表示将来，用 will。",
+    "accept": [
+      "will"
+    ]
+  },
+  {
+    "id": "cne_019_q1",
+    "topicId": "cne_019",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "朗读一般疑问句 Are you ready? 时，句末通常用（　）。",
+    "answer": "A",
+    "explanation": "一般疑问句句末用升调。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "升调"
+      },
+      {
+        "key": "B",
+        "text": "降调"
+      },
+      {
+        "key": "C",
+        "text": "平调"
+      }
+    ]
+  },
+  {
+    "id": "cne_019_q2",
+    "topicId": "cne_019",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "特殊疑问句 What time is it? 句末通常用升调还是降调？填“升调”或“降调”。",
+    "answer": "降调",
+    "explanation": "特殊疑问句句末用降调。",
+    "accept": [
+      "降调"
+    ]
+  },
+  {
+    "id": "cne_019_q3",
+    "topicId": "cne_019",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "下列句子中，通常用升调朗读的是（　）。",
+    "answer": "A",
+    "explanation": "一般疑问句用升调；陈述句与特殊疑问句用降调。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Do you like shopping?"
+      },
+      {
+        "key": "B",
+        "text": "I like shopping."
+      },
+      {
+        "key": "C",
+        "text": "Where is the shop?"
+      }
+    ]
+  },
+  {
+    "id": "cne_019_q4",
+    "topicId": "cne_019",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "补全对话：— Would you like to go shopping with me? — ______ , I'd love to.",
+    "answer": "Yes",
+    "explanation": "接受邀请先答 Yes。",
+    "accept": [
+      "yes"
+    ]
+  },
+  {
+    "id": "cne_020_q1",
+    "topicId": "cne_020",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "If you want to travel, you can read a ______ first.",
+    "answer": "A",
+    "explanation": "旅行前读 travel guide（旅游指南）。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "travel guide"
+      },
+      {
+        "key": "B",
+        "text": "shopping list"
+      },
+      {
+        "key": "C",
+        "text": "weather report"
+      }
+    ]
+  },
+  {
+    "id": "cne_020_q2",
+    "topicId": "cne_020",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "写出 electric 的名词形式。",
+    "answer": "electricity",
+    "explanation": "electric（电的）→ electricity（电）。",
+    "accept": [
+      "electricity"
+    ]
+  },
+  {
+    "id": "cne_020_q3",
+    "topicId": "cne_020",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "Water is important. We should not ______ it.",
+    "answer": "A",
+    "explanation": "waste 表示“浪费”，符合语境。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "waste"
+      },
+      {
+        "key": "B",
+        "text": "wave"
+      },
+      {
+        "key": "C",
+        "text": "wake"
+      }
+    ]
+  },
+  {
+    "id": "cne_020_q4",
+    "topicId": "cne_020",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "用括号内单词的正确形式填空：The wind is ______ (blow) hard outside.",
+    "answer": "blowing",
+    "explanation": "is 后接现在分词构成现在进行时。",
+    "accept": [
+      "blowing"
+    ]
+  },
+  {
+    "id": "cne_021_q1",
+    "topicId": "cne_021",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "If it ______ tomorrow, we will stay at home.",
+    "answer": "B",
+    "explanation": "主句用 will，从句用一般现在时，主语 it 接 rains。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "rain"
+      },
+      {
+        "key": "B",
+        "text": "rains"
+      },
+      {
+        "key": "C",
+        "text": "will rain"
+      }
+    ]
+  },
+  {
+    "id": "cne_021_q2",
+    "topicId": "cne_021",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "补全句子：If you work hard, you ______ pass the exam.（填 will 或 are）",
+    "answer": "will",
+    "explanation": "主句表示将来结果，用 will。",
+    "accept": [
+      "will"
+    ]
+  },
+  {
+    "id": "cne_021_q3",
+    "topicId": "cne_021",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "下列句子正确的是（　）。",
+    "answer": "B",
+    "explanation": "if 从句用一般现在时，且主语第三人称单数用 comes。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "If he will come, I will tell him."
+      },
+      {
+        "key": "B",
+        "text": "If he comes, I will tell him."
+      },
+      {
+        "key": "C",
+        "text": "If he come, I will tell him."
+      }
+    ]
+  },
+  {
+    "id": "cne_021_q4",
+    "topicId": "cne_021",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "用括号内单词的正确形式填空：If you don't hurry, you ______ (be) late.",
+    "answer": "will be",
+    "explanation": "主句表示将来结果，用 will be。",
+    "accept": [
+      "will be",
+      "'ll be"
+    ]
+  },
+  {
+    "id": "cne_022_q1",
+    "topicId": "cne_022",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "He went to the library ______ some books.",
+    "answer": "B",
+    "explanation": "去图书馆的目的是借书，用不定式表目的。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "borrow"
+      },
+      {
+        "key": "B",
+        "text": "to borrow"
+      },
+      {
+        "key": "C",
+        "text": "borrowing"
+      }
+    ]
+  },
+  {
+    "id": "cne_022_q2",
+    "topicId": "cne_022",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "用括号内单词的正确形式填空：I want ______ (visit) the museum.",
+    "answer": "to visit",
+    "explanation": "want 后接不定式 to do。",
+    "accept": [
+      "to visit"
+    ]
+  },
+  {
+    "id": "cne_022_q3",
+    "topicId": "cne_022",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "下列搭配正确的是（　）。",
+    "answer": "B",
+    "explanation": "enjoy 后接动名词。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "enjoy to swim"
+      },
+      {
+        "key": "B",
+        "text": "enjoy swimming"
+      },
+      {
+        "key": "C",
+        "text": "enjoy swim"
+      }
+    ]
+  },
+  {
+    "id": "cne_022_q4",
+    "topicId": "cne_022",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "用括号内单词的正确形式填空：She practises ______ (speak) English every day.",
+    "answer": "speaking",
+    "explanation": "practise 后接动名词。",
+    "accept": [
+      "speaking"
+    ]
+  },
+  {
+    "id": "cne_023_q1",
+    "topicId": "cne_023",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "— ______ going shopping this afternoon? — Good idea.",
+    "answer": "A",
+    "explanation": "How about + doing 用于提建议。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "How about"
+      },
+      {
+        "key": "B",
+        "text": "How many"
+      },
+      {
+        "key": "C",
+        "text": "How long"
+      }
+    ]
+  },
+  {
+    "id": "cne_023_q2",
+    "topicId": "cne_023",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "试穿衣服时问营业员，可以说 Can I ______ it on?",
+    "answer": "try",
+    "explanation": "try on 表示试穿。",
+    "accept": [
+      "try"
+    ]
+  },
+  {
+    "id": "cne_023_q3",
+    "topicId": "cne_023",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "— Can I help you? — ______",
+    "answer": "A",
+    "explanation": "营业员问需要什么，答 I'd like…, please.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "I'd like a T-shirt, please."
+      },
+      {
+        "key": "B",
+        "text": "You're welcome."
+      },
+      {
+        "key": "C",
+        "text": "Yes, I can."
+      }
+    ]
+  },
+  {
+    "id": "cne_023_q4",
+    "topicId": "cne_023",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "补全对话：— How much is it? — It's 80 yuan. — OK, I'll ______ it.",
+    "answer": "take",
+    "explanation": "决定购买常说 I'll take it.",
+    "accept": [
+      "take",
+      "buy"
+    ]
+  },
+  {
+    "id": "cne_024_q1",
+    "topicId": "cne_024",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "写旅游指南时，交代位置的常用表达是（　）。",
+    "answer": "A",
+    "explanation": "in the east of 是常见方位表达。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "It is in the east of the city."
+      },
+      {
+        "key": "B",
+        "text": "It was Sunday yesterday."
+      },
+      {
+        "key": "C",
+        "text": "I like apples."
+      }
+    ]
+  },
+  {
+    "id": "cne_024_q2",
+    "topicId": "cne_024",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "补全对话：— Can I help you? — Yes, I'd ______ a pair of shoes.",
+    "answer": "like",
+    "explanation": "I'd like… 用于礼貌表达需求。",
+    "accept": [
+      "like"
+    ]
+  },
+  {
+    "id": "cne_024_q3",
+    "topicId": "cne_024",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "旅游指南的结尾通常写（　）。",
+    "answer": "A",
+    "explanation": "指南结尾常以邀请与建议收束。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "欢迎前来并给出建议"
+      },
+      {
+        "key": "B",
+        "text": "作者的出生日期"
+      },
+      {
+        "key": "C",
+        "text": "上一段对话的内容"
+      }
+    ]
+  },
+  {
+    "id": "cne_024_q4",
+    "topicId": "cne_024",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "补全句子（用连接词）：The park is beautiful ______ the food there is delicious.",
+    "answer": "and",
+    "explanation": "两个并列分句用 and 连接。",
+    "accept": [
+      "and"
+    ]
+  },
+  {
+    "id": "cne_025_q1",
+    "topicId": "cne_025",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "朗读 an apple 时，通常发生（　）。",
+    "answer": "A",
+    "explanation": "an 的尾辅音与 apple 的首元音连读。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "连读"
+      },
+      {
+        "key": "B",
+        "text": "失去爆破"
+      },
+      {
+        "key": "C",
+        "text": "不发生变化"
+      }
+    ]
+  },
+  {
+    "id": "cne_025_q2",
+    "topicId": "cne_025",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "连读通常发生在“辅音 + ______”之间。（填“元音”或“辅音”）",
+    "answer": "元音",
+    "explanation": "辅音结尾接元音开头最容易连读。",
+    "accept": [
+      "元音"
+    ]
+  },
+  {
+    "id": "cne_025_q3",
+    "topicId": "cne_025",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "下列句子中，通常弱读的词是（　）。",
+    "answer": "A",
+    "explanation": "介词、冠词、连词等虚词通常弱读。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "of"
+      },
+      {
+        "key": "B",
+        "text": "beautiful"
+      },
+      {
+        "key": "C",
+        "text": "teacher"
+      }
+    ]
+  },
+  {
+    "id": "cne_025_q4",
+    "topicId": "cne_025",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "用“/”标出意群（只需填斜线个数）：He said that he would come. 该句通常划为 ______ 个意群。",
+    "answer": "2",
+    "explanation": "He said / that he would come，两个意群。",
+    "accept": [
+      "2",
+      "两",
+      "二"
+    ]
+  },
+  {
+    "id": "cne_026_q1",
+    "topicId": "cne_026",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "A person you write letters to is your ______ .",
+    "answer": "A",
+    "explanation": "penfriend 指笔友。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "penfriend"
+      },
+      {
+        "key": "B",
+        "text": "enemy"
+      },
+      {
+        "key": "C",
+        "text": "customer"
+      }
+    ]
+  },
+  {
+    "id": "cne_026_q2",
+    "topicId": "cne_026",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "写出 safe 的名词形式。",
+    "answer": "safety",
+    "explanation": "safe（安全的）→ safety（安全）。",
+    "accept": [
+      "safety"
+    ]
+  },
+  {
+    "id": "cne_026_q3",
+    "topicId": "cne_026",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "The boy ______ in the accident, but he was not hurt.",
+    "answer": "A",
+    "explanation": "disappear 表示“消失”，与后半句语义相符。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "disappeared"
+      },
+      {
+        "key": "B",
+        "text": "appeared"
+      },
+      {
+        "key": "C",
+        "text": "enjoyed"
+      }
+    ]
+  },
+  {
+    "id": "cne_026_q4",
+    "topicId": "cne_026",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "用括号内单词的正确形式填空：He looked at me ______ (angry).",
+    "answer": "angrily",
+    "explanation": "修饰动词 looked 需要副词 angrily。",
+    "accept": [
+      "angrily"
+    ]
+  },
+  {
+    "id": "cne_027_q1",
+    "topicId": "cne_027",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "I ______ here for ten years.",
+    "answer": "B",
+    "explanation": "for + 时间段用现在完成时。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "live"
+      },
+      {
+        "key": "B",
+        "text": "have lived"
+      },
+      {
+        "key": "C",
+        "text": "am living"
+      }
+    ]
+  },
+  {
+    "id": "cne_027_q2",
+    "topicId": "cne_027",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "用括号内单词的正确形式填空：She ______ (finish) her homework already.",
+    "answer": "has finished",
+    "explanation": "already 常与现在完成时连用，主语 she 接 has。",
+    "accept": [
+      "has finished"
+    ]
+  },
+  {
+    "id": "cne_027_q3",
+    "topicId": "cne_027",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "— Have you ever ______ to Beijing? — Yes, twice.",
+    "answer": "B",
+    "explanation": "have been to 表示“去过某地（已回来）”。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "gone"
+      },
+      {
+        "key": "B",
+        "text": "been"
+      },
+      {
+        "key": "C",
+        "text": "went"
+      }
+    ]
+  },
+  {
+    "id": "cne_027_q4",
+    "topicId": "cne_027",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "用 since 或 for 填空：He has worked here ______ 2019.",
+    "answer": "since",
+    "explanation": "2019 是时间点，用 since。",
+    "accept": [
+      "since"
+    ]
+  },
+  {
+    "id": "cne_028_q1",
+    "topicId": "cne_028",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "I ______ when the phone rang.",
+    "answer": "B",
+    "explanation": "表示过去某时正在进行，用过去进行时。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "read"
+      },
+      {
+        "key": "B",
+        "text": "was reading"
+      },
+      {
+        "key": "C",
+        "text": "am reading"
+      }
+    ]
+  },
+  {
+    "id": "cne_028_q2",
+    "topicId": "cne_028",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "用括号内单词的正确形式填空：They ______ (play) football at 4 p.m. yesterday.",
+    "answer": "were playing",
+    "explanation": "过去某一时刻正在做某事，用过去进行时；主语 they 接 were。",
+    "accept": [
+      "were playing"
+    ]
+  },
+  {
+    "id": "cne_028_q3",
+    "topicId": "cne_028",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "______ I was doing my homework, my mother was cooking.",
+    "answer": "A",
+    "explanation": "两个持续动作同时进行，while 引导从句更常见。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "While"
+      },
+      {
+        "key": "B",
+        "text": "When"
+      },
+      {
+        "key": "C",
+        "text": "Before"
+      }
+    ]
+  },
+  {
+    "id": "cne_028_q4",
+    "topicId": "cne_028",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "用括号内单词的正确形式填空：While she ______ (sing), the lights went out.",
+    "answer": "was singing",
+    "explanation": "while 从句用过去进行时。",
+    "accept": [
+      "was singing"
+    ]
+  },
+  {
+    "id": "cne_029_q1",
+    "topicId": "cne_029",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "There are ______ students in our school.",
+    "answer": "B",
+    "explanation": "hundred 前有具体数字时用单数。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "nine hundreds"
+      },
+      {
+        "key": "B",
+        "text": "nine hundred"
+      },
+      {
+        "key": "C",
+        "text": "nine hundred of"
+      }
+    ]
+  },
+  {
+    "id": "cne_029_q2",
+    "topicId": "cne_029",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "用英语写出序数词“第十二”。",
+    "answer": "twelfth",
+    "explanation": "12 的序数词是不规则形式 twelfth。",
+    "accept": [
+      "twelfth",
+      "the twelfth"
+    ]
+  },
+  {
+    "id": "cne_029_q3",
+    "topicId": "cne_029",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "______ of people visit the museum every year.",
+    "answer": "B",
+    "explanation": "thousands of 表示“数以千计的”。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Thousand"
+      },
+      {
+        "key": "B",
+        "text": "Thousands"
+      },
+      {
+        "key": "C",
+        "text": "A thousand"
+      }
+    ]
+  },
+  {
+    "id": "cne_029_q4",
+    "topicId": "cne_029",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "用英语写出分数“三分之一”。",
+    "answer": "one third",
+    "explanation": "分子用基数词 one，分母用序数词 third。",
+    "accept": [
+      "one third",
+      "a third",
+      "1/3"
+    ]
+  },
+  {
+    "id": "cne_030_q1",
+    "topicId": "cne_030",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "— Hello, may I speak to Tom? — ______",
+    "answer": "A",
+    "explanation": "电话中自报身份用 This is … speaking.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "This is Tom speaking."
+      },
+      {
+        "key": "B",
+        "text": "I am Tom."
+      },
+      {
+        "key": "C",
+        "text": "Who are you?"
+      }
+    ]
+  },
+  {
+    "id": "cne_030_q2",
+    "topicId": "cne_030",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "电话中请对方稍等，可以说 Hold ______ , please.",
+    "answer": "on",
+    "explanation": "hold on 表示“稍等、别挂断”。",
+    "accept": [
+      "on"
+    ]
+  },
+  {
+    "id": "cne_030_q3",
+    "topicId": "cne_030",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "描述突发事件时，下列词中表示时间顺序的是（　）。",
+    "answer": "C",
+    "explanation": "suddenly 表“突然”，finally 表“最后”，都用于时间顺序。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "suddenly"
+      },
+      {
+        "key": "B",
+        "text": "finally"
+      },
+      {
+        "key": "C",
+        "text": "both A and B"
+      }
+    ]
+  },
+  {
+    "id": "cne_030_q4",
+    "topicId": "cne_030",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "补全句子：He was crossing the street ______ a car came round the corner.",
+    "answer": "when",
+    "explanation": "过去进行时 + when + 一般过去时，表示“正在……这时……”。",
+    "accept": [
+      "when"
+    ]
+  },
+  {
+    "id": "cne_031_q1",
+    "topicId": "cne_031",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "An encyclopaedia is a book of facts. It tells you about people, places and things. What is an encyclopaedia?",
+    "answer": "A",
+    "explanation": "首句直接给出定义 a book of facts。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "A book of facts."
+      },
+      {
+        "key": "B",
+        "text": "A story book."
+      },
+      {
+        "key": "C",
+        "text": "A picture book."
+      }
+    ]
+  },
+  {
+    "id": "cne_031_q2",
+    "topicId": "cne_031",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "复述故事通常按 beginning、middle 和 ______ 三部分。",
+    "answer": "end",
+    "explanation": "故事结构为开头、发展、结尾。",
+    "accept": [
+      "end",
+      "ending"
+    ]
+  },
+  {
+    "id": "cne_031_q3",
+    "topicId": "cne_031",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "词条式说明文的第一句通常（　）。",
+    "answer": "A",
+    "explanation": "词条首句通常是定义句。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "给出定义"
+      },
+      {
+        "key": "B",
+        "text": "描写天气"
+      },
+      {
+        "key": "C",
+        "text": "提出问题让读者猜"
+      }
+    ]
+  },
+  {
+    "id": "cne_031_q4",
+    "topicId": "cne_031",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "补全句子（用被动语态）：The book ______ (write) by a famous writer.",
+    "answer": "was written",
+    "explanation": "书“被写”，用一般过去时被动语态。",
+    "accept": [
+      "was written"
+    ]
+  },
+  {
+    "id": "cne_032_q1",
+    "topicId": "cne_032",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "短语 big problem 中，big 的 /g/ 通常（　）。",
+    "answer": "A",
+    "explanation": "爆破音 + 爆破音，前一个失去爆破。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "失去爆破"
+      },
+      {
+        "key": "B",
+        "text": "读得更重"
+      },
+      {
+        "key": "C",
+        "text": "读成 /k/"
+      }
+    ]
+  },
+  {
+    "id": "cne_032_q2",
+    "topicId": "cne_032",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "单词 strong 开头的三个辅音是辅音连缀，其中第一个字母是 s，第二个字母是 ______ 。",
+    "answer": "t",
+    "explanation": "str- 是常见辅音连缀。",
+    "accept": [
+      "t"
+    ]
+  },
+  {
+    "id": "cne_032_q3",
+    "topicId": "cne_032",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "下列短语中会发生失去爆破的是（　）。",
+    "answer": "A",
+    "explanation": "next 的 /t/ 与 day 的 /d/ 都是爆破音；an apple、go out 是连读。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "next day"
+      },
+      {
+        "key": "B",
+        "text": "an apple"
+      },
+      {
+        "key": "C",
+        "text": "go out"
+      }
+    ]
+  },
+  {
+    "id": "cne_032_q4",
+    "topicId": "cne_032",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "补全短语：请用英文写出“一张大桌子”，注意定冠词与形容词顺序。",
+    "answer": "a big table",
+    "explanation": "冠词 + 形容词 + 名词。",
+    "accept": [
+      "a big table"
+    ]
+  },
+  {
+    "id": "cne_033_q1",
+    "topicId": "cne_033",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "Trees can ______ us with oxygen.",
+    "answer": "A",
+    "explanation": "provide sb with sth 是固定搭配。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "provide"
+      },
+      {
+        "key": "B",
+        "text": "protect"
+      },
+      {
+        "key": "C",
+        "text": "produce"
+      }
+    ]
+  },
+  {
+    "id": "cne_033_q2",
+    "topicId": "cne_033",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "写出 pollute 的名词形式。",
+    "answer": "pollution",
+    "explanation": "pollute（污染）→ pollution（污染）。",
+    "accept": [
+      "pollution"
+    ]
+  },
+  {
+    "id": "cne_033_q3",
+    "topicId": "cne_033",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "We should save ______ because it is limited.",
+    "answer": "A",
+    "explanation": "save energy 表示“节约能源”，需用名词。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "energy"
+      },
+      {
+        "key": "B",
+        "text": "electric"
+      },
+      {
+        "key": "C",
+        "text": "powerful"
+      }
+    ]
+  },
+  {
+    "id": "cne_033_q4",
+    "topicId": "cne_033",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "用括号内单词的正确形式填空：These bottles can be ______ (reuse).",
+    "answer": "reused",
+    "explanation": "情态动词被动语态 can be + 过去分词。",
+    "accept": [
+      "reused"
+    ]
+  },
+  {
+    "id": "cne_034_q1",
+    "topicId": "cne_034",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "English ______ in many countries.",
+    "answer": "B",
+    "explanation": "English 是被说的对象，用一般现在时被动语态。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "speaks"
+      },
+      {
+        "key": "B",
+        "text": "is spoken"
+      },
+      {
+        "key": "C",
+        "text": "spoke"
+      }
+    ]
+  },
+  {
+    "id": "cne_034_q2",
+    "topicId": "cne_034",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "用括号内单词的正确形式填空：This bridge ______ (build) in 1998.",
+    "answer": "was built",
+    "explanation": "1998 是过去时间，用一般过去时被动语态。",
+    "accept": [
+      "was built"
+    ]
+  },
+  {
+    "id": "cne_034_q3",
+    "topicId": "cne_034",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "The room ______ every day.",
+    "answer": "B",
+    "explanation": "房间被打扫，用一般现在时被动语态。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "cleans"
+      },
+      {
+        "key": "B",
+        "text": "is cleaned"
+      },
+      {
+        "key": "C",
+        "text": "cleaned"
+      }
+    ]
+  },
+  {
+    "id": "cne_034_q4",
+    "topicId": "cne_034",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "用括号内单词的正确形式填空：Many trees ______ (plant) last year.",
+    "answer": "were planted",
+    "explanation": "trees 是复数，过去时间用 were planted。",
+    "accept": [
+      "were planted"
+    ]
+  },
+  {
+    "id": "cne_035_q1",
+    "topicId": "cne_035",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "Do you know where he ______ ?",
+    "answer": "A",
+    "explanation": "宾语从句用陈述语序，主语 he 后接 lives。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "lives"
+      },
+      {
+        "key": "B",
+        "text": "does he live"
+      },
+      {
+        "key": "C",
+        "text": "does live"
+      }
+    ]
+  },
+  {
+    "id": "cne_035_q2",
+    "topicId": "cne_035",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "用 if 或 that 填空：I don't know ______ he will come tomorrow.",
+    "answer": "if",
+    "explanation": "表示“是否”用 if（也可用 whether）。",
+    "accept": [
+      "if",
+      "whether"
+    ]
+  },
+  {
+    "id": "cne_035_q3",
+    "topicId": "cne_035",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "He asked me ______ I had finished my homework.",
+    "answer": "B",
+    "explanation": "主句是“问”，从句表示“是否”，用 if。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "that"
+      },
+      {
+        "key": "B",
+        "text": "if"
+      },
+      {
+        "key": "C",
+        "text": "what"
+      }
+    ]
+  },
+  {
+    "id": "cne_035_q4",
+    "topicId": "cne_035",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "合并为一句（宾语从句）：What time is it? Can you tell me…",
+    "answer": "Can you tell me what time it is?",
+    "explanation": "疑问词 what time 引导，从句用陈述语序 it is。",
+    "accept": [
+      "can you tell me what time it is",
+      "could you tell me what time it is",
+      "can you tell me what time it is?",
+      "could you tell me what time it is?"
+    ]
+  },
+  {
+    "id": "cne_036_q1",
+    "topicId": "cne_036",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "A fire broke out in a shop on Green Street last night. Nobody was hurt. When did the fire break out?",
+    "answer": "A",
+    "explanation": "导语中 last night 是时间信息。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Last night."
+      },
+      {
+        "key": "B",
+        "text": "On Green Street."
+      },
+      {
+        "key": "C",
+        "text": "Nobody."
+      }
+    ]
+  },
+  {
+    "id": "cne_036_q2",
+    "topicId": "cne_036",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "新闻导语通常要交代 who、what、when 和 ______ 四个要素。",
+    "answer": "where",
+    "explanation": "新闻导语交代人物、事件、时间、地点。",
+    "accept": [
+      "where"
+    ]
+  },
+  {
+    "id": "cne_036_q3",
+    "topicId": "cne_036",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "游记中表达感受的句子通常是（　）。",
+    "answer": "A",
+    "explanation": "I felt very happy 表达个人感受。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "I felt very happy."
+      },
+      {
+        "key": "B",
+        "text": "The bus leaves at 8."
+      },
+      {
+        "key": "C",
+        "text": "He is my brother."
+      }
+    ]
+  },
+  {
+    "id": "cne_036_q4",
+    "topicId": "cne_036",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "补全句子（用现在完成时）：I ______ never seen such a beautiful place.",
+    "answer": "have",
+    "explanation": "现在完成时结构 have/has + 过去分词。",
+    "accept": [
+      "have"
+    ]
+  },
+  {
+    "id": "cne_037_q1",
+    "topicId": "cne_037",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列停顿位置最恰当的是（　）。",
+    "answer": "A",
+    "explanation": "条件从句与主句各为一个意群。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "If I were you, / I would take the job."
+      },
+      {
+        "key": "B",
+        "text": "If I / were you I would / take the job."
+      },
+      {
+        "key": "C",
+        "text": "If / I / were / you / I would take the job."
+      }
+    ]
+  },
+  {
+    "id": "cne_037_q2",
+    "topicId": "cne_037",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "朗读时，意群内部一般 ______ （填“停顿”或“不停顿”）。",
+    "answer": "不停顿",
+    "explanation": "意群内部连贯读出，意群之间才停顿。",
+    "accept": [
+      "不停顿"
+    ]
+  },
+  {
+    "id": "cne_037_q3",
+    "topicId": "cne_037",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "英语句子的节奏主要依靠（　）。",
+    "answer": "A",
+    "explanation": "英语是重音计时语言，靠重读与弱读形成节奏。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "重读与弱读交替"
+      },
+      {
+        "key": "B",
+        "text": "每个词都重读"
+      },
+      {
+        "key": "C",
+        "text": "每个词都拖长"
+      }
+    ]
+  },
+  {
+    "id": "cne_037_q4",
+    "topicId": "cne_037",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "补全句子（用虚拟语气）：If I ______ (be) you, I would take the job.",
+    "answer": "were",
+    "explanation": "与现在事实相反的虚拟条件句，be 动词用 were。",
+    "accept": [
+      "were"
+    ]
+  },
+  {
+    "id": "cne_038_q1",
+    "topicId": "cne_038",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "The detective found a ______ at the scene.",
+    "answer": "A",
+    "explanation": "detective 与 scene 提示“线索”，clue 符合语境。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "clue"
+      },
+      {
+        "key": "B",
+        "text": "club"
+      },
+      {
+        "key": "C",
+        "text": "cloud"
+      }
+    ]
+  },
+  {
+    "id": "cne_038_q2",
+    "topicId": "cne_038",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "写出 ancient 的反义词。",
+    "answer": "modern",
+    "explanation": "ancient（古代的）↔ modern（现代的）。",
+    "accept": [
+      "modern"
+    ]
+  },
+  {
+    "id": "cne_038_q3",
+    "topicId": "cne_038",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "These paper cuttings show the ______ skills of Chinese people.",
+    "answer": "A",
+    "explanation": "修饰名词 skills 用形容词 traditional。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "traditional"
+      },
+      {
+        "key": "B",
+        "text": "tradition"
+      },
+      {
+        "key": "C",
+        "text": "traditionally"
+      }
+    ]
+  },
+  {
+    "id": "cne_038_q4",
+    "topicId": "cne_038",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "用括号内单词的正确形式填空：The program can protect your computer from ______ (virus).",
+    "answer": "viruses",
+    "explanation": "from 后接名词，泛指病毒用复数 viruses。",
+    "accept": [
+      "viruses"
+    ]
+  },
+  {
+    "id": "cne_039_q1",
+    "topicId": "cne_039",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "The man ______ wrote this book is a writer.",
+    "answer": "B",
+    "explanation": "先行词 the man 是人，在从句中作主语，用 who。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "which"
+      },
+      {
+        "key": "B",
+        "text": "who"
+      },
+      {
+        "key": "C",
+        "text": "whose"
+      }
+    ]
+  },
+  {
+    "id": "cne_039_q2",
+    "topicId": "cne_039",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "用 who 或 which 填空：This is the kite ______ my grandpa made.",
+    "answer": "which",
+    "explanation": "先行词 kite 是物，用 which（也可用 that）。",
+    "accept": [
+      "which",
+      "that"
+    ]
+  },
+  {
+    "id": "cne_039_q3",
+    "topicId": "cne_039",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "I like the film ______ we saw last night.",
+    "answer": "B",
+    "explanation": "先行词 film 是物，在从句中作宾语，用 which/that。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "who"
+      },
+      {
+        "key": "B",
+        "text": "which"
+      },
+      {
+        "key": "C",
+        "text": "whose"
+      }
+    ]
+  },
+  {
+    "id": "cne_039_q4",
+    "topicId": "cne_039",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "用 who、which 或 whose 填空：The girl ______ hair is long is my sister.",
+    "answer": "whose",
+    "explanation": "表示“谁的头发”，用 whose 作定语。",
+    "accept": [
+      "whose"
+    ]
+  },
+  {
+    "id": "cne_040_q1",
+    "topicId": "cne_040",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "He asked me where I ______ .",
+    "answer": "B",
+    "explanation": "主句 asked 是过去时，从句用过去时，且用陈述语序。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "live"
+      },
+      {
+        "key": "B",
+        "text": "lived"
+      },
+      {
+        "key": "C",
+        "text": "did live"
+      }
+    ]
+  },
+  {
+    "id": "cne_040_q2",
+    "topicId": "cne_040",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "改错（只填正确形式）：She said that she is tired. → she ______ tired.",
+    "answer": "was",
+    "explanation": "主句 said 是过去时，从句用 was。",
+    "accept": [
+      "was"
+    ]
+  },
+  {
+    "id": "cne_040_q3",
+    "topicId": "cne_040",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "The teacher told us that the earth ______ around the sun.",
+    "answer": "B",
+    "explanation": "客观真理不受主句时态影响，用一般现在时。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "went"
+      },
+      {
+        "key": "B",
+        "text": "goes"
+      },
+      {
+        "key": "C",
+        "text": "will go"
+      }
+    ]
+  },
+  {
+    "id": "cne_040_q4",
+    "topicId": "cne_040",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "合并为一句（宾语从句）：Where is the museum? Could you tell me…",
+    "answer": "Could you tell me where the museum is?",
+    "explanation": "疑问词 where 引导，从句用陈述语序 the museum is。",
+    "accept": [
+      "could you tell me where the museum is",
+      "could you tell me where the museum is?"
+    ]
+  },
+  {
+    "id": "cne_041_q1",
+    "topicId": "cne_041",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "I will call you as soon as I ______ there.",
+    "answer": "A",
+    "explanation": "时间状语从句“主将从现”，从句用一般现在时。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "get"
+      },
+      {
+        "key": "B",
+        "text": "will get"
+      },
+      {
+        "key": "C",
+        "text": "got"
+      }
+    ]
+  },
+  {
+    "id": "cne_041_q2",
+    "topicId": "cne_041",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "用 because 或 so 填空：He was late ______ he missed the bus.",
+    "answer": "because",
+    "explanation": "后句是原因，用 because。",
+    "accept": [
+      "because"
+    ]
+  },
+  {
+    "id": "cne_041_q3",
+    "topicId": "cne_041",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "The box was ______ heavy that nobody could carry it.",
+    "answer": "B",
+    "explanation": "so + 形容词 + that…；such + 名词短语 + that…。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "such"
+      },
+      {
+        "key": "B",
+        "text": "so"
+      },
+      {
+        "key": "C",
+        "text": "very"
+      }
+    ]
+  },
+  {
+    "id": "cne_041_q4",
+    "topicId": "cne_041",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "用括号内单词的正确形式填空：Although it ______ (rain) heavily, they went on working.",
+    "answer": "was raining",
+    "explanation": "although 引导让步状语从句，用过去进行时描述当时情形。",
+    "accept": [
+      "was raining",
+      "rained"
+    ]
+  },
+  {
+    "id": "cne_042_q1",
+    "topicId": "cne_042",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "It ______ be Lucy's bag. Her name is on it.",
+    "answer": "A",
+    "explanation": "有确凿证据，表示肯定推断用 must。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "must"
+      },
+      {
+        "key": "B",
+        "text": "can't"
+      },
+      {
+        "key": "C",
+        "text": "needn't"
+      }
+    ]
+  },
+  {
+    "id": "cne_042_q2",
+    "topicId": "cne_042",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "表达个人观点常用 In my ______ , …（填一个词）。",
+    "answer": "opinion",
+    "explanation": "In my opinion 表示“在我看来”。",
+    "accept": [
+      "opinion"
+    ]
+  },
+  {
+    "id": "cne_042_q3",
+    "topicId": "cne_042",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "— Someone is knocking at the door. Who ______ it be? — It might be Tom.",
+    "answer": "B",
+    "explanation": "疑问句中表推测用 can。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "must"
+      },
+      {
+        "key": "B",
+        "text": "can"
+      },
+      {
+        "key": "C",
+        "text": "need"
+      }
+    ]
+  },
+  {
+    "id": "cne_042_q4",
+    "topicId": "cne_042",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "补全句子：It ______ be Tom's. His bag is still in the classroom.",
+    "answer": "can't",
+    "explanation": "他的包还在教室，所以“不可能是”汤姆的，用 can't。",
+    "accept": [
+      "can't",
+      "cannot",
+      "can not",
+      "can’t"
+    ]
+  },
+  {
+    "id": "cne_043_q1",
+    "topicId": "cne_043",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "The brain is the control centre of our body. It tells us what to do and helps us remember things. What is the main idea?",
+    "answer": "A",
+    "explanation": "首句即主题句。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The brain is the control centre of our body."
+      },
+      {
+        "key": "B",
+        "text": "We should sleep more."
+      },
+      {
+        "key": "C",
+        "text": "The brain is very small."
+      }
+    ]
+  },
+  {
+    "id": "cne_043_q2",
+    "topicId": "cne_043",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "说明文的主题句常出现在段落的开头或 ______ 。",
+    "answer": "结尾",
+    "explanation": "主题句可在段首或段末。",
+    "accept": [
+      "结尾",
+      "末尾",
+      "end"
+    ]
+  },
+  {
+    "id": "cne_043_q3",
+    "topicId": "cne_043",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "续写故事结局时，最重要的是（　）。",
+    "answer": "A",
+    "explanation": "续写要合乎前文逻辑与人物设定。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "与前文的线索一致"
+      },
+      {
+        "key": "B",
+        "text": "加入越多人物越好"
+      },
+      {
+        "key": "C",
+        "text": "越长越好"
+      }
+    ]
+  },
+  {
+    "id": "cne_043_q4",
+    "topicId": "cne_043",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "补全句子（用 so…that）：He was ______ tired that he fell asleep at once.",
+    "answer": "so",
+    "explanation": "so + 形容词 + that 引导结果状语从句。",
+    "accept": [
+      "so"
+    ]
+  },
+  {
+    "id": "cne_044_q1",
+    "topicId": "cne_044",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "We should ______ paper and bottles instead of throwing them away.",
+    "answer": "A",
+    "explanation": "recycle 表示“回收利用”。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "recycle"
+      },
+      {
+        "key": "B",
+        "text": "refuse"
+      },
+      {
+        "key": "C",
+        "text": "repeat"
+      }
+    ]
+  },
+  {
+    "id": "cne_044_q2",
+    "topicId": "cne_044",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "写出 environment 的形容词形式。",
+    "answer": "environmental",
+    "explanation": "environment（环境）→ environmental（环境的）。",
+    "accept": [
+      "environmental"
+    ]
+  },
+  {
+    "id": "cne_044_q3",
+    "topicId": "cne_044",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "The ______ of the film is about a boy and his dog.",
+    "answer": "A",
+    "explanation": "plot 指（电影的）情节。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "plot"
+      },
+      {
+        "key": "B",
+        "text": "plate"
+      },
+      {
+        "key": "C",
+        "text": "plan"
+      }
+    ]
+  },
+  {
+    "id": "cne_044_q4",
+    "topicId": "cne_044",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "用括号内单词的正确形式填空：This is one of the most ______ (success) films of the year.",
+    "answer": "successful",
+    "explanation": "one of the + 最高级 + 复数名词，需形容词 successful。",
+    "accept": [
+      "successful"
+    ]
+  },
+  {
+    "id": "cne_045_q1",
+    "topicId": "cne_045",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "The rubbish must ______ into the right bin.",
+    "answer": "B",
+    "explanation": "情态动词被动语态：must be + 过去分词。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "put"
+      },
+      {
+        "key": "B",
+        "text": "be put"
+      },
+      {
+        "key": "C",
+        "text": "be putting"
+      }
+    ]
+  },
+  {
+    "id": "cne_045_q2",
+    "topicId": "cne_045",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "用括号内单词的正确形式填空：The work ______ (finish) already.",
+    "answer": "has been finished",
+    "explanation": "already 提示现在完成时，工作被完成，用 has been + 过去分词。",
+    "accept": [
+      "has been finished"
+    ]
+  },
+  {
+    "id": "cne_045_q3",
+    "topicId": "cne_045",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "A lot of trees ______ in our city since 2015.",
+    "answer": "B",
+    "explanation": "since 2015 用现在完成时，树是被种的，用被动语态。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "have planted"
+      },
+      {
+        "key": "B",
+        "text": "have been planted"
+      },
+      {
+        "key": "C",
+        "text": "were planting"
+      }
+    ]
+  },
+  {
+    "id": "cne_045_q4",
+    "topicId": "cne_045",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "用括号内单词的正确形式填空：These old houses ______ (pull) down next year.",
+    "answer": "will be pulled",
+    "explanation": "next year 用一般将来时被动语态 will be + 过去分词。",
+    "accept": [
+      "will be pulled"
+    ]
+  },
+  {
+    "id": "cne_046_q1",
+    "topicId": "cne_046",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "Tom said that he ______ tired.",
+    "answer": "B",
+    "explanation": "主句 said 过去时，间接引语时态后移为 was。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "is"
+      },
+      {
+        "key": "B",
+        "text": "was"
+      },
+      {
+        "key": "C",
+        "text": "were"
+      }
+    ]
+  },
+  {
+    "id": "cne_046_q2",
+    "topicId": "cne_046",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "补全反意疑问句：He is a doctor, ______ he?",
+    "answer": "isn't",
+    "explanation": "前肯后否，be 动词为 is，所以用 isn't。",
+    "accept": [
+      "isn't",
+      "is not",
+      "isn’t"
+    ]
+  },
+  {
+    "id": "cne_046_q3",
+    "topicId": "cne_046",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "They went to the park yesterday, ______ they?",
+    "answer": "A",
+    "explanation": "前句用实义动词过去式 went，反意部分用 didn't。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "didn't"
+      },
+      {
+        "key": "B",
+        "text": "don't"
+      },
+      {
+        "key": "C",
+        "text": "weren't"
+      }
+    ]
+  },
+  {
+    "id": "cne_046_q4",
+    "topicId": "cne_046",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "把直接引语改为间接引语（只填从句部分）：She said, \"I will come tomorrow.\" → She said that she ______ come the next day.",
+    "answer": "would",
+    "explanation": "will 在过去时的间接引语中后移为 would，tomorrow 变为 the next day。",
+    "accept": [
+      "would"
+    ]
+  },
+  {
+    "id": "cne_047_q1",
+    "topicId": "cne_047",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "I think students should do more sports. First, sports make us healthy. Second, they teach us teamwork. What is the writer's opinion?",
+    "answer": "A",
+    "explanation": "首句 I think 后即作者观点。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Students should do more sports."
+      },
+      {
+        "key": "B",
+        "text": "Sports are dangerous."
+      },
+      {
+        "key": "C",
+        "text": "Teamwork is easy."
+      }
+    ]
+  },
+  {
+    "id": "cne_047_q2",
+    "topicId": "cne_047",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "议论文中支撑论点的句子称为 ______ 。",
+    "answer": "论据",
+    "explanation": "论点需要论据支撑。",
+    "accept": [
+      "论据",
+      "证据",
+      "example",
+      "examples"
+    ]
+  },
+  {
+    "id": "cne_047_q3",
+    "topicId": "cne_047",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "连接两个并列论据常用的词是（　）。",
+    "answer": "A",
+    "explanation": "First… Second… 用于并列列举论据。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "First… Second…"
+      },
+      {
+        "key": "B",
+        "text": "Because… So…"
+      },
+      {
+        "key": "C",
+        "text": "Although… But…"
+      }
+    ]
+  },
+  {
+    "id": "cne_047_q4",
+    "topicId": "cne_047",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "补全句子（用 although）：______ the film is long, it is very interesting.",
+    "answer": "Although",
+    "explanation": "让步状语从句用 Although，句首大写。",
+    "accept": [
+      "although",
+      "though"
+    ]
+  },
+  {
+    "id": "cne_048_q1",
+    "topicId": "cne_048",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "给外国朋友写信介绍春节，正文中最应该出现的内容是（　）。",
+    "answer": "A",
+    "explanation": "介绍节日应写时间、习俗与意义。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "节日的时间与主要活动"
+      },
+      {
+        "key": "B",
+        "text": "作者的身高体重"
+      },
+      {
+        "key": "C",
+        "text": "数学作业的答案"
+      }
+    ]
+  },
+  {
+    "id": "cne_048_q2",
+    "topicId": "cne_048",
+    "difficulty": "basic",
+    "type": "short",
+    "prompt": "书信结尾表示“你的（朋友）”常用 Yours, 或 ______ 。",
+    "answer": "yours",
+    "explanation": "书信结尾常用 Yours, / Yours sincerely, 等。",
+    "accept": [
+      "yours",
+      "yours sincerely",
+      "your friend",
+      "best wishes"
+    ]
+  },
+  {
+    "id": "cne_048_q3",
+    "topicId": "cne_048",
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "使文章连贯，下列连接词中表示转折的是（　）。",
+    "answer": "A",
+    "explanation": "However 表转折；Besides 表递进；Therefore 表结果。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "However"
+      },
+      {
+        "key": "B",
+        "text": "Besides"
+      },
+      {
+        "key": "C",
+        "text": "Therefore"
+      }
+    ]
+  },
+  {
+    "id": "cne_048_q4",
+    "topicId": "cne_048",
+    "difficulty": "advanced",
+    "type": "short",
+    "prompt": "补全句子（用被动语态）：The Spring Festival ______ (celebrate) all over China.",
+    "answer": "is celebrated",
+    "explanation": "节日被庆祝，用一般现在时被动语态。",
+    "accept": [
+      "is celebrated"
+    ]
   }
 ]

@@ -79,6 +79,8 @@ def _format_questions(tid, qs):
             qd["choices"] = [{"key": k, "text": t} for k, t in q["choices"]]
         if q.get("accept"):
             qd["accept"] = [str(x) for x in q["accept"]]
+        if q.get("exact"):
+            qd["exact"] = True
         questions.append(qd)
     first = qs[0]
     if first["type"] == "choice":
@@ -178,6 +180,44 @@ def etopic(num, vol, chapter_tail, name, domain, ttype, desc, mastery, ex, mista
         "subject": "english",
         "level": "module",
         "standards": _format_standards(stds, "ces-2022:", note),
+        "tutoring": {
+            "key_points": list(mastery),
+            "worked_example": {"problem": ex[0], "steps": list(ex[1]), "answer": str(ex[2])},
+            "common_mistakes": list(mistakes),
+            "coaching_tip": tip,
+        },
+    }
+    if root_reason:
+        topic["root_reason"] = root_reason
+    return {"topic": topic, "prereqs": _format_prereqs(prereqs), "questions": questions}
+
+def epaper(num, vol, title, desc, mastery, tip, qs, prereqs, stds, mistakes, ex,
+           std_prefix="ces-2022:", root_reason=None):
+    """构造一个「册末卷」知识点（level: "paper"）。
+
+    chapter 形如「三年级上 册末卷 期末模拟」，grade/semester 与所在册一致；
+    qs 为 eq()/es()/eself() 生成的题目列表（整卷题目都在这个知识点上）。
+    """
+    tid = "cne_%03d" % num
+    grade, semester = VOLUMES[vol]
+    book = VOLUME_ZH[vol]
+    questions, diag_answer = _format_questions(tid, qs)
+    topic = {
+        "id": tid,
+        "name": "%s（%s册末卷）" % (title, book),
+        "domain": "读写",
+        "grade": grade,
+        "semester": semester,
+        "chapter": "%s 册末卷 %s" % (book, title),
+        "type": "application",
+        "description": desc,
+        "mastery_criteria": list(mastery),
+        "diagnostic_question": {"question": questions[0]["prompt"], "answer": diag_answer},
+        "external": False,
+        "subject": "english",
+        "level": "paper",
+        "book": book,
+        "standards": _format_standards(stds, std_prefix),
         "tutoring": {
             "key_points": list(mastery),
             "worked_example": {"problem": ex[0], "steps": list(ex[1]), "answer": str(ex[2])},

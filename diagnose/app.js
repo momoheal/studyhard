@@ -309,7 +309,7 @@
             }, '以整章为目标')),
           c.rows.map(function (x) {
             return h('div', { class: 'topic-row', title: x.t.description },
-              h('span', { class: 'nm', text: x.t.name }),
+              h('span', { class: 'nm', text: (x.t.level === 'paper' ? '〔卷〕' : '') + x.t.name }),
               h('span', { class: 'sec', text: x.section }),
               h('button', { onclick: function () { startSession([x.t.id], x.t.name); } }, '选为目标'));
           })));

@@ -7545,5 +7545,7757 @@
       ],
       "coaching_tip": "用树状图：先画上衣，再分别连裤子，数一数末端有几个，做到有序枚举。"
     }
+  },
+  {
+    "id": "cnm_158",
+    "name": "整数与整除的意义",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上 第一章 数的整除 1.1 整数和整除的意义",
+    "type": "conceptual",
+    "description": "认识自然数与整数，理解“整除”的含义，会用因数、倍数描述整除关系。",
+    "mastery_criteria": [
+      "能说出自然数、整数的范围，判断一个数属于哪一类",
+      "能判断一个整数能否被另一个非零整数整除",
+      "会用“a 是 b 的倍数、b 是 a 的因数”描述整除关系"
+    ],
+    "diagnostic_question": {
+      "question": "36 能被 4 整除，商是多少？",
+      "answer": "9"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能说出自然数、整数的范围，判断一个数属于哪一类",
+        "能判断一个整数能否被另一个非零整数整除",
+        "会用“a 是 b 的倍数、b 是 a 的因数”描述整除关系"
+      ],
+      "worked_example": {
+        "problem": "判断 42 能否被 6 整除，并说出谁是谁的倍数。",
+        "steps": [
+          "因为 42÷6＝7，商是整数且余数为 0",
+          "所以 42 能被 6 整除",
+          "42 是 6 的倍数，6 是 42 的因数"
+        ],
+        "answer": "42 能被 6 整除；42 是 6 的倍数，6 是 42 的因数。"
+      },
+      "common_mistakes": [
+        "把 42÷5＝8.4 也算作整除",
+        "忘记除数不能为 0"
+      ],
+      "coaching_tip": "先做除法看余数是否为 0，再完整地说一遍“谁是谁的倍数、谁是谁的因数”。"
+    }
+  },
+  {
+    "id": "cnm_159",
+    "name": "因数与倍数",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上 第一章 数的整除 1.2 因数和倍数",
+    "type": "conceptual",
+    "description": "理解因数与倍数的相互依存关系，会找一个数的因数与倍数。",
+    "mastery_criteria": [
+      "会成对地找出一个数的所有因数",
+      "会写出一个数在指定范围内的倍数",
+      "知道一个数的最大因数是它本身，最小倍数是它本身"
+    ],
+    "diagnostic_question": {
+      "question": "18 的所有因数中，最大的因数是几？",
+      "answer": "18"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会成对地找出一个数的所有因数",
+        "会写出一个数在指定范围内的倍数",
+        "知道一个数的最大因数是它本身，最小倍数是它本身"
+      ],
+      "worked_example": {
+        "problem": "找出 18 的所有因数。",
+        "steps": [
+          "从 1 开始成对地找：1×18、2×9、3×6",
+          "再往下 4、5 都不能整除 18",
+          "所以因数是 1、2、3、6、9、18"
+        ],
+        "answer": "1、2、3、6、9、18。"
+      },
+      "common_mistakes": [
+        "漏找较大的因数",
+        "把倍数和因数说反：如说“18 是 3 的因数”"
+      ],
+      "coaching_tip": "找一个数的因数时成对地写，写完数一数个数，避免遗漏。"
+    }
+  },
+  {
+    "id": "cnm_160",
+    "name": "能被 2、5 整除的数的特征",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上 第一章 数的整除 1.3 能被 2、5 整除的数",
+    "type": "conceptual",
+    "description": "掌握能被 2、5 整除的数的特征，会判断一个数能否被 2 或 5 整除。",
+    "mastery_criteria": [
+      "知道个位是 0、2、4、6、8 的数能被 2 整除",
+      "知道个位是 0 或 5 的数能被 5 整除",
+      "会判断能同时被 2 和 5 整除的数的特征（个位是 0）"
+    ],
+    "diagnostic_question": {
+      "question": "既是 2 的倍数又是 5 的倍数的最小两位数是几？",
+      "answer": "10"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道个位是 0、2、4、6、8 的数能被 2 整除",
+        "知道个位是 0 或 5 的数能被 5 整除",
+        "会判断能同时被 2 和 5 整除的数的特征（个位是 0）"
+      ],
+      "worked_example": {
+        "problem": "判断 2 340 能否被 2 和 5 同时整除。",
+        "steps": [
+          "个位是 0，能被 2 整除",
+          "个位是 0，也能被 5 整除",
+          "因此 2 340 能同时被 2 和 5 整除"
+        ],
+        "answer": "能同时被 2 和 5 整除。"
+      },
+      "common_mistakes": [
+        "只看十位或百位判断",
+        "认为能被 2 整除的数一定能被 5 整除"
+      ],
+      "coaching_tip": "判断时只盯个位数字，把“能被 2”“能被 5”“同时被 2 和 5”三种情况分开记。"
+    }
+  },
+  {
+    "id": "cnm_161",
+    "name": "素数、合数与分解素因数",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上 第一章 数的整除 1.4 素数、合数与分解素因数",
+    "type": "conceptual",
+    "description": "理解素数、合数的意义，会把一个合数分解素因数。",
+    "mastery_criteria": [
+      "能判断一个大于 1 的整数是素数还是合数",
+      "知道 1 既不是素数也不是合数",
+      "会用短除法把一个合数分解素因数"
+    ],
+    "diagnostic_question": {
+      "question": "最小的素数是几？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能判断一个大于 1 的整数是素数还是合数",
+        "知道 1 既不是素数也不是合数",
+        "会用短除法把一个合数分解素因数"
+      ],
+      "worked_example": {
+        "problem": "把 84 分解素因数。",
+        "steps": [
+          "84÷2＝42，42÷2＝21，21÷3＝7",
+          "所以 84＝2×2×3×7",
+          "7 是素数，分解结束"
+        ],
+        "answer": "84＝2×2×3×7。"
+      },
+      "common_mistakes": [
+        "把 1 当成素数",
+        "分解不彻底，如 84＝4×21 就停下"
+      ],
+      "coaching_tip": "用短除法从最小的素数 2 开始试，除到商是素数为止，再写成连乘的形式。"
+    }
+  },
+  {
+    "id": "cnm_162",
+    "name": "公因数与最大公因数",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上 第一章 数的整除 1.5 公因数与最大公因数",
+    "type": "procedural",
+    "description": "理解公因数与最大公因数的意义，会用短除法或素因数分解求最大公因数。",
+    "mastery_criteria": [
+      "会求两个数的公因数与最大公因数",
+      "能用最大公因数解决“裁正方形”“分堆”等实际问题",
+      "知道互素的两个数最大公因数是 1"
+    ],
+    "diagnostic_question": {
+      "question": "12 和 18 的最大公因数是多少？",
+      "answer": "6"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会求两个数的公因数与最大公因数",
+        "能用最大公因数解决“裁正方形”“分堆”等实际问题",
+        "知道互素的两个数最大公因数是 1"
+      ],
+      "worked_example": {
+        "problem": "求 24 和 36 的最大公因数。",
+        "steps": [
+          "24＝2×2×2×3，36＝2×2×3×3",
+          "公有素因数是 2、2、3",
+          "最大公因数＝2×2×3＝12"
+        ],
+        "answer": "12。"
+      },
+      "common_mistakes": [
+        "把最大公因数与最小公倍数搞混",
+        "短除法只除到一半就下结论"
+      ],
+      "coaching_tip": "先分解素因数，再取“公有素因数的乘积”；也可以用短除法，除到两个商互素为止。"
+    }
+  },
+  {
+    "id": "cnm_163",
+    "name": "公倍数与最小公倍数",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上 第一章 数的整除 1.6 公倍数与最小公倍数",
+    "type": "procedural",
+    "description": "理解公倍数与最小公倍数的意义，会求两个数的最小公倍数并解决周期问题。",
+    "mastery_criteria": [
+      "会求两个数的公倍数与最小公倍数",
+      "会用最小公倍数解决“同时出发”“分组刚好”等实际问题",
+      "知道两数互素时最小公倍数是它们的积"
+    ],
+    "diagnostic_question": {
+      "question": "4 和 6 的最小公倍数是多少？",
+      "answer": "12"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会求两个数的公倍数与最小公倍数",
+        "会用最小公倍数解决“同时出发”“分组刚好”等实际问题",
+        "知道两数互素时最小公倍数是它们的积"
+      ],
+      "worked_example": {
+        "problem": "求 4 和 6 的最小公倍数。",
+        "steps": [
+          "4 的倍数：4、8、12、16、…",
+          "6 的倍数：6、12、18、…",
+          "第一个公共的倍数是 12"
+        ],
+        "answer": "12。"
+      },
+      "common_mistakes": [
+        "与最大公因数混淆",
+        "求三个数的最小公倍数时漏掉某个因数"
+      ],
+      "coaching_tip": "列举倍数找第一个公共项，或用短除法把除数和商全部相乘。"
+    }
+  },
+  {
+    "id": "cnm_164",
+    "name": "分数与除法",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上 第二章 分数 2.1 分数与除法",
+    "type": "conceptual",
+    "description": "理解分数与除法的关系，会用分数表示两个整数相除的商。",
+    "mastery_criteria": [
+      "知道 p÷q＝p/q（q≠0），能说出分子、分母的含义",
+      "会把除法结果写成分数，也会把分数看成除法",
+      "理解“求一个数是另一个数的几分之几”用除法"
+    ],
+    "diagnostic_question": {
+      "question": "3÷7 用分数表示是多少？（写成 a/b）",
+      "answer": "3/7"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.05",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道 p÷q＝p/q（q≠0），能说出分子、分母的含义",
+        "会把除法结果写成分数，也会把分数看成除法",
+        "理解“求一个数是另一个数的几分之几”用除法"
+      ],
+      "worked_example": {
+        "problem": "把 3 米长的绳子平均分成 4 段，每段长多少米？",
+        "steps": [
+          "每段长＝3÷4",
+          "用分数表示就是 3/4 米",
+          "所以每段长 3/4 米"
+        ],
+        "answer": "3/4 米。"
+      },
+      "common_mistakes": [
+        "把 3÷4 写成 4/3",
+        "认为分数的分母可以是 0"
+      ],
+      "coaching_tip": "记住“被除数当分子、除数当分母”，并用“每段是全长的 1/4、长 3/4 米”两句对比区分。"
+    }
+  },
+  {
+    "id": "cnm_165",
+    "name": "分数的基本性质",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上 第二章 分数 2.2 分数的基本性质",
+    "type": "conceptual",
+    "description": "掌握分数的基本性质，会约分与通分。",
+    "mastery_criteria": [
+      "能说出分数的分子分母同乘或同除以相同的非零数，分数大小不变",
+      "会把一个分数约成最简分数",
+      "会把几个分数通分到相同的分母"
+    ],
+    "diagnostic_question": {
+      "question": "把 3/4 的分子、分母都乘 5，得到的分数的分母是多少？",
+      "answer": "20"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.11",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能说出分数的分子分母同乘或同除以相同的非零数，分数大小不变",
+        "会把一个分数约成最简分数",
+        "会把几个分数通分到相同的分母"
+      ],
+      "worked_example": {
+        "problem": "把 9/12 约成最简分数。",
+        "steps": [
+          "9 与 12 的最大公因数是 3",
+          "分子分母同除以 3",
+          "得到 3/4"
+        ],
+        "answer": "3/4。"
+      },
+      "common_mistakes": [
+        "约分时只除分子或只除分母",
+        "认为分子分母同加一个数分数大小不变"
+      ],
+      "coaching_tip": "约分先找最大公因数，一次除尽；通分先找分母的最小公倍数。"
+    }
+  },
+  {
+    "id": "cnm_166",
+    "name": "分数的大小比较",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上 第二章 分数 2.3 分数的大小比较",
+    "type": "procedural",
+    "description": "会通分或化成小数比较分数的大小。",
+    "mastery_criteria": [
+      "会用通分比较异分母分数的大小",
+      "会把分数化成小数比较大小",
+      "能对三个以上的分数按大小排序"
+    ],
+    "diagnostic_question": {
+      "question": "3/4 和 5/8 中较大的分数是多少？（写成 a/b）",
+      "answer": "3/4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.05",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会用通分比较异分母分数的大小",
+        "会把分数化成小数比较大小",
+        "能对三个以上的分数按大小排序"
+      ],
+      "worked_example": {
+        "problem": "比较 5/6 与 7/9 的大小。",
+        "steps": [
+          "通分：分母 18，5/6＝15/18，7/9＝14/18",
+          "因为 15＞14",
+          "所以 5/6＞7/9"
+        ],
+        "answer": "5/6＞7/9。"
+      },
+      "common_mistakes": [
+        "只比较分子或只比较分母",
+        "化成小数时除错"
+      ],
+      "coaching_tip": "先看分母是否相同；不同就通分，也可以用交叉相乘比较 5×9 与 7×6。"
+    }
+  },
+  {
+    "id": "cnm_167",
+    "name": "分数的加减法",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上 第二章 分数 2.4 分数的加减法",
+    "type": "procedural",
+    "description": "会进行同分母、异分母分数的加减运算。",
+    "mastery_criteria": [
+      "会计算同分母分数的加减",
+      "会先通分再计算异分母分数的加减",
+      "会把整数与分数相加减，结果能约分的要约分"
+    ],
+    "diagnostic_question": {
+      "question": "1/4＋2/4 等于多少？（写成 a/b）",
+      "answer": "3/4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.12",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会计算同分母分数的加减",
+        "会先通分再计算异分母分数的加减",
+        "会把整数与分数相加减，结果能约分的要约分"
+      ],
+      "worked_example": {
+        "problem": "计算 5/6－1/3。",
+        "steps": [
+          "通分：1/3＝2/6",
+          "5/6－2/6＝3/6",
+          "约分得 1/2"
+        ],
+        "answer": "1/2。"
+      },
+      "common_mistakes": [
+        "异分母直接分子相加减",
+        "结果忘记约分"
+      ],
+      "coaching_tip": "先通分再加减，最后一定要检查能不能约分。"
+    }
+  },
+  {
+    "id": "cnm_168",
+    "name": "分数的乘法",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上 第二章 分数 2.5 分数的乘法",
+    "type": "procedural",
+    "description": "理解分数乘法的意义，会计算分数乘分数、分数乘整数。",
+    "mastery_criteria": [
+      "会计算分数乘分数，能先约分再相乘",
+      "会求一个数的几分之几是多少",
+      "理解“求一个数的几分之几”用乘法"
+    ],
+    "diagnostic_question": {
+      "question": "2/3×3/4 等于多少？（写成 a/b）",
+      "answer": "1/2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.12",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会计算分数乘分数，能先约分再相乘",
+        "会求一个数的几分之几是多少",
+        "理解“求一个数的几分之几”用乘法"
+      ],
+      "worked_example": {
+        "problem": "计算 2/3×3/4。",
+        "steps": [
+          "分子乘分子、分母乘分母：2×3＝6，3×4＝12",
+          "得到 6/12",
+          "约分得 1/2"
+        ],
+        "answer": "1/2。"
+      },
+      "common_mistakes": [
+        "把分子乘分母",
+        "先乘完再约分导致数值过大出错"
+      ],
+      "coaching_tip": "先交叉约分再相乘，可以少算很多；结果必须是最简分数。"
+    }
+  },
+  {
+    "id": "cnm_169",
+    "name": "分数的除法",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上 第二章 分数 2.6 分数的除法",
+    "type": "procedural",
+    "description": "理解分数除法的意义，会计算分数除法。",
+    "mastery_criteria": [
+      "会计算分数除以整数、分数除以分数",
+      "知道除以一个数等于乘这个数的倒数",
+      "会解决“已知一个数的几分之几是多少，求这个数”的问题"
+    ],
+    "diagnostic_question": {
+      "question": "1/2÷1/4 等于多少？（写成整数）",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.12",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会计算分数除以整数、分数除以分数",
+        "知道除以一个数等于乘这个数的倒数",
+        "会解决“已知一个数的几分之几是多少，求这个数”的问题"
+      ],
+      "worked_example": {
+        "problem": "计算 3/4÷9/8。",
+        "steps": [
+          "除以 9/8 等于乘 8/9",
+          "3/4×8/9＝24/36",
+          "约分得 2/3"
+        ],
+        "answer": "2/3。"
+      },
+      "common_mistakes": [
+        "把除数的倒数求错（把分子分母写反两次）",
+        "除法当成乘法直接乘"
+      ],
+      "coaching_tip": "口诀“除以一个数，等于乘它的倒数”，写完检查倒数是否真的倒过来了。"
+    }
+  },
+  {
+    "id": "cnm_170",
+    "name": "分数与小数的互化",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上 第二章 分数 2.7 分数与小数的互化",
+    "type": "procedural",
+    "description": "会分数与小数互化，能判断一个分数能否化成有限小数。",
+    "mastery_criteria": [
+      "会把分数化成小数（除不尽按要求保留）",
+      "会把有限小数和循环小数化成分数",
+      "知道分母只含素因数 2、5 的分数能化成有限小数"
+    ],
+    "diagnostic_question": {
+      "question": "0.75 化成最简分数是多少？（写成 a/b）",
+      "answer": "3/4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.04",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会把分数化成小数（除不尽按要求保留）",
+        "会把有限小数和循环小数化成分数",
+        "知道分母只含素因数 2、5 的分数能化成有限小数"
+      ],
+      "worked_example": {
+        "problem": "把 3/8 化成小数。",
+        "steps": [
+          "3÷8＝0.375",
+          "因为 8＝2³，只含素因数 2",
+          "所以 3/8 能化成有限小数 0.375"
+        ],
+        "answer": "0.375。"
+      },
+      "common_mistakes": [
+        "把循环小数化分数时循环节找错",
+        "认为 1/3 能化成有限小数"
+      ],
+      "coaching_tip": "先看分母的素因数：只有 2 和 5 才能化成有限小数；循环小数化分数用“循环节÷99…9”。"
+    }
+  },
+  {
+    "id": "cnm_171",
+    "name": "分数、小数的四则混合运算",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上 第二章 分数 2.8 分数、小数的四则混合运算",
+    "type": "procedural",
+    "description": "会进行分数与小数的混合运算，能灵活选择化成小数或分数。",
+    "mastery_criteria": [
+      "掌握混合运算的顺序，会使用运算律简算",
+      "能根据数据特点决定化成小数还是分数",
+      "会处理带分数与假分数的互化"
+    ],
+    "diagnostic_question": {
+      "question": "1/2＋0.25 等于多少？（写成小数）",
+      "answer": "0.75"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "掌握混合运算的顺序，会使用运算律简算",
+        "能根据数据特点决定化成小数还是分数",
+        "会处理带分数与假分数的互化"
+      ],
+      "worked_example": {
+        "problem": "计算 (1/2＋1/3)×6。",
+        "steps": [
+          "括号内通分：3/6＋2/6＝5/6",
+          "5/6×6＝5",
+          "也可以先用乘法分配律：3＋2＝5"
+        ],
+        "answer": "5。"
+      },
+      "common_mistakes": [
+        "运算顺序错误，先算乘法",
+        "分数小数混算时把 1/2 看成 0.2"
+      ],
+      "coaching_tip": "先看能否用运算律简算；不能简算再按“先乘除后加减、有括号先算括号”的顺序。"
+    }
+  },
+  {
+    "id": "cnm_172",
+    "name": "分数运算的应用",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上 第二章 分数 2.9 分数运算的应用",
+    "type": "application",
+    "description": "会用分数运算解决“部分与整体”“连续变化”类实际问题。",
+    "mastery_criteria": [
+      "会找准单位“1”，判断用乘法还是除法",
+      "会解决连续用去、先涨后降等两步问题",
+      "会检验结果是否符合实际情境"
+    ],
+    "diagnostic_question": {
+      "question": "一本书共 120 页，第一天看了全书的 1/4，看了多少页？",
+      "answer": "30"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.IP.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会找准单位“1”，判断用乘法还是除法",
+        "会解决连续用去、先涨后降等两步问题",
+        "会检验结果是否符合实际情境"
+      ],
+      "worked_example": {
+        "problem": "一根钢管长 15 米，第一次用去 2/5，第二次用去 3 米，还剩多少米？",
+        "steps": [
+          "第一次用去 15×2/5＝6（米）",
+          "两次共用去 6＋3＝9（米）",
+          "还剩 15－9＝6（米）"
+        ],
+        "answer": "6 米。"
+      },
+      "common_mistakes": [
+        "把“用去 2/5”当成“用去 2/5 米”",
+        "第二次的 3 米又去乘 2/5"
+      ],
+      "coaching_tip": "先圈出单位“1”，带单位的分数是具体数量，不带单位的分率才要乘单位“1”。"
+    }
+  },
+  {
+    "id": "cnm_173",
+    "name": "比的意义",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上 第三章 比和比例 3.1 比的意义",
+    "type": "conceptual",
+    "description": "理解比的意义，会求比值，能进行比与分数、除法的互化。",
+    "mastery_criteria": [
+      "知道比表示两个数相除，会求比值",
+      "理解比的前项、后项，知道后项不能为 0",
+      "会解决“甲是乙的几分之几，求甲乙的比”这类问题"
+    ],
+    "diagnostic_question": {
+      "question": "6 与 8 的比值是多少？（写成最简分数 a/b）",
+      "answer": "3/4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.05",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道比表示两个数相除，会求比值",
+        "理解比的前项、后项，知道后项不能为 0",
+        "会解决“甲是乙的几分之几，求甲乙的比”这类问题"
+      ],
+      "worked_example": {
+        "problem": "求 6:8 的比值。",
+        "steps": [
+          "比值＝前项÷后项＝6÷8",
+          "6÷8＝3/4",
+          "所以比值是 3/4"
+        ],
+        "answer": "3/4。"
+      },
+      "common_mistakes": [
+        "把比值写成比（如把 3:4 的比值写成 3:4）",
+        "认为比的后项可以是 0"
+      ],
+      "coaching_tip": "比值是一个数，比是一个式子；求比值就是做除法。"
+    }
+  },
+  {
+    "id": "cnm_174",
+    "name": "比的基本性质",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上 第三章 比和比例 3.2 比的基本性质",
+    "type": "procedural",
+    "description": "掌握比的基本性质，会化简比、按比分配。",
+    "mastery_criteria": [
+      "会把比化成最简整数比",
+      "理解比的前项后项同乘或同除以相同的非零数，比值不变",
+      "会按比分配解决实际问题"
+    ],
+    "diagnostic_question": {
+      "question": "把 12:18 化成最简整数比，前项是多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.05",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会把比化成最简整数比",
+        "理解比的前项后项同乘或同除以相同的非零数，比值不变",
+        "会按比分配解决实际问题"
+      ],
+      "worked_example": {
+        "problem": "把 12:18 化成最简整数比。",
+        "steps": [
+          "前项后项同除以最大公因数 6",
+          "12÷6＝2，18÷6＝3",
+          "得到 2:3"
+        ],
+        "answer": "2:3。"
+      },
+      "common_mistakes": [
+        "化简后前项后项不是整数",
+        "按比分配时把总份数算错"
+      ],
+      "coaching_tip": "化简比最后要检查前项后项是否互素；按比分配先求总份数。"
+    }
+  },
+  {
+    "id": "cnm_175",
+    "name": "比例及其基本性质",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上 第三章 比和比例 3.3 比例",
+    "type": "procedural",
+    "description": "理解比例的意义与基本性质，会解比例、计算比例尺。",
+    "mastery_criteria": [
+      "知道表示两个比相等的式子叫比例",
+      "会用“内项积＝外项积”解比例",
+      "会运用比例尺求图上距离或实际距离"
+    ],
+    "diagnostic_question": {
+      "question": "在比例 3:4＝9:x 中，x 是多少？",
+      "answer": "12"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.05",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道表示两个比相等的式子叫比例",
+        "会用“内项积＝外项积”解比例",
+        "会运用比例尺求图上距离或实际距离"
+      ],
+      "worked_example": {
+        "problem": "解比例 3:4＝9:x。",
+        "steps": [
+          "内项积等于外项积：4×9＝3×x",
+          "36＝3x",
+          "x＝12"
+        ],
+        "answer": "x＝12。"
+      },
+      "common_mistakes": [
+        "内项外项找错",
+        "比例尺单位不统一就直接计算"
+      ],
+      "coaching_tip": "把比例写成分数形式 3/4＝9/x，交叉相乘更不容易错。"
+    }
+  },
+  {
+    "id": "cnm_176",
+    "name": "百分比的意义",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上 第三章 比和比例 3.4 百分比的意义",
+    "type": "conceptual",
+    "description": "理解百分比的意义，会进行分数、小数与百分数的互化。",
+    "mastery_criteria": [
+      "知道百分数表示一个数是另一个数的百分之几",
+      "会分数、小数与百分数互化",
+      "会求一个数是另一个数的百分之几"
+    ],
+    "diagnostic_question": {
+      "question": "把 3/4 化成百分数，百分号前面的数是多少？",
+      "answer": "75"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.04",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道百分数表示一个数是另一个数的百分之几",
+        "会分数、小数与百分数互化",
+        "会求一个数是另一个数的百分之几"
+      ],
+      "worked_example": {
+        "problem": "把 3/4 化成百分数。",
+        "steps": [
+          "3/4＝0.75",
+          "0.75×100%＝75%",
+          "所以 3/4＝75%"
+        ],
+        "answer": "75%。"
+      },
+      "common_mistakes": [
+        "百分数后面带单位",
+        "小数化百分数时忘记乘 100"
+      ],
+      "coaching_tip": "百分数只表示倍比关系，不带单位；小数化百分数小数点右移两位。"
+    }
+  },
+  {
+    "id": "cnm_177",
+    "name": "百分比的应用",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上 第三章 比和比例 3.5 百分比的应用",
+    "type": "application",
+    "description": "会解决折扣、利率、增减率等百分比实际问题。",
+    "mastery_criteria": [
+      "会计算打折后的价格",
+      "会计算利息、增长率、合格率等常见百分比",
+      "能区分“增加了百分之几”与“是原来的百分之几”"
+    ],
+    "diagnostic_question": {
+      "question": "一件商品原价 80 元，打八折后是多少元？",
+      "answer": "64"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.IP.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会计算打折后的价格",
+        "会计算利息、增长率、合格率等常见百分比",
+        "能区分“增加了百分之几”与“是原来的百分之几”"
+      ],
+      "worked_example": {
+        "problem": "一件商品原价 80 元，打八折后是多少元？",
+        "steps": [
+          "八折表示按原价的 80% 出售",
+          "80×80%＝64",
+          "所以现价是 64 元"
+        ],
+        "answer": "64 元。"
+      },
+      "common_mistakes": [
+        "把“打八折”理解成减 8 元",
+        "先涨 20% 再降 20% 后误以为回到原价"
+      ],
+      "coaching_tip": "把所有百分率都先化成小数再乘；遇到连续变化要一步步乘，不能相加。"
+    }
+  },
+  {
+    "id": "cnm_178",
+    "name": "等可能事件与可能性大小",
+    "domain": "统计与概率",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上 第三章 比和比例 3.6 等可能事件",
+    "type": "conceptual",
+    "description": "认识等可能事件，会用分数表示简单事件发生的可能性。",
+    "mastery_criteria": [
+      "能判断一个试验的结果是否等可能",
+      "会用“符合条件的结果数÷所有结果数”求可能性",
+      "会比较两个事件发生的可能性大小"
+    ],
+    "diagnostic_question": {
+      "question": "掷一枚均匀的骰子，朝上的点数是 3 的可能性是多少？（写成 a/b）",
+      "answer": "1/6"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.SP.05",
+        "confidence": "exact"
+      },
+      {
+        "id": "cms-2022:4.SP.06",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能判断一个试验的结果是否等可能",
+        "会用“符合条件的结果数÷所有结果数”求可能性",
+        "会比较两个事件发生的可能性大小"
+      ],
+      "worked_example": {
+        "problem": "掷一枚均匀的骰子，朝上的点数是 3 的可能性是多少？",
+        "steps": [
+          "所有等可能结果有 6 个：1、2、3、4、5、6",
+          "符合条件的结果只有 1 个",
+          "所以可能性是 1/6"
+        ],
+        "answer": "1/6。"
+      },
+      "common_mistakes": [
+        "把“可能性”与“一定发生”混为一谈",
+        "数所有结果时漏算或多算"
+      ],
+      "coaching_tip": "先明确“所有等可能结果有几种”，再数“符合条件的有几种”，写成最简分数。"
+    }
+  },
+  {
+    "id": "cnm_179",
+    "name": "圆的周长",
+    "domain": "图形与几何",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上 第四章 圆和扇形 4.1 圆的周长",
+    "type": "procedural",
+    "description": "理解圆周率的意义，掌握圆的周长公式并会应用。",
+    "mastery_criteria": [
+      "知道圆的周长与直径的比值是圆周率 π",
+      "会用 C＝πd 或 C＝2πr 计算周长",
+      "会由周长反求直径或半径"
+    ],
+    "diagnostic_question": {
+      "question": "一个圆的半径是 2 厘米，直径是多少厘米？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.15",
+        "confidence": "exact"
+      },
+      {
+        "id": "cms-2022:4.GG.17",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道圆的周长与直径的比值是圆周率 π",
+        "会用 C＝πd 或 C＝2πr 计算周长",
+        "会由周长反求直径或半径"
+      ],
+      "worked_example": {
+        "problem": "一个圆的直径是 10 厘米，求它的周长（π 取 3.14）。",
+        "steps": [
+          "C＝πd",
+          "＝3.14×10",
+          "＝31.4（厘米）"
+        ],
+        "answer": "31.4 厘米。"
+      },
+      "common_mistakes": [
+        "把直径当成半径代入 2πr",
+        "π 取 3.14 时计算粗心"
+      ],
+      "coaching_tip": "先标出已知的是半径还是直径，再选公式；计算时把 3.14 写清楚。"
+    }
+  },
+  {
+    "id": "cnm_180",
+    "name": "弧长",
+    "domain": "图形与几何",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上 第四章 圆和扇形 4.2 弧长",
+    "type": "procedural",
+    "description": "理解弧长的意义，掌握弧长公式 l＝nπr/180。",
+    "mastery_criteria": [
+      "知道圆心角为 n° 的弧占整个圆周的 n/360",
+      "会用 l＝nπr/180 计算弧长",
+      "会由弧长反求圆心角或半径"
+    ],
+    "diagnostic_question": {
+      "question": "半径 9 厘米、圆心角 60° 的弧长是多少厘米？（π 取 3.14）",
+      "answer": "9.42"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.17",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道圆心角为 n° 的弧占整个圆周的 n/360",
+        "会用 l＝nπr/180 计算弧长",
+        "会由弧长反求圆心角或半径"
+      ],
+      "worked_example": {
+        "problem": "半径 9 厘米、圆心角 60° 的弧长是多少（π 取 3.14）？",
+        "steps": [
+          "l＝nπr/180",
+          "＝60×3.14×9÷180",
+          "＝9.42（厘米）"
+        ],
+        "answer": "9.42 厘米。"
+      },
+      "common_mistakes": [
+        "把 180 写成 360",
+        "圆心角与弧长不对应"
+      ],
+      "coaching_tip": "先想“这段弧是整个圆的几分之几”，再用圆周长乘这个分数。"
+    }
+  },
+  {
+    "id": "cnm_181",
+    "name": "圆的面积",
+    "domain": "图形与几何",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上 第四章 圆和扇形 4.3 圆的面积",
+    "type": "procedural",
+    "description": "掌握圆的面积公式，会计算圆的面积与圆环面积。",
+    "mastery_criteria": [
+      "会用 S＝πr² 计算圆的面积",
+      "会由周长或直径先求半径再求面积",
+      "会计算圆环的面积 S＝π(R²－r²)"
+    ],
+    "diagnostic_question": {
+      "question": "半径 2 厘米的圆，面积是多少平方厘米？（π 取 3.14）",
+      "answer": "12.56"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.17",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会用 S＝πr² 计算圆的面积",
+        "会由周长或直径先求半径再求面积",
+        "会计算圆环的面积 S＝π(R²－r²)"
+      ],
+      "worked_example": {
+        "problem": "直径 8 厘米的圆，面积是多少（π 取 3.14）？",
+        "steps": [
+          "r＝8÷2＝4（厘米）",
+          "S＝3.14×4²",
+          "＝50.24（平方厘米）"
+        ],
+        "answer": "50.24 平方厘米。"
+      },
+      "common_mistakes": [
+        "把直径直接代入 r²",
+        "把 4² 算成 8"
+      ],
+      "coaching_tip": "先求半径再平方；圆环面积用大圆减小圆，不要用 (R－r)²。"
+    }
+  },
+  {
+    "id": "cnm_182",
+    "name": "扇形的面积",
+    "domain": "图形与几何",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上 第四章 圆和扇形 4.4 扇形的面积",
+    "type": "procedural",
+    "description": "掌握扇形面积公式，会用它解决组合图形问题。",
+    "mastery_criteria": [
+      "会用 S＝nπr²/360 计算扇形面积",
+      "会用 S＝lr/2 计算扇形面积",
+      "会计算组合图形中阴影部分的面积"
+    ],
+    "diagnostic_question": {
+      "question": "半径 4 厘米、圆心角 90° 的扇形面积是多少平方厘米？（π 取 3.14）",
+      "answer": "12.56"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.17",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会用 S＝nπr²/360 计算扇形面积",
+        "会用 S＝lr/2 计算扇形面积",
+        "会计算组合图形中阴影部分的面积"
+      ],
+      "worked_example": {
+        "problem": "半径 4 厘米、圆心角 90° 的扇形面积是多少（π 取 3.14）？",
+        "steps": [
+          "S＝nπr²/360",
+          "＝90×3.14×16÷360",
+          "＝12.56（平方厘米）"
+        ],
+        "answer": "12.56 平方厘米。"
+      },
+      "common_mistakes": [
+        "公式中分母用 180",
+        "把扇形面积当成弧长计算"
+      ],
+      "coaching_tip": "扇形是圆的一部分，先算整圆面积再乘 n/360；已知弧长时用 S＝lr/2 更快。"
+    }
+  },
+  {
+    "id": "cnm_183",
+    "name": "有理数的意义",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 第五章 有理数 5.1 有理数的意义",
+    "type": "conceptual",
+    "description": "认识正数、负数与有理数，会对有理数分类。",
+    "mastery_criteria": [
+      "能判断一个数是有理数还是无理数（本阶段只含有理数）",
+      "会把有理数按正负或按整数、分数分类",
+      "知道 0 既不是正数也不是负数"
+    ],
+    "diagnostic_question": {
+      "question": "－3 的相反数是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能判断一个数是有理数还是无理数（本阶段只含有理数）",
+        "会把有理数按正负或按整数、分数分类",
+        "知道 0 既不是正数也不是负数"
+      ],
+      "worked_example": {
+        "problem": "把 －3、0、3.5、－1/2 分类，指出其中哪些是负有理数。",
+        "steps": [
+          "－3 是负整数，－1/2 是负分数",
+          "它们都是负有理数",
+          "0 既不是正数也不是负数"
+        ],
+        "answer": "－3 和 －1/2 是负有理数。"
+      },
+      "common_mistakes": [
+        "把 0 当作正数",
+        "认为小数不是有理数"
+      ],
+      "coaching_tip": "先看符号分正负，再看形式分整数与分数；有限小数和循环小数都是分数。"
+    }
+  },
+  {
+    "id": "cnm_184",
+    "name": "数轴",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 第五章 有理数 5.2 数轴",
+    "type": "conceptual",
+    "description": "理解数轴的三要素，会用数轴上的点表示有理数并比较大小。",
+    "mastery_criteria": [
+      "会画数轴，能说出原点、正方向、单位长度",
+      "会在数轴上表示有理数，并读出点对应的数",
+      "知道数轴上右边的数总比左边的大"
+    ],
+    "diagnostic_question": {
+      "question": "数轴上表示 －3 的点到原点的距离是多少个单位？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会画数轴，能说出原点、正方向、单位长度",
+        "会在数轴上表示有理数，并读出点对应的数",
+        "知道数轴上右边的数总比左边的大"
+      ],
+      "worked_example": {
+        "problem": "在数轴上表示 －2 和 3，并求这两点间的距离。",
+        "steps": [
+          "－2 在原点左侧 2 个单位，3 在原点右侧 3 个单位",
+          "距离＝3－(－2)",
+          "＝5"
+        ],
+        "answer": "两点间的距离是 5。"
+      },
+      "common_mistakes": [
+        "数轴缺少正方向或单位长度",
+        "求距离时用小数减大数得到负数"
+      ],
+      "coaching_tip": "画数轴先定三要素；求两点距离用右边点的坐标减左边点的坐标。"
+    }
+  },
+  {
+    "id": "cnm_185",
+    "name": "绝对值",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 第五章 有理数 5.3 绝对值",
+    "type": "conceptual",
+    "description": "理解绝对值的意义，会求有理数的绝对值并进行简单计算。",
+    "mastery_criteria": [
+      "知道绝对值表示数轴上点到原点的距离",
+      "会求有理数的绝对值，知道 |a|≥0",
+      "会由绝对值求原数（注意两种情况）"
+    ],
+    "diagnostic_question": {
+      "question": "|－7| 等于多少？",
+      "answer": "7"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道绝对值表示数轴上点到原点的距离",
+        "会求有理数的绝对值，知道 |a|≥0",
+        "会由绝对值求原数（注意两种情况）"
+      ],
+      "worked_example": {
+        "problem": "计算 |3－8|＋|－2|。",
+        "steps": [
+          "3－8＝－5，|－5|＝5",
+          "|－2|＝2",
+          "5＋2＝7"
+        ],
+        "answer": "7。"
+      },
+      "common_mistakes": [
+        "认为绝对值一定是正数（忘记 0）",
+        "由 |x|＝5 只得到 x＝5"
+      ],
+      "coaching_tip": "绝对值是“到原点的距离”，一定非负；解 |x|＝a 时不要漏掉负数解。"
+    }
+  },
+  {
+    "id": "cnm_186",
+    "name": "有理数的加法",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 第五章 有理数 5.4 有理数的加法",
+    "type": "procedural",
+    "description": "掌握有理数加法法则，会用法则与运算律进行计算。",
+    "mastery_criteria": [
+      "会判断同号相加、异号相加的结果符号",
+      "会计算多个有理数的加法",
+      "会运用加法交换律、结合律简算"
+    ],
+    "diagnostic_question": {
+      "question": "(－3)＋(－5) 等于多少？",
+      "answer": "-8"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会判断同号相加、异号相加的结果符号",
+        "会计算多个有理数的加法",
+        "会运用加法交换律、结合律简算"
+      ],
+      "worked_example": {
+        "problem": "计算 －7＋2＋(－1)。",
+        "steps": [
+          "同号的两个数先结合：－7＋(－1)＝－8",
+          "－8＋2＝－6",
+          "所以结果是 －6"
+        ],
+        "answer": "－6。"
+      },
+      "common_mistakes": [
+        "异号相加时用绝对值相加",
+        "漏写负号"
+      ],
+      "coaching_tip": "同号相加取相同符号并把绝对值相加；异号相加取绝对值较大数的符号，用较大绝对值减较小绝对值。"
+    }
+  },
+  {
+    "id": "cnm_187",
+    "name": "有理数的减法",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 第五章 有理数 5.5 有理数的减法",
+    "type": "procedural",
+    "description": "掌握“减去一个数等于加上它的相反数”，会进行有理数减法。",
+    "mastery_criteria": [
+      "会把减法转化为加法再计算",
+      "会计算含减法的多步运算",
+      "能用减法解决温差等实际问题"
+    ],
+    "diagnostic_question": {
+      "question": "5－(－3) 等于多少？",
+      "answer": "8"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会把减法转化为加法再计算",
+        "会计算含减法的多步运算",
+        "能用减法解决温差等实际问题"
+      ],
+      "worked_example": {
+        "problem": "计算 5－(－3)。",
+        "steps": [
+          "减去 －3 等于加上 3",
+          "5＋3＝8",
+          "所以结果是 8"
+        ],
+        "answer": "8。"
+      },
+      "common_mistakes": [
+        "减去负数时仍按减法算，得到 2",
+        "转化后符号写错"
+      ],
+      "coaching_tip": "先把减号变加号、减数变相反数，再按加法法则算。"
+    }
+  },
+  {
+    "id": "cnm_188",
+    "name": "有理数的乘法",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 第五章 有理数 5.6 有理数的乘法",
+    "type": "procedural",
+    "description": "掌握有理数乘法法则，会判断积的符号并计算。",
+    "mastery_criteria": [
+      "会判断两个数、多个数相乘时积的符号",
+      "会计算有理数乘法",
+      "会运用乘法运算律简算"
+    ],
+    "diagnostic_question": {
+      "question": "(－4)×3 等于多少？",
+      "answer": "-12"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会判断两个数、多个数相乘时积的符号",
+        "会计算有理数乘法",
+        "会运用乘法运算律简算"
+      ],
+      "worked_example": {
+        "problem": "计算 (－2)×(－3)×(－4)。",
+        "steps": [
+          "负因数有 3 个，是奇数个，积为负",
+          "2×3×4＝24",
+          "所以结果是 －24"
+        ],
+        "answer": "－24。"
+      },
+      "common_mistakes": [
+        "负因数个数数错",
+        "把 0 乘任何数算错"
+      ],
+      "coaching_tip": "先数负因数个数决定符号，再算绝对值之积；有一个因数为 0，积就是 0。"
+    }
+  },
+  {
+    "id": "cnm_189",
+    "name": "有理数的除法",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 第五章 有理数 5.7 有理数的除法",
+    "type": "procedural",
+    "description": "掌握有理数除法法则，会进行除法与乘除混合运算。",
+    "mastery_criteria": [
+      "知道除以一个数等于乘它的倒数（除数不为 0）",
+      "会判断商的符号并计算",
+      "会进行乘除混合运算"
+    ],
+    "diagnostic_question": {
+      "question": "(－12)÷4 等于多少？",
+      "answer": "-3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道除以一个数等于乘它的倒数（除数不为 0）",
+        "会判断商的符号并计算",
+        "会进行乘除混合运算"
+      ],
+      "worked_example": {
+        "problem": "计算 (－3/4)÷(3/8)。",
+        "steps": [
+          "除以 3/8 等于乘 8/3",
+          "(－3/4)×(8/3)＝－2",
+          "所以结果是 －2"
+        ],
+        "answer": "－2。"
+      },
+      "common_mistakes": [
+        "倒数的符号弄错",
+        "把除数颠倒两次"
+      ],
+      "coaching_tip": "先定符号再算数值；除法转乘法时只把除数的分子分母颠倒。"
+    }
+  },
+  {
+    "id": "cnm_190",
+    "name": "有理数的乘方",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 第五章 有理数 5.8 有理数的乘方",
+    "type": "procedural",
+    "description": "理解乘方的意义，会计算有理数的乘方。",
+    "mastery_criteria": [
+      "能说出底数、指数，会把乘方写成乘法",
+      "会判断幂的符号",
+      "知道 －a² 与 (－a)² 的区别"
+    ],
+    "diagnostic_question": {
+      "question": "(－2)³ 等于多少？",
+      "answer": "-8"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能说出底数、指数，会把乘方写成乘法",
+        "会判断幂的符号",
+        "知道 －a² 与 (－a)² 的区别"
+      ],
+      "worked_example": {
+        "problem": "计算 (－2)³ 与 －2²。",
+        "steps": [
+          "(－2)³＝(－2)×(－2)×(－2)＝－8",
+          "－2²＝－(2×2)＝－4",
+          "两者底数不同，结果不同"
+        ],
+        "answer": "(－2)³＝－8，－2²＝－4。"
+      },
+      "common_mistakes": [
+        "把 (－2)³ 算成 8",
+        "认为 －3² 等于 9"
+      ],
+      "coaching_tip": "看括号：括号里带负号，负号才是底数的一部分；没有括号时负号在乘方之外。"
+    }
+  },
+  {
+    "id": "cnm_191",
+    "name": "有理数的混合运算",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 第五章 有理数 5.9 有理数的混合运算",
+    "type": "procedural",
+    "description": "掌握有理数混合运算的顺序，能正确计算。",
+    "mastery_criteria": [
+      "记住“先乘方、再乘除、最后加减，有括号先算括号”",
+      "会处理多层括号与负号",
+      "能用运算律简化计算"
+    ],
+    "diagnostic_question": {
+      "question": "－6＋2×(－3) 等于多少？",
+      "answer": "-12"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "记住“先乘方、再乘除、最后加减，有括号先算括号”",
+        "会处理多层括号与负号",
+        "能用运算律简化计算"
+      ],
+      "worked_example": {
+        "problem": "计算 －6＋2×(－3)。",
+        "steps": [
+          "先算乘法：2×(－3)＝－6",
+          "再算加法：－6＋(－6)＝－12",
+          "所以结果是 －12"
+        ],
+        "answer": "－12。"
+      },
+      "common_mistakes": [
+        "从左往右算，先算加法",
+        "乘方与乘除的顺序颠倒"
+      ],
+      "coaching_tip": "每一步只做一层运算，把没算的部分原样抄下来，可以显著减少符号错误。"
+    }
+  },
+  {
+    "id": "cnm_192",
+    "name": "科学记数法",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 第五章 有理数 5.10 科学记数法",
+    "type": "procedural",
+    "description": "会用科学记数法表示较大或较小的数，并会还原。",
+    "mastery_criteria": [
+      "会把一个数写成 a×10ⁿ 的形式（1≤|a|＜10）",
+      "会把科学记数法表示的数还原",
+      "会进行含科学记数法的简单乘除"
+    ],
+    "diagnostic_question": {
+      "question": "把 320 000 用科学记数法表示成 a×10⁵，a 是多少？",
+      "answer": "3.2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.04",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会把一个数写成 a×10ⁿ 的形式（1≤|a|＜10）",
+        "会把科学记数法表示的数还原",
+        "会进行含科学记数法的简单乘除"
+      ],
+      "worked_example": {
+        "problem": "把 320 000 用科学记数法表示。",
+        "steps": [
+          "小数点向左移 5 位，得到 3.2",
+          "所以 320 000＝3.2×10⁵",
+          "a＝3.2，n＝5"
+        ],
+        "answer": "3.2×10⁵。"
+      },
+      "common_mistakes": [
+        "a 不在 1 到 10 之间",
+        "数错 10 的指数"
+      ],
+      "coaching_tip": "数原数有几位整数，指数就是位数减 1；小于 1 的数指数是负数。"
+    }
+  },
+  {
+    "id": "cnm_193",
+    "name": "列方程与方程的解",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 第六章 一次方程（组）和一次不等式（组） 6.1 列方程 6.2 方程的解",
+    "type": "conceptual",
+    "description": "理解方程与方程的解的意义，会检验一个数是否为方程的解。",
+    "mastery_criteria": [
+      "能根据题意列出方程",
+      "会检验一个数是否为方程的解",
+      "理解等式与方程的区别"
+    ],
+    "diagnostic_question": {
+      "question": "方程 2x＋1＝7 的解是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.14",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能根据题意列出方程",
+        "会检验一个数是否为方程的解",
+        "理解等式与方程的区别"
+      ],
+      "worked_example": {
+        "problem": "检验 x＝3 是否为方程 2x＋1＝7 的解。",
+        "steps": [
+          "把 x＝3 代入左边：2×3＋1＝7",
+          "右边也是 7",
+          "左边＝右边，所以 x＝3 是方程的解"
+        ],
+        "answer": "x＝3 是方程的解。"
+      },
+      "common_mistakes": [
+        "只代入一边就下结论",
+        "把“方程”与“等式”混为一谈"
+      ],
+      "coaching_tip": "检验时左边、右边分别算，最后比较是否相等。"
+    }
+  },
+  {
+    "id": "cnm_194",
+    "name": "一元一次方程及其解法",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 第六章 一次方程（组）和一次不等式（组） 6.3 一元一次方程及其解法",
+    "type": "procedural",
+    "description": "掌握解一元一次方程的步骤：去分母、去括号、移项、合并同类项、系数化为 1。",
+    "mastery_criteria": [
+      "会按步骤解一元一次方程",
+      "会处理含分母、含小数的方程",
+      "会检验所求的解"
+    ],
+    "diagnostic_question": {
+      "question": "解方程 3x－5＝7，x 是多少？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.14",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会按步骤解一元一次方程",
+        "会处理含分母、含小数的方程",
+        "会检验所求的解"
+      ],
+      "worked_example": {
+        "problem": "解方程 (x＋1)/2＝(2x－1)/3。",
+        "steps": [
+          "去分母，两边乘 6：3(x＋1)＝2(2x－1)",
+          "去括号：3x＋3＝4x－2",
+          "移项合并得 x＝5"
+        ],
+        "answer": "x＝5。"
+      },
+      "common_mistakes": [
+        "去分母时漏乘不含分母的项",
+        "移项忘记变号"
+      ],
+      "coaching_tip": "去分母时每一项都要乘；移项一定变号，最后代回原方程检验。"
+    }
+  },
+  {
+    "id": "cnm_195",
+    "name": "一元一次方程的应用",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 第六章 一次方程（组）和一次不等式（组） 6.4 一元一次方程的应用",
+    "type": "application",
+    "description": "会列一元一次方程解决和差倍、工程、销售等实际问题。",
+    "mastery_criteria": [
+      "会设未知数并表示相关量",
+      "会找准等量关系列方程",
+      "会检验结果是否符合实际意义"
+    ],
+    "diagnostic_question": {
+      "question": "某数的 3 倍减去 5 等于 16，这个数是多少？",
+      "answer": "7"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.IP.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会设未知数并表示相关量",
+        "会找准等量关系列方程",
+        "会检验结果是否符合实际意义"
+      ],
+      "worked_example": {
+        "problem": "某数的 3 倍减去 5 等于 16，求这个数。",
+        "steps": [
+          "设这个数为 x",
+          "列方程 3x－5＝16",
+          "解得 x＝7"
+        ],
+        "answer": "这个数是 7。"
+      },
+      "common_mistakes": [
+        "设未知数后单位不统一",
+        "把“多 5”写成“少 5”"
+      ],
+      "coaching_tip": "先找“和、差、倍、几分之几”这些关键词对应的等量关系，再列方程。"
+    }
+  },
+  {
+    "id": "cnm_196",
+    "name": "不等式及其性质",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 第六章 一次方程（组）和一次不等式（组） 6.5 不等式及其性质",
+    "type": "conceptual",
+    "description": "理解不等式的意义与基本性质，会进行简单变形。",
+    "mastery_criteria": [
+      "知道不等式的两边同加（减）同一个数，不等号方向不变",
+      "知道两边同乘（除以）负数，不等号方向改变",
+      "会在数轴上表示不等式的解集"
+    ],
+    "diagnostic_question": {
+      "question": "不等式 x＋3＞5 的最小整数值是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.16",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道不等式的两边同加（减）同一个数，不等号方向不变",
+        "知道两边同乘（除以）负数，不等号方向改变",
+        "会在数轴上表示不等式的解集"
+      ],
+      "worked_example": {
+        "problem": "由 －2x＞6 求 x 的取值范围。",
+        "steps": [
+          "两边同除以 －2",
+          "除以负数，不等号方向改变",
+          "得 x＜－3"
+        ],
+        "answer": "x＜－3。"
+      },
+      "common_mistakes": [
+        "除以负数忘记变号",
+        "在数轴上表示解集时实心点与空心点用错"
+      ],
+      "coaching_tip": "只要两边乘除负数，立刻把不等号翻个方向，并专门检查一次。"
+    }
+  },
+  {
+    "id": "cnm_197",
+    "name": "一元一次不等式的解法",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 第六章 一次方程（组）和一次不等式（组） 6.6 一元一次不等式的解法",
+    "type": "procedural",
+    "description": "会解一元一次不等式，并求特殊解（整数解、最大/最小解）。",
+    "mastery_criteria": [
+      "会按去分母、去括号、移项、合并、系数化 1 的顺序解不等式",
+      "会在数轴上表示解集",
+      "会求不等式的整数解"
+    ],
+    "diagnostic_question": {
+      "question": "不等式 2x＋1＜7 的最大整数解是多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.16",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会按去分母、去括号、移项、合并、系数化 1 的顺序解不等式",
+        "会在数轴上表示解集",
+        "会求不等式的整数解"
+      ],
+      "worked_example": {
+        "problem": "解不等式 (x－1)/2≤1，并求最大整数解。",
+        "steps": [
+          "去分母：x－1≤2",
+          "解得 x≤3",
+          "所以最大整数解是 3"
+        ],
+        "answer": "x≤3，最大整数解是 3。"
+      },
+      "common_mistakes": [
+        "去分母时漏乘",
+        "求最大整数解时把边界值漏掉"
+      ],
+      "coaching_tip": "先求出解集，再在数轴上标出边界，整数解一眼可见。"
+    }
+  },
+  {
+    "id": "cnm_198",
+    "name": "一元一次不等式组",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 第六章 一次方程（组）和一次不等式（组） 6.7 一元一次不等式组",
+    "type": "procedural",
+    "description": "会解一元一次不等式组，会用数轴确定解集。",
+    "mastery_criteria": [
+      "会分别求出每个不等式的解集",
+      "会借助数轴求公共部分",
+      "会处理“无解”的情形"
+    ],
+    "diagnostic_question": {
+      "question": "不等式组 x＞1 且 x＜4 的整数解有几个？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.16",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会分别求出每个不等式的解集",
+        "会借助数轴求公共部分",
+        "会处理“无解”的情形"
+      ],
+      "worked_example": {
+        "problem": "解不等式组 x－1＞0 且 x＋2＜5。",
+        "steps": [
+          "第一个不等式得 x＞1",
+          "第二个不等式得 x＜3",
+          "公共部分是 1＜x＜3"
+        ],
+        "answer": "1＜x＜3。"
+      },
+      "common_mistakes": [
+        "把两个解集取并集而不是交集",
+        "边界是否取等号判断错误"
+      ],
+      "coaching_tip": "画数轴，两条解集重叠的部分才是答案；无重叠就是无解。"
+    }
+  },
+  {
+    "id": "cnm_199",
+    "name": "二元一次方程与方程组",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 第六章 一次方程（组）和一次不等式（组） 6.8 二元一次方程 6.9 二元一次方程组",
+    "type": "procedural",
+    "description": "理解二元一次方程（组）的意义，会用代入法、加减法解方程组。",
+    "mastery_criteria": [
+      "能判断一组数是否为二元一次方程组的解",
+      "会用代入消元法和加减消元法解方程组",
+      "体会“消元”的基本思想"
+    ],
+    "diagnostic_question": {
+      "question": "解方程组 x＋y＝5，x－y＝1，x 是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.15",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能判断一组数是否为二元一次方程组的解",
+        "会用代入消元法和加减消元法解方程组",
+        "体会“消元”的基本思想"
+      ],
+      "worked_example": {
+        "problem": "解方程组 x＋y＝5，x－y＝1。",
+        "steps": [
+          "两式相加：2x＝6，x＝3",
+          "代入得 y＝2",
+          "所以解是 x＝3，y＝2"
+        ],
+        "answer": "x＝3，y＝2。"
+      },
+      "common_mistakes": [
+        "加减时符号处理错误",
+        "只求出一个未知数就结束"
+      ],
+      "coaching_tip": "系数相同用减法、系数相反用加法；解完把两个值都代回原方程检验。"
+    }
+  },
+  {
+    "id": "cnm_200",
+    "name": "三元一次方程组",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 第六章 一次方程（组）和一次不等式（组） 6.10 三元一次方程组",
+    "type": "procedural",
+    "description": "会用消元法解简单的三元一次方程组。",
+    "mastery_criteria": [
+      "会把三元转化为二元再求解",
+      "会选择合适的方程进行消元",
+      "会检验三元方程组的解"
+    ],
+    "diagnostic_question": {
+      "question": "方程组 x＋y＋z＝6，x＝1，y＝2 中 z 是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.15",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会把三元转化为二元再求解",
+        "会选择合适的方程进行消元",
+        "会检验三元方程组的解"
+      ],
+      "worked_example": {
+        "problem": "解方程组 x＋y＋z＝6，x＝1，y＝2。",
+        "steps": [
+          "把 x、y 的值代入",
+          "1＋2＋z＝6",
+          "解得 z＝3"
+        ],
+        "answer": "z＝3。"
+      },
+      "common_mistakes": [
+        "消元时选错方程导致更复杂",
+        "解的次序混乱"
+      ],
+      "coaching_tip": "先挑系数最简单的一个未知数消去，两次消元要消同一个未知数。"
+    }
+  },
+  {
+    "id": "cnm_201",
+    "name": "一次方程组的应用",
+    "domain": "数与代数",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 第六章 一次方程（组）和一次不等式（组） 6.11 一次方程组的应用",
+    "type": "application",
+    "description": "会列二元一次方程组解决实际问题。",
+    "mastery_criteria": [
+      "会设两个未知数并表示两个等量关系",
+      "会列方程组并求解",
+      "会检验答案是否符合实际"
+    ],
+    "diagnostic_question": {
+      "question": "两种票共 10 张，总价 55 元，甲票 5 元、乙票 6 元，甲票有几张？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.IP.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会设两个未知数并表示两个等量关系",
+        "会列方程组并求解",
+        "会检验答案是否符合实际"
+      ],
+      "worked_example": {
+        "problem": "甲、乙两种票共 10 张，总价 55 元，甲票 5 元、乙票 6 元，求甲票张数。",
+        "steps": [
+          "设甲票 x 张、乙票 y 张",
+          "x＋y＝10，5x＋6y＝55",
+          "解得 x＝5，y＝5"
+        ],
+        "answer": "甲票 5 张。"
+      },
+      "common_mistakes": [
+        "两个等量关系找重复",
+        "解出负数却不检验"
+      ],
+      "coaching_tip": "先找“总和”和“总价（总量）”两类关系，分别列一个方程。"
+    }
+  },
+  {
+    "id": "cnm_202",
+    "name": "线段的大小比较与画法",
+    "domain": "图形与几何",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 第七章 线段与角的画法 7.1 线段的大小比较 7.2 画线段的和、差、倍",
+    "type": "procedural",
+    "description": "会比较线段的长短，会画线段的和、差、倍与中点。",
+    "mastery_criteria": [
+      "会用叠合法、度量法比较线段长短",
+      "会用圆规画线段的和、差、倍",
+      "理解线段中点的意义并会计算"
+    ],
+    "diagnostic_question": {
+      "question": "点 C 是线段 AB 的中点，AB＝10，AC 是多少？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "cms-2022:4.GG.06",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会用叠合法、度量法比较线段长短",
+        "会用圆规画线段的和、差、倍",
+        "理解线段中点的意义并会计算"
+      ],
+      "worked_example": {
+        "problem": "线段 AB＝12，C 在 AB 上且 AC＝5，M 是 BC 的中点，求 AM。",
+        "steps": [
+          "BC＝12－5＝7",
+          "BM＝7÷2＝3.5",
+          "AM＝5＋3.5＝8.5"
+        ],
+        "answer": "AM＝8.5。"
+      },
+      "common_mistakes": [
+        "把中点当成整条线段的一半",
+        "线段和差的方向搞反"
+      ],
+      "coaching_tip": "画图标注每个点，逐段相加；中点问题先算整段再除以 2。"
+    }
+  },
+  {
+    "id": "cnm_203",
+    "name": "角的概念与表示",
+    "domain": "图形与几何",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 第七章 线段与角的画法 7.3 角的概念与表示",
+    "type": "conceptual",
+    "description": "理解角的概念与表示方法，知道角的度量单位及换算。",
+    "mastery_criteria": [
+      "会用三种方法表示角",
+      "知道 1°＝60′、1′＝60″并会换算",
+      "会判断直角、平角、周角"
+    ],
+    "diagnostic_question": {
+      "question": "1 直角等于多少度？",
+      "answer": "90"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会用三种方法表示角",
+        "知道 1°＝60′、1′＝60″并会换算",
+        "会判断直角、平角、周角"
+      ],
+      "worked_example": {
+        "problem": "把 45°30′ 化成度。",
+        "steps": [
+          "30′＝30÷60＝0.5°",
+          "45＋0.5＝45.5",
+          "所以 45°30′＝45.5°"
+        ],
+        "answer": "45.5°。"
+      },
+      "common_mistakes": [
+        "把 1° 当成 100′",
+        "角的表示中字母顺序混乱"
+      ],
+      "coaching_tip": "度分秒是六十进制，换算时除以或乘以 60，不要用十进制思维。"
+    }
+  },
+  {
+    "id": "cnm_204",
+    "name": "角的大小比较与角的和差倍",
+    "domain": "图形与几何",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 第七章 线段与角的画法 7.4 角的大小比较 7.5 画角的和、差、倍",
+    "type": "procedural",
+    "description": "会比较角的大小，会进行角的和、差、倍计算。",
+    "mastery_criteria": [
+      "会用量角器度量并比较角的大小",
+      "会进行角的加减运算（含度分秒）",
+      "会画角的和、差、倍"
+    ],
+    "diagnostic_question": {
+      "question": "∠A＝35°，∠B＝48°，∠A＋∠B 是多少度？",
+      "answer": "83"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会用量角器度量并比较角的大小",
+        "会进行角的加减运算（含度分秒）",
+        "会画角的和、差、倍"
+      ],
+      "worked_example": {
+        "problem": "∠AOB＝80°，OC 在 ∠AOB 内部且 ∠AOC＝30°，求 ∠COB。",
+        "steps": [
+          "∠COB＝∠AOB－∠AOC",
+          "＝80°－30°",
+          "＝50°"
+        ],
+        "answer": "50°。"
+      },
+      "common_mistakes": [
+        "度分秒相减时忘记借位",
+        "把角的位置关系画错"
+      ],
+      "coaching_tip": "先在图上标出已知角，再判断是相加还是相减；度分秒运算按 60 进位。"
+    }
+  },
+  {
+    "id": "cnm_205",
+    "name": "余角与补角",
+    "domain": "图形与几何",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 第七章 线段与角的画法 7.6 余角、补角",
+    "type": "conceptual",
+    "description": "理解余角、补角的概念与性质，会进行相关计算。",
+    "mastery_criteria": [
+      "知道两角之和为 90° 互为余角，为 180° 互为补角",
+      "会求一个角的余角与补角",
+      "知道同角（等角）的余角相等、补角相等"
+    ],
+    "diagnostic_question": {
+      "question": "35° 的余角是多少度？",
+      "answer": "55"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道两角之和为 90° 互为余角，为 180° 互为补角",
+        "会求一个角的余角与补角",
+        "知道同角（等角）的余角相等、补角相等"
+      ],
+      "worked_example": {
+        "problem": "一个角的补角是它的 3 倍，求这个角。",
+        "steps": [
+          "设这个角为 x，补角为 180°－x",
+          "列方程 180－x＝3x",
+          "解得 x＝45°"
+        ],
+        "answer": "45°。"
+      },
+      "common_mistakes": [
+        "把余角与补角混淆",
+        "求补角时用 90° 去减"
+      ],
+      "coaching_tip": "记牢“余 90、补 180”；文字题先设未知数，再用“和为 90 或 180”列方程。"
+    }
+  },
+  {
+    "id": "cnm_206",
+    "name": "长方体的元素与直观图",
+    "domain": "图形与几何",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 第八章 长方体的再认识 8.1 长方体的元素 8.2 长方体直观图的画法",
+    "type": "conceptual",
+    "description": "认识长方体的面、棱、顶点，会画长方体的直观图。",
+    "mastery_criteria": [
+      "知道长方体有 6 个面、12 条棱、8 个顶点",
+      "理解长、宽、高与棱长的关系",
+      "会画长方体的直观图（斜二测画法）"
+    ],
+    "diagnostic_question": {
+      "question": "长方体有多少条棱？",
+      "answer": "12"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.23",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道长方体有 6 个面、12 条棱、8 个顶点",
+        "理解长、宽、高与棱长的关系",
+        "会画长方体的直观图（斜二测画法）"
+      ],
+      "worked_example": {
+        "problem": "用长 4 cm、宽 3 cm、高 2 cm 的铁丝做一个长方体框架，需要铁丝多少厘米？",
+        "steps": [
+          "长方体有 4 组长、4 组宽、4 组高",
+          "4×(4＋3＋2)",
+          "＝36（厘米）"
+        ],
+        "answer": "36 厘米。"
+      },
+      "common_mistakes": [
+        "把棱长总数算成 2 组",
+        "直观图中平行线画得不平行"
+      ],
+      "coaching_tip": "铁丝框架题用 4×(长＋宽＋高)；数元素时按“面 6、棱 12、顶点 8”记。"
+    }
+  },
+  {
+    "id": "cnm_207",
+    "name": "长方体中棱与棱的位置关系",
+    "domain": "图形与几何",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 第八章 长方体的再认识 8.3 长方体中棱与棱位置关系的认识",
+    "type": "conceptual",
+    "description": "认识长方体中棱与棱的平行、相交、异面三种位置关系。",
+    "mastery_criteria": [
+      "能说出棱与棱的三种位置关系",
+      "会数出与某条棱平行、相交、异面的棱的条数",
+      "理解异面直线的含义"
+    ],
+    "diagnostic_question": {
+      "question": "长方体中与一条棱平行的棱有几条？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.23",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能说出棱与棱的三种位置关系",
+        "会数出与某条棱平行、相交、异面的棱的条数",
+        "理解异面直线的含义"
+      ],
+      "worked_example": {
+        "problem": "长方体中与一条棱平行的棱有几条？",
+        "steps": [
+          "长方体有 3 组互相平行的棱，每组 4 条",
+          "同组中除这条棱外还有 3 条",
+          "所以有 3 条"
+        ],
+        "answer": "3 条。"
+      },
+      "common_mistakes": [
+        "把异面棱当成平行棱",
+        "忽略“相交于端点”的棱"
+      ],
+      "coaching_tip": "按“同方向（平行）、共端点（相交）、其余（异面）”三类逐个数。"
+    }
+  },
+  {
+    "id": "cnm_208",
+    "name": "棱与平面、平面与平面的位置关系",
+    "domain": "图形与几何",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 第八章 长方体的再认识 8.4 长方体中棱与平面位置关系的认识 8.5 长方体中平面与平面位置关系的认识",
+    "type": "conceptual",
+    "description": "认识长方体中棱与平面、平面与平面的平行与垂直关系。",
+    "mastery_criteria": [
+      "能判断棱与平面是平行还是在平面内，或与平面垂直",
+      "能判断两个平面平行或垂直",
+      "会数出与某条棱、某个面相关的棱与面的个数"
+    ],
+    "diagnostic_question": {
+      "question": "长方体中与一个面平行的面有几个？",
+      "answer": "1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.23",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能判断棱与平面是平行还是在平面内，或与平面垂直",
+        "能判断两个平面平行或垂直",
+        "会数出与某条棱、某个面相关的棱与面的个数"
+      ],
+      "worked_example": {
+        "problem": "长方体中与一条棱垂直的面有几个？",
+        "steps": [
+          "这条棱所在的两个端点分别确定两个面",
+          "这两个面都与该棱垂直",
+          "所以有 2 个"
+        ],
+        "answer": "2 个。"
+      },
+      "common_mistakes": [
+        "把“平行于面”与“在面内”混为一谈",
+        "认为棱与面只能平行或垂直"
+      ],
+      "coaching_tip": "用“棱的方向是否与面内某两条相交直线都垂直”判断垂直，用“是否与面内一条直线平行且不在面内”判断平行。"
+    }
+  },
+  {
+    "id": "cnm_209",
+    "name": "字母表示数与代数式",
+    "domain": "数与代数",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上 第九章 整式 9.1 字母表示数 9.2 代数式",
+    "type": "conceptual",
+    "description": "理解用字母表示数的意义，会列代数式并表示数量关系。",
+    "mastery_criteria": [
+      "能用含字母的式子表示运算律、公式和数量关系",
+      "会判断一个式子是不是代数式",
+      "会正确书写代数式（乘号省略、数字在前等）"
+    ],
+    "diagnostic_question": {
+      "question": "当 x＝3 时，代数式 2x＋1 的值是多少？",
+      "answer": "7"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.05",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能用含字母的式子表示运算律、公式和数量关系",
+        "会判断一个式子是不是代数式",
+        "会正确书写代数式（乘号省略、数字在前等）"
+      ],
+      "worked_example": {
+        "problem": "用代数式表示“a 的平方与 b 的和”。",
+        "steps": [
+          "a 的平方写作 a²",
+          "再与 b 相加",
+          "所以是 a²＋b"
+        ],
+        "answer": "a²＋b。"
+      },
+      "common_mistakes": [
+        "把 a²＋b 写成 a²b",
+        "代数式中出现等号或不等号"
+      ],
+      "coaching_tip": "先说清“谁先算、谁后算”，再按运算顺序写；代数式不能含等号、不等号。"
+    }
+  },
+  {
+    "id": "cnm_210",
+    "name": "代数式的值",
+    "domain": "数与代数",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上 第九章 整式 9.3 代数式的值",
+    "type": "procedural",
+    "description": "会把已知数值代入代数式求值。",
+    "mastery_criteria": [
+      "会按运算顺序代入求值",
+      "会处理负数、分数代入时的括号",
+      "会利用整体代入求值"
+    ],
+    "diagnostic_question": {
+      "question": "当 x＝－2 时，x²＋1 的值是多少？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.05",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会按运算顺序代入求值",
+        "会处理负数、分数代入时的括号",
+        "会利用整体代入求值"
+      ],
+      "worked_example": {
+        "problem": "当 x＝－2 时，求 x²＋1 的值。",
+        "steps": [
+          "代入时把 －2 括起来：(－2)²",
+          "＝4",
+          "4＋1＝5"
+        ],
+        "answer": "5。"
+      },
+      "common_mistakes": [
+        "代入负数不加括号，算成 －2²＝－4",
+        "先化简再代入时代错数"
+      ],
+      "coaching_tip": "负数、分数代入必须加括号；能化简的先化简，代入更省力。"
+    }
+  },
+  {
+    "id": "cnm_211",
+    "name": "整式的概念",
+    "domain": "数与代数",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上 第九章 整式 9.4 整式",
+    "type": "conceptual",
+    "description": "理解单项式、多项式与整式的概念，会说出次数与系数。",
+    "mastery_criteria": [
+      "会判断单项式、多项式与整式",
+      "会说出单项式的系数与次数",
+      "会说出多项式的项、次数与常数项"
+    ],
+    "diagnostic_question": {
+      "question": "单项式 －3x²y 的次数是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.05",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会判断单项式、多项式与整式",
+        "会说出单项式的系数与次数",
+        "会说出多项式的项、次数与常数项"
+      ],
+      "worked_example": {
+        "problem": "说出单项式 －3x²y 的系数与次数。",
+        "steps": [
+          "系数是数字因数 －3",
+          "字母指数之和为 2＋1＝3",
+          "所以系数是 －3，次数是 3"
+        ],
+        "answer": "系数 －3，次数 3。"
+      },
+      "common_mistakes": [
+        "把系数与次数混淆",
+        "多项式次数按项数计算"
+      ],
+      "coaching_tip": "单项式的次数看字母指数之和；多项式的次数看最高次项，不是项数。"
+    }
+  },
+  {
+    "id": "cnm_212",
+    "name": "合并同类项",
+    "domain": "数与代数",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上 第九章 整式 9.5 合并同类项",
+    "type": "procedural",
+    "description": "理解同类项的概念，会合并同类项。",
+    "mastery_criteria": [
+      "会判断两项是否为同类项",
+      "会按“系数相加、字母与指数不变”合并同类项",
+      "会在多项式中找出所有同类项"
+    ],
+    "diagnostic_question": {
+      "question": "合并同类项 3x＋2x，结果中 x 的系数是多少？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.06",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会判断两项是否为同类项",
+        "会按“系数相加、字母与指数不变”合并同类项",
+        "会在多项式中找出所有同类项"
+      ],
+      "worked_example": {
+        "problem": "合并同类项 5a－2a＋3a。",
+        "steps": [
+          "三项都是同类项",
+          "系数相加：5－2＋3＝6",
+          "结果是 6a"
+        ],
+        "answer": "6a。"
+      },
+      "common_mistakes": [
+        "合并时把字母的指数也相加",
+        "把不同类项强行合并"
+      ],
+      "coaching_tip": "同类项必须“字母相同、相同字母的指数也相同”；合并只动系数。"
+    }
+  },
+  {
+    "id": "cnm_213",
+    "name": "整式的加减",
+    "domain": "数与代数",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上 第九章 整式 9.6 整式的加减",
+    "type": "procedural",
+    "description": "会去括号并合并同类项，完成整式加减。",
+    "mastery_criteria": [
+      "会正确去括号（括号前是负号时各项变号）",
+      "会进行两个整式的加减",
+      "会先化简再求值"
+    ],
+    "diagnostic_question": {
+      "question": "(3x＋1)＋(2x－4) 中 x 的系数是多少？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.06",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会正确去括号（括号前是负号时各项变号）",
+        "会进行两个整式的加减",
+        "会先化简再求值"
+      ],
+      "worked_example": {
+        "problem": "化简 (2a－b)－(a＋3b)。",
+        "steps": [
+          "去括号：2a－b－a－3b",
+          "合并同类项：a－4b",
+          "所以结果是 a－4b"
+        ],
+        "answer": "a－4b。"
+      },
+      "common_mistakes": [
+        "括号前是负号时只给第一项变号",
+        "合并时符号出错"
+      ],
+      "coaching_tip": "去括号时把括号前的符号“乘”进每一项，负号则逐项变号。"
+    }
+  },
+  {
+    "id": "cnm_214",
+    "name": "同底数幂的乘法",
+    "domain": "数与代数",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上 第九章 整式 9.7 同底数幂的乘法",
+    "type": "procedural",
+    "description": "掌握同底数幂的乘法法则 aᵐ·aⁿ＝aᵐ⁺ⁿ。",
+    "mastery_criteria": [
+      "会说清法则的推导过程",
+      "会用法则计算，含负号与多个因式",
+      "会逆用法则求指数中的未知数"
+    ],
+    "diagnostic_question": {
+      "question": "a³·a²＝aⁿ，n 是多少？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.07",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会说清法则的推导过程",
+        "会用法则计算，含负号与多个因式",
+        "会逆用法则求指数中的未知数"
+      ],
+      "worked_example": {
+        "problem": "计算 a³·a²。",
+        "steps": [
+          "同底数幂相乘，底数不变",
+          "指数相加：3＋2＝5",
+          "所以 a³·a²＝a⁵"
+        ],
+        "answer": "a⁵。"
+      },
+      "common_mistakes": [
+        "把指数相乘",
+        "底数不同时也套用法则"
+      ],
+      "coaching_tip": "只有底数相同才能用；指数做加法，不是乘法。"
+    }
+  },
+  {
+    "id": "cnm_215",
+    "name": "幂的乘方与积的乘方",
+    "domain": "数与代数",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上 第九章 整式 9.8 幂的乘方 9.9 积的乘方",
+    "type": "procedural",
+    "description": "掌握幂的乘方与积的乘方法则。",
+    "mastery_criteria": [
+      "会用 (aᵐ)ⁿ＝aᵐⁿ 计算",
+      "会用 (ab)ⁿ＝aⁿbⁿ 计算",
+      "会处理负号与系数"
+    ],
+    "diagnostic_question": {
+      "question": "(a²)³＝aⁿ，n 是多少？",
+      "answer": "6"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.07",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会用 (aᵐ)ⁿ＝aᵐⁿ 计算",
+        "会用 (ab)ⁿ＝aⁿbⁿ 计算",
+        "会处理负号与系数"
+      ],
+      "worked_example": {
+        "problem": "计算 (a²)³。",
+        "steps": [
+          "幂的乘方，底数不变",
+          "指数相乘：2×3＝6",
+          "所以 (a²)³＝a⁶"
+        ],
+        "answer": "a⁶。"
+      },
+      "common_mistakes": [
+        "把指数相加而不是相乘",
+        "积的乘方只给字母乘方，漏掉系数"
+      ],
+      "coaching_tip": "幂的乘方指数相乘，积的乘方每个因式都要乘方。"
+    }
+  },
+  {
+    "id": "cnm_216",
+    "name": "整式的乘法",
+    "domain": "数与代数",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上 第九章 整式 9.10 整式的乘法",
+    "type": "procedural",
+    "description": "会进行单项式乘单项式、单项式乘多项式、多项式乘多项式。",
+    "mastery_criteria": [
+      "会计算单项式与单项式相乘",
+      "会用法则展开单项式乘多项式",
+      "会用逐项相乘再合并的方法展开多项式乘多项式"
+    ],
+    "diagnostic_question": {
+      "question": "2x²·3x＝6xⁿ，n 是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.08",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会计算单项式与单项式相乘",
+        "会用法则展开单项式乘多项式",
+        "会用逐项相乘再合并的方法展开多项式乘多项式"
+      ],
+      "worked_example": {
+        "problem": "计算 (x＋2)(x－3)。",
+        "steps": [
+          "逐项相乘：x·x、x·(－3)、2·x、2·(－3)",
+          "得 x²－3x＋2x－6",
+          "合并得 x²－x－6"
+        ],
+        "answer": "x²－x－6。"
+      },
+      "common_mistakes": [
+        "多项式乘法漏项",
+        "符号相乘出错"
+      ],
+      "coaching_tip": "用“每一项都要乘到”检查一遍项数：2 项乘 2 项应得 4 项再合并。"
+    }
+  },
+  {
+    "id": "cnm_217",
+    "name": "平方差公式",
+    "domain": "数与代数",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上 第九章 整式 9.11 平方差公式",
+    "type": "procedural",
+    "description": "掌握平方差公式 (a＋b)(a－b)＝a²－b²，并能灵活运用。",
+    "mastery_criteria": [
+      "会说清公式的结构特征",
+      "会用公式进行简便计算",
+      "会逆用公式进行因式分解与化简"
+    ],
+    "diagnostic_question": {
+      "question": "(x＋2)(x－2)＝x²－□，□ 是多少？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.08",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会说清公式的结构特征",
+        "会用公式进行简便计算",
+        "会逆用公式进行因式分解与化简"
+      ],
+      "worked_example": {
+        "problem": "计算 101×99。",
+        "steps": [
+          "101＝100＋1，99＝100－1",
+          "用平方差公式：100²－1²",
+          "＝10000－1＝9999"
+        ],
+        "answer": "9999。"
+      },
+      "common_mistakes": [
+        "公式中两项的符号判断错误",
+        "把 a²－b² 写成 (a－b)²"
+      ],
+      "coaching_tip": "认准“相同项”和“相反项”：相同项的平方减去相反项的平方。"
+    }
+  },
+  {
+    "id": "cnm_218",
+    "name": "完全平方公式",
+    "domain": "数与代数",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上 第九章 整式 9.12 完全平方公式",
+    "type": "procedural",
+    "description": "掌握完全平方公式 (a±b)²＝a²±2ab＋b²。",
+    "mastery_criteria": [
+      "会展开 (a＋b)² 与 (a－b)²",
+      "会用公式做简便计算",
+      "会利用公式变形求代数式的值"
+    ],
+    "diagnostic_question": {
+      "question": "(x＋3)² 展开后 x 的系数是多少？",
+      "answer": "6"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.08",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会展开 (a＋b)² 与 (a－b)²",
+        "会用公式做简便计算",
+        "会利用公式变形求代数式的值"
+      ],
+      "worked_example": {
+        "problem": "计算 (x＋3)²。",
+        "steps": [
+          "(a＋b)²＝a²＋2ab＋b²",
+          "＝x²＋2·x·3＋3²",
+          "＝x²＋6x＋9"
+        ],
+        "answer": "x²＋6x＋9。"
+      },
+      "common_mistakes": [
+        "漏写中间项 2ab",
+        "把 (a－b)² 写成 a²－b²"
+      ],
+      "coaching_tip": "完全平方有三项，中间项是“两数积的 2 倍”，符号跟着括号里的符号走。"
+    }
+  },
+  {
+    "id": "cnm_219",
+    "name": "因式分解：提取公因式法",
+    "domain": "数与代数",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上 第九章 整式 9.13 因式分解——提取公因式法",
+    "type": "procedural",
+    "description": "理解因式分解的意义，会用提公因式法分解因式。",
+    "mastery_criteria": [
+      "知道因式分解与整式乘法是互逆变形",
+      "会找出多项式的公因式",
+      "会提取公因式（含负号、含多项式因式）"
+    ],
+    "diagnostic_question": {
+      "question": "6a²b－3ab² 提取公因式 3ab 后，括号内 a 的系数是多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.10",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道因式分解与整式乘法是互逆变形",
+        "会找出多项式的公因式",
+        "会提取公因式（含负号、含多项式因式）"
+      ],
+      "worked_example": {
+        "problem": "分解因式 6a²b－3ab²。",
+        "steps": [
+          "公因式是 3ab",
+          "6a²b÷3ab＝2a，3ab²÷3ab＝b",
+          "所以原式＝3ab(2a－b)"
+        ],
+        "answer": "3ab(2a－b)。"
+      },
+      "common_mistakes": [
+        "提公因式后漏项，如把 2a－b 写成 2a",
+        "公因式找不全"
+      ],
+      "coaching_tip": "公因式取“系数最大公约数 + 相同字母的最低次幂”，提完后检查括号里还剩几项。"
+    }
+  },
+  {
+    "id": "cnm_220",
+    "name": "因式分解：公式法",
+    "domain": "数与代数",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上 第九章 整式 9.14 因式分解——公式法",
+    "type": "procedural",
+    "description": "会用平方差公式、完全平方公式分解因式。",
+    "mastery_criteria": [
+      "会把形如 a²－b² 的多项式分解",
+      "会把形如 a²±2ab＋b² 的多项式分解",
+      "会先提公因式再用公式"
+    ],
+    "diagnostic_question": {
+      "question": "x²－9 分解因式后，其中一个因式是 x＋3，另一个因式是 x－几？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.10",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会把形如 a²－b² 的多项式分解",
+        "会把形如 a²±2ab＋b² 的多项式分解",
+        "会先提公因式再用公式"
+      ],
+      "worked_example": {
+        "problem": "分解因式 x²－6x＋9。",
+        "steps": [
+          "原式＝x²－2·x·3＋3²",
+          "符合完全平方公式",
+          "＝(x－3)²"
+        ],
+        "answer": "(x－3)²。"
+      },
+      "common_mistakes": [
+        "分解不彻底（如 a⁴－b⁴ 只分成 (a²－b²)(a²＋b²)）",
+        "符号与公式不匹配"
+      ],
+      "coaching_tip": "先提公因式，再看是否符合公式；分解到每个因式都不能再分为止。"
+    }
+  },
+  {
+    "id": "cnm_221",
+    "name": "因式分解：十字相乘与分组分解",
+    "domain": "数与代数",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上 第九章 整式 9.15 十字相乘法 9.16 分组分解法",
+    "type": "procedural",
+    "description": "会用十字相乘法分解 x²＋px＋q 型二次三项式，会用分组分解法分解四项式。",
+    "mastery_criteria": [
+      "会找两个数使其和等于一次项系数、积等于常数项",
+      "会用十字相乘法分解",
+      "会合理分组后再提取公因式"
+    ],
+    "diagnostic_question": {
+      "question": "x²＋5x＋6＝(x＋2)(x＋3)，两个常数之积是多少？",
+      "answer": "6"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.10",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会找两个数使其和等于一次项系数、积等于常数项",
+        "会用十字相乘法分解",
+        "会合理分组后再提取公因式"
+      ],
+      "worked_example": {
+        "problem": "分解因式 x²＋5x＋6。",
+        "steps": [
+          "找两数积为 6、和为 5：2 与 3",
+          "写成 (x＋2)(x＋3)",
+          "展开检验：x²＋5x＋6，正确"
+        ],
+        "answer": "(x＋2)(x＋3)。"
+      },
+      "common_mistakes": [
+        "符号判断错误（积为负时两数异号）",
+        "分组后两组没有公因式就停在半路"
+      ],
+      "coaching_tip": "十字相乘先定符号：积为正同号，积为负异号；分组分解要保证两组有共同的因式。"
+    }
+  },
+  {
+    "id": "cnm_222",
+    "name": "同底数幂的除法与整式的除法",
+    "domain": "数与代数",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上 第九章 整式 9.17 同底数幂的除法 9.18 单项式除以单项式 9.19 多项式除以单项式",
+    "type": "procedural",
+    "description": "掌握同底数幂的除法与整式除法。",
+    "mastery_criteria": [
+      "会用 aᵐ÷aⁿ＝aᵐ⁻ⁿ（a≠0）计算",
+      "会进行单项式除以单项式",
+      "会把多项式除以单项式转化为逐项相除"
+    ],
+    "diagnostic_question": {
+      "question": "a⁵÷a²＝aⁿ，n 是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.09",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会用 aᵐ÷aⁿ＝aᵐ⁻ⁿ（a≠0）计算",
+        "会进行单项式除以单项式",
+        "会把多项式除以单项式转化为逐项相除"
+      ],
+      "worked_example": {
+        "problem": "计算 (8x³－4x²)÷2x。",
+        "steps": [
+          "逐项相除：8x³÷2x＝4x²",
+          "－4x²÷2x＝－2x",
+          "所以结果是 4x²－2x"
+        ],
+        "answer": "4x²－2x。"
+      },
+      "common_mistakes": [
+        "指数相除而不是相减",
+        "多项式除法漏除某一项"
+      ],
+      "coaching_tip": "系数相除、同底数幂指数相减；多项式除以单项式要“每一项都除”。"
+    }
+  },
+  {
+    "id": "cnm_223",
+    "name": "分式的意义",
+    "domain": "数与代数",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上 第十章 分式 10.1 分式的意义",
+    "type": "conceptual",
+    "description": "理解分式的概念，知道分式有意义的条件与分式值为 0 的条件。",
+    "mastery_criteria": [
+      "会判断一个式子是不是分式",
+      "会求使分式有意义的字母取值范围",
+      "会求使分式值为 0 的字母取值"
+    ],
+    "diagnostic_question": {
+      "question": "分式 (x＋1)/(x－2) 中，x 不能取的值是多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.11",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会判断一个式子是不是分式",
+        "会求使分式有意义的字母取值范围",
+        "会求使分式值为 0 的字母取值"
+      ],
+      "worked_example": {
+        "problem": "当 x 取何值时，分式 (x²－9)/(x＋3) 的值为 0？",
+        "steps": [
+          "分式值为 0 需分子为 0：x²－9＝0，x＝±3",
+          "同时分母不为 0：x＋3≠0，x≠－3",
+          "所以 x＝3"
+        ],
+        "answer": "x＝3。"
+      },
+      "common_mistakes": [
+        "只让分子为 0，忘记分母不为 0",
+        "把分母为 0 的值也算进定义域"
+      ],
+      "coaching_tip": "分式有意义看分母≠0；分式值为 0 要“分子＝0 且分母≠0”两个条件同时满足。"
+    }
+  },
+  {
+    "id": "cnm_224",
+    "name": "分式的基本性质",
+    "domain": "数与代数",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上 第十章 分式 10.2 分式的基本性质",
+    "type": "procedural",
+    "description": "掌握分式的基本性质，会约分与通分。",
+    "mastery_criteria": [
+      "会说出分式的基本性质",
+      "会把分式约分成最简分式",
+      "会把几个分式通分到相同分母"
+    ],
+    "diagnostic_question": {
+      "question": "把 1/x 的分子、分母都乘 3，得到的分母中 x 的系数是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.11",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会说出分式的基本性质",
+        "会把分式约分成最简分式",
+        "会把几个分式通分到相同分母"
+      ],
+      "worked_example": {
+        "problem": "约分 (6x²y)/(9xy²)。",
+        "steps": [
+          "分子分母同除以公因式 3xy",
+          "6x²y÷3xy＝2x，9xy²÷3xy＝3y",
+          "所以结果是 2x/(3y)"
+        ],
+        "answer": "2x/(3y)。"
+      },
+      "common_mistakes": [
+        "约分时只约系数不约字母",
+        "通分时分母找错"
+      ],
+      "coaching_tip": "约分找分子分母的公因式，通分找分母的最简公分母。"
+    }
+  },
+  {
+    "id": "cnm_225",
+    "name": "分式的乘除",
+    "domain": "数与代数",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上 第十章 分式 10.3 分式的乘除",
+    "type": "procedural",
+    "description": "掌握分式的乘除法则，会进行约分与乘除运算。",
+    "mastery_criteria": [
+      "会计算分式乘分式、分式除以分式",
+      "会先因式分解再约分",
+      "会处理含多项式的分式乘除"
+    ],
+    "diagnostic_question": {
+      "question": "(a/b)·(b/a) 的值是多少？",
+      "answer": "1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.12",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会计算分式乘分式、分式除以分式",
+        "会先因式分解再约分",
+        "会处理含多项式的分式乘除"
+      ],
+      "worked_example": {
+        "problem": "计算 (2x/y)·(y²/(4x²))。",
+        "steps": [
+          "分子乘分子、分母乘分母：2xy²/(4x²y)",
+          "约去 2xy",
+          "得 y/(2x)"
+        ],
+        "answer": "y/(2x)。"
+      },
+      "common_mistakes": [
+        "除法忘记颠倒相乘",
+        "约分时只约字母不约系数"
+      ],
+      "coaching_tip": "先把分子分母都因式分解，再一次性约分，最后相乘。"
+    }
+  },
+  {
+    "id": "cnm_226",
+    "name": "分式的加减",
+    "domain": "数与代数",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上 第十章 分式 10.4 分式的加减",
+    "type": "procedural",
+    "description": "会进行同分母、异分母分式的加减。",
+    "mastery_criteria": [
+      "会同分母分式相加减",
+      "会通分后计算异分母分式的加减",
+      "会把结果化成最简分式"
+    ],
+    "diagnostic_question": {
+      "question": "1/x＋2/x 的分子是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.12",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会同分母分式相加减",
+        "会通分后计算异分母分式的加减",
+        "会把结果化成最简分式"
+      ],
+      "worked_example": {
+        "problem": "计算 1/(x－1)－1/(x＋1)。",
+        "steps": [
+          "通分，公分母为 (x－1)(x＋1)",
+          "分子为 (x＋1)－(x－1)＝2",
+          "所以结果是 2/((x－1)(x＋1))"
+        ],
+        "answer": "2/((x－1)(x＋1))。"
+      },
+      "common_mistakes": [
+        "分子相减时忘记括号，符号出错",
+        "通分后忘记约分"
+      ],
+      "coaching_tip": "异分母先通分，分子相减整体加括号，最后检查能否约分。"
+    }
+  },
+  {
+    "id": "cnm_227",
+    "name": "可化为一元一次方程的分式方程",
+    "domain": "数与代数",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上 第十章 分式 10.5 可以化为一元一次方程的分式方程",
+    "type": "procedural",
+    "description": "会解分式方程，并会检验增根。",
+    "mastery_criteria": [
+      "会用去分母法把分式方程化为一元一次方程",
+      "会解分式方程",
+      "会检验并舍去增根"
+    ],
+    "diagnostic_question": {
+      "question": "解方程 2/x＝3，x 是多少？（写成 a/b）",
+      "answer": "2/3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.12",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会用去分母法把分式方程化为一元一次方程",
+        "会解分式方程",
+        "会检验并舍去增根"
+      ],
+      "worked_example": {
+        "problem": "解方程 1/(x－1)＝2/(x＋1)。",
+        "steps": [
+          "两边乘 (x－1)(x＋1)：x＋1＝2(x－1)",
+          "展开得 x＋1＝2x－2，解得 x＝3",
+          "检验 x＝3 时分母不为 0，成立"
+        ],
+        "answer": "x＝3。"
+      },
+      "common_mistakes": [
+        "去分母时漏乘不含分母的项",
+        "不检验就写答案"
+      ],
+      "coaching_tip": "去分母后一定检验：把解代回原方程的分母，分母为 0 的必须舍去。"
+    }
+  },
+  {
+    "id": "cnm_228",
+    "name": "整数指数幂及其运算",
+    "domain": "数与代数",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上 第十章 分式 10.6 整数指数幂及其运算",
+    "type": "procedural",
+    "description": "理解零指数幂与负整数指数幂的意义，会进行相关运算。",
+    "mastery_criteria": [
+      "知道 a⁰＝1（a≠0）",
+      "知道 a⁻ⁿ＝1/aⁿ（a≠0）",
+      "会进行含负整数指数幂的运算与科学记数法表示"
+    ],
+    "diagnostic_question": {
+      "question": "2⁻¹ 等于多少？（写成小数）",
+      "answer": "0.5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.07",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道 a⁰＝1（a≠0）",
+        "知道 a⁻ⁿ＝1/aⁿ（a≠0）",
+        "会进行含负整数指数幂的运算与科学记数法表示"
+      ],
+      "worked_example": {
+        "problem": "计算 2⁻³。",
+        "steps": [
+          "负整数指数幂表示倒数",
+          "2⁻³＝1/2³",
+          "＝1/8"
+        ],
+        "answer": "1/8。"
+      },
+      "common_mistakes": [
+        "把 2⁻³ 算成 －8",
+        "底数为 0 时乱用零指数幂"
+      ],
+      "coaching_tip": "负指数就是“取倒数再乘方”，结果一定是正数（底数不为 0）。"
+    }
+  },
+  {
+    "id": "cnm_229",
+    "name": "图形的平移",
+    "domain": "图形与几何",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上 第十一章 图形的运动 11.1 图形的平移",
+    "type": "conceptual",
+    "description": "理解平移的概念与性质，会作平移后的图形。",
+    "mastery_criteria": [
+      "知道平移由方向和距离决定",
+      "知道平移不改变图形的形状和大小",
+      "会用坐标描述平移并求平移后点的坐标"
+    ],
+    "diagnostic_question": {
+      "question": "把点 (1,2) 向右平移 3 个单位，横坐标是多少？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.18",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道平移由方向和距离决定",
+        "知道平移不改变图形的形状和大小",
+        "会用坐标描述平移并求平移后点的坐标"
+      ],
+      "worked_example": {
+        "problem": "把点 (1,2) 向右平移 3 个单位，求平移后点的横坐标。",
+        "steps": [
+          "向右平移，横坐标加 3",
+          "1＋3＝4",
+          "纵坐标不变，仍为 2"
+        ],
+        "answer": "横坐标是 4。"
+      },
+      "common_mistakes": [
+        "把向右平移当成减",
+        "认为平移会改变图形的大小"
+      ],
+      "coaching_tip": "左右平移改横坐标，上下平移改纵坐标；先判断方向再决定加还是减。"
+    }
+  },
+  {
+    "id": "cnm_230",
+    "name": "图形的旋转与旋转对称图形",
+    "domain": "图形与几何",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上 第十一章 图形的运动 11.2 图形的旋转 11.3 旋转对称图形",
+    "type": "conceptual",
+    "description": "理解旋转的概念与性质，认识旋转对称图形。",
+    "mastery_criteria": [
+      "知道旋转的三要素：旋转中心、旋转方向、旋转角",
+      "知道旋转不改变图形的形状和大小",
+      "会判断旋转对称图形的最小旋转角"
+    ],
+    "diagnostic_question": {
+      "question": "把点 (2,0) 绕原点逆时针旋转 90°，得到点的纵坐标是多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.18",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道旋转的三要素：旋转中心、旋转方向、旋转角",
+        "知道旋转不改变图形的形状和大小",
+        "会判断旋转对称图形的最小旋转角"
+      ],
+      "worked_example": {
+        "problem": "正方形绕它的中心至少旋转多少度后与自身重合？",
+        "steps": [
+          "正方形有 4 条对称轴，绕中心旋转 360°÷4",
+          "＝90°",
+          "所以最小旋转角是 90°"
+        ],
+        "answer": "90°。"
+      },
+      "common_mistakes": [
+        "把旋转角算成 180°",
+        "旋转方向与角度对应错误"
+      ],
+      "coaching_tip": "最小旋转角＝360°÷（旋转后与自身重合的次数），正 n 边形为 360°/n。"
+    }
+  },
+  {
+    "id": "cnm_231",
+    "name": "中心对称与中心对称图形",
+    "domain": "图形与几何",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上 第十一章 图形的运动 11.4 中心对称与中心对称图形",
+    "type": "conceptual",
+    "description": "理解中心对称的概念，会作中心对称图形。",
+    "mastery_criteria": [
+      "知道中心对称是旋转 180° 的特殊情况",
+      "会求关于原点（或某点）对称的点的坐标",
+      "会判断一个图形是否为中心对称图形"
+    ],
+    "diagnostic_question": {
+      "question": "点 (2,3) 关于原点对称的点的横坐标是多少？",
+      "answer": "-2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.18",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道中心对称是旋转 180° 的特殊情况",
+        "会求关于原点（或某点）对称的点的坐标",
+        "会判断一个图形是否为中心对称图形"
+      ],
+      "worked_example": {
+        "problem": "求点 (2,3) 关于原点对称的点的坐标。",
+        "steps": [
+          "关于原点对称，横纵坐标都变号",
+          "得 (－2,－3)",
+          "所以横坐标是 －2"
+        ],
+        "answer": "(－2,－3)。"
+      },
+      "common_mistakes": [
+        "只给横坐标变号",
+        "把中心对称与轴对称混淆"
+      ],
+      "coaching_tip": "关于原点对称：横纵坐标同时变号；关于 x 轴对称只变 y，关于 y 轴对称只变 x。"
+    }
+  },
+  {
+    "id": "cnm_232",
+    "name": "图形的翻折与轴对称",
+    "domain": "图形与几何",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上 第十一章 图形的运动 11.5 图形的翻折与轴对称",
+    "type": "conceptual",
+    "description": "理解轴对称与轴对称图形，会求轴对称点的坐标。",
+    "mastery_criteria": [
+      "知道翻折（轴对称）不改变图形的形状和大小",
+      "会求关于 x 轴、y 轴对称的点的坐标",
+      "会判断轴对称图形并数对称轴条数"
+    ],
+    "diagnostic_question": {
+      "question": "点 (1,2) 关于 x 轴对称的点的纵坐标是多少？",
+      "answer": "-2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.18",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道翻折（轴对称）不改变图形的形状和大小",
+        "会求关于 x 轴、y 轴对称的点的坐标",
+        "会判断轴对称图形并数对称轴条数"
+      ],
+      "worked_example": {
+        "problem": "求点 (1,2) 关于 x 轴对称的点的坐标。",
+        "steps": [
+          "关于 x 轴对称，横坐标不变，纵坐标变号",
+          "得 (1,－2)",
+          "所以纵坐标是 －2"
+        ],
+        "answer": "(1,－2)。"
+      },
+      "common_mistakes": [
+        "关于 x 轴与关于 y 轴搞反",
+        "把轴对称图形与中心对称图形混淆"
+      ],
+      "coaching_tip": "口诀：关于 x 轴“y 变”，关于 y 轴“x 变”，关于原点“都变”。"
+    }
+  },
+  {
+    "id": "cnm_233",
+    "name": "实数的概念",
+    "domain": "数与代数",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下 第十二章 实数 12.1 实数的概念",
+    "type": "conceptual",
+    "description": "认识无理数与实数，会把实数分类。",
+    "mastery_criteria": [
+      "知道无理数是无限不循环小数",
+      "会把实数按定义或按正负分类",
+      "能判断常见数（π、√2 等）是否为无理数"
+    ],
+    "diagnostic_question": {
+      "question": "√9 的值是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道无理数是无限不循环小数",
+        "会把实数按定义或按正负分类",
+        "能判断常见数（π、√2 等）是否为无理数"
+      ],
+      "worked_example": {
+        "problem": "判断 √9、π、0.5、22/7 中哪些是无理数。",
+        "steps": [
+          "√9＝3 是有理数",
+          "π 是无限不循环小数，是无理数",
+          "0.5 与 22/7 都是有理数"
+        ],
+        "answer": "只有 π 是无理数。"
+      },
+      "common_mistakes": [
+        "认为带根号的数一定是无理数",
+        "认为 π＝3.14 是有理数"
+      ],
+      "coaching_tip": "看化简后的结果：√9＝3 是有理数，√2 才是无理数。"
+    }
+  },
+  {
+    "id": "cnm_234",
+    "name": "平方根与开平方",
+    "domain": "数与代数",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下 第十二章 实数 12.2 平方根和开平方",
+    "type": "procedural",
+    "description": "理解平方根、算术平方根的概念，会求平方根。",
+    "mastery_criteria": [
+      "会求一个非负数的平方根与算术平方根",
+      "知道正数有两个平方根、0 的平方根是 0、负数没有平方根",
+      "会利用平方根解简单方程"
+    ],
+    "diagnostic_question": {
+      "question": "16 的算术平方根是多少？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会求一个非负数的平方根与算术平方根",
+        "知道正数有两个平方根、0 的平方根是 0、负数没有平方根",
+        "会利用平方根解简单方程"
+      ],
+      "worked_example": {
+        "problem": "求 16 的平方根。",
+        "steps": [
+          "因为 4²＝16，(－4)²＝16",
+          "所以 16 的平方根是 ±4",
+          "其中算术平方根是 4"
+        ],
+        "answer": "±4（算术平方根为 4）。"
+      },
+      "common_mistakes": [
+        "把平方根与算术平方根混淆",
+        "认为负数也有平方根"
+      ],
+      "coaching_tip": "看到“平方根”要写 ±，看到“算术平方根”只取非负值。"
+    }
+  },
+  {
+    "id": "cnm_235",
+    "name": "立方根与开立方",
+    "domain": "数与代数",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下 第十二章 实数 12.3 立方根和开立方",
+    "type": "procedural",
+    "description": "理解立方根的概念，会求立方根。",
+    "mastery_criteria": [
+      "会求一个数的立方根",
+      "知道正数、负数、0 的立方根各有什么特点",
+      "会用立方根解简单方程"
+    ],
+    "diagnostic_question": {
+      "question": "27 的立方根是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会求一个数的立方根",
+        "知道正数、负数、0 的立方根各有什么特点",
+        "会用立方根解简单方程"
+      ],
+      "worked_example": {
+        "problem": "求 －125 的立方根。",
+        "steps": [
+          "因为 (－5)³＝－125",
+          "所以 －125 的立方根是 －5",
+          "记作 ³√(－125)＝－5"
+        ],
+        "answer": "－5。"
+      },
+      "common_mistakes": [
+        "认为负数没有立方根",
+        "把立方根与平方根混淆"
+      ],
+      "coaching_tip": "立方根对负数也有意义，符号与原数相同；平方根只对非负数有意义。"
+    }
+  },
+  {
+    "id": "cnm_236",
+    "name": "n 次方根",
+    "domain": "数与代数",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下 第十二章 实数 12.4 n 次方根",
+    "type": "procedural",
+    "description": "理解 n 次方根的概念，会求简单的 n 次方根。",
+    "mastery_criteria": [
+      "知道正数的偶次方根有两个且互为相反数",
+      "知道负数的奇次方根是负数",
+      "会判断负数是否有偶次方根"
+    ],
+    "diagnostic_question": {
+      "question": "32 的 5 次方根是多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道正数的偶次方根有两个且互为相反数",
+        "知道负数的奇次方根是负数",
+        "会判断负数是否有偶次方根"
+      ],
+      "worked_example": {
+        "problem": "求 32 的 5 次方根。",
+        "steps": [
+          "因为 2⁵＝32",
+          "且 5 是奇数，方根唯一",
+          "所以 32 的 5 次方根是 2"
+        ],
+        "answer": "2。"
+      },
+      "common_mistakes": [
+        "认为负数一定有偶次方根",
+        "奇次方根漏写负号"
+      ],
+      "coaching_tip": "先看指数奇偶：奇次方根唯一，偶次方根看被开方数的正负。"
+    }
+  },
+  {
+    "id": "cnm_237",
+    "name": "用数轴上的点表示实数",
+    "domain": "数与代数",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下 第十二章 实数 12.5 用数轴上的点表示实数",
+    "type": "conceptual",
+    "description": "知道实数与数轴上的点一一对应，会估计无理数的大小。",
+    "mastery_criteria": [
+      "会把无理数用数轴上的点表示",
+      "会估计一个无理数在哪两个整数之间",
+      "会比较实数的大小"
+    ],
+    "diagnostic_question": {
+      "question": "√5 在哪两个相邻整数之间？较大的那个整数是几？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会把无理数用数轴上的点表示",
+        "会估计一个无理数在哪两个整数之间",
+        "会比较实数的大小"
+      ],
+      "worked_example": {
+        "problem": "估计 √5 在哪两个整数之间。",
+        "steps": [
+          "2²＝4＜5，3²＝9＞5",
+          "所以 2＜√5＜3",
+          "√5 在 2 与 3 之间"
+        ],
+        "answer": "2 与 3 之间。"
+      },
+      "common_mistakes": [
+        "估计时平方算错",
+        "认为 √5＝2.5 是精确值"
+      ],
+      "coaching_tip": "用相邻整数的平方夹逼；比较大小可统一平方后再比较。"
+    }
+  },
+  {
+    "id": "cnm_238",
+    "name": "实数的运算",
+    "domain": "数与代数",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下 第十二章 实数 12.6 实数的运算",
+    "type": "procedural",
+    "description": "会进行实数的简单四则运算与化简。",
+    "mastery_criteria": [
+      "会化简二次根式并合并同类二次根式",
+      "会进行含根号的乘除运算",
+      "会用近似值估算结果"
+    ],
+    "diagnostic_question": {
+      "question": "√2·√2 的值是多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.04",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会化简二次根式并合并同类二次根式",
+        "会进行含根号的乘除运算",
+        "会用近似值估算结果"
+      ],
+      "worked_example": {
+        "problem": "计算 √18－√8。",
+        "steps": [
+          "√18＝3√2，√8＝2√2",
+          "同类二次根式相减：3√2－2√2",
+          "＝√2"
+        ],
+        "answer": "√2。"
+      },
+      "common_mistakes": [
+        "把 √2＋√3 写成 √5",
+        "化简时把根号内的因数提错"
+      ],
+      "coaching_tip": "先化成最简二次根式，再合并同类二次根式；加减不能直接并根号内的数。"
+    }
+  },
+  {
+    "id": "cnm_239",
+    "name": "分数指数幂",
+    "domain": "数与代数",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下 第十二章 实数 12.7 分数指数幂",
+    "type": "procedural",
+    "description": "理解分数指数幂的意义，会进行简单运算。",
+    "mastery_criteria": [
+      "知道 a^(m/n)＝ⁿ√(aᵐ)",
+      "会把根式写成幂的形式",
+      "会计算简单的分数指数幂"
+    ],
+    "diagnostic_question": {
+      "question": "8^(1/3) 的值是多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.04",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道 a^(m/n)＝ⁿ√(aᵐ)",
+        "会把根式写成幂的形式",
+        "会计算简单的分数指数幂"
+      ],
+      "worked_example": {
+        "problem": "计算 8^(1/3)。",
+        "steps": [
+          "8^(1/3) 表示 8 的立方根",
+          "³√8＝2",
+          "所以结果是 2"
+        ],
+        "answer": "2。"
+      },
+      "common_mistakes": [
+        "把 a^(1/2) 写成 a/2",
+        "负分数指数幂的符号处理错误"
+      ],
+      "coaching_tip": "分数指数幂：分母是根指数，分子是乘方次数；负号表示取倒数。"
+    }
+  },
+  {
+    "id": "cnm_240",
+    "name": "邻补角与对顶角",
+    "domain": "图形与几何",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下 第十三章 相交线 平行线 13.1 邻补角、对顶角",
+    "type": "conceptual",
+    "description": "理解邻补角、对顶角的概念与性质。",
+    "mastery_criteria": [
+      "能识别邻补角与对顶角",
+      "知道对顶角相等",
+      "知道邻补角互补"
+    ],
+    "diagnostic_question": {
+      "question": "两直线相交，∠1＝40°，它的对顶角是多少度？",
+      "answer": "40"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "cms-2022:4.GG.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能识别邻补角与对顶角",
+        "知道对顶角相等",
+        "知道邻补角互补"
+      ],
+      "worked_example": {
+        "problem": "两直线相交，∠1＝40°，求它的对顶角。",
+        "steps": [
+          "对顶角的两边互为反向延长线",
+          "对顶角相等",
+          "所以对顶角也是 40°"
+        ],
+        "answer": "40°。"
+      },
+      "common_mistakes": [
+        "把邻补角当成相等",
+        "找错对顶角的顶点"
+      ],
+      "coaching_tip": "对顶角相等、邻补角相加为 180°；判断时先找顶点，再看两边是否互为反向延长线。"
+    }
+  },
+  {
+    "id": "cnm_241",
+    "name": "垂线",
+    "domain": "图形与几何",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下 第十三章 相交线 平行线 13.2 垂线",
+    "type": "conceptual",
+    "description": "理解垂线、垂线段的概念与性质。",
+    "mastery_criteria": [
+      "会过一点作已知直线的垂线",
+      "知道垂线段最短",
+      "会利用垂直关系求角度"
+    ],
+    "diagnostic_question": {
+      "question": "过直线外一点画已知直线的垂线，能画几条？",
+      "answer": "1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会过一点作已知直线的垂线",
+        "知道垂线段最短",
+        "会利用垂直关系求角度"
+      ],
+      "worked_example": {
+        "problem": "过直线外一点画已知直线的垂线，能画几条？",
+        "steps": [
+          "在同一平面内，过一点有且只有一条直线与已知直线垂直",
+          "所以只能画 1 条",
+          "这条垂线段的长度就是点到直线的距离"
+        ],
+        "answer": "1 条。"
+      },
+      "common_mistakes": [
+        "认为可以画两条垂线",
+        "把垂线与垂线段混为一谈"
+      ],
+      "coaching_tip": "“过一点有且只有一条垂线”中的“一点”可以在直线上，也可以在直线外。"
+    }
+  },
+  {
+    "id": "cnm_242",
+    "name": "同位角、内错角、同旁内角",
+    "domain": "图形与几何",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下 第十三章 相交线 平行线 13.3 同位角、内错角、同旁内角",
+    "type": "conceptual",
+    "description": "会在“三线八角”中识别同位角、内错角、同旁内角。",
+    "mastery_criteria": [
+      "能说出三类角的位置特征",
+      "能在一幅图中找出指定的角",
+      "知道两直线平行时三类角的数量关系"
+    ],
+    "diagnostic_question": {
+      "question": "两条直线被第三条直线所截，同位角有几对？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能说出三类角的位置特征",
+        "能在一幅图中找出指定的角",
+        "知道两直线平行时三类角的数量关系"
+      ],
+      "worked_example": {
+        "problem": "两条直线被第三条直线所截，同位角有几对？",
+        "steps": [
+          "在两条被截直线的同侧、截线的同旁",
+          "每个交点各有 2 对，共 4 对",
+          "所以有 4 对"
+        ],
+        "answer": "4 对。"
+      },
+      "common_mistakes": [
+        "把内错角与同旁内角混淆",
+        "数角时重复计数"
+      ],
+      "coaching_tip": "“同”看同侧同旁，“内”看两直线之间，“错”看截线两侧；画图标号再数。"
+    }
+  },
+  {
+    "id": "cnm_243",
+    "name": "平行线的判定",
+    "domain": "图形与几何",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下 第十三章 相交线 平行线 13.4 平行线的判定",
+    "type": "reasoning",
+    "description": "掌握平行线的三种判定方法。",
+    "mastery_criteria": [
+      "会用“同位角相等”“内错角相等”“同旁内角互补”判定两直线平行",
+      "知道平行于同一条直线的两条直线平行",
+      "知道垂直于同一条直线的两条直线平行"
+    ],
+    "diagnostic_question": {
+      "question": "两直线被第三条直线所截，若同位角相等，则这两条直线平行，此时同旁内角之和是多少度？",
+      "answer": "180"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会用“同位角相等”“内错角相等”“同旁内角互补”判定两直线平行",
+        "知道平行于同一条直线的两条直线平行",
+        "知道垂直于同一条直线的两条直线平行"
+      ],
+      "worked_example": {
+        "problem": "已知 ∠1＝∠2，且它们是同位角，判断两直线是否平行。",
+        "steps": [
+          "∠1 与 ∠2 是同位角",
+          "同位角相等",
+          "所以两直线平行"
+        ],
+        "answer": "两直线平行。"
+      },
+      "common_mistakes": [
+        "把判定与性质混用",
+        "同旁内角互补与相等记混"
+      ],
+      "coaching_tip": "判定是“由角推平行”，性质是“由平行推角”，方向不能反。"
+    }
+  },
+  {
+    "id": "cnm_244",
+    "name": "平行线的性质",
+    "domain": "图形与几何",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下 第十三章 相交线 平行线 13.5 平行线的性质",
+    "type": "reasoning",
+    "description": "掌握平行线的三条性质，并会进行角度计算与说理。",
+    "mastery_criteria": [
+      "知道两直线平行，同位角相等、内错角相等、同旁内角互补",
+      "会结合角平分线、对顶角进行角度计算",
+      "会用性质进行简单推理"
+    ],
+    "diagnostic_question": {
+      "question": "两直线平行，若一个同位角是 65°，另一个同位角是多少度？",
+      "answer": "65"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道两直线平行，同位角相等、内错角相等、同旁内角互补",
+        "会结合角平分线、对顶角进行角度计算",
+        "会用性质进行简单推理"
+      ],
+      "worked_example": {
+        "problem": "两直线平行，一个同旁内角是 3 倍于另一个，求较小的角。",
+        "steps": [
+          "设较小的角为 x，另一个为 3x",
+          "同旁内角互补：x＋3x＝180°",
+          "解得 x＝45°"
+        ],
+        "answer": "45°。"
+      },
+      "common_mistakes": [
+        "把性质用反方向",
+        "计算时忘记其他角的关系"
+      ],
+      "coaching_tip": "先找出“平行”给出的角关系，再用对顶角、邻补角、角平分线逐步推进。"
+    }
+  },
+  {
+    "id": "cnm_245",
+    "name": "三角形的有关概念",
+    "domain": "图形与几何",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下 第十四章 三角形 14.1 三角形的有关概念",
+    "type": "conceptual",
+    "description": "理解三角形的概念、三边关系与三角形的分类。",
+    "mastery_criteria": [
+      "会按边、按角给三角形分类",
+      "掌握三角形三边关系定理",
+      "会判断三条线段能否组成三角形"
+    ],
+    "diagnostic_question": {
+      "question": "三角形三边长分别为 3、4、5，周长是多少？",
+      "answer": "12"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会按边、按角给三角形分类",
+        "掌握三角形三边关系定理",
+        "会判断三条线段能否组成三角形"
+      ],
+      "worked_example": {
+        "problem": "判断 3、4、8 三条线段能否组成三角形。",
+        "steps": [
+          "较短两边之和 3＋4＝7",
+          "7＜8，不满足两边之和大于第三边",
+          "所以不能组成三角形"
+        ],
+        "answer": "不能组成三角形。"
+      },
+      "common_mistakes": [
+        "只比较一次就下结论",
+        "等腰三角形求周长时不讨论腰与底"
+      ],
+      "coaching_tip": "只需检验“两条较短的边之和是否大于第三边”。"
+    }
+  },
+  {
+    "id": "cnm_246",
+    "name": "三角形的内角和",
+    "domain": "图形与几何",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下 第十四章 三角形 14.2 三角形的内角和",
+    "type": "reasoning",
+    "description": "掌握三角形内角和定理与外角性质，会进行角度计算。",
+    "mastery_criteria": [
+      "知道三角形内角和为 180°",
+      "知道三角形的一个外角等于与它不相邻的两个内角之和",
+      "会计算多边形的内角与内角和"
+    ],
+    "diagnostic_question": {
+      "question": "三角形两个内角分别是 50° 和 60°，第三个角是多少度？",
+      "answer": "70"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.03",
+        "confidence": "exact"
+      },
+      {
+        "id": "cms-2022:4.GG.10",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道三角形内角和为 180°",
+        "知道三角形的一个外角等于与它不相邻的两个内角之和",
+        "会计算多边形的内角与内角和"
+      ],
+      "worked_example": {
+        "problem": "三角形的两个内角是 50° 和 60°，求第三个角。",
+        "steps": [
+          "内角和为 180°",
+          "180°－50°－60°",
+          "＝70°"
+        ],
+        "answer": "70°。"
+      },
+      "common_mistakes": [
+        "外角性质记成“等于相邻内角”",
+        "多边形内角和公式写成 (n－1)×180°"
+      ],
+      "coaching_tip": "内角和 180°，外角等于不相邻两内角之和；n 边形内角和 (n－2)×180°。"
+    }
+  },
+  {
+    "id": "cnm_247",
+    "name": "全等三角形的概念与性质",
+    "domain": "图形与几何",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下 第十四章 三角形 14.3 全等三角形的概念与性质",
+    "type": "conceptual",
+    "description": "理解全等三角形的概念，掌握全等三角形的性质。",
+    "mastery_criteria": [
+      "会正确书写全等三角形的对应关系",
+      "知道全等三角形的对应边、对应角相等",
+      "知道全等三角形的周长、面积相等"
+    ],
+    "diagnostic_question": {
+      "question": "△ABC≌△DEF，AB＝5，则 DE 是多少？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.04",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会正确书写全等三角形的对应关系",
+        "知道全等三角形的对应边、对应角相等",
+        "知道全等三角形的周长、面积相等"
+      ],
+      "worked_example": {
+        "problem": "已知 △ABC≌△DEF，∠A＝40°，∠B＝60°，求 ∠F。",
+        "steps": [
+          "全等三角形对应角相等",
+          "∠C＝180°－40°－60°＝80°",
+          "∠F＝∠C＝80°"
+        ],
+        "answer": "∠F＝80°。"
+      },
+      "common_mistakes": [
+        "对应关系写错导致对应角找错",
+        "把全等与相似混为一谈"
+      ],
+      "coaching_tip": "写全等时按对应顶点顺序书写，找对应角就看同一位置的字母。"
+    }
+  },
+  {
+    "id": "cnm_248",
+    "name": "全等三角形的判定",
+    "domain": "图形与几何",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下 第十四章 三角形 14.4 全等三角形的判定",
+    "type": "reasoning",
+    "description": "掌握 SSS、SAS、ASA、AAS 四种全等判定方法。",
+    "mastery_criteria": [
+      "会根据已知条件选择合适的判定方法",
+      "知道 SSA 不能判定全等",
+      "会用全等三角形证明线段或角相等"
+    ],
+    "diagnostic_question": {
+      "question": "在 △ABC 与 △DEF 中，AB＝DE，∠B＝∠E，BC＝EF，判定两个三角形全等的依据是（　）。",
+      "answer": "SAS"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.04",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会根据已知条件选择合适的判定方法",
+        "知道 SSA 不能判定全等",
+        "会用全等三角形证明线段或角相等"
+      ],
+      "worked_example": {
+        "problem": "在 △ABC 与 △DEF 中，AB＝DE，∠B＝∠E，BC＝EF，判定全等的依据是什么？",
+        "steps": [
+          "已知两边及其夹角分别相等",
+          "符合“边角边”判定",
+          "所以依据是 SAS"
+        ],
+        "answer": "SAS（边角边）。"
+      },
+      "common_mistakes": [
+        "把 SSA 当作判定方法",
+        "找错夹角"
+      ],
+      "coaching_tip": "SAS 中的角必须是两边的夹角；已知两角一边用 ASA 或 AAS。"
+    }
+  },
+  {
+    "id": "cnm_249",
+    "name": "等腰三角形的性质与判定",
+    "domain": "图形与几何",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下 第十四章 三角形 14.5 等腰三角形的性质 14.6 等腰三角形的判定",
+    "type": "reasoning",
+    "description": "掌握等腰三角形“等边对等角”“三线合一”等性质与判定。",
+    "mastery_criteria": [
+      "知道等腰三角形两底角相等",
+      "知道等腰三角形顶角平分线、底边中线、底边高互相重合",
+      "会用“等角对等边”判定等腰三角形"
+    ],
+    "diagnostic_question": {
+      "question": "等腰三角形的顶角为 40°，一个底角是多少度？",
+      "answer": "70"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.05",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道等腰三角形两底角相等",
+        "知道等腰三角形顶角平分线、底边中线、底边高互相重合",
+        "会用“等角对等边”判定等腰三角形"
+      ],
+      "worked_example": {
+        "problem": "等腰三角形的顶角为 40°，求一个底角。",
+        "steps": [
+          "两底角相等，设为 x",
+          "2x＋40°＝180°",
+          "x＝70°"
+        ],
+        "answer": "70°。"
+      },
+      "common_mistakes": [
+        "把顶角与底角的位置搞错",
+        "已知两边求周长时不讨论哪条是腰"
+      ],
+      "coaching_tip": "等腰三角形一定要先分清“谁是顶角、谁是腰”，分类讨论能避免漏解。"
+    }
+  },
+  {
+    "id": "cnm_250",
+    "name": "等边三角形",
+    "domain": "图形与几何",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下 第十四章 三角形 14.7 等边三角形",
+    "type": "reasoning",
+    "description": "掌握等边三角形的性质与判定。",
+    "mastery_criteria": [
+      "知道等边三角形三边相等、三个角都是 60°",
+      "会用“有一个角是 60° 的等腰三角形是等边三角形”判定",
+      "会计算等边三角形的周长与高"
+    ],
+    "diagnostic_question": {
+      "question": "等边三角形每个内角是多少度？",
+      "answer": "60"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.05",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道等边三角形三边相等、三个角都是 60°",
+        "会用“有一个角是 60° 的等腰三角形是等边三角形”判定",
+        "会计算等边三角形的周长与高"
+      ],
+      "worked_example": {
+        "problem": "等边三角形边长为 6，求周长。",
+        "steps": [
+          "三边相等",
+          "6×3",
+          "＝18"
+        ],
+        "answer": "18。"
+      },
+      "common_mistakes": [
+        "认为两个角相等的三角形是等边三角形",
+        "高与边长混淆"
+      ],
+      "coaching_tip": "等边三角形是特殊的等腰三角形；判定时常用“三边相等”或“三个角都是 60°”。"
+    }
+  },
+  {
+    "id": "cnm_251",
+    "name": "平面直角坐标系",
+    "domain": "图形与几何",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下 第十五章 平面直角坐标系 15.1 平面直角坐标系",
+    "type": "conceptual",
+    "description": "理解平面直角坐标系，会由点写坐标、由坐标描点。",
+    "mastery_criteria": [
+      "能说出象限的划分与各象限内坐标的符号特征",
+      "会求点到坐标轴的距离",
+      "会在坐标系中描点"
+    ],
+    "diagnostic_question": {
+      "question": "点 P(3，－2) 在第几象限？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.21",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能说出象限的划分与各象限内坐标的符号特征",
+        "会求点到坐标轴的距离",
+        "会在坐标系中描点"
+      ],
+      "worked_example": {
+        "problem": "点 P(3，－2) 在第几象限？",
+        "steps": [
+          "横坐标为正、纵坐标为负",
+          "符合第四象限的符号特征",
+          "所以在第四象限"
+        ],
+        "answer": "第四象限。"
+      },
+      "common_mistakes": [
+        "把到 x 轴的距离当成横坐标",
+        "象限顺序记反"
+      ],
+      "coaching_tip": "到 x 轴的距离是 |y|，到 y 轴的距离是 |x|；象限按逆时针 Ⅰ、Ⅱ、Ⅲ、Ⅳ 记。"
+    }
+  },
+  {
+    "id": "cnm_252",
+    "name": "直角坐标平面内点的运动",
+    "domain": "图形与几何",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下 第十五章 平面直角坐标系 15.2 直角坐标平面内点的运动",
+    "type": "procedural",
+    "description": "会在坐标平面内进行平移、对称等点的运动。",
+    "mastery_criteria": [
+      "会求平移后点的坐标",
+      "会求关于坐标轴、原点对称的点的坐标",
+      "会用坐标变化描述图形运动"
+    ],
+    "diagnostic_question": {
+      "question": "点 (1，2) 向左平移 3 个单位后，横坐标是多少？",
+      "answer": "-2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.18",
+        "confidence": "exact"
+      },
+      {
+        "id": "cms-2022:4.GG.21",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会求平移后点的坐标",
+        "会求关于坐标轴、原点对称的点的坐标",
+        "会用坐标变化描述图形运动"
+      ],
+      "worked_example": {
+        "problem": "把点 (1，2) 向左平移 3 个单位，求横坐标。",
+        "steps": [
+          "向左平移，横坐标减 3",
+          "1－3＝－2",
+          "纵坐标不变"
+        ],
+        "answer": "横坐标是 －2。"
+      },
+      "common_mistakes": [
+        "平移方向与加减对应错误",
+        "对称时该变的坐标没变"
+      ],
+      "coaching_tip": "“右加左减、上加下减”；对称看轴：关于 x 轴变 y，关于 y 轴变 x，关于原点都变。"
+    }
+  },
+  {
+    "id": "cnm_253",
+    "name": "二次根式的概念",
+    "domain": "数与代数",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上 第十六章 二次根式 16.1 二次根式",
+    "type": "conceptual",
+    "description": "理解二次根式的概念，知道二次根式有意义的条件。",
+    "mastery_criteria": [
+      "知道 √a 中 a≥0，且 √a≥0",
+      "会求使二次根式有意义的字母取值范围",
+      "会用 (√a)²＝a（a≥0）进行计算"
+    ],
+    "diagnostic_question": {
+      "question": "使 √(x－1) 有意义的 x 的最小值是多少？",
+      "answer": "1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.13",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道 √a 中 a≥0，且 √a≥0",
+        "会求使二次根式有意义的字母取值范围",
+        "会用 (√a)²＝a（a≥0）进行计算"
+      ],
+      "worked_example": {
+        "problem": "求使 √(x－1) 有意义的 x 的取值范围。",
+        "steps": [
+          "被开方数必须非负",
+          "x－1≥0",
+          "所以 x≥1"
+        ],
+        "answer": "x≥1。"
+      },
+      "common_mistakes": [
+        "忽略被开方数非负",
+        "认为 √a 可以是负数"
+      ],
+      "coaching_tip": "二次根式有意义看被开方数≥0；二次根式的值一定非负。"
+    }
+  },
+  {
+    "id": "cnm_254",
+    "name": "最简二次根式与同类二次根式",
+    "domain": "数与代数",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上 第十六章 二次根式 16.2 最简二次根式和同类二次根式",
+    "type": "procedural",
+    "description": "会把二次根式化成最简二次根式，会判断同类二次根式。",
+    "mastery_criteria": [
+      "会化简二次根式（被开方数不含分母、不含能开得尽方的因数）",
+      "会判断两个二次根式是否为同类二次根式",
+      "会把根号外的因数移到根号内"
+    ],
+    "diagnostic_question": {
+      "question": "化简 √12 后，根号外的系数是多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.13",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会化简二次根式（被开方数不含分母、不含能开得尽方的因数）",
+        "会判断两个二次根式是否为同类二次根式",
+        "会把根号外的因数移到根号内"
+      ],
+      "worked_example": {
+        "problem": "化简 √12。",
+        "steps": [
+          "12＝4×3",
+          "√12＝√4·√3",
+          "＝2√3"
+        ],
+        "answer": "2√3。"
+      },
+      "common_mistakes": [
+        "化简后根号内仍有平方因数",
+        "分母中的根号没有有理化"
+      ],
+      "coaching_tip": "化简要“两查”：查被开方数有没有平方因数，查分母里有没有根号。"
+    }
+  },
+  {
+    "id": "cnm_255",
+    "name": "二次根式的运算",
+    "domain": "数与代数",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上 第十六章 二次根式 16.3 二次根式的运算",
+    "type": "procedural",
+    "description": "会进行二次根式的加减乘除与混合运算。",
+    "mastery_criteria": [
+      "会合并同类二次根式",
+      "会进行二次根式的乘法、除法与分母有理化",
+      "会运用乘法公式进行二次根式运算"
+    ],
+    "diagnostic_question": {
+      "question": "√3·√12 的值是多少？",
+      "answer": "6"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.13",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会合并同类二次根式",
+        "会进行二次根式的乘法、除法与分母有理化",
+        "会运用乘法公式进行二次根式运算"
+      ],
+      "worked_example": {
+        "problem": "计算 √8＋√2。",
+        "steps": [
+          "√8＝2√2",
+          "2√2＋√2",
+          "＝3√2"
+        ],
+        "answer": "3√2。"
+      },
+      "common_mistakes": [
+        "把 √8＋√2 算成 √10",
+        "分母有理化时漏乘"
+      ],
+      "coaching_tip": "先化成最简二次根式再合并；乘除可用 √a·√b＝√(ab)。"
+    }
+  },
+  {
+    "id": "cnm_256",
+    "name": "一元二次方程的概念",
+    "domain": "数与代数",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上 第十七章 一元二次方程 17.1 一元二次方程的概念",
+    "type": "conceptual",
+    "description": "理解一元二次方程的一般形式，会指出各项系数。",
+    "mastery_criteria": [
+      "会把一元二次方程化为一般形式 ax²＋bx＋c＝0",
+      "会指出二次项系数、一次项系数与常数项",
+      "知道二次项系数不为 0"
+    ],
+    "diagnostic_question": {
+      "question": "方程 x²－3x＋2＝0 的二次项系数是多少？",
+      "answer": "1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.17",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会把一元二次方程化为一般形式 ax²＋bx＋c＝0",
+        "会指出二次项系数、一次项系数与常数项",
+        "知道二次项系数不为 0"
+      ],
+      "worked_example": {
+        "problem": "把 (x－1)(x＋2)＝3 化为一般形式。",
+        "steps": [
+          "展开左边：x²＋x－2",
+          "移项：x²＋x－2－3＝0",
+          "得 x²＋x－5＝0"
+        ],
+        "answer": "x²＋x－5＝0。"
+      },
+      "common_mistakes": [
+        "忘记移项就写系数",
+        "忽略二次项系数不能为 0"
+      ],
+      "coaching_tip": "先展开、再移项、最后按 x 的降幂排列，系数连同符号一起读。"
+    }
+  },
+  {
+    "id": "cnm_257",
+    "name": "一元二次方程的解法：开平方与配方法",
+    "domain": "数与代数",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上 第十七章 一元二次方程 17.2 一元二次方程的解法（1）开平方法与配方法",
+    "type": "procedural",
+    "description": "会用直接开平方法与配方法解一元二次方程。",
+    "mastery_criteria": [
+      "会用直接开平方法解 (x＋m)²＝n 型方程",
+      "会用配方法把方程化为 (x＋m)²＝n",
+      "会在配方时正确加上并减去一次项系数一半的平方"
+    ],
+    "diagnostic_question": {
+      "question": "解方程 x²＝9，正根是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.17",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会用直接开平方法解 (x＋m)²＝n 型方程",
+        "会用配方法把方程化为 (x＋m)²＝n",
+        "会在配方时正确加上并减去一次项系数一半的平方"
+      ],
+      "worked_example": {
+        "problem": "用配方法解 x²＋6x＋5＝0。",
+        "steps": [
+          "移项：x²＋6x＝－5",
+          "两边加 3²：x²＋6x＋9＝4",
+          "得 (x＋3)²＝4，x＝－1 或 x＝－5"
+        ],
+        "answer": "x₁＝－1，x₂＝－5。"
+      },
+      "common_mistakes": [
+        "配方时加上的数不是一次项系数一半的平方",
+        "开平方时漏掉负根"
+      ],
+      "coaching_tip": "配方口诀：二次项系数化为 1，加上一次项系数一半的平方，两边同时加。"
+    }
+  },
+  {
+    "id": "cnm_258",
+    "name": "一元二次方程的解法：公式法与因式分解法",
+    "domain": "数与代数",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上 第十七章 一元二次方程 17.2 一元二次方程的解法（2）公式法与因式分解法",
+    "type": "procedural",
+    "description": "会用求根公式与因式分解法解一元二次方程。",
+    "mastery_criteria": [
+      "会写出求根公式并正确代入",
+      "会用因式分解法解方程",
+      "会根据方程特点选择合适解法"
+    ],
+    "diagnostic_question": {
+      "question": "方程 x²－5x＋6＝0 的两根之积是多少？",
+      "answer": "6"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.17",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会写出求根公式并正确代入",
+        "会用因式分解法解方程",
+        "会根据方程特点选择合适解法"
+      ],
+      "worked_example": {
+        "problem": "用公式法解 x²＋2x－3＝0。",
+        "steps": [
+          "a＝1，b＝2，c＝－3",
+          "Δ＝4＋12＝16，√Δ＝4",
+          "x＝(－2±4)/2，得 x₁＝1，x₂＝－3"
+        ],
+        "answer": "x₁＝1，x₂＝－3。"
+      },
+      "common_mistakes": [
+        "代入公式时符号出错",
+        "因式分解后漏根"
+      ],
+      "coaching_tip": "能因式分解优先分解；否则用公式法，先把方程化为一般形式再代入。"
+    }
+  },
+  {
+    "id": "cnm_259",
+    "name": "一元二次方程根的判别式",
+    "domain": "数与代数",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上 第十七章 一元二次方程 17.3 一元二次方程根的判别式",
+    "type": "reasoning",
+    "description": "理解判别式 Δ＝b²－4ac 与根的情况的关系。",
+    "mastery_criteria": [
+      "会根据 Δ 的符号判断根的情况",
+      "会由根的情况求字母的取值范围",
+      "知道 Δ≥0 时方程有实数根"
+    ],
+    "diagnostic_question": {
+      "question": "方程 x²－4x＋4＝0 的判别式 Δ 的值是多少？",
+      "answer": "0"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.18",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会根据 Δ 的符号判断根的情况",
+        "会由根的情况求字母的取值范围",
+        "知道 Δ≥0 时方程有实数根"
+      ],
+      "worked_example": {
+        "problem": "判断方程 x²－4x＋4＝0 的根的情况。",
+        "steps": [
+          "a＝1，b＝－4，c＝4",
+          "Δ＝16－16＝0",
+          "Δ＝0，方程有两个相等的实数根"
+        ],
+        "answer": "有两个相等的实数根。"
+      },
+      "common_mistakes": [
+        "Δ 的符号与根的个数对应错误",
+        "计算 Δ 时符号出错"
+      ],
+      "coaching_tip": "Δ＞0 两不等实根，Δ＝0 两相等实根，Δ＜0 无实根。"
+    }
+  },
+  {
+    "id": "cnm_260",
+    "name": "一元二次方程的应用",
+    "domain": "数与代数",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上 第十七章 一元二次方程 17.4 一元二次方程的应用",
+    "type": "application",
+    "description": "会列一元二次方程解决增长率、面积、几何等问题。",
+    "mastery_criteria": [
+      "会分析数量关系并列出方程",
+      "会解方程并按实际意义取舍",
+      "会处理“连续两次变化”的增长率问题"
+    ],
+    "diagnostic_question": {
+      "question": "两个连续正整数的积是 12，其中较小的数是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.IP.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会分析数量关系并列出方程",
+        "会解方程并按实际意义取舍",
+        "会处理“连续两次变化”的增长率问题"
+      ],
+      "worked_example": {
+        "problem": "某商品原价 100 元，连续两次降价后为 81 元，求平均每次降价的百分率。",
+        "steps": [
+          "设百分率为 x",
+          "100(1－x)²＝81",
+          "解得 x＝0.1 或 x＝1.9（舍去）"
+        ],
+        "answer": "平均每次降价 10%。"
+      },
+      "common_mistakes": [
+        "增长与降低的式子写反",
+        "不舍去不符合实际意义的根"
+      ],
+      "coaching_tip": "连续变化用 (1±x)ⁿ 建模，解完必须根据“百分率小于 1”等实际意义取舍。"
+    }
+  },
+  {
+    "id": "cnm_261",
+    "name": "函数的概念",
+    "domain": "数与代数",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上 第十八章 正比例函数和反比例函数 18.1 函数的概念",
+    "type": "conceptual",
+    "description": "理解函数的概念，会求自变量的取值范围与函数值。",
+    "mastery_criteria": [
+      "能判断两个变量之间是否构成函数关系",
+      "会求自变量的取值范围",
+      "会求函数值并理解“一个 x 对应唯一的 y”"
+    ],
+    "diagnostic_question": {
+      "question": "函数 y＝2x＋1 中，当 x＝3 时 y 是多少？",
+      "answer": "7"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.19",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能判断两个变量之间是否构成函数关系",
+        "会求自变量的取值范围",
+        "会求函数值并理解“一个 x 对应唯一的 y”"
+      ],
+      "worked_example": {
+        "problem": "求函数 y＝1/(x－2) 中自变量的取值范围。",
+        "steps": [
+          "分母不能为 0",
+          "x－2≠0",
+          "所以 x≠2"
+        ],
+        "answer": "x≠2。"
+      },
+      "common_mistakes": [
+        "把“一个 x 对应一个 y”理解成“一个 y 对应一个 x”",
+        "取值范围漏掉分母限制"
+      ],
+      "coaching_tip": "函数的本质是“给定 x 有唯一确定的 y”；求取值范围时逐一检查分母、根号、实际意义。"
+    }
+  },
+  {
+    "id": "cnm_262",
+    "name": "正比例函数",
+    "domain": "数与代数",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上 第十八章 正比例函数和反比例函数 18.2 正比例函数",
+    "type": "procedural",
+    "description": "理解正比例函数 y＝kx（k≠0）的图像与性质。",
+    "mastery_criteria": [
+      "会判断正比例函数",
+      "会用待定系数法求解析式",
+      "知道 k＞0 时 y 随 x 增大而增大，k＜0 时相反"
+    ],
+    "diagnostic_question": {
+      "question": "正比例函数 y＝3x 中，当 x＝2 时 y 是多少？",
+      "answer": "6"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.19",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会判断正比例函数",
+        "会用待定系数法求解析式",
+        "知道 k＞0 时 y 随 x 增大而增大，k＜0 时相反"
+      ],
+      "worked_example": {
+        "problem": "已知正比例函数 y＝kx 的图像经过点 (2，6)，求 k。",
+        "steps": [
+          "把点代入：6＝2k",
+          "k＝3",
+          "所以解析式为 y＝3x"
+        ],
+        "answer": "k＝3。"
+      },
+      "common_mistakes": [
+        "忽略 k≠0",
+        "把 k 的正负与增减性记反"
+      ],
+      "coaching_tip": "图像是过原点的直线；k 的符号决定经过的象限与增减性。"
+    }
+  },
+  {
+    "id": "cnm_263",
+    "name": "反比例函数",
+    "domain": "数与代数",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上 第十八章 正比例函数和反比例函数 18.3 反比例函数",
+    "type": "procedural",
+    "description": "理解反比例函数 y＝k/x（k≠0）的图像与性质。",
+    "mastery_criteria": [
+      "会判断反比例函数",
+      "会用待定系数法求解析式",
+      "知道 k＞0 与 k＜0 时图像所在象限及增减性"
+    ],
+    "diagnostic_question": {
+      "question": "反比例函数 y＝6/x 中，当 x＝2 时 y 是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.20",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会判断反比例函数",
+        "会用待定系数法求解析式",
+        "知道 k＞0 与 k＜0 时图像所在象限及增减性"
+      ],
+      "worked_example": {
+        "problem": "已知反比例函数 y＝k/x 的图像经过点 (3，4)，求 k。",
+        "steps": [
+          "把点代入：4＝k/3",
+          "k＝12",
+          "所以解析式为 y＝12/x"
+        ],
+        "answer": "k＝12。"
+      },
+      "common_mistakes": [
+        "把 k/x 写成 x/k",
+        "把双曲线所在象限与 k 的符号对应错"
+      ],
+      "coaching_tip": "k＝xy；k＞0 图像在一、三象限，k＜0 在二、四象限。"
+    }
+  },
+  {
+    "id": "cnm_264",
+    "name": "函数的表示法",
+    "domain": "数与代数",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上 第十八章 正比例函数和反比例函数 18.4 函数的表示法",
+    "type": "application",
+    "description": "了解函数的三种表示法，会在实际问题中选择合适的表示方法。",
+    "mastery_criteria": [
+      "知道解析式、列表、图像三种表示法及各自优缺点",
+      "会由图像读取信息",
+      "会建立简单函数模型解决实际问题"
+    ],
+    "diagnostic_question": {
+      "question": "出租车起步价 10 元，每千米 2 元，行驶 3 千米的费用是多少元？",
+      "answer": "16"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.19",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道解析式、列表、图像三种表示法及各自优缺点",
+        "会由图像读取信息",
+        "会建立简单函数模型解决实际问题"
+      ],
+      "worked_example": {
+        "problem": "出租车起步价 10 元，每千米收费 2 元，求行驶 3 千米的费用。",
+        "steps": [
+          "费用＝起步价＋里程费",
+          "＝10＋2×3",
+          "＝16（元）"
+        ],
+        "answer": "16 元。"
+      },
+      "common_mistakes": [
+        "把起步价也按里程计算",
+        "由图像读点时看错坐标轴"
+      ],
+      "coaching_tip": "建立函数模型时先写“总价＝固定部分＋变动部分”，再代入数据。"
+    }
+  },
+  {
+    "id": "cnm_265",
+    "name": "命题和证明",
+    "domain": "图形与几何",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上 第十九章 几何证明 19.1 命题和证明",
+    "type": "reasoning",
+    "description": "了解定义、命题、真命题与假命题，会改写命题的题设与结论。",
+    "mastery_criteria": [
+      "会判断一个语句是不是命题",
+      "会把命题改写成“如果……那么……”的形式",
+      "会判断命题的真假并举反例"
+    ],
+    "diagnostic_question": {
+      "question": "命题“两直线平行，内错角相等”是真命题吗？用 1 表示真、0 表示假。",
+      "answer": "1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.07",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会判断一个语句是不是命题",
+        "会把命题改写成“如果……那么……”的形式",
+        "会判断命题的真假并举反例"
+      ],
+      "worked_example": {
+        "problem": "把“对顶角相等”改写成“如果……那么……”的形式。",
+        "steps": [
+          "先找题设：两个角是对顶角",
+          "再找结论：这两个角相等",
+          "如果两个角是对顶角，那么这两个角相等"
+        ],
+        "answer": "如果两个角是对顶角，那么这两个角相等。"
+      },
+      "common_mistakes": [
+        "把祈使句、疑问句当作命题",
+        "改写时题设与结论颠倒"
+      ],
+      "coaching_tip": "命题必须能判断真假；改写时“如果”后面是条件，“那么”后面是由此得到的结论。"
+    }
+  },
+  {
+    "id": "cnm_266",
+    "name": "证明举例",
+    "domain": "图形与几何",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上 第十九章 几何证明 19.2 证明举例",
+    "type": "reasoning",
+    "description": "会用平行线、全等三角形、等腰三角形的知识进行简单证明。",
+    "mastery_criteria": [
+      "会在证明中写清“已知、求证”和每一步依据",
+      "会综合运用平行线与全等三角形",
+      "能用分析法寻找证明思路"
+    ],
+    "diagnostic_question": {
+      "question": "在 △ABC 中，AB＝AC，∠B＝70°，∠A 是多少度？",
+      "answer": "40"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.07",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会在证明中写清“已知、求证”和每一步依据",
+        "会综合运用平行线与全等三角形",
+        "能用分析法寻找证明思路"
+      ],
+      "worked_example": {
+        "problem": "已知 AB∥CD，∠1 与 ∠2 是同旁内角，∠1＝70°，求 ∠2。",
+        "steps": [
+          "两直线平行，同旁内角互补",
+          "∠2＝180°－70°",
+          "＝110°"
+        ],
+        "answer": "110°。"
+      },
+      "common_mistakes": [
+        "证明中缺少依据",
+        "把判定与性质用反方向"
+      ],
+      "coaching_tip": "每一步都写清依据；从结论倒推需要的条件，再用已知条件补齐。"
+    }
+  },
+  {
+    "id": "cnm_267",
+    "name": "逆命题和逆定理",
+    "domain": "图形与几何",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上 第十九章 几何证明 19.3 逆命题和逆定理",
+    "type": "reasoning",
+    "description": "理解逆命题、逆定理的概念，会写出一个命题的逆命题。",
+    "mastery_criteria": [
+      "会把命题的题设与结论交换得到逆命题",
+      "知道原命题成立时逆命题不一定成立",
+      "会判断逆命题的真假"
+    ],
+    "diagnostic_question": {
+      "question": "命题“若 x＝1，则 x²＝1”的逆命题是否成立？用 1 表示成立、0 表示不成立。",
+      "answer": "0"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.07",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会把命题的题设与结论交换得到逆命题",
+        "知道原命题成立时逆命题不一定成立",
+        "会判断逆命题的真假"
+      ],
+      "worked_example": {
+        "problem": "写出“全等三角形的对应边相等”的逆命题。",
+        "steps": [
+          "原命题题设：两个三角形全等；结论：对应边相等",
+          "交换题设与结论",
+          "逆命题：对应边相等的两个三角形全等"
+        ],
+        "answer": "对应边相等的两个三角形全等。"
+      },
+      "common_mistakes": [
+        "只把结论换一种说法，没有交换",
+        "认为原命题真则逆命题必真"
+      ],
+      "coaching_tip": "写逆命题只交换题设与结论，语句要通顺；判断真假要举例或证明。"
+    }
+  },
+  {
+    "id": "cnm_268",
+    "name": "线段的垂直平分线",
+    "domain": "图形与几何",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上 第十九章 几何证明 19.4 线段的垂直平分线",
+    "type": "reasoning",
+    "description": "掌握线段垂直平分线的性质定理与逆定理。",
+    "mastery_criteria": [
+      "知道垂直平分线上的点到线段两端距离相等",
+      "知道到线段两端距离相等的点在垂直平分线上",
+      "会用垂直平分线解决周长与作图问题"
+    ],
+    "diagnostic_question": {
+      "question": "线段 AB 的垂直平分线上一点 P 到 A 的距离为 5，则 PB 是多少？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.09",
+        "confidence": "exact"
+      },
+      {
+        "id": "cms-2022:4.GG.06",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道垂直平分线上的点到线段两端距离相等",
+        "知道到线段两端距离相等的点在垂直平分线上",
+        "会用垂直平分线解决周长与作图问题"
+      ],
+      "worked_example": {
+        "problem": "△ABC 中 AB＝AC＝10，BC＝12，BC 的垂直平分线交 AC 于 D，求 △ABD 的周长。",
+        "steps": [
+          "D 在 BC 的垂直平分线上，所以 DB＝DC",
+          "周长＝AB＋AD＋DB＝AB＋AD＋DC",
+          "＝AB＋AC＝20"
+        ],
+        "answer": "20。"
+      },
+      "common_mistakes": [
+        "不知道用 DB＝DC 转化",
+        "把垂直平分线当成中线"
+      ],
+      "coaching_tip": "看到“垂直平分线”就想到“到两端距离相等”，把折线转化为一条线段。"
+    }
+  },
+  {
+    "id": "cnm_269",
+    "name": "角的平分线",
+    "domain": "图形与几何",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上 第十九章 几何证明 19.5 角的平分线",
+    "type": "reasoning",
+    "description": "掌握角平分线的性质定理与逆定理。",
+    "mastery_criteria": [
+      "知道角平分线上的点到角两边距离相等",
+      "知道到角两边距离相等的点在角平分线上",
+      "会用角平分线性质求距离与证明"
+    ],
+    "diagnostic_question": {
+      "question": "角平分线上的点到角两边的距离分别是 3 和 x，x 是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.09",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道角平分线上的点到角两边距离相等",
+        "知道到角两边距离相等的点在角平分线上",
+        "会用角平分线性质求距离与证明"
+      ],
+      "worked_example": {
+        "problem": "∠AOB 的平分线上一点 P 到 OA 的距离为 4，求 P 到 OB 的距离。",
+        "steps": [
+          "P 在角平分线上",
+          "到角两边距离相等",
+          "所以距离也是 4"
+        ],
+        "answer": "4。"
+      },
+      "common_mistakes": [
+        "把“到两边距离”理解成到端点距离",
+        "忘记距离要垂直"
+      ],
+      "coaching_tip": "角平分线的距离必须是垂线段；三角形内切圆半径可用面积法 r＝2S/C。"
+    }
+  },
+  {
+    "id": "cnm_270",
+    "name": "直角三角形的判定与性质",
+    "domain": "图形与几何",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上 第十九章 几何证明 19.7 直角三角形全等的判定 19.8 直角三角形的性质",
+    "type": "reasoning",
+    "description": "掌握 HL 判定与直角三角形的性质。",
+    "mastery_criteria": [
+      "会用 HL 判定两个直角三角形全等",
+      "知道直角三角形两锐角互余",
+      "知道斜边中线等于斜边的一半、30° 角所对直角边等于斜边的一半"
+    ],
+    "diagnostic_question": {
+      "question": "直角三角形两锐角之和是多少度？",
+      "answer": "90"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.05",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会用 HL 判定两个直角三角形全等",
+        "知道直角三角形两锐角互余",
+        "知道斜边中线等于斜边的一半、30° 角所对直角边等于斜边的一半"
+      ],
+      "worked_example": {
+        "problem": "直角三角形斜边为 10，求斜边上的中线长。",
+        "steps": [
+          "斜边中线等于斜边的一半",
+          "10÷2",
+          "＝5"
+        ],
+        "answer": "5。"
+      },
+      "common_mistakes": [
+        "把 HL 与 SAS 混用",
+        "把 30° 角所对的边记成邻边"
+      ],
+      "coaching_tip": "HL 必须说明是直角三角形；斜边中线与 30° 性质常用来“由斜边求线段”。"
+    }
+  },
+  {
+    "id": "cnm_271",
+    "name": "勾股定理",
+    "domain": "图形与几何",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上 第十九章 几何证明 19.9 勾股定理",
+    "type": "reasoning",
+    "description": "掌握勾股定理及其逆定理，并能解决实际问题。",
+    "mastery_criteria": [
+      "会说出勾股定理并用于求边长",
+      "会用逆定理判断直角三角形",
+      "会用勾股定理解决最短路径、实际问题"
+    ],
+    "diagnostic_question": {
+      "question": "直角三角形两直角边为 3、4，斜边是多少？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.08",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会说出勾股定理并用于求边长",
+        "会用逆定理判断直角三角形",
+        "会用勾股定理解决最短路径、实际问题"
+      ],
+      "worked_example": {
+        "problem": "直角三角形两直角边为 3、4，求斜边。",
+        "steps": [
+          "c²＝3²＋4²＝25",
+          "c＝5",
+          "所以斜边是 5"
+        ],
+        "answer": "5。"
+      },
+      "common_mistakes": [
+        "把斜边当成直角边代入",
+        "逆定理表述不完整（未说明最长边）"
+      ],
+      "coaching_tip": "先确定哪条边是斜边再套公式；逆定理要先找出最长边。"
+    }
+  },
+  {
+    "id": "cnm_272",
+    "name": "两点的距离公式",
+    "domain": "图形与几何",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上 第十九章 几何证明 19.10 两点的距离公式",
+    "type": "procedural",
+    "description": "会由勾股定理推导并使用两点间的距离公式。",
+    "mastery_criteria": [
+      "会写出两点间的距离公式",
+      "会计算两点之间的距离",
+      "会利用距离相等解决点的坐标问题"
+    ],
+    "diagnostic_question": {
+      "question": "点 A(0，0)、B(3，4) 之间的距离是多少？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.08",
+        "confidence": "exact"
+      },
+      {
+        "id": "cms-2022:4.GG.21",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会写出两点间的距离公式",
+        "会计算两点之间的距离",
+        "会利用距离相等解决点的坐标问题"
+      ],
+      "worked_example": {
+        "problem": "求点 A(0，0)、B(3，4) 之间的距离。",
+        "steps": [
+          "d＝√((3－0)²＋(4－0)²)",
+          "＝√(9＋16)",
+          "＝5"
+        ],
+        "answer": "5。"
+      },
+      "common_mistakes": [
+        "坐标相减的顺序导致符号错误（平方后无影响）",
+        "漏写根号"
+      ],
+      "coaching_tip": "横坐标差的平方加纵坐标差的平方再开方，顺序无关。"
+    }
+  },
+  {
+    "id": "cnm_273",
+    "name": "一次函数的概念",
+    "domain": "数与代数",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下 第二十章 一次函数 20.1 一次函数的概念",
+    "type": "conceptual",
+    "description": "理解一次函数与正比例函数的概念。",
+    "mastery_criteria": [
+      "能识别 y＝kx＋b（k≠0）形式的一次函数",
+      "知道正比例函数是一次函数的特例",
+      "会根据条件写出一次函数解析式"
+    ],
+    "diagnostic_question": {
+      "question": "一次函数 y＝2x－3 中，k 是多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.19",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能识别 y＝kx＋b（k≠0）形式的一次函数",
+        "知道正比例函数是一次函数的特例",
+        "会根据条件写出一次函数解析式"
+      ],
+      "worked_example": {
+        "problem": "判断 y＝2x－3 是否是一次函数，并说出 k、b。",
+        "steps": [
+          "形如 y＝kx＋b 且 k≠0",
+          "这里 k＝2，b＝－3",
+          "所以是一次函数"
+        ],
+        "answer": "是一次函数，k＝2，b＝－3。"
+      },
+      "common_mistakes": [
+        "把 y＝2/x 当成一次函数",
+        "忽略 k≠0 的条件"
+      ],
+      "coaching_tip": "一次函数必须能整理成 y＝kx＋b 且 k≠0；分母含 x 的不是一次函数。"
+    }
+  },
+  {
+    "id": "cnm_274",
+    "name": "一次函数的图像与性质",
+    "domain": "数与代数",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下 第二十章 一次函数 20.2 一次函数的图像 20.3 一次函数的性质",
+    "type": "procedural",
+    "description": "会画一次函数的图像，掌握其性质。",
+    "mastery_criteria": [
+      "知道一次函数的图像是一条直线",
+      "会求与坐标轴的交点",
+      "会根据 k、b 判断图像经过的象限与增减性"
+    ],
+    "diagnostic_question": {
+      "question": "一次函数 y＝2x＋1 的图像与 y 轴交点的纵坐标是多少？",
+      "answer": "1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.19",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道一次函数的图像是一条直线",
+        "会求与坐标轴的交点",
+        "会根据 k、b 判断图像经过的象限与增减性"
+      ],
+      "worked_example": {
+        "problem": "求直线 y＝3x－6 与 x 轴交点的横坐标。",
+        "steps": [
+          "令 y＝0",
+          "3x－6＝0",
+          "x＝2"
+        ],
+        "answer": "2。"
+      },
+      "common_mistakes": [
+        "求与 y 轴交点时令 y＝0",
+        "k 的符号与增减性对应错"
+      ],
+      "coaching_tip": "与 x 轴交点令 y＝0，与 y 轴交点令 x＝0；k＞0 上升，k＜0 下降。"
+    }
+  },
+  {
+    "id": "cnm_275",
+    "name": "一次函数的应用",
+    "domain": "数与代数",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下 第二十章 一次函数 20.4 一次函数的应用",
+    "type": "application",
+    "description": "会用一次函数模型解决实际问题，并进行方案比较。",
+    "mastery_criteria": [
+      "会根据实际情境写出一次函数解析式",
+      "会用图像或解析式比较方案",
+      "会求函数值并解释其实际意义"
+    ],
+    "diagnostic_question": {
+      "question": "已知 y＝5x＋100，当 x＝20 时 y 是多少？",
+      "answer": "200"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.IP.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会根据实际情境写出一次函数解析式",
+        "会用图像或解析式比较方案",
+        "会求函数值并解释其实际意义"
+      ],
+      "worked_example": {
+        "problem": "出租车收费 y＝10＋2x（x 为千米数），求行驶 8 千米的费用。",
+        "steps": [
+          "代入 x＝8",
+          "y＝10＋16",
+          "＝26（元）"
+        ],
+        "answer": "26 元。"
+      },
+      "common_mistakes": [
+        "忽略自变量的实际取值范围",
+        "方案比较时不会求交点"
+      ],
+      "coaching_tip": "应用题先写清自变量含义与范围，再代入或联立方程求“相等点”。"
+    }
+  },
+  {
+    "id": "cnm_276",
+    "name": "一元整式方程",
+    "domain": "数与代数",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下 第二十一章 代数方程 21.1 一元整式方程",
+    "type": "procedural",
+    "description": "了解一元整式方程（高次方程）的解法思路。",
+    "mastery_criteria": [
+      "知道整式方程与分式方程的区别",
+      "会用因式分解解简单的高次方程",
+      "会用开方法解 xⁿ＝a 型方程"
+    ],
+    "diagnostic_question": {
+      "question": "方程 x³＝8 的解是多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.17",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道整式方程与分式方程的区别",
+        "会用因式分解解简单的高次方程",
+        "会用开方法解 xⁿ＝a 型方程"
+      ],
+      "worked_example": {
+        "problem": "解方程 x³－3x²＝0。",
+        "steps": [
+          "提取公因式：x²(x－3)＝0",
+          "x²＝0 或 x－3＝0",
+          "所以 x₁＝x₂＝0，x₃＝3"
+        ],
+        "answer": "x＝0（二重根）或 x＝3。"
+      },
+      "common_mistakes": [
+        "因式分解后漏根",
+        "把高次方程当成一元二次方程用公式"
+      ],
+      "coaching_tip": "高次方程先因式分解降次，分解后每个因式为 0 都要讨论。"
+    }
+  },
+  {
+    "id": "cnm_277",
+    "name": "二项方程",
+    "domain": "数与代数",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下 第二十一章 代数方程 21.2 特殊的高次方程的解法（二项方程）",
+    "type": "procedural",
+    "description": "会解形如 axⁿ＋b＝0 的二项方程。",
+    "mastery_criteria": [
+      "会把二项方程化为 xⁿ＝c 的形式",
+      "会根据 n 的奇偶讨论解的个数",
+      "会用计算器或开方求近似解"
+    ],
+    "diagnostic_question": {
+      "question": "方程 x⁵＝32 的解是多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.17",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会把二项方程化为 xⁿ＝c 的形式",
+        "会根据 n 的奇偶讨论解的个数",
+        "会用计算器或开方求近似解"
+      ],
+      "worked_example": {
+        "problem": "解方程 x³＋27＝0。",
+        "steps": [
+          "移项：x³＝－27",
+          "因为 3 是奇数，方根唯一",
+          "x＝－3"
+        ],
+        "answer": "x＝－3。"
+      },
+      "common_mistakes": [
+        "负数开偶次方",
+        "漏掉偶次方根的负值"
+      ],
+      "coaching_tip": "二项方程先化成 xⁿ＝c；n 为偶数时 c＜0 无解，c＞0 有两个解。"
+    }
+  },
+  {
+    "id": "cnm_278",
+    "name": "可化为一元二次方程的分式方程",
+    "domain": "数与代数",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下 第二十一章 代数方程 21.3 可化为一元二次方程的分式方程",
+    "type": "procedural",
+    "description": "会解可化为一元二次方程的分式方程，并会检验增根。",
+    "mastery_criteria": [
+      "会用去分母法把分式方程化为整式方程",
+      "会用因式分解或公式法解所得方程",
+      "会检验并舍去增根"
+    ],
+    "diagnostic_question": {
+      "question": "解方程 1/x＋x＝2，x 是多少？",
+      "answer": "1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.12",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会用去分母法把分式方程化为整式方程",
+        "会用因式分解或公式法解所得方程",
+        "会检验并舍去增根"
+      ],
+      "worked_example": {
+        "problem": "解方程 2/(x－1)＝x。",
+        "steps": [
+          "去分母：2＝x(x－1)",
+          "整理得 x²－x－2＝0",
+          "解得 x＝2 或 x＝－1，检验分母均不为 0"
+        ],
+        "answer": "x₁＝2，x₂＝－1。"
+      },
+      "common_mistakes": [
+        "去分母漏乘",
+        "忘记检验增根"
+      ],
+      "coaching_tip": "去分母后一定要把解代回原分母检验，使分母为 0 的解必须舍去。"
+    }
+  },
+  {
+    "id": "cnm_279",
+    "name": "无理方程",
+    "domain": "数与代数",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下 第二十一章 代数方程 21.4 无理方程",
+    "type": "procedural",
+    "description": "会解简单的无理方程，并会检验。",
+    "mastery_criteria": [
+      "会用两边平方的方法把无理方程化为有理方程",
+      "会解所得方程",
+      "会检验并舍去不符合原方程的根"
+    ],
+    "diagnostic_question": {
+      "question": "方程 √(x＋1)＝2 的解是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.12",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会用两边平方的方法把无理方程化为有理方程",
+        "会解所得方程",
+        "会检验并舍去不符合原方程的根"
+      ],
+      "worked_example": {
+        "problem": "解方程 √(x＋1)＝2。",
+        "steps": [
+          "两边平方：x＋1＝4",
+          "x＝3",
+          "检验 √4＝2，成立"
+        ],
+        "answer": "x＝3。"
+      },
+      "common_mistakes": [
+        "平方后不检验",
+        "把 √(x＋1)＝－2 也去求平方"
+      ],
+      "coaching_tip": "平方可能产生增根，必须代回原方程检验；算术平方根不可能等于负数。"
+    }
+  },
+  {
+    "id": "cnm_280",
+    "name": "二元二次方程组",
+    "domain": "数与代数",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下 第二十一章 代数方程 21.5 二元二次方程和方程组 21.6 二元二次方程组的解法",
+    "type": "procedural",
+    "description": "会用代入法解简单的二元二次方程组。",
+    "mastery_criteria": [
+      "会判断二元二次方程",
+      "会用代入消元法解“一个一次、一个二次”的方程组",
+      "会检验方程组的解"
+    ],
+    "diagnostic_question": {
+      "question": "方程组 x＋y＝5，xy＝6 的正整数解中，x＞y，则 x 是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.15",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会判断二元二次方程",
+        "会用代入消元法解“一个一次、一个二次”的方程组",
+        "会检验方程组的解"
+      ],
+      "worked_example": {
+        "problem": "解方程组 x＋y＝5，xy＝6。",
+        "steps": [
+          "由 x＋y＝5 得 y＝5－x",
+          "代入 xy＝6：x(5－x)＝6",
+          "解得 (3，2) 或 (2，3)"
+        ],
+        "answer": "x＝3，y＝2 或 x＝2，y＝3。"
+      },
+      "common_mistakes": [
+        "代入后不会整理成一元二次方程",
+        "只写一组解"
+      ],
+      "coaching_tip": "先由一次方程解出一个未知数，再代入二次方程；解完写清两组解。"
+    }
+  },
+  {
+    "id": "cnm_281",
+    "name": "列方程（组）解应用题",
+    "domain": "数与代数",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下 第二十一章 代数方程 21.7 列方程（组）解应用题",
+    "type": "application",
+    "description": "会综合运用方程（组）解决增长率、工程、几何等实际问题。",
+    "mastery_criteria": [
+      "会设未知数并找准等量关系",
+      "会列方程（组）并求解",
+      "会按实际意义取舍并作答"
+    ],
+    "diagnostic_question": {
+      "question": "两个数的和是 12、积是 32，其中较大的数是多少？",
+      "answer": "8"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.IP.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "cms-2022:4.IP.04",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会设未知数并找准等量关系",
+        "会列方程（组）并求解",
+        "会按实际意义取舍并作答"
+      ],
+      "worked_example": {
+        "problem": "某商品连续两次提价 10% 后为 121 元，求原价。",
+        "steps": [
+          "设原价为 x",
+          "x(1＋10%)²＝121",
+          "x＝100"
+        ],
+        "answer": "100 元。"
+      },
+      "common_mistakes": [
+        "增长率模型写成 a(1＋x) 而不是 a(1＋x)²",
+        "不作答或单位遗漏"
+      ],
+      "coaching_tip": "连续 n 次变化用 a(1±x)ⁿ；工程问题用“工作效率×时间＝工作量”。"
+    }
+  },
+  {
+    "id": "cnm_282",
+    "name": "多边形",
+    "domain": "图形与几何",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下 第二十二章 四边形 22.1 多边形",
+    "type": "reasoning",
+    "description": "掌握多边形内角和与外角和公式。",
+    "mastery_criteria": [
+      "会用 (n－2)×180° 求内角和",
+      "知道任意多边形的外角和都是 360°",
+      "会由内角和反求边数"
+    ],
+    "diagnostic_question": {
+      "question": "六边形的内角和是多少度？",
+      "answer": "720"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.10",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会用 (n－2)×180° 求内角和",
+        "知道任意多边形的外角和都是 360°",
+        "会由内角和反求边数"
+      ],
+      "worked_example": {
+        "problem": "求六边形的内角和。",
+        "steps": [
+          "n＝6",
+          "(6－2)×180°",
+          "＝720°"
+        ],
+        "answer": "720°。"
+      },
+      "common_mistakes": [
+        "把公式写成 (n－1)×180°",
+        "把正多边形的内角与外角混淆"
+      ],
+      "coaching_tip": "内角和随边数增加而变，外角和恒为 360°；正 n 边形每个外角 360°/n。"
+    }
+  },
+  {
+    "id": "cnm_283",
+    "name": "平行四边形",
+    "domain": "图形与几何",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下 第二十二章 四边形 22.2 平行四边形",
+    "type": "reasoning",
+    "description": "掌握平行四边形的性质与判定。",
+    "mastery_criteria": [
+      "知道平行四边形的对边平行且相等、对角相等、对角线互相平分",
+      "会用两组对边、一组对边、对角线判定平行四边形",
+      "会用性质进行边长与角度计算"
+    ],
+    "diagnostic_question": {
+      "question": "平行四边形相邻两个内角之和是多少度？",
+      "answer": "180"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.11",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道平行四边形的对边平行且相等、对角相等、对角线互相平分",
+        "会用两组对边、一组对边、对角线判定平行四边形",
+        "会用性质进行边长与角度计算"
+      ],
+      "worked_example": {
+        "problem": "平行四边形的一个内角为 65°，求与它相邻的内角。",
+        "steps": [
+          "平行四边形相邻两角互补",
+          "180°－65°",
+          "＝115°"
+        ],
+        "answer": "115°。"
+      },
+      "common_mistakes": [
+        "把平行四边形的对角线当成相等",
+        "判定条件写不完整"
+      ],
+      "coaching_tip": "性质与判定要分清方向；对角线“互相平分”不等于“相等”。"
+    }
+  },
+  {
+    "id": "cnm_284",
+    "name": "矩形",
+    "domain": "图形与几何",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下 第二十二章 四边形 22.3 特殊的平行四边形——矩形",
+    "type": "reasoning",
+    "description": "掌握矩形的性质与判定。",
+    "mastery_criteria": [
+      "知道矩形的四个角都是直角、对角线相等",
+      "会用“有一个角是直角的平行四边形”等判定矩形",
+      "会用矩形性质计算边长、面积与对角线"
+    ],
+    "diagnostic_question": {
+      "question": "矩形的四个角都是多少度？",
+      "answer": "90"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.12",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道矩形的四个角都是直角、对角线相等",
+        "会用“有一个角是直角的平行四边形”等判定矩形",
+        "会用矩形性质计算边长、面积与对角线"
+      ],
+      "worked_example": {
+        "problem": "矩形周长为 20，一边长为 4，求面积。",
+        "steps": [
+          "半周长 10，另一边 10－4＝6",
+          "面积＝4×6",
+          "＝24"
+        ],
+        "answer": "24。"
+      },
+      "common_mistakes": [
+        "认为矩形对角线互相垂直",
+        "把面积算成周长的一半"
+      ],
+      "coaching_tip": "矩形＝平行四边形＋一个直角；对角线相等但一般不垂直（正方形才垂直）。"
+    }
+  },
+  {
+    "id": "cnm_285",
+    "name": "菱形与正方形",
+    "domain": "图形与几何",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下 第二十二章 四边形 22.3 特殊的平行四边形——菱形与正方形",
+    "type": "reasoning",
+    "description": "掌握菱形、正方形的性质与判定。",
+    "mastery_criteria": [
+      "知道菱形四边相等、对角线互相垂直且平分每组对角",
+      "知道正方形既是矩形又是菱形",
+      "会用对角线求菱形面积"
+    ],
+    "diagnostic_question": {
+      "question": "菱形的边长为 5，周长是多少？",
+      "answer": "20"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.12",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道菱形四边相等、对角线互相垂直且平分每组对角",
+        "知道正方形既是矩形又是菱形",
+        "会用对角线求菱形面积"
+      ],
+      "worked_example": {
+        "problem": "菱形两条对角线分别为 6 和 8，求面积。",
+        "steps": [
+          "菱形面积＝对角线乘积的一半",
+          "＝6×8÷2",
+          "＝24"
+        ],
+        "answer": "24。"
+      },
+      "common_mistakes": [
+        "把菱形面积算成对角线之积",
+        "认为菱形的对角线相等"
+      ],
+      "coaching_tip": "菱形面积用“对角线积的一半”；正方形对角线相等且互相垂直。"
+    }
+  },
+  {
+    "id": "cnm_286",
+    "name": "梯形与等腰梯形",
+    "domain": "图形与几何",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下 第二十二章 四边形 22.4 梯形 22.5 等腰梯形",
+    "type": "reasoning",
+    "description": "掌握梯形、等腰梯形的性质与判定。",
+    "mastery_criteria": [
+      "会识别梯形、等腰梯形、直角梯形",
+      "掌握等腰梯形的性质与判定",
+      "会计算梯形面积并解决简单问题"
+    ],
+    "diagnostic_question": {
+      "question": "等腰梯形的一腰长为 5，另一腰长是多少？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.13",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会识别梯形、等腰梯形、直角梯形",
+        "掌握等腰梯形的性质与判定",
+        "会计算梯形面积并解决简单问题"
+      ],
+      "worked_example": {
+        "problem": "梯形上底 3、下底 7、高 4，求面积。",
+        "steps": [
+          "面积＝(上底＋下底)×高÷2",
+          "＝(3＋7)×4÷2",
+          "＝20"
+        ],
+        "answer": "20。"
+      },
+      "common_mistakes": [
+        "面积公式漏除以 2",
+        "把等腰梯形的底角关系记错"
+      ],
+      "coaching_tip": "等腰梯形同一底上的两个底角相等，对角线相等。"
+    }
+  },
+  {
+    "id": "cnm_287",
+    "name": "三角形与梯形的中位线",
+    "domain": "图形与几何",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下 第二十二章 四边形 22.6 三角形、梯形的中位线",
+    "type": "reasoning",
+    "description": "掌握三角形中位线定理与梯形中位线定理。",
+    "mastery_criteria": [
+      "知道三角形中位线平行于第三边且等于第三边的一半",
+      "知道梯形中位线等于两底和的一半",
+      "会用中位线解决周长与长度问题"
+    ],
+    "diagnostic_question": {
+      "question": "三角形中位线等于第三边的一半，第三边为 10，中位线长是多少？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.14",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道三角形中位线平行于第三边且等于第三边的一半",
+        "知道梯形中位线等于两底和的一半",
+        "会用中位线解决周长与长度问题"
+      ],
+      "worked_example": {
+        "problem": "三角形第三边为 10，求对应中位线长。",
+        "steps": [
+          "中位线等于第三边的一半",
+          "10÷2",
+          "＝5"
+        ],
+        "answer": "5。"
+      },
+      "common_mistakes": [
+        "把中位线当成中线",
+        "梯形中位线忘记除以 2"
+      ],
+      "coaching_tip": "中位线连接两边中点，平行于第三边；梯形中位线＝(上底＋下底)÷2。"
+    }
+  },
+  {
+    "id": "cnm_288",
+    "name": "平面向量",
+    "domain": "图形与几何",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下 第二十二章 四边形 22.7 平面向量",
+    "type": "conceptual",
+    "description": "了解平面向量的概念，会用有向线段表示向量。",
+    "mastery_criteria": [
+      "知道向量的方向与大小",
+      "会判断相等向量、相反向量与平行（共线）向量",
+      "会求向量的模"
+    ],
+    "diagnostic_question": {
+      "question": "向量 AB 与 BA 是相反向量，若 |AB|＝5，则 |BA| 是多少？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.22",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道向量的方向与大小",
+        "会判断相等向量、相反向量与平行（共线）向量",
+        "会求向量的模"
+      ],
+      "worked_example": {
+        "problem": "向量 a＝(3，4)，求 |a|。",
+        "steps": [
+          "|a|＝√(3²＋4²)",
+          "＝√25",
+          "＝5"
+        ],
+        "answer": "5。"
+      },
+      "common_mistakes": [
+        "认为向量可以比较大小",
+        "把相反向量当成相等向量"
+      ],
+      "coaching_tip": "向量既有方向又有大小，不能比较大小；相等向量必须方向相同、长度相等。"
+    }
+  },
+  {
+    "id": "cnm_289",
+    "name": "平面向量的加法与减法",
+    "domain": "图形与几何",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下 第二十二章 四边形 22.8 平面向量的加法 22.9 平面向量的减法",
+    "type": "procedural",
+    "description": "掌握平面向量的加法、减法法则。",
+    "mastery_criteria": [
+      "会用三角形法则与平行四边形法则作向量和",
+      "会进行向量的坐标运算",
+      "会求两个向量差的模"
+    ],
+    "diagnostic_question": {
+      "question": "向量 a＝(1，2)，b＝(3，1)，a＋b 的横坐标是多少？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.22",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会用三角形法则与平行四边形法则作向量和",
+        "会进行向量的坐标运算",
+        "会求两个向量差的模"
+      ],
+      "worked_example": {
+        "problem": "已知 a＝(1，2)，b＝(3，1)，求 a＋b 的横坐标。",
+        "steps": [
+          "坐标相加：1＋3",
+          "＝4",
+          "所以横坐标是 4"
+        ],
+        "answer": "4。"
+      },
+      "common_mistakes": [
+        "把减法当成坐标相加",
+        "三角形法则起点终点搞反"
+      ],
+      "coaching_tip": "坐标运算直接对应坐标相加减；AB＋BC＝AC，AB－AC＝CB。"
+    }
+  },
+  {
+    "id": "cnm_290",
+    "name": "确定事件和随机事件",
+    "domain": "统计与概率",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下 第二十三章 概率初步 23.1 确定事件和随机事件",
+    "type": "conceptual",
+    "description": "会区分必然事件、不可能事件与随机事件。",
+    "mastery_criteria": [
+      "能判断一个事件属于哪一类",
+      "理解随机事件在相同条件下可能发生也可能不发生",
+      "会用“一定”“不可能”“可能”描述事件"
+    ],
+    "diagnostic_question": {
+      "question": "“太阳从东边升起”是必然事件，用 1 表示必然，填写 1。",
+      "answer": "1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.SP.05",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能判断一个事件属于哪一类",
+        "理解随机事件在相同条件下可能发生也可能不发生",
+        "会用“一定”“不可能”“可能”描述事件"
+      ],
+      "worked_example": {
+        "problem": "判断“掷一枚骰子出现 7 点”是什么事件。",
+        "steps": [
+          "骰子的点数是 1 到 6",
+          "不可能出现 7 点",
+          "所以是不可能事件"
+        ],
+        "answer": "不可能事件。"
+      },
+      "common_mistakes": [
+        "把“可能性很小”当作不可能",
+        "把随机事件说成必然事件"
+      ],
+      "coaching_tip": "必然事件概率为 1，不可能事件概率为 0，随机事件的概率在 0 与 1 之间。"
+    }
+  },
+  {
+    "id": "cnm_291",
+    "name": "事件发生的可能性",
+    "domain": "统计与概率",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下 第二十三章 概率初步 23.2 事件发生的可能性",
+    "type": "conceptual",
+    "description": "会比较事件发生的可能性大小，并用分数表示。",
+    "mastery_criteria": [
+      "会用分数表示简单事件的可能性",
+      "会比较两个事件可能性的大小",
+      "理解“可能性大小”与“结果个数”的关系"
+    ],
+    "diagnostic_question": {
+      "question": "掷一枚均匀的骰子，出现偶数的可能性是多少？（写成 a/b）",
+      "answer": "1/2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.SP.05",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会用分数表示简单事件的可能性",
+        "会比较两个事件可能性的大小",
+        "理解“可能性大小”与“结果个数”的关系"
+      ],
+      "worked_example": {
+        "problem": "从装有 5 个红球、1 个白球的袋中任取一球，取到哪种球的可能性大？",
+        "steps": [
+          "红球 5 个，白球 1 个",
+          "红球个数多",
+          "所以取到红球的可能性大"
+        ],
+        "answer": "取到红球的可能性大。"
+      },
+      "common_mistakes": [
+        "按球的颜色深浅判断可能性",
+        "把可能性写成百分数后与分数比较出错"
+      ],
+      "coaching_tip": "等可能前提下，可能性＝符合条件的结果数÷所有结果数。"
+    }
+  },
+  {
+    "id": "cnm_292",
+    "name": "事件的概率",
+    "domain": "统计与概率",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下 第二十三章 概率初步 23.3 事件的概率",
+    "type": "procedural",
+    "description": "理解概率的意义，会求简单等可能事件的概率。",
+    "mastery_criteria": [
+      "知道概率的取值范围 0≤P≤1",
+      "会用 P(A)＝m/n 求等可能事件的概率",
+      "知道必然事件概率为 1、不可能事件概率为 0"
+    ],
+    "diagnostic_question": {
+      "question": "掷一枚均匀的骰子，出现 5 点的概率是多少？（写成 a/b）",
+      "answer": "1/6"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.SP.06",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道概率的取值范围 0≤P≤1",
+        "会用 P(A)＝m/n 求等可能事件的概率",
+        "知道必然事件概率为 1、不可能事件概率为 0"
+      ],
+      "worked_example": {
+        "problem": "掷一枚均匀的骰子，求出现 5 点的概率。",
+        "steps": [
+          "所有等可能结果 6 个",
+          "符合条件的结果 1 个",
+          "P＝1/6"
+        ],
+        "answer": "1/6。"
+      },
+      "common_mistakes": [
+        "把概率写成大于 1 的数",
+        "把“掷两次”的结果总数算成 6"
+      ],
+      "coaching_tip": "概率＝符合条件的结果数÷所有等可能结果数，结果必在 0 与 1 之间。"
+    }
+  },
+  {
+    "id": "cnm_293",
+    "name": "概率计算举例",
+    "domain": "统计与概率",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下 第二十三章 概率初步 23.4 概率计算举例",
+    "type": "procedural",
+    "description": "会用列表法、树状图求两步试验的概率。",
+    "mastery_criteria": [
+      "会用列表或树状图列出所有等可能结果",
+      "会求两步试验的概率",
+      "会处理不放回抽取的概率问题"
+    ],
+    "diagnostic_question": {
+      "question": "掷两枚均匀的骰子，点数和为 2 的概率是多少？（写成 a/b）",
+      "answer": "1/36"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.SP.06",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会用列表或树状图列出所有等可能结果",
+        "会求两步试验的概率",
+        "会处理不放回抽取的概率问题"
+      ],
+      "worked_example": {
+        "problem": "掷两枚均匀的骰子，求点数和为 2 的概率。",
+        "steps": [
+          "共有 6×6＝36 种等可能结果",
+          "和为 2 只有 (1，1) 一种",
+          "P＝1/36"
+        ],
+        "answer": "1/36。"
+      },
+      "common_mistakes": [
+        "漏掉有序对中的一种情况",
+        "把不放回当成放回计算"
+      ],
+      "coaching_tip": "两步试验用表格或树状图列全，注意“放回”与“不放回”时第二步的结果数不同。"
+    }
+  },
+  {
+    "id": "cnm_294",
+    "name": "放缩与相似形",
+    "domain": "图形与几何",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上 第二十四章 相似三角形 24.1 放缩与相似形",
+    "type": "conceptual",
+    "description": "理解相似形的概念，知道相似比与周长、面积的关系。",
+    "mastery_criteria": [
+      "知道形状相同的两个图形叫相似形",
+      "会由相似比求对应边、周长",
+      "知道相似比与面积比的关系"
+    ],
+    "diagnostic_question": {
+      "question": "两个相似三角形的相似比为 2:3，小三角形一边为 4，大三角形对应边是多少？",
+      "answer": "6"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.19",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道形状相同的两个图形叫相似形",
+        "会由相似比求对应边、周长",
+        "知道相似比与面积比的关系"
+      ],
+      "worked_example": {
+        "problem": "两个相似三角形的相似比为 1:3，小三角形周长为 5，求大三角形周长。",
+        "steps": [
+          "周长比等于相似比 1:3",
+          "5×3",
+          "＝15"
+        ],
+        "answer": "15。"
+      },
+      "common_mistakes": [
+        "把面积比当成相似比",
+        "相似比的方向（谁比谁）写反"
+      ],
+      "coaching_tip": "相似比是“对应边之比”；周长比等于相似比，面积比等于相似比的平方。"
+    }
+  },
+  {
+    "id": "cnm_295",
+    "name": "比例线段",
+    "domain": "图形与几何",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上 第二十四章 相似三角形 24.2 比例线段",
+    "type": "procedural",
+    "description": "理解比例线段与比例中项，会进行比例变形。",
+    "mastery_criteria": [
+      "会由比例式求未知项",
+      "理解比例中项与黄金分割",
+      "会进行合比、等比等常用变形"
+    ],
+    "diagnostic_question": {
+      "question": "若 a/b＝c/d，a＝2、b＝3、c＝4，则 d 是多少？",
+      "answer": "6"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.19",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会由比例式求未知项",
+        "理解比例中项与黄金分割",
+        "会进行合比、等比等常用变形"
+      ],
+      "worked_example": {
+        "problem": "已知 a:b＝c:d，a＝2，b＝3，c＝4，求 d。",
+        "steps": [
+          "由 ad＝bc",
+          "2d＝12",
+          "d＝6"
+        ],
+        "answer": "d＝6。"
+      },
+      "common_mistakes": [
+        "内项外项对应错误",
+        "黄金分割比写成 0.5"
+      ],
+      "coaching_tip": "比例式写成 ad＝bc 再求；合比性质 (a＋b)/b＝(c＋d)/d。"
+    }
+  },
+  {
+    "id": "cnm_296",
+    "name": "三角形一边的平行线",
+    "domain": "图形与几何",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上 第二十四章 相似三角形 24.3 三角形一边的平行线",
+    "type": "reasoning",
+    "description": "掌握“平行于三角形一边的直线截其他两边，所得线段成比例”及推论。",
+    "mastery_criteria": [
+      "会用平行线分线段成比例求线段长",
+      "知道 DE∥BC 时 △ADE∽△ABC",
+      "理解重心的性质"
+    ],
+    "diagnostic_question": {
+      "question": "DE∥BC，AD:DB＝2:3，则 AE:EC 是多少？（写成 a/b）",
+      "answer": "2/3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.19",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会用平行线分线段成比例求线段长",
+        "知道 DE∥BC 时 △ADE∽△ABC",
+        "理解重心的性质"
+      ],
+      "worked_example": {
+        "problem": "DE∥BC，AD:DB＝2:3，求 AE:EC。",
+        "steps": [
+          "由平行线分线段成比例",
+          "AE:EC＝AD:DB",
+          "＝2:3"
+        ],
+        "answer": "2:3。"
+      },
+      "common_mistakes": [
+        "对应线段找错",
+        "把 AD:DB 当成 AD:AB"
+      ],
+      "coaching_tip": "写比例时上下对应（AD 对 AE，DB 对 EC），画图核对位置关系。"
+    }
+  },
+  {
+    "id": "cnm_297",
+    "name": "相似三角形的判定",
+    "domain": "图形与几何",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上 第二十四章 相似三角形 24.4 相似三角形的判定",
+    "type": "reasoning",
+    "description": "掌握相似三角形的判定方法。",
+    "mastery_criteria": [
+      "会用“两角对应相等”判定相似",
+      "会用“两边成比例且夹角相等”判定相似",
+      "知道“三边成比例”也可判定相似"
+    ],
+    "diagnostic_question": {
+      "question": "△ABC∽△DEF，∠A＝50°，∠B＝60°，则 ∠F 是多少度？",
+      "answer": "70"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.19",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会用“两角对应相等”判定相似",
+        "会用“两边成比例且夹角相等”判定相似",
+        "知道“三边成比例”也可判定相似"
+      ],
+      "worked_example": {
+        "problem": "判断：两个三角形有两组角分别相等，是否相似？",
+        "steps": [
+          "两组角对应相等",
+          "由三角形内角和，第三组角也相等",
+          "所以两个三角形相似"
+        ],
+        "answer": "相似。"
+      },
+      "common_mistakes": [
+        "把“两边成比例”当成充分条件（缺少夹角相等）",
+        "对应关系写错"
+      ],
+      "coaching_tip": "两角对应相等最常用；用边判定时必须强调“夹角”。"
+    }
+  },
+  {
+    "id": "cnm_298",
+    "name": "相似三角形的性质",
+    "domain": "图形与几何",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上 第二十四章 相似三角形 24.5 相似三角形的性质",
+    "type": "reasoning",
+    "description": "掌握相似三角形的性质：对应线段之比、周长比与面积比。",
+    "mastery_criteria": [
+      "知道相似三角形对应高、中线、角平分线之比等于相似比",
+      "知道周长比等于相似比",
+      "知道面积比等于相似比的平方"
+    ],
+    "diagnostic_question": {
+      "question": "两个相似三角形对应高之比为 2:3，则它们的面积比的前项是多少？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.19",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道相似三角形对应高、中线、角平分线之比等于相似比",
+        "知道周长比等于相似比",
+        "知道面积比等于相似比的平方"
+      ],
+      "worked_example": {
+        "problem": "两个相似三角形的相似比为 1:2，小三角形面积为 5，求大三角形面积。",
+        "steps": [
+          "面积比等于相似比的平方 1:4",
+          "5×4",
+          "＝20"
+        ],
+        "answer": "20。"
+      },
+      "common_mistakes": [
+        "面积比忘记平方",
+        "把对应高之比当成面积比"
+      ],
+      "coaching_tip": "记住三层：线段比＝相似比，周长比＝相似比，面积比＝相似比的平方。"
+    }
+  },
+  {
+    "id": "cnm_299",
+    "name": "实数与向量相乘",
+    "domain": "图形与几何",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上 第二十四章 相似三角形 24.6 实数与向量相乘",
+    "type": "conceptual",
+    "description": "理解实数与向量相乘的意义与性质。",
+    "mastery_criteria": [
+      "知道 ka 的模等于 |k|·|a|",
+      "知道 k＞0 时 ka 与 a 同向，k＜0 时反向",
+      "会用坐标进行数乘运算"
+    ],
+    "diagnostic_question": {
+      "question": "向量 a 的模为 3，则 |2a| 是多少？",
+      "answer": "6"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.22",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道 ka 的模等于 |k|·|a|",
+        "知道 k＞0 时 ka 与 a 同向，k＜0 时反向",
+        "会用坐标进行数乘运算"
+      ],
+      "worked_example": {
+        "problem": "向量 a 的模为 3，求 |2a|。",
+        "steps": [
+          "|2a|＝2×|a|",
+          "＝2×3",
+          "＝6"
+        ],
+        "answer": "6。"
+      },
+      "common_mistakes": [
+        "把 |2a| 算成 2＋|a|",
+        "忽略负数倍数会改变方向"
+      ],
+      "coaching_tip": "数乘只改变长度与方向，不改变“共线”这一性质。"
+    }
+  },
+  {
+    "id": "cnm_300",
+    "name": "向量的线性运算",
+    "domain": "图形与几何",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上 第二十四章 相似三角形 24.7 向量的线性运算",
+    "type": "procedural",
+    "description": "会进行平面向量的线性运算，并用向量表示几何关系。",
+    "mastery_criteria": [
+      "会进行向量的加减与数乘的混合运算",
+      "会用坐标进行线性运算",
+      "会判断两个向量是否共线"
+    ],
+    "diagnostic_question": {
+      "question": "AB＋BC＋CA 的结果是零向量，它的模是多少？",
+      "answer": "0"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.22",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会进行向量的加减与数乘的混合运算",
+        "会用坐标进行线性运算",
+        "会判断两个向量是否共线"
+      ],
+      "worked_example": {
+        "problem": "a＝(2，－1)，b＝(1，3)，求 2a－b 的纵坐标。",
+        "steps": [
+          "2a＝(4，－2)",
+          "2a－b＝(3，－5)",
+          "所以纵坐标是 －5"
+        ],
+        "answer": "－5。"
+      },
+      "common_mistakes": [
+        "数乘时只乘一个坐标",
+        "减法当成加法"
+      ],
+      "coaching_tip": "坐标运算逐分量进行；先算数乘再算加减，可减少错误。"
+    }
+  },
+  {
+    "id": "cnm_301",
+    "name": "锐角三角比的意义",
+    "domain": "图形与几何",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上 第二十五章 锐角的三角比 25.1 锐角的三角比的意义",
+    "type": "conceptual",
+    "description": "理解正弦、余弦、正切、余切的定义。",
+    "mastery_criteria": [
+      "会在直角三角形中写出一个锐角的四个三角比",
+      "知道 sinA＝cos(90°－A)",
+      "知道 0＜sinA＜1、0＜cosA＜1"
+    ],
+    "diagnostic_question": {
+      "question": "Rt△ABC 中 ∠C＝90°，∠A 的对边为 3、斜边为 5，sinA 是多少？",
+      "answer": "0.6"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.20",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会在直角三角形中写出一个锐角的四个三角比",
+        "知道 sinA＝cos(90°－A)",
+        "知道 0＜sinA＜1、0＜cosA＜1"
+      ],
+      "worked_example": {
+        "problem": "Rt△ABC 中 ∠C＝90°，∠A 的对边为 3、斜边为 5，求 sinA。",
+        "steps": [
+          "sinA＝对边/斜边",
+          "＝3/5",
+          "＝0.6"
+        ],
+        "answer": "0.6。"
+      },
+      "common_mistakes": [
+        "把 sinA 写成邻边比斜边",
+        "对边、邻边找错"
+      ],
+      "coaching_tip": "先确定角，再找“对边（对着这个角）、邻边（挨着这个角）、斜边（最长）”。"
+    }
+  },
+  {
+    "id": "cnm_302",
+    "name": "特殊锐角的三角比",
+    "domain": "图形与几何",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上 第二十五章 锐角的三角比 25.2 求锐角的三角比的值",
+    "type": "procedural",
+    "description": "掌握 30°、45°、60° 的三角比，会进行相关计算。",
+    "mastery_criteria": [
+      "记住 30°、45°、60° 的正弦、余弦、正切值",
+      "会进行含特殊角三角比的混合运算",
+      "会由三角比值反求锐角"
+    ],
+    "diagnostic_question": {
+      "question": "sin30° 的值是多少？",
+      "answer": "0.5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.20",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "记住 30°、45°、60° 的正弦、余弦、正切值",
+        "会进行含特殊角三角比的混合运算",
+        "会由三角比值反求锐角"
+      ],
+      "worked_example": {
+        "problem": "求 sin30°＋cos60°。",
+        "steps": [
+          "sin30°＝1/2，cos60°＝1/2",
+          "1/2＋1/2",
+          "＝1"
+        ],
+        "answer": "1。"
+      },
+      "common_mistakes": [
+        "30° 与 60° 的正余弦值记反",
+        "tan45° 记成 √3"
+      ],
+      "coaching_tip": "用“1、2、√3”三角形与等腰直角三角形记忆，比死背可靠。"
+    }
+  },
+  {
+    "id": "cnm_303",
+    "name": "解直角三角形",
+    "domain": "图形与几何",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上 第二十五章 锐角的三角比 25.3 解直角三角形",
+    "type": "procedural",
+    "description": "会由已知元素解直角三角形。",
+    "mastery_criteria": [
+      "会利用三角比求未知边",
+      "会利用三角比求未知角",
+      "会结合勾股定理求解"
+    ],
+    "diagnostic_question": {
+      "question": "Rt△ABC 中 ∠C＝90°，∠A＝30°，斜边 AB＝10，BC 是多少？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.20",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会利用三角比求未知边",
+        "会利用三角比求未知角",
+        "会结合勾股定理求解"
+      ],
+      "worked_example": {
+        "problem": "Rt△ABC 中 ∠C＝90°，∠A＝30°，AB＝10，求 BC。",
+        "steps": [
+          "BC 是 ∠A 的对边",
+          "BC＝AB·sinA＝10×sin30°",
+          "＝5"
+        ],
+        "answer": "5。"
+      },
+      "common_mistakes": [
+        "对边与邻边混用",
+        "角度与边不对应"
+      ],
+      "coaching_tip": "先画图标注已知元素，再选合适的三角比：求对边用正弦、求邻边用余弦。"
+    }
+  },
+  {
+    "id": "cnm_304",
+    "name": "解直角三角形的应用",
+    "domain": "图形与几何",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上 第二十五章 锐角的三角比 25.4 解直角三角形的应用",
+    "type": "application",
+    "description": "会用解直角三角形解决测量、坡度、仰角俯角问题。",
+    "mastery_criteria": [
+      "理解仰角、俯角、坡角的意义",
+      "会把实际问题转化为直角三角形模型",
+      "会进行近似计算并说明答案的实际意义"
+    ],
+    "diagnostic_question": {
+      "question": "某坡面坡角 30°，沿水平方向前进 10 米，升高约为多少米？（保留一位小数）",
+      "answer": "5.8"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.IP.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "理解仰角、俯角、坡角的意义",
+        "会把实际问题转化为直角三角形模型",
+        "会进行近似计算并说明答案的实际意义"
+      ],
+      "worked_example": {
+        "problem": "某坡面坡角为 30°，沿坡面水平前进 10 米，升高多少米？",
+        "steps": [
+          "设升高 h，水平前进 10 米",
+          "由三角比 tan30°＝h/10，得 h＝10×tan30°",
+          "h≈5.77（米）"
+        ],
+        "answer": "约 5.77 米。"
+      },
+      "common_mistakes": [
+        "仰角与俯角混淆",
+        "把水平距离与斜边长度混用"
+      ],
+      "coaching_tip": "先画出示意图，标清水平线、铅垂线与视线，再判断用正弦还是正切。"
+    }
+  },
+  {
+    "id": "cnm_305",
+    "name": "二次函数的概念",
+    "domain": "数与代数",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上 第二十六章 二次函数 26.1 二次函数的概念",
+    "type": "conceptual",
+    "description": "理解二次函数 y＝ax²＋bx＋c（a≠0）的概念。",
+    "mastery_criteria": [
+      "能判断一个函数是不是二次函数",
+      "会指出 a、b、c",
+      "知道 a≠0 的限制"
+    ],
+    "diagnostic_question": {
+      "question": "二次函数 y＝2x²－3x＋1 中，a 是多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.21",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能判断一个函数是不是二次函数",
+        "会指出 a、b、c",
+        "知道 a≠0 的限制"
+      ],
+      "worked_example": {
+        "problem": "判断 y＝2x²－3x＋1 是否为二次函数，并说出 a。",
+        "steps": [
+          "最高次为 2 且 a≠0",
+          "a＝2",
+          "所以是二次函数"
+        ],
+        "answer": "是二次函数，a＝2。"
+      },
+      "common_mistakes": [
+        "忽略 a≠0",
+        "把 y＝1/x² 当成二次函数"
+      ],
+      "coaching_tip": "二次函数必须是整式，且二次项系数不为 0。"
+    }
+  },
+  {
+    "id": "cnm_306",
+    "name": "特殊二次函数的图像",
+    "domain": "数与代数",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上 第二十六章 二次函数 26.2 特殊二次函数的图像",
+    "type": "procedural",
+    "description": "会画 y＝ax²、y＝ax²＋k、y＝a(x＋m)² 的图像并说出顶点与开口方向。",
+    "mastery_criteria": [
+      "知道抛物线的开口方向由 a 的符号决定",
+      "会说出顶点坐标与对称轴",
+      "会由图像平移得到新解析式"
+    ],
+    "diagnostic_question": {
+      "question": "抛物线 y＝2x² 的顶点纵坐标是多少？",
+      "answer": "0"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.21",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道抛物线的开口方向由 a 的符号决定",
+        "会说出顶点坐标与对称轴",
+        "会由图像平移得到新解析式"
+      ],
+      "worked_example": {
+        "problem": "抛物线 y＝(x－2)² 的顶点坐标是什么？",
+        "steps": [
+          "形如 y＝a(x＋m)² 的顶点为 (－m，0)",
+          "这里 m＝－2",
+          "顶点为 (2，0)"
+        ],
+        "answer": "(2，0)。"
+      },
+      "common_mistakes": [
+        "顶点符号写反（y＝(x－2)² 顶点是 (2，0) 不是 (－2，0)）",
+        "开口方向由 b 决定"
+      ],
+      "coaching_tip": "顶点式 y＝a(x＋m)²＋k 的顶点是 (－m，k)；平移规律“左加右减、上加下减”。"
+    }
+  },
+  {
+    "id": "cnm_307",
+    "name": "二次函数 y＝ax²＋bx＋c 的图像",
+    "domain": "数与代数",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上 第二十六章 二次函数 26.3 二次函数 y＝ax²＋bx＋c 的图像",
+    "type": "procedural",
+    "description": "会求抛物线的对称轴、顶点坐标，并会用配方法化顶点式。",
+    "mastery_criteria": [
+      "会用 x＝－b/(2a) 求对称轴",
+      "会用配方法把一般式化为顶点式",
+      "会判断开口方向与顶点位置"
+    ],
+    "diagnostic_question": {
+      "question": "抛物线 y＝x²－4x＋3 的对称轴是 x 等于多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.NA.21",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会用 x＝－b/(2a) 求对称轴",
+        "会用配方法把一般式化为顶点式",
+        "会判断开口方向与顶点位置"
+      ],
+      "worked_example": {
+        "problem": "求抛物线 y＝x²－4x＋3 的对称轴。",
+        "steps": [
+          "a＝1，b＝－4",
+          "x＝－b/(2a)＝4/2",
+          "＝2"
+        ],
+        "answer": "x＝2。"
+      },
+      "common_mistakes": [
+        "对称轴公式符号写错",
+        "配方法漏掉常数项"
+      ],
+      "coaching_tip": "对称轴 x＝－b/(2a)，顶点纵坐标代入 x 求得；配方法要保证等式成立。"
+    }
+  },
+  {
+    "id": "cnm_308",
+    "name": "二次函数的性质与最值应用",
+    "domain": "数与代数",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上 第二十六章 二次函数 26.3 二次函数的性质与最值应用",
+    "type": "application",
+    "description": "会用二次函数求最值并解决实际问题。",
+    "mastery_criteria": [
+      "会根据 a 的符号判断函数有最大值还是最小值",
+      "会用顶点求最值",
+      "会建立二次函数模型解决面积、利润问题"
+    ],
+    "diagnostic_question": {
+      "question": "二次函数 y＝－(x－1)²＋4 的最大值是多少？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.IP.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "cms-2022:4.IP.04",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会根据 a 的符号判断函数有最大值还是最小值",
+        "会用顶点求最值",
+        "会建立二次函数模型解决面积、利润问题"
+      ],
+      "worked_example": {
+        "problem": "用 20 米篱笆围一个矩形，一边长为 x，求面积的最大值。",
+        "steps": [
+          "另一边为 10－x",
+          "S＝x(10－x)＝－(x－5)²＋25",
+          "当 x＝5 时面积最大为 25"
+        ],
+        "answer": "25 平方米。"
+      },
+      "common_mistakes": [
+        "忘记写自变量的取值范围",
+        "把最大值点当成端点"
+      ],
+      "coaching_tip": "先写出函数关系与自变量范围，再配方或用顶点公式求最值，最后检验是否在范围内。"
+    }
+  },
+  {
+    "id": "cnm_309",
+    "name": "圆的确定与三角形的外接圆",
+    "domain": "图形与几何",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下 第二十七章 圆与正多边形 27.1 圆的确定",
+    "type": "reasoning",
+    "description": "理解确定圆的条件，掌握三角形的外接圆与外心。",
+    "mastery_criteria": [
+      "知道不在同一直线上的三点确定一个圆",
+      "会找三角形的外心并求外接圆半径",
+      "知道直角三角形的外心是斜边中点"
+    ],
+    "diagnostic_question": {
+      "question": "过不在同一直线上的三点能确定几个圆？",
+      "answer": "1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.15",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道不在同一直线上的三点确定一个圆",
+        "会找三角形的外心并求外接圆半径",
+        "知道直角三角形的外心是斜边中点"
+      ],
+      "worked_example": {
+        "problem": "直角三角形三边为 3、4、5，求外接圆半径。",
+        "steps": [
+          "直角三角形的外心是斜边中点",
+          "外接圆半径＝斜边的一半",
+          "＝5÷2＝2.5"
+        ],
+        "answer": "2.5。"
+      },
+      "common_mistakes": [
+        "认为任意三点都能确定圆",
+        "把外心与内心混淆"
+      ],
+      "coaching_tip": "外心是三边垂直平分线的交点；直角三角形外接圆半径等于斜边的一半。"
+    }
+  },
+  {
+    "id": "cnm_310",
+    "name": "圆心角、弧、弦、弦心距之间的关系",
+    "domain": "图形与几何",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下 第二十七章 圆与正多边形 27.2 圆心角、弧、弦、弦心距之间的关系",
+    "type": "reasoning",
+    "description": "掌握同圆或等圆中圆心角、弧、弦、弦心距之间的关系。",
+    "mastery_criteria": [
+      "知道同圆中等圆心角所对的弧、弦相等",
+      "知道弦心距与弦长的关系",
+      "会用勾股定理求弦长或弦心距"
+    ],
+    "diagnostic_question": {
+      "question": "同圆中相等的圆心角所对的弧相等，若圆心角为 60°，则对应弧的度数是多少？",
+      "answer": "60"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.15",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道同圆中等圆心角所对的弧、弦相等",
+        "知道弦心距与弦长的关系",
+        "会用勾股定理求弦长或弦心距"
+      ],
+      "worked_example": {
+        "problem": "半径为 5 的圆中，弦心距为 3，求弦长。",
+        "steps": [
+          "半弦长＝√(5²－3²)＝4",
+          "弦长＝2×4",
+          "＝8"
+        ],
+        "answer": "8。"
+      },
+      "common_mistakes": [
+        "忘记弦长是半弦的 2 倍",
+        "把弦心距当成弦长"
+      ],
+      "coaching_tip": "半径、弦心距、半弦构成直角三角形：r²＝d²＋(l/2)²。"
+    }
+  },
+  {
+    "id": "cnm_311",
+    "name": "垂径定理",
+    "domain": "图形与几何",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下 第二十七章 圆与正多边形 27.3 垂径定理",
+    "type": "reasoning",
+    "description": "掌握垂径定理及其推论，会解决拱桥、管道等实际问题。",
+    "mastery_criteria": [
+      "知道垂直于弦的直径平分弦且平分弦所对的弧",
+      "会用半径、弦心距、半弦的直角三角形计算",
+      "会解决拱形实际问题"
+    ],
+    "diagnostic_question": {
+      "question": "半径为 10 的圆中，弦心距为 6，弦长是多少？",
+      "answer": "16"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.15",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道垂直于弦的直径平分弦且平分弦所对的弧",
+        "会用半径、弦心距、半弦的直角三角形计算",
+        "会解决拱形实际问题"
+      ],
+      "worked_example": {
+        "problem": "圆形拱桥半径为 5 米，水面宽 8 米，求拱顶到水面的高度。",
+        "steps": [
+          "半弦 4，弦心距 √(25－16)＝3",
+          "拱高＝5－3",
+          "＝2（米）"
+        ],
+        "answer": "2 米。"
+      },
+      "common_mistakes": [
+        "把拱高算成半径加弦心距",
+        "忘记半弦要乘 2"
+      ],
+      "coaching_tip": "画出示意图，勾股关系写清楚；拱高＝半径－弦心距（圆心在下方时）。"
+    }
+  },
+  {
+    "id": "cnm_312",
+    "name": "直线与圆的位置关系",
+    "domain": "图形与几何",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下 第二十七章 圆与正多边形 27.4 直线与圆的位置关系",
+    "type": "reasoning",
+    "description": "掌握直线与圆的三种位置关系及切线的性质与判定。",
+    "mastery_criteria": [
+      "会用 d 与 r 的大小关系判断位置关系",
+      "知道切线与过切点的半径垂直",
+      "会利用切线长与勾股定理计算"
+    ],
+    "diagnostic_question": {
+      "question": "圆心到直线的距离等于半径时，直线与圆有几个公共点？",
+      "answer": "1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.16",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会用 d 与 r 的大小关系判断位置关系",
+        "知道切线与过切点的半径垂直",
+        "会利用切线长与勾股定理计算"
+      ],
+      "worked_example": {
+        "problem": "⊙O 半径为 3，圆心到直线 l 的距离为 1，判断 l 与 ⊙O 的位置关系。",
+        "steps": [
+          "d＝1＜r＝3",
+          "直线与圆相交",
+          "有 2 个公共点"
+        ],
+        "answer": "相交，有 2 个公共点。"
+      },
+      "common_mistakes": [
+        "把 d＝r 判断成相离",
+        "切线判定缺少“经过半径外端”"
+      ],
+      "coaching_tip": "d＞r 相离、d＝r 相切、d＜r 相交；切线垂直于过切点的半径。"
+    }
+  },
+  {
+    "id": "cnm_313",
+    "name": "圆与圆的位置关系",
+    "domain": "图形与几何",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下 第二十七章 圆与正多边形 27.5 圆与圆的位置关系",
+    "type": "reasoning",
+    "description": "掌握两圆的五种位置关系及判定方法。",
+    "mastery_criteria": [
+      "会用圆心距与半径的关系判断位置关系",
+      "会确定公共点的个数",
+      "会利用相交两圆求公共弦长"
+    ],
+    "diagnostic_question": {
+      "question": "两圆半径分别为 2 和 3，圆心距为 6，它们的公共点有几个？",
+      "answer": "0"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.16",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会用圆心距与半径的关系判断位置关系",
+        "会确定公共点的个数",
+        "会利用相交两圆求公共弦长"
+      ],
+      "worked_example": {
+        "problem": "两圆半径分别为 2 和 3，圆心距为 6，判断位置关系。",
+        "steps": [
+          "R＋r＝5，d＝6＞5",
+          "所以两圆外离",
+          "没有公共点"
+        ],
+        "answer": "外离，没有公共点。"
+      },
+      "common_mistakes": [
+        "内切与外切的条件记混",
+        "把内含当成相交"
+      ],
+      "coaching_tip": "外离 d＞R＋r，外切 d＝R＋r，相交 |R－r|＜d＜R＋r，内切 d＝|R－r|，内含 d＜|R－r|。"
+    }
+  },
+  {
+    "id": "cnm_314",
+    "name": "正多边形与圆",
+    "domain": "图形与几何",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下 第二十七章 圆与正多边形 27.6 正多边形与圆",
+    "type": "procedural",
+    "description": "理解正多边形与圆的关系，会计算中心角、边心距。",
+    "mastery_criteria": [
+      "知道正 n 边形的中心角为 360°/n",
+      "会利用半径与边心距计算边长",
+      "会画正多边形"
+    ],
+    "diagnostic_question": {
+      "question": "正六边形的中心角是多少度？",
+      "answer": "60"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.17",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道正 n 边形的中心角为 360°/n",
+        "会利用半径与边心距计算边长",
+        "会画正多边形"
+      ],
+      "worked_example": {
+        "problem": "正六边形的中心角是多少度？",
+        "steps": [
+          "中心角＝360°÷n",
+          "＝360°÷6",
+          "＝60°"
+        ],
+        "answer": "60°。"
+      },
+      "common_mistakes": [
+        "把中心角与内角混淆",
+        "边心距与半径混用"
+      ],
+      "coaching_tip": "中心角＋两个半径构成等腰三角形；内角与中心角互补关系要分清。"
+    }
+  },
+  {
+    "id": "cnm_315",
+    "name": "弧长、扇形面积与圆锥侧面积",
+    "domain": "图形与几何",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下 第二十七章 圆与正多边形 27.6 弧长、扇形面积与圆锥侧面积",
+    "type": "application",
+    "description": "会计算弧长、扇形面积与圆锥的侧面积。",
+    "mastery_criteria": [
+      "会用 l＝nπr/180 与 S＝nπr²/360 计算",
+      "知道圆锥侧面展开图是扇形",
+      "会用 S侧＝πrl 计算圆锥侧面积"
+    ],
+    "diagnostic_question": {
+      "question": "半径 6、圆心角 60° 的弧长是多少？（π 取 3.14）",
+      "answer": "6.28"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.17",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会用 l＝nπr/180 与 S＝nπr²/360 计算",
+        "知道圆锥侧面展开图是扇形",
+        "会用 S侧＝πrl 计算圆锥侧面积"
+      ],
+      "worked_example": {
+        "problem": "圆锥的母线长 5、底面半径 3，求侧面积（π 取 3.14）。",
+        "steps": [
+          "S侧＝πrl",
+          "＝3.14×3×5",
+          "＝47.1"
+        ],
+        "answer": "47.1。"
+      },
+      "common_mistakes": [
+        "把母线当成高",
+        "圆锥侧面积公式漏乘 π"
+      ],
+      "coaching_tip": "圆锥中母线 l、底面半径 r、高 h 满足 l²＝r²＋h²；侧面积＝πrl。"
+    }
+  },
+  {
+    "id": "cnm_316",
+    "name": "数据的整理与表示",
+    "domain": "统计与概率",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下 第二十八章 统计初步 28.1 数据的整理与表示",
+    "type": "procedural",
+    "description": "会整理数据并用统计图表表示。",
+    "mastery_criteria": [
+      "会计算百分比并绘制扇形图",
+      "会读条形图、折线图与扇形图",
+      "会求极差并对数据作初步描述"
+    ],
+    "diagnostic_question": {
+      "question": "某班 40 人，喜欢足球的占 25%，喜欢足球的有多少人？",
+      "answer": "10"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.SP.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会计算百分比并绘制扇形图",
+        "会读条形图、折线图与扇形图",
+        "会求极差并对数据作初步描述"
+      ],
+      "worked_example": {
+        "problem": "某班 40 人，喜欢足球的占 25%，求人数。",
+        "steps": [
+          "40×25%",
+          "＝10",
+          "所以是 10 人"
+        ],
+        "answer": "10 人。"
+      },
+      "common_mistakes": [
+        "百分比计算时忘记除以总数",
+        "极差算成最大值"
+      ],
+      "coaching_tip": "统计图要标清标题、单位与数据来源；百分比之和应为 100%。"
+    }
+  },
+  {
+    "id": "cnm_317",
+    "name": "平均数、中位数、众数",
+    "domain": "统计与概率",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下 第二十八章 统计初步 28.2 平均数、中位数、众数",
+    "type": "procedural",
+    "description": "理解平均数、中位数、众数的意义，会计算并选择合适的统计量。",
+    "mastery_criteria": [
+      "会计算算术平均数与加权平均数",
+      "会求中位数与众数",
+      "能根据数据特点选择合适的统计量"
+    ],
+    "diagnostic_question": {
+      "question": "数据 2、4、6、8 的平均数是多少？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.SP.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会计算算术平均数与加权平均数",
+        "会求中位数与众数",
+        "能根据数据特点选择合适的统计量"
+      ],
+      "worked_example": {
+        "problem": "求数据 1、2、2、3、5、5、5 的众数。",
+        "steps": [
+          "5 出现了 3 次，次数最多",
+          "所以众数是 5",
+          "注意众数可能不唯一"
+        ],
+        "answer": "5。"
+      },
+      "common_mistakes": [
+        "求中位数忘记先排序",
+        "加权平均数忘记乘权重"
+      ],
+      "coaching_tip": "平均数受极端值影响大；中位数看位置；众数看出现次数。"
+    }
+  },
+  {
+    "id": "cnm_318",
+    "name": "方差与标准差",
+    "domain": "统计与概率",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下 第二十八章 统计初步 28.3 方差和标准差",
+    "type": "procedural",
+    "description": "理解方差、标准差的意义，会计算并比较数据波动。",
+    "mastery_criteria": [
+      "会计算一组数据的方差与标准差",
+      "知道方差越大数据波动越大",
+      "会用方差比较两组数据的稳定性"
+    ],
+    "diagnostic_question": {
+      "question": "数据 2、4、6 的平均数是多少？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.SP.04",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会计算一组数据的方差与标准差",
+        "知道方差越大数据波动越大",
+        "会用方差比较两组数据的稳定性"
+      ],
+      "worked_example": {
+        "problem": "求数据 2、4、6 的方差。",
+        "steps": [
+          "平均数＝4",
+          "偏差平方和＝4＋0＋4＝8",
+          "方差＝8÷3＝8/3"
+        ],
+        "answer": "8/3。"
+      },
+      "common_mistakes": [
+        "方差忘记除以数据个数",
+        "标准差算成方差的平方"
+      ],
+      "coaching_tip": "方差＝各偏差平方的平均数；标准差＝方差的算术平方根。"
+    }
+  },
+  {
+    "id": "cnm_319",
+    "name": "频数分布与频率分布",
+    "domain": "统计与概率",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下 第二十八章 统计初步 28.4 频数分布与频率分布",
+    "type": "procedural",
+    "description": "会编制频数分布表、画频数分布直方图，并会求频率。",
+    "mastery_criteria": [
+      "会求组距与组数",
+      "会计算频数与频率",
+      "会读频数分布直方图"
+    ],
+    "diagnostic_question": {
+      "question": "一组数据共 50 个，某组频率为 0.2，该组频数是多少？",
+      "answer": "10"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.SP.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会求组距与组数",
+        "会计算频数与频率",
+        "会读频数分布直方图"
+      ],
+      "worked_example": {
+        "problem": "一组数据共 50 个，某组频率为 0.2，求该组频数。",
+        "steps": [
+          "频数＝总数×频率",
+          "＝50×0.2",
+          "＝10"
+        ],
+        "answer": "10。"
+      },
+      "common_mistakes": [
+        "频率与频数混淆",
+        "组距不统一"
+      ],
+      "coaching_tip": "频数之和等于总数，频率之和等于 1；等距分组时直方图的高表示频数。"
+    }
+  },
+  {
+    "id": "cnm_320",
+    "name": "统计图表的选择与应用",
+    "domain": "统计与概率",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下 第二十八章 统计初步 28.5 统计图表的选择与应用",
+    "type": "application",
+    "description": "会根据目的选择合适的统计图，并读取图表信息作出判断。",
+    "mastery_criteria": [
+      "知道条形图、折线图、扇形图、直方图各自的特点",
+      "会由统计图读取数据并计算",
+      "会对统计结论作出合理评价"
+    ],
+    "diagnostic_question": {
+      "question": "某地 1 至 6 月降水量分别为 10、20、30、40、50、60 毫米，平均月降水量是多少毫米？",
+      "answer": "35"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.SP.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道条形图、折线图、扇形图、直方图各自的特点",
+        "会由统计图读取数据并计算",
+        "会对统计结论作出合理评价"
+      ],
+      "worked_example": {
+        "problem": "某地 1 至 6 月降水量分别为 10、20、30、40、50、60 毫米，求平均月降水量。",
+        "steps": [
+          "总和＝210",
+          "210÷6",
+          "＝35（毫米）"
+        ],
+        "answer": "35 毫米。"
+      },
+      "common_mistakes": [
+        "把折线图当成表示百分比",
+        "读图时看错纵轴起点"
+      ],
+      "coaching_tip": "条形图比多少，折线图看趋势，扇形图看占比，直方图看分布。"
+    }
+  },
+  {
+    "id": "cnm_321",
+    "name": "统计实习与数据分析",
+    "domain": "统计与概率",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下 第二十八章 统计初步 28.6 统计实习",
+    "type": "modeling",
+    "description": "会设计简单的统计调查，并用样本估计总体。",
+    "mastery_criteria": [
+      "会说明总体、样本与样本容量",
+      "会用样本比例估计总体数量",
+      "会对统计结论的可靠性作出评价"
+    ],
+    "diagnostic_question": {
+      "question": "从 500 名学生中抽取 50 名进行调查，样本容量是多少？",
+      "answer": "50"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cms-2022:4.SP.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "cms-2022:4.IP.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会说明总体、样本与样本容量",
+        "会用样本比例估计总体数量",
+        "会对统计结论的可靠性作出评价"
+      ],
+      "worked_example": {
+        "problem": "从 500 名学生中抽取 50 名调查，求样本容量。",
+        "steps": [
+          "样本容量是样本中个体的数目",
+          "＝50",
+          "样本容量不带单位"
+        ],
+        "answer": "50。"
+      },
+      "common_mistakes": [
+        "把样本容量写成“50 名”",
+        "用样本估计总体时比例算反"
+      ],
+      "coaching_tip": "样本容量只是数目，不带单位；估计总体时用“样本中的比例×总体数量”。"
+    }
   }
 ]

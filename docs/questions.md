@@ -1,6 +1,6 @@
 # 题库说明（data/questions.json）
 
-每个正式知识点（157 个）配套 4 题，共 628 题，供诊断工具“每点最多 2 题”出题策略使用。题目由 AI 基于课本生成，**未经教师审核**，正确性主要靠机器核验。
+每个正式知识点（321 个：小学 157、初中 164）配套 4 题，共 1284 题，供诊断工具“每点最多 2 题”出题策略使用。题目由 AI 基于课本生成，**未经教师审核**，正确性主要靠机器核验。
 
 ## 1. 格式
 
@@ -20,10 +20,13 @@
 
 ## 2. 统计
 
-- 总数 **628 题**，覆盖 157 个正式点，每点 4 题。
-- 按 type：numeric 425，choice 197，short 6；numeric+choice 占 99.0%（≥60% 达标）。
-- 按 difficulty：basic 314，standard 157，advanced 157；每点含 basic 与 standard。
-- choice 正确选项分布大致均匀（A/B/C/D 各 40-50 题）。
+- 总数 **1284 题**，覆盖 321 个正式点，每点 4 题。
+  - 小学 628 题（numeric 425，choice 197，short 6；basic 314，standard 157，advanced 157）。
+  - 初中 656 题（numeric 492，choice 164；basic 328，standard 164，advanced 164）。初中的 basic/standard/advanced 比例为 2:1:1，每点至少两道 basic。
+- 按 type：numeric 917，choice 361，short 6；numeric+choice 占 99.5%（≥60% 达标）。
+- 按 difficulty：basic 478，standard 485，advanced 321；每点含 basic 与 standard。
+- choice 正确选项分布大致均匀。
+- 初中的 `verify` 表达式覆盖全部数值题（492 题），用到 `sqrt`、`sin/cos/tan`（弧度制）、`round`、`Fraction`、列表推导式等受限名字，机器核验 mismatch 0。
 
 ## 3. 核验方法
 

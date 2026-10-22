@@ -2160,369 +2160,1611 @@
     "reason": "「统计实习与数据分析」的学习以「频数分布与频率分布」为基础。"
   },
   {
-    "topicId": "cne_050",
-    "prerequisiteId": "cne_049",
-    "strength": "hard",
-    "reason": "「主题词汇与短语（问候·家庭·教室·数字）」的学习以「26 个字母与常见字母组合」为基础。"
-  },
-  {
-    "topicId": "cne_051",
-    "prerequisiteId": "cne_050",
-    "strength": "hard",
-    "reason": "「主题词汇与短语（颜色·味道·动物·玩具）」的学习以「主题词汇与短语（问候·家庭·教室·数字）」为基础。"
-  },
-  {
-    "topicId": "cne_052",
-    "prerequisiteId": "cne_051",
-    "strength": "hard",
-    "reason": "「be 动词与情态动词 can」的学习以「主题词汇与短语（颜色·味道·动物·玩具）」为基础。"
-  },
-  {
-    "topicId": "cne_053",
-    "prerequisiteId": "cne_051",
-    "strength": "hard",
-    "reason": "「问候、介绍与生日祝福」的学习以「主题词汇与短语（颜色·味道·动物·玩具）」为基础。"
-  },
-  {
-    "topicId": "cne_054",
-    "prerequisiteId": "cne_049",
-    "strength": "hard",
-    "reason": "「字母组合读音与单词重音」的学习以「26 个字母与常见字母组合」为基础。"
-  },
-  {
-    "topicId": "cne_055",
-    "prerequisiteId": "cne_050",
-    "strength": "hard",
-    "reason": "「主题词汇与短语（外貌·能力·情绪·天气）」的学习以「主题词汇与短语（问候·家庭·教室·数字）」为基础。"
-  },
-  {
-    "topicId": "cne_056",
-    "prerequisiteId": "cne_051",
-    "strength": "hard",
-    "reason": "「主题词汇与短语（感官·形状·购物）」的学习以「主题词汇与短语（颜色·味道·动物·玩具）」为基础。"
-  },
-  {
-    "topicId": "cne_057",
-    "prerequisiteId": "cne_052",
-    "strength": "hard",
-    "reason": "「名词复数与 there be 句型」的学习以「be 动词与情态动词 can」为基础。"
-  },
-  {
-    "topicId": "cne_058",
-    "prerequisiteId": "cne_057",
-    "strength": "hard",
-    "reason": "「一般现在时与动词第三人称单数」的学习以「名词复数与 there be 句型」为基础。"
-  },
-  {
-    "topicId": "cne_059",
-    "prerequisiteId": "cne_054",
-    "strength": "hard",
-    "reason": "「句子重音与升降调」的学习以「字母组合读音与单词重音」为基础。"
-  },
-  {
-    "topicId": "cne_060",
-    "prerequisiteId": "cne_055",
-    "strength": "hard",
-    "reason": "「主题词汇与短语（未来·出行·自然）」的学习以「主题词汇与短语（外貌·能力·情绪·天气）」为基础。"
-  },
-  {
-    "topicId": "cne_061",
-    "prerequisiteId": "cne_058",
-    "strength": "hard",
-    "reason": "「一般过去时（was/were 与规则动词）」的学习以「一般现在时与动词第三人称单数」为基础。"
-  },
-  {
-    "topicId": "cne_062",
-    "prerequisiteId": "cne_061",
-    "strength": "hard",
-    "reason": "「一般将来时（be going to 与 will）」的学习以「一般过去时（was/were 与规则动词）」为基础。"
-  },
-  {
-    "topicId": "cne_063",
-    "prerequisiteId": "cne_062",
-    "strength": "hard",
-    "reason": "「日记写作与短文阅读」的学习以「一般将来时（be going to 与 will）」为基础。"
-  },
-  {
     "topicId": "cne_002",
     "prerequisiteId": "cne_001",
     "strength": "hard",
-    "reason": "「主题词汇与短语（成长·假期·健康·动物）」的学习以「字母组合 ee、ea、oo、ai 的读音」为基础。"
+    "reason": "「问候与应答（Unit 2 How are you?）」的学习以「问候与自我介绍（Unit 1 Hello!）」为基础。"
   },
   {
     "topicId": "cne_003",
     "prerequisiteId": "cne_002",
     "strength": "hard",
-    "reason": "「一般现在时与第三人称单数」的学习以「主题词汇与短语（成长·假期·健康·动物）」为基础。"
+    "reason": "「确认身份与 be 动词疑问句（Unit 3 Are you Kitty?）」的学习以「问候与应答（Unit 2 How are you?）」为基础。"
   },
   {
     "topicId": "cne_004",
     "prerequisiteId": "cne_003",
     "strength": "hard",
-    "reason": "「一般过去时」的学习以「一般现在时与第三人称单数」为基础。"
+    "reason": "「朋友与外貌描述（Unit 4 My friends）」的学习以「确认身份与 be 动词疑问句（Unit 3 Are you Kitty?）」为基础。"
   },
   {
     "topicId": "cne_005",
-    "prerequisiteId": "cne_002",
+    "prerequisiteId": "cne_004",
     "strength": "hard",
-    "reason": "「问候、提议与看电影」的学习以「主题词汇与短语（成长·假期·健康·动物）」为基础。"
+    "reason": "「家庭成员（Unit 5 My family）」的学习以「朋友与外貌描述（Unit 4 My friends）」为基础。"
   },
   {
     "topicId": "cne_006",
-    "prerequisiteId": "cne_004",
+    "prerequisiteId": "cne_005",
     "strength": "hard",
-    "reason": "「说明文阅读与假期短文」的学习以「一般过去时」为基础。"
+    "reason": "「身体部位与自我介绍（Unit 6 Me）」的学习以「家庭成员（Unit 5 My family）」为基础。"
+  },
+  {
+    "topicId": "cne_006",
+    "prerequisiteId": "cne_002",
+    "strength": "soft",
+    "reason": "「身体部位与自我介绍（Unit 6 Me）」的学习以「问候与应答（Unit 2 How are you?）」为基础。"
   },
   {
     "topicId": "cne_007",
-    "prerequisiteId": "cne_001",
+    "prerequisiteId": "cne_006",
     "strength": "hard",
-    "reason": "「辅音组合 th、sh、ch、ng 的读音」的学习以「字母组合 ee、ea、oo、ai 的读音」为基础。"
+    "reason": "「教室物品与指令（Unit 7 In the classroom）」的学习以「身体部位与自我介绍（Unit 6 Me）」为基础。"
+  },
+  {
+    "topicId": "cne_007",
+    "prerequisiteId": "cne_005",
+    "strength": "soft",
+    "reason": "「教室物品与指令（Unit 7 In the classroom）」的学习以「家庭成员（Unit 5 My family）」为基础。"
   },
   {
     "topicId": "cne_008",
-    "prerequisiteId": "cne_002",
+    "prerequisiteId": "cne_007",
     "strength": "hard",
-    "reason": "「主题词汇与短语（城市·交通·节日·自然）」的学习以「主题词汇与短语（成长·假期·健康·动物）」为基础。"
+    "reason": "「水果与购物（Unit 8 At the fruit shop）」的学习以「教室物品与指令（Unit 7 In the classroom）」为基础。"
+  },
+  {
+    "topicId": "cne_008",
+    "prerequisiteId": "cne_006",
+    "strength": "soft",
+    "reason": "「水果与购物（Unit 8 At the fruit shop）」的学习以「身体部位与自我介绍（Unit 6 Me）」为基础。"
+  },
+  {
+    "topicId": "cne_009",
+    "prerequisiteId": "cne_008",
+    "strength": "hard",
+    "reason": "「房间物品与方位介词（Unit 9 In my room）」的学习以「水果与购物（Unit 8 At the fruit shop）」为基础。"
   },
   {
     "topicId": "cne_009",
     "prerequisiteId": "cne_003",
-    "strength": "hard",
-    "reason": "「一般将来时 will 与 be going to」的学习以「一般现在时与第三人称单数」为基础。"
+    "strength": "soft",
+    "reason": "「房间物品与方位介词（Unit 9 In my room）」的学习以「确认身份与 be 动词疑问句（Unit 3 Are you Kitty?）」为基础。"
   },
   {
     "topicId": "cne_010",
     "prerequisiteId": "cne_009",
     "strength": "hard",
-    "reason": "「情态动词 can、must、should」的学习以「一般将来时 will 与 be going to」为基础。"
+    "reason": "「数字 1—20（Unit 10 Numbers）」的学习以「房间物品与方位介词（Unit 9 In my room）」为基础。"
+  },
+  {
+    "topicId": "cne_010",
+    "prerequisiteId": "cne_007",
+    "strength": "soft",
+    "reason": "「数字 1—20（Unit 10 Numbers）」的学习以「教室物品与指令（Unit 7 In the classroom）」为基础。"
   },
   {
     "topicId": "cne_011",
-    "prerequisiteId": "cne_008",
+    "prerequisiteId": "cne_010",
     "strength": "hard",
-    "reason": "「问路指路、机场用语与谈论天气」的学习以「主题词汇与短语（城市·交通·节日·自然）」为基础。"
+    "reason": "「小动物（Unit 11 Small animals）」的学习以「数字 1—20（Unit 10 Numbers）」为基础。"
   },
   {
     "topicId": "cne_012",
-    "prerequisiteId": "cne_006",
+    "prerequisiteId": "cne_011",
     "strength": "hard",
-    "reason": "「节日介绍与“未来的我”」的学习以「说明文阅读与假期短文」为基础。"
+    "reason": "「四季与天气（Unit 12 The four seasons）」的学习以「小动物（Unit 11 Small animals）」为基础。"
   },
   {
     "topicId": "cne_013",
-    "prerequisiteId": "cne_007",
+    "prerequisiteId": "cne_012",
     "strength": "hard",
-    "reason": "「单词重音与句子重音」的学习以「辅音组合 th、sh、ch、ng 的读音」为基础。"
+    "reason": "「颜色（Unit 1 Colours）」的学习以「四季与天气（Unit 12 The four seasons）」为基础。"
+  },
+  {
+    "topicId": "cne_013",
+    "prerequisiteId": "cne_011",
+    "strength": "soft",
+    "reason": "「颜色（Unit 1 Colours）」的学习以「小动物（Unit 11 Small animals）」为基础。"
   },
   {
     "topicId": "cne_014",
-    "prerequisiteId": "cne_008",
+    "prerequisiteId": "cne_013",
     "strength": "hard",
-    "reason": "「主题词汇与短语（亲属·动物·职业·住房·食品）」的学习以「主题词汇与短语（城市·交通·节日·自然）」为基础。"
+    "reason": "「味道（Unit 2 Tastes）」的学习以「颜色（Unit 1 Colours）」为基础。"
   },
   {
     "topicId": "cne_015",
     "prerequisiteId": "cne_014",
     "strength": "hard",
-    "reason": "「形容词与副词的比较等级」的学习以「主题词汇与短语（亲属·动物·职业·住房·食品）」为基础。"
+    "reason": "「声音与拟声词（Unit 3 Sounds）」的学习以「味道（Unit 2 Tastes）」为基础。"
   },
   {
     "topicId": "cne_016",
     "prerequisiteId": "cne_015",
     "strength": "hard",
-    "reason": "「可数与不可数名词与数量表达」的学习以「形容词与副词的比较等级」为基础。"
+    "reason": "「动物园里的动物（Unit 4 Animals in the zoo）」的学习以「声音与拟声词（Unit 3 Sounds）」为基础。"
+  },
+  {
+    "topicId": "cne_016",
+    "prerequisiteId": "cne_014",
+    "strength": "soft",
+    "reason": "「动物园里的动物（Unit 4 Animals in the zoo）」的学习以「味道（Unit 2 Tastes）」为基础。"
   },
   {
     "topicId": "cne_017",
-    "prerequisiteId": "cne_011",
+    "prerequisiteId": "cne_016",
     "strength": "hard",
-    "reason": "「描述人物、询问职业与价格」的学习以「问路指路、机场用语与谈论天气」为基础。"
+    "reason": "「玩具（Unit 5 Toys）」的学习以「动物园里的动物（Unit 4 Animals in the zoo）」为基础。"
   },
   {
     "topicId": "cne_018",
-    "prerequisiteId": "cne_012",
+    "prerequisiteId": "cne_017",
     "strength": "hard",
-    "reason": "「邀请函与海报写作」的学习以「节日介绍与“未来的我”」为基础。"
+    "reason": "「食物与饮料（Unit 6 Food and drinks）」的学习以「玩具（Unit 5 Toys）」为基础。"
   },
   {
     "topicId": "cne_019",
-    "prerequisiteId": "cne_013",
+    "prerequisiteId": "cne_018",
     "strength": "hard",
-    "reason": "「陈述句与疑问句的语调」的学习以「单词重音与句子重音」为基础。"
+    "reason": "「兴趣爱好（Unit 7 Hobbies）」的学习以「食物与饮料（Unit 6 Food and drinks）」为基础。"
+  },
+  {
+    "topicId": "cne_019",
+    "prerequisiteId": "cne_008",
+    "strength": "soft",
+    "reason": "「兴趣爱好（Unit 7 Hobbies）」的学习以「水果与购物（Unit 8 At the fruit shop）」为基础。"
   },
   {
     "topicId": "cne_020",
-    "prerequisiteId": "cne_014",
+    "prerequisiteId": "cne_019",
     "strength": "hard",
-    "reason": "「主题词汇与短语（旅游·购物·未来·风与水）」的学习以「主题词汇与短语（亲属·动物·职业·住房·食品）」为基础。"
+    "reason": "「生日与年龄（Unit 8 Happy birthday!）」的学习以「兴趣爱好（Unit 7 Hobbies）」为基础。"
   },
   {
     "topicId": "cne_021",
-    "prerequisiteId": "cne_009",
+    "prerequisiteId": "cne_020",
     "strength": "hard",
-    "reason": "「if 条件状语从句与“主将从现”」的学习以「一般将来时 will 与 be going to」为基础。"
+    "reason": "「农场动物（Unit 9 A day on the farm）」的学习以「生日与年龄（Unit 8 Happy birthday!）」为基础。"
+  },
+  {
+    "topicId": "cne_021",
+    "prerequisiteId": "cne_018",
+    "strength": "soft",
+    "reason": "「农场动物（Unit 9 A day on the farm）」的学习以「食物与饮料（Unit 6 Food and drinks）」为基础。"
   },
   {
     "topicId": "cne_022",
     "prerequisiteId": "cne_021",
     "strength": "hard",
-    "reason": "「动词不定式表目的」的学习以「if 条件状语从句与“主将从现”」为基础。"
+    "reason": "「卡通与人物描述（Unit 10 Funny cartoons）」的学习以「农场动物（Unit 9 A day on the farm）」为基础。"
+  },
+  {
+    "topicId": "cne_022",
+    "prerequisiteId": "cne_012",
+    "strength": "soft",
+    "reason": "「卡通与人物描述（Unit 10 Funny cartoons）」的学习以「四季与天气（Unit 12 The four seasons）」为基础。"
   },
   {
     "topicId": "cne_023",
-    "prerequisiteId": "cne_017",
+    "prerequisiteId": "cne_022",
     "strength": "hard",
-    "reason": "「购物、提建议与谈计划」的学习以「描述人物、询问职业与价格」为基础。"
+    "reason": "「母亲节与感谢（Unit 11 Mother's Day）」的学习以「卡通与人物描述（Unit 10 Funny cartoons）」为基础。"
+  },
+  {
+    "topicId": "cne_023",
+    "prerequisiteId": "cne_020",
+    "strength": "soft",
+    "reason": "「母亲节与感谢（Unit 11 Mother's Day）」的学习以「生日与年龄（Unit 8 Happy birthday!）」为基础。"
   },
   {
     "topicId": "cne_024",
     "prerequisiteId": "cne_023",
     "strength": "hard",
-    "reason": "「旅游指南与购物对话」的学习以「购物、提建议与谈计划」为基础。"
+    "reason": "「故事与复述（Unit 12 Three little pigs）」的学习以「母亲节与感谢（Unit 11 Mother's Day）」为基础。"
+  },
+  {
+    "topicId": "cne_024",
+    "prerequisiteId": "cne_022",
+    "strength": "soft",
+    "reason": "「故事与复述（Unit 12 Three little pigs）」的学习以「卡通与人物描述（Unit 10 Funny cartoons）」为基础。"
   },
   {
     "topicId": "cne_025",
-    "prerequisiteId": "cne_019",
+    "prerequisiteId": "cne_024",
     "strength": "hard",
-    "reason": "「连读、弱读与意群停顿」的学习以「陈述句与疑问句的语调」为基础。"
+    "reason": "「结识新朋友（Unit 1 Meeting new people）」的学习以「故事与复述（Unit 12 Three little pigs）」为基础。"
+  },
+  {
+    "topicId": "cne_025",
+    "prerequisiteId": "cne_023",
+    "strength": "soft",
+    "reason": "「结识新朋友（Unit 1 Meeting new people）」的学习以「母亲节与感谢（Unit 11 Mother's Day）」为基础。"
   },
   {
     "topicId": "cne_026",
-    "prerequisiteId": "cne_020",
+    "prerequisiteId": "cne_025",
     "strength": "hard",
-    "reason": "「主题词汇与短语（笔友·工作·娱乐·意外）」的学习以「主题词汇与短语（旅游·购物·未来·风与水）」为基础。"
+    "reason": "「能力与 can（Unit 2 Can you swim?）」的学习以「结识新朋友（Unit 1 Meeting new people）」为基础。"
+  },
+  {
+    "topicId": "cne_026",
+    "prerequisiteId": "cne_009",
+    "strength": "soft",
+    "reason": "「能力与 can（Unit 2 Can you swim?）」的学习以「房间物品与方位介词（Unit 9 In my room）」为基础。"
   },
   {
     "topicId": "cne_027",
-    "prerequisiteId": "cne_004",
+    "prerequisiteId": "cne_026",
     "strength": "hard",
-    "reason": "「现在完成时（already/yet/since/for）」的学习以「一般过去时」为基础。"
+    "reason": "「情绪与感受（Unit 3 Are you happy?）」的学习以「能力与 can（Unit 2 Can you swim?）」为基础。"
   },
   {
     "topicId": "cne_028",
-    "prerequisiteId": "cne_004",
+    "prerequisiteId": "cne_027",
     "strength": "hard",
-    "reason": "「过去进行时与 when/while」的学习以「一般过去时」为基础。"
+    "reason": "「家庭成员与 have（Unit 4 Do you have any cousins?）」的学习以「情绪与感受（Unit 3 Are you happy?）」为基础。"
   },
   {
     "topicId": "cne_029",
-    "prerequisiteId": "cne_016",
+    "prerequisiteId": "cne_028",
     "strength": "hard",
-    "reason": "「数词、大数字与分数」的学习以「可数与不可数名词与数量表达」为基础。"
+    "reason": "「描述朋友的品质（Unit 5 My friends）」的学习以「家庭成员与 have（Unit 4 Do you have any cousins?）」为基础。"
+  },
+  {
+    "topicId": "cne_029",
+    "prerequisiteId": "cne_024",
+    "strength": "soft",
+    "reason": "「描述朋友的品质（Unit 5 My friends）」的学习以「故事与复述（Unit 12 Three little pigs）」为基础。"
   },
   {
     "topicId": "cne_030",
-    "prerequisiteId": "cne_023",
+    "prerequisiteId": "cne_029",
     "strength": "hard",
-    "reason": "「打电话与描述突发事件」的学习以「购物、提建议与谈计划」为基础。"
+    "reason": "「职业（Unit 6 My parents）」的学习以「描述朋友的品质（Unit 5 My friends）」为基础。"
+  },
+  {
+    "topicId": "cne_030",
+    "prerequisiteId": "cne_021",
+    "strength": "soft",
+    "reason": "「职业（Unit 6 My parents）」的学习以「农场动物（Unit 9 A day on the farm）」为基础。"
   },
   {
     "topicId": "cne_031",
-    "prerequisiteId": "cne_024",
+    "prerequisiteId": "cne_030",
     "strength": "hard",
-    "reason": "「百科全书条目与故事复述」的学习以「旅游指南与购物对话」为基础。"
+    "reason": "「学校场所（Unit 7 At school）」的学习以「职业（Unit 6 My parents）」为基础。"
+  },
+  {
+    "topicId": "cne_032",
+    "prerequisiteId": "cne_031",
+    "strength": "hard",
+    "reason": "「购物与价格（Unit 8 At the shop）」的学习以「学校场所（Unit 7 At school）」为基础。"
   },
   {
     "topicId": "cne_032",
     "prerequisiteId": "cne_025",
-    "strength": "hard",
-    "reason": "「失去爆破与辅音连缀」的学习以「连读、弱读与意群停顿」为基础。"
+    "strength": "soft",
+    "reason": "「购物与价格（Unit 8 At the shop）」的学习以「结识新朋友（Unit 1 Meeting new people）」为基础。"
   },
   {
     "topicId": "cne_033",
-    "prerequisiteId": "cne_026",
+    "prerequisiteId": "cne_032",
     "strength": "hard",
-    "reason": "「主题词汇与短语（树·水·电·报刊）」的学习以「主题词汇与短语（笔友·工作·娱乐·意外）」为基础。"
+    "reason": "「家务与房间（Unit 9 At home）」的学习以「购物与价格（Unit 8 At the shop）」为基础。"
+  },
+  {
+    "topicId": "cne_033",
+    "prerequisiteId": "cne_031",
+    "strength": "soft",
+    "reason": "「家务与房间（Unit 9 At home）」的学习以「学校场所（Unit 7 At school）」为基础。"
   },
   {
     "topicId": "cne_034",
-    "prerequisiteId": "cne_027",
+    "prerequisiteId": "cne_033",
     "strength": "hard",
-    "reason": "「被动语态（一般现在时与一般过去时）」的学习以「现在完成时（already/yet/since/for）」为基础。"
+    "reason": "「周边环境与 there be（Unit 10 Around my home）」的学习以「家务与房间（Unit 9 At home）」为基础。"
+  },
+  {
+    "topicId": "cne_034",
+    "prerequisiteId": "cne_028",
+    "strength": "soft",
+    "reason": "「周边环境与 there be（Unit 10 Around my home）」的学习以「家庭成员与 have（Unit 4 Do you have any cousins?）」为基础。"
   },
   {
     "topicId": "cne_035",
-    "prerequisiteId": "cne_004",
+    "prerequisiteId": "cne_034",
+    "strength": "hard",
+    "reason": "「形状（Unit 11 Shapes）」的学习以「周边环境与 there be（Unit 10 Around my home）」为基础。"
+  },
+  {
+    "topicId": "cne_035",
+    "prerequisiteId": "cne_033",
     "strength": "soft",
-    "reason": "「宾语从句（that / if / whether / 疑问词）」的学习以「一般过去时」为基础。"
+    "reason": "「形状（Unit 11 Shapes）」的学习以「家务与房间（Unit 9 At home）」为基础。"
   },
   {
     "topicId": "cne_036",
-    "prerequisiteId": "cne_031",
+    "prerequisiteId": "cne_035",
     "strength": "hard",
-    "reason": "「报刊文章与游记」的学习以「百科全书条目与故事复述」为基础。"
+    "reason": "「天气（Unit 12 Weather）」的学习以「形状（Unit 11 Shapes）」为基础。"
+  },
+  {
+    "topicId": "cne_036",
+    "prerequisiteId": "cne_029",
+    "strength": "soft",
+    "reason": "「天气（Unit 12 Weather）」的学习以「描述朋友的品质（Unit 5 My friends）」为基础。"
   },
   {
     "topicId": "cne_037",
-    "prerequisiteId": "cne_032",
+    "prerequisiteId": "cne_036",
     "strength": "hard",
-    "reason": "「语流中的节奏与意群」的学习以「失去爆破与辅音连缀」为基础。"
+    "reason": "「触觉与质地（Unit 1 Touch and feel）」的学习以「天气（Unit 12 Weather）」为基础。"
+  },
+  {
+    "topicId": "cne_037",
+    "prerequisiteId": "cne_035",
+    "strength": "soft",
+    "reason": "「触觉与质地（Unit 1 Touch and feel）」的学习以「形状（Unit 11 Shapes）」为基础。"
   },
   {
     "topicId": "cne_038",
-    "prerequisiteId": "cne_033",
+    "prerequisiteId": "cne_037",
     "strength": "hard",
-    "reason": "「主题词汇与短语（古希腊·传统技艺·电脑·侦探）」的学习以「主题词汇与短语（树·水·电·报刊）」为基础。"
+    "reason": "「气味与味道（Unit 2 Smell and taste）」的学习以「触觉与质地（Unit 1 Touch and feel）」为基础。"
   },
   {
     "topicId": "cne_039",
-    "prerequisiteId": "cne_035",
+    "prerequisiteId": "cne_038",
     "strength": "hard",
-    "reason": "「定语从句（who / which / that）」的学习以「宾语从句（that / if / whether / 疑问词）」为基础。"
+    "reason": "「视觉与观察（Unit 3 Look and see）」的学习以「气味与味道（Unit 2 Smell and taste）」为基础。"
   },
   {
     "topicId": "cne_040",
-    "prerequisiteId": "cne_035",
+    "prerequisiteId": "cne_039",
     "strength": "hard",
-    "reason": "「宾语从句的语序与时态呼应」的学习以「宾语从句（that / if / whether / 疑问词）」为基础。"
+    "reason": "「学科（Unit 4 Subjects）」的学习以「视觉与观察（Unit 3 Look and see）」为基础。"
   },
   {
     "topicId": "cne_041",
-    "prerequisiteId": "cne_021",
+    "prerequisiteId": "cne_040",
     "strength": "hard",
-    "reason": "「状语从句（时间·原因·结果·目的）」的学习以「if 条件状语从句与“主将从现”」为基础。"
+    "reason": "「体育运动（Unit 5 Sport）」的学习以「学科（Unit 4 Subjects）」为基础。"
   },
   {
     "topicId": "cne_042",
-    "prerequisiteId": "cne_030",
+    "prerequisiteId": "cne_041",
     "strength": "hard",
-    "reason": "「表达观点与作出推断」的学习以「打电话与描述突发事件」为基础。"
+    "reason": "「乐器与音乐（Unit 6 Music）」的学习以「体育运动（Unit 5 Sport）」为基础。"
   },
   {
     "topicId": "cne_043",
-    "prerequisiteId": "cne_036",
+    "prerequisiteId": "cne_042",
     "strength": "hard",
-    "reason": "「说明文阅读与故事续写」的学习以「报刊文章与游记」为基础。"
+    "reason": "「一天的作息（Unit 7 My day）」的学习以「乐器与音乐（Unit 6 Music）」为基础。"
+  },
+  {
+    "topicId": "cne_043",
+    "prerequisiteId": "cne_032",
+    "strength": "soft",
+    "reason": "「一天的作息（Unit 7 My day）」的学习以「购物与价格（Unit 8 At the shop）」为基础。"
   },
   {
     "topicId": "cne_044",
-    "prerequisiteId": "cne_038",
+    "prerequisiteId": "cne_043",
     "strength": "hard",
-    "reason": "「主题词汇与短语（环保·未来·影视）」的学习以「主题词汇与短语（古希腊·传统技艺·电脑·侦探）」为基础。"
+    "reason": "「星期（Unit 8 Days of the week）」的学习以「一天的作息（Unit 7 My day）」为基础。"
+  },
+  {
+    "topicId": "cne_044",
+    "prerequisiteId": "cne_042",
+    "strength": "soft",
+    "reason": "「星期（Unit 8 Days of the week）」的学习以「乐器与音乐（Unit 6 Music）」为基础。"
   },
   {
     "topicId": "cne_045",
-    "prerequisiteId": "cne_034",
+    "prerequisiteId": "cne_044",
     "strength": "hard",
-    "reason": "「被动语态拓展（含情态动词与完成时）」的学习以「被动语态（一般现在时与一般过去时）」为基础。"
+    "reason": "「国家与通信（Unit 9 A friend in Australia）」的学习以「星期（Unit 8 Days of the week）」为基础。"
+  },
+  {
+    "topicId": "cne_045",
+    "prerequisiteId": "cne_036",
+    "strength": "soft",
+    "reason": "「国家与通信（Unit 9 A friend in Australia）」的学习以「天气（Unit 12 Weather）」为基础。"
   },
   {
     "topicId": "cne_046",
-    "prerequisiteId": "cne_040",
+    "prerequisiteId": "cne_045",
     "strength": "hard",
-    "reason": "「间接引语与反意疑问句」的学习以「宾语从句的语序与时态呼应」为基础。"
+    "reason": "「花园与植物（Unit 10 My garden）」的学习以「国家与通信（Unit 9 A friend in Australia）」为基础。"
+  },
+  {
+    "topicId": "cne_046",
+    "prerequisiteId": "cne_044",
+    "strength": "soft",
+    "reason": "「花园与植物（Unit 10 My garden）」的学习以「星期（Unit 8 Days of the week）」为基础。"
+  },
+  {
+    "topicId": "cne_047",
+    "prerequisiteId": "cne_046",
+    "strength": "hard",
+    "reason": "「节日与活动（Unit 11 Children's Day）」的学习以「花园与植物（Unit 10 My garden）」为基础。"
   },
   {
     "topicId": "cne_047",
     "prerequisiteId": "cne_043",
-    "strength": "hard",
-    "reason": "「议论文阅读与影评写作」的学习以「说明文阅读与故事续写」为基础。"
+    "strength": "soft",
+    "reason": "「节日与活动（Unit 11 Children's Day）」的学习以「一天的作息（Unit 7 My day）」为基础。"
   },
   {
     "topicId": "cne_048",
     "prerequisiteId": "cne_047",
     "strength": "hard",
-    "reason": "「书面表达综合训练（书信·观点·图表）」的学习以「议论文阅读与影评写作」为基础。"
+    "reason": "「故事与道理（Unit 12 The ugly duckling）」的学习以「节日与活动（Unit 11 Children's Day）」为基础。"
+  },
+  {
+    "topicId": "cne_048",
+    "prerequisiteId": "cne_045",
+    "strength": "soft",
+    "reason": "「故事与道理（Unit 12 The ugly duckling）」的学习以「国家与通信（Unit 9 A friend in Australia）」为基础。"
+  },
+  {
+    "topicId": "cne_049",
+    "prerequisiteId": "cne_048",
+    "strength": "hard",
+    "reason": "「未来职业与理想（Unit 1 My future）」的学习以「故事与道理（Unit 12 The ugly duckling）」为基础。"
+  },
+  {
+    "topicId": "cne_049",
+    "prerequisiteId": "cne_047",
+    "strength": "soft",
+    "reason": "「未来职业与理想（Unit 1 My future）」的学习以「节日与活动（Unit 11 Children's Day）」为基础。"
+  },
+  {
+    "topicId": "cne_050",
+    "prerequisiteId": "cne_049",
+    "strength": "hard",
+    "reason": "「上学方式与交通（Unit 2 Going to school）」的学习以「未来职业与理想（Unit 1 My future）」为基础。"
+  },
+  {
+    "topicId": "cne_050",
+    "prerequisiteId": "cne_034",
+    "strength": "soft",
+    "reason": "「上学方式与交通（Unit 2 Going to school）」的学习以「周边环境与 there be（Unit 10 Around my home）」为基础。"
+  },
+  {
+    "topicId": "cne_051",
+    "prerequisiteId": "cne_050",
+    "strength": "hard",
+    "reason": "「生日与月份（Unit 3 My birthday）」的学习以「上学方式与交通（Unit 2 Going to school）」为基础。"
+  },
+  {
+    "topicId": "cne_051",
+    "prerequisiteId": "cne_049",
+    "strength": "soft",
+    "reason": "「生日与月份（Unit 3 My birthday）」的学习以「未来职业与理想（Unit 1 My future）」为基础。"
+  },
+  {
+    "topicId": "cne_052",
+    "prerequisiteId": "cne_051",
+    "strength": "hard",
+    "reason": "「看望祖辈（Unit 4 Grandparents）」的学习以「生日与月份（Unit 3 My birthday）」为基础。"
+  },
+  {
+    "topicId": "cne_053",
+    "prerequisiteId": "cne_052",
+    "strength": "hard",
+    "reason": "「朋友相处（Unit 5 Friends）」的学习以「看望祖辈（Unit 4 Grandparents）」为基础。"
+  },
+  {
+    "topicId": "cne_053",
+    "prerequisiteId": "cne_048",
+    "strength": "soft",
+    "reason": "「朋友相处（Unit 5 Friends）」的学习以「故事与道理（Unit 12 The ugly duckling）」为基础。"
+  },
+  {
+    "topicId": "cne_054",
+    "prerequisiteId": "cne_053",
+    "strength": "hard",
+    "reason": "「家庭生活与现在进行时（Unit 6 Family life）」的学习以「朋友相处（Unit 5 Friends）」为基础。"
+  },
+  {
+    "topicId": "cne_054",
+    "prerequisiteId": "cne_050",
+    "strength": "soft",
+    "reason": "「家庭生活与现在进行时（Unit 6 Family life）」的学习以「上学方式与交通（Unit 2 Going to school）」为基础。"
+  },
+  {
+    "topicId": "cne_055",
+    "prerequisiteId": "cne_054",
+    "strength": "hard",
+    "reason": "「海滩活动（Unit 7 At the beach）」的学习以「家庭生活与现在进行时（Unit 6 Family life）」为基础。"
+  },
+  {
+    "topicId": "cne_055",
+    "prerequisiteId": "cne_046",
+    "strength": "soft",
+    "reason": "「海滩活动（Unit 7 At the beach）」的学习以「花园与植物（Unit 10 My garden）」为基础。"
+  },
+  {
+    "topicId": "cne_056",
+    "prerequisiteId": "cne_055",
+    "strength": "hard",
+    "reason": "「郊游与野餐（Unit 8 An outing）」的学习以「海滩活动（Unit 7 At the beach）」为基础。"
+  },
+  {
+    "topicId": "cne_056",
+    "prerequisiteId": "cne_052",
+    "strength": "soft",
+    "reason": "「郊游与野餐（Unit 8 An outing）」的学习以「看望祖辈（Unit 4 Grandparents）」为基础。"
+  },
+  {
+    "topicId": "cne_057",
+    "prerequisiteId": "cne_056",
+    "strength": "hard",
+    "reason": "「城市场所与问路（Unit 9 Around the city）」的学习以「郊游与野餐（Unit 8 An outing）」为基础。"
+  },
+  {
+    "topicId": "cne_057",
+    "prerequisiteId": "cne_054",
+    "strength": "soft",
+    "reason": "「城市场所与问路（Unit 9 Around the city）」的学习以「家庭生活与现在进行时（Unit 6 Family life）」为基础。"
+  },
+  {
+    "topicId": "cne_058",
+    "prerequisiteId": "cne_057",
+    "strength": "hard",
+    "reason": "「风与自然现象（Unit 10 Wind）」的学习以「城市场所与问路（Unit 9 Around the city）」为基础。"
+  },
+  {
+    "topicId": "cne_058",
+    "prerequisiteId": "cne_053",
+    "strength": "soft",
+    "reason": "「风与自然现象（Unit 10 Wind）」的学习以「朋友相处（Unit 5 Friends）」为基础。"
+  },
+  {
+    "topicId": "cne_059",
+    "prerequisiteId": "cne_058",
+    "strength": "hard",
+    "reason": "「水与用途（Unit 11 Water）」的学习以「风与自然现象（Unit 10 Wind）」为基础。"
+  },
+  {
+    "topicId": "cne_060",
+    "prerequisiteId": "cne_059",
+    "strength": "hard",
+    "reason": "「火与安全（Unit 12 Fire）」的学习以「水与用途（Unit 11 Water）」为基础。"
+  },
+  {
+    "topicId": "cne_061",
+    "prerequisiteId": "cne_060",
+    "strength": "hard",
+    "reason": "「整理与物主代词（Unit 1 Tidy up!）」的学习以「火与安全（Unit 12 Fire）」为基础。"
+  },
+  {
+    "topicId": "cne_061",
+    "prerequisiteId": "cne_057",
+    "strength": "soft",
+    "reason": "「整理与物主代词（Unit 1 Tidy up!）」的学习以「城市场所与问路（Unit 9 Around the city）」为基础。"
+  },
+  {
+    "topicId": "cne_062",
+    "prerequisiteId": "cne_061",
+    "strength": "hard",
+    "reason": "「新家与房间（Unit 2 Our new home）」的学习以「整理与物主代词（Unit 1 Tidy up!）」为基础。"
+  },
+  {
+    "topicId": "cne_063",
+    "prerequisiteId": "cne_062",
+    "strength": "hard",
+    "reason": "「未来生活（Unit 3 In the future）」的学习以「新家与房间（Unit 2 Our new home）」为基础。"
+  },
+  {
+    "topicId": "cne_063",
+    "prerequisiteId": "cne_060",
+    "strength": "soft",
+    "reason": "「未来生活（Unit 3 In the future）」的学习以「火与安全（Unit 12 Fire）」为基础。"
+  },
+  {
+    "topicId": "cne_064",
+    "prerequisiteId": "cne_063",
+    "strength": "hard",
+    "reason": "「阅读与书籍（Unit 4 Reading is fun）」的学习以「未来生活（Unit 3 In the future）」为基础。"
+  },
+  {
+    "topicId": "cne_065",
+    "prerequisiteId": "cne_064",
+    "strength": "hard",
+    "reason": "「周末活动（Unit 5 At the weekend）」的学习以「阅读与书籍（Unit 4 Reading is fun）」为基础。"
+  },
+  {
+    "topicId": "cne_065",
+    "prerequisiteId": "cne_056",
+    "strength": "soft",
+    "reason": "「周末活动（Unit 5 At the weekend）」的学习以「郊游与野餐（Unit 8 An outing）」为基础。"
+  },
+  {
+    "topicId": "cne_066",
+    "prerequisiteId": "cne_065",
+    "strength": "hard",
+    "reason": "「假期与计划（Unit 6 Holidays）」的学习以「周末活动（Unit 5 At the weekend）」为基础。"
+  },
+  {
+    "topicId": "cne_067",
+    "prerequisiteId": "cne_066",
+    "strength": "hard",
+    "reason": "「学校开放日（Unit 7 Open Day）」的学习以「假期与计划（Unit 6 Holidays）」为基础。"
+  },
+  {
+    "topicId": "cne_068",
+    "prerequisiteId": "cne_067",
+    "strength": "hard",
+    "reason": "「买衣服与价格（Unit 8 Buying clothes）」的学习以「学校开放日（Unit 7 Open Day）」为基础。"
+  },
+  {
+    "topicId": "cne_068",
+    "prerequisiteId": "cne_062",
+    "strength": "soft",
+    "reason": "「买衣服与价格（Unit 8 Buying clothes）」的学习以「新家与房间（Unit 2 Our new home）」为基础。"
+  },
+  {
+    "topicId": "cne_069",
+    "prerequisiteId": "cne_068",
+    "strength": "hard",
+    "reason": "「看病与身体不适（Unit 9 Seeing the Doctor）」的学习以「买衣服与价格（Unit 8 Buying clothes）」为基础。"
+  },
+  {
+    "topicId": "cne_069",
+    "prerequisiteId": "cne_067",
+    "strength": "soft",
+    "reason": "「看病与身体不适（Unit 9 Seeing the Doctor）」的学习以「学校开放日（Unit 7 Open Day）」为基础。"
+  },
+  {
+    "topicId": "cne_070",
+    "prerequisiteId": "cne_069",
+    "strength": "hard",
+    "reason": "「伟大发明（Unit 10 Great inventions）」的学习以「看病与身体不适（Unit 9 Seeing the Doctor）」为基础。"
+  },
+  {
+    "topicId": "cne_070",
+    "prerequisiteId": "cne_064",
+    "strength": "soft",
+    "reason": "「伟大发明（Unit 10 Great inventions）」的学习以「阅读与书籍（Unit 4 Reading is fun）」为基础。"
+  },
+  {
+    "topicId": "cne_071",
+    "prerequisiteId": "cne_070",
+    "strength": "hard",
+    "reason": "「中国传统节日（Unit 11 Chinese festivals）」的学习以「伟大发明（Unit 10 Great inventions）」为基础。"
+  },
+  {
+    "topicId": "cne_072",
+    "prerequisiteId": "cne_071",
+    "strength": "hard",
+    "reason": "「故事与寓意（Unit 12 The giant's garden）」的学习以「中国传统节日（Unit 11 Chinese festivals）」为基础。"
+  },
+  {
+    "topicId": "cne_073",
+    "prerequisiteId": "cne_072",
+    "strength": "hard",
+    "reason": "「成长与变化（Unit 1 Growing up）」的学习以「故事与寓意（Unit 12 The giant's garden）」为基础。"
+  },
+  {
+    "topicId": "cne_073",
+    "prerequisiteId": "cne_068",
+    "strength": "soft",
+    "reason": "「成长与变化（Unit 1 Growing up）」的学习以「买衣服与价格（Unit 8 Buying clothes）」为基础。"
+  },
+  {
+    "topicId": "cne_074",
+    "prerequisiteId": "cne_073",
+    "strength": "hard",
+    "reason": "「假期经历与一般过去时（Unit 2 My summer holiday）」的学习以「成长与变化（Unit 1 Growing up）」为基础。"
+  },
+  {
+    "topicId": "cne_075",
+    "prerequisiteId": "cne_074",
+    "strength": "hard",
+    "reason": "「健康习惯（Unit 3 Healthy or unhealthy?）」的学习以「假期经历与一般过去时（Unit 2 My summer holiday）」为基础。"
+  },
+  {
+    "topicId": "cne_076",
+    "prerequisiteId": "cne_075",
+    "strength": "hard",
+    "reason": "「邻居与社区（Unit 4 Our neighbours）」的学习以「健康习惯（Unit 3 Healthy or unhealthy?）」为基础。"
+  },
+  {
+    "topicId": "cne_076",
+    "prerequisiteId": "cne_069",
+    "strength": "soft",
+    "reason": "「邻居与社区（Unit 4 Our neighbours）」的学习以「看病与身体不适（Unit 9 Seeing the Doctor）」为基础。"
+  },
+  {
+    "topicId": "cne_077",
+    "prerequisiteId": "cne_076",
+    "strength": "hard",
+    "reason": "「濒危动物（Unit 5 Animals in danger）」的学习以「邻居与社区（Unit 4 Our neighbours）」为基础。"
+  },
+  {
+    "topicId": "cne_077",
+    "prerequisiteId": "cne_072",
+    "strength": "soft",
+    "reason": "「濒危动物（Unit 5 Animals in danger）」的学习以「故事与寓意（Unit 12 The giant's garden）」为基础。"
+  },
+  {
+    "topicId": "cne_078",
+    "prerequisiteId": "cne_077",
+    "strength": "hard",
+    "reason": "「网友与网络交流（Unit 6 E-friends）」的学习以「濒危动物（Unit 5 Animals in danger）」为基础。"
+  },
+  {
+    "topicId": "cne_079",
+    "prerequisiteId": "cne_078",
+    "strength": "hard",
+    "reason": "「电影（Unit 7 Seeing a film）」的学习以「网友与网络交流（Unit 6 E-friends）」为基础。"
+  },
+  {
+    "topicId": "cne_079",
+    "prerequisiteId": "cne_076",
+    "strength": "soft",
+    "reason": "「电影（Unit 7 Seeing a film）」的学习以「邻居与社区（Unit 4 Our neighbours）」为基础。"
+  },
+  {
+    "topicId": "cne_080",
+    "prerequisiteId": "cne_079",
+    "strength": "hard",
+    "reason": "「参观博物馆（Unit 8 Visiting museums）」的学习以「电影（Unit 7 Seeing a film）」为基础。"
+  },
+  {
+    "topicId": "cne_080",
+    "prerequisiteId": "cne_078",
+    "strength": "soft",
+    "reason": "「参观博物馆（Unit 8 Visiting museums）」的学习以「网友与网络交流（Unit 6 E-friends）」为基础。"
+  },
+  {
+    "topicId": "cne_081",
+    "prerequisiteId": "cne_080",
+    "strength": "hard",
+    "reason": "「世界名城（Unit 9 Great cities of the world）」的学习以「参观博物馆（Unit 8 Visiting museums）」为基础。"
+  },
+  {
+    "topicId": "cne_082",
+    "prerequisiteId": "cne_081",
+    "strength": "hard",
+    "reason": "「空气与污染（Unit 10 Air）」的学习以「世界名城（Unit 9 Great cities of the world）」为基础。"
+  },
+  {
+    "topicId": "cne_083",
+    "prerequisiteId": "cne_082",
+    "strength": "hard",
+    "reason": "「树与作用（Unit 11 Trees）」的学习以「空气与污染（Unit 10 Air）」为基础。"
+  },
+  {
+    "topicId": "cne_084",
+    "prerequisiteId": "cne_083",
+    "strength": "hard",
+    "reason": "「地球与环保（Unit 12 The Earth）」的学习以「树与作用（Unit 11 Trees）」为基础。"
+  },
+  {
+    "topicId": "cne_085",
+    "prerequisiteId": "cne_084",
+    "strength": "hard",
+    "reason": "「人际关系与共同点（Unit 1 You and me）」的学习以「地球与环保（Unit 12 The Earth）」为基础。"
+  },
+  {
+    "topicId": "cne_085",
+    "prerequisiteId": "cne_079",
+    "strength": "soft",
+    "reason": "「人际关系与共同点（Unit 1 You and me）」的学习以「电影（Unit 7 Seeing a film）」为基础。"
+  },
+  {
+    "topicId": "cne_086",
+    "prerequisiteId": "cne_085",
+    "strength": "hard",
+    "reason": "「生活的变化（Unit 2 Changes in our lives）」的学习以「人际关系与共同点（Unit 1 You and me）」为基础。"
+  },
+  {
+    "topicId": "cne_086",
+    "prerequisiteId": "cne_075",
+    "strength": "soft",
+    "reason": "「生活的变化（Unit 2 Changes in our lives）」的学习以「健康习惯（Unit 3 Healthy or unhealthy?）」为基础。"
+  },
+  {
+    "topicId": "cne_087",
+    "prerequisiteId": "cne_086",
+    "strength": "hard",
+    "reason": "「未来学校（Unit 3 Our school in the future）」的学习以「生活的变化（Unit 2 Changes in our lives）」为基础。"
+  },
+  {
+    "topicId": "cne_087",
+    "prerequisiteId": "cne_084",
+    "strength": "soft",
+    "reason": "「未来学校（Unit 3 Our school in the future）」的学习以「地球与环保（Unit 12 The Earth）」为基础。"
+  },
+  {
+    "topicId": "cne_088",
+    "prerequisiteId": "cne_087",
+    "strength": "hard",
+    "reason": "「艺术与绘画（Unit 4 Art）」的学习以「未来学校（Unit 3 Our school in the future）」为基础。"
+  },
+  {
+    "topicId": "cne_088",
+    "prerequisiteId": "cne_055",
+    "strength": "soft",
+    "reason": "「艺术与绘画（Unit 4 Art）」的学习以「海滩活动（Unit 7 At the beach）」为基础。"
+  },
+  {
+    "topicId": "cne_089",
+    "prerequisiteId": "cne_088",
+    "strength": "hard",
+    "reason": "「手工制作（Unit 5 Crafts）」的学习以「艺术与绘画（Unit 4 Art）」为基础。"
+  },
+  {
+    "topicId": "cne_090",
+    "prerequisiteId": "cne_089",
+    "strength": "hard",
+    "reason": "「体育课（Unit 6 PE lessons）」的学习以「手工制作（Unit 5 Crafts）」为基础。"
+  },
+  {
+    "topicId": "cne_090",
+    "prerequisiteId": "cne_085",
+    "strength": "soft",
+    "reason": "「体育课（Unit 6 PE lessons）」的学习以「人际关系与共同点（Unit 1 You and me）」为基础。"
+  },
+  {
+    "topicId": "cne_091",
+    "prerequisiteId": "cne_090",
+    "strength": "hard",
+    "reason": "「帮助他人（Unit 7 Helping others）」的学习以「体育课（Unit 6 PE lessons）」为基础。"
+  },
+  {
+    "topicId": "cne_092",
+    "prerequisiteId": "cne_091",
+    "strength": "hard",
+    "reason": "「标志与规则（Unit 8 Reading signs）」的学习以「帮助他人（Unit 7 Helping others）」为基础。"
+  },
+  {
+    "topicId": "cne_092",
+    "prerequisiteId": "cne_087",
+    "strength": "soft",
+    "reason": "「标志与规则（Unit 8 Reading signs）」的学习以「未来学校（Unit 3 Our school in the future）」为基础。"
+  },
+  {
+    "topicId": "cne_093",
+    "prerequisiteId": "cne_092",
+    "strength": "hard",
+    "reason": "「废物利用（Unit 9 Reusing things）」的学习以「标志与规则（Unit 8 Reading signs）」为基础。"
+  },
+  {
+    "topicId": "cne_094",
+    "prerequisiteId": "cne_093",
+    "strength": "hard",
+    "reason": "「故事书与阅读（Unit 10 Great storybooks）」的学习以「废物利用（Unit 9 Reusing things）」为基础。"
+  },
+  {
+    "topicId": "cne_095",
+    "prerequisiteId": "cne_094",
+    "strength": "hard",
+    "reason": "「西方节日（Unit 11 Western festivals）」的学习以「故事书与阅读（Unit 10 Great storybooks）」为基础。"
+  },
+  {
+    "topicId": "cne_096",
+    "prerequisiteId": "cne_095",
+    "strength": "hard",
+    "reason": "「故事与寓意（Unit 12 The five peas）」的学习以「西方节日（Unit 11 Western festivals）」为基础。"
+  },
+  {
+    "topicId": "cne_097",
+    "prerequisiteId": "cne_096",
+    "strength": "hard",
+    "reason": "「交友与自我介绍（Unit 1 Making friends）」的学习以「故事与寓意（Unit 12 The five peas）」为基础。"
+  },
+  {
+    "topicId": "cne_097",
+    "prerequisiteId": "cne_091",
+    "strength": "soft",
+    "reason": "「交友与自我介绍（Unit 1 Making friends）」的学习以「帮助他人（Unit 7 Helping others）」为基础。"
+  },
+  {
+    "topicId": "cne_098",
+    "prerequisiteId": "cne_097",
+    "strength": "hard",
+    "reason": "「日常生活与一般现在时（Unit 2 Daily life）」的学习以「交友与自我介绍（Unit 1 Making friends）」为基础。"
+  },
+  {
+    "topicId": "cne_098",
+    "prerequisiteId": "cne_086",
+    "strength": "soft",
+    "reason": "「日常生活与一般现在时（Unit 2 Daily life）」的学习以「生活的变化（Unit 2 Changes in our lives）」为基础。"
+  },
+  {
+    "topicId": "cne_099",
+    "prerequisiteId": "cne_098",
+    "strength": "hard",
+    "reason": "「地球与环境（Unit 3 The earth）」的学习以「日常生活与一般现在时（Unit 2 Daily life）」为基础。"
+  },
+  {
+    "topicId": "cne_099",
+    "prerequisiteId": "cne_089",
+    "strength": "soft",
+    "reason": "「地球与环境（Unit 3 The earth）」的学习以「手工制作（Unit 5 Crafts）」为基础。"
+  },
+  {
+    "topicId": "cne_100",
+    "prerequisiteId": "cne_099",
+    "strength": "hard",
+    "reason": "「季节与天气（Unit 4 Seasons）」的学习以「地球与环境（Unit 3 The earth）」为基础。"
+  },
+  {
+    "topicId": "cne_100",
+    "prerequisiteId": "cne_098",
+    "strength": "soft",
+    "reason": "「季节与天气（Unit 4 Seasons）」的学习以「日常生活与一般现在时（Unit 2 Daily life）」为基础。"
+  },
+  {
+    "topicId": "cne_101",
+    "prerequisiteId": "cne_100",
+    "strength": "hard",
+    "reason": "「太空旅行（Unit 5 Visiting the moon）」的学习以「季节与天气（Unit 4 Seasons）」为基础。"
+  },
+  {
+    "topicId": "cne_101",
+    "prerequisiteId": "cne_096",
+    "strength": "soft",
+    "reason": "「太空旅行（Unit 5 Visiting the moon）」的学习以「故事与寓意（Unit 12 The five peas）」为基础。"
+  },
+  {
+    "topicId": "cne_102",
+    "prerequisiteId": "cne_101",
+    "strength": "hard",
+    "reason": "「亚洲旅行（Unit 6 Travelling around Asia）」的学习以「太空旅行（Unit 5 Visiting the moon）」为基础。"
+  },
+  {
+    "topicId": "cne_102",
+    "prerequisiteId": "cne_099",
+    "strength": "soft",
+    "reason": "「亚洲旅行（Unit 6 Travelling around Asia）」的学习以「地球与环境（Unit 3 The earth）」为基础。"
+  },
+  {
+    "topicId": "cne_103",
+    "prerequisiteId": "cne_102",
+    "strength": "hard",
+    "reason": "「学校社团（Unit 7 School clubs）」的学习以「亚洲旅行（Unit 6 Travelling around Asia）」为基础。"
+  },
+  {
+    "topicId": "cne_103",
+    "prerequisiteId": "cne_097",
+    "strength": "soft",
+    "reason": "「学校社团（Unit 7 School clubs）」的学习以「交友与自我介绍（Unit 1 Making friends）」为基础。"
+  },
+  {
+    "topicId": "cne_104",
+    "prerequisiteId": "cne_103",
+    "strength": "hard",
+    "reason": "「收藏与爱好（Unit 8 Collecting things）」的学习以「学校社团（Unit 7 School clubs）」为基础。"
+  },
+  {
+    "topicId": "cne_104",
+    "prerequisiteId": "cne_102",
+    "strength": "soft",
+    "reason": "「收藏与爱好（Unit 8 Collecting things）」的学习以「亚洲旅行（Unit 6 Travelling around Asia）」为基础。"
+  },
+  {
+    "topicId": "cne_105",
+    "prerequisiteId": "cne_104",
+    "strength": "hard",
+    "reason": "「身边的人（Unit 1 People around us）」的学习以「收藏与爱好（Unit 8 Collecting things）」为基础。"
+  },
+  {
+    "topicId": "cne_105",
+    "prerequisiteId": "cne_101",
+    "strength": "soft",
+    "reason": "「身边的人（Unit 1 People around us）」的学习以「太空旅行（Unit 5 Visiting the moon）」为基础。"
+  },
+  {
+    "topicId": "cne_106",
+    "prerequisiteId": "cne_105",
+    "strength": "hard",
+    "reason": "「世界旅行（Unit 2 Travelling around the world）」的学习以「身边的人（Unit 1 People around us）」为基础。"
+  },
+  {
+    "topicId": "cne_106",
+    "prerequisiteId": "cne_104",
+    "strength": "soft",
+    "reason": "「世界旅行（Unit 2 Travelling around the world）」的学习以「收藏与爱好（Unit 8 Collecting things）」为基础。"
+  },
+  {
+    "topicId": "cne_107",
+    "prerequisiteId": "cne_106",
+    "strength": "hard",
+    "reason": "「动物与宠物（Unit 3 Our animal friends）」的学习以「世界旅行（Unit 2 Travelling around the world）」为基础。"
+  },
+  {
+    "topicId": "cne_108",
+    "prerequisiteId": "cne_107",
+    "strength": "hard",
+    "reason": "「树木与环保（Unit 4 Save the trees）」的学习以「动物与宠物（Unit 3 Our animal friends）」为基础。"
+  },
+  {
+    "topicId": "cne_108",
+    "prerequisiteId": "cne_105",
+    "strength": "soft",
+    "reason": "「树木与环保（Unit 4 Save the trees）」的学习以「身边的人（Unit 1 People around us）」为基础。"
+  },
+  {
+    "topicId": "cne_109",
+    "prerequisiteId": "cne_108",
+    "strength": "hard",
+    "reason": "「水资源（Unit 5 Water）」的学习以「树木与环保（Unit 4 Save the trees）」为基础。"
+  },
+  {
+    "topicId": "cne_109",
+    "prerequisiteId": "cne_107",
+    "strength": "soft",
+    "reason": "「水资源（Unit 5 Water）」的学习以「动物与宠物（Unit 3 Our animal friends）」为基础。"
+  },
+  {
+    "topicId": "cne_110",
+    "prerequisiteId": "cne_109",
+    "strength": "hard",
+    "reason": "「电与用电安全（Unit 6 Electricity）」的学习以「水资源（Unit 5 Water）」为基础。"
+  },
+  {
+    "topicId": "cne_111",
+    "prerequisiteId": "cne_110",
+    "strength": "hard",
+    "reason": "「诗歌（Unit 7 Poems）」的学习以「电与用电安全（Unit 6 Electricity）」为基础。"
+  },
+  {
+    "topicId": "cne_111",
+    "prerequisiteId": "cne_108",
+    "strength": "soft",
+    "reason": "「诗歌（Unit 7 Poems）」的学习以「树木与环保（Unit 4 Save the trees）」为基础。"
+  },
+  {
+    "topicId": "cne_112",
+    "prerequisiteId": "cne_111",
+    "strength": "hard",
+    "reason": "「从爱好到职业（Unit 8 From hobby to career）」的学习以「诗歌（Unit 7 Poems）」为基础。"
+  },
+  {
+    "topicId": "cne_113",
+    "prerequisiteId": "cne_112",
+    "strength": "hard",
+    "reason": "「百科全书与查阅（Unit 1 Encyclopaedias）」的学习以「从爱好到职业（Unit 8 From hobby to career）」为基础。"
+  },
+  {
+    "topicId": "cne_113",
+    "prerequisiteId": "cne_110",
+    "strength": "soft",
+    "reason": "「百科全书与查阅（Unit 1 Encyclopaedias）」的学习以「电与用电安全（Unit 6 Electricity）」为基础。"
+  },
+  {
+    "topicId": "cne_114",
+    "prerequisiteId": "cne_113",
+    "strength": "hard",
+    "reason": "「数字与计算（Unit 2 Numbers）」的学习以「百科全书与查阅（Unit 1 Encyclopaedias）」为基础。"
+  },
+  {
+    "topicId": "cne_115",
+    "prerequisiteId": "cne_114",
+    "strength": "hard",
+    "reason": "「电脑与网络（Unit 3 Computers）」的学习以「数字与计算（Unit 2 Numbers）」为基础。"
+  },
+  {
+    "topicId": "cne_116",
+    "prerequisiteId": "cne_115",
+    "strength": "hard",
+    "reason": "「发明与创造（Unit 4 Inventions）」的学习以「电脑与网络（Unit 3 Computers）」为基础。"
+  },
+  {
+    "topicId": "cne_116",
+    "prerequisiteId": "cne_112",
+    "strength": "soft",
+    "reason": "「发明与创造（Unit 4 Inventions）」的学习以「从爱好到职业（Unit 8 From hobby to career）」为基础。"
+  },
+  {
+    "topicId": "cne_117",
+    "prerequisiteId": "cne_116",
+    "strength": "hard",
+    "reason": "「教育交流（Unit 5 Educational exchanges）」的学习以「发明与创造（Unit 4 Inventions）」为基础。"
+  },
+  {
+    "topicId": "cne_118",
+    "prerequisiteId": "cne_117",
+    "strength": "hard",
+    "reason": "「古代故事（Unit 6 Ancient stories）」的学习以「教育交流（Unit 5 Educational exchanges）」为基础。"
+  },
+  {
+    "topicId": "cne_119",
+    "prerequisiteId": "cne_118",
+    "strength": "hard",
+    "reason": "「记忆与记忆方法（Unit 7 Memory）」的学习以「古代故事（Unit 6 Ancient stories）」为基础。"
+  },
+  {
+    "topicId": "cne_120",
+    "prerequisiteId": "cne_119",
+    "strength": "hard",
+    "reason": "「英语周与活动（Unit 8 English week）」的学习以「记忆与记忆方法（Unit 7 Memory）」为基础。"
+  },
+  {
+    "topicId": "cne_120",
+    "prerequisiteId": "cne_103",
+    "strength": "soft",
+    "reason": "「英语周与活动（Unit 8 English week）」的学习以「学校社团（Unit 7 School clubs）」为基础。"
+  },
+  {
+    "topicId": "cne_121",
+    "prerequisiteId": "cne_120",
+    "strength": "hard",
+    "reason": "「帮助有需要的人（Unit 1 Helping those in need）」的学习以「英语周与活动（Unit 8 English week）」为基础。"
+  },
+  {
+    "topicId": "cne_122",
+    "prerequisiteId": "cne_121",
+    "strength": "hard",
+    "reason": "「肢体语言（Unit 2 Body Language）」的学习以「帮助有需要的人（Unit 1 Helping those in need）」为基础。"
+  },
+  {
+    "topicId": "cne_123",
+    "prerequisiteId": "cne_122",
+    "strength": "hard",
+    "reason": "「传统技艺（Unit 3 Traditional skills）」的学习以「肢体语言（Unit 2 Body Language）」为基础。"
+  },
+  {
+    "topicId": "cne_123",
+    "prerequisiteId": "cne_119",
+    "strength": "soft",
+    "reason": "「传统技艺（Unit 3 Traditional skills）」的学习以「记忆与记忆方法（Unit 7 Memory）」为基础。"
+  },
+  {
+    "topicId": "cne_124",
+    "prerequisiteId": "cne_123",
+    "strength": "hard",
+    "reason": "「卡通与连环画（Unit 4 Cartoons and comic strips）」的学习以「传统技艺（Unit 3 Traditional skills）」为基础。"
+  },
+  {
+    "topicId": "cne_125",
+    "prerequisiteId": "cne_124",
+    "strength": "hard",
+    "reason": "「濒危动物保护（Unit 5 Save the endangered animals）」的学习以「卡通与连环画（Unit 4 Cartoons and comic strips）」为基础。"
+  },
+  {
+    "topicId": "cne_126",
+    "prerequisiteId": "cne_125",
+    "strength": "hard",
+    "reason": "「宠物与责任（Unit 6 Pets）」的学习以「濒危动物保护（Unit 5 Save the endangered animals）」为基础。"
+  },
+  {
+    "topicId": "cne_126",
+    "prerequisiteId": "cne_115",
+    "strength": "soft",
+    "reason": "「宠物与责任（Unit 6 Pets）」的学习以「电脑与网络（Unit 3 Computers）」为基础。"
+  },
+  {
+    "topicId": "cne_127",
+    "prerequisiteId": "cne_126",
+    "strength": "hard",
+    "reason": "「未知世界（Unit 7 The unknown world）」的学习以「宠物与责任（Unit 6 Pets）」为基础。"
+  },
+  {
+    "topicId": "cne_128",
+    "prerequisiteId": "cne_127",
+    "strength": "hard",
+    "reason": "「历史上的智者（Unit 1 Wise men in history）」的学习以「未知世界（Unit 7 The unknown world）」为基础。"
+  },
+  {
+    "topicId": "cne_129",
+    "prerequisiteId": "cne_128",
+    "strength": "hard",
+    "reason": "「伟大头脑与科学发现（Unit 2 Great minds）」的学习以「历史上的智者（Unit 1 Wise men in history）」为基础。"
+  },
+  {
+    "topicId": "cne_129",
+    "prerequisiteId": "cne_125",
+    "strength": "soft",
+    "reason": "「伟大头脑与科学发现（Unit 2 Great minds）」的学习以「濒危动物保护（Unit 5 Save the endangered animals）」为基础。"
+  },
+  {
+    "topicId": "cne_130",
+    "prerequisiteId": "cne_129",
+    "strength": "hard",
+    "reason": "「家庭生活与代际（Unit 3 Family life）」的学习以「伟大头脑与科学发现（Unit 2 Great minds）」为基础。"
+  },
+  {
+    "topicId": "cne_130",
+    "prerequisiteId": "cne_122",
+    "strength": "soft",
+    "reason": "「家庭生活与代际（Unit 3 Family life）」的学习以「肢体语言（Unit 2 Body Language）」为基础。"
+  },
+  {
+    "topicId": "cne_131",
+    "prerequisiteId": "cne_130",
+    "strength": "hard",
+    "reason": "「问题与建议（Unit 4 Problems and advice）」的学习以「家庭生活与代际（Unit 3 Family life）」为基础。"
+  },
+  {
+    "topicId": "cne_131",
+    "prerequisiteId": "cne_100",
+    "strength": "soft",
+    "reason": "「问题与建议（Unit 4 Problems and advice）」的学习以「季节与天气（Unit 4 Seasons）」为基础。"
+  },
+  {
+    "topicId": "cne_132",
+    "prerequisiteId": "cne_131",
+    "strength": "hard",
+    "reason": "「行动与志愿活动（Unit 5 Action!）」的学习以「问题与建议（Unit 4 Problems and advice）」为基础。"
+  },
+  {
+    "topicId": "cne_132",
+    "prerequisiteId": "cne_130",
+    "strength": "soft",
+    "reason": "「行动与志愿活动（Unit 5 Action!）」的学习以「家庭生活与代际（Unit 3 Family life）」为基础。"
+  },
+  {
+    "topicId": "cne_133",
+    "prerequisiteId": "cne_132",
+    "strength": "hard",
+    "reason": "「健康饮食（Unit 6 Healthy diet）」的学习以「行动与志愿活动（Unit 5 Action!）」为基础。"
+  },
+  {
+    "topicId": "cne_133",
+    "prerequisiteId": "cne_128",
+    "strength": "soft",
+    "reason": "「健康饮食（Unit 6 Healthy diet）」的学习以「历史上的智者（Unit 1 Wise men in history）」为基础。"
+  },
+  {
+    "topicId": "cne_134",
+    "prerequisiteId": "cne_133",
+    "strength": "hard",
+    "reason": "「小说阅读（Unit 7 The Adventures of Tom Sawyer）」的学习以「健康饮食（Unit 6 Healthy diet）」为基础。"
+  },
+  {
+    "topicId": "cne_135",
+    "prerequisiteId": "cne_134",
+    "strength": "hard",
+    "reason": "「伟大探索与航行（Unit 1 Great explorations）」的学习以「小说阅读（Unit 7 The Adventures of Tom Sawyer）」为基础。"
+  },
+  {
+    "topicId": "cne_135",
+    "prerequisiteId": "cne_129",
+    "strength": "soft",
+    "reason": "「伟大探索与航行（Unit 1 Great explorations）」的学习以「伟大头脑与科学发现（Unit 2 Great minds）」为基础。"
+  },
+  {
+    "topicId": "cne_136",
+    "prerequisiteId": "cne_135",
+    "strength": "hard",
+    "reason": "「文化冲击（Unit 2 Culture shock）」的学习以「伟大探索与航行（Unit 1 Great explorations）」为基础。"
+  },
+  {
+    "topicId": "cne_137",
+    "prerequisiteId": "cne_136",
+    "strength": "hard",
+    "reason": "「环境问题与保护（Unit 3 The environment）」的学习以「文化冲击（Unit 2 Culture shock）」为基础。"
+  },
+  {
+    "topicId": "cne_138",
+    "prerequisiteId": "cne_137",
+    "strength": "hard",
+    "reason": "「自然灾害（Unit 4 Natural disasters）」的学习以「环境问题与保护（Unit 3 The environment）」为基础。"
+  },
+  {
+    "topicId": "cne_139",
+    "prerequisiteId": "cne_138",
+    "strength": "hard",
+    "reason": "「体育与竞技（Unit 5 Sport）」的学习以「自然灾害（Unit 4 Natural disasters）」为基础。"
+  },
+  {
+    "topicId": "cne_139",
+    "prerequisiteId": "cne_132",
+    "strength": "soft",
+    "reason": "「体育与竞技（Unit 5 Sport）」的学习以「行动与志愿活动（Unit 5 Action!）」为基础。"
+  },
+  {
+    "topicId": "cne_140",
+    "prerequisiteId": "cne_139",
+    "strength": "hard",
+    "reason": "「健康与压力管理（Unit 6 Caring for your health）」的学习以「体育与竞技（Unit 5 Sport）」为基础。"
+  },
+  {
+    "topicId": "cne_140",
+    "prerequisiteId": "cne_134",
+    "strength": "soft",
+    "reason": "「健康与压力管理（Unit 6 Caring for your health）」的学习以「小说阅读（Unit 7 The Adventures of Tom Sawyer）」为基础。"
+  },
+  {
+    "topicId": "cne_141",
+    "prerequisiteId": "cne_140",
+    "strength": "hard",
+    "reason": "「认识世界与高中英语起步（Unit 1 Our world）」的学习以「健康与压力管理（Unit 6 Caring for your health）」为基础。"
+  },
+  {
+    "topicId": "cne_142",
+    "prerequisiteId": "cne_141",
+    "strength": "hard",
+    "reason": "「地点描写与定语从句（Unit 2 Places）」的学习以「认识世界与高中英语起步（Unit 1 Our world）」为基础。"
+  },
+  {
+    "topicId": "cne_142",
+    "prerequisiteId": "cne_131",
+    "strength": "soft",
+    "reason": "「地点描写与定语从句（Unit 2 Places）」的学习以「问题与建议（Unit 4 Problems and advice）」为基础。"
+  },
+  {
+    "topicId": "cne_143",
+    "prerequisiteId": "cne_142",
+    "strength": "hard",
+    "reason": "「选择与一般时态（Unit 3 Choices）」的学习以「地点描写与定语从句（Unit 2 Places）」为基础。"
+  },
+  {
+    "topicId": "cne_144",
+    "prerequisiteId": "cne_143",
+    "strength": "hard",
+    "reason": "「个人空间与书面表达（Unit 4 My space）」的学习以「选择与一般时态（Unit 3 Choices）」为基础。"
+  },
+  {
+    "topicId": "cne_144",
+    "prerequisiteId": "cne_138",
+    "strength": "soft",
+    "reason": "「个人空间与书面表达（Unit 4 My space）」的学习以「自然灾害（Unit 4 Natural disasters）」为基础。"
+  },
+  {
+    "topicId": "cne_145",
+    "prerequisiteId": "cne_144",
+    "strength": "hard",
+    "reason": "「突破极限与非谓语动词（Unit 1 No limits）」的学习以「个人空间与书面表达（Unit 4 My space）」为基础。"
+  },
+  {
+    "topicId": "cne_145",
+    "prerequisiteId": "cne_143",
+    "strength": "soft",
+    "reason": "「突破极限与非谓语动词（Unit 1 No limits）」的学习以「选择与一般时态（Unit 3 Choices）」为基础。"
+  },
+  {
+    "topicId": "cne_146",
+    "prerequisiteId": "cne_145",
+    "strength": "hard",
+    "reason": "「教育之路与阅读策略（Unit 2 Roads to education）」的学习以「突破极限与非谓语动词（Unit 1 No limits）」为基础。"
+  },
+  {
+    "topicId": "cne_146",
+    "prerequisiteId": "cne_144",
+    "strength": "soft",
+    "reason": "「教育之路与阅读策略（Unit 2 Roads to education）」的学习以「个人空间与书面表达（Unit 4 My space）」为基础。"
+  },
+  {
+    "topicId": "cne_147",
+    "prerequisiteId": "cne_146",
+    "strength": "hard",
+    "reason": "「进步、科技与被动语态（Unit 3 Progress）」的学习以「教育之路与阅读策略（Unit 2 Roads to education）」为基础。"
+  },
+  {
+    "topicId": "cne_147",
+    "prerequisiteId": "cne_145",
+    "strength": "soft",
+    "reason": "「进步、科技与被动语态（Unit 3 Progress）」的学习以「突破极限与非谓语动词（Unit 1 No limits）」为基础。"
+  },
+  {
+    "topicId": "cne_148",
+    "prerequisiteId": "cne_147",
+    "strength": "hard",
+    "reason": "「成就与省略、替代（Unit 4 Achievements）」的学习以「进步、科技与被动语态（Unit 3 Progress）」为基础。"
+  },
+  {
+    "topicId": "cne_149",
+    "prerequisiteId": "cne_148",
+    "strength": "hard",
+    "reason": "「媒体与信息素养（Unit 1 The media）」的学习以「成就与省略、替代（Unit 4 Achievements）」为基础。"
+  },
+  {
+    "topicId": "cne_149",
+    "prerequisiteId": "cne_146",
+    "strength": "soft",
+    "reason": "「媒体与信息素养（Unit 1 The media）」的学习以「教育之路与阅读策略（Unit 2 Roads to education）」为基础。"
+  },
+  {
+    "topicId": "cne_150",
+    "prerequisiteId": "cne_149",
+    "strength": "hard",
+    "reason": "「身边事物与名词性从句（Unit 2 The things around us）」的学习以「媒体与信息素养（Unit 1 The media）」为基础。"
+  },
+  {
+    "topicId": "cne_150",
+    "prerequisiteId": "cne_148",
+    "strength": "soft",
+    "reason": "「身边事物与名词性从句（Unit 2 The things around us）」的学习以「成就与省略、替代（Unit 4 Achievements）」为基础。"
+  },
+  {
+    "topicId": "cne_151",
+    "prerequisiteId": "cne_150",
+    "strength": "hard",
+    "reason": "「行为方式与情态动词（Unit 3 The way we are）」的学习以「身边事物与名词性从句（Unit 2 The things around us）」为基础。"
+  },
+  {
+    "topicId": "cne_152",
+    "prerequisiteId": "cne_151",
+    "strength": "hard",
+    "reason": "「旅行故事与叙事写作（Unit 4 Travellers' tales）」的学习以「行为方式与情态动词（Unit 3 The way we are）」为基础。"
+  },
+  {
+    "topicId": "cne_152",
+    "prerequisiteId": "cne_149",
+    "strength": "soft",
+    "reason": "「旅行故事与叙事写作（Unit 4 Travellers' tales）」的学习以「媒体与信息素养（Unit 1 The media）」为基础。"
+  },
+  {
+    "topicId": "cne_153",
+    "prerequisiteId": "cne_152",
+    "strength": "hard",
+    "reason": "「情绪与心理健康（Unit 1 Feeling good）」的学习以「旅行故事与叙事写作（Unit 4 Travellers' tales）」为基础。"
+  },
+  {
+    "topicId": "cne_153",
+    "prerequisiteId": "cne_141",
+    "strength": "soft",
+    "reason": "「情绪与心理健康（Unit 1 Feeling good）」的学习以「认识世界与高中英语起步（Unit 1 Our world）」为基础。"
+  },
+  {
+    "topicId": "cne_154",
+    "prerequisiteId": "cne_153",
+    "strength": "hard",
+    "reason": "「产生影响与议论文写作（Unit 2 Making a difference）」的学习以「情绪与心理健康（Unit 1 Feeling good）」为基础。"
+  },
+  {
+    "topicId": "cne_154",
+    "prerequisiteId": "cne_152",
+    "strength": "soft",
+    "reason": "「产生影响与议论文写作（Unit 2 Making a difference）」的学习以「旅行故事与叙事写作（Unit 4 Travellers' tales）」为基础。"
+  },
+  {
+    "topicId": "cne_155",
+    "prerequisiteId": "cne_154",
+    "strength": "hard",
+    "reason": "「代价、发展与环境（Unit 3 Paying the price）」的学习以「产生影响与议论文写作（Unit 2 Making a difference）」为基础。"
+  },
+  {
+    "topicId": "cne_155",
+    "prerequisiteId": "cne_151",
+    "strength": "soft",
+    "reason": "「代价、发展与环境（Unit 3 Paying the price）」的学习以「行为方式与情态动词（Unit 3 The way we are）」为基础。"
+  },
+  {
+    "topicId": "cne_156",
+    "prerequisiteId": "cne_155",
+    "strength": "hard",
+    "reason": "「感官与描写（Unit 4 The senses）」的学习以「代价、发展与环境（Unit 3 Paying the price）」为基础。"
+  },
+  {
+    "topicId": "cne_156",
+    "prerequisiteId": "cne_154",
+    "strength": "soft",
+    "reason": "「感官与描写（Unit 4 The senses）」的学习以「产生影响与议论文写作（Unit 2 Making a difference）」为基础。"
+  },
+  {
+    "topicId": "cne_157",
+    "prerequisiteId": "cne_156",
+    "strength": "hard",
+    "reason": "「决策与强调句（Unit 1 Decisions）」的学习以「感官与描写（Unit 4 The senses）」为基础。"
+  },
+  {
+    "topicId": "cne_157",
+    "prerequisiteId": "cne_155",
+    "strength": "soft",
+    "reason": "「决策与强调句（Unit 1 Decisions）」的学习以「代价、发展与环境（Unit 3 Paying the price）」为基础。"
+  },
+  {
+    "topicId": "cne_158",
+    "prerequisiteId": "cne_157",
+    "strength": "hard",
+    "reason": "「数字人与长难句分析（Unit 2 Digital humans）」的学习以「决策与强调句（Unit 1 Decisions）」为基础。"
+  },
+  {
+    "topicId": "cne_158",
+    "prerequisiteId": "cne_156",
+    "strength": "soft",
+    "reason": "「数字人与长难句分析（Unit 2 Digital humans）」的学习以「感官与描写（Unit 4 The senses）」为基础。"
+  },
+  {
+    "topicId": "cne_159",
+    "prerequisiteId": "cne_158",
+    "strength": "hard",
+    "reason": "「创造力与词块积累（Unit 3 Creativity）」的学习以「数字人与长难句分析（Unit 2 Digital humans）」为基础。"
+  },
+  {
+    "topicId": "cne_159",
+    "prerequisiteId": "cne_153",
+    "strength": "soft",
+    "reason": "「创造力与词块积累（Unit 3 Creativity）」的学习以「情绪与心理健康（Unit 1 Feeling good）」为基础。"
+  },
+  {
+    "topicId": "cne_160",
+    "prerequisiteId": "cne_159",
+    "strength": "hard",
+    "reason": "「灵感与写作（Unit 4 Inspiration）」的学习以「创造力与词块积累（Unit 3 Creativity）」为基础。"
+  },
+  {
+    "topicId": "cne_160",
+    "prerequisiteId": "cne_158",
+    "strength": "soft",
+    "reason": "「灵感与写作（Unit 4 Inspiration）」的学习以「数字人与长难句分析（Unit 2 Digital humans）」为基础。"
+  },
+  {
+    "topicId": "cne_161",
+    "prerequisiteId": "cne_160",
+    "strength": "hard",
+    "reason": "「全球议题与跨文化交际（Unit 1 Across the globe）」的学习以「灵感与写作（Unit 4 Inspiration）」为基础。"
+  },
+  {
+    "topicId": "cne_162",
+    "prerequisiteId": "cne_161",
+    "strength": "hard",
+    "reason": "「重要之事与倒装强调（Unit 2 Things that matter）」的学习以「全球议题与跨文化交际（Unit 1 Across the globe）」为基础。"
+  },
+  {
+    "topicId": "cne_162",
+    "prerequisiteId": "cne_157",
+    "strength": "soft",
+    "reason": "「重要之事与倒装强调（Unit 2 Things that matter）」的学习以「决策与强调句（Unit 1 Decisions）」为基础。"
+  },
+  {
+    "topicId": "cne_163",
+    "prerequisiteId": "cne_162",
+    "strength": "hard",
+    "reason": "「身心关系与词汇辨析（Unit 3 Mind and body）」的学习以「重要之事与倒装强调（Unit 2 Things that matter）」为基础。"
+  },
+  {
+    "topicId": "cne_163",
+    "prerequisiteId": "cne_159",
+    "strength": "soft",
+    "reason": "「身心关系与词汇辨析（Unit 3 Mind and body）」的学习以「创造力与词块积累（Unit 3 Creativity）」为基础。"
+  },
+  {
+    "topicId": "cne_164",
+    "prerequisiteId": "cne_163",
+    "strength": "hard",
+    "reason": "「语言与词汇的力量（Unit 4 Words）」的学习以「身心关系与词汇辨析（Unit 3 Mind and body）」为基础。"
+  },
+  {
+    "topicId": "cne_165",
+    "prerequisiteId": "cne_164",
+    "strength": "hard",
+    "reason": "「媒体与信息传播（Unit 1 The media and the message）」的学习以「语言与词汇的力量（Unit 4 Words）」为基础。"
+  },
+  {
+    "topicId": "cne_165",
+    "prerequisiteId": "cne_161",
+    "strength": "soft",
+    "reason": "「媒体与信息传播（Unit 1 The media and the message）」的学习以「全球议题与跨文化交际（Unit 1 Across the globe）」为基础。"
+  },
+  {
+    "topicId": "cne_166",
+    "prerequisiteId": "cne_165",
+    "strength": "hard",
+    "reason": "「健康长寿与复杂结构（Unit 2 Live longer, live better?）」的学习以「媒体与信息传播（Unit 1 The media and the message）」为基础。"
+  },
+  {
+    "topicId": "cne_166",
+    "prerequisiteId": "cne_162",
+    "strength": "soft",
+    "reason": "「健康长寿与复杂结构（Unit 2 Live longer, live better?）」的学习以「重要之事与倒装强调（Unit 2 Things that matter）」为基础。"
+  },
+  {
+    "topicId": "cne_167",
+    "prerequisiteId": "cne_166",
+    "strength": "hard",
+    "reason": "「食物与伦理（Unit 3 Food and ethics）」的学习以「健康长寿与复杂结构（Unit 2 Live longer, live better?）」为基础。"
+  },
+  {
+    "topicId": "cne_167",
+    "prerequisiteId": "cne_165",
+    "strength": "soft",
+    "reason": "「食物与伦理（Unit 3 Food and ethics）」的学习以「媒体与信息传播（Unit 1 The media and the message）」为基础。"
+  },
+  {
+    "topicId": "cne_168",
+    "prerequisiteId": "cne_167",
+    "strength": "hard",
+    "reason": "「技术与未来（Unit 4 Technology）」的学习以「食物与伦理（Unit 3 Food and ethics）」为基础。"
   }
 ]

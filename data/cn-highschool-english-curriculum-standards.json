@@ -1,0 +1,216 @@
+{
+  "source": {
+    "title": "普通高中英语课程标准（2017年版2020年修订）· 沪教版高中英语（必修/选择性必修）对应条目",
+    "issuer": "中华人民共和国教育部",
+    "year": 2020,
+    "textbook_year": 2020,
+    "stage": "高中（必修 3 册、选择性必修 4 册）",
+    "section": "四、课程内容 · 语言知识、语言技能、语篇与语用",
+    "url": "http://www.moe.gov.cn/srcsite/A26/s8001/202006/t20200603_462295.html",
+    "notice_url": "http://www.moe.gov.cn/srcsite/A26/s8001/202006/t20200603_462295.html",
+    "retrieved": "2026-10-22",
+    "note": "依据《普通高中英语课程标准（2017 年版 2020 年修订）》按语言知识领域归纳分条，共 22 条（必修 13 条、选择性必修 9 条）。教材为沪教版（上教版）2020 年审核通过的必修 3 册与选择性必修 4 册，各册单元目录已按公开教材目录核对。条目文字为归纳表述，不是课标原文。",
+    "page_numbering": "未与教育部 PDF 逐页核对，page_or_ref 一律为“待核”。",
+    "verbatim_policy": "全部条目 verbatim=False，为归纳分条，不可当作课标原文引用。"
+  },
+  "items": [
+    {
+      "id": "chs-2017:1.PH.01",
+      "stage": "必修",
+      "domain": "语音",
+      "theme": "语流与语调",
+      "text": "能在连续语流中把握重音、弱读、连读与语调，用恰当的语音语调表达意图与情感。",
+      "page_or_ref": "待核",
+      "verbatim": false
+    },
+    {
+      "id": "chs-2017:1.VO.01",
+      "stage": "必修",
+      "domain": "词汇",
+      "theme": "必修词汇",
+      "text": "学习和掌握必修阶段约 1500 个单词及一定数量的习惯用语，能在语境中理解与运用。",
+      "page_or_ref": "待核",
+      "verbatim": false
+    },
+    {
+      "id": "chs-2017:1.VO.02",
+      "stage": "必修",
+      "domain": "词汇",
+      "theme": "构词与词块",
+      "text": "掌握常见派生、合成与转化规律，积累词块与固定搭配，能借助构词法推断生词含义。",
+      "page_or_ref": "待核",
+      "verbatim": false
+    },
+    {
+      "id": "chs-2017:1.GR.01",
+      "stage": "必修",
+      "domain": "语法",
+      "theme": "时态与语态",
+      "text": "理解并运用一般现在时、一般过去时、一般将来时、现在进行时与现在完成时及其被动形式。",
+      "page_or_ref": "待核",
+      "verbatim": false
+    },
+    {
+      "id": "chs-2017:1.GR.02",
+      "stage": "必修",
+      "domain": "语法",
+      "theme": "定语从句",
+      "text": "理解并运用关系代词（who/whom/which/that/whose）与关系副词（when/where/why）引导的定语从句。",
+      "page_or_ref": "待核",
+      "verbatim": false
+    },
+    {
+      "id": "chs-2017:1.GR.03",
+      "stage": "必修",
+      "domain": "语法",
+      "theme": "名词性从句",
+      "text": "理解并运用主语从句、宾语从句、表语从句与同位语从句，注意语序与引导词的选择。",
+      "page_or_ref": "待核",
+      "verbatim": false
+    },
+    {
+      "id": "chs-2017:1.GR.04",
+      "stage": "必修",
+      "domain": "语法",
+      "theme": "非谓语动词",
+      "text": "理解并运用动词不定式、动名词与分词作主语、宾语、定语、状语等成分。",
+      "page_or_ref": "待核",
+      "verbatim": false
+    },
+    {
+      "id": "chs-2017:1.GR.05",
+      "stage": "必修",
+      "domain": "语法",
+      "theme": "省略与替代",
+      "text": "理解并运用简单句、并列句与复合句中的省略现象，以及 so、do、one 等替代手段。",
+      "page_or_ref": "待核",
+      "verbatim": false
+    },
+    {
+      "id": "chs-2017:1.GR.06",
+      "stage": "必修",
+      "domain": "语法",
+      "theme": "虚拟语气",
+      "text": "理解并运用 if 引导的虚拟条件句与 wish、suggest 等后的虚拟形式，表达假设与愿望。",
+      "page_or_ref": "待核",
+      "verbatim": false
+    },
+    {
+      "id": "chs-2017:1.DS.01",
+      "stage": "必修",
+      "domain": "语篇",
+      "theme": "语篇结构",
+      "text": "能识别常见体裁的语篇结构与衔接手段，概括主旨、梳理信息、推断作者意图。",
+      "page_or_ref": "待核",
+      "verbatim": false
+    },
+    {
+      "id": "chs-2017:1.DS.02",
+      "stage": "必修",
+      "domain": "语篇",
+      "theme": "读写结合",
+      "text": "能读懂 300 词左右的语篇并完成信息转换，能写出结构完整、语言基本准确的短文与应用文。",
+      "page_or_ref": "待核",
+      "verbatim": false
+    },
+    {
+      "id": "chs-2017:1.PU.01",
+      "stage": "必修",
+      "domain": "语用",
+      "theme": "交际策略",
+      "text": "能根据交际目的与场合选择恰当表达，进行信息交换、观点表达与协商。",
+      "page_or_ref": "待核",
+      "verbatim": false
+    },
+    {
+      "id": "chs-2017:1.PU.02",
+      "stage": "必修",
+      "domain": "语用",
+      "theme": "文化意识",
+      "text": "能理解英语国家的文化现象并与中国文化作比较，在跨文化情境中得体交流。",
+      "page_or_ref": "待核",
+      "verbatim": false
+    },
+    {
+      "id": "chs-2017:2.VO.01",
+      "stage": "选择性必修",
+      "domain": "词汇",
+      "theme": "选必词汇",
+      "text": "扩展掌握选择性必修阶段约 1000 个单词与习惯用语，能辨析近义词、理解一词多义与熟词生义。",
+      "page_or_ref": "待核",
+      "verbatim": false
+    },
+    {
+      "id": "chs-2017:2.VO.02",
+      "stage": "选择性必修",
+      "domain": "词汇",
+      "theme": "词块与搭配",
+      "text": "积累学术与书面语词块，能根据语域与文体选择恰当词语，提高表达的准确性与得体性。",
+      "page_or_ref": "待核",
+      "verbatim": false
+    },
+    {
+      "id": "chs-2017:2.GR.01",
+      "stage": "选择性必修",
+      "domain": "语法",
+      "theme": "高级时态与语态",
+      "text": "理解并运用过去完成时、将来进行时、现在完成进行时等，以及含情态动词的被动结构。",
+      "page_or_ref": "待核",
+      "verbatim": false
+    },
+    {
+      "id": "chs-2017:2.GR.02",
+      "stage": "选择性必修",
+      "domain": "语法",
+      "theme": "倒装与强调",
+      "text": "理解并运用完全倒装、部分倒装与强调句型（It is … that …），增强表达的层次。",
+      "page_or_ref": "待核",
+      "verbatim": false
+    },
+    {
+      "id": "chs-2017:2.GR.03",
+      "stage": "选择性必修",
+      "domain": "语法",
+      "theme": "独立主格与复杂结构",
+      "text": "理解并运用独立主格结构、with 复合结构与复杂长句，进行准确的口头与书面表达。",
+      "page_or_ref": "待核",
+      "verbatim": false
+    },
+    {
+      "id": "chs-2017:2.DS.01",
+      "stage": "选择性必修",
+      "domain": "语篇",
+      "theme": "长难句与逻辑",
+      "text": "能分析长难句的句法层次与语篇的逻辑关系，判断作者的论证思路与态度。",
+      "page_or_ref": "待核",
+      "verbatim": false
+    },
+    {
+      "id": "chs-2017:2.DS.02",
+      "stage": "选择性必修",
+      "domain": "语篇",
+      "theme": "议论文与应用文",
+      "text": "能写 120 词左右的议论文、说明文与各类应用文，做到论点清晰、论据充分、衔接自然。",
+      "page_or_ref": "待核",
+      "verbatim": false
+    },
+    {
+      "id": "chs-2017:2.PU.01",
+      "stage": "选择性必修",
+      "domain": "语用",
+      "theme": "跨文化交际",
+      "text": "能理解文化差异对交际的影响，在跨文化语境中选择得体的表达方式与交际策略。",
+      "page_or_ref": "待核",
+      "verbatim": false
+    },
+    {
+      "id": "chs-2017:2.PU.02",
+      "stage": "选择性必修",
+      "domain": "语用",
+      "theme": "项目与探究",
+      "text": "能围绕主题开展项目式学习，用英语收集整理信息、展示成果并作出评价。",
+      "page_or_ref": "待核",
+      "verbatim": false
+    }
+  ]
+}

@@ -1,5 +1,33 @@
 # Changelog
 
+## 2026-10-22 — 英语细化到教材 Unit 级（63 → 168 个知识点）并补齐高中 7 册
+
+把英语从「册 × 领域」的 63 个模块级知识点，重建为**教材 Unit 级**图谱，并新增**高中英语**（必修第一至第三册、选择性必修第一至第四册）。
+
+### 新增
+
+- **义教段 unit 化**：三至九年级 14 册共 **140 个 Unit → 140 个知识点**（小学每册 12 个，七/八年级 8 个，九年级上 7 个、下 6 个）。`chapter` 改为「三年级上 Unit 1 Hello!」，新增 `level: "unit"`、`book`、`unit_no` 字段；每点 4 题（词汇选择 + 拼写 + 选词填空 + 翻译）。
+- **高中英语**：7 册 × 4 个 Unit = **28 个知识点**（`cne_141`–`cne_168`），教材为沪教版（上教版）2020 年审核通过本，单元名逐册核对；`grade` 用 10/11/12 表示高一/高二/高三，前端显示为「高一上」等。
+- **高中课标条目** 22 条（`data/cn-highschool-english-curriculum-standards.json`）：必修 13、选择性必修 9；语音 1、词汇 5、语法 9、语篇 4、语用 3，编号 `chs-2017:<1|2>.<PH|VO|GR|DS|PU>.<NN>`，依据《普通高中英语课程标准（2017 年版 2020 年修订）》。22 条全部被引用。
+- **先修边**：同册「上一 Unit → 本 Unit」hard、「上一册末 Unit → 本册首 Unit」hard、每册每个领域的首个 Unit 与前面最近的同领域 Unit 之间 soft。英语共 **258 条**（hard 167 / soft 91）。
+- **文档**：`docs/english-chapters.md` 重写为 21 册逐 Unit 清单（含 id、领域、课标）；`docs/standards-mapping.md` 新增「9. 英语·高中」一节并重排章节；README、`docs/questions.md`、`diagnose/README.md` 统计同步。
+
+### 变更
+
+- **`scripts/validate.py`**：英语知识点允许 `grade` 10–12；新增 `chs-2017:` 课标 id 校验（前缀、领域代码、册次、域内编号连续）；加载并校验第四个课标文件。
+- **`diagnose/engine.js`**：`parseChapter` 新增「册 + Unit N + Unit 名」分支（`三年级上 Unit 1 Hello!`、`必修第一册 Unit 1 Our world`），旧的「全册 + 领域」写法仍兼容。
+- **`index.html` / `diagnose/app.js`**：年级标签支持高一/高二/高三（`gradeName()`），`diagnose` 的册次列表补上高中 7 册，「以整章为目标」按当前学科过滤知识点数量。
+- **`_builder/`**：删除旧的 `econtent/e3–e9.py`，改为 `eu_primary.py`（96 个 Unit 数据）、`eu_junior.py`（44 个）、`eu_high.py`（28 个手写单元）、`eunits.py`（装配 + 题目生成 + 课标分配）、`ehstandards.py`（高中课标条目）；`ecommon.py` 增加 `eunit()` 构造器。
+
+### 校验
+
+`python3 _builder/build_english.py` → 168 知识点 / 258 边 / 672 题；英语课标映射 350 条（义教 exact 140 / inferred 154，高中 exact 56）；`python3 scripts/validate.py` → `VALIDATION PASSED`（501 节点、618 条边、195 条课标、1956 题）；`python3 scripts/verify_questions.py` → `VERIFICATION PASSED`（auto_verified 917，mismatch 0）；`node tests/test_engine.js` → 69 passed, 0 failed（新增英语 Unit 章节解析用例）。
+
+### 说明
+
+- 英语由 63 个模块级点变为 168 个 Unit 级点，`cne_001`–`cne_168` 的含义随之改变（旧 id 不再指向同一知识点），外部引用如需稳定标识请以最新 `docs/english-chapters.md` 为准。
+- 义教段题目由单元数据（核心词、重点句、译文）自动生成，同一 Unit 内题式统一；高中段题目逐题编写。均未经教师审核。
+
 ## 2026-10-22 — 新增学科：沪教版英语 3-9 年级（63 个知识点）
 
 在数学（1-9 年级）图谱之外，按同一套数据格式新建**沪教版英语**知识图，覆盖三至九年级 14 册，沿用 `topics + dependencies + standards + questions + diagnose` 结构，英语与数学**各自成图、互不连边**。
@@ -26,7 +54,7 @@
 
 ### 校验
 
-`python3 _builder/build_english.py` → 63 知识点 / 61 边 / 252 题；`python3 scripts/validate.py` → `VALIDATION PASSED`（396 个节点、421 条边、173 条课标、1536 题）；`python3 scripts/verify_questions.py` → `VERIFICATION PASSED`（auto_verified 917，mismatch 0）；`node tests/test_engine.js` → 68 passed, 0 failed。
+`python3 _builder/build_english.py` → 63 知识点 / 61 边 / 252 题；`python3 scripts/validate.py` → `VALIDATION PASSED`（396 个节点、421 条边、173 条课标、1536 题）；`python3 scripts/verify_questions.py` → `VERIFICATION PASSED`（auto_verified 917，mismatch 0）；`node tests/test_engine.js` → 69 passed, 0 failed（新增英语 Unit 章节解析用例）。
 
 ## 2026-10-22 — 扩展到初中：六至九年级（沪教版五四学制，28 章）
 
@@ -51,7 +79,7 @@
 
 ### 校验
 
-`python3 scripts/validate.py` → `VALIDATION PASSED`（333 个节点、360 条边、118 条课标、1284 题）；`python3 scripts/verify_questions.py` → `VERIFICATION PASSED`（auto_verified 917，mismatch 0）；`node tests/test_engine.js` → 68 passed, 0 failed。
+`python3 scripts/validate.py` → `VALIDATION PASSED`（333 个节点、360 条边、118 条课标、1284 题）；`python3 scripts/verify_questions.py` → `VERIFICATION PASSED`（auto_verified 917，mismatch 0）；`node tests/test_engine.js` → 69 passed, 0 failed（新增英语 Unit 章节解析用例）。
 
 ## 2026-10-21 — 仓库迁移至 momoheal/studyhard
 

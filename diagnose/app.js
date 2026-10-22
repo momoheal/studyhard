@@ -6,7 +6,17 @@
   const LS_SETTINGS = 'cnmDiagnose.settings.v2';
   const LS_SEEN = 'cnmDiagnose.seen.v1';
   const LIMIT_MIN = 8, LIMIT_MAX = 30;
-  const VOLUMES = [['一年级上', '一年级上册'], ['一年级下', '一年级下册'], ['二年级上', '二年级上册'], ['二年级下', '二年级下册'], ['三年级上', '三年级上册'], ['三年级下', '三年级下册'], ['四年级上', '四年级上册'], ['四年级下', '四年级下册'], ['五年级上', '五年级上册'], ['五年级下', '五年级下册']];
+  const VOLUMES = [
+    ['一年级上', '一年级上册'], ['一年级下', '一年级下册'],
+    ['二年级上', '二年级上册'], ['二年级下', '二年级下册'],
+    ['三年级上', '三年级上册'], ['三年级下', '三年级下册'],
+    ['四年级上', '四年级上册'], ['四年级下', '四年级下册'],
+    ['五年级上', '五年级上册'], ['五年级下', '五年级下册'],
+    ['六年级上', '六年级上册'], ['六年级下', '六年级下册'],
+    ['七年级上', '七年级上册'], ['七年级下', '七年级下册'],
+    ['八年级上', '八年级上册'], ['八年级下', '八年级下册'],
+    ['九年级上', '九年级上册'], ['九年级下', '九年级下册']
+  ];
   const RESULT_LABEL = { correct: '对', wrong: '错', skip: '不会' };
   const STATUS_LABEL = { mastered: '已掌握', shaky: '不稳', weak: '薄弱', unknown: '未测' };
   const DIFF_LABEL = { basic: '基础', standard: '标准', advanced: '提高' };
@@ -694,7 +704,7 @@
       VOLUMES.forEach(function (vv) {
         ((D.tree[vv[0]] || {}).chapters || []).forEach(function (ch) { if (ch.key === c.trim()) hit.push(ch); });
       });
-      if (!hit.length) throw new Error('URL 参数 chapter 没有匹配的章节：' + c + '（格式如 “一年级上 第三单元”）');
+      if (!hit.length) throw new Error('URL 参数 chapter 没有匹配的章节：' + c + '（格式如 “一年级上 第三单元”“六年级下 第五章”）');
       return { ids: hit[0].topics.map(function (x) { return x.t.id; }), label: hit[0].volume + ' ' + hit[0].label + '（整章）' };
     }
     return null;

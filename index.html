@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>沪教版小学数学知识图谱（1-5年级·五四学制）· 辅导版</title>
+<title>沪教版中小学数学知识图谱（1-9年级·五四学制）· 辅导版</title>
 <style>
   :root { --bg:#f6f7f9; --panel:#fff; --line:#e1e4e8; --text:#1f2933; --muted:#6b7785; --accent:#2563eb;
           --hard:#c2410c; --soft:#6b7785; --ext:#7c3aed; }
@@ -68,8 +68,8 @@
 </head>
 <body>
 <header>
-  <h1>沪教版小学数学知识图谱（1-5年级·五四学制）</h1>
-  <span class="note">AI 生成的初稿，未经教师审核；严格对齐沪教版课本目录（一年级上/下为2024审定版，二至五年级为现行试用本），先修关系与辅导内容需一线教师审核。</span>
+  <h1>沪教版中小学数学知识图谱（1-9年级·五四学制）</h1>
+  <span class="note">AI 生成的初稿，未经教师审核；严格对齐沪教版课本目录（小学一上/一下为2024审定版、其余为现行教材；初中六至九年级为现行教材），先修关系与辅导内容需一线教师审核。</span>
   <a class="tool-link" href="diagnose/">诊断小工具 →</a>
 </header>
 <div id="app">
@@ -85,6 +85,10 @@
           <option value="3上">三年级上</option><option value="3下">三年级下</option>
           <option value="4上">四年级上</option><option value="4下">四年级下</option>
           <option value="5上">五年级上</option><option value="5下">五年级下</option>
+          <option value="6上">六年级上</option><option value="6下">六年级下</option>
+          <option value="7上">七年级上</option><option value="7下">七年级下</option>
+          <option value="8上">八年级上</option><option value="8下">八年级下</option>
+          <option value="9上">九年级上</option><option value="9下">九年级下</option>
         </select>
       </div>
       <div class="row">
@@ -101,7 +105,7 @@
 <script>
 "use strict";
 const TYPE_ZH = {conceptual:"概念理解", procedural:"程序性技能", reasoning:"推理证明", application:"应用", modeling:"建模"};
-const GRADE_ZH = {1:"一", 2:"二", 3:"三", 4:"四", 5:"五"};
+const GRADE_ZH = {1:"一", 2:"二", 3:"三", 4:"四", 5:"五", 6:"六", 7:"七", 8:"八", 9:"九"};
 const $ = s => document.querySelector(s);
 const el = (tag, attrs, ...kids) => {
   const e = document.createElement(tag);

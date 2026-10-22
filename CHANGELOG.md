@@ -1,5 +1,30 @@
 # Changelog
 
+## 2026-10-22 — 扩展到初中：六至九年级（沪教版五四学制，28 章）
+
+在小学（1-5 年级）图谱的基础上，按同一套数据格式补齐**沪教版初中数学 8 册 28 章**，形成 1-9 年级贯通的先修图。
+
+### 新增
+
+- **知识点** 164 个（`cnm_158`–`cnm_321`）：六年级上 25、六年级下 26、七年级上 24、七年级下 20、八年级上 20、八年级下 21、九年级上 15、九年级下 13。覆盖数的整除、分数、比和比例、圆和扇形、有理数、一次方程（组）与不等式（组）、线段与角的画法、长方体、整式、分式、图形的运动、实数、相交线平行线、三角形、平面直角坐标系、二次根式、一元二次方程、正比例与反比例函数、几何证明、一次函数、代数方程、四边形（含平面向量）、概率初步、相似三角形、锐角三角比、二次函数、圆与正多边形、统计初步。
+- **先修边** 169 条，其中 20 余条跨学段指向小学知识点（如 `cnm_183 有理数` ← `cnm_147 正数与负数`、`cnm_179 圆的周长` ← `cnm_113 圆的初步认识`、`cnm_261 函数的概念` ← `cnm_135 用字母表示数`）。
+- **第四学段课标条目** 54 条（`data/cn-junior-curriculum-standards.json`，数与代数 21、图形与几何 23、统计与概率 6、综合与实践 4），编号 `cms-2022:4.<领域>.<序号>`；初中 164 个知识点 100% 映射（172 条，均 exact），54 条全部被引用。**条目为归纳表述（verbatim=false），未与教育部 PDF 逐页核对，页码“待核”。**
+- **题库** 656 题（每点 4 题：numeric 492、choice 164；basic 328、standard 164、advanced 164），数值题全部带 `verify` 表达式，机器核验 mismatch 0。
+- **辅导四件套** 每个初中知识点都有 `tutoring`（要点、例题与步骤、常见错误、辅导建议），诊断题的题干与答案直接取第 1 题，二者不会再不一致。
+- **构建脚本**：`_builder/junior_standards.py`（课标条目）、`_builder/jcommon.py`（知识点构造器）、`_builder/jcontent/j6a.py`–`j9b.py`（8 册内容）、`_builder/build_junior.py`（可重复运行的合并脚本，只替换 grade≥6 的内容，不动小学数据）。
+- **文档**：`docs/junior-chapters.md` 章节目录与知识点清单；README 增加初中教材/课标/统计章节；`docs/standards-mapping.md` 增加第四学段映射说明。
+
+### 变更
+
+- `scripts/validate.py`：`grade` 允许 1–9；同时校验 `data/cn-junior-curriculum-standards.json` 并与小学课标条目合并使用；按年级统计改为动态输出。
+- `index.html`：标题与说明改为“中小学（1-9 年级）”；`GRADE_ZH` 补充六至九；年级筛选新增 6 上–9 下 8 项。
+- `diagnose/app.js`：`VOLUMES` 扩到 18 册，诊断工具可按初中章节整章筛查；“chapter 参数”示例补充初中格式。
+- `diagnose/index.html`：标题与说明同步。
+
+### 校验
+
+`python3 scripts/validate.py` → `VALIDATION PASSED`（333 个节点、360 条边、118 条课标、1284 题）；`python3 scripts/verify_questions.py` → `VERIFICATION PASSED`（auto_verified 917，mismatch 0）；`node tests/test_engine.js` → 68 passed, 0 failed。
+
 ## 2026-10-21 — 仓库迁移至 momoheal/studyhard
 
 - 独立仓库落地：<https://github.com/momoheal/studyhard>，主分支 `main` 即本项目完整历史（原 fork 自 `momoheal/cn-math-taxonomy`，现作为独立项目维护）。

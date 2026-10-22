@@ -8833,5 +8833,8697 @@
     "answer": "3",
     "explanation": "3 种选法。",
     "verify": "3"
+  },
+  {
+    "id": "cnm_158_q1",
+    "topicId": "cnm_158",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "36 能被 4 整除，商是多少？",
+    "answer": "9",
+    "explanation": "36÷4＝9，余数为 0，所以 36 能被 4 整除。",
+    "verify": "36/4"
+  },
+  {
+    "id": "cnm_158_q2",
+    "topicId": "cnm_158",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列说法中正确的是（　）。",
+    "answer": "B",
+    "explanation": "自然数包含 0；整数还有负整数，所以 0 不是最小的整数；最小的正整数是 1。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "0 是最小的整数"
+      },
+      {
+        "key": "B",
+        "text": "0 是最小的自然数"
+      },
+      {
+        "key": "C",
+        "text": "最小的正整数是 0"
+      }
+    ]
+  },
+  {
+    "id": "cnm_158_q3",
+    "topicId": "cnm_158",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "在 12、15、20、25、30 中，能被 5 整除的数有几个？",
+    "answer": "4",
+    "explanation": "15、20、25、30 都能被 5 整除，共 4 个。",
+    "verify": "len([x for x in [12,15,20,25,30] if x%5==0])"
+  },
+  {
+    "id": "cnm_158_q4",
+    "topicId": "cnm_158",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "一个比 10 大且比 20 小的整数，既能被 3 整除，又能被 4 整除，这个数是多少？",
+    "answer": "12",
+    "explanation": "同时被 3 和 4 整除即被 12 整除，10 到 20 之间只有 12。",
+    "verify": "[x for x in range(11,20) if x%3==0 and x%4==0][0]"
+  },
+  {
+    "id": "cnm_159_q1",
+    "topicId": "cnm_159",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "18 的所有因数中，最大的因数是几？",
+    "answer": "18",
+    "explanation": "一个数最大的因数是它本身，所以是 18。",
+    "verify": "max([x for x in range(1,19) if 18%x==0])"
+  },
+  {
+    "id": "cnm_159_q2",
+    "topicId": "cnm_159",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列各组数中，第一个数是第二个数的倍数的是（　）。",
+    "answer": "B",
+    "explanation": "12÷6＝2，所以 12 是 6 的倍数。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "6 和 12"
+      },
+      {
+        "key": "B",
+        "text": "12 和 6"
+      },
+      {
+        "key": "C",
+        "text": "5 和 2"
+      }
+    ]
+  },
+  {
+    "id": "cnm_159_q3",
+    "topicId": "cnm_159",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "20 以内（含 20）4 的倍数有几个？",
+    "answer": "5",
+    "explanation": "4、8、12、16、20，共 5 个。",
+    "verify": "len([x for x in range(1,21) if x%4==0])"
+  },
+  {
+    "id": "cnm_159_q4",
+    "topicId": "cnm_159",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "一个数既是 24 的因数，又是 3 的倍数，比 10 大且比 15 小，这个数是多少？",
+    "answer": "12",
+    "explanation": "10 到 15 之间 24 的因数只有 12，且 12 是 3 的倍数。",
+    "verify": "[x for x in range(11,15) if 24%x==0 and x%3==0][0]"
+  },
+  {
+    "id": "cnm_160_q1",
+    "topicId": "cnm_160",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "既是 2 的倍数又是 5 的倍数的最小两位数是几？",
+    "answer": "10",
+    "explanation": "个位是 0 的数同时是 2 和 5 的倍数，最小两位数是 10。",
+    "verify": "[x for x in range(10,100) if x%10==0][0]"
+  },
+  {
+    "id": "cnm_160_q2",
+    "topicId": "cnm_160",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列数中，能同时被 2 和 5 整除的是（　）。",
+    "answer": "B",
+    "explanation": "个位是 0 的数才能同时被 2 和 5 整除。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "25"
+      },
+      {
+        "key": "B",
+        "text": "40"
+      },
+      {
+        "key": "C",
+        "text": "52"
+      }
+    ]
+  },
+  {
+    "id": "cnm_160_q3",
+    "topicId": "cnm_160",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "在 1 到 100 中，能被 5 整除的数有多少个？",
+    "answer": "20",
+    "explanation": "5、10、…、100，共 100÷5＝20 个。",
+    "verify": "len([x for x in range(1,101) if x%5==0])"
+  },
+  {
+    "id": "cnm_160_q4",
+    "topicId": "cnm_160",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "一个三位数能被 2 整除，也能被 5 整除，百位是 3，十位是 4，这个数是多少？",
+    "answer": "340",
+    "explanation": "能同时被 2 和 5 整除，个位必须是 0，所以是 340。",
+    "verify": "340"
+  },
+  {
+    "id": "cnm_161_q1",
+    "topicId": "cnm_161",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "最小的素数是几？",
+    "answer": "2",
+    "explanation": "2 只有 1 和它本身两个因数，是最小的素数。",
+    "verify": "2"
+  },
+  {
+    "id": "cnm_161_q2",
+    "topicId": "cnm_161",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列各数中，是素数的是（　）。",
+    "answer": "B",
+    "explanation": "29 只有 1 和 29 两个因数。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "21"
+      },
+      {
+        "key": "B",
+        "text": "29"
+      },
+      {
+        "key": "C",
+        "text": "39"
+      }
+    ]
+  },
+  {
+    "id": "cnm_161_q3",
+    "topicId": "cnm_161",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "把 84 分解素因数：84＝2×2×3×□，□ 是多少？",
+    "answer": "7",
+    "explanation": "2×2×3＝12，84÷12＝7。",
+    "verify": "84/(2*2*3)"
+  },
+  {
+    "id": "cnm_161_q4",
+    "topicId": "cnm_161",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "两个素数的和是 15，这两个素数的积是多少？",
+    "answer": "26",
+    "explanation": "和为奇数说明其中一个是 2，另一个是 13，积是 2×13＝26。",
+    "verify": "2*13"
+  },
+  {
+    "id": "cnm_162_q1",
+    "topicId": "cnm_162",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "12 和 18 的最大公因数是多少？",
+    "answer": "6",
+    "explanation": "12 和 18 的公因数有 1、2、3、6，最大的是 6。",
+    "verify": "max([x for x in range(1,13) if 12%x==0 and 18%x==0])"
+  },
+  {
+    "id": "cnm_162_q2",
+    "topicId": "cnm_162",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "24 和 36 的最大公因数是（　）。",
+    "answer": "B",
+    "explanation": "24＝2²×3，36＝2²×3²，最大公因数是 2²×3＝12。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "18"
+      }
+    ]
+  },
+  {
+    "id": "cnm_162_q3",
+    "topicId": "cnm_162",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "把长 24 厘米、宽 16 厘米的长方形纸裁成同样大的正方形且没有剩余，正方形边长最大是多少厘米？",
+    "answer": "8",
+    "explanation": "24 与 16 的最大公因数是 8，所以边长最大是 8 厘米。",
+    "verify": "max([x for x in range(1,17) if 24%x==0 and 16%x==0])"
+  },
+  {
+    "id": "cnm_162_q4",
+    "topicId": "cnm_162",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "两个数的最大公因数是 6，最小公倍数是 36，其中一个数是 12，另一个数是多少？",
+    "answer": "18",
+    "explanation": "两数之积＝最大公因数×最小公倍数，所以另一个数是 6×36÷12＝18。",
+    "verify": "6*36/12"
+  },
+  {
+    "id": "cnm_163_q1",
+    "topicId": "cnm_163",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "4 和 6 的最小公倍数是多少？",
+    "answer": "12",
+    "explanation": "4 和 6 的公倍数中最小的是 12。",
+    "verify": "min([x for x in range(1,100) if x%4==0 and x%6==0])"
+  },
+  {
+    "id": "cnm_163_q2",
+    "topicId": "cnm_163",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "8 和 12 的最小公倍数是（　）。",
+    "answer": "B",
+    "explanation": "8＝2³，12＝2²×3，最小公倍数是 2³×3＝24。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "24"
+      },
+      {
+        "key": "C",
+        "text": "48"
+      }
+    ]
+  },
+  {
+    "id": "cnm_163_q3",
+    "topicId": "cnm_163",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "某班学生人数在 40 到 50 之间，6 人一组或 8 人一组都正好分完，这个班有多少人？",
+    "answer": "48",
+    "explanation": "6 和 8 的最小公倍数是 24，40 到 50 之间只有 48。",
+    "verify": "min([x for x in range(40,51) if x%6==0 and x%8==0])"
+  },
+  {
+    "id": "cnm_163_q4",
+    "topicId": "cnm_163",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "两个数的最小公倍数是 24，最大公因数是 4，其中一个数是 8，另一个数是多少？",
+    "answer": "12",
+    "explanation": "两数之积＝4×24＝96，另一个数是 96÷8＝12。",
+    "verify": "4*24/8"
+  },
+  {
+    "id": "cnm_164_q1",
+    "topicId": "cnm_164",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "3÷7 用分数表示是多少？（写成 a/b）",
+    "answer": "3/7",
+    "explanation": "被除数 3 作分子，除数 7 作分母。",
+    "verify": "3/7"
+  },
+  {
+    "id": "cnm_164_q2",
+    "topicId": "cnm_164",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "把 5 米长的绳子平均分成 8 段，每段是全长的（　）。",
+    "answer": "B",
+    "explanation": "平均分成 8 段，每段是全长的 1/8；每段长 5/8 米。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "5/8"
+      },
+      {
+        "key": "B",
+        "text": "1/8"
+      },
+      {
+        "key": "C",
+        "text": "1/5"
+      }
+    ]
+  },
+  {
+    "id": "cnm_164_q3",
+    "topicId": "cnm_164",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "7÷9 的商化成小数是多少？（保留三位小数）",
+    "answer": "0.778",
+    "explanation": "7÷9＝0.777…≈0.778。",
+    "verify": "round(7/9,3)"
+  },
+  {
+    "id": "cnm_164_q4",
+    "topicId": "cnm_164",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "一个分数的分子是 12，分母是 18，约成最简分数是多少？（写成 a/b）",
+    "answer": "2/3",
+    "explanation": "12 与 18 的最大公因数是 6，分子分母同除以 6 得 2/3。",
+    "verify": "Fraction(12,18)"
+  },
+  {
+    "id": "cnm_165_q1",
+    "topicId": "cnm_165",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "把 3/4 的分子、分母都乘 5，得到的分数的分母是多少？",
+    "answer": "20",
+    "explanation": "4×5＝20。",
+    "verify": "4*5"
+  },
+  {
+    "id": "cnm_165_q2",
+    "topicId": "cnm_165",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列分数中与 2/3 相等的是（　）。",
+    "answer": "B",
+    "explanation": "6/9 的分子分母同除以 3 得 2/3。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4/9"
+      },
+      {
+        "key": "B",
+        "text": "6/9"
+      },
+      {
+        "key": "C",
+        "text": "4/5"
+      }
+    ]
+  },
+  {
+    "id": "cnm_165_q3",
+    "topicId": "cnm_165",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "9/12 约分后是多少？（写成 a/b）",
+    "answer": "3/4",
+    "explanation": "分子分母同除以最大公因数 3。",
+    "verify": "Fraction(9,12)"
+  },
+  {
+    "id": "cnm_165_q4",
+    "topicId": "cnm_165",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "把 5/8 化成分母是 40 的分数，分子是多少？",
+    "answer": "25",
+    "explanation": "40÷8＝5，分子 5×5＝25，即 25/40。",
+    "verify": "5*40/8"
+  },
+  {
+    "id": "cnm_166_q1",
+    "topicId": "cnm_166",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "3/4 和 5/8 中较大的分数是多少？（写成 a/b）",
+    "answer": "3/4",
+    "explanation": "3/4＝6/8＞5/8。",
+    "verify": "max(Fraction(3,4),Fraction(5,8))"
+  },
+  {
+    "id": "cnm_166_q2",
+    "topicId": "cnm_166",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列分数中最小的是（　）。",
+    "answer": "B",
+    "explanation": "1/2＝0.5，2/5＝0.4，3/7≈0.429，最小的是 2/5。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1/2"
+      },
+      {
+        "key": "B",
+        "text": "2/5"
+      },
+      {
+        "key": "C",
+        "text": "3/7"
+      }
+    ]
+  },
+  {
+    "id": "cnm_166_q3",
+    "topicId": "cnm_166",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "比较 5/6 与 7/9，较大的分数是多少？（写成 a/b）",
+    "answer": "5/6",
+    "explanation": "通分得 15/18 与 14/18，5/6 较大。",
+    "verify": "max(Fraction(5,6),Fraction(7,9))"
+  },
+  {
+    "id": "cnm_166_q4",
+    "topicId": "cnm_166",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "把 2/3、3/5、5/8 从小到大排列，中间的那个分数是多少？（写成 a/b）",
+    "answer": "5/8",
+    "explanation": "2/3≈0.667，3/5＝0.6，5/8＝0.625，所以中间的是 5/8。",
+    "verify": "sorted([Fraction(2,3),Fraction(3,5),Fraction(5,8)])[1]"
+  },
+  {
+    "id": "cnm_167_q1",
+    "topicId": "cnm_167",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "1/4＋2/4 等于多少？（写成 a/b）",
+    "answer": "3/4",
+    "explanation": "同分母分数相加，分母不变，分子相加。",
+    "verify": "Fraction(1,4)+Fraction(2,4)"
+  },
+  {
+    "id": "cnm_167_q2",
+    "topicId": "cnm_167",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "1/2＋1/3＝（　）。",
+    "answer": "B",
+    "explanation": "通分后 3/6＋2/6＝5/6。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2/5"
+      },
+      {
+        "key": "B",
+        "text": "5/6"
+      },
+      {
+        "key": "C",
+        "text": "1/6"
+      }
+    ]
+  },
+  {
+    "id": "cnm_167_q3",
+    "topicId": "cnm_167",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "5/6－1/3 等于多少？（写成 a/b）",
+    "answer": "1/2",
+    "explanation": "通分后 5/6－2/6＝3/6＝1/2。",
+    "verify": "Fraction(5,6)-Fraction(1,3)"
+  },
+  {
+    "id": "cnm_167_q4",
+    "topicId": "cnm_167",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "1－3/8－1/4 等于多少？（写成 a/b）",
+    "answer": "3/8",
+    "explanation": "1－3/8－2/8＝8/8－5/8＝3/8。",
+    "verify": "1-Fraction(3,8)-Fraction(1,4)"
+  },
+  {
+    "id": "cnm_168_q1",
+    "topicId": "cnm_168",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "2/3×3/4 等于多少？（写成 a/b）",
+    "answer": "1/2",
+    "explanation": "先约分再乘，得 1/2。",
+    "verify": "Fraction(2,3)*Fraction(3,4)"
+  },
+  {
+    "id": "cnm_168_q2",
+    "topicId": "cnm_168",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "3/5×5＝（　）。",
+    "answer": "A",
+    "explanation": "5 与分母 5 约掉，得 3。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "1/3"
+      },
+      {
+        "key": "C",
+        "text": "15/25"
+      }
+    ]
+  },
+  {
+    "id": "cnm_168_q3",
+    "topicId": "cnm_168",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "一根绳子长 8 米，用去它的 3/4，用去了多少米？",
+    "answer": "6",
+    "explanation": "8×3/4＝6（米）。",
+    "verify": "8*3/4"
+  },
+  {
+    "id": "cnm_168_q4",
+    "topicId": "cnm_168",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "7/9×3/14 等于多少？（写成 a/b）",
+    "answer": "1/6",
+    "explanation": "交叉约分后 1/3×1/2＝1/6。",
+    "verify": "Fraction(7,9)*Fraction(3,14)"
+  },
+  {
+    "id": "cnm_169_q1",
+    "topicId": "cnm_169",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "1/2÷1/4 等于多少？（写成整数）",
+    "answer": "2",
+    "explanation": "1/2×4＝2。",
+    "verify": "Fraction(1,2)/Fraction(1,4)"
+  },
+  {
+    "id": "cnm_169_q2",
+    "topicId": "cnm_169",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "4/5÷2＝（　）。",
+    "answer": "A",
+    "explanation": "4/5×1/2＝2/5。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2/5"
+      },
+      {
+        "key": "B",
+        "text": "8/5"
+      },
+      {
+        "key": "C",
+        "text": "1/10"
+      }
+    ]
+  },
+  {
+    "id": "cnm_169_q3",
+    "topicId": "cnm_169",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "一个数的 2/3 是 12，这个数是多少？",
+    "answer": "18",
+    "explanation": "12÷2/3＝12×3/2＝18。",
+    "verify": "12/(2/3)"
+  },
+  {
+    "id": "cnm_169_q4",
+    "topicId": "cnm_169",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "3/4÷9/8 等于多少？（写成 a/b）",
+    "answer": "2/3",
+    "explanation": "3/4×8/9＝2/3。",
+    "verify": "Fraction(3,4)/Fraction(9,8)"
+  },
+  {
+    "id": "cnm_170_q1",
+    "topicId": "cnm_170",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "0.75 化成最简分数是多少？（写成 a/b）",
+    "answer": "3/4",
+    "explanation": "0.75＝75/100＝3/4。",
+    "verify": "Fraction(3,4)"
+  },
+  {
+    "id": "cnm_170_q2",
+    "topicId": "cnm_170",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列分数中能化成有限小数的是（　）。",
+    "answer": "B",
+    "explanation": "8 只含素因数 2，3/8＝0.375。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1/3"
+      },
+      {
+        "key": "B",
+        "text": "3/8"
+      },
+      {
+        "key": "C",
+        "text": "1/6"
+      }
+    ]
+  },
+  {
+    "id": "cnm_170_q3",
+    "topicId": "cnm_170",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "3/8 化成小数是多少？",
+    "answer": "0.375",
+    "explanation": "3÷8＝0.375。",
+    "verify": "3/8"
+  },
+  {
+    "id": "cnm_170_q4",
+    "topicId": "cnm_170",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "0.444…（4 循环）化成最简分数是多少？（写成 a/b）",
+    "answer": "4/9",
+    "explanation": "循环节是一位数字，分母写 9，所以是 4/9。",
+    "verify": "Fraction(4,9)"
+  },
+  {
+    "id": "cnm_171_q1",
+    "topicId": "cnm_171",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "1/2＋0.25 等于多少？（写成小数）",
+    "answer": "0.75",
+    "explanation": "1/2＝0.5，0.5＋0.25＝0.75。",
+    "verify": "1/2+0.25"
+  },
+  {
+    "id": "cnm_171_q2",
+    "topicId": "cnm_171",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "0.6×2/3＝（　）。",
+    "answer": "A",
+    "explanation": "0.6×2÷3＝0.4。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "0.4"
+      },
+      {
+        "key": "B",
+        "text": "0.9"
+      },
+      {
+        "key": "C",
+        "text": "1.2"
+      }
+    ]
+  },
+  {
+    "id": "cnm_171_q3",
+    "topicId": "cnm_171",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "(1/2＋1/3)×6 等于多少？",
+    "answer": "5",
+    "explanation": "用分配律：1/2×6＋1/3×6＝3＋2＝5。",
+    "verify": "(1/2+1/3)*6"
+  },
+  {
+    "id": "cnm_171_q4",
+    "topicId": "cnm_171",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "1－0.4×3/2 等于多少？（写成小数）",
+    "answer": "0.4",
+    "explanation": "先算乘法 0.4×1.5＝0.6，再算 1－0.6＝0.4。",
+    "verify": "1-0.4*3/2"
+  },
+  {
+    "id": "cnm_172_q1",
+    "topicId": "cnm_172",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "一本书共 120 页，第一天看了全书的 1/4，看了多少页？",
+    "answer": "30",
+    "explanation": "120×1/4＝30（页）。",
+    "verify": "120/4"
+  },
+  {
+    "id": "cnm_172_q2",
+    "topicId": "cnm_172",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "一杯果汁先喝去 1/3，又喝去剩下的 1/2，共喝去这杯果汁的（　）。",
+    "answer": "B",
+    "explanation": "先喝 1/3，又喝 (1－1/3)×1/2＝1/3，共 2/3。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1/2"
+      },
+      {
+        "key": "B",
+        "text": "2/3"
+      },
+      {
+        "key": "C",
+        "text": "5/6"
+      }
+    ]
+  },
+  {
+    "id": "cnm_172_q3",
+    "topicId": "cnm_172",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "钢管长 15 米，第一次用去 2/5，第二次用去 3 米，还剩多少米？",
+    "answer": "6",
+    "explanation": "15－15×2/5－3＝15－6－3＝6（米）。",
+    "verify": "15-15*2/5-3"
+  },
+  {
+    "id": "cnm_172_q4",
+    "topicId": "cnm_172",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "某商品原价 200 元，先涨价 1/10，再降价 1/10，现价是多少元？",
+    "answer": "198",
+    "explanation": "200×1.1×0.9＝198（元）。",
+    "verify": "200*1.1*0.9"
+  },
+  {
+    "id": "cnm_173_q1",
+    "topicId": "cnm_173",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "6 与 8 的比值是多少？（写成最简分数 a/b）",
+    "answer": "3/4",
+    "explanation": "6:8＝6÷8＝3/4。",
+    "verify": "Fraction(6,8)"
+  },
+  {
+    "id": "cnm_173_q2",
+    "topicId": "cnm_173",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "甲数是乙数的 3/5，甲数与乙数的比是（　）。",
+    "answer": "A",
+    "explanation": "甲＝乙×3/5，所以甲:乙＝3:5。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3:5"
+      },
+      {
+        "key": "B",
+        "text": "5:3"
+      },
+      {
+        "key": "C",
+        "text": "3:8"
+      }
+    ]
+  },
+  {
+    "id": "cnm_173_q3",
+    "topicId": "cnm_173",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "一杯糖水中糖与水的比是 1:9，糖占糖水的几分之几？（写成 a/b）",
+    "answer": "1/10",
+    "explanation": "糖 1 份，糖水共 1＋9＝10 份，所以占 1/10。",
+    "verify": "Fraction(1,10)"
+  },
+  {
+    "id": "cnm_173_q4",
+    "topicId": "cnm_173",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "已知甲:乙＝2:3，乙:丙＝4:5，若甲:丙＝8:x，则 x 是多少？",
+    "answer": "15",
+    "explanation": "统一乙的份数：甲:乙＝8:12，乙:丙＝12:15，所以甲:丙＝8:15，x＝15。",
+    "verify": "3*5"
+  },
+  {
+    "id": "cnm_174_q1",
+    "topicId": "cnm_174",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "把 12:18 化成最简整数比，前项是多少？",
+    "answer": "2",
+    "explanation": "前项后项同除以 6，得 2:3。",
+    "verify": "12//gcd(12,18)"
+  },
+  {
+    "id": "cnm_174_q2",
+    "topicId": "cnm_174",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "与 3:4 相等的比是（　）。",
+    "answer": "B",
+    "explanation": "9:12 前后项同除以 3 得 3:4。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "6:9"
+      },
+      {
+        "key": "B",
+        "text": "9:12"
+      },
+      {
+        "key": "C",
+        "text": "4:3"
+      }
+    ]
+  },
+  {
+    "id": "cnm_174_q3",
+    "topicId": "cnm_174",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "配制盐水时盐与水的比是 1:20，现有盐 15 克，需要水多少克？",
+    "answer": "300",
+    "explanation": "水是盐的 20 倍，15×20＝300（克）。",
+    "verify": "15*20"
+  },
+  {
+    "id": "cnm_174_q4",
+    "topicId": "cnm_174",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "甲、乙两数的比是 5:3，两数的和是 64，甲数是多少？",
+    "answer": "40",
+    "explanation": "总份数 8 份，甲占 5 份，64÷8×5＝40。",
+    "verify": "64*5/8"
+  },
+  {
+    "id": "cnm_175_q1",
+    "topicId": "cnm_175",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "在比例 3:4＝9:x 中，x 是多少？",
+    "answer": "12",
+    "explanation": "4×9＝3x，x＝12。",
+    "verify": "4*9/3"
+  },
+  {
+    "id": "cnm_175_q2",
+    "topicId": "cnm_175",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列各比中，能与 2:5 组成比例的是（　）。",
+    "answer": "A",
+    "explanation": "4:10 的比值是 0.4，与 2:5 的比值相等。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4:10"
+      },
+      {
+        "key": "B",
+        "text": "5:2"
+      },
+      {
+        "key": "C",
+        "text": "2:10"
+      }
+    ]
+  },
+  {
+    "id": "cnm_175_q3",
+    "topicId": "cnm_175",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "若 x:6＝5:3，则 x 是多少？",
+    "answer": "10",
+    "explanation": "3x＝6×5＝30，x＝10。",
+    "verify": "6*5/3"
+  },
+  {
+    "id": "cnm_175_q4",
+    "topicId": "cnm_175",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "地图上 4 厘米表示实际 20 千米，图上 7 厘米表示实际多少千米？",
+    "answer": "35",
+    "explanation": "20÷4＝5（千米/厘米），5×7＝35（千米）。",
+    "verify": "20/4*7"
+  },
+  {
+    "id": "cnm_176_q1",
+    "topicId": "cnm_176",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "把 3/4 化成百分数，百分号前面的数是多少？",
+    "answer": "75",
+    "explanation": "3/4＝0.75＝75%。",
+    "verify": "3/4*100"
+  },
+  {
+    "id": "cnm_176_q2",
+    "topicId": "cnm_176",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "0.06 化成百分数是（　）。",
+    "answer": "B",
+    "explanation": "小数点右移两位得 6%。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "0.6%"
+      },
+      {
+        "key": "B",
+        "text": "6%"
+      },
+      {
+        "key": "C",
+        "text": "60%"
+      }
+    ]
+  },
+  {
+    "id": "cnm_176_q3",
+    "topicId": "cnm_176",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "45% 化成小数是多少？",
+    "answer": "0.45",
+    "explanation": "小数点左移两位，45%＝0.45。",
+    "verify": "45/100"
+  },
+  {
+    "id": "cnm_176_q4",
+    "topicId": "cnm_176",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "25 是 40 的百分之几？（写出百分号前面的数）",
+    "answer": "62.5",
+    "explanation": "25÷40＝0.625＝62.5%。",
+    "verify": "25/40*100"
+  },
+  {
+    "id": "cnm_177_q1",
+    "topicId": "cnm_177",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "一件商品原价 80 元，打八折后是多少元？",
+    "answer": "64",
+    "explanation": "80×0.8＝64（元）。",
+    "verify": "80*0.8"
+  },
+  {
+    "id": "cnm_177_q2",
+    "topicId": "cnm_177",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "某商品先涨价 20%，再降价 20%，现价与原价相比（　）。",
+    "answer": "B",
+    "explanation": "1×1.2×0.8＝0.96，比原价低。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "相等"
+      },
+      {
+        "key": "B",
+        "text": "降低"
+      },
+      {
+        "key": "C",
+        "text": "提高"
+      }
+    ]
+  },
+  {
+    "id": "cnm_177_q3",
+    "topicId": "cnm_177",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "存款 5000 元，年利率 2.5%，一年后的利息是多少元？",
+    "answer": "125",
+    "explanation": "利息＝本金×利率×期数＝5000×2.5%×1＝125（元）。",
+    "verify": "5000*0.025"
+  },
+  {
+    "id": "cnm_177_q4",
+    "topicId": "cnm_177",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "某商品按成本加价 25% 后标价 200 元，成本是多少元？",
+    "answer": "160",
+    "explanation": "200÷1.25＝160（元）。",
+    "verify": "200/1.25"
+  },
+  {
+    "id": "cnm_178_q1",
+    "topicId": "cnm_178",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "掷一枚均匀的骰子，朝上的点数是 3 的可能性是多少？（写成 a/b）",
+    "answer": "1/6",
+    "explanation": "6 种等可能结果中只有 1 种符合。",
+    "verify": "Fraction(1,6)"
+  },
+  {
+    "id": "cnm_178_q2",
+    "topicId": "cnm_178",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "袋中有 3 个红球、2 个白球，任取一球，取到红球的可能性是（　）。",
+    "answer": "B",
+    "explanation": "共 5 个球，红球 3 个，可能性 3/5。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2/5"
+      },
+      {
+        "key": "B",
+        "text": "3/5"
+      },
+      {
+        "key": "C",
+        "text": "1/2"
+      }
+    ]
+  },
+  {
+    "id": "cnm_178_q3",
+    "topicId": "cnm_178",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "掷一枚均匀的硬币两次，两次都正面朝上的可能性是多少？（写成 a/b）",
+    "answer": "1/4",
+    "explanation": "共有 4 种等可能结果，只有（正，正）1 种符合。",
+    "verify": "Fraction(1,4)"
+  },
+  {
+    "id": "cnm_178_q4",
+    "topicId": "cnm_178",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "从 1、2、3、4、5 中任取一个数，取到素数的可能性是多少？（写成 a/b）",
+    "answer": "3/5",
+    "explanation": "1 到 5 中素数是 2、3、5，共 3 个，可能性 3/5。",
+    "verify": "Fraction(3,5)"
+  },
+  {
+    "id": "cnm_179_q1",
+    "topicId": "cnm_179",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "一个圆的半径是 2 厘米，直径是多少厘米？",
+    "answer": "4",
+    "explanation": "d＝2r＝4（厘米）。",
+    "verify": "2*2"
+  },
+  {
+    "id": "cnm_179_q2",
+    "topicId": "cnm_179",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "圆周率 π 表示（　）。",
+    "answer": "A",
+    "explanation": "任意圆的周长与直径的比值都是 π。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "圆的周长与直径的比值"
+      },
+      {
+        "key": "B",
+        "text": "圆的周长与半径的比值"
+      },
+      {
+        "key": "C",
+        "text": "圆的面积与半径的比值"
+      }
+    ]
+  },
+  {
+    "id": "cnm_179_q3",
+    "topicId": "cnm_179",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "一个圆的直径是 10 厘米，周长是多少厘米？（π 取 3.14）",
+    "answer": "31.4",
+    "explanation": "C＝3.14×10＝31.4（厘米）。",
+    "verify": "3.14*10"
+  },
+  {
+    "id": "cnm_179_q4",
+    "topicId": "cnm_179",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "一个圆的周长是 62.8 厘米，半径是多少厘米？（π 取 3.14）",
+    "answer": "10",
+    "explanation": "r＝C÷(2π)＝62.8÷6.28＝10（厘米）。",
+    "verify": "62.8/(2*3.14)"
+  },
+  {
+    "id": "cnm_180_q1",
+    "topicId": "cnm_180",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "半径 9 厘米、圆心角 60° 的弧长是多少厘米？（π 取 3.14）",
+    "answer": "9.42",
+    "explanation": "l＝60×3.14×9÷180＝9.42（厘米）。",
+    "verify": "60*3.14*9/180"
+  },
+  {
+    "id": "cnm_180_q2",
+    "topicId": "cnm_180",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "半径为 r、圆心角为 n° 的弧长公式是（　）。",
+    "answer": "A",
+    "explanation": "弧长是圆周长的 n/360，即 nπr/180。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "nπr/180"
+      },
+      {
+        "key": "B",
+        "text": "nπr/360"
+      },
+      {
+        "key": "C",
+        "text": "nπr²/360"
+      }
+    ]
+  },
+  {
+    "id": "cnm_180_q3",
+    "topicId": "cnm_180",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "半径 6 厘米的圆中，120° 圆心角所对的弧长是多少厘米？（π 取 3.14）",
+    "answer": "12.56",
+    "explanation": "l＝120×3.14×6÷180＝12.56（厘米）。",
+    "verify": "120*3.14*6/180"
+  },
+  {
+    "id": "cnm_180_q4",
+    "topicId": "cnm_180",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "一条弧所在圆的半径是 10 厘米，弧长是 15.7 厘米，这条弧所对的圆心角是多少度？（π 取 3.14）",
+    "answer": "90",
+    "explanation": "n＝180l/(πr)＝180×15.7÷31.4＝90（度）。",
+    "verify": "15.7*180/(3.14*10)"
+  },
+  {
+    "id": "cnm_181_q1",
+    "topicId": "cnm_181",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "半径 2 厘米的圆，面积是多少平方厘米？（π 取 3.14）",
+    "answer": "12.56",
+    "explanation": "S＝3.14×2²＝12.56（平方厘米）。",
+    "verify": "3.14*2**2"
+  },
+  {
+    "id": "cnm_181_q2",
+    "topicId": "cnm_181",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "圆的面积公式是（　）。",
+    "answer": "B",
+    "explanation": "圆的面积等于圆周率乘半径的平方。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "S＝2πr"
+      },
+      {
+        "key": "B",
+        "text": "S＝πr²"
+      },
+      {
+        "key": "C",
+        "text": "S＝πd"
+      }
+    ]
+  },
+  {
+    "id": "cnm_181_q3",
+    "topicId": "cnm_181",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "直径 8 厘米的圆，面积是多少平方厘米？（π 取 3.14）",
+    "answer": "50.24",
+    "explanation": "r＝4，S＝3.14×16＝50.24。",
+    "verify": "3.14*4**2"
+  },
+  {
+    "id": "cnm_181_q4",
+    "topicId": "cnm_181",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "圆环内圆半径 3 厘米、外圆半径 5 厘米，圆环面积是多少平方厘米？（π 取 3.14）",
+    "answer": "50.24",
+    "explanation": "S＝3.14×(25－9)＝50.24（平方厘米）。",
+    "verify": "3.14*(5**2-3**2)"
+  },
+  {
+    "id": "cnm_182_q1",
+    "topicId": "cnm_182",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "半径 4 厘米、圆心角 90° 的扇形面积是多少平方厘米？（π 取 3.14）",
+    "answer": "12.56",
+    "explanation": "S＝90/360×3.14×16＝12.56。",
+    "verify": "90/360*3.14*4**2"
+  },
+  {
+    "id": "cnm_182_q2",
+    "topicId": "cnm_182",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "半径 r、圆心角 n° 的扇形面积公式是（　）。",
+    "answer": "A",
+    "explanation": "扇形面积是圆面积的 n/360。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "nπr²/360"
+      },
+      {
+        "key": "B",
+        "text": "nπr/180"
+      },
+      {
+        "key": "C",
+        "text": "2πr"
+      }
+    ]
+  },
+  {
+    "id": "cnm_182_q3",
+    "topicId": "cnm_182",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "半径为 6 厘米、弧长为 9.42 厘米的扇形面积是多少平方厘米？",
+    "answer": "28.26",
+    "explanation": "S＝lr/2＝9.42×6÷2＝28.26（平方厘米）。",
+    "verify": "0.5*9.42*6"
+  },
+  {
+    "id": "cnm_182_q4",
+    "topicId": "cnm_182",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "一个扇形面积是 31.4 平方厘米，半径是 10 厘米，它的圆心角是多少度？（π 取 3.14）",
+    "answer": "36",
+    "explanation": "31.4＝n/360×3.14×100，解得 n＝36。",
+    "verify": "31.4*360/(3.14*100)"
+  },
+  {
+    "id": "cnm_183_q1",
+    "topicId": "cnm_183",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "－3 的相反数是多少？",
+    "answer": "3",
+    "explanation": "只有符号不同的两个数互为相反数，所以是 3。",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_183_q2",
+    "topicId": "cnm_183",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列各数中，是负分数的是（　）。",
+    "answer": "B",
+    "explanation": "－3/4 既是负数又是分数。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "－2"
+      },
+      {
+        "key": "B",
+        "text": "－3/4"
+      },
+      {
+        "key": "C",
+        "text": "0"
+      }
+    ]
+  },
+  {
+    "id": "cnm_183_q3",
+    "topicId": "cnm_183",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "在 －2、0、3.5、－1/2 中，负有理数有几个？",
+    "answer": "2",
+    "explanation": "－2 和 －1/2 是负有理数，共 2 个。",
+    "verify": "len([x for x in [-2,0,3.5,-0.5] if x<0])"
+  },
+  {
+    "id": "cnm_183_q4",
+    "topicId": "cnm_183",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "有理数中，最大的负整数是多少？",
+    "answer": "-1",
+    "explanation": "比 0 小的整数中最大的是 －1。",
+    "verify": "-1"
+  },
+  {
+    "id": "cnm_184_q1",
+    "topicId": "cnm_184",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "数轴上表示 －3 的点到原点的距离是多少个单位？",
+    "answer": "3",
+    "explanation": "距离是坐标的绝对值，|－3|＝3。",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_184_q2",
+    "topicId": "cnm_184",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "数轴上 A 表示 －2，B 表示 3，A、B 两点间的距离是（　）。",
+    "answer": "B",
+    "explanation": "3－(－2)＝5。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "－5"
+      }
+    ]
+  },
+  {
+    "id": "cnm_184_q3",
+    "topicId": "cnm_184",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "数轴上到原点距离为 4 的点所表示的数中，负数是多少？",
+    "answer": "-4",
+    "explanation": "到原点距离为 4 的点是 4 与 －4，其中负数是 －4。",
+    "verify": "-4"
+  },
+  {
+    "id": "cnm_184_q4",
+    "topicId": "cnm_184",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "数轴上表示 －1 的点先向右移动 5 个单位，再向左移动 2 个单位，最后表示的数是多少？",
+    "answer": "2",
+    "explanation": "－1＋5－2＝2。",
+    "verify": "-1+5-2"
+  },
+  {
+    "id": "cnm_185_q1",
+    "topicId": "cnm_185",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "|－7| 等于多少？",
+    "answer": "7",
+    "explanation": "－7 到原点的距离是 7。",
+    "verify": "abs(-7)"
+  },
+  {
+    "id": "cnm_185_q2",
+    "topicId": "cnm_185",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列说法中正确的是（　）。",
+    "answer": "B",
+    "explanation": "0 的绝对值是 0，是最小的；绝对值等于本身的数还有 0。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "绝对值等于本身的数只有正数"
+      },
+      {
+        "key": "B",
+        "text": "绝对值最小的数是 0"
+      },
+      {
+        "key": "C",
+        "text": "－|a| 一定是负数"
+      }
+    ]
+  },
+  {
+    "id": "cnm_185_q3",
+    "topicId": "cnm_185",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "若 |x|＝5 且 x＜0，则 x 是多少？",
+    "answer": "-5",
+    "explanation": "绝对值为 5 的数是 5 和 －5，负数解是 －5。",
+    "verify": "-5"
+  },
+  {
+    "id": "cnm_185_q4",
+    "topicId": "cnm_185",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "|3－8|＋|－2| 等于多少？",
+    "answer": "7",
+    "explanation": "|－5|＋2＝5＋2＝7。",
+    "verify": "abs(3-8)+abs(-2)"
+  },
+  {
+    "id": "cnm_186_q1",
+    "topicId": "cnm_186",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "(－3)＋(－5) 等于多少？",
+    "answer": "-8",
+    "explanation": "同号相加，取负号，绝对值相加 3＋5＝8。",
+    "verify": "-3-5"
+  },
+  {
+    "id": "cnm_186_q2",
+    "topicId": "cnm_186",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列计算正确的是（　）。",
+    "answer": "B",
+    "explanation": "异号相加取绝对值较大的符号：|－8|＞|5|，结果为 －3。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "(－2)＋3＝－5"
+      },
+      {
+        "key": "B",
+        "text": "5＋(－8)＝－3"
+      },
+      {
+        "key": "C",
+        "text": "(－4)＋4＝8"
+      }
+    ]
+  },
+  {
+    "id": "cnm_186_q3",
+    "topicId": "cnm_186",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "－7＋2＋(－1) 等于多少？",
+    "answer": "-6",
+    "explanation": "先算 －7＋(－1)＝－8，再加 2 得 －6。",
+    "verify": "-7+2-1"
+  },
+  {
+    "id": "cnm_186_q4",
+    "topicId": "cnm_186",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "绝对值小于 3 的所有整数之和是多少？",
+    "answer": "0",
+    "explanation": "这些整数是 －2、－1、0、1、2，相反数相加得 0。",
+    "verify": "sum([x for x in range(-2,3)])"
+  },
+  {
+    "id": "cnm_187_q1",
+    "topicId": "cnm_187",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "5－(－3) 等于多少？",
+    "answer": "8",
+    "explanation": "减去 －3 等于加上 3，5＋3＝8。",
+    "verify": "5+3"
+  },
+  {
+    "id": "cnm_187_q2",
+    "topicId": "cnm_187",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "(－4)－(－6)＝（　）。",
+    "answer": "B",
+    "explanation": "－4＋6＝2。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "－10"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "－2"
+      }
+    ]
+  },
+  {
+    "id": "cnm_187_q3",
+    "topicId": "cnm_187",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "－8－5＋3 等于多少？",
+    "answer": "-10",
+    "explanation": "－8－5＝－13，－13＋3＝－10。",
+    "verify": "-8-5+3"
+  },
+  {
+    "id": "cnm_187_q4",
+    "topicId": "cnm_187",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "某地气温从 －3℃ 上升到 4℃，上升了多少℃？",
+    "answer": "7",
+    "explanation": "4－(－3)＝7（℃）。",
+    "verify": "4-(-3)"
+  },
+  {
+    "id": "cnm_188_q1",
+    "topicId": "cnm_188",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "(－4)×3 等于多少？",
+    "answer": "-12",
+    "explanation": "异号相乘得负，4×3＝12。",
+    "verify": "-4*3"
+  },
+  {
+    "id": "cnm_188_q2",
+    "topicId": "cnm_188",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列各式的结果为正的是（　）。",
+    "answer": "B",
+    "explanation": "两个负因数，积为正；A 有 3 个负因数，积为负；C 的积为 0。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "(－2)×(－3)×(－1)"
+      },
+      {
+        "key": "B",
+        "text": "(－2)×(－3)"
+      },
+      {
+        "key": "C",
+        "text": "(－5)×0"
+      }
+    ]
+  },
+  {
+    "id": "cnm_188_q3",
+    "topicId": "cnm_188",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "(－2)×(－3)×(－4) 等于多少？",
+    "answer": "-24",
+    "explanation": "3 个负因数，积为负，2×3×4＝24。",
+    "verify": "-2*-3*-4"
+  },
+  {
+    "id": "cnm_188_q4",
+    "topicId": "cnm_188",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "若 ab＝－12 且 a＝－3，则 b 是多少？",
+    "answer": "4",
+    "explanation": "b＝(－12)÷(－3)＝4。",
+    "verify": "-12/-3"
+  },
+  {
+    "id": "cnm_189_q1",
+    "topicId": "cnm_189",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "(－12)÷4 等于多少？",
+    "answer": "-3",
+    "explanation": "异号相除得负，12÷4＝3。",
+    "verify": "-12/4"
+  },
+  {
+    "id": "cnm_189_q2",
+    "topicId": "cnm_189",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "(－18)÷(－6)×2＝（　）。",
+    "answer": "A",
+    "explanation": "同号相除得 3，3×2＝6。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "－6"
+      },
+      {
+        "key": "C",
+        "text": "－1.5"
+      }
+    ]
+  },
+  {
+    "id": "cnm_189_q3",
+    "topicId": "cnm_189",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "(－3/4)÷(3/8) 等于多少？",
+    "answer": "-2",
+    "explanation": "(－3/4)×(8/3)＝－2。",
+    "verify": "Fraction(-3,4)/Fraction(3,8)"
+  },
+  {
+    "id": "cnm_189_q4",
+    "topicId": "cnm_189",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "一个数的 2/5 是 －6，这个数是多少？",
+    "answer": "-15",
+    "explanation": "(－6)÷(2/5)＝－15。",
+    "verify": "-6/(2/5)"
+  },
+  {
+    "id": "cnm_190_q1",
+    "topicId": "cnm_190",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "(－2)³ 等于多少？",
+    "answer": "-8",
+    "explanation": "3 个 －2 相乘，积为负，结果为 －8。",
+    "verify": "(-2)**3"
+  },
+  {
+    "id": "cnm_190_q2",
+    "topicId": "cnm_190",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列各式中结果为负数的是（　）。",
+    "answer": "B",
+    "explanation": "－3²＝－9；(－3)²＝9；(－2)⁴＝16。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "(－3)²"
+      },
+      {
+        "key": "B",
+        "text": "－3²"
+      },
+      {
+        "key": "C",
+        "text": "(－2)⁴"
+      }
+    ]
+  },
+  {
+    "id": "cnm_190_q3",
+    "topicId": "cnm_190",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "－3²＋(－2)² 等于多少？",
+    "answer": "-5",
+    "explanation": "－9＋4＝－5。",
+    "verify": "-3**2+(-2)**2"
+  },
+  {
+    "id": "cnm_190_q4",
+    "topicId": "cnm_190",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "(－1)²⁰²⁵ 等于多少？",
+    "answer": "-1",
+    "explanation": "负数的奇次幂为负，指数是奇数，所以结果为 －1。",
+    "verify": "(-1)**3"
+  },
+  {
+    "id": "cnm_191_q1",
+    "topicId": "cnm_191",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "－6＋2×(－3) 等于多少？",
+    "answer": "-12",
+    "explanation": "先乘后加：－6－6＝－12。",
+    "verify": "-6+2*-3"
+  },
+  {
+    "id": "cnm_191_q2",
+    "topicId": "cnm_191",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "(－2)³÷4－1 的结果是（　）。",
+    "answer": "A",
+    "explanation": "－8÷4－1＝－2－1＝－3。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "－3"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "－1"
+      }
+    ]
+  },
+  {
+    "id": "cnm_191_q3",
+    "topicId": "cnm_191",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "(－8)÷(－2)－3×(－1) 等于多少？",
+    "answer": "7",
+    "explanation": "4＋3＝7。",
+    "verify": "(-8)/(-2)-3*(-1)"
+  },
+  {
+    "id": "cnm_191_q4",
+    "topicId": "cnm_191",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "－24÷[(－2)³＋4] 等于多少？",
+    "answer": "6",
+    "explanation": "括号内 －8＋4＝－4，－24÷(－4)＝6。",
+    "verify": "-24/((-2)**3+4)"
+  },
+  {
+    "id": "cnm_192_q1",
+    "topicId": "cnm_192",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "把 320 000 用科学记数法表示成 a×10⁵，a 是多少？",
+    "answer": "3.2",
+    "explanation": "320000＝3.2×10⁵。",
+    "verify": "3.2"
+  },
+  {
+    "id": "cnm_192_q2",
+    "topicId": "cnm_192",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "0.000 58 用科学记数法表示是（　）。",
+    "answer": "A",
+    "explanation": "小数点右移 4 位得到 5.8，指数为 －4。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "5.8×10⁻⁴"
+      },
+      {
+        "key": "B",
+        "text": "5.8×10⁻³"
+      },
+      {
+        "key": "C",
+        "text": "58×10⁻⁵"
+      }
+    ]
+  },
+  {
+    "id": "cnm_192_q3",
+    "topicId": "cnm_192",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "6.5×10⁴ 写成原数是多少？",
+    "answer": "65000",
+    "explanation": "小数点右移 4 位，得 65000。",
+    "verify": "6.5*10**4"
+  },
+  {
+    "id": "cnm_192_q4",
+    "topicId": "cnm_192",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "2.4×10⁵ 与 3×10⁴ 的积用科学记数法表示为 7.2×10ⁿ，n 是多少？",
+    "answer": "9",
+    "explanation": "2.4×3＝7.2，10⁵×10⁴＝10⁹，所以 n＝9。",
+    "verify": "5+4"
+  },
+  {
+    "id": "cnm_193_q1",
+    "topicId": "cnm_193",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "方程 2x＋1＝7 的解是多少？",
+    "answer": "3",
+    "explanation": "2x＝6，x＝3。",
+    "verify": "(7-1)/2"
+  },
+  {
+    "id": "cnm_193_q2",
+    "topicId": "cnm_193",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列方程中解为 x＝2 的是（　）。",
+    "answer": "B",
+    "explanation": "2－1＝1，成立；C 中 2×2＋1＝5≠3。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3x＝5"
+      },
+      {
+        "key": "B",
+        "text": "x－1＝1"
+      },
+      {
+        "key": "C",
+        "text": "2x＋1＝3"
+      }
+    ]
+  },
+  {
+    "id": "cnm_193_q3",
+    "topicId": "cnm_193",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "若 x＝2 是方程 3x－a＝5 的解，则 a 是多少？",
+    "answer": "1",
+    "explanation": "6－a＝5，a＝1。",
+    "verify": "3*2-5"
+  },
+  {
+    "id": "cnm_193_q4",
+    "topicId": "cnm_193",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "方程 5(x－2)＝3x 的解是多少？",
+    "answer": "5",
+    "explanation": "5x－10＝3x，2x＝10，x＝5。",
+    "verify": "10/(5-3)"
+  },
+  {
+    "id": "cnm_194_q1",
+    "topicId": "cnm_194",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "解方程 3x－5＝7，x 是多少？",
+    "answer": "4",
+    "explanation": "3x＝12，x＝4。",
+    "verify": "(7+5)/3"
+  },
+  {
+    "id": "cnm_194_q2",
+    "topicId": "cnm_194",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "方程 2(x－1)＝x＋3 的解是（　）。",
+    "answer": "A",
+    "explanation": "2x－2＝x＋3，x＝5。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "x＝5"
+      },
+      {
+        "key": "B",
+        "text": "x＝1"
+      },
+      {
+        "key": "C",
+        "text": "x＝－5"
+      }
+    ]
+  },
+  {
+    "id": "cnm_194_q3",
+    "topicId": "cnm_194",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "解方程 (x＋1)/2＝(2x－1)/3，x 是多少？",
+    "answer": "5",
+    "explanation": "3x＋3＝4x－2，解得 x＝5。",
+    "verify": "5"
+  },
+  {
+    "id": "cnm_194_q4",
+    "topicId": "cnm_194",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "解方程 0.3x－0.2＝0.1x＋0.4，x 是多少？",
+    "answer": "3",
+    "explanation": "0.2x＝0.6，x＝3。",
+    "verify": "(0.4+0.2)/(0.3-0.1)"
+  },
+  {
+    "id": "cnm_195_q1",
+    "topicId": "cnm_195",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "某数的 3 倍减去 5 等于 16，这个数是多少？",
+    "answer": "7",
+    "explanation": "3x－5＝16，x＝7。",
+    "verify": "(16+5)/3"
+  },
+  {
+    "id": "cnm_195_q2",
+    "topicId": "cnm_195",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "某商品打八折后是 96 元，原价是（　）。",
+    "answer": "A",
+    "explanation": "0.8x＝96，x＝120。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "120 元"
+      },
+      {
+        "key": "B",
+        "text": "76.8 元"
+      },
+      {
+        "key": "C",
+        "text": "100 元"
+      }
+    ]
+  },
+  {
+    "id": "cnm_195_q3",
+    "topicId": "cnm_195",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "甲、乙两数的和是 30，甲是乙的 2 倍，甲数是多少？",
+    "answer": "20",
+    "explanation": "设乙为 x，3x＝30，x＝10，甲是 20。",
+    "verify": "30*2/3"
+  },
+  {
+    "id": "cnm_195_q4",
+    "topicId": "cnm_195",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "一项工作甲单独做 10 天完成，乙单独做 15 天完成，两人合作几天完成？",
+    "answer": "6",
+    "explanation": "设合作 x 天完成，x/10＋x/15＝1，解得 x＝6。",
+    "verify": "1/(1/10+1/15)"
+  },
+  {
+    "id": "cnm_196_q1",
+    "topicId": "cnm_196",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "不等式 x＋3＞5 的最小整数值是多少？",
+    "answer": "3",
+    "explanation": "x＞2，最小整数是 3。",
+    "verify": "5-3+1"
+  },
+  {
+    "id": "cnm_196_q2",
+    "topicId": "cnm_196",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "若 a＜b，则下列一定成立的是（　）。",
+    "answer": "A",
+    "explanation": "不等式两边同减一个数，方向不变；乘负数要变号。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "a－2＜b－2"
+      },
+      {
+        "key": "B",
+        "text": "－2a＜－2b"
+      },
+      {
+        "key": "C",
+        "text": "a²＜b²"
+      }
+    ]
+  },
+  {
+    "id": "cnm_196_q3",
+    "topicId": "cnm_196",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "不等式 －2x＞6 的解集是 x＜a，a 是多少？",
+    "answer": "-3",
+    "explanation": "两边除以 －2 并变号，得 x＜－3。",
+    "verify": "6/-2"
+  },
+  {
+    "id": "cnm_196_q4",
+    "topicId": "cnm_196",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "不等式 2x－1＜7 的正整数解有几个？",
+    "answer": "3",
+    "explanation": "解得 x＜4，正整数解是 1、2、3，共 3 个。",
+    "verify": "len([x for x in range(1,10) if 2*x-1<7])"
+  },
+  {
+    "id": "cnm_197_q1",
+    "topicId": "cnm_197",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "不等式 2x＋1＜7 的最大整数解是多少？",
+    "answer": "2",
+    "explanation": "解得 x＜3，最大整数是 2。",
+    "verify": "[x for x in range(-10,10) if 2*x+1<7][-1]"
+  },
+  {
+    "id": "cnm_197_q2",
+    "topicId": "cnm_197",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "不等式 3x－2≥4 的解集是（　）。",
+    "answer": "A",
+    "explanation": "3x≥6，x≥2。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "x≥2"
+      },
+      {
+        "key": "B",
+        "text": "x≤2"
+      },
+      {
+        "key": "C",
+        "text": "x＞2"
+      }
+    ]
+  },
+  {
+    "id": "cnm_197_q3",
+    "topicId": "cnm_197",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "不等式 (x－1)/2≤1 的解集中最大的整数是多少？",
+    "answer": "3",
+    "explanation": "x－1≤2，x≤3，最大整数是 3。",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_197_q4",
+    "topicId": "cnm_197",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "不等式 5－2x＞1 的非负整数解有几个？",
+    "answer": "2",
+    "explanation": "解得 x＜2，非负整数解是 0、1，共 2 个。",
+    "verify": "len([x for x in range(0,10) if 5-2*x>1])"
+  },
+  {
+    "id": "cnm_198_q1",
+    "topicId": "cnm_198",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "不等式组 x＞1 且 x＜4 的整数解有几个？",
+    "answer": "2",
+    "explanation": "整数解是 2、3，共 2 个。",
+    "verify": "len([x for x in range(-5,10) if x>1 and x<4])"
+  },
+  {
+    "id": "cnm_198_q2",
+    "topicId": "cnm_198",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "不等式组 x≥－1 且 x＜2 的解集是（　）。",
+    "answer": "A",
+    "explanation": "第一个不等式含等号，第二个不含。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "－1≤x＜2"
+      },
+      {
+        "key": "B",
+        "text": "－1＜x≤2"
+      },
+      {
+        "key": "C",
+        "text": "x＜2"
+      }
+    ]
+  },
+  {
+    "id": "cnm_198_q3",
+    "topicId": "cnm_198",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "不等式组 x－1＞0 且 x＋2＜5 的整数解有几个？",
+    "answer": "1",
+    "explanation": "解集为 1＜x＜3，整数解只有 2，共 1 个。",
+    "verify": "len([x for x in range(-5,10) if x-1>0 and x+2<5])"
+  },
+  {
+    "id": "cnm_198_q4",
+    "topicId": "cnm_198",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "若不等式组 x＞a 且 x＜3 无解，则 a 的最小值是多少？",
+    "answer": "3",
+    "explanation": "要有解需 a＜3；当 a≥3 时无解，所以 a 的最小值是 3。",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_199_q1",
+    "topicId": "cnm_199",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "解方程组 x＋y＝5，x－y＝1，x 是多少？",
+    "answer": "3",
+    "explanation": "两式相加得 2x＝6，x＝3。",
+    "verify": "(5+1)/2"
+  },
+  {
+    "id": "cnm_199_q2",
+    "topicId": "cnm_199",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "方程组 2x＋y＝7，x－y＝2 的解是（　）。",
+    "answer": "A",
+    "explanation": "2×3＋1＝7，3－1＝2，均成立。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "x＝3，y＝1"
+      },
+      {
+        "key": "B",
+        "text": "x＝1，y＝3"
+      },
+      {
+        "key": "C",
+        "text": "x＝3，y＝－1"
+      }
+    ]
+  },
+  {
+    "id": "cnm_199_q3",
+    "topicId": "cnm_199",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "解方程组 3x＋2y＝12，x＝2，则 y 是多少？",
+    "answer": "3",
+    "explanation": "6＋2y＝12，y＝3。",
+    "verify": "(12-6)/2"
+  },
+  {
+    "id": "cnm_199_q4",
+    "topicId": "cnm_199",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "若 x＋y＝4 且 2x－y＝5，则 x 是多少？",
+    "answer": "3",
+    "explanation": "两式相加得 3x＝9，x＝3。",
+    "verify": "9/3"
+  },
+  {
+    "id": "cnm_200_q1",
+    "topicId": "cnm_200",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "方程组 x＋y＋z＝6，x＝1，y＝2 中 z 是多少？",
+    "answer": "3",
+    "explanation": "1＋2＋z＝6，z＝3。",
+    "verify": "6-1-2"
+  },
+  {
+    "id": "cnm_200_q2",
+    "topicId": "cnm_200",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "解三元一次方程组的基本思想是（　）。",
+    "answer": "A",
+    "explanation": "通过消元把三元化为二元、再化为一元。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "消元"
+      },
+      {
+        "key": "B",
+        "text": "配方"
+      },
+      {
+        "key": "C",
+        "text": "因式分解"
+      }
+    ]
+  },
+  {
+    "id": "cnm_200_q3",
+    "topicId": "cnm_200",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "方程组 x＋y＝3，y＋z＝5，x＋z＝4 中 z 是多少？",
+    "answer": "3",
+    "explanation": "三式相加得 x＋y＋z＝6，再减 x＋y＝3，得 z＝3。",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_200_q4",
+    "topicId": "cnm_200",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "方程组 x＋y＝3，y＋z＝5，x＋z＝4 中 x 是多少？",
+    "answer": "1",
+    "explanation": "由上一题 x＋y＋z＝6，减 y＋z＝5 得 x＝1。",
+    "verify": "1"
+  },
+  {
+    "id": "cnm_201_q1",
+    "topicId": "cnm_201",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "两种票共 10 张，总价 55 元，甲票 5 元、乙票 6 元，甲票有几张？",
+    "answer": "5",
+    "explanation": "设甲 x 张，5x＋6(10－x)＝55，解得 x＝5。",
+    "verify": "(6*10-55)/(6-5)"
+  },
+  {
+    "id": "cnm_201_q2",
+    "topicId": "cnm_201",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "甲、乙两数的和是 20，差是 4，较大的数是（　）。",
+    "answer": "A",
+    "explanation": "x＋y＝20，x－y＝4，解得 x＝12。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "12"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "16"
+      }
+    ]
+  },
+  {
+    "id": "cnm_201_q3",
+    "topicId": "cnm_201",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "长方形周长是 24，长比宽多 2，长是多少？",
+    "answer": "7",
+    "explanation": "设宽 x，2(x＋x＋2)＝24，x＝5，长是 7。",
+    "verify": "(24/2+2)/2"
+  },
+  {
+    "id": "cnm_201_q4",
+    "topicId": "cnm_201",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "甲、乙两人相距 30 千米相向而行，甲速 4 千米/时、乙速 6 千米/时，几小时后相遇？",
+    "answer": "3",
+    "explanation": "30÷(4＋6)＝3（小时）。",
+    "verify": "30/(4+6)"
+  },
+  {
+    "id": "cnm_202_q1",
+    "topicId": "cnm_202",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "点 C 是线段 AB 的中点，AB＝10，AC 是多少？",
+    "answer": "5",
+    "explanation": "中点把线段分成相等的两段，10÷2＝5。",
+    "verify": "10/2"
+  },
+  {
+    "id": "cnm_202_q2",
+    "topicId": "cnm_202",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列说法中正确的是（　）。",
+    "answer": "A",
+    "explanation": "射线只有一个端点，直线没有端点，不能比较长短。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "两点之间线段最短"
+      },
+      {
+        "key": "B",
+        "text": "射线比直线长"
+      },
+      {
+        "key": "C",
+        "text": "线段有两个端点，射线也有两个端点"
+      }
+    ]
+  },
+  {
+    "id": "cnm_202_q3",
+    "topicId": "cnm_202",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "线段 AB＝12，C 在 AB 上且 AC＝5，M 是 BC 的中点，AM 是多少？",
+    "answer": "8.5",
+    "explanation": "BC＝7，BM＝3.5，AM＝5＋3.5＝8.5。",
+    "verify": "5+(12-5)/2"
+  },
+  {
+    "id": "cnm_202_q4",
+    "topicId": "cnm_202",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "平面内 4 个点，任意三点不共线，过其中两点画直线，最多能画几条？",
+    "answer": "6",
+    "explanation": "每两点确定一条直线，共 C(4,2)＝6 条。",
+    "verify": "comb(4,2)"
+  },
+  {
+    "id": "cnm_203_q1",
+    "topicId": "cnm_203",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "1 直角等于多少度？",
+    "answer": "90",
+    "explanation": "直角是 90°。",
+    "verify": "90"
+  },
+  {
+    "id": "cnm_203_q2",
+    "topicId": "cnm_203",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "钟表 3 点整时，时针与分针的夹角是（　）。",
+    "answer": "A",
+    "explanation": "3 点整分针指向 12、时针指向 3，夹角 90°。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "90°"
+      },
+      {
+        "key": "B",
+        "text": "60°"
+      },
+      {
+        "key": "C",
+        "text": "30°"
+      }
+    ]
+  },
+  {
+    "id": "cnm_203_q3",
+    "topicId": "cnm_203",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "1 平角等于多少个直角？",
+    "answer": "2",
+    "explanation": "180°÷90°＝2。",
+    "verify": "180/90"
+  },
+  {
+    "id": "cnm_203_q4",
+    "topicId": "cnm_203",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "把一个周角平均分成 12 份，每份是多少度？",
+    "answer": "30",
+    "explanation": "360°÷12＝30°。",
+    "verify": "360/12"
+  },
+  {
+    "id": "cnm_204_q1",
+    "topicId": "cnm_204",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "∠A＝35°，∠B＝48°，∠A＋∠B 是多少度？",
+    "answer": "83",
+    "explanation": "35＋48＝83（度）。",
+    "verify": "35+48"
+  },
+  {
+    "id": "cnm_204_q2",
+    "topicId": "cnm_204",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "OC 在 ∠AOB 内部，∠AOB＝80°，∠AOC＝30°，则 ∠COB＝（　）。",
+    "answer": "A",
+    "explanation": "80°－30°＝50°。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "50°"
+      },
+      {
+        "key": "B",
+        "text": "110°"
+      },
+      {
+        "key": "C",
+        "text": "30°"
+      }
+    ]
+  },
+  {
+    "id": "cnm_204_q3",
+    "topicId": "cnm_204",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "∠1＝28°30′，∠2＝41°30′，∠1＋∠2 是多少度？",
+    "answer": "70",
+    "explanation": "30′＋30′＝60′＝1°，28＋41＋1＝70°。",
+    "verify": "28.5+41.5"
+  },
+  {
+    "id": "cnm_204_q4",
+    "topicId": "cnm_204",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "一个角是 40°，它的 3 倍与 180° 相差多少度？",
+    "answer": "60",
+    "explanation": "3×40°＝120°，180°－120°＝60°。",
+    "verify": "180-3*40"
+  },
+  {
+    "id": "cnm_205_q1",
+    "topicId": "cnm_205",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "35° 的余角是多少度？",
+    "answer": "55",
+    "explanation": "90°－35°＝55°。",
+    "verify": "90-35"
+  },
+  {
+    "id": "cnm_205_q2",
+    "topicId": "cnm_205",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "若 ∠1 与 ∠2 互补，∠1＝110°，则 ∠2＝（　）。",
+    "answer": "A",
+    "explanation": "180°－110°＝70°。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "70°"
+      },
+      {
+        "key": "B",
+        "text": "20°"
+      },
+      {
+        "key": "C",
+        "text": "110°"
+      }
+    ]
+  },
+  {
+    "id": "cnm_205_q3",
+    "topicId": "cnm_205",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "一个角的补角是它的 3 倍，这个角是多少度？",
+    "answer": "45",
+    "explanation": "180－x＝3x，x＝45。",
+    "verify": "180/4"
+  },
+  {
+    "id": "cnm_205_q4",
+    "topicId": "cnm_205",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "同一个角的余角比它的补角小多少度？",
+    "answer": "90",
+    "explanation": "补角－余角＝(180－x)－(90－x)＝90（度）。",
+    "verify": "90"
+  },
+  {
+    "id": "cnm_206_q1",
+    "topicId": "cnm_206",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "长方体有多少条棱？",
+    "answer": "12",
+    "explanation": "长方体有 12 条棱。",
+    "verify": "12"
+  },
+  {
+    "id": "cnm_206_q2",
+    "topicId": "cnm_206",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "长方体有多少个面（　）。",
+    "answer": "A",
+    "explanation": "长方体有 6 个面，其中相对的面全等。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "12"
+      }
+    ]
+  },
+  {
+    "id": "cnm_206_q3",
+    "topicId": "cnm_206",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "长方体的顶点个数与棱的条数之和是多少？",
+    "answer": "20",
+    "explanation": "8＋12＝20。",
+    "verify": "8+12"
+  },
+  {
+    "id": "cnm_206_q4",
+    "topicId": "cnm_206",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "用长 4 cm、宽 3 cm、高 2 cm 的铁丝做一个长方体框架，需要铁丝多少厘米？",
+    "answer": "36",
+    "explanation": "4×(4＋3＋2)＝36（厘米）。",
+    "verify": "4*(4+3+2)"
+  },
+  {
+    "id": "cnm_207_q1",
+    "topicId": "cnm_207",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "长方体中与一条棱平行的棱有几条？",
+    "answer": "3",
+    "explanation": "每组 4 条平行棱，除去自身还有 3 条。",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_207_q2",
+    "topicId": "cnm_207",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "长方体中，与一条棱相交的棱有几条（　）。",
+    "answer": "B",
+    "explanation": "这条棱的两个端点处各连着 2 条其他棱，共 4 条。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      }
+    ]
+  },
+  {
+    "id": "cnm_207_q3",
+    "topicId": "cnm_207",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "长方体中与一条棱异面的棱有几条？",
+    "answer": "4",
+    "explanation": "12－1－3－4＝4（条）。",
+    "verify": "12-1-3-4"
+  },
+  {
+    "id": "cnm_207_q4",
+    "topicId": "cnm_207",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "长方体中棱与棱的位置关系共有几种？",
+    "answer": "3",
+    "explanation": "平行、相交、异面，共 3 种。",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_208_q1",
+    "topicId": "cnm_208",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "长方体中与一个面平行的面有几个？",
+    "answer": "1",
+    "explanation": "每个面都只有一个相对的面与它平行。",
+    "verify": "1"
+  },
+  {
+    "id": "cnm_208_q2",
+    "topicId": "cnm_208",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "长方体中与一条棱垂直的面有几个（　）。",
+    "answer": "B",
+    "explanation": "这条棱两端各有一个面与它垂直。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      }
+    ]
+  },
+  {
+    "id": "cnm_208_q3",
+    "topicId": "cnm_208",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "长方体有多少对互相平行的面？",
+    "answer": "3",
+    "explanation": "6 个面两两相对，共 3 对。",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_208_q4",
+    "topicId": "cnm_208",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "长方体的 12 条棱中，与某个面平行的棱有几条？",
+    "answer": "4",
+    "explanation": "与这个面相对的面上有 4 条棱与该面平行。",
+    "verify": "4"
+  },
+  {
+    "id": "cnm_209_q1",
+    "topicId": "cnm_209",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "当 x＝3 时，代数式 2x＋1 的值是多少？",
+    "answer": "7",
+    "explanation": "2×3＋1＝7。",
+    "verify": "2*3+1"
+  },
+  {
+    "id": "cnm_209_q2",
+    "topicId": "cnm_209",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列各式中，是代数式的是（　）。",
+    "answer": "A",
+    "explanation": "代数式中不含等号、不等号。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "a＋b"
+      },
+      {
+        "key": "B",
+        "text": "3＋2＝5"
+      },
+      {
+        "key": "C",
+        "text": "x＞1"
+      }
+    ]
+  },
+  {
+    "id": "cnm_209_q3",
+    "topicId": "cnm_209",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "用代数式表示“a 的平方与 b 的和”，当 a＝2、b＝3 时，这个代数式的值是多少？",
+    "answer": "7",
+    "explanation": "代数式为 a²＋b，代入得 4＋3＝7。",
+    "verify": "2**2+3"
+  },
+  {
+    "id": "cnm_209_q4",
+    "topicId": "cnm_209",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "某商品原价 a 元，打八折后是 0.8a 元，当 a＝150 时是多少元？",
+    "answer": "120",
+    "explanation": "0.8×150＝120（元）。",
+    "verify": "150*0.8"
+  },
+  {
+    "id": "cnm_210_q1",
+    "topicId": "cnm_210",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "当 x＝－2 时，x²＋1 的值是多少？",
+    "answer": "5",
+    "explanation": "(－2)²＋1＝4＋1＝5。",
+    "verify": "(-2)**2+1"
+  },
+  {
+    "id": "cnm_210_q2",
+    "topicId": "cnm_210",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "当 a＝2、b＝－1 时，2a－b 的值是（　）。",
+    "answer": "B",
+    "explanation": "2×2－(－1)＝5。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "－3"
+      }
+    ]
+  },
+  {
+    "id": "cnm_210_q3",
+    "topicId": "cnm_210",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "当 x＝1/2 时，4x² 的值是多少？",
+    "answer": "1",
+    "explanation": "4×(1/2)²＝4×1/4＝1。",
+    "verify": "4*(1/2)**2"
+  },
+  {
+    "id": "cnm_210_q4",
+    "topicId": "cnm_210",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "已知 x＋y＝5，xy＝6，则 x²＋y² 是多少？",
+    "answer": "13",
+    "explanation": "x²＋y²＝(x＋y)²－2xy＝25－12＝13。",
+    "verify": "5**2-2*6"
+  },
+  {
+    "id": "cnm_211_q1",
+    "topicId": "cnm_211",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "单项式 －3x²y 的次数是多少？",
+    "answer": "3",
+    "explanation": "x 的指数 2 加 y 的指数 1，得 3。",
+    "verify": "2+1"
+  },
+  {
+    "id": "cnm_211_q2",
+    "topicId": "cnm_211",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列各式中是多项式的是（　）。",
+    "answer": "B",
+    "explanation": "x²＋1 是几个单项式的和；1/x 不是整式。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2x"
+      },
+      {
+        "key": "B",
+        "text": "x²＋1"
+      },
+      {
+        "key": "C",
+        "text": "1/x"
+      }
+    ]
+  },
+  {
+    "id": "cnm_211_q3",
+    "topicId": "cnm_211",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "多项式 2x³－5x＋1 的次数是多少？",
+    "answer": "3",
+    "explanation": "最高次项是 2x³，次数为 3。",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_211_q4",
+    "topicId": "cnm_211",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "单项式 4a²b 的系数与次数之和是多少？",
+    "answer": "7",
+    "explanation": "系数 4，次数 3，4＋3＝7。",
+    "verify": "4+3"
+  },
+  {
+    "id": "cnm_212_q1",
+    "topicId": "cnm_212",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "合并同类项 3x＋2x，结果中 x 的系数是多少？",
+    "answer": "5",
+    "explanation": "3＋2＝5，结果是 5x。",
+    "verify": "3+2"
+  },
+  {
+    "id": "cnm_212_q2",
+    "topicId": "cnm_212",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列各组中，是同类项的是（　）。",
+    "answer": "B",
+    "explanation": "两项所含字母相同，且相同字母的指数也相同。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2x²y 与 2xy²"
+      },
+      {
+        "key": "B",
+        "text": "3ab 与 －5ab"
+      },
+      {
+        "key": "C",
+        "text": "x² 与 x³"
+      }
+    ]
+  },
+  {
+    "id": "cnm_212_q3",
+    "topicId": "cnm_212",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "化简 5a－2a＋3a 后，a 的系数是多少？",
+    "answer": "6",
+    "explanation": "5－2＋3＝6。",
+    "verify": "5-2+3"
+  },
+  {
+    "id": "cnm_212_q4",
+    "topicId": "cnm_212",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "化简 2x²－3x＋4－5x²＋2x 后，x² 的系数是多少？",
+    "answer": "-3",
+    "explanation": "2x²－5x²＝－3x²。",
+    "verify": "2-5"
+  },
+  {
+    "id": "cnm_213_q1",
+    "topicId": "cnm_213",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "(3x＋1)＋(2x－4) 中 x 的系数是多少？",
+    "answer": "5",
+    "explanation": "合并同类项得 5x－3，x 的系数是 5。",
+    "verify": "3+2"
+  },
+  {
+    "id": "cnm_213_q2",
+    "topicId": "cnm_213",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "化简 (2a－b)－(a＋3b) 的结果是（　）。",
+    "answer": "A",
+    "explanation": "2a－b－a－3b＝a－4b。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "a－4b"
+      },
+      {
+        "key": "B",
+        "text": "a＋2b"
+      },
+      {
+        "key": "C",
+        "text": "3a－4b"
+      }
+    ]
+  },
+  {
+    "id": "cnm_213_q3",
+    "topicId": "cnm_213",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "化简 3(x＋2)－2(x－1) 后，x 的系数是多少？",
+    "answer": "1",
+    "explanation": "3x＋6－2x＋2＝x＋8。",
+    "verify": "3-2"
+  },
+  {
+    "id": "cnm_213_q4",
+    "topicId": "cnm_213",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "化简 2(x²＋x)－3(x²－x) 后，当 x＝1 时值是多少？",
+    "answer": "4",
+    "explanation": "原式＝－x²＋5x，代入 x＝1 得 4。",
+    "verify": "-1**2+5"
+  },
+  {
+    "id": "cnm_214_q1",
+    "topicId": "cnm_214",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "a³·a²＝aⁿ，n 是多少？",
+    "answer": "5",
+    "explanation": "指数相加 3＋2＝5。",
+    "verify": "3+2"
+  },
+  {
+    "id": "cnm_214_q2",
+    "topicId": "cnm_214",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "计算 2³×2² 的结果是（　）。",
+    "answer": "A",
+    "explanation": "同底数幂相乘，指数相加得 2⁵。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2⁵"
+      },
+      {
+        "key": "B",
+        "text": "2⁶"
+      },
+      {
+        "key": "C",
+        "text": "4⁵"
+      }
+    ]
+  },
+  {
+    "id": "cnm_214_q3",
+    "topicId": "cnm_214",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "(－a)²·a³ 中 a 的指数是多少？",
+    "answer": "5",
+    "explanation": "(－a)²＝a²，a²·a³＝a⁵。",
+    "verify": "2+3"
+  },
+  {
+    "id": "cnm_214_q4",
+    "topicId": "cnm_214",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "若 2ˣ·2³＝2⁷，则 x 是多少？",
+    "answer": "4",
+    "explanation": "x＋3＝7，x＝4。",
+    "verify": "7-3"
+  },
+  {
+    "id": "cnm_215_q1",
+    "topicId": "cnm_215",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "(a²)³＝aⁿ，n 是多少？",
+    "answer": "6",
+    "explanation": "指数相乘 2×3＝6。",
+    "verify": "2*3"
+  },
+  {
+    "id": "cnm_215_q2",
+    "topicId": "cnm_215",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "(2x)³ 等于（　）。",
+    "answer": "B",
+    "explanation": "积的乘方：2³·x³＝8x³。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2x³"
+      },
+      {
+        "key": "B",
+        "text": "8x³"
+      },
+      {
+        "key": "C",
+        "text": "6x³"
+      }
+    ]
+  },
+  {
+    "id": "cnm_215_q3",
+    "topicId": "cnm_215",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "(－2a²)³ 中 a 的指数是多少？",
+    "answer": "6",
+    "explanation": "指数相乘 2×3＝6，结果为 －8a⁶。",
+    "verify": "2*3"
+  },
+  {
+    "id": "cnm_215_q4",
+    "topicId": "cnm_215",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "若 (2²)ⁿ＝2¹²，则 n 是多少？",
+    "answer": "6",
+    "explanation": "2n＝12，n＝6。",
+    "verify": "12/2"
+  },
+  {
+    "id": "cnm_216_q1",
+    "topicId": "cnm_216",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "2x²·3x＝6xⁿ，n 是多少？",
+    "answer": "3",
+    "explanation": "x 的指数 2＋1＝3。",
+    "verify": "2+1"
+  },
+  {
+    "id": "cnm_216_q2",
+    "topicId": "cnm_216",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "计算 x(x＋2) 的结果是（　）。",
+    "answer": "B",
+    "explanation": "用分配律：x²＋2x。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "x²＋2"
+      },
+      {
+        "key": "B",
+        "text": "x²＋2x"
+      },
+      {
+        "key": "C",
+        "text": "2x²"
+      }
+    ]
+  },
+  {
+    "id": "cnm_216_q3",
+    "topicId": "cnm_216",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "(x＋2)(x－3) 展开后一次项的系数是多少？",
+    "answer": "-1",
+    "explanation": "x²－3x＋2x－6＝x²－x－6。",
+    "verify": "2-3"
+  },
+  {
+    "id": "cnm_216_q4",
+    "topicId": "cnm_216",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "(2x－1)(x＋3) 展开后的常数项是多少？",
+    "answer": "-3",
+    "explanation": "(－1)×3＝－3。",
+    "verify": "-1*3"
+  },
+  {
+    "id": "cnm_217_q1",
+    "topicId": "cnm_217",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "(x＋2)(x－2)＝x²－□，□ 是多少？",
+    "answer": "4",
+    "explanation": "平方差公式：x²－2²＝x²－4。",
+    "verify": "2**2"
+  },
+  {
+    "id": "cnm_217_q2",
+    "topicId": "cnm_217",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列各式中，能用平方差公式计算的是（　）。",
+    "answer": "B",
+    "explanation": "只有一同一反才符合平方差公式的结构。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "(a＋b)(a＋b)"
+      },
+      {
+        "key": "B",
+        "text": "(a＋b)(a－b)"
+      },
+      {
+        "key": "C",
+        "text": "(a－b)(b－a)"
+      }
+    ]
+  },
+  {
+    "id": "cnm_217_q3",
+    "topicId": "cnm_217",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "101×99 的值是多少？",
+    "answer": "9999",
+    "explanation": "100²－1²＝9999。",
+    "verify": "101*99"
+  },
+  {
+    "id": "cnm_217_q4",
+    "topicId": "cnm_217",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "(a＋b)(a－b)(a²＋b²) 化简后 a 的最高次幂是多少？",
+    "answer": "4",
+    "explanation": "前两项得 a²－b²，再乘 a²＋b² 得 a⁴－b⁴。",
+    "verify": "4"
+  },
+  {
+    "id": "cnm_218_q1",
+    "topicId": "cnm_218",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "(x＋3)² 展开后 x 的系数是多少？",
+    "answer": "6",
+    "explanation": "中间项为 2×3x＝6x。",
+    "verify": "2*3"
+  },
+  {
+    "id": "cnm_218_q2",
+    "topicId": "cnm_218",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "(a－b)² 等于（　）。",
+    "answer": "B",
+    "explanation": "差的完全平方：首平方、尾平方、中间是积的 2 倍的相反数。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "a²－b²"
+      },
+      {
+        "key": "B",
+        "text": "a²－2ab＋b²"
+      },
+      {
+        "key": "C",
+        "text": "a²＋2ab＋b²"
+      }
+    ]
+  },
+  {
+    "id": "cnm_218_q3",
+    "topicId": "cnm_218",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "(x－5)² 展开后的常数项是多少？",
+    "answer": "25",
+    "explanation": "尾项为 (－5)²＝25。",
+    "verify": "(-5)**2"
+  },
+  {
+    "id": "cnm_218_q4",
+    "topicId": "cnm_218",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "已知 x＋y＝4，xy＝3，则 (x－y)² 是多少？",
+    "answer": "4",
+    "explanation": "(x－y)²＝(x＋y)²－4xy＝16－12＝4。",
+    "verify": "4**2-4*3"
+  },
+  {
+    "id": "cnm_219_q1",
+    "topicId": "cnm_219",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "6a²b－3ab² 提取公因式 3ab 后，括号内 a 的系数是多少？",
+    "answer": "2",
+    "explanation": "6a²b÷3ab＝2a。",
+    "verify": "6/3"
+  },
+  {
+    "id": "cnm_219_q2",
+    "topicId": "cnm_219",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "多项式 4x²－8x 分解因式的结果是（　）。",
+    "answer": "A",
+    "explanation": "公因式 4x，括号内为 x－2。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4x(x－2)"
+      },
+      {
+        "key": "B",
+        "text": "4x(x－8)"
+      },
+      {
+        "key": "C",
+        "text": "2x(2x－4)"
+      }
+    ]
+  },
+  {
+    "id": "cnm_219_q3",
+    "topicId": "cnm_219",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "把 －4a²＋8ab 分解因式，提出 －4a 后括号内 b 的系数是多少？",
+    "answer": "-2",
+    "explanation": "8ab÷(－4a)＝－2b。",
+    "verify": "8/-4"
+  },
+  {
+    "id": "cnm_219_q4",
+    "topicId": "cnm_219",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "若 a＋b＝5，ab＝3，则 a²b＋ab² 是多少？",
+    "answer": "15",
+    "explanation": "a²b＋ab²＝ab(a＋b)＝3×5＝15。",
+    "verify": "5*3"
+  },
+  {
+    "id": "cnm_220_q1",
+    "topicId": "cnm_220",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "x²－9 分解因式后，其中一个因式是 x＋3，另一个因式是 x－几？",
+    "answer": "3",
+    "explanation": "x²－3²＝(x＋3)(x－3)。",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_220_q2",
+    "topicId": "cnm_220",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列多项式中，能用平方差公式分解因式的是（　）。",
+    "answer": "B",
+    "explanation": "x²－4＝(x＋2)(x－2)。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "x²＋4"
+      },
+      {
+        "key": "B",
+        "text": "x²－4"
+      },
+      {
+        "key": "C",
+        "text": "x²－4x＋4"
+      }
+    ]
+  },
+  {
+    "id": "cnm_220_q3",
+    "topicId": "cnm_220",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "x²－6x＋9 分解因式为 (x－a)²，a 是多少？",
+    "answer": "3",
+    "explanation": "中间项为 －2·x·3，所以 a＝3。",
+    "verify": "6/2"
+  },
+  {
+    "id": "cnm_220_q4",
+    "topicId": "cnm_220",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "把 a⁴－b⁴ 分解因式，共得到几个因式（不可再分的整式）？",
+    "answer": "3",
+    "explanation": "a⁴－b⁴＝(a－b)(a＋b)(a²＋b²)。",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_221_q1",
+    "topicId": "cnm_221",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "x²＋5x＋6＝(x＋2)(x＋3)，两个常数之积是多少？",
+    "answer": "6",
+    "explanation": "2×3＝6，等于常数项；2＋3＝5，等于一次项系数。",
+    "verify": "2*3"
+  },
+  {
+    "id": "cnm_221_q2",
+    "topicId": "cnm_221",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "x²－7x＋12 分解因式的结果是（　）。",
+    "answer": "A",
+    "explanation": "(－3)＋(－4)＝－7，(－3)×(－4)＝12。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "(x－3)(x－4)"
+      },
+      {
+        "key": "B",
+        "text": "(x＋3)(x＋4)"
+      },
+      {
+        "key": "C",
+        "text": "(x－2)(x－6)"
+      }
+    ]
+  },
+  {
+    "id": "cnm_221_q3",
+    "topicId": "cnm_221",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "x²＋x－6 分解因式后，两个因式中常数项之和是多少？",
+    "answer": "1",
+    "explanation": "x²＋x－6＝(x＋3)(x－2)，3＋(－2)＝1。",
+    "verify": "1"
+  },
+  {
+    "id": "cnm_221_q4",
+    "topicId": "cnm_221",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "分组分解 a²－ab＋ac－bc，当 a＝2、b＝1、c＝3 时，原式的值是多少？",
+    "answer": "5",
+    "explanation": "原式＝(a－b)(a＋c)＝1×5＝5。",
+    "verify": "(2-1)*(2+3)"
+  },
+  {
+    "id": "cnm_222_q1",
+    "topicId": "cnm_222",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "a⁵÷a²＝aⁿ，n 是多少？",
+    "answer": "3",
+    "explanation": "指数相减 5－2＝3。",
+    "verify": "5-2"
+  },
+  {
+    "id": "cnm_222_q2",
+    "topicId": "cnm_222",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "计算 6x³÷2x 的结果是（　）。",
+    "answer": "A",
+    "explanation": "6÷2＝3，x³÷x＝x²。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3x²"
+      },
+      {
+        "key": "B",
+        "text": "3x³"
+      },
+      {
+        "key": "C",
+        "text": "4x²"
+      }
+    ]
+  },
+  {
+    "id": "cnm_222_q3",
+    "topicId": "cnm_222",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "(8x³－4x²)÷2x 中 x² 的系数是多少？",
+    "answer": "4",
+    "explanation": "8x³÷2x＝4x²。",
+    "verify": "8/2"
+  },
+  {
+    "id": "cnm_222_q4",
+    "topicId": "cnm_222",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "若 aᵐ÷a³＝a⁵，则 m 是多少？",
+    "answer": "8",
+    "explanation": "m－3＝5，m＝8。",
+    "verify": "5+3"
+  },
+  {
+    "id": "cnm_223_q1",
+    "topicId": "cnm_223",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "分式 (x＋1)/(x－2) 中，x 不能取的值是多少？",
+    "answer": "2",
+    "explanation": "分母 x－2≠0，所以 x≠2。",
+    "verify": "2"
+  },
+  {
+    "id": "cnm_223_q2",
+    "topicId": "cnm_223",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列各式中是分式的是（　）。",
+    "answer": "B",
+    "explanation": "分母中含有字母的才是分式。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "x/2"
+      },
+      {
+        "key": "B",
+        "text": "1/(x＋1)"
+      },
+      {
+        "key": "C",
+        "text": "(x＋1)/3"
+      }
+    ]
+  },
+  {
+    "id": "cnm_223_q3",
+    "topicId": "cnm_223",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "当 x＝3 时，分式 (x²－9)/(x＋3) 的值是多少？",
+    "answer": "0",
+    "explanation": "(9－9)/(3＋3)＝0。",
+    "verify": "(3**2-9)/(3+3)"
+  },
+  {
+    "id": "cnm_223_q4",
+    "topicId": "cnm_223",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "若分式 (x＋2)/(x－1) 的值为 0，则 x 是多少？",
+    "answer": "-2",
+    "explanation": "分子 x＋2＝0 得 x＝－2，且分母 1－? ≠0，成立。",
+    "verify": "-2"
+  },
+  {
+    "id": "cnm_224_q1",
+    "topicId": "cnm_224",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "把 1/x 的分子、分母都乘 3，得到的分母中 x 的系数是多少？",
+    "answer": "3",
+    "explanation": "分母变成 3x。",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_224_q2",
+    "topicId": "cnm_224",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列分式中与 a/b 相等的是（　）。",
+    "answer": "B",
+    "explanation": "分子分母同乘 2，分式的值不变。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "(a＋1)/(b＋1)"
+      },
+      {
+        "key": "B",
+        "text": "2a/(2b)"
+      },
+      {
+        "key": "C",
+        "text": "a²/b²"
+      }
+    ]
+  },
+  {
+    "id": "cnm_224_q3",
+    "topicId": "cnm_224",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "约分 (6x²y)/(9xy²) 后，分子中 x 的指数是多少？",
+    "answer": "1",
+    "explanation": "x²÷x＝x，指数为 1。",
+    "verify": "2-1"
+  },
+  {
+    "id": "cnm_224_q4",
+    "topicId": "cnm_224",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "把 2/(x－1) 化成分母为 (x－1)(x＋1) 的分式，当 x＝2 时新分子是多少？",
+    "answer": "6",
+    "explanation": "分子分母同乘 (x＋1)，新分子为 2(x＋1)，x＝2 时为 6。",
+    "verify": "2*(2+1)"
+  },
+  {
+    "id": "cnm_225_q1",
+    "topicId": "cnm_225",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "(a/b)·(b/a) 的值是多少？",
+    "answer": "1",
+    "explanation": "分子分母相同，结果为 1。",
+    "verify": "1"
+  },
+  {
+    "id": "cnm_225_q2",
+    "topicId": "cnm_225",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "计算 (x/y)÷(x²/y) 的结果是（　）。",
+    "answer": "A",
+    "explanation": "除以 x²/y 等于乘 y/x²，得 1/x。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1/x"
+      },
+      {
+        "key": "B",
+        "text": "x"
+      },
+      {
+        "key": "C",
+        "text": "y/x"
+      }
+    ]
+  },
+  {
+    "id": "cnm_225_q3",
+    "topicId": "cnm_225",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "(2x/y)·(y²/(4x²)) 化简后，分母中 x 的指数是多少？",
+    "answer": "1",
+    "explanation": "结果为 y/(2x)。",
+    "verify": "2-1"
+  },
+  {
+    "id": "cnm_225_q4",
+    "topicId": "cnm_225",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "当 x＝2、y＝3 时，(x²/y)÷(x/y) 的值是多少？",
+    "answer": "2",
+    "explanation": "化简得 x，代入得 2。",
+    "verify": "2"
+  },
+  {
+    "id": "cnm_226_q1",
+    "topicId": "cnm_226",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "1/x＋2/x 的分子是多少？",
+    "answer": "3",
+    "explanation": "同分母相加，分子 1＋2＝3。",
+    "verify": "1+2"
+  },
+  {
+    "id": "cnm_226_q2",
+    "topicId": "cnm_226",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "计算 1/a－1/b 的结果是（　）。",
+    "answer": "A",
+    "explanation": "通分后分子为 b－a。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "(b－a)/(ab)"
+      },
+      {
+        "key": "B",
+        "text": "(a－b)/(ab)"
+      },
+      {
+        "key": "C",
+        "text": "1/(a－b)"
+      }
+    ]
+  },
+  {
+    "id": "cnm_226_q3",
+    "topicId": "cnm_226",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "当 x＝2 时，1/(x＋1)＋1 的值是多少？（写成 a/b）",
+    "answer": "4/3",
+    "explanation": "1/3＋1＝4/3。",
+    "verify": "Fraction(1,3)+1"
+  },
+  {
+    "id": "cnm_226_q4",
+    "topicId": "cnm_226",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "化简 1/(x－1)－1/(x＋1)，当 x＝2 时的值是多少？（写成 a/b）",
+    "answer": "2/3",
+    "explanation": "1－1/3＝2/3。",
+    "verify": "Fraction(1,1)-Fraction(1,3)"
+  },
+  {
+    "id": "cnm_227_q1",
+    "topicId": "cnm_227",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "解方程 2/x＝3，x 是多少？（写成 a/b）",
+    "answer": "2/3",
+    "explanation": "3x＝2，x＝2/3。",
+    "verify": "Fraction(2,3)"
+  },
+  {
+    "id": "cnm_227_q2",
+    "topicId": "cnm_227",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "分式方程 1/(x－1)＝2 的解是（　）。",
+    "answer": "A",
+    "explanation": "2(x－1)＝1，x＝3/2，且分母不为 0。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "x＝3/2"
+      },
+      {
+        "key": "B",
+        "text": "x＝1"
+      },
+      {
+        "key": "C",
+        "text": "x＝2"
+      }
+    ]
+  },
+  {
+    "id": "cnm_227_q3",
+    "topicId": "cnm_227",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "解方程 3/(x＋1)＝1，x 是多少？",
+    "answer": "2",
+    "explanation": "x＋1＝3，x＝2。",
+    "verify": "3-1"
+  },
+  {
+    "id": "cnm_227_q4",
+    "topicId": "cnm_227",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "解方程 1/(x－1)＝2/(x＋1)，x 是多少？",
+    "answer": "3",
+    "explanation": "x＋1＝2x－2，x＝3，检验成立。",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_228_q1",
+    "topicId": "cnm_228",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "2⁻¹ 等于多少？（写成小数）",
+    "answer": "0.5",
+    "explanation": "2⁻¹＝1/2＝0.5。",
+    "verify": "2**-1"
+  },
+  {
+    "id": "cnm_228_q2",
+    "topicId": "cnm_228",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "计算 a⁻²·a³ 的结果是（　）。",
+    "answer": "A",
+    "explanation": "同底数幂相乘，指数相加：－2＋3＝1。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "a"
+      },
+      {
+        "key": "B",
+        "text": "a⁻⁶"
+      },
+      {
+        "key": "C",
+        "text": "a⁵"
+      }
+    ]
+  },
+  {
+    "id": "cnm_228_q3",
+    "topicId": "cnm_228",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "(2×10⁻³)×(5×10²) 用科学记数法表示为 1×10ⁿ，n 是多少？",
+    "answer": "0",
+    "explanation": "10⁻³×10²＝10⁻¹，2×5＝10，结果为 1。",
+    "verify": "0"
+  },
+  {
+    "id": "cnm_228_q4",
+    "topicId": "cnm_228",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "计算 (2⁻²)⁻¹ 的值是多少？",
+    "answer": "4",
+    "explanation": "2⁻²＝1/4，其倒数为 4。",
+    "verify": "(2**-2)**-1"
+  },
+  {
+    "id": "cnm_229_q1",
+    "topicId": "cnm_229",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "把点 (1,2) 向右平移 3 个单位，横坐标是多少？",
+    "answer": "4",
+    "explanation": "1＋3＝4。",
+    "verify": "1+3"
+  },
+  {
+    "id": "cnm_229_q2",
+    "topicId": "cnm_229",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "平移不改变图形的（　）。",
+    "answer": "A",
+    "explanation": "平移只改变位置。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "形状和大小"
+      },
+      {
+        "key": "B",
+        "text": "位置"
+      },
+      {
+        "key": "C",
+        "text": "各点坐标"
+      }
+    ]
+  },
+  {
+    "id": "cnm_229_q3",
+    "topicId": "cnm_229",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "把点 A(1,1) 向上平移 2 个单位得到 A′，A′ 的纵坐标是多少？",
+    "answer": "3",
+    "explanation": "1＋2＝3。",
+    "verify": "1+2"
+  },
+  {
+    "id": "cnm_229_q4",
+    "topicId": "cnm_229",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "把线段 AB 水平向右平移 5 个单位，A(－2,3)、B(1,3)，平移后 B′ 的横坐标是多少？",
+    "answer": "6",
+    "explanation": "1＋5＝6。",
+    "verify": "1+5"
+  },
+  {
+    "id": "cnm_230_q1",
+    "topicId": "cnm_230",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "把点 (2,0) 绕原点逆时针旋转 90°，得到点的纵坐标是多少？",
+    "answer": "2",
+    "explanation": "(2,0) 旋转 90° 后到 (0,2)。",
+    "verify": "2"
+  },
+  {
+    "id": "cnm_230_q2",
+    "topicId": "cnm_230",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "旋转不改变图形的（　）。",
+    "answer": "A",
+    "explanation": "旋转是刚体变换。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "形状与大小"
+      },
+      {
+        "key": "B",
+        "text": "位置"
+      },
+      {
+        "key": "C",
+        "text": "各点坐标"
+      }
+    ]
+  },
+  {
+    "id": "cnm_230_q3",
+    "topicId": "cnm_230",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "正方形绕中心旋转多少度后与自身重合（最小正角）？",
+    "answer": "90",
+    "explanation": "360÷4＝90（度）。",
+    "verify": "90"
+  },
+  {
+    "id": "cnm_230_q4",
+    "topicId": "cnm_230",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "正六边形绕中心旋转的最小重合角度是多少度？",
+    "answer": "60",
+    "explanation": "360÷6＝60（度）。",
+    "verify": "360/6"
+  },
+  {
+    "id": "cnm_231_q1",
+    "topicId": "cnm_231",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "点 (2,3) 关于原点对称的点的横坐标是多少？",
+    "answer": "-2",
+    "explanation": "横坐标变号，得 －2。",
+    "verify": "-2"
+  },
+  {
+    "id": "cnm_231_q2",
+    "topicId": "cnm_231",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列图形中，是中心对称图形的是（　）。",
+    "answer": "B",
+    "explanation": "平行四边形绕对角线交点旋转 180° 后与自身重合。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "等边三角形"
+      },
+      {
+        "key": "B",
+        "text": "平行四边形"
+      },
+      {
+        "key": "C",
+        "text": "等腰梯形"
+      }
+    ]
+  },
+  {
+    "id": "cnm_231_q3",
+    "topicId": "cnm_231",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "点 A(－1,4) 关于原点对称的点 A′ 的纵坐标是多少？",
+    "answer": "-4",
+    "explanation": "纵坐标变号，得 －4。",
+    "verify": "-4"
+  },
+  {
+    "id": "cnm_231_q4",
+    "topicId": "cnm_231",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "正五边形绕中心旋转多少度与自身重合（最小正角）？",
+    "answer": "72",
+    "explanation": "360÷5＝72（度）。",
+    "verify": "360/5"
+  },
+  {
+    "id": "cnm_232_q1",
+    "topicId": "cnm_232",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "点 (1,2) 关于 x 轴对称的点的纵坐标是多少？",
+    "answer": "-2",
+    "explanation": "关于 x 轴对称纵坐标变号。",
+    "verify": "-2"
+  },
+  {
+    "id": "cnm_232_q2",
+    "topicId": "cnm_232",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列图形中，是轴对称图形但不是中心对称图形的是（　）。",
+    "answer": "B",
+    "explanation": "等边三角形有 3 条对称轴，但旋转 180° 不能与自身重合。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "正方形"
+      },
+      {
+        "key": "B",
+        "text": "等边三角形"
+      },
+      {
+        "key": "C",
+        "text": "平行四边形"
+      }
+    ]
+  },
+  {
+    "id": "cnm_232_q3",
+    "topicId": "cnm_232",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "等腰三角形有几条对称轴？",
+    "answer": "1",
+    "explanation": "等腰三角形只有顶角平分线所在直线是对称轴。",
+    "verify": "1"
+  },
+  {
+    "id": "cnm_232_q4",
+    "topicId": "cnm_232",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "点 A(3,－2) 关于 y 轴对称的点 A′ 的横坐标是多少？",
+    "answer": "-3",
+    "explanation": "关于 y 轴对称横坐标变号。",
+    "verify": "-3"
+  },
+  {
+    "id": "cnm_233_q1",
+    "topicId": "cnm_233",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "√9 的值是多少？",
+    "answer": "3",
+    "explanation": "因为 3²＝9，且 3＞0，所以 √9＝3。",
+    "verify": "sqrt(9)"
+  },
+  {
+    "id": "cnm_233_q2",
+    "topicId": "cnm_233",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列各数中，是无理数的是（　）。",
+    "answer": "B",
+    "explanation": "π 是无限不循环小数。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "0.5"
+      },
+      {
+        "key": "B",
+        "text": "π"
+      },
+      {
+        "key": "C",
+        "text": "22/7"
+      }
+    ]
+  },
+  {
+    "id": "cnm_233_q3",
+    "topicId": "cnm_233",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "在 √2、0、－3.14、π 中，无理数有几个？",
+    "answer": "2",
+    "explanation": "√2 与 π 是无理数，共 2 个。",
+    "verify": "2"
+  },
+  {
+    "id": "cnm_233_q4",
+    "topicId": "cnm_233",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "|1－√2| 的值约为多少？（保留两位小数）",
+    "answer": "0.41",
+    "explanation": "√2≈1.414，|1－1.414|≈0.41。",
+    "verify": "round(abs(1-sqrt(2)),2)"
+  },
+  {
+    "id": "cnm_234_q1",
+    "topicId": "cnm_234",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "16 的算术平方根是多少？",
+    "answer": "4",
+    "explanation": "算术平方根取非负值，√16＝4。",
+    "verify": "sqrt(16)"
+  },
+  {
+    "id": "cnm_234_q2",
+    "topicId": "cnm_234",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列说法中正确的是（　）。",
+    "answer": "B",
+    "explanation": "负数没有平方根；4 的平方根是 ±2；0 的平方根是 0。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4 的平方根是 2"
+      },
+      {
+        "key": "B",
+        "text": "－4 没有平方根"
+      },
+      {
+        "key": "C",
+        "text": "0 没有平方根"
+      }
+    ]
+  },
+  {
+    "id": "cnm_234_q3",
+    "topicId": "cnm_234",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "√(25/9) 的值是多少？（写成 a/b）",
+    "answer": "5/3",
+    "explanation": "√25/√9＝5/3。",
+    "verify": "sqrt(25)/3"
+  },
+  {
+    "id": "cnm_234_q4",
+    "topicId": "cnm_234",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "若 x²＝7，则 x 的正值约为多少？（保留两位小数）",
+    "answer": "2.65",
+    "explanation": "x＝√7≈2.6458≈2.65。",
+    "verify": "round(sqrt(7),2)"
+  },
+  {
+    "id": "cnm_235_q1",
+    "topicId": "cnm_235",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "27 的立方根是多少？",
+    "answer": "3",
+    "explanation": "因为 3³＝27，所以立方根是 3。",
+    "verify": "round(27**(1/3))"
+  },
+  {
+    "id": "cnm_235_q2",
+    "topicId": "cnm_235",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "－8 的立方根是（　）。",
+    "answer": "A",
+    "explanation": "(－2)³＝－8。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "－2"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "不存在"
+      }
+    ]
+  },
+  {
+    "id": "cnm_235_q3",
+    "topicId": "cnm_235",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "³√(－125) 的值是多少？",
+    "answer": "-5",
+    "explanation": "(－5)³＝－125。",
+    "verify": "-5"
+  },
+  {
+    "id": "cnm_235_q4",
+    "topicId": "cnm_235",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "立方根等于它本身的数有几个？",
+    "answer": "3",
+    "explanation": "－1、0、1 的立方根都等于本身，共 3 个。",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_236_q1",
+    "topicId": "cnm_236",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "32 的 5 次方根是多少？",
+    "answer": "2",
+    "explanation": "2⁵＝32，奇次方根唯一。",
+    "verify": "round(32**(1/5))"
+  },
+  {
+    "id": "cnm_236_q2",
+    "topicId": "cnm_236",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列说法中正确的是（　）。",
+    "answer": "A",
+    "explanation": "负数没有偶次方根；0 的偶次方根是 0。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "正数的偶次方根有两个"
+      },
+      {
+        "key": "B",
+        "text": "负数一定有偶次方根"
+      },
+      {
+        "key": "C",
+        "text": "0 的偶次方根不存在"
+      }
+    ]
+  },
+  {
+    "id": "cnm_236_q3",
+    "topicId": "cnm_236",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "16 的 4 次方根中正的那个是多少？",
+    "answer": "2",
+    "explanation": "2⁴＝16，正的四次方根是 2。",
+    "verify": "round(16**(1/4))"
+  },
+  {
+    "id": "cnm_236_q4",
+    "topicId": "cnm_236",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "n 为偶数时，－16 的 n 次方根有几个？",
+    "answer": "0",
+    "explanation": "负数没有偶次方根，所以有 0 个。",
+    "verify": "0"
+  },
+  {
+    "id": "cnm_237_q1",
+    "topicId": "cnm_237",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "√5 在哪两个相邻整数之间？较大的那个整数是几？",
+    "answer": "3",
+    "explanation": "2²＝4＜5＜9＝3²，所以较大的整数是 3。",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_237_q2",
+    "topicId": "cnm_237",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "与 √10 最接近的整数是（　）。",
+    "answer": "B",
+    "explanation": "3²＝9、4²＝16，√10≈3.16，最接近 3。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      }
+    ]
+  },
+  {
+    "id": "cnm_237_q3",
+    "topicId": "cnm_237",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "数轴上表示 －√2 的点到原点的距离约为多少？（保留两位小数）",
+    "answer": "1.41",
+    "explanation": "|－√2|＝√2≈1.41。",
+    "verify": "round(sqrt(2),2)"
+  },
+  {
+    "id": "cnm_237_q4",
+    "topicId": "cnm_237",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "|3－√10| 的值约为多少？（保留两位小数）",
+    "answer": "0.16",
+    "explanation": "√10≈3.162，|3－3.162|≈0.16。",
+    "verify": "round(abs(3-sqrt(10)),2)"
+  },
+  {
+    "id": "cnm_238_q1",
+    "topicId": "cnm_238",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "√2·√2 的值是多少？",
+    "answer": "2",
+    "explanation": "√2·√2＝2。",
+    "verify": "sqrt(2)*sqrt(2)"
+  },
+  {
+    "id": "cnm_238_q2",
+    "topicId": "cnm_238",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列计算正确的是（　）。",
+    "answer": "B",
+    "explanation": "√8＝2√2；根号内不能直接相加。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "√2＋√3＝√5"
+      },
+      {
+        "key": "B",
+        "text": "(√3)²＝3"
+      },
+      {
+        "key": "C",
+        "text": "√8＝4"
+      }
+    ]
+  },
+  {
+    "id": "cnm_238_q3",
+    "topicId": "cnm_238",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "√18－√8 的值约为多少？（保留两位小数）",
+    "answer": "1.41",
+    "explanation": "3√2－2√2＝√2≈1.41。",
+    "verify": "round(sqrt(18)-sqrt(8),2)"
+  },
+  {
+    "id": "cnm_238_q4",
+    "topicId": "cnm_238",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "√12÷√3 的值是多少？",
+    "answer": "2",
+    "explanation": "√12÷√3＝√4＝2。",
+    "verify": "sqrt(12)/sqrt(3)"
+  },
+  {
+    "id": "cnm_239_q1",
+    "topicId": "cnm_239",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "8^(1/3) 的值是多少？",
+    "answer": "2",
+    "explanation": "8 的立方根是 2。",
+    "verify": "8**(1/3)"
+  },
+  {
+    "id": "cnm_239_q2",
+    "topicId": "cnm_239",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "a^(m/n)（a＞0）等于（　）。",
+    "answer": "A",
+    "explanation": "分母 n 是根指数，分子 m 是乘方次数。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "ⁿ√(aᵐ)"
+      },
+      {
+        "key": "B",
+        "text": "aᵐ/n"
+      },
+      {
+        "key": "C",
+        "text": "aᵐ·aⁿ"
+      }
+    ]
+  },
+  {
+    "id": "cnm_239_q3",
+    "topicId": "cnm_239",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "16^(3/4) 的值是多少？",
+    "answer": "8",
+    "explanation": "16^(1/4)＝2，2³＝8。",
+    "verify": "16**(3/4)"
+  },
+  {
+    "id": "cnm_239_q4",
+    "topicId": "cnm_239",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "27^(－1/3) 的值是多少？（写成 a/b）",
+    "answer": "1/3",
+    "explanation": "27^(1/3)＝3，取倒数为 1/3。",
+    "verify": "27**(-1/3)"
+  },
+  {
+    "id": "cnm_240_q1",
+    "topicId": "cnm_240",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "两直线相交，∠1＝40°，它的对顶角是多少度？",
+    "answer": "40",
+    "explanation": "对顶角相等。",
+    "verify": "40"
+  },
+  {
+    "id": "cnm_240_q2",
+    "topicId": "cnm_240",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列说法中正确的是（　）。",
+    "answer": "A",
+    "explanation": "邻补角互补；相等的角不一定是对顶角。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "对顶角相等"
+      },
+      {
+        "key": "B",
+        "text": "邻补角相等"
+      },
+      {
+        "key": "C",
+        "text": "相等的角是对顶角"
+      }
+    ]
+  },
+  {
+    "id": "cnm_240_q3",
+    "topicId": "cnm_240",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "∠1 与 ∠2 是邻补角，∠1＝115°，∠2 是多少度？",
+    "answer": "65",
+    "explanation": "180°－115°＝65°。",
+    "verify": "180-115"
+  },
+  {
+    "id": "cnm_240_q4",
+    "topicId": "cnm_240",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "两条直线相交形成的四个角中，与 ∠1 互补的角有几个？",
+    "answer": "2",
+    "explanation": "∠1 有两个邻补角，共 2 个。",
+    "verify": "2"
+  },
+  {
+    "id": "cnm_241_q1",
+    "topicId": "cnm_241",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "过直线外一点画已知直线的垂线，能画几条？",
+    "answer": "1",
+    "explanation": "平面内过一点有且只有一条垂线。",
+    "verify": "1"
+  },
+  {
+    "id": "cnm_241_q2",
+    "topicId": "cnm_241",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列说法中正确的是（　）。",
+    "answer": "A",
+    "explanation": "垂线是直线，垂线段是其中的一段；垂线段最短。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "垂线段最短"
+      },
+      {
+        "key": "B",
+        "text": "过一点可以画两条垂线"
+      },
+      {
+        "key": "C",
+        "text": "垂线就是垂线段"
+      }
+    ]
+  },
+  {
+    "id": "cnm_241_q3",
+    "topicId": "cnm_241",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "∠AOC＝90°，∠BOD 与 ∠AOC 是对顶角，∠BOD 是多少度？",
+    "answer": "90",
+    "explanation": "对顶角相等。",
+    "verify": "90"
+  },
+  {
+    "id": "cnm_241_q4",
+    "topicId": "cnm_241",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "平面内三条直线两两相交，最多有几个交点？",
+    "answer": "3",
+    "explanation": "每两条直线一个交点，共 C(3,2)＝3 个。",
+    "verify": "comb(3,2)"
+  },
+  {
+    "id": "cnm_242_q1",
+    "topicId": "cnm_242",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "两条直线被第三条直线所截，同位角有几对？",
+    "answer": "4",
+    "explanation": "每个交点处 2 对，共 4 对。",
+    "verify": "4"
+  },
+  {
+    "id": "cnm_242_q2",
+    "topicId": "cnm_242",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "两直线平行时，内错角（　）。",
+    "answer": "A",
+    "explanation": "两直线平行，内错角相等。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "相等"
+      },
+      {
+        "key": "B",
+        "text": "互补"
+      },
+      {
+        "key": "C",
+        "text": "不确定"
+      }
+    ]
+  },
+  {
+    "id": "cnm_242_q3",
+    "topicId": "cnm_242",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "两直线平行时，同旁内角之和是多少度？",
+    "answer": "180",
+    "explanation": "两直线平行，同旁内角互补。",
+    "verify": "180"
+  },
+  {
+    "id": "cnm_242_q4",
+    "topicId": "cnm_242",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "两条直线被第三条直线所截，共有多少对同旁内角？",
+    "answer": "2",
+    "explanation": "在两直线之间、截线同旁，共 2 对。",
+    "verify": "2"
+  },
+  {
+    "id": "cnm_243_q1",
+    "topicId": "cnm_243",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "两直线被第三条直线所截，若同位角相等，则这两条直线平行，此时同旁内角之和是多少度？",
+    "answer": "180",
+    "explanation": "两直线平行，同旁内角互补。",
+    "verify": "180"
+  },
+  {
+    "id": "cnm_243_q2",
+    "topicId": "cnm_243",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列条件中，不能判定两直线平行的是（　）。",
+    "answer": "C",
+    "explanation": "应为同旁内角互补，而不是相等。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "同位角相等"
+      },
+      {
+        "key": "B",
+        "text": "内错角相等"
+      },
+      {
+        "key": "C",
+        "text": "同旁内角相等"
+      }
+    ]
+  },
+  {
+    "id": "cnm_243_q3",
+    "topicId": "cnm_243",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "同一平面内，垂直于同一条直线的两条直线互相平行，这时它们的交点有几个？",
+    "answer": "0",
+    "explanation": "平行线没有交点。",
+    "verify": "0"
+  },
+  {
+    "id": "cnm_243_q4",
+    "topicId": "cnm_243",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "同一平面内三条直线两两平行，它们把平面最多分成几部分？",
+    "answer": "4",
+    "explanation": "每增加一条平行线多分出 1 部分，共 4 部分。",
+    "verify": "4"
+  },
+  {
+    "id": "cnm_244_q1",
+    "topicId": "cnm_244",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "两直线平行，若一个同位角是 65°，另一个同位角是多少度？",
+    "answer": "65",
+    "explanation": "两直线平行，同位角相等。",
+    "verify": "65"
+  },
+  {
+    "id": "cnm_244_q2",
+    "topicId": "cnm_244",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "两直线平行，下列结论中错误的是（　）。",
+    "answer": "C",
+    "explanation": "同旁内角互补，不一定相等。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "同位角相等"
+      },
+      {
+        "key": "B",
+        "text": "内错角相等"
+      },
+      {
+        "key": "C",
+        "text": "同旁内角相等"
+      }
+    ]
+  },
+  {
+    "id": "cnm_244_q3",
+    "topicId": "cnm_244",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "两直线平行，一个内错角是 70°，另一个内错角是多少度？",
+    "answer": "70",
+    "explanation": "两直线平行，内错角相等。",
+    "verify": "70"
+  },
+  {
+    "id": "cnm_244_q4",
+    "topicId": "cnm_244",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "两直线平行，同旁内角中一个角是另一个角的 3 倍，较小的角是多少度？",
+    "answer": "45",
+    "explanation": "x＋3x＝180，x＝45。",
+    "verify": "180/4"
+  },
+  {
+    "id": "cnm_245_q1",
+    "topicId": "cnm_245",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "三角形三边长分别为 3、4、5，周长是多少？",
+    "answer": "12",
+    "explanation": "3＋4＋5＝12。",
+    "verify": "3+4+5"
+  },
+  {
+    "id": "cnm_245_q2",
+    "topicId": "cnm_245",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列长度的三条线段能组成三角形的是（　）。",
+    "answer": "B",
+    "explanation": "2＋3＞4，满足三边关系。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1，2，3"
+      },
+      {
+        "key": "B",
+        "text": "2，3，4"
+      },
+      {
+        "key": "C",
+        "text": "1，1，3"
+      }
+    ]
+  },
+  {
+    "id": "cnm_245_q3",
+    "topicId": "cnm_245",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "三角形两边长为 5 和 8，第三边长 x 的最大整数值是多少？",
+    "answer": "12",
+    "explanation": "x＜5＋8＝13，所以最大整数是 12。",
+    "verify": "5+8-1"
+  },
+  {
+    "id": "cnm_245_q4",
+    "topicId": "cnm_245",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "等腰三角形两边长分别为 3 和 7，周长是多少？",
+    "answer": "17",
+    "explanation": "腰只能是 7（若腰为 3，则 3＋3＜7 不成立），周长 7＋7＋3＝17。",
+    "verify": "7+7+3"
+  },
+  {
+    "id": "cnm_246_q1",
+    "topicId": "cnm_246",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "三角形两个内角分别是 50° 和 60°，第三个角是多少度？",
+    "answer": "70",
+    "explanation": "180－50－60＝70。",
+    "verify": "180-50-60"
+  },
+  {
+    "id": "cnm_246_q2",
+    "topicId": "cnm_246",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "三角形的一个外角等于（　）。",
+    "answer": "A",
+    "explanation": "这是三角形的外角性质。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "两个不相邻内角之和"
+      },
+      {
+        "key": "B",
+        "text": "与它相邻的内角"
+      },
+      {
+        "key": "C",
+        "text": "180°"
+      }
+    ]
+  },
+  {
+    "id": "cnm_246_q3",
+    "topicId": "cnm_246",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "正五边形的每个内角是多少度？",
+    "answer": "108",
+    "explanation": "内角和 (5－2)×180°＝540°，540÷5＝108°。",
+    "verify": "(5-2)*180/5"
+  },
+  {
+    "id": "cnm_246_q4",
+    "topicId": "cnm_246",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "三角形三个内角之比为 2:3:4，最大的角是多少度？",
+    "answer": "80",
+    "explanation": "180×4/9＝80（度）。",
+    "verify": "180*4/9"
+  },
+  {
+    "id": "cnm_247_q1",
+    "topicId": "cnm_247",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "△ABC≌△DEF，AB＝5，则 DE 是多少？",
+    "answer": "5",
+    "explanation": "对应边相等。",
+    "verify": "5"
+  },
+  {
+    "id": "cnm_247_q2",
+    "topicId": "cnm_247",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列两个三角形一定全等的是（　）。",
+    "answer": "B",
+    "explanation": "全等形的定义就是能够完全重合。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "面积相等的两个三角形"
+      },
+      {
+        "key": "B",
+        "text": "能够完全重合的两个三角形"
+      },
+      {
+        "key": "C",
+        "text": "周长相等的两个三角形"
+      }
+    ]
+  },
+  {
+    "id": "cnm_247_q3",
+    "topicId": "cnm_247",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "△ABC≌△DEF，∠A＝40°，∠B＝60°，则 ∠F 是多少度？",
+    "answer": "80",
+    "explanation": "∠C＝80°，对应角 ∠F＝∠C＝80°。",
+    "verify": "180-40-60"
+  },
+  {
+    "id": "cnm_247_q4",
+    "topicId": "cnm_247",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "两个全等三角形的周长分别为 20 和 x，则 x 是多少？",
+    "answer": "20",
+    "explanation": "全等三角形周长相等。",
+    "verify": "20"
+  },
+  {
+    "id": "cnm_248_q1",
+    "topicId": "cnm_248",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "在 △ABC 与 △DEF 中，AB＝DE，∠B＝∠E，BC＝EF，判定两个三角形全等的依据是（　）。",
+    "answer": "A",
+    "explanation": "两边及其夹角对应相等，用 SAS。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "SAS"
+      },
+      {
+        "key": "B",
+        "text": "SSS"
+      },
+      {
+        "key": "C",
+        "text": "ASA"
+      }
+    ]
+  },
+  {
+    "id": "cnm_248_q2",
+    "topicId": "cnm_248",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "若 △ABC≌△DEF，AB＝7，则 DE 是多少？",
+    "answer": "7",
+    "explanation": "对应边相等。",
+    "verify": "7"
+  },
+  {
+    "id": "cnm_248_q3",
+    "topicId": "cnm_248",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "已知 ∠A＝∠D，∠B＝∠E，AB＝DE，用 ASA 判定全等，若 ∠C＝50°，则 ∠F 是多少度？",
+    "answer": "50",
+    "explanation": "全等三角形对应角相等。",
+    "verify": "50"
+  },
+  {
+    "id": "cnm_248_q4",
+    "topicId": "cnm_248",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "直角三角形全等判定 HL 中，斜边为 13、一条直角边为 5，则另一条直角边是多少？",
+    "answer": "12",
+    "explanation": "√(13²－5²)＝√144＝12。",
+    "verify": "sqrt(13**2-5**2)"
+  },
+  {
+    "id": "cnm_249_q1",
+    "topicId": "cnm_249",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "等腰三角形的顶角为 40°，一个底角是多少度？",
+    "answer": "70",
+    "explanation": "(180－40)÷2＝70（度）。",
+    "verify": "(180-40)/2"
+  },
+  {
+    "id": "cnm_249_q2",
+    "topicId": "cnm_249",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "等腰三角形一边长为 4，另一边长为 8，它的周长是（　）。",
+    "answer": "B",
+    "explanation": "腰不能为 4（4＋4＜8），所以腰是 8，周长 8＋8＋4＝20。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "16"
+      },
+      {
+        "key": "B",
+        "text": "20"
+      },
+      {
+        "key": "C",
+        "text": "16 或 20"
+      }
+    ]
+  },
+  {
+    "id": "cnm_249_q3",
+    "topicId": "cnm_249",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "等腰三角形一个底角为 65°，顶角是多少度？",
+    "answer": "50",
+    "explanation": "180－2×65＝50（度）。",
+    "verify": "180-2*65"
+  },
+  {
+    "id": "cnm_249_q4",
+    "topicId": "cnm_249",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "等腰三角形两边长分别为 5 和 6，它的周长最大是多少？",
+    "answer": "17",
+    "explanation": "腰为 6 时周长 6＋6＋5＝17，腰为 5 时周长 16，最大是 17。",
+    "verify": "2*6+5"
+  },
+  {
+    "id": "cnm_250_q1",
+    "topicId": "cnm_250",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "等边三角形每个内角是多少度？",
+    "answer": "60",
+    "explanation": "180°÷3＝60°。",
+    "verify": "180/3"
+  },
+  {
+    "id": "cnm_250_q2",
+    "topicId": "cnm_250",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列条件中，不能判定一个三角形是等边三角形的是（　）。",
+    "answer": "C",
+    "explanation": "有两个角相等只能判定等腰。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "三边相等"
+      },
+      {
+        "key": "B",
+        "text": "三个角都相等"
+      },
+      {
+        "key": "C",
+        "text": "有两个角相等"
+      }
+    ]
+  },
+  {
+    "id": "cnm_250_q3",
+    "topicId": "cnm_250",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "等边三角形的边长为 6，周长是多少？",
+    "answer": "18",
+    "explanation": "6×3＝18。",
+    "verify": "3*6"
+  },
+  {
+    "id": "cnm_250_q4",
+    "topicId": "cnm_250",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "等边三角形边长为 4，它的高约为多少？（保留两位小数）",
+    "answer": "3.46",
+    "explanation": "高＝√(4²－2²)＝√12≈3.46。",
+    "verify": "round(sqrt(4**2-2**2),2)"
+  },
+  {
+    "id": "cnm_251_q1",
+    "topicId": "cnm_251",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "点 P(3，－2) 在第几象限？",
+    "answer": "4",
+    "explanation": "横坐标正、纵坐标负，在第四象限。",
+    "verify": "4"
+  },
+  {
+    "id": "cnm_251_q2",
+    "topicId": "cnm_251",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "点 (－1，5) 在（　）。",
+    "answer": "B",
+    "explanation": "横坐标负、纵坐标正，在第二象限。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "第一象限"
+      },
+      {
+        "key": "B",
+        "text": "第二象限"
+      },
+      {
+        "key": "C",
+        "text": "第三象限"
+      }
+    ]
+  },
+  {
+    "id": "cnm_251_q3",
+    "topicId": "cnm_251",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "点 A(2，3) 到 x 轴的距离是多少？",
+    "answer": "3",
+    "explanation": "到 x 轴的距离是 |y|＝3。",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_251_q4",
+    "topicId": "cnm_251",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "点 M(－2，5) 到 y 轴的距离是多少？",
+    "answer": "2",
+    "explanation": "到 y 轴的距离是 |x|＝2。",
+    "verify": "2"
+  },
+  {
+    "id": "cnm_252_q1",
+    "topicId": "cnm_252",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "点 (1，2) 向左平移 3 个单位后，横坐标是多少？",
+    "answer": "-2",
+    "explanation": "1－3＝－2。",
+    "verify": "1-3"
+  },
+  {
+    "id": "cnm_252_q2",
+    "topicId": "cnm_252",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "点 (2，3) 关于 x 轴对称的点是（　）。",
+    "answer": "A",
+    "explanation": "关于 x 轴对称，纵坐标变号。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "(2，－3)"
+      },
+      {
+        "key": "B",
+        "text": "(－2，3)"
+      },
+      {
+        "key": "C",
+        "text": "(－2，－3)"
+      }
+    ]
+  },
+  {
+    "id": "cnm_252_q3",
+    "topicId": "cnm_252",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "点 A(－3，1) 关于原点对称的点的纵坐标是多少？",
+    "answer": "-1",
+    "explanation": "关于原点对称，纵坐标变号。",
+    "verify": "-1"
+  },
+  {
+    "id": "cnm_252_q4",
+    "topicId": "cnm_252",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "点 P(4，－2) 先向右平移 2 个单位，再向下平移 3 个单位，最后纵坐标是多少？",
+    "answer": "-5",
+    "explanation": "－2－3＝－5。",
+    "verify": "-2-3"
+  },
+  {
+    "id": "cnm_253_q1",
+    "topicId": "cnm_253",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "使 √(x－1) 有意义的 x 的最小值是多少？",
+    "answer": "1",
+    "explanation": "x－1≥0，x≥1。",
+    "verify": "1"
+  },
+  {
+    "id": "cnm_253_q2",
+    "topicId": "cnm_253",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列各式中，一定是二次根式的是（　）。",
+    "answer": "B",
+    "explanation": "a²＋1＞0 恒成立；√a 只有 a≥0 时才有意义。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "√(－3)"
+      },
+      {
+        "key": "B",
+        "text": "√(a²＋1)"
+      },
+      {
+        "key": "C",
+        "text": "√a"
+      }
+    ]
+  },
+  {
+    "id": "cnm_253_q3",
+    "topicId": "cnm_253",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "当 x＝5 时，√(2x－1) 的值是多少？",
+    "answer": "3",
+    "explanation": "√(10－1)＝√9＝3。",
+    "verify": "sqrt(2*5-1)"
+  },
+  {
+    "id": "cnm_253_q4",
+    "topicId": "cnm_253",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "(√7)² 的值是多少？",
+    "answer": "7",
+    "explanation": "(√a)²＝a（a≥0）。",
+    "verify": "sqrt(7)**2"
+  },
+  {
+    "id": "cnm_254_q1",
+    "topicId": "cnm_254",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "化简 √12 后，根号外的系数是多少？",
+    "answer": "2",
+    "explanation": "√12＝2√3，系数是 2。",
+    "verify": "2"
+  },
+  {
+    "id": "cnm_254_q2",
+    "topicId": "cnm_254",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列二次根式中，是最简二次根式的是（　）。",
+    "answer": "B",
+    "explanation": "15 不含平方因数，被开方数也没有分母。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "√8"
+      },
+      {
+        "key": "B",
+        "text": "√15"
+      },
+      {
+        "key": "C",
+        "text": "√(1/2)"
+      }
+    ]
+  },
+  {
+    "id": "cnm_254_q3",
+    "topicId": "cnm_254",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "√(1/2) 化成最简二次根式 √2/2 后，分母上的数是多少？",
+    "answer": "2",
+    "explanation": "分母有理化后为 √2/2。",
+    "verify": "2"
+  },
+  {
+    "id": "cnm_254_q4",
+    "topicId": "cnm_254",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "√18 与 √8 是同类二次根式，化简后根号内的数是多少？",
+    "answer": "2",
+    "explanation": "√18＝3√2，√8＝2√2，根号内都是 2。",
+    "verify": "2"
+  },
+  {
+    "id": "cnm_255_q1",
+    "topicId": "cnm_255",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "√3·√12 的值是多少？",
+    "answer": "6",
+    "explanation": "√(3×12)＝√36＝6。",
+    "verify": "sqrt(3)*sqrt(12)"
+  },
+  {
+    "id": "cnm_255_q2",
+    "topicId": "cnm_255",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "计算 √8＋√2 的结果是（　）。",
+    "answer": "A",
+    "explanation": "√8＝2√2，合并同类二次根式得 3√2。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3√2"
+      },
+      {
+        "key": "B",
+        "text": "√10"
+      },
+      {
+        "key": "C",
+        "text": "4√2"
+      }
+    ]
+  },
+  {
+    "id": "cnm_255_q3",
+    "topicId": "cnm_255",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "(√5＋1)(√5－1) 的值是多少？",
+    "answer": "4",
+    "explanation": "平方差公式：5－1＝4。",
+    "verify": "(sqrt(5)+1)*(sqrt(5)-1)"
+  },
+  {
+    "id": "cnm_255_q4",
+    "topicId": "cnm_255",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "√27÷√3 的值是多少？",
+    "answer": "3",
+    "explanation": "√(27÷3)＝√9＝3。",
+    "verify": "sqrt(27)/sqrt(3)"
+  },
+  {
+    "id": "cnm_256_q1",
+    "topicId": "cnm_256",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "方程 x²－3x＋2＝0 的二次项系数是多少？",
+    "answer": "1",
+    "explanation": "x² 的系数是 1。",
+    "verify": "1"
+  },
+  {
+    "id": "cnm_256_q2",
+    "topicId": "cnm_256",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列方程中是一元二次方程的是（　）。",
+    "answer": "B",
+    "explanation": "只含一个未知数且最高次为 2，且是整式方程。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "x²＋1/x＝0"
+      },
+      {
+        "key": "B",
+        "text": "2x²－3x＝0"
+      },
+      {
+        "key": "C",
+        "text": "x＋y＝1"
+      }
+    ]
+  },
+  {
+    "id": "cnm_256_q3",
+    "topicId": "cnm_256",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "把 (x－1)(x＋2)＝3 化成一般形式后，一次项系数是多少？",
+    "answer": "1",
+    "explanation": "化简得 x²＋x－5＝0，一次项系数是 1。",
+    "verify": "2-1"
+  },
+  {
+    "id": "cnm_256_q4",
+    "topicId": "cnm_256",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "若 (m－1)x²＋3x－2＝0 是关于 x 的一元二次方程，则 m 不能取的值是多少？",
+    "answer": "1",
+    "explanation": "二次项系数 m－1≠0，即 m≠1。",
+    "verify": "1"
+  },
+  {
+    "id": "cnm_257_q1",
+    "topicId": "cnm_257",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "解方程 x²＝9，正根是多少？",
+    "answer": "3",
+    "explanation": "x＝±3，正根是 3。",
+    "verify": "sqrt(9)"
+  },
+  {
+    "id": "cnm_257_q2",
+    "topicId": "cnm_257",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "用配方法解 x²＋6x＋5＝0，配方后得到（　）。",
+    "answer": "A",
+    "explanation": "x²＋6x＋9＝4，即 (x＋3)²＝4。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "(x＋3)²＝4"
+      },
+      {
+        "key": "B",
+        "text": "(x＋3)²＝14"
+      },
+      {
+        "key": "C",
+        "text": "(x＋6)²＝31"
+      }
+    ]
+  },
+  {
+    "id": "cnm_257_q3",
+    "topicId": "cnm_257",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "解方程 x²＋4x＝0，较大的根是多少？",
+    "answer": "0",
+    "explanation": "x(x＋4)＝0，根为 0 与 －4，较大的是 0。",
+    "verify": "max(0,-4)"
+  },
+  {
+    "id": "cnm_257_q4",
+    "topicId": "cnm_257",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "解方程 x²－6x＋5＝0，较大的根是多少？",
+    "answer": "5",
+    "explanation": "(x－3)²＝4，x＝5 或 x＝1，较大的是 5。",
+    "verify": "5"
+  },
+  {
+    "id": "cnm_258_q1",
+    "topicId": "cnm_258",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "方程 x²－5x＋6＝0 的两根之积是多少？",
+    "answer": "6",
+    "explanation": "因式分解 (x－2)(x－3)＝0，两根 2、3，积为 6。",
+    "verify": "6"
+  },
+  {
+    "id": "cnm_258_q2",
+    "topicId": "cnm_258",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "方程 x(x－2)＝0 的解是（　）。",
+    "answer": "C",
+    "explanation": "两个因式分别为 0。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "x＝0"
+      },
+      {
+        "key": "B",
+        "text": "x＝2"
+      },
+      {
+        "key": "C",
+        "text": "x＝0 或 x＝2"
+      }
+    ]
+  },
+  {
+    "id": "cnm_258_q3",
+    "topicId": "cnm_258",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "用公式法解 x²＋2x－3＝0，较大的根是多少？",
+    "answer": "1",
+    "explanation": "两根为 1 与 －3，较大的是 1。",
+    "verify": "1"
+  },
+  {
+    "id": "cnm_258_q4",
+    "topicId": "cnm_258",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "方程 x²－4＝0 的两根之和是多少？",
+    "answer": "0",
+    "explanation": "两根为 2 与 －2，和为 0。",
+    "verify": "0"
+  },
+  {
+    "id": "cnm_259_q1",
+    "topicId": "cnm_259",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "方程 x²－4x＋4＝0 的判别式 Δ 的值是多少？",
+    "answer": "0",
+    "explanation": "Δ＝(－4)²－4×1×4＝0。",
+    "verify": "(-4)**2-4*1*4"
+  },
+  {
+    "id": "cnm_259_q2",
+    "topicId": "cnm_259",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "方程 x²＋x＋1＝0 的根的情况是（　）。",
+    "answer": "C",
+    "explanation": "Δ＝1－4＝－3＜0，没有实数根。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "两个不相等的实数根"
+      },
+      {
+        "key": "B",
+        "text": "两个相等的实数根"
+      },
+      {
+        "key": "C",
+        "text": "没有实数根"
+      }
+    ]
+  },
+  {
+    "id": "cnm_259_q3",
+    "topicId": "cnm_259",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "若 x²－2x＋m＝0 有两个相等的实数根，则 m 是多少？",
+    "answer": "1",
+    "explanation": "Δ＝4－4m＝0，m＝1。",
+    "verify": "2**2/4"
+  },
+  {
+    "id": "cnm_259_q4",
+    "topicId": "cnm_259",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "方程 x²＋3x－4＝0 的两根之积是多少？",
+    "answer": "-4",
+    "explanation": "因式分解 (x＋4)(x－1)＝0，积为 －4。",
+    "verify": "-4"
+  },
+  {
+    "id": "cnm_260_q1",
+    "topicId": "cnm_260",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "两个连续正整数的积是 12，其中较小的数是多少？",
+    "answer": "3",
+    "explanation": "3×4＝12，较小的是 3。",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_260_q2",
+    "topicId": "cnm_260",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "长方形面积是 12，长比宽多 1，则宽是（　）。",
+    "answer": "A",
+    "explanation": "设宽 x，x(x＋1)＝12，x＝3。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      }
+    ]
+  },
+  {
+    "id": "cnm_260_q3",
+    "topicId": "cnm_260",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "某商品原价 100 元，连续两次降价后为 81 元，平均每次降价的百分率是多少？（写百分号前面的数）",
+    "answer": "10",
+    "explanation": "100(1－x)²＝81，1－x＝0.9，x＝10%。",
+    "verify": "10"
+  },
+  {
+    "id": "cnm_260_q4",
+    "topicId": "cnm_260",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "直角三角形两直角边分别为 x 和 x＋1，斜边为 5，则 x 是多少？",
+    "answer": "3",
+    "explanation": "x²＋(x＋1)²＝25，解得 x＝3。",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_261_q1",
+    "topicId": "cnm_261",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "函数 y＝2x＋1 中，当 x＝3 时 y 是多少？",
+    "answer": "7",
+    "explanation": "2×3＋1＝7。",
+    "verify": "2*3+1"
+  },
+  {
+    "id": "cnm_261_q2",
+    "topicId": "cnm_261",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列关系中，y 是 x 的函数的是（　）。",
+    "answer": "B",
+    "explanation": "y＝x² 中每个 x 对应唯一的 y；A、C 中一个 x 可能对应两个 y。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "y²＝x"
+      },
+      {
+        "key": "B",
+        "text": "y＝x²"
+      },
+      {
+        "key": "C",
+        "text": "x²＋y²＝1"
+      }
+    ]
+  },
+  {
+    "id": "cnm_261_q3",
+    "topicId": "cnm_261",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "函数 y＝1/(x－2) 的自变量取值中，不能取的值是多少？",
+    "answer": "2",
+    "explanation": "x－2≠0，x≠2。",
+    "verify": "2"
+  },
+  {
+    "id": "cnm_261_q4",
+    "topicId": "cnm_261",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "函数 y＝√(x－3) 中，x 的最小值是多少？",
+    "answer": "3",
+    "explanation": "x－3≥0，x≥3。",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_262_q1",
+    "topicId": "cnm_262",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "正比例函数 y＝3x 中，当 x＝2 时 y 是多少？",
+    "answer": "6",
+    "explanation": "3×2＝6。",
+    "verify": "3*2"
+  },
+  {
+    "id": "cnm_262_q2",
+    "topicId": "cnm_262",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列函数中是正比例函数的是（　）。",
+    "answer": "B",
+    "explanation": "y＝－x/2 可写成 y＝(－1/2)x，符合 y＝kx。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "y＝2x＋1"
+      },
+      {
+        "key": "B",
+        "text": "y＝－x/2"
+      },
+      {
+        "key": "C",
+        "text": "y＝2/x"
+      }
+    ]
+  },
+  {
+    "id": "cnm_262_q3",
+    "topicId": "cnm_262",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "正比例函数 y＝kx 的图像经过点 (2，6)，k 是多少？",
+    "answer": "3",
+    "explanation": "6＝2k，k＝3。",
+    "verify": "6/2"
+  },
+  {
+    "id": "cnm_262_q4",
+    "topicId": "cnm_262",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "正比例函数 y＝－2x 中，当 x＝－3 时 y 是多少？",
+    "answer": "6",
+    "explanation": "y＝(－2)×(－3)＝6。",
+    "verify": "-2*-3"
+  },
+  {
+    "id": "cnm_263_q1",
+    "topicId": "cnm_263",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "反比例函数 y＝6/x 中，当 x＝2 时 y 是多少？",
+    "answer": "3",
+    "explanation": "6÷2＝3。",
+    "verify": "6/2"
+  },
+  {
+    "id": "cnm_263_q2",
+    "topicId": "cnm_263",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列函数中是反比例函数的是（　）。",
+    "answer": "B",
+    "explanation": "形如 y＝k/x（k≠0）。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "y＝2x"
+      },
+      {
+        "key": "B",
+        "text": "y＝2/x"
+      },
+      {
+        "key": "C",
+        "text": "y＝x²"
+      }
+    ]
+  },
+  {
+    "id": "cnm_263_q3",
+    "topicId": "cnm_263",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "反比例函数 y＝k/x 的图像经过点 (3，4)，k 是多少？",
+    "answer": "12",
+    "explanation": "k＝3×4＝12。",
+    "verify": "3*4"
+  },
+  {
+    "id": "cnm_263_q4",
+    "topicId": "cnm_263",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "反比例函数 y＝8/x 中，当 x＝－2 时 y 是多少？",
+    "answer": "-4",
+    "explanation": "8÷(－2)＝－4。",
+    "verify": "8/-2"
+  },
+  {
+    "id": "cnm_264_q1",
+    "topicId": "cnm_264",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "出租车起步价 10 元，每千米 2 元，行驶 3 千米的费用是多少元？",
+    "answer": "16",
+    "explanation": "10＋2×3＝16（元）。",
+    "verify": "10+2*3"
+  },
+  {
+    "id": "cnm_264_q2",
+    "topicId": "cnm_264",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "函数的三种表示方法是（　）。",
+    "answer": "A",
+    "explanation": "这是函数表示法的标准分类。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "解析式、列表、图像"
+      },
+      {
+        "key": "B",
+        "text": "表格、方程、不等式"
+      },
+      {
+        "key": "C",
+        "text": "正比例、反比例、一次"
+      }
+    ]
+  },
+  {
+    "id": "cnm_264_q3",
+    "topicId": "cnm_264",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "函数 y＝x² 中，当 x＝－2 时 y 是多少？",
+    "answer": "4",
+    "explanation": "(－2)²＝4。",
+    "verify": "(-2)**2"
+  },
+  {
+    "id": "cnm_264_q4",
+    "topicId": "cnm_264",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "一辆车以 60 千米/时的速度行驶，t 小时的路程 s＝60t，当 t＝2.5 时 s 是多少千米？",
+    "answer": "150",
+    "explanation": "60×2.5＝150（千米）。",
+    "verify": "60*2.5"
+  },
+  {
+    "id": "cnm_265_q1",
+    "topicId": "cnm_265",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "命题“两直线平行，内错角相等”是真命题吗？用 1 表示真、0 表示假。",
+    "answer": "1",
+    "explanation": "两直线平行，内错角相等，是真命题。",
+    "verify": "1"
+  },
+  {
+    "id": "cnm_265_q2",
+    "topicId": "cnm_265",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列语句中，是命题的是（　）。",
+    "answer": "B",
+    "explanation": "只有 B 能判断真假。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "你吃饭了吗"
+      },
+      {
+        "key": "B",
+        "text": "对顶角相等"
+      },
+      {
+        "key": "C",
+        "text": "画一条直线"
+      }
+    ]
+  },
+  {
+    "id": "cnm_265_q3",
+    "topicId": "cnm_265",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "命题“若 a＝0，则 ab＝0”的逆命题是否成立？用 1 表示成立、0 表示不成立。",
+    "answer": "0",
+    "explanation": "逆命题为“若 ab＝0，则 a＝0”，b＝0 时也成立原式，所以逆命题不成立。",
+    "verify": "0"
+  },
+  {
+    "id": "cnm_265_q4",
+    "topicId": "cnm_265",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "命题“两直线平行，同位角相等”的逆命题是否成立？用 1 表示成立、0 表示不成立。",
+    "answer": "1",
+    "explanation": "逆命题为“同位角相等，两直线平行”，是平行线的判定，成立。",
+    "verify": "1"
+  },
+  {
+    "id": "cnm_266_q1",
+    "topicId": "cnm_266",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "在 △ABC 中，AB＝AC，∠B＝70°，∠A 是多少度？",
+    "answer": "40",
+    "explanation": "两底角相等，∠A＝180－2×70＝40°。",
+    "verify": "180-2*70"
+  },
+  {
+    "id": "cnm_266_q2",
+    "topicId": "cnm_266",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "要证明两条直线平行，常用的依据是（　）。",
+    "answer": "A",
+    "explanation": "同位角相等（或内错角相等、同旁内角互补）可判定平行。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "同位角相等"
+      },
+      {
+        "key": "B",
+        "text": "三角形内角和为 180°"
+      },
+      {
+        "key": "C",
+        "text": "勾股定理"
+      }
+    ]
+  },
+  {
+    "id": "cnm_266_q3",
+    "topicId": "cnm_266",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "AB∥CD，∠1 与 ∠2 是同旁内角，∠1＝70°，∠2 是多少度？",
+    "answer": "110",
+    "explanation": "180°－70°＝110°。",
+    "verify": "180-70"
+  },
+  {
+    "id": "cnm_266_q4",
+    "topicId": "cnm_266",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "等腰三角形顶角为 80°，一腰上的高与底边的夹角是多少度？",
+    "answer": "40",
+    "explanation": "底角为 50°，高与底边夹角＝90°－50°＝40°。",
+    "verify": "90-50"
+  },
+  {
+    "id": "cnm_267_q1",
+    "topicId": "cnm_267",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "命题“若 x＝1，则 x²＝1”的逆命题是否成立？用 1 表示成立、0 表示不成立。",
+    "answer": "0",
+    "explanation": "逆命题“若 x²＝1，则 x＝1”，x＝－1 时不成立。",
+    "verify": "0"
+  },
+  {
+    "id": "cnm_267_q2",
+    "topicId": "cnm_267",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "“全等三角形的对应边相等”的逆命题是（　）。",
+    "answer": "A",
+    "explanation": "交换题设与结论即得。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "对应边相等的两个三角形全等"
+      },
+      {
+        "key": "B",
+        "text": "全等三角形的对应角相等"
+      },
+      {
+        "key": "C",
+        "text": "对应边不相等的三角形不全等"
+      }
+    ]
+  },
+  {
+    "id": "cnm_267_q3",
+    "topicId": "cnm_267",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "“两直线平行，同位角相等”的逆命题是真命题吗？用 1 表示真、0 表示假。",
+    "answer": "1",
+    "explanation": "逆命题为“同位角相等，两直线平行”，是真命题。",
+    "verify": "1"
+  },
+  {
+    "id": "cnm_267_q4",
+    "topicId": "cnm_267",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "勾股定理的逆命题是否成立？用 1 表示成立、0 表示不成立。",
+    "answer": "1",
+    "explanation": "逆命题“若三角形两边的平方和等于第三边的平方，则这个三角形是直角三角形”，成立。",
+    "verify": "1"
+  },
+  {
+    "id": "cnm_268_q1",
+    "topicId": "cnm_268",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "线段 AB 的垂直平分线上一点 P 到 A 的距离为 5，则 PB 是多少？",
+    "answer": "5",
+    "explanation": "垂直平分线上的点到两端距离相等。",
+    "verify": "5"
+  },
+  {
+    "id": "cnm_268_q2",
+    "topicId": "cnm_268",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "到线段两端距离相等的点在（　）。",
+    "answer": "B",
+    "explanation": "这是垂直平分线的判定定理。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "这条线段上"
+      },
+      {
+        "key": "B",
+        "text": "这条线段的垂直平分线上"
+      },
+      {
+        "key": "C",
+        "text": "这条线段的中点"
+      }
+    ]
+  },
+  {
+    "id": "cnm_268_q3",
+    "topicId": "cnm_268",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "△ABC 中 AB＝AC＝10，BC＝12，BC 的垂直平分线交 AC 于 D，△ABD 的周长是多少？",
+    "answer": "20",
+    "explanation": "DB＝DC，周长为 AB＋AC＝20。",
+    "verify": "10+10"
+  },
+  {
+    "id": "cnm_268_q4",
+    "topicId": "cnm_268",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "点 P 到 A(0，0)、B(4，0) 的距离相等，则 P 的横坐标是多少？",
+    "answer": "2",
+    "explanation": "P 在 AB 的垂直平分线上，即 AB 的中点处，横坐标为 2。",
+    "verify": "2"
+  },
+  {
+    "id": "cnm_269_q1",
+    "topicId": "cnm_269",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "角平分线上的点到角两边的距离分别是 3 和 x，x 是多少？",
+    "answer": "3",
+    "explanation": "角平分线上的点到两边距离相等。",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_269_q2",
+    "topicId": "cnm_269",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "角平分线的性质是（　）。",
+    "answer": "A",
+    "explanation": "性质定理表达的是距离相等；平分角是定义。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "到角两边的距离相等"
+      },
+      {
+        "key": "B",
+        "text": "到角两边端点的距离相等"
+      },
+      {
+        "key": "C",
+        "text": "把角分成两个相等的角是性质"
+      }
+    ]
+  },
+  {
+    "id": "cnm_269_q3",
+    "topicId": "cnm_269",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "∠AOB 的平分线上一点 P 到 OA 的距离为 4，P 到 OB 的距离是多少？",
+    "answer": "4",
+    "explanation": "距离相等，仍为 4。",
+    "verify": "4"
+  },
+  {
+    "id": "cnm_269_q4",
+    "topicId": "cnm_269",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "直角三角形三边分别为 3、4、5，其内切圆半径是多少？",
+    "answer": "1",
+    "explanation": "r＝(3＋4－5)/2＝1。",
+    "verify": "(3+4-5)/2"
+  },
+  {
+    "id": "cnm_270_q1",
+    "topicId": "cnm_270",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "直角三角形两锐角之和是多少度？",
+    "answer": "90",
+    "explanation": "三角形内角和 180°，减去直角 90°。",
+    "verify": "90"
+  },
+  {
+    "id": "cnm_270_q2",
+    "topicId": "cnm_270",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "判定两个直角三角形全等时特有的方法是（　）。",
+    "answer": "B",
+    "explanation": "HL 只适用于直角三角形。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "SAS"
+      },
+      {
+        "key": "B",
+        "text": "HL"
+      },
+      {
+        "key": "C",
+        "text": "ASA"
+      }
+    ]
+  },
+  {
+    "id": "cnm_270_q3",
+    "topicId": "cnm_270",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "直角三角形斜边为 10，斜边上的中线长是多少？",
+    "answer": "5",
+    "explanation": "斜边中线等于斜边的一半。",
+    "verify": "10/2"
+  },
+  {
+    "id": "cnm_270_q4",
+    "topicId": "cnm_270",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "直角三角形中 30° 角所对的直角边为 3，斜边是多少？",
+    "answer": "6",
+    "explanation": "30° 角所对直角边是斜边的一半。",
+    "verify": "3*2"
+  },
+  {
+    "id": "cnm_271_q1",
+    "topicId": "cnm_271",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "直角三角形两直角边为 3、4，斜边是多少？",
+    "answer": "5",
+    "explanation": "√(9＋16)＝5。",
+    "verify": "sqrt(3**2+4**2)"
+  },
+  {
+    "id": "cnm_271_q2",
+    "topicId": "cnm_271",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列各组数中，能作为直角三角形三边的是（　）。",
+    "answer": "B",
+    "explanation": "5²＋12²＝13²。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1，2，3"
+      },
+      {
+        "key": "B",
+        "text": "5，12，13"
+      },
+      {
+        "key": "C",
+        "text": "4，5，6"
+      }
+    ]
+  },
+  {
+    "id": "cnm_271_q3",
+    "topicId": "cnm_271",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "直角三角形斜边为 13，一条直角边为 5，另一条直角边是多少？",
+    "answer": "12",
+    "explanation": "√(169－25)＝12。",
+    "verify": "sqrt(13**2-5**2)"
+  },
+  {
+    "id": "cnm_271_q4",
+    "topicId": "cnm_271",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "等边三角形边长为 2，它的高约为多少？（保留两位小数）",
+    "answer": "1.73",
+    "explanation": "√(2²－1²)＝√3≈1.73。",
+    "verify": "round(sqrt(2**2-1**2),2)"
+  },
+  {
+    "id": "cnm_272_q1",
+    "topicId": "cnm_272",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "点 A(0，0)、B(3，4) 之间的距离是多少？",
+    "answer": "5",
+    "explanation": "√(3²＋4²)＝5。",
+    "verify": "sqrt(3**2+4**2)"
+  },
+  {
+    "id": "cnm_272_q2",
+    "topicId": "cnm_272",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "两点 (1，2)、(4，6) 之间的距离是（　）。",
+    "answer": "A",
+    "explanation": "√(3²＋4²)＝5。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "7"
+      }
+    ]
+  },
+  {
+    "id": "cnm_272_q3",
+    "topicId": "cnm_272",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "点 (2，3) 与点 (5，7) 之间的距离是多少？",
+    "answer": "5",
+    "explanation": "√(3²＋4²)＝5。",
+    "verify": "sqrt(3**2+4**2)"
+  },
+  {
+    "id": "cnm_272_q4",
+    "topicId": "cnm_272",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "点 (－1，2) 与点 (2，6) 之间的距离是多少？",
+    "answer": "5",
+    "explanation": "√(3²＋4²)＝5。",
+    "verify": "sqrt(3**2+4**2)"
+  },
+  {
+    "id": "cnm_273_q1",
+    "topicId": "cnm_273",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "一次函数 y＝2x－3 中，k 是多少？",
+    "answer": "2",
+    "explanation": "y＝kx＋b 中 x 的系数就是 k。",
+    "verify": "2"
+  },
+  {
+    "id": "cnm_273_q2",
+    "topicId": "cnm_273",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列函数中是一次函数的是（　）。",
+    "answer": "B",
+    "explanation": "只有 B 符合 y＝kx＋b 的形式。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "y＝x²"
+      },
+      {
+        "key": "B",
+        "text": "y＝2x－1"
+      },
+      {
+        "key": "C",
+        "text": "y＝2/x"
+      }
+    ]
+  },
+  {
+    "id": "cnm_273_q3",
+    "topicId": "cnm_273",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "一次函数 y＝－3x＋1 中，b 是多少？",
+    "answer": "1",
+    "explanation": "常数项 b＝1。",
+    "verify": "1"
+  },
+  {
+    "id": "cnm_273_q4",
+    "topicId": "cnm_273",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "若 y＝(m－2)x＋1 是一次函数，则 m 不能取的值是多少？",
+    "answer": "2",
+    "explanation": "k＝m－2≠0，所以 m≠2。",
+    "verify": "2"
+  },
+  {
+    "id": "cnm_274_q1",
+    "topicId": "cnm_274",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "一次函数 y＝2x＋1 的图像与 y 轴交点的纵坐标是多少？",
+    "answer": "1",
+    "explanation": "令 x＝0，得 y＝1。",
+    "verify": "1"
+  },
+  {
+    "id": "cnm_274_q2",
+    "topicId": "cnm_274",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "一次函数 y＝－x＋2 中，y 随 x 的增大而（　）。",
+    "answer": "B",
+    "explanation": "k＝－1＜0，函数值随 x 增大而减小。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "增大"
+      },
+      {
+        "key": "B",
+        "text": "减小"
+      },
+      {
+        "key": "C",
+        "text": "不变"
+      }
+    ]
+  },
+  {
+    "id": "cnm_274_q3",
+    "topicId": "cnm_274",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "直线 y＝3x－6 与 x 轴交点的横坐标是多少？",
+    "answer": "2",
+    "explanation": "令 y＝0，3x－6＝0，x＝2。",
+    "verify": "6/3"
+  },
+  {
+    "id": "cnm_274_q4",
+    "topicId": "cnm_274",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "把直线 y＝2x＋1 向上平移 3 个单位，所得直线的 b 是多少？",
+    "answer": "4",
+    "explanation": "向上平移 b 增加 3，1＋3＝4。",
+    "verify": "1+3"
+  },
+  {
+    "id": "cnm_275_q1",
+    "topicId": "cnm_275",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "已知 y＝5x＋100，当 x＝20 时 y 是多少？",
+    "answer": "200",
+    "explanation": "5×20＋100＝200。",
+    "verify": "5*20+100"
+  },
+  {
+    "id": "cnm_275_q2",
+    "topicId": "cnm_275",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "一次函数 y＝kx＋b 中 k＜0、b＞0，它的图像经过（　）。",
+    "answer": "B",
+    "explanation": "k＜0 时下降，与 y 轴交于正半轴，经过一、二、四象限。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "第一、二、三象限"
+      },
+      {
+        "key": "B",
+        "text": "第一、二、四象限"
+      },
+      {
+        "key": "C",
+        "text": "第二、三、四象限"
+      }
+    ]
+  },
+  {
+    "id": "cnm_275_q3",
+    "topicId": "cnm_275",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "出租车收费 y＝10＋2x，行驶 8 千米的费用是多少元？",
+    "answer": "26",
+    "explanation": "10＋2×8＝26（元）。",
+    "verify": "10+2*8"
+  },
+  {
+    "id": "cnm_275_q4",
+    "topicId": "cnm_275",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "方案 A 固定收费 30 元，方案 B 收费 10＋2x 元，当 x 为多少千米时两种方案费用相同？",
+    "answer": "10",
+    "explanation": "30＝10＋2x，x＝10。",
+    "verify": "(30-10)/2"
+  },
+  {
+    "id": "cnm_276_q1",
+    "topicId": "cnm_276",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "方程 x³＝8 的解是多少？",
+    "answer": "2",
+    "explanation": "2³＝8，所以 x＝2。",
+    "verify": "round(8**(1/3))"
+  },
+  {
+    "id": "cnm_276_q2",
+    "topicId": "cnm_276",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列方程中，是一元整式方程的是（　）。",
+    "answer": "B",
+    "explanation": "整式方程的分母中不含未知数。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1/x＝2"
+      },
+      {
+        "key": "B",
+        "text": "x³－1＝0"
+      },
+      {
+        "key": "C",
+        "text": "√x＝2"
+      }
+    ]
+  },
+  {
+    "id": "cnm_276_q3",
+    "topicId": "cnm_276",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "方程 x⁴－16＝0 的正根是多少？",
+    "answer": "2",
+    "explanation": "x⁴＝16，正根 x＝2。",
+    "verify": "round(16**(1/4))"
+  },
+  {
+    "id": "cnm_276_q4",
+    "topicId": "cnm_276",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "方程 x³－3x²＝0 的解中，最大的解是多少？",
+    "answer": "3",
+    "explanation": "x²(x－3)＝0，最大的解是 3。",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_277_q1",
+    "topicId": "cnm_277",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "方程 x⁵＝32 的解是多少？",
+    "answer": "2",
+    "explanation": "2⁵＝32，奇次幂解唯一。",
+    "verify": "round(32**(1/5))"
+  },
+  {
+    "id": "cnm_277_q2",
+    "topicId": "cnm_277",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "解二项方程 axⁿ＋b＝0（a≠0）的基本方法是（　）。",
+    "answer": "A",
+    "explanation": "化为 xⁿ＝－b/a 后开方。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "开方"
+      },
+      {
+        "key": "B",
+        "text": "配方"
+      },
+      {
+        "key": "C",
+        "text": "因式分解"
+      }
+    ]
+  },
+  {
+    "id": "cnm_277_q3",
+    "topicId": "cnm_277",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "方程 x³＋27＝0 的解是多少？",
+    "answer": "-3",
+    "explanation": "x³＝－27，x＝－3。",
+    "verify": "-3"
+  },
+  {
+    "id": "cnm_277_q4",
+    "topicId": "cnm_277",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "方程 x⁴＝81 的正根是多少？",
+    "answer": "3",
+    "explanation": "x＝±3，正根是 3。",
+    "verify": "round(81**(1/4))"
+  },
+  {
+    "id": "cnm_278_q1",
+    "topicId": "cnm_278",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "解方程 1/x＋x＝2，x 是多少？",
+    "answer": "1",
+    "explanation": "去分母得 1＋x²＝2x，即 (x－1)²＝0，x＝1。",
+    "verify": "1"
+  },
+  {
+    "id": "cnm_278_q2",
+    "topicId": "cnm_278",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "解分式方程后必须进行的一步是（　）。",
+    "answer": "A",
+    "explanation": "检验是否有增根。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "检验"
+      },
+      {
+        "key": "B",
+        "text": "配方"
+      },
+      {
+        "key": "C",
+        "text": "开方"
+      }
+    ]
+  },
+  {
+    "id": "cnm_278_q3",
+    "topicId": "cnm_278",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "解方程 (x＋1)/x＝2，x 是多少？",
+    "answer": "1",
+    "explanation": "x＋1＝2x，x＝1，检验成立。",
+    "verify": "1"
+  },
+  {
+    "id": "cnm_278_q4",
+    "topicId": "cnm_278",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "解方程 2/(x－1)＝x，正根是多少？",
+    "answer": "2",
+    "explanation": "x²－x－2＝0，根为 2 与 －1，正根是 2。",
+    "verify": "2"
+  },
+  {
+    "id": "cnm_279_q1",
+    "topicId": "cnm_279",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "方程 √(x＋1)＝2 的解是多少？",
+    "answer": "3",
+    "explanation": "平方得 x＋1＝4，x＝3。",
+    "verify": "2**2-1"
+  },
+  {
+    "id": "cnm_279_q2",
+    "topicId": "cnm_279",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "解无理方程后必须进行的一步是（　）。",
+    "answer": "A",
+    "explanation": "平方会产生增根。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "检验"
+      },
+      {
+        "key": "B",
+        "text": "因式分解"
+      },
+      {
+        "key": "C",
+        "text": "配方"
+      }
+    ]
+  },
+  {
+    "id": "cnm_279_q3",
+    "topicId": "cnm_279",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "方程 √(2x－3)＝3 的解是多少？",
+    "answer": "6",
+    "explanation": "2x－3＝9，x＝6。",
+    "verify": "(9+3)/2"
+  },
+  {
+    "id": "cnm_279_q4",
+    "topicId": "cnm_279",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "方程 √(x＋5)＝x－1 的正根是多少？",
+    "answer": "4",
+    "explanation": "平方得 x＋5＝x²－2x＋1，即 x²－3x－4＝0，x＝4 或 －1；检验只有 4 成立。",
+    "verify": "4"
+  },
+  {
+    "id": "cnm_280_q1",
+    "topicId": "cnm_280",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "方程组 x＋y＝5，xy＝6 的正整数解中，x＞y，则 x 是多少？",
+    "answer": "3",
+    "explanation": "3＋2＝5，3×2＝6，所以 x＝3。",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_280_q2",
+    "topicId": "cnm_280",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "解二元二次方程组最常用的方法是（　）。",
+    "answer": "A",
+    "explanation": "用一次方程代入二次方程消元。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "代入消元"
+      },
+      {
+        "key": "B",
+        "text": "配方"
+      },
+      {
+        "key": "C",
+        "text": "开方"
+      }
+    ]
+  },
+  {
+    "id": "cnm_280_q3",
+    "topicId": "cnm_280",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "已知 x－y＝1，x²－y²＝3，则 x＋y 是多少？",
+    "answer": "3",
+    "explanation": "x²－y²＝(x－y)(x＋y)，所以 x＋y＝3。",
+    "verify": "3/1"
+  },
+  {
+    "id": "cnm_280_q4",
+    "topicId": "cnm_280",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "已知 x＋y＝4，x²＋y²＝10，则 xy 是多少？",
+    "answer": "3",
+    "explanation": "xy＝((x＋y)²－(x²＋y²))/2＝(16－10)/2＝3。",
+    "verify": "(16-10)/2"
+  },
+  {
+    "id": "cnm_281_q1",
+    "topicId": "cnm_281",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "两个数的和是 12、积是 32，其中较大的数是多少？",
+    "answer": "8",
+    "explanation": "两数为 4 和 8，较大的是 8。",
+    "verify": "8"
+  },
+  {
+    "id": "cnm_281_q2",
+    "topicId": "cnm_281",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "连续两次增长率为 x 时，常用的模型是（　）。",
+    "answer": "A",
+    "explanation": "连续两次变化要平方。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "a(1＋x)²＝b"
+      },
+      {
+        "key": "B",
+        "text": "a＋x²＝b"
+      },
+      {
+        "key": "C",
+        "text": "a(1＋x)＝b²"
+      }
+    ]
+  },
+  {
+    "id": "cnm_281_q3",
+    "topicId": "cnm_281",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "某商品连续两次提价 10% 后为 121 元，原价是多少元？",
+    "answer": "100",
+    "explanation": "121÷1.1²＝100（元）。",
+    "verify": "121/1.1**2"
+  },
+  {
+    "id": "cnm_281_q4",
+    "topicId": "cnm_281",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "一项工作甲乙合作 6 天完成，甲单独做需 10 天，乙单独做需多少天？",
+    "answer": "15",
+    "explanation": "1÷(1/6－1/10)＝15（天）。",
+    "verify": "1/(1/6-1/10)"
+  },
+  {
+    "id": "cnm_282_q1",
+    "topicId": "cnm_282",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "六边形的内角和是多少度？",
+    "answer": "720",
+    "explanation": "(6－2)×180°＝720°。",
+    "verify": "(6-2)*180"
+  },
+  {
+    "id": "cnm_282_q2",
+    "topicId": "cnm_282",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "任意多边形的外角和等于（　）。",
+    "answer": "A",
+    "explanation": "外角和与边数无关，恒为 360°。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "360°"
+      },
+      {
+        "key": "B",
+        "text": "(n－2)×180°"
+      },
+      {
+        "key": "C",
+        "text": "180°"
+      }
+    ]
+  },
+  {
+    "id": "cnm_282_q3",
+    "topicId": "cnm_282",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "正八边形的每个内角是多少度？",
+    "answer": "135",
+    "explanation": "(8－2)×180°÷8＝135°。",
+    "verify": "(8-2)*180/8"
+  },
+  {
+    "id": "cnm_282_q4",
+    "topicId": "cnm_282",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "一个多边形的内角和是 1080°，它是几边形？",
+    "answer": "8",
+    "explanation": "(n－2)×180＝1080，n＝8。",
+    "verify": "1080/180+2"
+  },
+  {
+    "id": "cnm_283_q1",
+    "topicId": "cnm_283",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "平行四边形相邻两个内角之和是多少度？",
+    "answer": "180",
+    "explanation": "同旁内角互补。",
+    "verify": "180"
+  },
+  {
+    "id": "cnm_283_q2",
+    "topicId": "cnm_283",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "平行四边形的对边（　）。",
+    "answer": "A",
+    "explanation": "平行四边形的对边平行且相等。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "相等"
+      },
+      {
+        "key": "B",
+        "text": "垂直"
+      },
+      {
+        "key": "C",
+        "text": "不一定相等"
+      }
+    ]
+  },
+  {
+    "id": "cnm_283_q3",
+    "topicId": "cnm_283",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "平行四边形的周长是 20，一边长为 6，则它的邻边长是多少？",
+    "answer": "4",
+    "explanation": "半周长为 10，邻边为 10－6＝4。",
+    "verify": "20/2-6"
+  },
+  {
+    "id": "cnm_283_q4",
+    "topicId": "cnm_283",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "平行四边形的一个内角为 65°，其余三个角中最大的角是多少度？",
+    "answer": "115",
+    "explanation": "相邻角为 115°，对角分别相等，所以最大的是 115°。",
+    "verify": "180-65"
+  },
+  {
+    "id": "cnm_284_q1",
+    "topicId": "cnm_284",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "矩形的四个角都是多少度？",
+    "answer": "90",
+    "explanation": "矩形的每个角都是直角。",
+    "verify": "90"
+  },
+  {
+    "id": "cnm_284_q2",
+    "topicId": "cnm_284",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "矩形具有而一般平行四边形不一定具有的性质是（　）。",
+    "answer": "B",
+    "explanation": "矩形的对角线相等。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "对边相等"
+      },
+      {
+        "key": "B",
+        "text": "对角线相等"
+      },
+      {
+        "key": "C",
+        "text": "对角相等"
+      }
+    ]
+  },
+  {
+    "id": "cnm_284_q3",
+    "topicId": "cnm_284",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "矩形的一条对角线长为 10，则另一条对角线长是多少？",
+    "answer": "10",
+    "explanation": "矩形的对角线相等。",
+    "verify": "10"
+  },
+  {
+    "id": "cnm_284_q4",
+    "topicId": "cnm_284",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "矩形的周长是 20，一边长为 4，它的面积是多少？",
+    "answer": "24",
+    "explanation": "另一边为 6，面积 4×6＝24。",
+    "verify": "(20/2-4)*4"
+  },
+  {
+    "id": "cnm_285_q1",
+    "topicId": "cnm_285",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "菱形的边长为 5，周长是多少？",
+    "answer": "20",
+    "explanation": "菱形四边相等，5×4＝20。",
+    "verify": "4*5"
+  },
+  {
+    "id": "cnm_285_q2",
+    "topicId": "cnm_285",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列图形中，既是矩形又是菱形的是（　）。",
+    "answer": "B",
+    "explanation": "正方形同时具备矩形与菱形的性质。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "平行四边形"
+      },
+      {
+        "key": "B",
+        "text": "正方形"
+      },
+      {
+        "key": "C",
+        "text": "梯形"
+      }
+    ]
+  },
+  {
+    "id": "cnm_285_q3",
+    "topicId": "cnm_285",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "菱形的两条对角线分别为 6 和 8，面积是多少？",
+    "answer": "24",
+    "explanation": "6×8÷2＝24。",
+    "verify": "6*8/2"
+  },
+  {
+    "id": "cnm_285_q4",
+    "topicId": "cnm_285",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "正方形的对角线长为 6，它的面积是多少？",
+    "answer": "18",
+    "explanation": "面积＝对角线平方的一半＝36÷2＝18。",
+    "verify": "6**2/2"
+  },
+  {
+    "id": "cnm_286_q1",
+    "topicId": "cnm_286",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "等腰梯形的一腰长为 5，另一腰长是多少？",
+    "answer": "5",
+    "explanation": "等腰梯形两腰相等。",
+    "verify": "5"
+  },
+  {
+    "id": "cnm_286_q2",
+    "topicId": "cnm_286",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "梯形的面积公式是（　）。",
+    "answer": "A",
+    "explanation": "与三角形面积公式类似，要除以 2。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "（上底＋下底）×高÷2"
+      },
+      {
+        "key": "B",
+        "text": "上底×下底×高"
+      },
+      {
+        "key": "C",
+        "text": "（上底＋下底）×高"
+      }
+    ]
+  },
+  {
+    "id": "cnm_286_q3",
+    "topicId": "cnm_286",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "梯形上底 3、下底 7、高 4，面积是多少？",
+    "answer": "20",
+    "explanation": "(3＋7)×4÷2＝20。",
+    "verify": "(3+7)*4/2"
+  },
+  {
+    "id": "cnm_286_q4",
+    "topicId": "cnm_286",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "等腰梯形的一个底角为 70°，同一底上的另一个底角是多少度？",
+    "answer": "70",
+    "explanation": "等腰梯形同一底上的两个底角相等。",
+    "verify": "70"
+  },
+  {
+    "id": "cnm_287_q1",
+    "topicId": "cnm_287",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "三角形中位线等于第三边的一半，第三边为 10，中位线长是多少？",
+    "answer": "5",
+    "explanation": "10÷2＝5。",
+    "verify": "10/2"
+  },
+  {
+    "id": "cnm_287_q2",
+    "topicId": "cnm_287",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "三角形的中位线（　）。",
+    "answer": "A",
+    "explanation": "中位线平行于第三边且等于它的一半。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "平行于第三边"
+      },
+      {
+        "key": "B",
+        "text": "垂直于第三边"
+      },
+      {
+        "key": "C",
+        "text": "等于第三边"
+      }
+    ]
+  },
+  {
+    "id": "cnm_287_q3",
+    "topicId": "cnm_287",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "梯形上底 4、下底 8，中位线长是多少？",
+    "answer": "6",
+    "explanation": "(4＋8)÷2＝6。",
+    "verify": "(4+8)/2"
+  },
+  {
+    "id": "cnm_287_q4",
+    "topicId": "cnm_287",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "三角形三边分别为 6、8、10，三条中位线围成的三角形周长是多少？",
+    "answer": "12",
+    "explanation": "中位线三角形周长是原三角形周长的一半，(6＋8＋10)÷2＝12。",
+    "verify": "(6+8+10)/2"
+  },
+  {
+    "id": "cnm_288_q1",
+    "topicId": "cnm_288",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "向量 AB 与 BA 是相反向量，若 |AB|＝5，则 |BA| 是多少？",
+    "answer": "5",
+    "explanation": "相反向量的模相等。",
+    "verify": "5"
+  },
+  {
+    "id": "cnm_288_q2",
+    "topicId": "cnm_288",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "长度为 1 的向量叫做（　）。",
+    "answer": "B",
+    "explanation": "模为 1 的向量是单位向量。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "零向量"
+      },
+      {
+        "key": "B",
+        "text": "单位向量"
+      },
+      {
+        "key": "C",
+        "text": "相等向量"
+      }
+    ]
+  },
+  {
+    "id": "cnm_288_q3",
+    "topicId": "cnm_288",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "若 a、b 是相反向量且 |a|＝3，则 |a＋b| 是多少？",
+    "answer": "0",
+    "explanation": "相反向量之和为零向量，模为 0。",
+    "verify": "0"
+  },
+  {
+    "id": "cnm_288_q4",
+    "topicId": "cnm_288",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "向量 a＝(3，4) 的模是多少？",
+    "answer": "5",
+    "explanation": "√(9＋16)＝5。",
+    "verify": "sqrt(3**2+4**2)"
+  },
+  {
+    "id": "cnm_289_q1",
+    "topicId": "cnm_289",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "向量 a＝(1，2)，b＝(3，1)，a＋b 的横坐标是多少？",
+    "answer": "4",
+    "explanation": "1＋3＝4。",
+    "verify": "1+3"
+  },
+  {
+    "id": "cnm_289_q2",
+    "topicId": "cnm_289",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "用平行四边形法则作 a＋b 时，a＋b 对应平行四边形的（　）。",
+    "answer": "A",
+    "explanation": "以 a、b 为邻边的平行四边形的对角线。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "对角线"
+      },
+      {
+        "key": "B",
+        "text": "一条边"
+      },
+      {
+        "key": "C",
+        "text": "周长"
+      }
+    ]
+  },
+  {
+    "id": "cnm_289_q3",
+    "topicId": "cnm_289",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "a＝(4，－1)，b＝(－1，3)，a－b 的纵坐标是多少？",
+    "answer": "-4",
+    "explanation": "－1－3＝－4。",
+    "verify": "-1-3"
+  },
+  {
+    "id": "cnm_289_q4",
+    "topicId": "cnm_289",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "|a|＝3，|b|＝4，a⊥b，则 |a＋b| 是多少？",
+    "answer": "5",
+    "explanation": "√(9＋16)＝5。",
+    "verify": "sqrt(3**2+4**2)"
+  },
+  {
+    "id": "cnm_290_q1",
+    "topicId": "cnm_290",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "“太阳从东边升起”是必然事件，用 1 表示必然，填写 1。",
+    "answer": "1",
+    "explanation": "该事件一定发生。",
+    "verify": "1"
+  },
+  {
+    "id": "cnm_290_q2",
+    "topicId": "cnm_290",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列事件中，是随机事件的是（　）。",
+    "answer": "B",
+    "explanation": "B 可能发生也可能不发生。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "掷一枚骰子出现 7 点"
+      },
+      {
+        "key": "B",
+        "text": "掷一枚骰子出现 3 点"
+      },
+      {
+        "key": "C",
+        "text": "水往高处流"
+      }
+    ]
+  },
+  {
+    "id": "cnm_290_q3",
+    "topicId": "cnm_290",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "从装有 2 个红球、3 个白球的袋中摸出一个球，摸到红球是随机事件，用 1 表示“是”。",
+    "answer": "1",
+    "explanation": "可能摸到红球，也可能摸到白球，是随机事件。",
+    "verify": "1"
+  },
+  {
+    "id": "cnm_290_q4",
+    "topicId": "cnm_290",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "从一副去掉大小王的 52 张扑克牌中任取一张，取到红桃的可能性是多少？（写成 a/b）",
+    "answer": "1/4",
+    "explanation": "红桃有 13 张，13/52＝1/4。",
+    "verify": "Fraction(13,52)"
+  },
+  {
+    "id": "cnm_291_q1",
+    "topicId": "cnm_291",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "掷一枚均匀的骰子，出现偶数的可能性是多少？（写成 a/b）",
+    "answer": "1/2",
+    "explanation": "偶数有 2、4、6 共 3 个，3/6＝1/2。",
+    "verify": "Fraction(3,6)"
+  },
+  {
+    "id": "cnm_291_q2",
+    "topicId": "cnm_291",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "袋中有 5 个红球、1 个白球，任取一球，更可能取到（　）。",
+    "answer": "A",
+    "explanation": "红球个数多，可能性大。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "红球"
+      },
+      {
+        "key": "B",
+        "text": "白球"
+      },
+      {
+        "key": "C",
+        "text": "一样可能"
+      }
+    ]
+  },
+  {
+    "id": "cnm_291_q3",
+    "topicId": "cnm_291",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "转盘平均分成 4 份，指针停在某一特定区域的可能性是多少？（写成 a/b）",
+    "answer": "1/4",
+    "explanation": "4 个等可能结果中只有 1 个符合。",
+    "verify": "Fraction(1,4)"
+  },
+  {
+    "id": "cnm_291_q4",
+    "topicId": "cnm_291",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "从 1 到 10 中任取一个整数，取到 3 的倍数的可能性是多少？（写成 a/b）",
+    "answer": "3/10",
+    "explanation": "3、6、9 共 3 个，可能性 3/10。",
+    "verify": "Fraction(3,10)"
+  },
+  {
+    "id": "cnm_292_q1",
+    "topicId": "cnm_292",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "掷一枚均匀的骰子，出现 5 点的概率是多少？（写成 a/b）",
+    "answer": "1/6",
+    "explanation": "6 个结果中 1 个符合。",
+    "verify": "Fraction(1,6)"
+  },
+  {
+    "id": "cnm_292_q2",
+    "topicId": "cnm_292",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "概率为 0 的事件是（　）。",
+    "answer": "C",
+    "explanation": "不可能事件的概率为 0。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "随机事件"
+      },
+      {
+        "key": "B",
+        "text": "必然事件"
+      },
+      {
+        "key": "C",
+        "text": "不可能事件"
+      }
+    ]
+  },
+  {
+    "id": "cnm_292_q3",
+    "topicId": "cnm_292",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "掷两枚均匀的硬币，两次都正面朝上的概率是多少？（写成 a/b）",
+    "answer": "1/4",
+    "explanation": "4 种等可能结果中只有 1 种符合。",
+    "verify": "Fraction(1,4)"
+  },
+  {
+    "id": "cnm_292_q4",
+    "topicId": "cnm_292",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "从 1 到 20 中任取一个整数，取到素数的概率是多少？（写成 a/b）",
+    "answer": "2/5",
+    "explanation": "素数有 2、3、5、7、11、13、17、19 共 8 个，8/20＝2/5。",
+    "verify": "Fraction(8,20)"
+  },
+  {
+    "id": "cnm_293_q1",
+    "topicId": "cnm_293",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "掷两枚均匀的骰子，点数和为 2 的概率是多少？（写成 a/b）",
+    "answer": "1/36",
+    "explanation": "36 种结果中只有 (1，1) 符合。",
+    "verify": "Fraction(1,36)"
+  },
+  {
+    "id": "cnm_293_q2",
+    "topicId": "cnm_293",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "用列表法求概率，最适合的情形是（　）。",
+    "answer": "A",
+    "explanation": "列表法适合列出两步试验的所有结果。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "两步试验"
+      },
+      {
+        "key": "B",
+        "text": "一步试验"
+      },
+      {
+        "key": "C",
+        "text": "任何试验"
+      }
+    ]
+  },
+  {
+    "id": "cnm_293_q3",
+    "topicId": "cnm_293",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "从 2、4、6 中任取两个不同的数，和为 8 的概率是多少？（写成 a/b）",
+    "answer": "1/3",
+    "explanation": "3 种取法 (2,4)(2,6)(4,6) 中只有 (2,6) 和为 8。",
+    "verify": "Fraction(1,3)"
+  },
+  {
+    "id": "cnm_293_q4",
+    "topicId": "cnm_293",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "袋中有 2 个红球、1 个白球，不放回地取两次，两次都取到红球的概率是多少？（写成 a/b）",
+    "answer": "1/3",
+    "explanation": "第一次 2/3，第二次 1/2，乘积为 1/3。",
+    "verify": "Fraction(1,3)"
+  },
+  {
+    "id": "cnm_294_q1",
+    "topicId": "cnm_294",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "两个相似三角形的相似比为 2:3，小三角形一边为 4，大三角形对应边是多少？",
+    "answer": "6",
+    "explanation": "4×3÷2＝6。",
+    "verify": "4*3/2"
+  },
+  {
+    "id": "cnm_294_q2",
+    "topicId": "cnm_294",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列各组图形中，一定相似的是（　）。",
+    "answer": "B",
+    "explanation": "等边三角形的三个角都是 60°，形状一定相同。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "两个矩形"
+      },
+      {
+        "key": "B",
+        "text": "两个等边三角形"
+      },
+      {
+        "key": "C",
+        "text": "两个等腰三角形"
+      }
+    ]
+  },
+  {
+    "id": "cnm_294_q3",
+    "topicId": "cnm_294",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "两个相似多边形的相似比为 1:3，小图形周长为 5，大图形周长是多少？",
+    "answer": "15",
+    "explanation": "5×3＝15。",
+    "verify": "5*3"
+  },
+  {
+    "id": "cnm_294_q4",
+    "topicId": "cnm_294",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "两个相似三角形的相似比为 1:2，大三角形面积是小三角形的多少倍？",
+    "answer": "4",
+    "explanation": "面积比等于相似比的平方，2²＝4。",
+    "verify": "2**2"
+  },
+  {
+    "id": "cnm_295_q1",
+    "topicId": "cnm_295",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "若 a/b＝c/d，a＝2、b＝3、c＝4，则 d 是多少？",
+    "answer": "6",
+    "explanation": "2d＝3×4，d＝6。",
+    "verify": "3*4/2"
+  },
+  {
+    "id": "cnm_295_q2",
+    "topicId": "cnm_295",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "若 b²＝ac（a、b、c 均为正数），则 b 叫做 a、c 的（　）。",
+    "answer": "A",
+    "explanation": "这是比例中项的定义。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "比例中项"
+      },
+      {
+        "key": "B",
+        "text": "平均值"
+      },
+      {
+        "key": "C",
+        "text": "公因数"
+      }
+    ]
+  },
+  {
+    "id": "cnm_295_q3",
+    "topicId": "cnm_295",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "已知 x/y＝3/4，则 (x＋y)/y 是多少？（写成 a/b）",
+    "answer": "7/4",
+    "explanation": "由合比性质，(x＋y)/y＝(3＋4)/4＝7/4。",
+    "verify": "Fraction(7,4)"
+  },
+  {
+    "id": "cnm_295_q4",
+    "topicId": "cnm_295",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "黄金分割比约为 0.618，线段长 10，较长部分约为多少？（保留一位小数）",
+    "answer": "6.2",
+    "explanation": "10×0.618≈6.2。",
+    "verify": "round(10*0.618,1)"
+  },
+  {
+    "id": "cnm_296_q1",
+    "topicId": "cnm_296",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "DE∥BC，AD:DB＝2:3，则 AE:EC 是多少？（写成 a/b）",
+    "answer": "2/3",
+    "explanation": "平行线分线段成比例，AE:EC＝AD:DB。",
+    "verify": "Fraction(2,3)"
+  },
+  {
+    "id": "cnm_296_q2",
+    "topicId": "cnm_296",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "DE∥BC 时，△ADE 与 △ABC 的关系是（　）。",
+    "answer": "B",
+    "explanation": "同位角相等，两三角形相似。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "全等"
+      },
+      {
+        "key": "B",
+        "text": "相似"
+      },
+      {
+        "key": "C",
+        "text": "没有关系"
+      }
+    ]
+  },
+  {
+    "id": "cnm_296_q3",
+    "topicId": "cnm_296",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "DE∥BC，AD＝3，AB＝5，DE＝6，则 BC 是多少？",
+    "answer": "10",
+    "explanation": "AD:AB＝DE:BC，3:5＝6:BC，BC＝10。",
+    "verify": "6*5/3"
+  },
+  {
+    "id": "cnm_296_q4",
+    "topicId": "cnm_296",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "DE∥BC，AD:DB＝1:2，DE＝4，则 BC 是多少？",
+    "answer": "12",
+    "explanation": "AD:AB＝1:3，BC＝4×3＝12。",
+    "verify": "4*3"
+  },
+  {
+    "id": "cnm_297_q1",
+    "topicId": "cnm_297",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "△ABC∽△DEF，∠A＝50°，∠B＝60°，则 ∠F 是多少度？",
+    "answer": "70",
+    "explanation": "∠C＝70°，对应角 ∠F＝70°。",
+    "verify": "180-50-60"
+  },
+  {
+    "id": "cnm_297_q2",
+    "topicId": "cnm_297",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列条件中，不能判定两个三角形相似的是（　）。",
+    "answer": "C",
+    "explanation": "只有两边成比例、夹角不一定相等时不能判定相似。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "两角对应相等"
+      },
+      {
+        "key": "B",
+        "text": "两边成比例且夹角相等"
+      },
+      {
+        "key": "C",
+        "text": "两边成比例"
+      }
+    ]
+  },
+  {
+    "id": "cnm_297_q3",
+    "topicId": "cnm_297",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "两个相似三角形的相似比为 2:3，一个三角形的一边为 6，它的对应边是多少？",
+    "answer": "9",
+    "explanation": "6×3÷2＝9。",
+    "verify": "6*3/2"
+  },
+  {
+    "id": "cnm_297_q4",
+    "topicId": "cnm_297",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "DE∥BC，AD＝2，DB＝4，AE＝3，则 EC 是多少？",
+    "answer": "6",
+    "explanation": "AD:DB＝AE:EC，2:4＝3:EC，EC＝6。",
+    "verify": "3*2"
+  },
+  {
+    "id": "cnm_298_q1",
+    "topicId": "cnm_298",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "两个相似三角形对应高之比为 2:3，则它们的面积比的前项是多少？",
+    "answer": "4",
+    "explanation": "面积比＝2²:3²＝4:9。",
+    "verify": "2**2"
+  },
+  {
+    "id": "cnm_298_q2",
+    "topicId": "cnm_298",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "相似三角形的周长比等于（　）。",
+    "answer": "A",
+    "explanation": "周长比等于相似比。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "相似比"
+      },
+      {
+        "key": "B",
+        "text": "相似比的平方"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      }
+    ]
+  },
+  {
+    "id": "cnm_298_q3",
+    "topicId": "cnm_298",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "两个相似三角形的面积比为 9:16，它们的相似比的前项是多少？",
+    "answer": "3",
+    "explanation": "相似比＝√9:√16＝3:4。",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_298_q4",
+    "topicId": "cnm_298",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "两个相似三角形的相似比为 1:2，小三角形面积为 5，大三角形面积是多少？",
+    "answer": "20",
+    "explanation": "面积比为 1:4，5×4＝20。",
+    "verify": "5*4"
+  },
+  {
+    "id": "cnm_299_q1",
+    "topicId": "cnm_299",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "向量 a 的模为 3，则 |2a| 是多少？",
+    "answer": "6",
+    "explanation": "|2a|＝2×3＝6。",
+    "verify": "2*3"
+  },
+  {
+    "id": "cnm_299_q2",
+    "topicId": "cnm_299",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "若向量 a 与 b 共线（b≠0），则一定存在实数 k，使（　）。",
+    "answer": "A",
+    "explanation": "共线向量可以用数乘表示。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "a＝kb"
+      },
+      {
+        "key": "B",
+        "text": "a＝b"
+      },
+      {
+        "key": "C",
+        "text": "a⊥b"
+      }
+    ]
+  },
+  {
+    "id": "cnm_299_q3",
+    "topicId": "cnm_299",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "a＝(1，2)，则 3a 的横坐标是多少？",
+    "answer": "3",
+    "explanation": "3×1＝3。",
+    "verify": "3*1"
+  },
+  {
+    "id": "cnm_299_q4",
+    "topicId": "cnm_299",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "向量 a＝(3，4)，则 |－2a| 是多少？",
+    "answer": "10",
+    "explanation": "|a|＝5，|－2a|＝2×5＝10。",
+    "verify": "2*5"
+  },
+  {
+    "id": "cnm_300_q1",
+    "topicId": "cnm_300",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "AB＋BC＋CA 的结果是零向量，它的模是多少？",
+    "answer": "0",
+    "explanation": "回到起点，和为零向量。",
+    "verify": "0"
+  },
+  {
+    "id": "cnm_300_q2",
+    "topicId": "cnm_300",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "平面向量的线性运算包括（　）。",
+    "answer": "A",
+    "explanation": "线性运算指加法与数乘。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "向量的加法与实数与向量相乘"
+      },
+      {
+        "key": "B",
+        "text": "向量的加法与数量积"
+      },
+      {
+        "key": "C",
+        "text": "只有加法"
+      }
+    ]
+  },
+  {
+    "id": "cnm_300_q3",
+    "topicId": "cnm_300",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "a＝(2，－1)，b＝(1，3)，则 2a－b 的纵坐标是多少？",
+    "answer": "-5",
+    "explanation": "2×(－1)－3＝－5。",
+    "verify": "2*(-1)-3"
+  },
+  {
+    "id": "cnm_300_q4",
+    "topicId": "cnm_300",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "a＝(1，2)，b＝(－2，－4)，则 b＝ka 中的 k 是多少？",
+    "answer": "-2",
+    "explanation": "－2＝k×1，k＝－2。",
+    "verify": "-2"
+  },
+  {
+    "id": "cnm_301_q1",
+    "topicId": "cnm_301",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "Rt△ABC 中 ∠C＝90°，∠A 的对边为 3、斜边为 5，sinA 是多少？",
+    "answer": "0.6",
+    "explanation": "sinA＝3/5＝0.6。",
+    "verify": "3/5"
+  },
+  {
+    "id": "cnm_301_q2",
+    "topicId": "cnm_301",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "tanA 等于（　）。",
+    "answer": "A",
+    "explanation": "正切是对边比邻边。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "对边/邻边"
+      },
+      {
+        "key": "B",
+        "text": "邻边/对边"
+      },
+      {
+        "key": "C",
+        "text": "对边/斜边"
+      }
+    ]
+  },
+  {
+    "id": "cnm_301_q3",
+    "topicId": "cnm_301",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "Rt△ABC 中 ∠C＝90°，AC＝4，BC＝3，则 cosA 是多少？",
+    "answer": "0.8",
+    "explanation": "AB＝5，cosA＝邻边/斜边＝4/5＝0.8。",
+    "verify": "4/5"
+  },
+  {
+    "id": "cnm_301_q4",
+    "topicId": "cnm_301",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "Rt△ABC 中 ∠C＝90°，AB＝13，BC＝5，则 tanA 是多少？（写成 a/b）",
+    "answer": "5/12",
+    "explanation": "AC＝12，tanA＝BC/AC＝5/12。",
+    "verify": "5/12"
+  },
+  {
+    "id": "cnm_302_q1",
+    "topicId": "cnm_302",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "sin30° 的值是多少？",
+    "answer": "0.5",
+    "explanation": "sin30°＝1/2。",
+    "verify": "sin(radians(30))"
+  },
+  {
+    "id": "cnm_302_q2",
+    "topicId": "cnm_302",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "tan45° 的值是（　）。",
+    "answer": "A",
+    "explanation": "等腰直角三角形两直角边相等，tan45°＝1。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "√2"
+      },
+      {
+        "key": "C",
+        "text": "1/2"
+      }
+    ]
+  },
+  {
+    "id": "cnm_302_q3",
+    "topicId": "cnm_302",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "cos60° 的值是多少？",
+    "answer": "0.5",
+    "explanation": "cos60°＝1/2。",
+    "verify": "cos(radians(60))"
+  },
+  {
+    "id": "cnm_302_q4",
+    "topicId": "cnm_302",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "sin60° 的值约为多少？（保留两位小数）",
+    "answer": "0.87",
+    "explanation": "sin60°＝√3/2≈0.87。",
+    "verify": "round(sin(radians(60)),2)"
+  },
+  {
+    "id": "cnm_303_q1",
+    "topicId": "cnm_303",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "Rt△ABC 中 ∠C＝90°，∠A＝30°，斜边 AB＝10，BC 是多少？",
+    "answer": "5",
+    "explanation": "BC＝10×sin30°＝5。",
+    "verify": "10*sin(radians(30))"
+  },
+  {
+    "id": "cnm_303_q2",
+    "topicId": "cnm_303",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "解直角三角形时，下列依据中不需要的是（　）。",
+    "answer": "C",
+    "explanation": "解直角三角形用勾股定理、三角比与两锐角互余。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "勾股定理"
+      },
+      {
+        "key": "B",
+        "text": "锐角三角比"
+      },
+      {
+        "key": "C",
+        "text": "相似三角形判定"
+      }
+    ]
+  },
+  {
+    "id": "cnm_303_q3",
+    "topicId": "cnm_303",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "Rt△ABC 中 ∠C＝90°，AC＝3，BC＝3，∠A 是多少度？",
+    "answer": "45",
+    "explanation": "tanA＝3/3＝1，∠A＝45°。",
+    "verify": "degrees(atan(3/3))"
+  },
+  {
+    "id": "cnm_303_q4",
+    "topicId": "cnm_303",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "Rt△ABC 中 ∠C＝90°，斜边 AB＝10，∠A＝30°，AC 约为多少？（保留两位小数）",
+    "answer": "8.66",
+    "explanation": "AC＝10×cos30°≈8.66。",
+    "verify": "round(10*cos(radians(30)),2)"
+  },
+  {
+    "id": "cnm_304_q1",
+    "topicId": "cnm_304",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "某坡面坡角 30°，沿水平方向前进 10 米，升高约为多少米？（保留一位小数）",
+    "answer": "5.8",
+    "explanation": "升高＝10×tan30°≈5.8（米）。",
+    "verify": "round(10*tan(radians(30)),1)"
+  },
+  {
+    "id": "cnm_304_q2",
+    "topicId": "cnm_304",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "仰角是视线与（　）的夹角。",
+    "answer": "A",
+    "explanation": "仰角是向上看时视线与水平线的夹角。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "水平线"
+      },
+      {
+        "key": "B",
+        "text": "竖直线"
+      },
+      {
+        "key": "C",
+        "text": "斜面"
+      }
+    ]
+  },
+  {
+    "id": "cnm_304_q3",
+    "topicId": "cnm_304",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "在 20 米高的塔顶看地面上一点，俯角为 45°，该点到塔底的距离是多少米？",
+    "answer": "20",
+    "explanation": "d＝20÷tan45°＝20（米）。",
+    "verify": "20/tan(radians(45))"
+  },
+  {
+    "id": "cnm_304_q4",
+    "topicId": "cnm_304",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "从 A 处测得楼顶仰角 30°，向楼前进 10 米后测得仰角 45°，楼高约为多少米？（保留一位小数）",
+    "answer": "13.7",
+    "explanation": "设楼高 h，则 h/tan30°－h/tan45°＝10，解得 h≈13.7。",
+    "verify": "round(10/(sqrt(3)-1),1)"
+  },
+  {
+    "id": "cnm_305_q1",
+    "topicId": "cnm_305",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "二次函数 y＝2x²－3x＋1 中，a 是多少？",
+    "answer": "2",
+    "explanation": "二次项系数 a＝2。",
+    "verify": "2"
+  },
+  {
+    "id": "cnm_305_q2",
+    "topicId": "cnm_305",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列函数中是二次函数的是（　）。",
+    "answer": "B",
+    "explanation": "只有 B 是整式且最高次为 2。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "y＝x³"
+      },
+      {
+        "key": "B",
+        "text": "y＝2x²"
+      },
+      {
+        "key": "C",
+        "text": "y＝1/x²"
+      }
+    ]
+  },
+  {
+    "id": "cnm_305_q3",
+    "topicId": "cnm_305",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "若 y＝(m－1)x²＋2x 是二次函数，则 m 不能取的值是多少？",
+    "answer": "1",
+    "explanation": "m－1≠0，m≠1。",
+    "verify": "1"
+  },
+  {
+    "id": "cnm_305_q4",
+    "topicId": "cnm_305",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "二次函数 y＝x²－2x＋3 中，当 x＝2 时 y 是多少？",
+    "answer": "3",
+    "explanation": "4－4＋3＝3。",
+    "verify": "2**2-2*2+3"
+  },
+  {
+    "id": "cnm_306_q1",
+    "topicId": "cnm_306",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "抛物线 y＝2x² 的顶点纵坐标是多少？",
+    "answer": "0",
+    "explanation": "顶点在原点。",
+    "verify": "0"
+  },
+  {
+    "id": "cnm_306_q2",
+    "topicId": "cnm_306",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "抛物线 y＝－x² 的开口方向是（　）。",
+    "answer": "B",
+    "explanation": "a＝－1＜0，开口向下。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "向上"
+      },
+      {
+        "key": "B",
+        "text": "向下"
+      },
+      {
+        "key": "C",
+        "text": "向左"
+      }
+    ]
+  },
+  {
+    "id": "cnm_306_q3",
+    "topicId": "cnm_306",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "抛物线 y＝(x－2)² 的顶点横坐标是多少？",
+    "answer": "2",
+    "explanation": "顶点为 (2，0)。",
+    "verify": "2"
+  },
+  {
+    "id": "cnm_306_q4",
+    "topicId": "cnm_306",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "抛物线 y＝x²＋3 的顶点纵坐标是多少？",
+    "answer": "3",
+    "explanation": "顶点为 (0，3)。",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_307_q1",
+    "topicId": "cnm_307",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "抛物线 y＝x²－4x＋3 的对称轴是 x 等于多少？",
+    "answer": "2",
+    "explanation": "x＝－b/(2a)＝2。",
+    "verify": "4/2"
+  },
+  {
+    "id": "cnm_307_q2",
+    "topicId": "cnm_307",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "抛物线 y＝ax²＋bx＋c 中 a＞0 时，开口（　）。",
+    "answer": "A",
+    "explanation": "a＞0 开口向上。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "向上"
+      },
+      {
+        "key": "B",
+        "text": "向下"
+      },
+      {
+        "key": "C",
+        "text": "不确定"
+      }
+    ]
+  },
+  {
+    "id": "cnm_307_q3",
+    "topicId": "cnm_307",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "抛物线 y＝x²－2x－3 的顶点纵坐标是多少？",
+    "answer": "-4",
+    "explanation": "顶点 x＝1，y＝1－2－3＝－4。",
+    "verify": "1-2-3"
+  },
+  {
+    "id": "cnm_307_q4",
+    "topicId": "cnm_307",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "抛物线 y＝2x²－8x＋5 的最小值是多少？",
+    "answer": "-3",
+    "explanation": "顶点 x＝2，y＝2×4－16＋5＝－3。",
+    "verify": "2*4-8*2+5"
+  },
+  {
+    "id": "cnm_308_q1",
+    "topicId": "cnm_308",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "二次函数 y＝－(x－1)²＋4 的最大值是多少？",
+    "answer": "4",
+    "explanation": "a＜0，顶点处取最大值 4。",
+    "verify": "4"
+  },
+  {
+    "id": "cnm_308_q2",
+    "topicId": "cnm_308",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "二次函数 y＝ax²＋bx＋c 中 a＜0 时，函数（　）。",
+    "answer": "A",
+    "explanation": "开口向下，顶点处取最大值。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "有最大值"
+      },
+      {
+        "key": "B",
+        "text": "有最小值"
+      },
+      {
+        "key": "C",
+        "text": "没有最值"
+      }
+    ]
+  },
+  {
+    "id": "cnm_308_q3",
+    "topicId": "cnm_308",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "用 20 米篱笆围矩形，一边长为 x，面积 y＝x(10－x)，当 x＝5 时面积是多少？",
+    "answer": "25",
+    "explanation": "5×(10－5)＝25。",
+    "verify": "5*(10-5)"
+  },
+  {
+    "id": "cnm_308_q4",
+    "topicId": "cnm_308",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "某商品售价 x 元时销量为 (100－2x) 件，收入 y＝x(100－2x)，当 x＝25 时收入是多少元？",
+    "answer": "1250",
+    "explanation": "25×(100－50)＝1250。",
+    "verify": "25*(100-2*25)"
+  },
+  {
+    "id": "cnm_309_q1",
+    "topicId": "cnm_309",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "过不在同一直线上的三点能确定几个圆？",
+    "answer": "1",
+    "explanation": "不共线的三点确定唯一一个圆。",
+    "verify": "1"
+  },
+  {
+    "id": "cnm_309_q2",
+    "topicId": "cnm_309",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "三角形的外心是（　）。",
+    "answer": "A",
+    "explanation": "外心到三个顶点距离相等。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "三边垂直平分线的交点"
+      },
+      {
+        "key": "B",
+        "text": "三条中线的交点"
+      },
+      {
+        "key": "C",
+        "text": "三条角平分线的交点"
+      }
+    ]
+  },
+  {
+    "id": "cnm_309_q3",
+    "topicId": "cnm_309",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "直角三角形三边为 3、4、5，它的外接圆半径是多少？",
+    "answer": "2.5",
+    "explanation": "外接圆半径等于斜边的一半，5÷2＝2.5。",
+    "verify": "5/2"
+  },
+  {
+    "id": "cnm_309_q4",
+    "topicId": "cnm_309",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "等边三角形边长为 6，它的外接圆半径约为多少？（保留两位小数）",
+    "answer": "3.46",
+    "explanation": "r＝a/√3＝6/√3≈3.46。",
+    "verify": "round(6/sqrt(3),2)"
+  },
+  {
+    "id": "cnm_310_q1",
+    "topicId": "cnm_310",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "同圆中相等的圆心角所对的弧相等，若圆心角为 60°，则对应弧的度数是多少？",
+    "answer": "60",
+    "explanation": "弧的度数等于它所对圆心角的度数。",
+    "verify": "60"
+  },
+  {
+    "id": "cnm_310_q2",
+    "topicId": "cnm_310",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "在同圆中，弦心距越大，弦（　）。",
+    "answer": "B",
+    "explanation": "由 r²＝d²＋(l/2)² 可知 d 越大 l 越小。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "越长"
+      },
+      {
+        "key": "B",
+        "text": "越短"
+      },
+      {
+        "key": "C",
+        "text": "不变"
+      }
+    ]
+  },
+  {
+    "id": "cnm_310_q3",
+    "topicId": "cnm_310",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "半径为 5 的圆中，弦心距为 3，弦长是多少？",
+    "answer": "8",
+    "explanation": "半弦 4，弦长 8。",
+    "verify": "2*sqrt(5**2-3**2)"
+  },
+  {
+    "id": "cnm_310_q4",
+    "topicId": "cnm_310",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "圆中一条弦长为 8，半径为 5，弦心距是多少？",
+    "answer": "3",
+    "explanation": "d＝√(25－16)＝3。",
+    "verify": "sqrt(5**2-4**2)"
+  },
+  {
+    "id": "cnm_311_q1",
+    "topicId": "cnm_311",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "半径为 10 的圆中，弦心距为 6，弦长是多少？",
+    "answer": "16",
+    "explanation": "半弦 √(100－36)＝8，弦长 16。",
+    "verify": "2*sqrt(10**2-6**2)"
+  },
+  {
+    "id": "cnm_311_q2",
+    "topicId": "cnm_311",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "垂径定理中，垂直于弦的直径（　）。",
+    "answer": "A",
+    "explanation": "垂径定理：垂直于弦的直径平分弦，并且平分弦所对的两条弧。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "平分这条弦"
+      },
+      {
+        "key": "B",
+        "text": "平行于这条弦"
+      },
+      {
+        "key": "C",
+        "text": "等于这条弦"
+      }
+    ]
+  },
+  {
+    "id": "cnm_311_q3",
+    "topicId": "cnm_311",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "半径为 5 的圆中，弦长为 8，弦心距是多少？",
+    "answer": "3",
+    "explanation": "√(25－16)＝3。",
+    "verify": "sqrt(5**2-4**2)"
+  },
+  {
+    "id": "cnm_311_q4",
+    "topicId": "cnm_311",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "圆形拱桥半径为 5 米，水面宽 8 米，拱顶到水面的高度是多少米？",
+    "answer": "2",
+    "explanation": "5－√(25－16)＝5－3＝2（米）。",
+    "verify": "5-sqrt(5**2-4**2)"
+  },
+  {
+    "id": "cnm_312_q1",
+    "topicId": "cnm_312",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "圆心到直线的距离等于半径时，直线与圆有几个公共点？",
+    "answer": "1",
+    "explanation": "此时相切，只有 1 个公共点。",
+    "verify": "1"
+  },
+  {
+    "id": "cnm_312_q2",
+    "topicId": "cnm_312",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "直线与圆相离时，圆心到直线的距离 d 与半径 r 的关系是（　）。",
+    "answer": "A",
+    "explanation": "相离时 d＞r。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "d＞r"
+      },
+      {
+        "key": "B",
+        "text": "d＝r"
+      },
+      {
+        "key": "C",
+        "text": "d＜r"
+      }
+    ]
+  },
+  {
+    "id": "cnm_312_q3",
+    "topicId": "cnm_312",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "⊙O 的半径为 3，圆心到直线 l 的距离为 5，l 与 ⊙O 有几个公共点？",
+    "answer": "0",
+    "explanation": "d＞r，相离，没有公共点。",
+    "verify": "0"
+  },
+  {
+    "id": "cnm_312_q4",
+    "topicId": "cnm_312",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "圆的半径为 4，过圆外一点作切线，切线长为 3，则该点到圆心的距离是多少？",
+    "answer": "5",
+    "explanation": "由切线垂直于半径，d＝√(16＋9)＝5。",
+    "verify": "sqrt(4**2+3**2)"
+  },
+  {
+    "id": "cnm_313_q1",
+    "topicId": "cnm_313",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "两圆半径分别为 2 和 3，圆心距为 6，它们的公共点有几个？",
+    "answer": "0",
+    "explanation": "d＞R＋r，外离，无公共点。",
+    "verify": "0"
+  },
+  {
+    "id": "cnm_313_q2",
+    "topicId": "cnm_313",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "两圆内切时，圆心距等于（　）。",
+    "answer": "A",
+    "explanation": "内切时圆心距等于半径之差的绝对值。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "|R－r|"
+      },
+      {
+        "key": "B",
+        "text": "R＋r"
+      },
+      {
+        "key": "C",
+        "text": "0"
+      }
+    ]
+  },
+  {
+    "id": "cnm_313_q3",
+    "topicId": "cnm_313",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "两圆半径分别为 3 和 5，圆心距为 8，公共点有几个？",
+    "answer": "1",
+    "explanation": "d＝R＋r，外切，有 1 个公共点。",
+    "verify": "1"
+  },
+  {
+    "id": "cnm_313_q4",
+    "topicId": "cnm_313",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "两圆半径分别为 3 和 5，圆心距为 4，它们的公共弦长是多少？",
+    "answer": "6",
+    "explanation": "设公共弦半长为 h：由 25－x²＝9－(4－x)² 得 x＝4，h＝3，弦长 6。",
+    "verify": "6"
+  },
+  {
+    "id": "cnm_314_q1",
+    "topicId": "cnm_314",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "正六边形的中心角是多少度？",
+    "answer": "60",
+    "explanation": "360°÷6＝60°。",
+    "verify": "360/6"
+  },
+  {
+    "id": "cnm_314_q2",
+    "topicId": "cnm_314",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "正 n 边形的中心角等于（　）。",
+    "answer": "A",
+    "explanation": "n 个中心角之和为 360°。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "360°/n"
+      },
+      {
+        "key": "B",
+        "text": "180°/n"
+      },
+      {
+        "key": "C",
+        "text": "360n"
+      }
+    ]
+  },
+  {
+    "id": "cnm_314_q3",
+    "topicId": "cnm_314",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "正三角形的中心角是多少度？",
+    "answer": "120",
+    "explanation": "360°÷3＝120°。",
+    "verify": "360/3"
+  },
+  {
+    "id": "cnm_314_q4",
+    "topicId": "cnm_314",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "正八边形的每个中心角是多少度？",
+    "answer": "45",
+    "explanation": "360°÷8＝45°。",
+    "verify": "360/8"
+  },
+  {
+    "id": "cnm_315_q1",
+    "topicId": "cnm_315",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "半径 6、圆心角 60° 的弧长是多少？（π 取 3.14）",
+    "answer": "6.28",
+    "explanation": "l＝60×3.14×6÷180＝6.28。",
+    "verify": "60*3.14*6/180"
+  },
+  {
+    "id": "cnm_315_q2",
+    "topicId": "cnm_315",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "圆锥的侧面展开图是（　）。",
+    "answer": "A",
+    "explanation": "沿母线剪开圆锥侧面得到扇形。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "扇形"
+      },
+      {
+        "key": "B",
+        "text": "圆"
+      },
+      {
+        "key": "C",
+        "text": "三角形"
+      }
+    ]
+  },
+  {
+    "id": "cnm_315_q3",
+    "topicId": "cnm_315",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "母线长 5、底面半径 3 的圆锥侧面积是多少？（π 取 3.14）",
+    "answer": "47.1",
+    "explanation": "S＝3.14×3×5＝47.1。",
+    "verify": "3.14*3*5"
+  },
+  {
+    "id": "cnm_315_q4",
+    "topicId": "cnm_315",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "半径 3、圆心角 120° 的扇形面积是多少？（π 取 3.14）",
+    "answer": "9.42",
+    "explanation": "S＝120/360×3.14×9＝9.42。",
+    "verify": "120/360*3.14*9"
+  },
+  {
+    "id": "cnm_316_q1",
+    "topicId": "cnm_316",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "某班 40 人，喜欢足球的占 25%，喜欢足球的有多少人？",
+    "answer": "10",
+    "explanation": "40×25%＝10（人）。",
+    "verify": "40*0.25"
+  },
+  {
+    "id": "cnm_316_q2",
+    "topicId": "cnm_316",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "能清楚反映各部分占总体的百分比的统计图是（　）。",
+    "answer": "B",
+    "explanation": "扇形图用来表示部分与整体的关系。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "条形图"
+      },
+      {
+        "key": "B",
+        "text": "扇形图"
+      },
+      {
+        "key": "C",
+        "text": "折线图"
+      }
+    ]
+  },
+  {
+    "id": "cnm_316_q3",
+    "topicId": "cnm_316",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "数据 2、3、3、5、7 的中位数是多少？",
+    "answer": "3",
+    "explanation": "排序后中间位置的数是 3。",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_316_q4",
+    "topicId": "cnm_316",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "一组数据的最大值是 10、最小值是 2，极差是多少？",
+    "answer": "8",
+    "explanation": "10－2＝8。",
+    "verify": "10-2"
+  },
+  {
+    "id": "cnm_317_q1",
+    "topicId": "cnm_317",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "数据 2、4、6、8 的平均数是多少？",
+    "answer": "5",
+    "explanation": "(2＋4＋6＋8)÷4＝5。",
+    "verify": "(2+4+6+8)/4"
+  },
+  {
+    "id": "cnm_317_q2",
+    "topicId": "cnm_317",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "一组数据中出现次数最多的数叫做（　）。",
+    "answer": "C",
+    "explanation": "这是众数的定义。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "平均数"
+      },
+      {
+        "key": "B",
+        "text": "中位数"
+      },
+      {
+        "key": "C",
+        "text": "众数"
+      }
+    ]
+  },
+  {
+    "id": "cnm_317_q3",
+    "topicId": "cnm_317",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "数据 1、2、2、3、5、5、5 的众数是多少？",
+    "answer": "5",
+    "explanation": "5 出现 3 次，次数最多。",
+    "verify": "5"
+  },
+  {
+    "id": "cnm_317_q4",
+    "topicId": "cnm_317",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "平时成绩 80 分占 40%，期末成绩 90 分占 60%，总评成绩是多少分？",
+    "answer": "86",
+    "explanation": "80×0.4＋90×0.6＝86（分）。",
+    "verify": "80*0.4+90*0.6"
+  },
+  {
+    "id": "cnm_318_q1",
+    "topicId": "cnm_318",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "数据 2、4、6 的平均数是多少？",
+    "answer": "4",
+    "explanation": "(2＋4＋6)÷3＝4。",
+    "verify": "(2+4+6)/3"
+  },
+  {
+    "id": "cnm_318_q2",
+    "topicId": "cnm_318",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "方差越大，说明数据的波动（　）。",
+    "answer": "A",
+    "explanation": "方差衡量数据的离散程度。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "越大"
+      },
+      {
+        "key": "B",
+        "text": "越小"
+      },
+      {
+        "key": "C",
+        "text": "不变"
+      }
+    ]
+  },
+  {
+    "id": "cnm_318_q3",
+    "topicId": "cnm_318",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "数据 2、4、6 的方差是多少？（写成 a/b）",
+    "answer": "8/3",
+    "explanation": "方差＝((2－4)²＋0＋(6－4)²)÷3＝8/3。",
+    "verify": "((2-4)**2+(4-4)**2+(6-4)**2)/3"
+  },
+  {
+    "id": "cnm_318_q4",
+    "topicId": "cnm_318",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "数据 1、1、1、1 的方差是多少？",
+    "answer": "0",
+    "explanation": "各数据都等于平均数，偏差平方和为 0。",
+    "verify": "0"
+  },
+  {
+    "id": "cnm_319_q1",
+    "topicId": "cnm_319",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "一组数据共 50 个，某组频率为 0.2，该组频数是多少？",
+    "answer": "10",
+    "explanation": "50×0.2＝10。",
+    "verify": "50*0.2"
+  },
+  {
+    "id": "cnm_319_q2",
+    "topicId": "cnm_319",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "在等距分组的频数分布直方图中，小长方形的高表示（　）。",
+    "answer": "A",
+    "explanation": "等距分组时高与频数成正比，通常直接表示频数。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "频数"
+      },
+      {
+        "key": "B",
+        "text": "频率"
+      },
+      {
+        "key": "C",
+        "text": "组距"
+      }
+    ]
+  },
+  {
+    "id": "cnm_319_q3",
+    "topicId": "cnm_319",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "数据共 60 个，某组频率为 0.15，该组频数是多少？",
+    "answer": "9",
+    "explanation": "60×0.15＝9。",
+    "verify": "60*0.15"
+  },
+  {
+    "id": "cnm_319_q4",
+    "topicId": "cnm_319",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "总数 40，某组频率为 0.3，该组的频数是多少？",
+    "answer": "12",
+    "explanation": "40×0.3＝12。",
+    "verify": "40*0.3"
+  },
+  {
+    "id": "cnm_320_q1",
+    "topicId": "cnm_320",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "某地 1 至 6 月降水量分别为 10、20、30、40、50、60 毫米，平均月降水量是多少毫米？",
+    "answer": "35",
+    "explanation": "(10＋20＋30＋40＋50＋60)÷6＝35（毫米）。",
+    "verify": "(10+20+30+40+50+60)/6"
+  },
+  {
+    "id": "cnm_320_q2",
+    "topicId": "cnm_320",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "要表示数量随时间的变化趋势，最合适的统计图是（　）。",
+    "answer": "B",
+    "explanation": "折线图适合反映变化趋势。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "条形图"
+      },
+      {
+        "key": "B",
+        "text": "折线图"
+      },
+      {
+        "key": "C",
+        "text": "扇形图"
+      }
+    ]
+  },
+  {
+    "id": "cnm_320_q3",
+    "topicId": "cnm_320",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "扇形图中某部分占 30%，它对应的圆心角是多少度？",
+    "answer": "108",
+    "explanation": "360°×30%＝108°。",
+    "verify": "360*0.3"
+  },
+  {
+    "id": "cnm_320_q4",
+    "topicId": "cnm_320",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "某班 50 人，其中 A 类 15 人，A 类人数占全班的百分比是多少？（写百分号前面的数）",
+    "answer": "30",
+    "explanation": "15÷50×100%＝30%。",
+    "verify": "15/50*100"
+  },
+  {
+    "id": "cnm_321_q1",
+    "topicId": "cnm_321",
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "从 500 名学生中抽取 50 名进行调查，样本容量是多少？",
+    "answer": "50",
+    "explanation": "样本容量是样本中个体的数目，即 50。",
+    "verify": "50"
+  },
+  {
+    "id": "cnm_321_q2",
+    "topicId": "cnm_321",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列调查中，适合用全面调查的是（　）。",
+    "answer": "A",
+    "explanation": "人口普查要求数据准确，适合全面调查。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "全国人口普查"
+      },
+      {
+        "key": "B",
+        "text": "一批灯泡的使用寿命"
+      },
+      {
+        "key": "C",
+        "text": "河水的污染情况"
+      }
+    ]
+  },
+  {
+    "id": "cnm_321_q3",
+    "topicId": "cnm_321",
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "样本中 50 人里有 30 人每天运动 1 小时以上，估计全校 500 人中这样的人数是多少？",
+    "answer": "300",
+    "explanation": "500×30/50＝300（人）。",
+    "verify": "500*30/50"
+  },
+  {
+    "id": "cnm_321_q4",
+    "topicId": "cnm_321",
+    "difficulty": "advanced",
+    "type": "numeric",
+    "prompt": "某样本的方差为 4，它的标准差是多少？",
+    "answer": "2",
+    "explanation": "标准差＝√方差＝2。",
+    "verify": "sqrt(4)"
   }
 ]

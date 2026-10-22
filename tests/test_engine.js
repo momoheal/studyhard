@@ -609,7 +609,7 @@ function bfsAncestors(id) {
   return seen;
 }
 
-test('数据可加载：169 个知识点，191 条边；每个正式知识点有诊断题', () => {
+test('数据可加载：333 个知识点，360 条边；每个正式知识点有诊断题', () => {
   assert.strictEqual(topics.length, RG.topics.length);
   assert.ok(formal.every((t) => E.isTestable(RG, t.id)));
   assert.ok(topics.filter((t) => t.external).every((t) => !E.isTestable(RG, t.id)));

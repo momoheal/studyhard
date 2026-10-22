@@ -1144,5 +1144,1019 @@
     "prerequisiteId": "cnm_156",
     "strength": "hard",
     "reason": "学习“可能情况的个数与枚举（树状图·列表）”需要先掌握“可能性的认识与可能性大小”的基础"
+  },
+  {
+    "topicId": "cnm_158",
+    "prerequisiteId": "cnm_144",
+    "strength": "hard",
+    "reason": "「整数与整除的意义」的学习以「小数的四则混合运算与自然数」为基础。"
+  },
+  {
+    "topicId": "cnm_159",
+    "prerequisiteId": "cnm_158",
+    "strength": "hard",
+    "reason": "「因数与倍数」的学习以「整数与整除的意义」为基础。"
+  },
+  {
+    "topicId": "cnm_160",
+    "prerequisiteId": "cnm_159",
+    "strength": "hard",
+    "reason": "「能被 2、5 整除的数的特征」的学习以「因数与倍数」为基础。"
+  },
+  {
+    "topicId": "cnm_161",
+    "prerequisiteId": "cnm_159",
+    "strength": "hard",
+    "reason": "「素数、合数与分解素因数」的学习以「因数与倍数」为基础。"
+  },
+  {
+    "topicId": "cnm_162",
+    "prerequisiteId": "cnm_161",
+    "strength": "hard",
+    "reason": "「公因数与最大公因数」的学习以「素数、合数与分解素因数」为基础。"
+  },
+  {
+    "topicId": "cnm_163",
+    "prerequisiteId": "cnm_161",
+    "strength": "hard",
+    "reason": "「公倍数与最小公倍数」的学习以「素数、合数与分解素因数」为基础。"
+  },
+  {
+    "topicId": "cnm_164",
+    "prerequisiteId": "cnm_159",
+    "strength": "hard",
+    "reason": "「分数与除法」的学习以「因数与倍数」为基础。"
+  },
+  {
+    "topicId": "cnm_165",
+    "prerequisiteId": "cnm_164",
+    "strength": "hard",
+    "reason": "「分数的基本性质」的学习以「分数与除法」为基础。"
+  },
+  {
+    "topicId": "cnm_166",
+    "prerequisiteId": "cnm_165",
+    "strength": "hard",
+    "reason": "「分数的大小比较」的学习以「分数的基本性质」为基础。"
+  },
+  {
+    "topicId": "cnm_166",
+    "prerequisiteId": "cnm_108",
+    "strength": "hard",
+    "reason": "「分数的大小比较」的学习以「分数的大小比较（同分母与同分子）」为基础。"
+  },
+  {
+    "topicId": "cnm_167",
+    "prerequisiteId": "cnm_165",
+    "strength": "hard",
+    "reason": "「分数的加减法」的学习以「分数的基本性质」为基础。"
+  },
+  {
+    "topicId": "cnm_167",
+    "prerequisiteId": "cnm_109",
+    "strength": "hard",
+    "reason": "「分数的加减法」的学习以「分数的加减计算与分数墙探究」为基础。"
+  },
+  {
+    "topicId": "cnm_168",
+    "prerequisiteId": "cnm_167",
+    "strength": "hard",
+    "reason": "「分数的乘法」的学习以「分数的加减法」为基础。"
+  },
+  {
+    "topicId": "cnm_169",
+    "prerequisiteId": "cnm_168",
+    "strength": "hard",
+    "reason": "「分数的除法」的学习以「分数的乘法」为基础。"
+  },
+  {
+    "topicId": "cnm_170",
+    "prerequisiteId": "cnm_169",
+    "strength": "hard",
+    "reason": "「分数与小数的互化」的学习以「分数的除法」为基础。"
+  },
+  {
+    "topicId": "cnm_170",
+    "prerequisiteId": "cnm_119",
+    "strength": "hard",
+    "reason": "「分数与小数的互化」的学习以「小数的意义与性质」为基础。"
+  },
+  {
+    "topicId": "cnm_171",
+    "prerequisiteId": "cnm_170",
+    "strength": "hard",
+    "reason": "「分数、小数的四则混合运算」的学习以「分数与小数的互化」为基础。"
+  },
+  {
+    "topicId": "cnm_172",
+    "prerequisiteId": "cnm_171",
+    "strength": "hard",
+    "reason": "「分数运算的应用」的学习以「分数、小数的四则混合运算」为基础。"
+  },
+  {
+    "topicId": "cnm_173",
+    "prerequisiteId": "cnm_169",
+    "strength": "hard",
+    "reason": "「比的意义」的学习以「分数的除法」为基础。"
+  },
+  {
+    "topicId": "cnm_174",
+    "prerequisiteId": "cnm_173",
+    "strength": "hard",
+    "reason": "「比的基本性质」的学习以「比的意义」为基础。"
+  },
+  {
+    "topicId": "cnm_175",
+    "prerequisiteId": "cnm_174",
+    "strength": "hard",
+    "reason": "「比例及其基本性质」的学习以「比的基本性质」为基础。"
+  },
+  {
+    "topicId": "cnm_176",
+    "prerequisiteId": "cnm_175",
+    "strength": "hard",
+    "reason": "「百分比的意义」的学习以「比例及其基本性质」为基础。"
+  },
+  {
+    "topicId": "cnm_177",
+    "prerequisiteId": "cnm_176",
+    "strength": "hard",
+    "reason": "「百分比的应用」的学习以「百分比的意义」为基础。"
+  },
+  {
+    "topicId": "cnm_178",
+    "prerequisiteId": "cnm_156",
+    "strength": "hard",
+    "reason": "「等可能事件与可能性大小」的学习以「可能性的认识与可能性大小」为基础。"
+  },
+  {
+    "topicId": "cnm_179",
+    "prerequisiteId": "cnm_113",
+    "strength": "hard",
+    "reason": "「圆的周长」的学习以「圆的初步认识（圆心·半径·直径）」为基础。"
+  },
+  {
+    "topicId": "cnm_179",
+    "prerequisiteId": "cnm_121",
+    "strength": "hard",
+    "reason": "「圆的周长」的学习以「小数点位置移动引起大小变化」为基础。"
+  },
+  {
+    "topicId": "cnm_180",
+    "prerequisiteId": "cnm_179",
+    "strength": "hard",
+    "reason": "「弧长」的学习以「圆的周长」为基础。"
+  },
+  {
+    "topicId": "cnm_181",
+    "prerequisiteId": "cnm_179",
+    "strength": "hard",
+    "reason": "「圆的面积」的学习以「圆的周长」为基础。"
+  },
+  {
+    "topicId": "cnm_182",
+    "prerequisiteId": "cnm_180",
+    "strength": "hard",
+    "reason": "「扇形的面积」的学习以「弧长」为基础。"
+  },
+  {
+    "topicId": "cnm_182",
+    "prerequisiteId": "cnm_181",
+    "strength": "hard",
+    "reason": "「扇形的面积」的学习以「圆的面积」为基础。"
+  },
+  {
+    "topicId": "cnm_183",
+    "prerequisiteId": "cnm_147",
+    "strength": "hard",
+    "reason": "「有理数的意义」的学习以「正数与负数的初步认识」为基础。"
+  },
+  {
+    "topicId": "cnm_184",
+    "prerequisiteId": "cnm_183",
+    "strength": "hard",
+    "reason": "「数轴」的学习以「有理数的意义」为基础。"
+  },
+  {
+    "topicId": "cnm_185",
+    "prerequisiteId": "cnm_184",
+    "strength": "hard",
+    "reason": "「绝对值」的学习以「数轴」为基础。"
+  },
+  {
+    "topicId": "cnm_186",
+    "prerequisiteId": "cnm_185",
+    "strength": "hard",
+    "reason": "「有理数的加法」的学习以「绝对值」为基础。"
+  },
+  {
+    "topicId": "cnm_187",
+    "prerequisiteId": "cnm_186",
+    "strength": "hard",
+    "reason": "「有理数的减法」的学习以「有理数的加法」为基础。"
+  },
+  {
+    "topicId": "cnm_188",
+    "prerequisiteId": "cnm_186",
+    "strength": "hard",
+    "reason": "「有理数的乘法」的学习以「有理数的加法」为基础。"
+  },
+  {
+    "topicId": "cnm_189",
+    "prerequisiteId": "cnm_188",
+    "strength": "hard",
+    "reason": "「有理数的除法」的学习以「有理数的乘法」为基础。"
+  },
+  {
+    "topicId": "cnm_190",
+    "prerequisiteId": "cnm_188",
+    "strength": "hard",
+    "reason": "「有理数的乘方」的学习以「有理数的乘法」为基础。"
+  },
+  {
+    "topicId": "cnm_191",
+    "prerequisiteId": "cnm_190",
+    "strength": "hard",
+    "reason": "「有理数的混合运算」的学习以「有理数的乘方」为基础。"
+  },
+  {
+    "topicId": "cnm_192",
+    "prerequisiteId": "cnm_186",
+    "strength": "hard",
+    "reason": "「科学记数法」的学习以「有理数的加法」为基础。"
+  },
+  {
+    "topicId": "cnm_193",
+    "prerequisiteId": "cnm_137",
+    "strength": "hard",
+    "reason": "「列方程与方程的解」的学习以「方程的意义与解简易方程」为基础。"
+  },
+  {
+    "topicId": "cnm_194",
+    "prerequisiteId": "cnm_193",
+    "strength": "hard",
+    "reason": "「一元一次方程及其解法」的学习以「列方程与方程的解」为基础。"
+  },
+  {
+    "topicId": "cnm_195",
+    "prerequisiteId": "cnm_194",
+    "strength": "hard",
+    "reason": "「一元一次方程的应用」的学习以「一元一次方程及其解法」为基础。"
+  },
+  {
+    "topicId": "cnm_196",
+    "prerequisiteId": "cnm_194",
+    "strength": "hard",
+    "reason": "「不等式及其性质」的学习以「一元一次方程及其解法」为基础。"
+  },
+  {
+    "topicId": "cnm_197",
+    "prerequisiteId": "cnm_196",
+    "strength": "hard",
+    "reason": "「一元一次不等式的解法」的学习以「不等式及其性质」为基础。"
+  },
+  {
+    "topicId": "cnm_198",
+    "prerequisiteId": "cnm_197",
+    "strength": "hard",
+    "reason": "「一元一次不等式组」的学习以「一元一次不等式的解法」为基础。"
+  },
+  {
+    "topicId": "cnm_199",
+    "prerequisiteId": "cnm_194",
+    "strength": "hard",
+    "reason": "「二元一次方程与方程组」的学习以「一元一次方程及其解法」为基础。"
+  },
+  {
+    "topicId": "cnm_200",
+    "prerequisiteId": "cnm_199",
+    "strength": "hard",
+    "reason": "「三元一次方程组」的学习以「二元一次方程与方程组」为基础。"
+  },
+  {
+    "topicId": "cnm_201",
+    "prerequisiteId": "cnm_199",
+    "strength": "hard",
+    "reason": "「一次方程组的应用」的学习以「二元一次方程与方程组」为基础。"
+  },
+  {
+    "topicId": "cnm_202",
+    "prerequisiteId": "cnm_114",
+    "strength": "hard",
+    "reason": "「线段的大小比较与画法」的学习以「线段·射线与直线的认识」为基础。"
+  },
+  {
+    "topicId": "cnm_203",
+    "prerequisiteId": "cnm_115",
+    "strength": "hard",
+    "reason": "「角的概念与表示」的学习以「角的度量与角的计算（含相等的角）」为基础。"
+  },
+  {
+    "topicId": "cnm_204",
+    "prerequisiteId": "cnm_203",
+    "strength": "hard",
+    "reason": "「角的大小比较与角的和差倍」的学习以「角的概念与表示」为基础。"
+  },
+  {
+    "topicId": "cnm_205",
+    "prerequisiteId": "cnm_204",
+    "strength": "hard",
+    "reason": "「余角与补角」的学习以「角的大小比较与角的和差倍」为基础。"
+  },
+  {
+    "topicId": "cnm_206",
+    "prerequisiteId": "cnm_152",
+    "strength": "hard",
+    "reason": "「长方体的元素与直观图」的学习以「长方体与正方体的认识（棱长·特征）」为基础。"
+  },
+  {
+    "topicId": "cnm_207",
+    "prerequisiteId": "cnm_206",
+    "strength": "hard",
+    "reason": "「长方体中棱与棱的位置关系」的学习以「长方体的元素与直观图」为基础。"
+  },
+  {
+    "topicId": "cnm_208",
+    "prerequisiteId": "cnm_207",
+    "strength": "hard",
+    "reason": "「棱与平面、平面与平面的位置关系」的学习以「长方体中棱与棱的位置关系」为基础。"
+  },
+  {
+    "topicId": "cnm_209",
+    "prerequisiteId": "cnm_135",
+    "strength": "hard",
+    "reason": "「字母表示数与代数式」的学习以「用字母表示数」为基础。"
+  },
+  {
+    "topicId": "cnm_210",
+    "prerequisiteId": "cnm_209",
+    "strength": "hard",
+    "reason": "「代数式的值」的学习以「字母表示数与代数式」为基础。"
+  },
+  {
+    "topicId": "cnm_211",
+    "prerequisiteId": "cnm_209",
+    "strength": "hard",
+    "reason": "「整式的概念」的学习以「字母表示数与代数式」为基础。"
+  },
+  {
+    "topicId": "cnm_212",
+    "prerequisiteId": "cnm_211",
+    "strength": "hard",
+    "reason": "「合并同类项」的学习以「整式的概念」为基础。"
+  },
+  {
+    "topicId": "cnm_213",
+    "prerequisiteId": "cnm_212",
+    "strength": "hard",
+    "reason": "「整式的加减」的学习以「合并同类项」为基础。"
+  },
+  {
+    "topicId": "cnm_214",
+    "prerequisiteId": "cnm_213",
+    "strength": "hard",
+    "reason": "「同底数幂的乘法」的学习以「整式的加减」为基础。"
+  },
+  {
+    "topicId": "cnm_215",
+    "prerequisiteId": "cnm_214",
+    "strength": "hard",
+    "reason": "「幂的乘方与积的乘方」的学习以「同底数幂的乘法」为基础。"
+  },
+  {
+    "topicId": "cnm_216",
+    "prerequisiteId": "cnm_215",
+    "strength": "hard",
+    "reason": "「整式的乘法」的学习以「幂的乘方与积的乘方」为基础。"
+  },
+  {
+    "topicId": "cnm_217",
+    "prerequisiteId": "cnm_216",
+    "strength": "hard",
+    "reason": "「平方差公式」的学习以「整式的乘法」为基础。"
+  },
+  {
+    "topicId": "cnm_218",
+    "prerequisiteId": "cnm_216",
+    "strength": "hard",
+    "reason": "「完全平方公式」的学习以「整式的乘法」为基础。"
+  },
+  {
+    "topicId": "cnm_219",
+    "prerequisiteId": "cnm_213",
+    "strength": "hard",
+    "reason": "「因式分解：提取公因式法」的学习以「整式的加减」为基础。"
+  },
+  {
+    "topicId": "cnm_220",
+    "prerequisiteId": "cnm_219",
+    "strength": "hard",
+    "reason": "「因式分解：公式法」的学习以「因式分解：提取公因式法」为基础。"
+  },
+  {
+    "topicId": "cnm_221",
+    "prerequisiteId": "cnm_220",
+    "strength": "hard",
+    "reason": "「因式分解：十字相乘与分组分解」的学习以「因式分解：公式法」为基础。"
+  },
+  {
+    "topicId": "cnm_222",
+    "prerequisiteId": "cnm_214",
+    "strength": "hard",
+    "reason": "「同底数幂的除法与整式的除法」的学习以「同底数幂的乘法」为基础。"
+  },
+  {
+    "topicId": "cnm_223",
+    "prerequisiteId": "cnm_211",
+    "strength": "hard",
+    "reason": "「分式的意义」的学习以「整式的概念」为基础。"
+  },
+  {
+    "topicId": "cnm_224",
+    "prerequisiteId": "cnm_223",
+    "strength": "hard",
+    "reason": "「分式的基本性质」的学习以「分式的意义」为基础。"
+  },
+  {
+    "topicId": "cnm_225",
+    "prerequisiteId": "cnm_224",
+    "strength": "hard",
+    "reason": "「分式的乘除」的学习以「分式的基本性质」为基础。"
+  },
+  {
+    "topicId": "cnm_226",
+    "prerequisiteId": "cnm_225",
+    "strength": "hard",
+    "reason": "「分式的加减」的学习以「分式的乘除」为基础。"
+  },
+  {
+    "topicId": "cnm_227",
+    "prerequisiteId": "cnm_226",
+    "strength": "hard",
+    "reason": "「可化为一元一次方程的分式方程」的学习以「分式的加减」为基础。"
+  },
+  {
+    "topicId": "cnm_228",
+    "prerequisiteId": "cnm_222",
+    "strength": "hard",
+    "reason": "「整数指数幂及其运算」的学习以「同底数幂的除法与整式的除法」为基础。"
+  },
+  {
+    "topicId": "cnm_229",
+    "prerequisiteId": "cnm_124",
+    "strength": "hard",
+    "reason": "「图形的平移」的学习以「垂直与平行的认识与画法」为基础。"
+  },
+  {
+    "topicId": "cnm_230",
+    "prerequisiteId": "cnm_229",
+    "strength": "hard",
+    "reason": "「图形的旋转与旋转对称图形」的学习以「图形的平移」为基础。"
+  },
+  {
+    "topicId": "cnm_231",
+    "prerequisiteId": "cnm_230",
+    "strength": "hard",
+    "reason": "「中心对称与中心对称图形」的学习以「图形的旋转与旋转对称图形」为基础。"
+  },
+  {
+    "topicId": "cnm_232",
+    "prerequisiteId": "cnm_231",
+    "strength": "hard",
+    "reason": "「图形的翻折与轴对称」的学习以「中心对称与中心对称图形」为基础。"
+  },
+  {
+    "topicId": "cnm_233",
+    "prerequisiteId": "cnm_133",
+    "strength": "hard",
+    "reason": "「实数的概念」的学习以「循环小数与积·商的凑整」为基础。"
+  },
+  {
+    "topicId": "cnm_234",
+    "prerequisiteId": "cnm_233",
+    "strength": "hard",
+    "reason": "「平方根与开平方」的学习以「实数的概念」为基础。"
+  },
+  {
+    "topicId": "cnm_235",
+    "prerequisiteId": "cnm_234",
+    "strength": "hard",
+    "reason": "「立方根与开立方」的学习以「平方根与开平方」为基础。"
+  },
+  {
+    "topicId": "cnm_236",
+    "prerequisiteId": "cnm_235",
+    "strength": "hard",
+    "reason": "「n 次方根」的学习以「立方根与开立方」为基础。"
+  },
+  {
+    "topicId": "cnm_237",
+    "prerequisiteId": "cnm_233",
+    "strength": "hard",
+    "reason": "「用数轴上的点表示实数」的学习以「实数的概念」为基础。"
+  },
+  {
+    "topicId": "cnm_238",
+    "prerequisiteId": "cnm_237",
+    "strength": "hard",
+    "reason": "「实数的运算」的学习以「用数轴上的点表示实数」为基础。"
+  },
+  {
+    "topicId": "cnm_239",
+    "prerequisiteId": "cnm_236",
+    "strength": "hard",
+    "reason": "「分数指数幂」的学习以「n 次方根」为基础。"
+  },
+  {
+    "topicId": "cnm_240",
+    "prerequisiteId": "cnm_115",
+    "strength": "hard",
+    "reason": "「邻补角与对顶角」的学习以「角的度量与角的计算（含相等的角）」为基础。"
+  },
+  {
+    "topicId": "cnm_241",
+    "prerequisiteId": "cnm_240",
+    "strength": "hard",
+    "reason": "「垂线」的学习以「邻补角与对顶角」为基础。"
+  },
+  {
+    "topicId": "cnm_242",
+    "prerequisiteId": "cnm_240",
+    "strength": "hard",
+    "reason": "「同位角、内错角、同旁内角」的学习以「邻补角与对顶角」为基础。"
+  },
+  {
+    "topicId": "cnm_243",
+    "prerequisiteId": "cnm_242",
+    "strength": "hard",
+    "reason": "「平行线的判定」的学习以「同位角、内错角、同旁内角」为基础。"
+  },
+  {
+    "topicId": "cnm_244",
+    "prerequisiteId": "cnm_243",
+    "strength": "hard",
+    "reason": "「平行线的性质」的学习以「平行线的判定」为基础。"
+  },
+  {
+    "topicId": "cnm_245",
+    "prerequisiteId": "cnm_202",
+    "strength": "hard",
+    "reason": "「三角形的有关概念」的学习以「线段的大小比较与画法」为基础。"
+  },
+  {
+    "topicId": "cnm_246",
+    "prerequisiteId": "cnm_245",
+    "strength": "hard",
+    "reason": "「三角形的内角和」的学习以「三角形的有关概念」为基础。"
+  },
+  {
+    "topicId": "cnm_247",
+    "prerequisiteId": "cnm_245",
+    "strength": "hard",
+    "reason": "「全等三角形的概念与性质」的学习以「三角形的有关概念」为基础。"
+  },
+  {
+    "topicId": "cnm_248",
+    "prerequisiteId": "cnm_247",
+    "strength": "hard",
+    "reason": "「全等三角形的判定」的学习以「全等三角形的概念与性质」为基础。"
+  },
+  {
+    "topicId": "cnm_249",
+    "prerequisiteId": "cnm_248",
+    "strength": "hard",
+    "reason": "「等腰三角形的性质与判定」的学习以「全等三角形的判定」为基础。"
+  },
+  {
+    "topicId": "cnm_250",
+    "prerequisiteId": "cnm_249",
+    "strength": "hard",
+    "reason": "「等边三角形」的学习以「等腰三角形的性质与判定」为基础。"
+  },
+  {
+    "topicId": "cnm_251",
+    "prerequisiteId": "cnm_237",
+    "strength": "hard",
+    "reason": "「平面直角坐标系」的学习以「用数轴上的点表示实数」为基础。"
+  },
+  {
+    "topicId": "cnm_252",
+    "prerequisiteId": "cnm_251",
+    "strength": "hard",
+    "reason": "「直角坐标平面内点的运动」的学习以「平面直角坐标系」为基础。"
+  },
+  {
+    "topicId": "cnm_253",
+    "prerequisiteId": "cnm_238",
+    "strength": "hard",
+    "reason": "「二次根式的概念」的学习以「实数的运算」为基础。"
+  },
+  {
+    "topicId": "cnm_254",
+    "prerequisiteId": "cnm_253",
+    "strength": "hard",
+    "reason": "「最简二次根式与同类二次根式」的学习以「二次根式的概念」为基础。"
+  },
+  {
+    "topicId": "cnm_255",
+    "prerequisiteId": "cnm_254",
+    "strength": "hard",
+    "reason": "「二次根式的运算」的学习以「最简二次根式与同类二次根式」为基础。"
+  },
+  {
+    "topicId": "cnm_256",
+    "prerequisiteId": "cnm_194",
+    "strength": "hard",
+    "reason": "「一元二次方程的概念」的学习以「一元一次方程及其解法」为基础。"
+  },
+  {
+    "topicId": "cnm_257",
+    "prerequisiteId": "cnm_256",
+    "strength": "hard",
+    "reason": "「一元二次方程的解法：开平方与配方法」的学习以「一元二次方程的概念」为基础。"
+  },
+  {
+    "topicId": "cnm_258",
+    "prerequisiteId": "cnm_257",
+    "strength": "hard",
+    "reason": "「一元二次方程的解法：公式法与因式分解法」的学习以「一元二次方程的解法：开平方与配方法」为基础。"
+  },
+  {
+    "topicId": "cnm_259",
+    "prerequisiteId": "cnm_258",
+    "strength": "hard",
+    "reason": "「一元二次方程根的判别式」的学习以「一元二次方程的解法：公式法与因式分解法」为基础。"
+  },
+  {
+    "topicId": "cnm_260",
+    "prerequisiteId": "cnm_259",
+    "strength": "hard",
+    "reason": "「一元二次方程的应用」的学习以「一元二次方程根的判别式」为基础。"
+  },
+  {
+    "topicId": "cnm_261",
+    "prerequisiteId": "cnm_135",
+    "strength": "hard",
+    "reason": "「函数的概念」的学习以「用字母表示数」为基础。"
+  },
+  {
+    "topicId": "cnm_262",
+    "prerequisiteId": "cnm_261",
+    "strength": "hard",
+    "reason": "「正比例函数」的学习以「函数的概念」为基础。"
+  },
+  {
+    "topicId": "cnm_263",
+    "prerequisiteId": "cnm_262",
+    "strength": "hard",
+    "reason": "「反比例函数」的学习以「正比例函数」为基础。"
+  },
+  {
+    "topicId": "cnm_264",
+    "prerequisiteId": "cnm_261",
+    "strength": "hard",
+    "reason": "「函数的表示法」的学习以「函数的概念」为基础。"
+  },
+  {
+    "topicId": "cnm_265",
+    "prerequisiteId": "cnm_248",
+    "strength": "hard",
+    "reason": "「命题和证明」的学习以「全等三角形的判定」为基础。"
+  },
+  {
+    "topicId": "cnm_266",
+    "prerequisiteId": "cnm_265",
+    "strength": "hard",
+    "reason": "「证明举例」的学习以「命题和证明」为基础。"
+  },
+  {
+    "topicId": "cnm_267",
+    "prerequisiteId": "cnm_265",
+    "strength": "hard",
+    "reason": "「逆命题和逆定理」的学习以「命题和证明」为基础。"
+  },
+  {
+    "topicId": "cnm_268",
+    "prerequisiteId": "cnm_266",
+    "strength": "hard",
+    "reason": "「线段的垂直平分线」的学习以「证明举例」为基础。"
+  },
+  {
+    "topicId": "cnm_269",
+    "prerequisiteId": "cnm_268",
+    "strength": "hard",
+    "reason": "「角的平分线」的学习以「线段的垂直平分线」为基础。"
+  },
+  {
+    "topicId": "cnm_270",
+    "prerequisiteId": "cnm_266",
+    "strength": "hard",
+    "reason": "「直角三角形的判定与性质」的学习以「证明举例」为基础。"
+  },
+  {
+    "topicId": "cnm_271",
+    "prerequisiteId": "cnm_270",
+    "strength": "hard",
+    "reason": "「勾股定理」的学习以「直角三角形的判定与性质」为基础。"
+  },
+  {
+    "topicId": "cnm_272",
+    "prerequisiteId": "cnm_271",
+    "strength": "hard",
+    "reason": "「两点的距离公式」的学习以「勾股定理」为基础。"
+  },
+  {
+    "topicId": "cnm_273",
+    "prerequisiteId": "cnm_262",
+    "strength": "hard",
+    "reason": "「一次函数的概念」的学习以「正比例函数」为基础。"
+  },
+  {
+    "topicId": "cnm_274",
+    "prerequisiteId": "cnm_273",
+    "strength": "hard",
+    "reason": "「一次函数的图像与性质」的学习以「一次函数的概念」为基础。"
+  },
+  {
+    "topicId": "cnm_275",
+    "prerequisiteId": "cnm_274",
+    "strength": "hard",
+    "reason": "「一次函数的应用」的学习以「一次函数的图像与性质」为基础。"
+  },
+  {
+    "topicId": "cnm_276",
+    "prerequisiteId": "cnm_259",
+    "strength": "hard",
+    "reason": "「一元整式方程」的学习以「一元二次方程根的判别式」为基础。"
+  },
+  {
+    "topicId": "cnm_277",
+    "prerequisiteId": "cnm_276",
+    "strength": "hard",
+    "reason": "「二项方程」的学习以「一元整式方程」为基础。"
+  },
+  {
+    "topicId": "cnm_278",
+    "prerequisiteId": "cnm_227",
+    "strength": "hard",
+    "reason": "「可化为一元二次方程的分式方程」的学习以「可化为一元一次方程的分式方程」为基础。"
+  },
+  {
+    "topicId": "cnm_279",
+    "prerequisiteId": "cnm_278",
+    "strength": "hard",
+    "reason": "「无理方程」的学习以「可化为一元二次方程的分式方程」为基础。"
+  },
+  {
+    "topicId": "cnm_280",
+    "prerequisiteId": "cnm_279",
+    "strength": "hard",
+    "reason": "「二元二次方程组」的学习以「无理方程」为基础。"
+  },
+  {
+    "topicId": "cnm_281",
+    "prerequisiteId": "cnm_280",
+    "strength": "hard",
+    "reason": "「列方程（组）解应用题」的学习以「二元二次方程组」为基础。"
+  },
+  {
+    "topicId": "cnm_282",
+    "prerequisiteId": "cnm_246",
+    "strength": "hard",
+    "reason": "「多边形」的学习以「三角形的内角和」为基础。"
+  },
+  {
+    "topicId": "cnm_283",
+    "prerequisiteId": "cnm_282",
+    "strength": "hard",
+    "reason": "「平行四边形」的学习以「多边形」为基础。"
+  },
+  {
+    "topicId": "cnm_284",
+    "prerequisiteId": "cnm_283",
+    "strength": "hard",
+    "reason": "「矩形」的学习以「平行四边形」为基础。"
+  },
+  {
+    "topicId": "cnm_285",
+    "prerequisiteId": "cnm_284",
+    "strength": "hard",
+    "reason": "「菱形与正方形」的学习以「矩形」为基础。"
+  },
+  {
+    "topicId": "cnm_286",
+    "prerequisiteId": "cnm_283",
+    "strength": "hard",
+    "reason": "「梯形与等腰梯形」的学习以「平行四边形」为基础。"
+  },
+  {
+    "topicId": "cnm_287",
+    "prerequisiteId": "cnm_283",
+    "strength": "hard",
+    "reason": "「三角形与梯形的中位线」的学习以「平行四边形」为基础。"
+  },
+  {
+    "topicId": "cnm_288",
+    "prerequisiteId": "cnm_252",
+    "strength": "hard",
+    "reason": "「平面向量」的学习以「直角坐标平面内点的运动」为基础。"
+  },
+  {
+    "topicId": "cnm_289",
+    "prerequisiteId": "cnm_288",
+    "strength": "hard",
+    "reason": "「平面向量的加法与减法」的学习以「平面向量」为基础。"
+  },
+  {
+    "topicId": "cnm_290",
+    "prerequisiteId": "cnm_178",
+    "strength": "hard",
+    "reason": "「确定事件和随机事件」的学习以「等可能事件与可能性大小」为基础。"
+  },
+  {
+    "topicId": "cnm_291",
+    "prerequisiteId": "cnm_290",
+    "strength": "hard",
+    "reason": "「事件发生的可能性」的学习以「确定事件和随机事件」为基础。"
+  },
+  {
+    "topicId": "cnm_292",
+    "prerequisiteId": "cnm_291",
+    "strength": "hard",
+    "reason": "「事件的概率」的学习以「事件发生的可能性」为基础。"
+  },
+  {
+    "topicId": "cnm_293",
+    "prerequisiteId": "cnm_292",
+    "strength": "hard",
+    "reason": "「概率计算举例」的学习以「事件的概率」为基础。"
+  },
+  {
+    "topicId": "cnm_294",
+    "prerequisiteId": "cnm_175",
+    "strength": "hard",
+    "reason": "「放缩与相似形」的学习以「比例及其基本性质」为基础。"
+  },
+  {
+    "topicId": "cnm_295",
+    "prerequisiteId": "cnm_294",
+    "strength": "hard",
+    "reason": "「比例线段」的学习以「放缩与相似形」为基础。"
+  },
+  {
+    "topicId": "cnm_296",
+    "prerequisiteId": "cnm_295",
+    "strength": "hard",
+    "reason": "「三角形一边的平行线」的学习以「比例线段」为基础。"
+  },
+  {
+    "topicId": "cnm_297",
+    "prerequisiteId": "cnm_296",
+    "strength": "hard",
+    "reason": "「相似三角形的判定」的学习以「三角形一边的平行线」为基础。"
+  },
+  {
+    "topicId": "cnm_298",
+    "prerequisiteId": "cnm_297",
+    "strength": "hard",
+    "reason": "「相似三角形的性质」的学习以「相似三角形的判定」为基础。"
+  },
+  {
+    "topicId": "cnm_299",
+    "prerequisiteId": "cnm_289",
+    "strength": "hard",
+    "reason": "「实数与向量相乘」的学习以「平面向量的加法与减法」为基础。"
+  },
+  {
+    "topicId": "cnm_300",
+    "prerequisiteId": "cnm_299",
+    "strength": "hard",
+    "reason": "「向量的线性运算」的学习以「实数与向量相乘」为基础。"
+  },
+  {
+    "topicId": "cnm_301",
+    "prerequisiteId": "cnm_297",
+    "strength": "hard",
+    "reason": "「锐角三角比的意义」的学习以「相似三角形的判定」为基础。"
+  },
+  {
+    "topicId": "cnm_302",
+    "prerequisiteId": "cnm_301",
+    "strength": "hard",
+    "reason": "「特殊锐角的三角比」的学习以「锐角三角比的意义」为基础。"
+  },
+  {
+    "topicId": "cnm_303",
+    "prerequisiteId": "cnm_302",
+    "strength": "hard",
+    "reason": "「解直角三角形」的学习以「特殊锐角的三角比」为基础。"
+  },
+  {
+    "topicId": "cnm_304",
+    "prerequisiteId": "cnm_303",
+    "strength": "hard",
+    "reason": "「解直角三角形的应用」的学习以「解直角三角形」为基础。"
+  },
+  {
+    "topicId": "cnm_305",
+    "prerequisiteId": "cnm_275",
+    "strength": "hard",
+    "reason": "「二次函数的概念」的学习以「一次函数的应用」为基础。"
+  },
+  {
+    "topicId": "cnm_306",
+    "prerequisiteId": "cnm_305",
+    "strength": "hard",
+    "reason": "「特殊二次函数的图像」的学习以「二次函数的概念」为基础。"
+  },
+  {
+    "topicId": "cnm_307",
+    "prerequisiteId": "cnm_306",
+    "strength": "hard",
+    "reason": "「二次函数 y＝ax²＋bx＋c 的图像」的学习以「特殊二次函数的图像」为基础。"
+  },
+  {
+    "topicId": "cnm_308",
+    "prerequisiteId": "cnm_307",
+    "strength": "hard",
+    "reason": "「二次函数的性质与最值应用」的学习以「二次函数 y＝ax²＋bx＋c 的图像」为基础。"
+  },
+  {
+    "topicId": "cnm_309",
+    "prerequisiteId": "cnm_272",
+    "strength": "hard",
+    "reason": "「圆的确定与三角形的外接圆」的学习以「两点的距离公式」为基础。"
+  },
+  {
+    "topicId": "cnm_310",
+    "prerequisiteId": "cnm_309",
+    "strength": "hard",
+    "reason": "「圆心角、弧、弦、弦心距之间的关系」的学习以「圆的确定与三角形的外接圆」为基础。"
+  },
+  {
+    "topicId": "cnm_311",
+    "prerequisiteId": "cnm_310",
+    "strength": "hard",
+    "reason": "「垂径定理」的学习以「圆心角、弧、弦、弦心距之间的关系」为基础。"
+  },
+  {
+    "topicId": "cnm_312",
+    "prerequisiteId": "cnm_311",
+    "strength": "hard",
+    "reason": "「直线与圆的位置关系」的学习以「垂径定理」为基础。"
+  },
+  {
+    "topicId": "cnm_313",
+    "prerequisiteId": "cnm_312",
+    "strength": "hard",
+    "reason": "「圆与圆的位置关系」的学习以「直线与圆的位置关系」为基础。"
+  },
+  {
+    "topicId": "cnm_314",
+    "prerequisiteId": "cnm_309",
+    "strength": "hard",
+    "reason": "「正多边形与圆」的学习以「圆的确定与三角形的外接圆」为基础。"
+  },
+  {
+    "topicId": "cnm_315",
+    "prerequisiteId": "cnm_314",
+    "strength": "hard",
+    "reason": "「弧长、扇形面积与圆锥侧面积」的学习以「正多边形与圆」为基础。"
+  },
+  {
+    "topicId": "cnm_316",
+    "prerequisiteId": "cnm_123",
+    "strength": "hard",
+    "reason": "「数据的整理与表示」的学习以「折线统计图的认识与画法」为基础。"
+  },
+  {
+    "topicId": "cnm_317",
+    "prerequisiteId": "cnm_316",
+    "strength": "hard",
+    "reason": "「平均数、中位数、众数」的学习以「数据的整理与表示」为基础。"
+  },
+  {
+    "topicId": "cnm_318",
+    "prerequisiteId": "cnm_317",
+    "strength": "hard",
+    "reason": "「方差与标准差」的学习以「平均数、中位数、众数」为基础。"
+  },
+  {
+    "topicId": "cnm_319",
+    "prerequisiteId": "cnm_318",
+    "strength": "hard",
+    "reason": "「频数分布与频率分布」的学习以「方差与标准差」为基础。"
+  },
+  {
+    "topicId": "cnm_320",
+    "prerequisiteId": "cnm_316",
+    "strength": "hard",
+    "reason": "「统计图表的选择与应用」的学习以「数据的整理与表示」为基础。"
+  },
+  {
+    "topicId": "cnm_321",
+    "prerequisiteId": "cnm_319",
+    "strength": "hard",
+    "reason": "「统计实习与数据分析」的学习以「频数分布与频率分布」为基础。"
   }
 ]

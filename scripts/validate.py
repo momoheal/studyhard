@@ -20,6 +20,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TOPICS_PATH = os.path.join(ROOT, "data", "topics.json")
 DEPS_PATH = os.path.join(ROOT, "data", "dependencies.json")
 STANDARDS_PATH = os.path.join(ROOT, "data", "cn-curriculum-standards.json")
+JUNIOR_STANDARDS_PATH = os.path.join(ROOT, "data", "cn-junior-curriculum-standards.json")
 QUESTIONS_PATH = os.path.join(ROOT, "data", "questions.json")
 STRICT_STANDARDS = os.environ.get("STRICT_STANDARDS") == "1"
 
@@ -98,8 +99,8 @@ def check_topics(topics):
             if t.get("grade") not in ("学前", "小学"):
                 err("%s 外部节点 grade 必须为 \"学前\" 或 \"小学\"" % where)
             continue
-        if t.get("grade") not in (1, 2, 3, 4, 5):
-            err("%s grade 必须是 1/2/3/4/5" % where)
+        if t.get("grade") not in (1, 2, 3, 4, 5, 6, 7, 8, 9):
+            err("%s grade 必须是 1-9（小学 1-5，初中 6-9）" % where)
         if t.get("semester") not in ("上", "下"):
             err("%s semester 必须是 上/下" % where)
         if t.get("type") not in TYPES:
@@ -201,9 +202,14 @@ def report(ids, prereqs, dependents, n_hard, n_soft):
     for k, v in sorted(Counter(t["domain"] for t in core).items(), key=lambda x: -x[1]):
         print("  %-8s %d" % (k, v))
     print("\n按 grade+semester（正式知识点）：")
-    c = Counter("%s%s" % ({1: "一年级", 2: "二年级", 3: "三年级", 4: "四年级", 5: "五年级"}.get(t["grade"], t["grade"]), t["semester"]) for t in core)
-    for k in ["一年级上", "一年级下", "二年级上", "二年级下", "三年级上", "三年级下", "四年级上", "四年级下", "五年级上", "五年级下"]:
-        print("  %-6s %d" % (k, c.get(k, 0)))
+    names = {1: "一年级", 2: "二年级", 3: "三年级", 4: "四年级", 5: "五年级",
+             6: "六年级", 7: "七年级", 8: "八年级", 9: "九年级"}
+    c = Counter("%s%s" % (names.get(t["grade"], t["grade"]), t["semester"]) for t in core)
+    for g in sorted({t["grade"] for t in core if isinstance(t["grade"], int)}):
+        for sem in ("上", "下"):
+            k = "%s%s" % (names.get(g, g), sem)
+            if c.get(k):
+                print("  %-6s %d" % (k, c.get(k, 0)))
     print("\n按 type（正式知识点）：")
     for k, v in sorted(Counter(t["type"] for t in core).items(), key=lambda x: -x[1]):
         print("  %-12s %d" % (k, v))
@@ -216,7 +222,7 @@ def report(ids, prereqs, dependents, n_hard, n_soft):
         print("正式知识点平均先修数：%.2f" % (sum(len(prereqs.get(t["id"], [])) for t in core) / len(core)))
 
 
-def check_standards_file(std):
+def check_standards_file(std, label="cn-curriculum-standards.json"):
     """校验课标条目文件本身，返回 {id: item}。文件不存在时返回 None。"""
     if std is None:
         return None
@@ -514,8 +520,18 @@ def main():
     prereqs, dependents, n_hard, n_soft = check_deps(deps, ids)
     check_graph(ids, prereqs, dependents)
     std_items = None
+    std_items = None
     if os.path.exists(STANDARDS_PATH):
         std_items = check_standards_file(load(STANDARDS_PATH))
+    # 初中（六至九年级）课标条目单独成文件，校验通过后与小学条目合并使用
+    if os.path.exists(JUNIOR_STANDARDS_PATH):
+        junior_items = check_standards_file(load(JUNIOR_STANDARDS_PATH), "cn-junior-curriculum-standards.json")
+        if junior_items:
+            std_items = dict(std_items or {})
+            for sid, it in junior_items.items():
+                if sid in std_items:
+                    err("课标条目 id 在两个文件中重复：%s" % sid)
+                std_items[sid] = it
     cited, empty_core = check_topic_standards(ids, std_items)
     if STRICT_STANDARDS and std_items is not None and empty_core:
         err("STRICT_STANDARDS=1：%d 个正式知识点的 standards 为空" % len(empty_core))

@@ -1,14 +1,15 @@
-# 沪教版中小学数学（1-9年级·五四学制）知识图谱与同步辅导 · 辅导版
+# 沪教版中小学知识图谱与同步辅导（数学 1-9 年级 · 英语 3-9 年级）
 
-用「知识点节点 + 先修边」有向无环图（DAG）描述沪教版数学（小学一年级上至初中九年级下，共 18 册、68 个单位/章）的知识结构，严格对齐课本目录，并在每个知识点上附加**课本同步精讲四件套**与**配套题库**，配合自适应诊断工具实现“学—练—测—补”闭环。小学段与初中段用同一条先修链连接，诊断可以从九年级「二次函数」一路回溯到小学的「用字母表示数」。数据格式与设计思路源自 [Marble os-taxonomy](https://github.com/withmarbleapp/os-taxonomy)，底座来自 [momoheal/cn-math-taxonomy](https://github.com/momoheal/cn-math-taxonomy) 的 `topics + dependencies + standards + questions + diagnose`。**本仓库地址：<https://github.com/momoheal/studyhard>。**
+用「知识点节点 + 先修边」有向无环图（DAG）描述**沪教版数学（小学一年级上至初中九年级下，18 册、68 个单位/章）**与**沪教版英语（三至九年级，14 册）**的知识结构，严格对齐课本目录，并在每个知识点上附加**课本同步精讲四件套**与**配套题库**，配合自适应诊断工具实现“学—练—测—补”闭环。数学的小学段与初中段用同一条先修链连接，诊断可以从九年级「二次函数」一路回溯到小学的「用字母表示数」；英语自成一图（`cne_*`），与数学不连边，覆盖语音、词汇、语法、日常表达、读写五个领域，**只出笔试题，不含听力与口语**。数据格式与设计思路源自 [Marble os-taxonomy](https://github.com/withmarbleapp/os-taxonomy)，底座来自 [momoheal/cn-math-taxonomy](https://github.com/momoheal/cn-math-taxonomy) 的 `topics + dependencies + standards + questions + diagnose`。**本仓库地址：<https://github.com/momoheal/studyhard>。**
 
 | | 知识点 | 先修边 | 课标条目 | 题库 |
 |---|---:|---:|---:|---:|
-| 小学（1-5 年级，10 册） | 157 | 191（hard 163 / soft 28） | 64（第一至三学段） | 628 |
-| 初中（6-9 年级，8 册 28 章） | 164 | 169（hard 169 / soft 0） | 54（第四学段） | 656 |
-| **合计** | **321**（另有 12 个学前外部节点） | **360**（hard 332 / soft 28） | **118** | **1284** |
+| 数学·小学（1-5 年级，10 册） | 157 | 191（hard 163 / soft 28） | 64（第一至三学段） | 628 |
+| 数学·初中（6-9 年级，8 册 28 章） | 164 | 169（hard 169 / soft 0） | 54（第四学段） | 656 |
+| 英语（3-9 年级，14 册） | 63 | 61（hard 60 / soft 1） | 55（一级 12 / 二级 19 / 三级 24） | 252 |
+| **合计** | **384**（另有 12 个学前外部节点） | **421**（hard 392 / soft 29） | **173** | **1536** |
 
-> **状态声明：AI 生成的初稿，未经任何一线教师审核。** 知识点的拆分粒度、掌握标准、诊断题答案、辅导讲解，尤其是**先修关系（hard/soft 强度与是否存在）与辅导建议，都需要沪教版小学、初中数学教师审核后才能用于教学。** 题库答案虽经机器核验（917 道数值题可独立复算，mismatch 0），但非权威。
+> **状态声明：AI 生成的初稿，未经任何一线教师审核。** 知识点的拆分粒度、掌握标准、诊断题答案、辅导讲解，尤其是**先修关系（hard/soft 强度与是否存在）与辅导建议，都需要沪教版数学、英语教师审核后才能用于教学。** 数学题库答案虽经机器核验（917 道数值题可独立复算，mismatch 0），但非权威；英语题为语言题，无法表达式核验，只做了判题器自检与人工抽读。
 
 ## 0. 仓库与在线访问
 
@@ -70,7 +71,15 @@
 - **映射**：初中 164 个知识点 100% 挂接课标（172 条映射，均 `exact`），54 条课标全部被引用。综合与实践类条目（4.IP.01–04）主要落在应用题、测量与统计实习类知识点上，因此初中没有单独的“综合与实践”域知识点。
 - **先修衔接**：初中段共有 20 余条边指向小学知识点（如“有理数 ← 正数与负数”“分数 ← 分数的加减计算”“圆的周长 ← 圆的初步认识”“函数的概念 ← 用字母表示数”），使整张图成为一张贯通 1—9 年级的 DAG。
 
-### 1.4 习题
+### 1.5 英语（三至九年级）的教材与课标
+
+- **教材**：上海教育出版社《英语》（沪教版），**三年级起点**；六至九年级为五四学制初中（六年级为预备班），共 14 册。各册单元目录见 [docs/english-chapters.md](docs/english-chapters.md)。
+- **版本说明（重要）**：沪教版《英语》依据**《义务教育英语课程标准（2022 年版）》**修订，于 **2024 年**经国家教材委员会专家委员会审核通过。**不存在“2024 年版英语课标”**，2024 是教材审定年份，数据里用 `source.year = 2022`（课标）与 `source.textbook_year = 2024`（教材）分别标注。详见 [docs/standards-mapping.md](docs/standards-mapping.md)。
+- **课程标准**：`data/cn-english-curriculum-standards.json` 共 **55 条**（语音 8、词汇 10、语法 19、语篇 9、语用 9），按学段分三级：一级（3-4 年级）12 条、二级（5-6 年级）19 条、三级（7-9 年级）24 条；id 形如 `ces-2022:3.GR.03`（学段.领域.序号），为本项目自编编号，**全部为归纳表述（`verbatim: false`）、未与教育部 PDF 逐页核对**。
+- **知识点**：63 个，按“册 × 领域”切分（语音 10、词汇 13、语法 23、日常表达 7、读写 10），每点 4 道笔试题。英语图与数学图**不连边**，两科的根节点各有 `root_reason` 说明。
+- **未覆盖**：听力与口语（项目只出笔试）、高中段、以及 2024 审定版各册单元的逐册核对。
+
+### 1.6 习题
 
 - **课本习题**：诊断题与辅导例题的设计严格对齐课本例题与练习的题型与难度，习题文本自行命制，不直接复制课本原题（避免版权问题），但题型、知识点与解题思路与课本一致。
 - **外部题库**：题库中数值计算、应用题、几何测量等题目可自行选取市面常见教辅题型改编，确保答案可机器核验。
@@ -78,11 +87,12 @@
 ## 2. 文件结构
 
 ```
-data/topics.json              知识点节点（JSON 数组，含辅导四件套；321 个正式节点 + 12 个学前节点）
-data/dependencies.json        先修边（JSON 数组，360 条）
-data/cn-curriculum-standards.json        小学课标条目（64 条，第一至三学段）
-data/cn-junior-curriculum-standards.json 初中课标条目（54 条，第四学段）
-data/questions.json           题库：每个正式知识点 4 题（共 1284 题）
+data/topics.json              知识点节点（JSON 数组，含辅导四件套；384 个正式节点 + 12 个学前节点）
+data/dependencies.json        先修边（JSON 数组，421 条）
+data/cn-curriculum-standards.json        数学小学课标条目（64 条，第一至三学段）
+data/cn-junior-curriculum-standards.json 数学初中课标条目（54 条，第四学段）
+data/cn-english-curriculum-standards.json 英语课标条目（55 条，一级/二级/三级）
+data/questions.json           题库：每个正式知识点 4 题（共 1536 题）
 data/verification_report.json 题库答案核验报告（机器核验）
 docs/standards-mapping.md     课标对齐说明
 docs/questions.md             题库说明与核验方法
@@ -98,6 +108,10 @@ _builder/                     数据构建脚本
   jcommon.py                    初中知识点构造器
   jcontent/j6a–j9b.py           初中六上至九下 8 册内容与题库
   build_junior.py               生成并合并初中数据（可重复运行）
+  estandards.py                 英语课标条目（一级/二级/三级）
+  ecommon.py                    英语知识点构造器（choice / short）
+  econtent/e3–e9.py             英语三上至九下 14 册内容与题库
+  build_english.py              生成并合并英语数据（可重复运行）
 tests/test_engine.js          诊断引擎测试（Node，无依赖）
 ```
 
@@ -107,12 +121,13 @@ tests/test_engine.js          诊断引擎测试（Node，无依赖）
 
 | 字段 | 说明 |
 |---|---|
-| `id` | 稳定 id，`cnm_001` … `cnm_321`（小学 001–157，初中 158–321） |
+| `id` | 稳定 id：数学 `cnm_001` … `cnm_321`（小学 001–157，初中 158–321）；英语 `cne_001` … `cne_063` |
 | `name` | 中文名称（与课本小节名一致或高度概括） |
-| `domain` | 数与代数 / 图形与几何 / 统计与概率 / 综合与实践 |
-| `grade` | 1–9（五四学制年级；6–9 为初中） |
+| `domain` | 数学：数与代数 / 图形与几何 / 统计与概率 / 综合与实践；英语：语音 / 词汇 / 语法 / 日常表达 / 读写 |
+| `subject` | 仅英语节点显式写 `"english"`（数学节点省略该字段，缺省视为数学） |
+| `grade` | 数学 1–9（五四学制年级，6–9 为初中）；英语 3–9（沪教版三年级起点） |
 | `semester` | "上" 或 "下" |
-| `chapter` | 课本章节，如 `一年级上 第三单元 10以内的数 3.1 1-5的认识`、`六年级上 第一章 数的整除 1.1 整数和整除的意义` |
+| `chapter` | 课本章节：数学如 `六年级上 第一章 数的整除 1.1 整数和整除的意义`；英语按“册 + 全册 + 领域：话题”书写，如 `三年级上 全册 语音：26 个字母与常见字母组合` |
 | `type` | conceptual / procedural / reasoning / application / modeling |
 | `description` | 通俗说明（1-2句） |
 | `mastery_criteria` | 2-3 条掌握标准 |
@@ -140,7 +155,7 @@ tests/test_engine.js          诊断引擎测试（Node，无依赖）
 | `id` | `<topicId>_qN`，如 `cnm_052_q1` |
 | `topicId` | 知识点 id |
 | `difficulty` | basic / standard / advanced |
-| `type` | numeric / choice / short（short 用于含单位、时间等非纯数字答案） |
+| `type` | numeric / choice / short（short 用于含单位、时间等非纯数字答案；英语只有 choice 与 short） |
 | `prompt` | 中文题干（纯文字，不依赖图形） |
 | `answer` | 字符串（numeric 为可解析数字，choice 为选项字母） |
 | `choices` | choice 题的 3-4 个选项 `{key, text}` |
@@ -152,15 +167,16 @@ tests/test_engine.js          诊断引擎测试（Node，无依赖）
 
 ## 3. 当前统计（`python3 scripts/validate.py` 实际输出）
 
-- 知识点总数 **333**：正式 **321**，学前外部 **12**
-- 按学段：
-  - 小学（1-5 年级）157：数与代数 103、图形与几何 33、综合与实践 15、统计与概率 6；procedural 72 / conceptual 54 / application 20 / reasoning 10 / modeling 1
-  - 初中（6-9 年级）164：数与代数 91、图形与几何 62、统计与概率 11；procedural 78 / conceptual 45 / reasoning 28 / application 12 / modeling 1
-- 按册次（正式）：一年级上 18、一年级下 16、二年级上 18、二年级下 18、三年级上 16、三年级下 16、四年级上 14、四年级下 10、五年级上 17、五年级下 14；六年级上 25、六年级下 26、七年级上 24、七年级下 20、八年级上 20、八年级下 21、九年级上 15、九年级下 13
-- 先修边 **360** 条：hard 332，soft 28；正式知识点平均先修 1.12
-- 课标对齐：118 条全部被引用；正式知识点 100% 有映射（356 条映射，均为 exact）
-- 题库：1284 题（numeric 917，choice 361，short 6；basic 478，standard 485，advanced 321；每点 4 题）
-- 机器核验：auto_verified 917，mismatch 0，unverifiable 367（choice 361 + short 6，主要靠人工审核）
+- 知识点总数 **396**：正式 **384**（数学 321 + 英语 63），学前外部 **12**
+- 按领域（正式）：
+  - 数学 321：数与代数 194、图形与几何 95、统计与概率 17、综合与实践 15；procedural 150 / conceptual 99 / reasoning 38 / application 32 / modeling 2
+  - 英语 63：语法 23、词汇 13、语音 10、读写 10、日常表达 7；procedural 32 / application 17 / conceptual 14
+- 按册次（正式）：一年级上 18、一年级下 16、二年级上 18、二年级下 18、三年级上 18、三年级下 19、四年级上 16、四年级下 13、五年级上 19、五年级下 17；六年级上 31、六年级下 32、七年级上 30、七年级下 26、八年级上 27、八年级下 26、九年级上 22、九年级下 18
+  - 其中英语：三上 2 / 三下 3、四上 2 / 四下 3、五上 2 / 五下 3、六上 6 / 六下 6、七上 6 / 七下 6、八上 7 / 八下 5、九上 7 / 九下 5
+- 先修边 **421** 条：hard 392，soft 29（英语 61 条：hard 60 / soft 1）；正式知识点平均先修 1.10
+- 课标对齐：**173 条**（数学 118 + 英语 55）全部被引用；正式知识点 100% 有映射（数学 356 条 + 英语 104 条，均为 exact）
+- 题库：**1536 题**（numeric 917，choice 487，short 132；basic 768，standard 384，advanced 384；每点 4 题）
+- 机器核验：auto_verified 917，mismatch 0，unverifiable 619（choice 487 + short 132，含全部英语题，主要靠人工审核）
 
 ## 4. 辅导设计（新增）
 
@@ -175,7 +191,7 @@ tests/test_engine.js          诊断引擎测试（Node，无依赖）
 
 ## 5. 诊断小工具
 
-`diagnose/` 为纯静态、可离线的诊断页面：选目标知识点或整章，按先修关系自适应出题（每点最多 2 题：第一题对→掌握并跳过祖先；错→第二题，同级或更易；第二题对→不稳不回溯，错→薄弱并回溯 hard 优先），给出根因、不稳点、拓扑学习路径、课标条目与路径图。
+`diagnose/` 为纯静态、可离线的诊断页面：选目标知识点或整章，按先修关系自适应出题（每点最多 2 题：第一题对→掌握并跳过祖先；错→第二题，同级或更易；第二题对→不稳不回溯，错→薄弱并回溯 hard 优先），给出根因、不稳点、拓扑学习路径、课标条目与路径图。页面顶部可切换**数学 / 英语**，两科各自成图、互不干扰；用 `?target=cne_*` 打开时自动切到英语。
 
 ```bash
 python3 -m http.server 8000
@@ -192,12 +208,13 @@ node tests/test_engine.js
 ```bash
 python3 _builder/apply_content.py   # 小学：合并辅导卡与题库到 data/*.json
 python3 _builder/build_junior.py    # 初中：重建 158–321 号知识点、先修边、题库与第四学段课标条目
+python3 _builder/build_english.py   # 英语：重建 cne_001–063 号知识点、先修边、题库与英语课标条目
 python3 scripts/validate.py
 python3 scripts/verify_questions.py
 node tests/test_engine.js
 ```
 
-`validate.py` 检查 JSON 合法、id 唯一、必填字段、取值合法、边存在且无环、非外部点有先修、题库格式与覆盖等；打印统计。`verify_questions.py` 对带 `verify` 的 numeric/choice 题做受限表达式求值核验，输出 `data/verification_report.json`。当前 `VALIDATION PASSED` 且 `VERIFICATION PASSED`（mismatch 0）。
+`validate.py` 检查 JSON 合法、id 唯一、必填字段、取值合法、边存在且无环、非外部点有先修、题库格式与覆盖等；学科相关的取值按 `subject` 分流校验（数学 `cnm_*` + 四个数学领域 + 1–9 年级；英语 `cne_*` + 五个英语领域 + 3–9 年级），并同时校验三个课标条目文件。`verify_questions.py` 对带 `verify` 的 numeric/choice 题做受限表达式求值核验，输出 `data/verification_report.json`。当前 `VALIDATION PASSED` 且 `VERIFICATION PASSED`（mismatch 0）。
 
 ## 7. 已知局限
 
@@ -208,6 +225,8 @@ node tests/test_engine.js
 - **题库规模**：每点 4 题、诊断每点最多 2 题，选择题有猜对概率，结果仅为线索；初中题以数值计算与单一事实判断为主，证明题、作图题未覆盖。
 - **图形题**：题干纯文字，无配图；作图与证明题未覆盖。
 - **辅导深度**：每个知识点的要点、例题、错因、话术均按该知识点单独编写，但篇幅较短，未针对上海教研细节（如“沪教版巧算策略”）逐条打磨，需一线教师补充。
+- **英语范围**：只做沪教版三至九年级（14 册，63 个知识点），高中段未做；只出笔试题，**不含听力与口语**；各册单元名按公开目录整理，2024 审定版部分册次有调整，**未逐册与课本核对**；课标条目为归纳表述，未与 PDF 逐页核对。关于“2024 版课标”的澄清见 1.5 节。
+- **英语判题**：短答题按规范化文本匹配并配 `accept` 列表，开放式表达题只能宽松匹配，**不能代替教师批改**；题目难度为 AI 主观标注。
 
 ## 8. 许可证
 

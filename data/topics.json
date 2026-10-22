@@ -15297,5 +15297,3072 @@
       ],
       "coaching_tip": "样本容量只是数目，不带单位；估计总体时用“样本中的比例×总体数量”。"
     }
+  },
+  {
+    "id": "cne_049",
+    "name": "26 个字母与常见字母组合",
+    "domain": "语音",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上 全册 语音：26 个字母与常见字母组合",
+    "type": "conceptual",
+    "description": "三上 Unit 1—12 从字母与问候语起步：Hello、hi、name、cat、dog、sun、moon 等，本知识点梳理字母大小写、元音字母的基本读音与 sh、ch、th 的常见读法。",
+    "mastery_criteria": [
+      "能认读并书写 26 个字母的大小写",
+      "能读准 a、e、i、o、u 在单词中的常见读音"
+    ],
+    "diagnostic_question": {
+      "question": "下列单词中，字母 a 读 /eɪ/ 的是（　）。",
+      "answer": "cake"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.PH.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:1.PH.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并书写 26 个字母的大小写",
+        "能读准 a、e、i、o、u 在单词中的常见读音"
+      ],
+      "worked_example": {
+        "problem": "判断：单词 cake 中字母 a 的读音与 cat 中的 a 是否相同？",
+        "steps": [
+          "cake 中 a 读 /eɪ/",
+          "cat 中 a 读 /æ/",
+          "两者不同",
+          "所以不相同"
+        ],
+        "answer": "不相同。"
+      },
+      "common_mistakes": [
+        "把字母 b 与 d、p 与 q 写反",
+        "把 cat 中的 a 读成 /eɪ/"
+      ],
+      "coaching_tip": "每天边写边读 5 个字母，写完对照示范检查 b/d、p/q 的方向。"
+    },
+    "root_reason": "三年级是沪教版英语（三起点）的第一年，按零起点处理，前面没有更早的英语知识点。本组知识点是全图英语部分的起点。"
+  },
+  {
+    "id": "cne_050",
+    "name": "主题词汇与短语（问候·家庭·教室·数字）",
+    "domain": "词汇",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "三年级上 全册 词汇：问候、家庭、教室与数字",
+    "type": "conceptual",
+    "description": "三上四个 Module 的话题词：hello、goodbye、friend、father、mother、sister、classroom、desk、chair、book、apple、banana、one—ten、cat、dog、spring、summer 等。",
+    "mastery_criteria": [
+      "能认读并抄写本册核心词",
+      "能在图片提示下说出单词并注意单复数"
+    ],
+    "diagnostic_question": {
+      "question": "— What's this? — It's ______ apple.",
+      "answer": "an"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:1.VO.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并抄写本册核心词",
+        "能在图片提示下说出单词并注意单复数"
+      ],
+      "worked_example": {
+        "problem": "看图说词：图上有两只猫，用英语怎么说？",
+        "steps": [
+          "cat 的复数是 cats",
+          "数量为二",
+          "所以是 two cats"
+        ],
+        "answer": "two cats。"
+      },
+      "common_mistakes": [
+        "复数漏加 s（two cat）",
+        "a 与 an 用错（a apple）"
+      ],
+      "coaching_tip": "把单词和图片贴在一起记，每天用 5 个词说一句话。"
+    }
+  },
+  {
+    "id": "cne_051",
+    "name": "主题词汇与短语（颜色·味道·动物·玩具）",
+    "domain": "词汇",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下 全册 词汇：颜色、味道、动物与玩具",
+    "type": "conceptual",
+    "description": "三下 Unit 1—12 的话题词：red、yellow、blue、sweet、sour、tiger、monkey、doll、ball、cake、juice、hobby、birthday、farm、pig、duck 等。",
+    "mastery_criteria": [
+      "能认读并抄写本册核心词",
+      "能用形容词描述颜色、味道与感受"
+    ],
+    "diagnostic_question": {
+      "question": "The lemon is ______ . I don't like it.",
+      "answer": "sour"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:1.VO.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并抄写本册核心词",
+        "能用形容词描述颜色、味道与感受"
+      ],
+      "worked_example": {
+        "problem": "用英语说“这个苹果是甜的。”",
+        "steps": [
+          "苹果是 the apple / this apple",
+          "甜的是 sweet，作表语",
+          "所以是 The apple is sweet."
+        ],
+        "answer": "The apple is sweet."
+      },
+      "common_mistakes": [
+        "把形容词放在名词后（apple sweet）",
+        "sour 与 sweet 混用"
+      ],
+      "coaching_tip": "按颜色、味道、动物、玩具四类做单词卡片，正面英文、背面中文。"
+    }
+  },
+  {
+    "id": "cne_052",
+    "name": "be 动词与情态动词 can",
+    "domain": "语法",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下 全册 核心语法：be 动词与 can",
+    "type": "procedural",
+    "description": "三下 Unit 3 Sounds、Unit 7 Hobbies 中反复出现 I am… / You are… / She is… 与 I can swim. / Can you…? 是本册最重要的两个句型。",
+    "mastery_criteria": [
+      "能正确使用 am、is、are 构成肯定句、否定句与一般疑问句",
+      "能用 can 表达能力并构成疑问句与否定句"
+    ],
+    "diagnostic_question": {
+      "question": "______ you swim? — Yes, I can.",
+      "answer": "Can"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.GR.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:1.GR.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能正确使用 am、is、are 构成肯定句、否定句与一般疑问句",
+        "能用 can 表达能力并构成疑问句与否定句"
+      ],
+      "worked_example": {
+        "problem": "填空：______ you swim? — Yes, I can.",
+        "steps": [
+          "问“你会游泳吗”，用 can 提前",
+          "主语 you 用 Can",
+          "所以填 Can"
+        ],
+        "answer": "Can。"
+      },
+      "common_mistakes": [
+        "用 Do you can swim?",
+        "can 后加 to（can to swim）"
+      ],
+      "coaching_tip": "记两句口诀：be 动词看主语（I am / you are / he is）；can 后面跟原形。"
+    }
+  },
+  {
+    "id": "cne_053",
+    "name": "问候、介绍与生日祝福",
+    "domain": "日常表达",
+    "grade": 3,
+    "semester": "下",
+    "chapter": "三年级下 全册 日常表达：问候、介绍与生日祝福",
+    "type": "application",
+    "description": "三上 Unit 1—3、三下 Unit 8 Happy birthday! 构成本册的交际主线：Hello! / How are you? / This is my friend. / Happy birthday! / Thank you.",
+    "mastery_criteria": [
+      "能用 Hello、Good morning、How are you? 完成问候与应答",
+      "能用 This is… 介绍他人，并表达生日祝福与感谢"
+    ],
+    "diagnostic_question": {
+      "question": "— How are you? — ______",
+      "answer": "I'm fine, thank you."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.PU.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:1.PU.02",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:1.DS.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能用 Hello、Good morning、How are you? 完成问候与应答",
+        "能用 This is… 介绍他人，并表达生日祝福与感谢"
+      ],
+      "worked_example": {
+        "problem": "— How are you? — ______",
+        "steps": [
+          "问候健康近况",
+          "常用答语 I'm fine, thank you.",
+          "所以答 I'm fine, thank you."
+        ],
+        "answer": "I'm fine, thank you."
+      },
+      "common_mistakes": [
+        "How are you? 答成 How are you?",
+        "介绍他人用 I am…（应为 This is…）"
+      ],
+      "coaching_tip": "两人一组每天做一次三句问候对话，直到不用想就能说出。"
+    }
+  },
+  {
+    "id": "cne_054",
+    "name": "字母组合读音与单词重音",
+    "domain": "语音",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上 全册 语音：字母组合与单词重音",
+    "type": "procedural",
+    "description": "四上 Unit 7 At school、Unit 12 Weather 中出现 chair、teacher、weather、thirsty 等词，本知识点练习 ch、th、-er 的读音与双音节词的重音。",
+    "mastery_criteria": [
+      "能读准 ch /tʃ/、th /θ/ 或 /ð/ 的常见词",
+      "能读准双音节词的重音位置"
+    ],
+    "diagnostic_question": {
+      "question": "下列单词中，th 读 /θ/ 的是（　）。",
+      "answer": "three"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.PH.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能读准 ch /tʃ/、th /θ/ 或 /ð/ 的常见词",
+        "能读准双音节词的重音位置"
+      ],
+      "worked_example": {
+        "problem": "判断：单词 teacher 的结尾 -er 读什么？",
+        "steps": [
+          "teacher 结尾是 -er",
+          "在词尾通常弱读为 /ə/",
+          "所以读 /ə/"
+        ],
+        "answer": "/ə/。"
+      },
+      "common_mistakes": [
+        "把 th 一律读成 /s/",
+        "把 -er 读成重读的 /ɜː/"
+      ],
+      "coaching_tip": "把 ch、th、sh 三类词各抄 5 个，边读边比较口型。"
+    }
+  },
+  {
+    "id": "cne_055",
+    "name": "主题词汇与短语（外貌·能力·情绪·天气）",
+    "domain": "词汇",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "四年级上 全册 词汇：外貌、能力、情绪与天气",
+    "type": "conceptual",
+    "description": "四上话题围绕“认识新朋友”：tall、short、thin、strong、happy、sad、angry、cousin、parents、swim、skate、sunny、rainy、windy、cloudy 等。",
+    "mastery_criteria": [
+      "能认读并拼写本册核心词",
+      "能用形容词描述外貌与情绪，用 -y 构成天气形容词"
+    ],
+    "diagnostic_question": {
+      "question": "It is ______ today. We can't go out.",
+      "answer": "rainy"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:1.VO.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并拼写本册核心词",
+        "能用形容词描述外貌与情绪，用 -y 构成天气形容词"
+      ],
+      "worked_example": {
+        "problem": "用括号内单词的正确形式填空：It is ______ (sun) today.",
+        "steps": [
+          "be 动词后需要形容词",
+          "sun 加 y 变 sunny，注意双写 n",
+          "所以填 sunny"
+        ],
+        "answer": "sunny。"
+      },
+      "common_mistakes": [
+        "sunny 漏写一个 n",
+        "happy 与 sad 用错场合"
+      ],
+      "coaching_tip": "天气词按“名词 + y”一组记：sun→sunny、rain→rainy、wind→windy、cloud→cloudy。"
+    }
+  },
+  {
+    "id": "cne_056",
+    "name": "主题词汇与短语（感官·形状·购物）",
+    "domain": "词汇",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下 全册 词汇：感官、形状与购物",
+    "type": "conceptual",
+    "description": "四下 Unit 1—3 以五种感官为主线：touch、feel、soft、hard、smell、taste、sweet、sour、look、shape、circle、square、triangle、shop、buy 等。",
+    "mastery_criteria": [
+      "能认读并拼写感官与形状类词汇",
+      "能用 It feels/smells/tastes… 描述事物"
+    ],
+    "diagnostic_question": {
+      "question": "The ice cream ______ sweet.",
+      "answer": "tastes"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:1.VO.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并拼写感官与形状类词汇",
+        "能用 It feels/smells/tastes… 描述事物"
+      ],
+      "worked_example": {
+        "problem": "用英语说“这个包摸起来很软。”",
+        "steps": [
+          "主语 the bag",
+          "feel 表示“摸起来”，第三人称单数 feels",
+          "所以是 The bag feels soft."
+        ],
+        "answer": "The bag feels soft."
+      },
+      "common_mistakes": [
+        "feel 后接副词（feels softly）",
+        "形状词与物品搭配错误"
+      ],
+      "coaching_tip": "五种感官各写一句：It looks / sounds / smells / tastes / feels…。"
+    }
+  },
+  {
+    "id": "cne_057",
+    "name": "名词复数与 there be 句型",
+    "domain": "语法",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下 全册 核心语法：名词复数与 there be",
+    "type": "procedural",
+    "description": "四下 Unit 5—7 描述家里的物品与学校场所，大量使用 There is / There are 与名词复数，是本册最重要的语法点。",
+    "mastery_criteria": [
+      "能正确构成名词复数（含 -s、-es、不规则变化）",
+      "能根据名词单复数选用 There is 或 There are"
+    ],
+    "diagnostic_question": {
+      "question": "There ______ two books on the desk.",
+      "answer": "are"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.GR.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能正确构成名词复数（含 -s、-es、不规则变化）",
+        "能根据名词单复数选用 There is 或 There are"
+      ],
+      "worked_example": {
+        "problem": "填空：There ______ two books on the desk.",
+        "steps": [
+          "主语 two books 是复数",
+          "复数用 There are",
+          "所以填 are"
+        ],
+        "answer": "are。"
+      },
+      "common_mistakes": [
+        "用 There is two books",
+        "以 s、x、ch、sh 结尾的名词漏加 es"
+      ],
+      "coaching_tip": "先看名词单复数，再决定 is 还是 are；把 box→boxes、bus→buses 单独抄写。"
+    }
+  },
+  {
+    "id": "cne_058",
+    "name": "一般现在时与动词第三人称单数",
+    "domain": "语法",
+    "grade": 4,
+    "semester": "下",
+    "chapter": "四年级下 全册 核心语法：一般现在时（like / have / go）",
+    "type": "procedural",
+    "description": "四下谈及爱好与日常：I like… / She likes… / He has… / We go to school by bus. 第三人称单数是本册的核心难点。",
+    "mastery_criteria": [
+      "能正确使用一般现在时描述习惯与喜好",
+      "能正确给动词加 -s 或 -es"
+    ],
+    "diagnostic_question": {
+      "question": "She ______ drawing very much.",
+      "answer": "likes"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.GR.04",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:1.DS.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能正确使用一般现在时描述习惯与喜好",
+        "能正确给动词加 -s 或 -es"
+      ],
+      "worked_example": {
+        "problem": "用括号内单词的正确形式填空：She ______ (like) drawing.",
+        "steps": [
+          "主语 she 是第三人称单数",
+          "一般现在时动词加 s",
+          "所以填 likes"
+        ],
+        "answer": "likes。"
+      },
+      "common_mistakes": [
+        "第三人称单数漏加 s",
+        "以 o、s、x、ch、sh 结尾的动词漏加 es（goes、watches）"
+      ],
+      "coaching_tip": "记规则：一般加 s；s/x/ch/sh/o 结尾加 es；辅音字母 + y 变 i 加 es。"
+    }
+  },
+  {
+    "id": "cne_059",
+    "name": "句子重音与升降调",
+    "domain": "语音",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上 全册 语音：句子重音与升降调",
+    "type": "procedural",
+    "description": "五上 Module 1—4 的对话与短文开始成段，朗读时句子的重音与升降调直接影响意思表达，如一般疑问句用升调、特殊疑问句用降调。",
+    "mastery_criteria": [
+      "能重读句中的关键词（名词、动词、形容词）",
+      "能用升调读一般疑问句、用降调读陈述句与特殊疑问句"
+    ],
+    "diagnostic_question": {
+      "question": "朗读 Where are you going? 时，句末通常用（　）。",
+      "answer": "降调"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.PH.02",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:2.PH.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能重读句中的关键词（名词、动词、形容词）",
+        "能用升调读一般疑问句、用降调读陈述句与特殊疑问句"
+      ],
+      "worked_example": {
+        "problem": "判断：句子 Where are you going? 朗读时句末用什么语调？",
+        "steps": [
+          "这是特殊疑问句",
+          "特殊疑问句句末用降调",
+          "所以用降调"
+        ],
+        "answer": "降调。"
+      },
+      "common_mistakes": [
+        "所有问句都用升调",
+        "句中每个词都重读"
+      ],
+      "coaching_tip": "把关键词用铅笔圈出来再读，读时圈出的词加重。"
+    }
+  },
+  {
+    "id": "cne_060",
+    "name": "主题词汇与短语（未来·出行·自然）",
+    "domain": "词汇",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "五年级上 全册 词汇：未来、出行与自然",
+    "type": "conceptual",
+    "description": "五上 Module 1—4 的话题词：future、pilot、doctor、cook、birthday、party、bus、underground、beach、wind、water、fire、safe、dangerous 等。",
+    "mastery_criteria": [
+      "能认读并拼写本册核心词",
+      "能围绕职业与出行话题组句，注意介词搭配"
+    ],
+    "diagnostic_question": {
+      "question": "My father is a ______ . He flies a plane.",
+      "answer": "pilot"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:1.VO.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并拼写本册核心词",
+        "能围绕职业与出行话题组句，注意介词搭配"
+      ],
+      "worked_example": {
+        "problem": "用英语说“我长大后想当一名飞行员。”",
+        "steps": [
+          "“想当”用 want to be",
+          "将来用 will 或 want to be",
+          "所以是 I want to be a pilot when I grow up."
+        ],
+        "answer": "I want to be a pilot when I grow up."
+      },
+      "common_mistakes": [
+        "职业名词前漏冠词（want to be pilot）",
+        "by bus 写成 by the bus"
+      ],
+      "coaching_tip": "职业词配一句职业描述：A pilot flies a plane. A cook makes food. 一行一组。"
+    }
+  },
+  {
+    "id": "cne_061",
+    "name": "一般过去时（was/were 与规则动词）",
+    "domain": "语法",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下 全册 核心语法：一般过去时",
+    "type": "procedural",
+    "description": "五下 Module 1—4 开始大量叙述已经发生的事：was/were、-ed 规则变化与 did 构成的疑问句，是小学阶段最重要的时态之一。",
+    "mastery_criteria": [
+      "能正确使用 was/were 描述过去状态",
+      "能构成规则动词过去式并会用 Did…? 提问"
+    ],
+    "diagnostic_question": {
+      "question": "I ______ my grandma last Sunday.",
+      "answer": "visited"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能正确使用 was/were 描述过去状态",
+        "能构成规则动词过去式并会用 Did…? 提问"
+      ],
+      "worked_example": {
+        "problem": "用括号内单词的正确形式填空：I ______ (visit) my grandma last Sunday.",
+        "steps": [
+          "last Sunday 表示过去",
+          "visit 是规则动词，加 ed",
+          "所以填 visited"
+        ],
+        "answer": "visited。"
+      },
+      "common_mistakes": [
+        "过去式与现在时混用",
+        "Did 后用过去式（Did you went…）"
+      ],
+      "coaching_tip": "先找时间标志词（yesterday、last…、ago），确定用过去时；Did 后动词用原形。"
+    }
+  },
+  {
+    "id": "cne_062",
+    "name": "一般将来时（be going to 与 will）",
+    "domain": "语法",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下 全册 核心语法：一般将来时",
+    "type": "procedural",
+    "description": "五下谈论周末计划与假期安排：be going to + 动词原形表示计划，will 表示预测或意愿，两者区别是小学阶段的高频考点。",
+    "mastery_criteria": [
+      "能构成 be going to + 动词原形与 will + 动词原形",
+      "能区分“计划”与“临时决定/预测”"
+    ],
+    "diagnostic_question": {
+      "question": "We ______ visit the museum tomorrow.",
+      "answer": "are going to"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能构成 be going to + 动词原形与 will + 动词原形",
+        "能区分“计划”与“临时决定/预测”"
+      ],
+      "worked_example": {
+        "problem": "用括号内单词的正确形式填空：We ______ (go) to the beach next week.",
+        "steps": [
+          "next week 表示将来",
+          "计划性安排用 be going to",
+          "主语 we 接 are going to go"
+        ],
+        "answer": "are going to go。"
+      },
+      "common_mistakes": [
+        "be going to 后接动词 ing",
+        "will 后加 to（will to go）"
+      ],
+      "coaching_tip": "记结构：be going to + 原形（计划）；will + 原形（预测、意愿）。"
+    }
+  },
+  {
+    "id": "cne_063",
+    "name": "日记写作与短文阅读",
+    "domain": "读写",
+    "grade": 5,
+    "semester": "下",
+    "chapter": "五年级下 全册 读写：日记与短文阅读",
+    "type": "application",
+    "description": "五下要求写 3—5 句的日记或短文，记录一天的活动与感受；同时能读懂 100 词左右的短文并完成判断与问答，为初中读写打基础。",
+    "mastery_criteria": [
+      "能按“时间—活动—感受”写 3—5 句日记",
+      "能读懂短文并提取 who/what/when 等信息"
+    ],
+    "diagnostic_question": {
+      "question": "日记中叙述昨天发生的事，应使用（　）。",
+      "answer": "一般过去时"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.DS.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:2.DS.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能按“时间—活动—感受”写 3—5 句日记",
+        "能读懂短文并提取 who/what/when 等信息"
+      ],
+      "worked_example": {
+        "problem": "写日记：请写一句“今天我去了公园，玩得很开心。”（用过去时）",
+        "steps": [
+          "日记用过去时",
+          "去公园 went to the park",
+          "玩得开心 had a good time",
+          "所以是 Today I went to the park and had a good time."
+        ],
+        "answer": "Today I went to the park and had a good time."
+      },
+      "common_mistakes": [
+        "日记用现在时叙述过去的事",
+        "had a good time 写成 have a good time"
+      ],
+      "coaching_tip": "日记三句起步：天气/时间一句、活动一句、感受一句。"
+    }
+  },
+  {
+    "id": "cne_001",
+    "name": "字母组合 ee、ea、oo、ai 的读音",
+    "domain": "语音",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上 全册 语音：常见字母组合的读音",
+    "type": "procedural",
+    "description": "六上 12 个单元（Growing up、My summer holiday、Healthy or unhealthy、Our neighbours、Animals in danger、E-friends、Seeing a film、Visiting museums、Great cities of the world、Air、Trees、The Earth）反复出现 see、tea、book、rain 等词，本知识点梳理常见字母组合的读音规律。",
+    "mastery_criteria": [
+      "能读准 ee、ea 读 /iː/，oo 读 /uː/ 或 /ʊ/，ai/ay 读 /eɪ/ 的常见词",
+      "能根据读音规则拼读没学过的单词"
+    ],
+    "diagnostic_question": {
+      "question": "下列单词中，ea 读音与其他两个不同的是（　）。",
+      "answer": "bread"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.PH.02",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:2.PH.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能读准 ee、ea 读 /iː/，oo 读 /uː/ 或 /ʊ/，ai/ay 读 /eɪ/ 的常见词",
+        "能根据读音规则拼读没学过的单词"
+      ],
+      "worked_example": {
+        "problem": "下面三个单词中，哪个单词的 ea 读音与其他两个不同：tea、sea、bread？",
+        "steps": [
+          "tea、sea 中的 ea 都读 /iː/",
+          "bread 中的 ea 读 /e/",
+          "所以 bread 不同"
+        ],
+        "answer": "bread。"
+      },
+      "common_mistakes": [
+        "把 bread 中的 ea 也读成 /iː/",
+        "把 oo 一律读成 /uː/（book 中读 /ʊ/）"
+      ],
+      "coaching_tip": "把单词按读音归类抄写，比逐个背发音更有效；读不准时先查词典的音标。"
+    },
+    "root_reason": "初中英语（六年级）为沪教版五四学制起点，按零起点处理，前面没有更早的英语知识点。"
+  },
+  {
+    "id": "cne_002",
+    "name": "主题词汇与短语（成长·假期·健康·动物）",
+    "domain": "词汇",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上 全册 词汇：成长、假期与健康",
+    "type": "conceptual",
+    "description": "围绕本册话题整理词汇：grow up、cute、summer holiday、famous、healthy/unhealthy、hamburger、neighbour、in danger、e-friend、museum、capital、air、tree、Earth 等约 120 个词与短语。",
+    "mastery_criteria": [
+      "能认读并拼写本册各单元的核心词与短语",
+      "能在句子中正确使用形容词与不可数名词"
+    ],
+    "diagnostic_question": {
+      "question": "Wild animals are ______ danger. 选择正确的介词。",
+      "answer": "in"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.VO.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:2.VO.04",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:2.GR.04",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并拼写本册各单元的核心词与短语",
+        "能在句子中正确使用形容词与不可数名词"
+      ],
+      "worked_example": {
+        "problem": "用括号内单词的正确形式填空：It will be ______ (wind) tomorrow.",
+        "steps": [
+          "wind 是名词，前面有 be 动词，需要形容词",
+          "wind 加 y 变成 windy",
+          "所以填 windy"
+        ],
+        "answer": "windy。"
+      },
+      "common_mistakes": [
+        "把不可数名词 air 加 s",
+        "形容词与名词混用（danger / dangerous）"
+      ],
+      "coaching_tip": "记词时连同搭配一起记：in danger、be good for、grow up，避免只会认词不会用。"
+    }
+  },
+  {
+    "id": "cne_003",
+    "name": "一般现在时与第三人称单数",
+    "domain": "语法",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上 全册 核心语法：一般现在时与第三人称单数",
+    "type": "procedural",
+    "description": "本册 Unit 1 Growing up、Unit 3 Healthy or unhealthy 等描述日常习惯与事实，核心是一般现在时；重点是第三人称单数 -s/-es 的构成、否定与疑问。",
+    "mastery_criteria": [
+      "能正确构成第三人称单数形式",
+      "能用 do/does 构成否定句与一般疑问句"
+    ],
+    "diagnostic_question": {
+      "question": "My sister ______ to school by bus every day.",
+      "answer": "goes"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能正确构成第三人称单数形式",
+        "能用 do/does 构成否定句与一般疑问句"
+      ],
+      "worked_example": {
+        "problem": "把 He goes to school by bus. 改成否定句。",
+        "steps": [
+          "主语 He 是第三人称单数，借助 does",
+          "does 后动词还原为 go",
+          "否定句为 He doesn't go to school by bus."
+        ],
+        "answer": "He doesn't go to school by bus."
+      },
+      "common_mistakes": [
+        "第三人称单数后忘记把动词还原",
+        "把 doesn't 写成 don't"
+      ],
+      "coaching_tip": "记住“助动词一出现，后面的动词就回到原形”，可以让 -s 不再乱跑。"
+    }
+  },
+  {
+    "id": "cne_004",
+    "name": "一般过去时",
+    "domain": "语法",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上 全册 核心语法：一般过去时",
+    "type": "procedural",
+    "description": "本册 Unit 2 My summer holiday、Unit 7 Seeing a film 等讲述过去的经历，核心是一般过去时：be 动词的 was/were、规则动词 -ed 与常见不规则动词。",
+    "mastery_criteria": [
+      "能写出常见动词的过去式",
+      "能用一般过去时描述过去的经历并构成否定与疑问"
+    ],
+    "diagnostic_question": {
+      "question": "We ______ to the museum last Sunday.",
+      "answer": "went"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能写出常见动词的过去式",
+        "能用一般过去时描述过去的经历并构成否定与疑问"
+      ],
+      "worked_example": {
+        "problem": "用括号内词的适当形式填空：We ______ (visit) the museum last Sunday.",
+        "steps": [
+          "last Sunday 表示过去",
+          "visit 是规则动词，加 -ed",
+          "所以填 visited"
+        ],
+        "answer": "visited。"
+      },
+      "common_mistakes": [
+        "不规则动词加 -ed（如 goed）",
+        "疑问句里用了 did 却仍把动词写过去式"
+      ],
+      "coaching_tip": "把不规则动词做成小卡片，每天读 5 个；写句子时先定时间，再定时态。"
+    }
+  },
+  {
+    "id": "cne_005",
+    "name": "问候、提议与看电影",
+    "domain": "日常表达",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上 全册 日常表达：问候、提议与看电影",
+    "type": "application",
+    "description": "本册 Unit 1 Growing up 的问候与自我介绍、Unit 7 Seeing a film 的提议与应答，构成本册最重要的交际功能：Shall we…? / That's a good idea. / How about…?",
+    "mastery_criteria": [
+      "能用 Shall we…?、How about…? 提出建议并恰当应答",
+      "能用礼貌用语问候与介绍自己"
+    ],
+    "diagnostic_question": {
+      "question": "— Shall we go to the cinema this afternoon? — ______",
+      "answer": "That's a good idea."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.PU.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:2.PU.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能用 Shall we…?、How about…? 提出建议并恰当应答",
+        "能用礼貌用语问候与介绍自己"
+      ],
+      "worked_example": {
+        "problem": "— Shall we see a film this afternoon? — ______",
+        "steps": [
+          "对方提出建议",
+          "同意时常用 That's a good idea.",
+          "所以答语是 That's a good idea."
+        ],
+        "answer": "That's a good idea."
+      },
+      "common_mistakes": [
+        "用 Yes, I did. 回答建议",
+        "提议时用 You must…，显得生硬"
+      ],
+      "coaching_tip": "把 3 组“提议—应答”对话写在便签上，和家人每天演练一遍，形成语感。"
+    }
+  },
+  {
+    "id": "cne_006",
+    "name": "说明文阅读与假期短文",
+    "domain": "读写",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上 全册 读写：说明文阅读与假期短文",
+    "type": "application",
+    "description": "本册 Unit 8 Visiting museums、Unit 9 Great cities of the world、Unit 12 The Earth 都是说明性短文，本知识点练习抓取关键信息并仿写“介绍一处地方/一次假期”的短文。",
+    "mastery_criteria": [
+      "能在说明文中找出地点、时间、活动等关键信息",
+      "能写 5 句左右的短文介绍一次假期经历"
+    ],
+    "diagnostic_question": {
+      "question": "Ben is from Canada. He came to Shanghai last month. He visits the Science Museum with his parents on Saturdays. Where does Ben go on Saturdays?",
+      "answer": "The Science Museum."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.DS.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:2.DS.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能在说明文中找出地点、时间、活动等关键信息",
+        "能写 5 句左右的短文介绍一次假期经历"
+      ],
+      "worked_example": {
+        "problem": "阅读：Ben is from Canada. He came to Shanghai last month. He visits the Science Museum with his parents on Saturdays. 问：Where does Ben go on Saturdays?",
+        "steps": [
+          "题目问的是地点",
+          "原文 visits the Science Museum",
+          "所以答 The Science Museum"
+        ],
+        "answer": "The Science Museum."
+      },
+      "common_mistakes": [
+        "把 came 的时间当成 now",
+        "写短文时句句用错时态"
+      ],
+      "coaching_tip": "先圈出疑问词（where / when / who），再回原文找对应信息，比通读全文更高效。"
+    }
+  },
+  {
+    "id": "cne_007",
+    "name": "辅音组合 th、sh、ch、ng 的读音",
+    "domain": "语音",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 全册 语音：辅音与辅音组合 th、sh、ch、ng",
+    "type": "procedural",
+    "description": "六下 Unit 1 Great cities in Asia、Unit 3 Dragon Boat Festival、Unit 9 Sea water and rain water 等单元中，that、ship、chicken、English 频繁出现，本知识点整理 th、sh、ch、ng 的读音。",
+    "mastery_criteria": [
+      "能区分 th 的 /θ/ 与 /ð/ 两种读音",
+      "能读准 sh、ch、ng 组合"
+    ],
+    "diagnostic_question": {
+      "question": "下列单词中，th 读 /ð/ 的是（　）。",
+      "answer": "this"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.PH.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能区分 th 的 /θ/ 与 /ð/ 两种读音",
+        "能读准 sh、ch、ng 组合"
+      ],
+      "worked_example": {
+        "problem": "判断：this 与 think 中的 th 读音相同吗？",
+        "steps": [
+          "this 中的 th 读 /ð/（浊音）",
+          "think 中的 th 读 /θ/（清音）",
+          "两者不同"
+        ],
+        "answer": "不同。"
+      },
+      "common_mistakes": [
+        "把 this 的 th 读成 /θ/",
+        "把 sing 读成 /sɪnɡ/（ng 应读 /ŋ/）"
+      ],
+      "coaching_tip": "把手放在喉咙上：振动的是 /ð/，不振动的是 /θ/，这样区分最直观。"
+    }
+  },
+  {
+    "id": "cne_008",
+    "name": "主题词汇与短语（城市·交通·节日·自然）",
+    "domain": "词汇",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 全册 词汇：城市、交通、节日与自然",
+    "type": "conceptual",
+    "description": "围绕六下话题整理词汇：capital、airport、passport、festival、rice dumpling、healthy、season、weather、wind、sea water、forest、fire、protect 等，并练习词形变化（wind→windy）。",
+    "mastery_criteria": [
+      "能认读并拼写本册核心词与短语",
+      "能根据语境把名词变成形容词、把动词变成名词"
+    ],
+    "diagnostic_question": {
+      "question": "Before you get on the plane, you should show your ______ .",
+      "answer": "passport"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.VO.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:2.VO.02",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:2.VO.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并拼写本册核心词与短语",
+        "能根据语境把名词变成形容词、把动词变成名词"
+      ],
+      "worked_example": {
+        "problem": "用括号内单词的正确形式填空：It will be ______ (wind) tomorrow.",
+        "steps": [
+          "句子需要形容词作表语",
+          "wind + y = windy",
+          "所以填 windy"
+        ],
+        "answer": "windy。"
+      },
+      "common_mistakes": [
+        "拼错 airport、passport 等复合词",
+        "在形容词位置误用名词"
+      ],
+      "coaching_tip": "把同一词根的词成组记：wind—windy、rain—rainy、sun—sunny、health—healthy。"
+    }
+  },
+  {
+    "id": "cne_009",
+    "name": "一般将来时 will 与 be going to",
+    "domain": "语法",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 全册 核心语法：一般将来时 will 与 be going to",
+    "type": "procedural",
+    "description": "六下 Unit 5 What will I be like?、Unit 6 Seasonal changes、Unit 7 Travelling in Garden City 集中呈现一般将来时，重点是 will 与 be going to 的构成、区别与否定疑问形式。",
+    "mastery_criteria": [
+      "能用 will 与 be going to 表达预测与计划",
+      "能构成否定句与一般疑问句并作简略回答"
+    ],
+    "diagnostic_question": {
+      "question": "I ______ visit my grandma next Sunday.",
+      "answer": "will"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能用 will 与 be going to 表达预测与计划",
+        "能构成否定句与一般疑问句并作简略回答"
+      ],
+      "worked_example": {
+        "problem": "用括号内词的适当形式填空：They ______ (have) a picnic tomorrow.",
+        "steps": [
+          "tomorrow 表示将来",
+          "用 will 或 be going to",
+          "填 will have（或 are going to have）"
+        ],
+        "answer": "will have。"
+      },
+      "common_mistakes": [
+        "will 后加 to（will to go）",
+        "be going to 后动词用 -ing"
+      ],
+      "coaching_tip": "记两条线：will + 动词原形；be going to + 动词原形（be 随时态主语变化）。"
+    }
+  },
+  {
+    "id": "cne_010",
+    "name": "情态动词 can、must、should",
+    "domain": "语法",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 全册 核心语法：情态动词 can、must、should",
+    "type": "procedural",
+    "description": "六下 Unit 4 Staying healthy、Unit 11 Controlling fire 等单元集中出现 can、must、should（及 mustn't），本知识点梳理其意义、否定形式与疑问回答。",
+    "mastery_criteria": [
+      "能用情态动词表达能力、义务与建议",
+      "能正确构成否定形式 mustn't、shouldn't、can't"
+    ],
+    "diagnostic_question": {
+      "question": "You ______ drink more water when you have a cold.",
+      "answer": "should"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.GR.05",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能用情态动词表达能力、义务与建议",
+        "能正确构成否定形式 mustn't、shouldn't、can't"
+      ],
+      "worked_example": {
+        "problem": "用 must 或 mustn't 填空：We ______ play with fire. It's dangerous.",
+        "steps": [
+          "玩火是禁止的",
+          "mustn't 表示“禁止、不可以”",
+          "所以填 mustn't"
+        ],
+        "answer": "mustn't。"
+      },
+      "common_mistakes": [
+        "把 mustn't 写成 must not to",
+        "情态动词后加 -s 或 -ing"
+      ],
+      "coaching_tip": "把三种语气分清：can（能不能）、must（必须/禁止）、should（应该），再练否定形式。"
+    }
+  },
+  {
+    "id": "cne_011",
+    "name": "问路指路、机场用语与谈论天气",
+    "domain": "日常表达",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 全册 日常表达：问路、机场与天气",
+    "type": "application",
+    "description": "六下 Unit 2 At the airport、Unit 7 Travelling in Garden City、Unit 8 Windy weather 构成本册三大交际场景：问路指路、机场办理手续、谈论天气。",
+    "mastery_criteria": [
+      "能用 Excuse me / Go along… / Turn left 完成问路指路",
+      "能谈论天气并说出温度、季节"
+    ],
+    "diagnostic_question": {
+      "question": "— Excuse me, how can I get to the museum? — ______",
+      "answer": "Go along this street and turn left."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.PU.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:2.PU.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能用 Excuse me / Go along… / Turn left 完成问路指路",
+        "能谈论天气并说出温度、季节"
+      ],
+      "worked_example": {
+        "problem": "— Excuse me, how can I get to the museum? — ______",
+        "steps": [
+          "对方在问路",
+          "应给出方向指引",
+          "所以答 Go along this street and turn left."
+        ],
+        "answer": "Go along this street and turn left."
+      },
+      "common_mistakes": [
+        "问路不用 Excuse me 直接开口",
+        "用 How is the weather? 与 What's the weather like? 混用时语序错"
+      ],
+      "coaching_tip": "把三个场景各写一组对话（问路、机场、天气），大声读 3 遍并录音对比。"
+    }
+  },
+  {
+    "id": "cne_012",
+    "name": "节日介绍与“未来的我”",
+    "domain": "读写",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下 全册 读写：节日介绍与“未来的我”",
+    "type": "application",
+    "description": "六下 Unit 3 Dragon Boat Festival、Unit 5 What will I be like? 提供了“介绍节日”与“写未来打算”两种写作范式；本知识点练习提取信息、按时间顺序组织段落并仿写。",
+    "mastery_criteria": [
+      "能读懂节日介绍类短文并提取时间、活动信息",
+      "能写 6 句左右介绍节日或未来打算的短文"
+    ],
+    "diagnostic_question": {
+      "question": "The Dragon Boat Festival is in May or June. People eat rice dumplings and watch dragon boat races. What do people eat at the festival?",
+      "answer": "Rice dumplings."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:2.DS.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:2.DS.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能读懂节日介绍类短文并提取时间、活动信息",
+        "能写 6 句左右介绍节日或未来打算的短文"
+      ],
+      "worked_example": {
+        "problem": "阅读：The Dragon Boat Festival is in May or June. People eat rice dumplings and watch dragon boat races. 问：What do people eat at the festival?",
+        "steps": [
+          "题目问“吃什么”",
+          "原文 eat rice dumplings",
+          "所以答 rice dumplings"
+        ],
+        "answer": "Rice dumplings."
+      },
+      "common_mistakes": [
+        "把节日日期写成节日活动",
+        "写未来打算时混用现在时与将来时"
+      ],
+      "coaching_tip": "写前先列三栏：时间、活动、感受；每栏写一句，最后加一句总结，段落自然成形。"
+    }
+  },
+  {
+    "id": "cne_013",
+    "name": "单词重音与句子重音",
+    "domain": "语音",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上 全册 语音：单词重音与句子重音",
+    "type": "procedural",
+    "description": "七上 Units 1—11 的词汇以双音节、三音节词为主（如 relative、neighbour、festival、delicious），本知识点练习单词重音位置与句子中实词重读。",
+    "mastery_criteria": [
+      "能读准双音节、三音节词的重音位置",
+      "知道句子中名词、动词等实词一般重读"
+    ],
+    "diagnostic_question": {
+      "question": "下列单词中，重音在第一个音节的是（　）。",
+      "answer": "festival"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.PH.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:3.PH.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能读准双音节、三音节词的重音位置",
+        "知道句子中名词、动词等实词一般重读"
+      ],
+      "worked_example": {
+        "problem": "判断：festival 的重音在第几个音节？",
+        "steps": [
+          "festival 分为 fes-ti-val 三个音节",
+          "读作 /ˈfestɪvl/",
+          "重音在第一个音节"
+        ],
+        "answer": "第一个音节。"
+      },
+      "common_mistakes": [
+        "把 delicious 读成第一音节重音（应为第二音节）",
+        "句子中每个词都重读，听不出重点"
+      ],
+      "coaching_tip": "跟着词典音频读，边读边用手打拍子，重读音节拍得重一些。"
+    }
+  },
+  {
+    "id": "cne_014",
+    "name": "主题词汇与短语（亲属·动物·职业·住房·食品）",
+    "domain": "词汇",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上 全册 词汇：亲属、职业、住房与食品",
+    "type": "conceptual",
+    "description": "本册围绕家庭与邻里：relative、cousin、neighbour、vet、engineer、flat、balcony、neighbourhood、sign、healthy、delicious、recipe 等，并包含大量可数与不可数名词。",
+    "mastery_criteria": [
+      "能认读并拼写本册核心词与短语",
+      "能区分可数与不可数名词并正确搭配量词"
+    ],
+    "diagnostic_question": {
+      "question": "My uncle is a ______ . He looks after sick animals.",
+      "answer": "vet"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:3.VO.04",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并拼写本册核心词与短语",
+        "能区分可数与不可数名词并正确搭配量词"
+      ],
+      "worked_example": {
+        "problem": "用 a few 或 a little 填空：There is ______ milk in the fridge.",
+        "steps": [
+          "milk 是不可数名词",
+          "不可数名词前用 a little",
+          "所以填 a little"
+        ],
+        "answer": "a little。"
+      },
+      "common_mistakes": [
+        "把 information、advice 当可数名词加 s",
+        "把 a few 与 a little 用反"
+      ],
+      "coaching_tip": "把不可数名词单独列一张表（milk、bread、water、information、advice），每天默写 5 个。"
+    }
+  },
+  {
+    "id": "cne_015",
+    "name": "形容词与副词的比较等级",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上 全册 核心语法：形容词与副词的比较等级",
+    "type": "procedural",
+    "description": "七上 Unit 5 Choosing a new flat、Unit 6 Different places 集中比较住房与地点，涉及比较级、最高级的构成（-er/-est、more/most）与 than、the most 等结构。",
+    "mastery_criteria": [
+      "能正确构成形容词、副词的比较级与最高级",
+      "能用比较级、最高级描述与比较事物"
+    ],
+    "diagnostic_question": {
+      "question": "This flat is ______ than that one.",
+      "answer": "bigger"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.08",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:2.GR.06",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能正确构成形容词、副词的比较级与最高级",
+        "能用比较级、最高级描述与比较事物"
+      ],
+      "worked_example": {
+        "problem": "用所给词的适当形式填空：This flat is ______ (big) than that one.",
+        "steps": [
+          "有 than，说明用比较级",
+          "big 是重读闭音节，双写 g 加 -er",
+          "所以填 bigger"
+        ],
+        "answer": "bigger。"
+      },
+      "common_mistakes": [
+        "双写规则漏写（biger）",
+        "比较级前再加 more（more bigger）"
+      ],
+      "coaching_tip": "先分类再变形：一般加 -er/-est；以 e 结尾加 -r/-st；辅音字母+y 变 i；重读闭音节双写。"
+    }
+  },
+  {
+    "id": "cne_016",
+    "name": "可数与不可数名词与数量表达",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上 全册 核心语法：可数与不可数名词、some 与 any",
+    "type": "procedural",
+    "description": "七上 Unit 9 International Food Festival、Unit 11 My food project 大量使用食品名词，本知识点梳理可数/不可数、some/any、much/many、a few/a little 与名词所有格。",
+    "mastery_criteria": [
+      "能判断常见名词是否可数，并正确使用量词",
+      "能在肯定句、否定句、疑问句中正确使用 some 与 any"
+    ],
+    "diagnostic_question": {
+      "question": "We don't have ______ juice. Let's buy some.",
+      "answer": "any"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.09",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能判断常见名词是否可数，并正确使用量词",
+        "能在肯定句、否定句、疑问句中正确使用 some 与 any"
+      ],
+      "worked_example": {
+        "problem": "用 some 或 any 填空：We don't have ______ juice. Let's buy some.",
+        "steps": [
+          "否定句中一般用 any",
+          "juice 不可数，any 修饰不可数名词",
+          "所以填 any"
+        ],
+        "answer": "any。"
+      },
+      "common_mistakes": [
+        "在否定句中仍用 some",
+        "把 a few 用于不可数名词"
+      ],
+      "coaching_tip": "记口诀：肯定 some、否定疑问 any；可数 few/many，不可数 little/much。"
+    }
+  },
+  {
+    "id": "cne_017",
+    "name": "描述人物、询问职业与价格",
+    "domain": "日常表达",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上 全册 日常表达：描述人物、询问职业与价格",
+    "type": "application",
+    "description": "七上 Unit 4 Jobs people do、Unit 2 Our animal friends、Unit 9 International Food Festival 构成本册主要交际功能：询问职业、描述外观与性格、询问价格与数量。",
+    "mastery_criteria": [
+      "能用 What does he do? / What is he like? 询问职业与性格",
+      "能用 How much…? 询问价格并应答"
+    ],
+    "diagnostic_question": {
+      "question": "— What does your father do? — ______",
+      "answer": "He is a doctor."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.PU.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:3.PU.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能用 What does he do? / What is he like? 询问职业与性格",
+        "能用 How much…? 询问价格并应答"
+      ],
+      "worked_example": {
+        "problem": "— What does your father do? — ______",
+        "steps": [
+          "问的是职业",
+          "答语应说明职业",
+          "所以答 He is a doctor."
+        ],
+        "answer": "He is a doctor."
+      },
+      "common_mistakes": [
+        "把 What is he like?（性格）与 What does he look like?（外貌）混用",
+        "How much 后接可数名词复数"
+      ],
+      "coaching_tip": "把三个问句写在卡片上：What does he do? / What is he like? / What does he look like? 每天各问一句。"
+    }
+  },
+  {
+    "id": "cne_018",
+    "name": "邀请函与海报写作",
+    "domain": "读写",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上 全册 读写：邀请函与海报",
+    "type": "application",
+    "description": "七上 Unit 10 A birthday party、Unit 9 International Food Festival 提供了邀请函与活动海报两种实用文体，本知识点练习抓取时间、地点、活动信息并仿写。",
+    "mastery_criteria": [
+      "能读懂邀请函与海报，提取时间、地点、活动三项关键信息",
+      "能写 5—6 句的邀请函或活动海报"
+    ],
+    "diagnostic_question": {
+      "question": "Please come to my birthday party at 6 p.m. on Saturday. It is at my home. We will have a big cake. When is the party?",
+      "answer": "At 6 p.m. on Saturday."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.DS.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:3.DS.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能读懂邀请函与海报，提取时间、地点、活动三项关键信息",
+        "能写 5—6 句的邀请函或活动海报"
+      ],
+      "worked_example": {
+        "problem": "阅读：Please come to my birthday party at 6 p.m. on Saturday. It is at my home. We will have a big cake. 问：When is the party?",
+        "steps": [
+          "时间信息在 at 6 p.m. on Saturday",
+          "题目问 when",
+          "所以答 At 6 p.m. on Saturday."
+        ],
+        "answer": "At 6 p.m. on Saturday."
+      },
+      "common_mistakes": [
+        "漏写时间或地点",
+        "海报中混用时态（活动未发生应用将来时）"
+      ],
+      "coaching_tip": "写邀请函按“邀请—时间—地点—活动—期待回复”五步走，每步一句。"
+    }
+  },
+  {
+    "id": "cne_019",
+    "name": "陈述句与疑问句的语调",
+    "domain": "语音",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下 全册 语音：陈述句与疑问句的语调",
+    "type": "procedural",
+    "description": "七下 Unit 2 Going to see a film、Unit 4 Let's go shopping 的对话以一般疑问句、特殊疑问句为主，本知识点练习降调与升调的使用。",
+    "mastery_criteria": [
+      "知道陈述句、特殊疑问句一般用降调",
+      "知道一般疑问句一般用升调，并能用语调表达礼貌"
+    ],
+    "diagnostic_question": {
+      "question": "朗读一般疑问句 Are you ready? 时，句末通常用（　）。",
+      "answer": "升调"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.PH.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道陈述句、特殊疑问句一般用降调",
+        "知道一般疑问句一般用升调，并能用语调表达礼貌"
+      ],
+      "worked_example": {
+        "problem": "判断：一般疑问句 Are you ready? 朗读时句末用什么语调？",
+        "steps": [
+          "一般疑问句期待对方回答 yes/no",
+          "句末用升调",
+          "所以用升调"
+        ],
+        "answer": "升调。"
+      },
+      "common_mistakes": [
+        "所有句子都用降调，听起来生硬",
+        "特殊疑问句用升调（应为降调）"
+      ],
+      "coaching_tip": "用手机录音，对比问句与答句的语调曲线，比只听示范更容易纠正。"
+    }
+  },
+  {
+    "id": "cne_020",
+    "name": "主题词汇与短语（旅游·购物·未来·风与水）",
+    "domain": "词汇",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下 全册 词汇：旅游、购物、未来与自然元素",
+    "type": "conceptual",
+    "description": "七下围绕 Garden City 的城市生活：travel guide、guidebook、shopping mall、discount、future、electricity、flood、wind、wave 等，是中考高频话题词汇的起点。",
+    "mastery_criteria": [
+      "能认读并拼写本册核心词与短语",
+      "能用构词法扩展词汇（如 electric→electricity）"
+    ],
+    "diagnostic_question": {
+      "question": "If you want to travel, you can read a ______ first.",
+      "answer": "travel guide"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:3.VO.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并拼写本册核心词与短语",
+        "能用构词法扩展词汇（如 electric→electricity）"
+      ],
+      "worked_example": {
+        "problem": "用括号内单词的正确形式填空：We should save ______ (electric) in our daily life.",
+        "steps": [
+          "save 后接名词作宾语",
+          "electric 的名词形式是 electricity",
+          "所以填 electricity"
+        ],
+        "answer": "electricity。"
+      },
+      "common_mistakes": [
+        "拼错 electricity 的 -city 部分",
+        "把 shopping 写成 shoping"
+      ],
+      "coaching_tip": "按话题做词汇树：旅游、购物、未来、自然四支，每支写 10 个词。"
+    }
+  },
+  {
+    "id": "cne_021",
+    "name": "if 条件状语从句与“主将从现”",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下 全册 核心语法：if 条件状语从句与主将从现",
+    "type": "procedural",
+    "description": "七下 Unit 7 In the future、Unit 8 A more enjoyable school life 讨论未来与假设，涉及 if 引导的条件状语从句，重点是“主句将来时、从句用现在时”。",
+    "mastery_criteria": [
+      "能正确使用 if 引导的条件状语从句",
+      "能遵守“主将从现”的时态规则"
+    ],
+    "diagnostic_question": {
+      "question": "If it ______ tomorrow, we will stay at home.",
+      "answer": "rains"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.05",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能正确使用 if 引导的条件状语从句",
+        "能遵守“主将从现”的时态规则"
+      ],
+      "worked_example": {
+        "problem": "用括号内词的适当形式填空：If it ______ (rain) tomorrow, we will stay at home.",
+        "steps": [
+          "if 从句表示条件",
+          "主句用 will，从句用一般现在时",
+          "所以填 rains"
+        ],
+        "answer": "rains。"
+      },
+      "common_mistakes": [
+        "if 从句里也用 will（If it will rain）",
+        "主句忘记用将来时"
+      ],
+      "coaching_tip": "记口诀：“主将从现，if 从句不用 will”，写完句子回头查一次。"
+    }
+  },
+  {
+    "id": "cne_022",
+    "name": "动词不定式表目的",
+    "domain": "语法",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下 全册 核心语法：动词不定式表目的",
+    "type": "procedural",
+    "description": "七下 Unit 1 Writing a travel guide、Unit 6 Hard work for a better life 中 to visit / to learn / in order to… 反复出现，本知识点梳理不定式作目的状语及常见搭配。",
+    "mastery_criteria": [
+      "能用 to do 表示目的",
+      "能区分不定式与动名词作宾语（want to do / enjoy doing）"
+    ],
+    "diagnostic_question": {
+      "question": "He went to the library ______ some books.",
+      "answer": "to borrow"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.06",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能用 to do 表示目的",
+        "能区分不定式与动名词作宾语（want to do / enjoy doing）"
+      ],
+      "worked_example": {
+        "problem": "合并句子：He went to the library. He wanted to borrow books.",
+        "steps": [
+          "两个句子表示目的关系",
+          "用不定式表目的",
+          "He went to the library to borrow books."
+        ],
+        "answer": "He went to the library to borrow books."
+      },
+      "common_mistakes": [
+        "在 to 后加 -ing（to going）",
+        "混淆 enjoy doing 与 want to do"
+      ],
+      "coaching_tip": "把常见动词分两类记：want/hope/plan + to do；enjoy/finish/practice + doing。"
+    }
+  },
+  {
+    "id": "cne_023",
+    "name": "购物、提建议与谈计划",
+    "domain": "日常表达",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下 全册 日常表达：购物、提建议与谈计划",
+    "type": "application",
+    "description": "七下 Unit 4 Let's go shopping、Unit 2 Going to see a film 是本册的交际重点：询价、试穿、提建议（How about…? / Why not…?）与谈周末计划。",
+    "mastery_criteria": [
+      "能在购物场景中询价、试穿并完成交易对话",
+      "能用 How about…? / Why not…? 提建议"
+    ],
+    "diagnostic_question": {
+      "question": "— ______ going shopping this afternoon? — Good idea.",
+      "answer": "How about"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.PU.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:3.PU.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能在购物场景中询价、试穿并完成交易对话",
+        "能用 How about…? / Why not…? 提建议"
+      ],
+      "worked_example": {
+        "problem": "— How about going shopping this afternoon? — ______",
+        "steps": [
+          "对方用 How about…? 提建议",
+          "同意时可说 Good idea.",
+          "所以答 Good idea."
+        ],
+        "answer": "Good idea."
+      },
+      "common_mistakes": [
+        "试穿时说 Try it on you",
+        "用 How about 后接动词原形"
+      ],
+      "coaching_tip": "把购物对话按“招呼—需求—询价—试穿—付款”五步演一遍，注意 Can I help you? 的应答。"
+    }
+  },
+  {
+    "id": "cne_024",
+    "name": "旅游指南与购物对话",
+    "domain": "读写",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下 全册 读写：旅游指南与购物对话",
+    "type": "application",
+    "description": "七下 Unit 1 Writing a travel guide 要求用 “位置—特色—活动—建议” 的结构介绍地点；Unit 4 Let's go shopping 要求会写购物对话。两者是本册读写核心。",
+    "mastery_criteria": [
+      "能按“位置—特色—活动—建议”写一段旅游指南",
+      "能补全并编写购物对话"
+    ],
+    "diagnostic_question": {
+      "question": "写旅游指南时，交代位置的常用表达是（　）。",
+      "answer": "It is in the east of the city."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.DS.02",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:3.DS.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能按“位置—特色—活动—建议”写一段旅游指南",
+        "能补全并编写购物对话"
+      ],
+      "worked_example": {
+        "problem": "写作：请写一句介绍公园位置的话（用 in the east of…）。",
+        "steps": [
+          "先确定地点与方位",
+          "用 in the east of + 地点",
+          "例：The park is in the east of the city."
+        ],
+        "answer": "The park is in the east of the city."
+      },
+      "common_mistakes": [
+        "方位介词用错（in/on/to）",
+        "指南里没有给出可操作的建议"
+      ],
+      "coaching_tip": "写指南前先列 4 个问句：在哪里？有什么？能做什么？怎么去？答完即成文。"
+    }
+  },
+  {
+    "id": "cne_025",
+    "name": "连读、弱读与意群停顿",
+    "domain": "语音",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上 全册 语音：连读与弱读",
+    "type": "procedural",
+    "description": "八上 Unit 1 Penfriends、Unit 6—7 Nobody wins 的对话较长，朗读时出现大量连读（如 an apple、come in）与虚词弱读（a、of、and、to）。",
+    "mastery_criteria": [
+      "能识别并读出常见连读（辅音+元音）",
+      "能在朗读中弱读冠词、介词等虚词"
+    ],
+    "diagnostic_question": {
+      "question": "朗读 an apple 时，通常发生（　）。",
+      "answer": "连读"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.PH.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能识别并读出常见连读（辅音+元音）",
+        "能在朗读中弱读冠词、介词等虚词"
+      ],
+      "worked_example": {
+        "problem": "判断：短语 an apple 朗读时通常发生什么现象？",
+        "steps": [
+          "an 以辅音 /n/ 结尾",
+          "apple 以元音 /æ/ 开头",
+          "辅音接元音，发生连读"
+        ],
+        "answer": "连读。"
+      },
+      "common_mistakes": [
+        "逐词停顿，读成 an…apple",
+        "把每个虚词都读得很重"
+      ],
+      "coaching_tip": "先按意群划斜线（an apple / is good for you），再连起来读。"
+    }
+  },
+  {
+    "id": "cne_026",
+    "name": "主题词汇与短语（笔友·工作·娱乐·意外）",
+    "domain": "词汇",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上 全册 词汇：笔友、工作与娱乐",
+    "type": "conceptual",
+    "description": "八上话题从自我介绍扩展到工作与突发事件：penfriend、hobby、part-time job、accident、suddenly、disappear、enemy、number、encyclopaedia 等。",
+    "mastery_criteria": [
+      "能认读并拼写本册核心词与短语",
+      "能用同族词转换词性（sudden→suddenly、safe→safety）"
+    ],
+    "diagnostic_question": {
+      "question": "A person you write letters to is your ______ .",
+      "answer": "penfriend"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:3.VO.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并拼写本册核心词与短语",
+        "能用同族词转换词性（sudden→suddenly、safe→safety）"
+      ],
+      "worked_example": {
+        "problem": "用括号内单词的正确形式填空：______ (sudden), the lights went out.",
+        "steps": [
+          "句子已有完整主谓，空格修饰整句",
+          "需要副词",
+          "sudden 加 -ly 变 suddenly"
+        ],
+        "answer": "Suddenly。"
+      },
+      "common_mistakes": [
+        "拼错 encyclopaedia",
+        "形容词与副词混用（sudden 修饰动词）"
+      ],
+      "coaching_tip": "把同族词做成表格：名词—形容词—副词，一行一组，方便变形。"
+    }
+  },
+  {
+    "id": "cne_027",
+    "name": "现在完成时（already/yet/since/for）",
+    "domain": "语法",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上 全册 核心语法：现在完成时",
+    "type": "procedural",
+    "description": "八上 Unit 1 Penfriends、Unit 2 Work and play 用现在完成时谈经历与持续状态，是初中阶段最重要的时态之一，也是中考高频考点。",
+    "mastery_criteria": [
+      "能正确构成 have/has + 过去分词",
+      "能区分 already 与 yet、since 与 for 的用法"
+    ],
+    "diagnostic_question": {
+      "question": "I ______ here for ten years.",
+      "answer": "have lived"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能正确构成 have/has + 过去分词",
+        "能区分 already 与 yet、since 与 for 的用法"
+      ],
+      "worked_example": {
+        "problem": "用括号内单词的正确形式填空：I ______ (live) here for ten years.",
+        "steps": [
+          "for ten years 表示持续一段时间",
+          "用现在完成时",
+          "主语 I 接 have + lived"
+        ],
+        "answer": "have lived。"
+      },
+      "common_mistakes": [
+        "since 后接时间段、for 后接时间点（正好相反）",
+        "把 have been to 与 have gone to 混用"
+      ],
+      "coaching_tip": "记两条：since + 时间点，for + 时间段；have been to 去过（已回），have gone to 去了（未回）。"
+    }
+  },
+  {
+    "id": "cne_028",
+    "name": "过去进行时与 when/while",
+    "domain": "语法",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上 全册 核心语法：过去进行时与 when/while",
+    "type": "procedural",
+    "description": "八上 Unit 3 Trouble! 讲述意外事件，大量使用“过去进行时 + when + 一般过去时”的句型，如 I was walking when I heard a cry.",
+    "mastery_criteria": [
+      "能构成 was/were + doing 并用于描述过去某时正在发生的动作",
+      "能正确区分 when 与 while 的搭配"
+    ],
+    "diagnostic_question": {
+      "question": "I ______ when the phone rang.",
+      "answer": "was reading"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.05",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能构成 was/were + doing 并用于描述过去某时正在发生的动作",
+        "能正确区分 when 与 while 的搭配"
+      ],
+      "worked_example": {
+        "problem": "用括号内单词的正确形式填空：I ______ (read) when the phone rang.",
+        "steps": [
+          "电话铃响时“我正在读书”",
+          "表示过去某时正在进行，用过去进行时",
+          "主语 I 接 was reading"
+        ],
+        "answer": "was reading。"
+      },
+      "common_mistakes": [
+        "主句与从句时态颠倒（用一般过去时描述持续动作）",
+        "while 后接一般过去时的短暂动作"
+      ],
+      "coaching_tip": "画时间轴：长动作画横线（进行时），短动作用竖线切开（一般过去时）。"
+    }
+  },
+  {
+    "id": "cne_029",
+    "name": "数词、大数字与分数",
+    "domain": "语法",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上 全册 核心语法：数词与数量表达",
+    "type": "procedural",
+    "description": "八上 Unit 4 Numbers 专门讨论数字：hundred/thousand/million 的单复数、序数词、分数与百分数，以及数字在生活中的表达（日期、电话号码）。",
+    "mastery_criteria": [
+      "能正确读写千以上的数字与年份",
+      "能正确使用 hundred/thousand 与 of 的搭配，并会表达分数"
+    ],
+    "diagnostic_question": {
+      "question": "There are ______ students in our school.",
+      "answer": "nine hundred"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.09",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能正确读写千以上的数字与年份",
+        "能正确使用 hundred/thousand 与 of 的搭配，并会表达分数"
+      ],
+      "worked_example": {
+        "problem": "判断：three hundred 还是 three hundreds？",
+        "steps": [
+          "hundred 前有具体数字时用单数",
+          "hundreds of 才表示“数以百计”",
+          "所以用 three hundred"
+        ],
+        "answer": "three hundred。"
+      },
+      "common_mistakes": [
+        "写成 three hundreds",
+        "分数分母用基数词（应为序数词）"
+      ],
+      "coaching_tip": "记两条规则：有具体数字不加 s；hundreds of / thousands of 表示概数要加 s。"
+    }
+  },
+  {
+    "id": "cne_030",
+    "name": "打电话与描述突发事件",
+    "domain": "日常表达",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上 全册 日常表达：打电话与描述突发事件",
+    "type": "application",
+    "description": "八上 Unit 3 Trouble!、Unit 5 Encyclopaedias 涉及求助与事件叙述；打电话用语（May I speak to…? / This is… speaking. / Hold on, please.）是中考交际考点。",
+    "mastery_criteria": [
+      "能完整进行打电话对话（找人、留言、稍等）",
+      "能按时间顺序描述一次突发事件"
+    ],
+    "diagnostic_question": {
+      "question": "— Hello, may I speak to Tom? — ______",
+      "answer": "This is Tom speaking."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.PU.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:3.PU.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能完整进行打电话对话（找人、留言、稍等）",
+        "能按时间顺序描述一次突发事件"
+      ],
+      "worked_example": {
+        "problem": "电话中自我介绍：— Hello, may I speak to Tom? — ______",
+        "steps": [
+          "接电话者自报身份",
+          "用 This is Tom speaking.",
+          "所以答 This is Tom speaking."
+        ],
+        "answer": "This is Tom speaking."
+      },
+      "common_mistakes": [
+        "说 I am Tom speaking（不符合电话习惯）",
+        "叙述事件缺时间顺序词"
+      ],
+      "coaching_tip": "电话对话记三句：This is … speaking. / Hold on, please. / Can I take a message?"
+    }
+  },
+  {
+    "id": "cne_031",
+    "name": "百科全书条目与故事复述",
+    "domain": "读写",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上 全册 读写：百科全书条目与故事复述",
+    "type": "application",
+    "description": "八上 Unit 5 Encyclopaedias 呈现词条式说明文（定义—分类—举例），Unit 6—7 Nobody wins 是连续故事，本知识点练习提取信息与按顺序复述。",
+    "mastery_criteria": [
+      "能读懂词条式说明文并概括定义与例子",
+      "能按 beginning—middle—end 复述故事"
+    ],
+    "diagnostic_question": {
+      "question": "An encyclopaedia is a book of facts. It tells you about people, places and things. What is an encyclopaedia?",
+      "answer": "A book of facts."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.DS.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:3.DS.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能读懂词条式说明文并概括定义与例子",
+        "能按 beginning—middle—end 复述故事"
+      ],
+      "worked_example": {
+        "problem": "阅读：An encyclopaedia is a book of facts. It tells you about people, places and things. 问：What is an encyclopaedia?",
+        "steps": [
+          "定义句在首句",
+          "后面是对定义的展开",
+          "所以答 A book of facts."
+        ],
+        "answer": "A book of facts."
+      },
+      "common_mistakes": [
+        "复述时堆砌细节，没有主线",
+        "把说明文的定义句漏掉"
+      ],
+      "coaching_tip": "复述前先写三个词：人物、问题、结果，再各扩成一句。"
+    }
+  },
+  {
+    "id": "cne_032",
+    "name": "失去爆破与辅音连缀",
+    "domain": "语音",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下 全册 语音：失去爆破与辅音连缀",
+    "type": "procedural",
+    "description": "八下 Unit 4 Newspapers、Unit 5 Magazine articles 的长句中含有大量辅音相遇的情况（如 big problem、next day），本知识点练习失去爆破与辅音连缀的读法。",
+    "mastery_criteria": [
+      "知道爆破音后接爆破音时前一个只做口形不出声",
+      "能连贯读出辅音连缀（str-、spr-、-nts）"
+    ],
+    "diagnostic_question": {
+      "question": "短语 big problem 中，big 的 /g/ 通常（　）。",
+      "answer": "失去爆破"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.PH.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道爆破音后接爆破音时前一个只做口形不出声",
+        "能连贯读出辅音连缀（str-、spr-、-nts）"
+      ],
+      "worked_example": {
+        "problem": "判断：短语 big problem 中 big 的 /g/ 通常怎样读？",
+        "steps": [
+          "/g/ 是爆破音，problem 以 /p/ 开头也是爆破音",
+          "两个爆破音相遇，前一个失去爆破",
+          "只做口形不出声"
+        ],
+        "answer": "失去爆破，只做口形不出声。"
+      },
+      "common_mistakes": [
+        "在两个爆破音之间加元音",
+        "把辅音连缀拆开逐字读"
+      ],
+      "coaching_tip": "练失去爆破时把手放在嘴前，感觉不到气流冲出就对了。"
+    }
+  },
+  {
+    "id": "cne_033",
+    "name": "主题词汇与短语（树·水·电·报刊）",
+    "domain": "词汇",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下 全册 词汇：自然与技术",
+    "type": "conceptual",
+    "description": "八下 Unit 1 Trees、Unit 2 Water、Unit 3 Electricity 属“人与自然”主题，核心词有 oxygen、provide、pollution、electricity、power station、save energy 等。",
+    "mastery_criteria": [
+      "能认读并拼写本册核心词与短语",
+      "能用前缀 re-、un- 与后缀 -tion 扩展词汇"
+    ],
+    "diagnostic_question": {
+      "question": "Trees can ______ us with oxygen.",
+      "answer": "provide"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:3.VO.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并拼写本册核心词与短语",
+        "能用前缀 re-、un- 与后缀 -tion 扩展词汇"
+      ],
+      "worked_example": {
+        "problem": "用括号内单词的正确形式填空：Trees ______ (provide) us with oxygen.",
+        "steps": [
+          "主语 trees 是复数",
+          "一般现在时表客观事实",
+          "所以填 provide"
+        ],
+        "answer": "provide。"
+      },
+      "common_mistakes": [
+        "provide 后介词用错（provide sb with sth / provide sth for sb）",
+        "pollute 与 pollution 混用"
+      ],
+      "coaching_tip": "按“人与自然”做词块：trees→oxygen→pollution→protect，一串记下来。"
+    }
+  },
+  {
+    "id": "cne_034",
+    "name": "被动语态（一般现在时与一般过去时）",
+    "domain": "语法",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下 全册 核心语法：被动语态",
+    "type": "procedural",
+    "description": "八下 Unit 2 Water、Unit 3 Electricity、Unit 1 Trees 多为科普说明文，被动语态出现频率极高（is made、was built、are used），是八下语法核心。",
+    "mastery_criteria": [
+      "能构成 am/is/are + p.p. 与 was/were + p.p.",
+      "能在说明文中根据需要主动、被动转换"
+    ],
+    "diagnostic_question": {
+      "question": "English ______ in many countries.",
+      "answer": "is spoken"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能构成 am/is/are + p.p. 与 was/were + p.p.",
+        "能在说明文中根据需要主动、被动转换"
+      ],
+      "worked_example": {
+        "problem": "用括号内单词的正确形式填空：English ______ (speak) in many countries.",
+        "steps": [
+          "English 是被说的对象，作主语",
+          "一般现在时被动语态",
+          "所以填 is spoken"
+        ],
+        "answer": "is spoken。"
+      },
+      "common_mistakes": [
+        "漏掉 be 动词（English spoken）",
+        "过去分词写成过去式（is spoke）"
+      ],
+      "coaching_tip": "转换三步：找宾语提前作主语→动词变 be + 过去分词→原主语放 by 后（可省）。"
+    }
+  },
+  {
+    "id": "cne_035",
+    "name": "宾语从句（that / if / whether / 疑问词）",
+    "domain": "语法",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下 全册 核心语法：宾语从句",
+    "type": "procedural",
+    "description": "八下 Unit 4 Newspapers、Unit 5 Magazine articles 大量引用他人话语，宾语从句的引导词、陈述语序与时态呼应是中考必考点。",
+    "mastery_criteria": [
+      "能选择 that、if/whether 或疑问词引导宾语从句",
+      "能保证从句用陈述语序并与主句时态呼应"
+    ],
+    "diagnostic_question": {
+      "question": "Do you know where he ______ ?",
+      "answer": "lives"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能选择 that、if/whether 或疑问词引导宾语从句",
+        "能保证从句用陈述语序并与主句时态呼应"
+      ],
+      "worked_example": {
+        "problem": "合并句子：Where does he live? Do you know…",
+        "steps": [
+          "原句是特殊疑问句",
+          "从句用疑问词 where 引导",
+          "从句改为陈述语序：where he lives",
+          "Do you know where he lives?"
+        ],
+        "answer": "Do you know where he lives?"
+      },
+      "common_mistakes": [
+        "从句仍用疑问语序（where does he live）",
+        "主句过去时，从句仍用现在时"
+      ],
+      "coaching_tip": "宾语从句三查：引导词对不对、语序是不是陈述句、时态跟主句是否呼应。"
+    }
+  },
+  {
+    "id": "cne_036",
+    "name": "报刊文章与游记",
+    "domain": "读写",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下 全册 读写：报刊文章与游记",
+    "type": "application",
+    "description": "八下 Unit 4 Newspapers 训练新闻的“标题—导语—细节”结构，Unit 6 Travel 训练游记的“地点—见闻—感受”结构，两者是本册读写重点。",
+    "mastery_criteria": [
+      "能快速抓取新闻导语中的 who/what/when/where",
+      "能写 60—80 词的游记，包含见闻与感受"
+    ],
+    "diagnostic_question": {
+      "question": "A fire broke out in a shop on Green Street last night. Nobody was hurt. When did the fire break out?",
+      "answer": "Last night."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.DS.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:3.DS.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能快速抓取新闻导语中的 who/what/when/where",
+        "能写 60—80 词的游记，包含见闻与感受"
+      ],
+      "worked_example": {
+        "problem": "阅读：A fire broke out in a shop on Green Street last night. Nobody was hurt. 问：When did the fire break out?",
+        "steps": [
+          "导语中时间信息为 last night",
+          "题目问时间",
+          "所以答 Last night."
+        ],
+        "answer": "Last night."
+      },
+      "common_mistakes": [
+        "新闻中混入个人评论",
+        "游记只写行程，没有感受"
+      ],
+      "coaching_tip": "新闻先写导语（一句话说清四要素），游记先列三个见闻再写一句感受。"
+    }
+  },
+  {
+    "id": "cne_037",
+    "name": "语流中的节奏与意群",
+    "domain": "语音",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上 全册 语音：语流中的节奏与意群",
+    "type": "procedural",
+    "description": "九上 Unit 4 Computers、Unit 6 Detectives 的长句包含定语从句与宾语从句，朗读时必须按意群停顿，否则意思会走样。",
+    "mastery_criteria": [
+      "能按语法结构划分意群并在意群末停顿",
+      "能在语流中保持重音与节奏的平衡"
+    ],
+    "diagnostic_question": {
+      "question": "下列停顿位置最恰当的是（　）。",
+      "answer": "If I were you, / I would take the job."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.PH.02",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:3.PH.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能按语法结构划分意群并在意群末停顿",
+        "能在语流中保持重音与节奏的平衡"
+      ],
+      "worked_example": {
+        "problem": "判断：If I were you, / I would take the job. 这句话的停顿位置是否恰当？",
+        "steps": [
+          "If 引导的条件从句是一个意群",
+          "主句是另一个意群",
+          "所以停顿位置恰当"
+        ],
+        "answer": "恰当。"
+      },
+      "common_mistakes": [
+        "在短语内部停顿（take / the job）",
+        "每个词都停顿，失去节奏"
+      ],
+      "coaching_tip": "划线朗读：先按意群用斜线断开，读顺了再去掉斜线。"
+    }
+  },
+  {
+    "id": "cne_038",
+    "name": "主题词汇与短语（古希腊·传统技艺·电脑·侦探）",
+    "domain": "词汇",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上 全册 词汇：历史、技艺与科技",
+    "type": "conceptual",
+    "description": "九上话题跨历史与科技：ancient、civilization、traditional skill、craft、kite、computer virus、program、brain、memory、detective、kidnap 等。",
+    "mastery_criteria": [
+      "能认读并拼写本册核心词与短语",
+      "能根据上下文推断生词含义，掌握一词多义"
+    ],
+    "diagnostic_question": {
+      "question": "The detective found a ______ at the scene.",
+      "answer": "clue"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:3.VO.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并拼写本册核心词与短语",
+        "能根据上下文推断生词含义，掌握一词多义"
+      ],
+      "worked_example": {
+        "problem": "根据上下文猜测：The detective found a clue at the scene. 句中 clue 最可能的意思是？",
+        "steps": [
+          "detective 是侦探，scene 是现场",
+          "侦探在现场找到的东西",
+          "所以 clue 是“线索”"
+        ],
+        "answer": "线索。"
+      },
+      "common_mistakes": [
+        "把 ancient 与 modern 混用",
+        "只会一个词义（如 memory 只记“记忆”，不知“内存”）"
+      ],
+      "coaching_tip": "按主题建词表：历史／技艺／科技／侦探四栏，每栏配一个例句。"
+    }
+  },
+  {
+    "id": "cne_039",
+    "name": "定语从句（who / which / that）",
+    "domain": "语法",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上 全册 核心语法：定语从句",
+    "type": "procedural",
+    "description": "九上 Unit 2 Traditional skills、Unit 3 Pets 中大量出现定语从句，关系代词的选择（人用 who/that，物用 which/that）是中考高频考点。",
+    "mastery_criteria": [
+      "能根据先行词选择 who、which 或 that",
+      "能判断关系代词在从句中作主语还是宾语"
+    ],
+    "diagnostic_question": {
+      "question": "The man ______ wrote this book is a writer.",
+      "answer": "who"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.04",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能根据先行词选择 who、which 或 that",
+        "能判断关系代词在从句中作主语还是宾语"
+      ],
+      "worked_example": {
+        "problem": "合并句子：The man is a writer. He wrote this book.",
+        "steps": [
+          "两句中的 the man 与 he 指同一人",
+          "先行词是人，关系代词用 who",
+          "The man who wrote this book is a writer."
+        ],
+        "answer": "The man who wrote this book is a writer."
+      },
+      "common_mistakes": [
+        "先行词是物却用 who",
+        "从句中重复出现代词（the book which I bought it）"
+      ],
+      "coaching_tip": "两步走：先看先行词是人还是物，再看关系代词在从句中缺主语还是宾语。"
+    }
+  },
+  {
+    "id": "cne_040",
+    "name": "宾语从句的语序与时态呼应",
+    "domain": "语法",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上 全册 核心语法：宾语从句的语序与时态呼应",
+    "type": "procedural",
+    "description": "九上 Unit 6 Detectives 大量转述证词，宾语从句的陈述语序与“主句过去时→从句过去相关时态”是九年级的难点。",
+    "mastery_criteria": [
+      "能保证宾语从句使用陈述语序",
+      "能根据主句时态正确调整从句时态"
+    ],
+    "diagnostic_question": {
+      "question": "He asked me where I ______ .",
+      "answer": "lived"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能保证宾语从句使用陈述语序",
+        "能根据主句时态正确调整从句时态"
+      ],
+      "worked_example": {
+        "problem": "改错：He asked me where did I live.",
+        "steps": [
+          "宾语从句要用陈述语序",
+          "去掉助动词 did，动词用过去式",
+          "改为 He asked me where I lived."
+        ],
+        "answer": "He asked me where I lived."
+      },
+      "common_mistakes": [
+        "从句保留疑问语序",
+        "主句过去时从句仍用现在时（客观真理除外）"
+      ],
+      "coaching_tip": "写完宾语从句回读一遍：主语在动词前吗？时态跟主句一致吗？"
+    }
+  },
+  {
+    "id": "cne_041",
+    "name": "状语从句（时间·原因·结果·目的）",
+    "domain": "语法",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上 全册 核心语法：状语从句",
+    "type": "procedural",
+    "description": "九上 Unit 5 The human brain、Unit 7 Escaping from kidnappers 的叙述中because、so…that、so that、as soon as 等连接词反复出现。",
+    "mastery_criteria": [
+      "能根据逻辑关系选择 because、so…that、so that、as soon as 等连词",
+      "掌握“主将从现”在时间、条件从句中的运用"
+    ],
+    "diagnostic_question": {
+      "question": "I will call you as soon as I ______ there.",
+      "answer": "get"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.05",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能根据逻辑关系选择 because、so…that、so that、as soon as 等连词",
+        "掌握“主将从现”在时间、条件从句中的运用"
+      ],
+      "worked_example": {
+        "problem": "用括号内词的适当形式填空：I will call you as soon as I ______ (arrive).",
+        "steps": [
+          "as soon as 引导时间状语从句",
+          "主句用 will，从句用一般现在时",
+          "所以填 arrive"
+        ],
+        "answer": "arrive。"
+      },
+      "common_mistakes": [
+        "so…that 与 such…that 混用",
+        "because 与 so 在同一句中重复使用"
+      ],
+      "coaching_tip": "记搭配：because 不与 so 连用；although 不与 but 连用。"
+    }
+  },
+  {
+    "id": "cne_042",
+    "name": "表达观点与作出推断",
+    "domain": "日常表达",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上 全册 日常表达：表达观点与作出推断",
+    "type": "application",
+    "description": "九上 Unit 4 Computers、Unit 5 The human brain 需要讨论利弊与推测原因，常用 In my opinion… / I think… / It might be… / It must be… 等表达。",
+    "mastery_criteria": [
+      "能用 In my opinion、I think 等表达并支持观点",
+      "能用 must/might/can't 表示不同程度的推断"
+    ],
+    "diagnostic_question": {
+      "question": "It ______ be Lucy's bag. Her name is on it.",
+      "answer": "must"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.PU.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:3.PU.04",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能用 In my opinion、I think 等表达并支持观点",
+        "能用 must/might/can't 表示不同程度的推断"
+      ],
+      "worked_example": {
+        "problem": "— Whose bag is this? — It ______ be Lucy's. Her name is on it.",
+        "steps": [
+          "有名字作为确定证据",
+          "表示“一定”用 must",
+          "所以填 must"
+        ],
+        "answer": "must。"
+      },
+      "common_mistakes": [
+        "must 与 can't 表推断时混用",
+        "表达观点后不给理由"
+      ],
+      "coaching_tip": "推断三档记：must（一定）＞ might（可能）＞ can't（不可能）。"
+    }
+  },
+  {
+    "id": "cne_043",
+    "name": "说明文阅读与故事续写",
+    "domain": "读写",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上 全册 读写：说明文与故事续写",
+    "type": "application",
+    "description": "九上 Unit 1 Ancient Greece、Unit 5 The human brain 为说明文，Unit 7 Escaping from kidnappers 为叙事文；本知识点练习概括说明对象与续写故事结局。",
+    "mastery_criteria": [
+      "能概括说明文的对象、特征与用途",
+      "能依据前文线索续写合乎逻辑的结局"
+    ],
+    "diagnostic_question": {
+      "question": "The brain is the control centre of our body. It tells us what to do and helps us remember things. What is the main idea?",
+      "answer": "The brain is the control centre of our body."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.DS.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:3.DS.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能概括说明文的对象、特征与用途",
+        "能依据前文线索续写合乎逻辑的结局"
+      ],
+      "worked_example": {
+        "problem": "阅读：The brain is the control centre of our body. It tells us what to do and helps us remember things. 问：What is the main idea?",
+        "steps": [
+          "首句是主题句",
+          "后面两句是支撑细节",
+          "所以主旨是 The brain is the control centre of our body."
+        ],
+        "answer": "The brain is the control centre of our body."
+      },
+      "common_mistakes": [
+        "把细节当作主旨",
+        "续写时引入前文完全没有的人物"
+      ],
+      "coaching_tip": "找主旨先看首句与末句；续写只允许用前文出现过的人与线索。"
+    }
+  },
+  {
+    "id": "cne_044",
+    "name": "主题词汇与短语（环保·未来·影视）",
+    "domain": "词汇",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下 全册 词汇：环保、未来与影视",
+    "type": "conceptual",
+    "description": "九下围绕 Saving the Earth、Life in the future、films and TV：environment、pollution、recycle、energy、future、robot、director、character、plot、review 等。",
+    "mastery_criteria": [
+      "能认读并拼写本册核心词与短语",
+      "能在书面表达中选用恰当词语表达观点与情感"
+    ],
+    "diagnostic_question": {
+      "question": "We should ______ paper and bottles instead of throwing them away.",
+      "answer": "recycle"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.VO.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:3.VO.04",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并拼写本册核心词与短语",
+        "能在书面表达中选用恰当词语表达观点与情感"
+      ],
+      "worked_example": {
+        "problem": "用括号内单词的正确形式填空：We must take action to stop ______ (pollute).",
+        "steps": [
+          "stop 后接名词作宾语",
+          "pollute 的名词形式是 pollution",
+          "所以填 pollution"
+        ],
+        "answer": "pollution。"
+      },
+      "common_mistakes": [
+        "recycle 拼写错误",
+        "review（评论）与 preview（预告）混用"
+      ],
+      "coaching_tip": "把环保词按“问题—原因—措施”三栏排列，写作时直接取用。"
+    }
+  },
+  {
+    "id": "cne_045",
+    "name": "被动语态拓展（含情态动词与完成时）",
+    "domain": "语法",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下 全册 核心语法：被动语态拓展",
+    "type": "procedural",
+    "description": "九下 Unit 1 Saving the Earth、Unit 2 Life in the future 的科普与议论语篇中，出现 must be done、has been done 等被动结构。",
+    "mastery_criteria": [
+      "能构成情态动词 + be + 过去分词",
+      "能构成 have/has been + 过去分词"
+    ],
+    "diagnostic_question": {
+      "question": "The rubbish must ______ into the right bin.",
+      "answer": "be put"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能构成情态动词 + be + 过去分词",
+        "能构成 have/has been + 过去分词"
+      ],
+      "worked_example": {
+        "problem": "用括号内单词的正确形式填空：The rubbish must ______ (put) into the right bin.",
+        "steps": [
+          "must 后接动词原形",
+          "被动结构为 must be + 过去分词",
+          "所以填 be put"
+        ],
+        "answer": "be put。"
+      },
+      "common_mistakes": [
+        "写成 must put（漏掉 be）",
+        "写成 has been + 过去式"
+      ],
+      "coaching_tip": "被动公式：be + 过去分词；情态动词或完成时只改变 be 的形式。"
+    }
+  },
+  {
+    "id": "cne_046",
+    "name": "间接引语与反意疑问句",
+    "domain": "语法",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下 全册 核心语法：间接引语与反意疑问句",
+    "type": "procedural",
+    "description": "九下 Unit 5 A story by Mark Twain 涉及转述人物对话；反意疑问句则是中考交际与语法常考点。",
+    "mastery_criteria": [
+      "能把直接引语改为间接引语（人称、时态、时间状语相应变化）",
+      "能构成并回答反意疑问句"
+    ],
+    "diagnostic_question": {
+      "question": "Tom said that he ______ tired.",
+      "answer": "was"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.GR.07",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能把直接引语改为间接引语（人称、时态、时间状语相应变化）",
+        "能构成并回答反意疑问句"
+      ],
+      "worked_example": {
+        "problem": "改错：Tom said, \"I am tired.\" → Tom said that he is tired.",
+        "steps": [
+          "主句 said 是过去时",
+          "间接引语时态要后移",
+          "改为 Tom said that he was tired."
+        ],
+        "answer": "Tom said that he was tired."
+      },
+      "common_mistakes": [
+        "改间接引语时忘记改人称",
+        "反意疑问句前后都是肯定（He is a doctor, is he?）"
+      ],
+      "coaching_tip": "改间接引语查三项：人称、时态、时间地点状语。"
+    }
+  },
+  {
+    "id": "cne_047",
+    "name": "议论文阅读与影评写作",
+    "domain": "读写",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下 全册 读写：议论文与影评",
+    "type": "application",
+    "description": "九下 Unit 3 Going places、Unit 4 All about films and TV 要求对影视作品作出评价，本知识点练习识别论点与论据、撰写 80 词左右的影评。",
+    "mastery_criteria": [
+      "能找出议论文的论点与支撑论据",
+      "能写影评：简介—亮点—评价三部分"
+    ],
+    "diagnostic_question": {
+      "question": "I think students should do more sports. First, sports make us healthy. Second, they teach us teamwork. What is the writer's opinion?",
+      "answer": "Students should do more sports."
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.DS.02",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:3.DS.04",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能找出议论文的论点与支撑论据",
+        "能写影评：简介—亮点—评价三部分"
+      ],
+      "worked_example": {
+        "problem": "阅读：I think students should do more sports. First, sports make us healthy. Second, they teach us teamwork. 问：What is the writer's opinion?",
+        "steps": [
+          "首句 I think… 是论点",
+          "First、Second 后是论据",
+          "所以论点是 Students should do more sports."
+        ],
+        "answer": "Students should do more sports."
+      },
+      "common_mistakes": [
+        "把论据当作论点",
+        "影评只讲故事梗概，没有评价"
+      ],
+      "coaching_tip": "影评三段式：一句话简介、两个亮点、一句总体评价。"
+    }
+  },
+  {
+    "id": "cne_048",
+    "name": "书面表达综合训练（书信·观点·图表）",
+    "domain": "读写",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下 全册 读写：中考书面表达",
+    "type": "application",
+    "description": "九下进入中考复习阶段，书面表达常见三类：书信/通知类应用文、观点表达类议论文、图表信息类说明文，均要求 80 词左右、结构完整、语言准确。",
+    "mastery_criteria": [
+      "能按题目要求选择文体并列出三段提纲",
+      "能使用连接词使文章连贯，并检查时态与人称一致"
+    ],
+    "diagnostic_question": {
+      "question": "给外国朋友写信介绍春节，正文中最应该出现的内容是（　）。",
+      "answer": "节日的时间与主要活动"
+    },
+    "external": false,
+    "subject": "english",
+    "standards": [
+      {
+        "id": "ces-2022:3.DS.03",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:3.DS.04",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能按题目要求选择文体并列出三段提纲",
+        "能使用连接词使文章连贯，并检查时态与人称一致"
+      ],
+      "worked_example": {
+        "problem": "写作：题目要求“给外国朋友写一封信介绍中国的春节”。第一步应做什么？",
+        "steps": [
+          "先判断文体是书信",
+          "书信有称呼、正文、结尾",
+          "所以先确定文体与格式，再列提纲"
+        ],
+        "answer": "先确定文体与格式（书信：Dear…／Yours,…），再列提纲。"
+      },
+      "common_mistakes": [
+        "漏写书信的称呼或落款",
+        "全篇只用简单句，没有连接词"
+      ],
+      "coaching_tip": "写作四步：审题（文体+人称+时态）→列提纲→写正文→检查（拼写、时态、连接词）。"
+    }
   }
 ]

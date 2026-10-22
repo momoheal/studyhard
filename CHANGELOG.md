@@ -1,5 +1,33 @@
 # Changelog
 
+## 2026-10-22 — 新增学科：沪教版英语 3-9 年级（63 个知识点）
+
+在数学（1-9 年级）图谱之外，按同一套数据格式新建**沪教版英语**知识图，覆盖三至九年级 14 册，沿用 `topics + dependencies + standards + questions + diagnose` 结构，英语与数学**各自成图、互不连边**。
+
+### 新增
+
+- **知识点** 63 个（`cne_001`–`cne_063`，`subject: "english"`）：三年级上 2 / 下 3、四年级上 2 / 下 3、五年级上 2 / 下 3、六年级上 6 / 下 6、七年级上 6 / 下 6、八年级上 7 / 下 5、九年级上 7 / 下 5。领域为 **语音 10、词汇 13、语法 23、日常表达 7、读写 10**。
+- **先修边** 61 条（hard 60 / soft 1）：英语内部连边，起点为三年级「26 个字母与常见字母组合」，终点为九年级「中考书面表达」；六年级按五四学制预备班处理，作为初级英语的第二个入口。
+- **课标条目** 55 条（`data/cn-english-curriculum-standards.json`）：一级（3-4 年级）12、二级（5-6 年级）19、三级（7-9 年级）24；按语言知识领域分为 语音 8、词汇 10、语法 19、语篇 9、语用 9；编号 `ces-2022:<学段>.<PH|VO|GR|DS|PU>.<NN>`，为本项目自编编号。55 条全部被引用，63 个知识点 100% 映射（104 条，均 exact）。
+- **题库** 252 题（每点 4 题：choice 126、short 126；basic 126、standard 63、advanced 63）。**只出笔试题**（选择、拼写、填空、词形变化、短文理解），**不出听力与口语**；短答题普遍带 `accept` 等价写法。
+- **构建脚本**：`_builder/estandards.py`（课标条目）、`_builder/ecommon.py`（构造器，自动派生诊断题）、`_builder/econtent/e3.py`–`e9.py`（14 册内容与题库）、`_builder/build_english.py`（可重复运行，只替换 `subject == "english"` 的数据，不动数学）。
+- **文档**：新增 `docs/english-chapters.md`（各册单元 + 知识点清单）；README 新增英语教材/课标章节与统计；`docs/standards-mapping.md` 增加英语课标对齐一节；`docs/questions.md` 更新题库统计与英语题型说明。
+
+### 变更
+
+- `scripts/validate.py`：`subject` 分流校验（数学 `cnm_*` + 四个数学领域 + 年级 1–9；英语 `cne_*` + 五个英语领域 + 年级 3–9）；课标 id 同时接受 `cms-2022:`（数学）与 `ces-2022:`（英语），英语条目校验 `stage`/`theme`/领域编号连续性；加载并合并第三个课标文件；题 id 前缀接受 `cne_`；「可自动判分」口径改为除 `self` 外全部可判分（numeric + choice + short）。
+- `index.html`：新增**数学 / 英语**学科切换，领域与年级下拉按学科动态生成；标题改为「沪教版中小学知识图谱（数学 1-9 年级 · 英语 3-9 年级）」。
+- `diagnose/`：开始页新增学科切换，知识点列表按学科过滤；`?target=cne_*` 自动切到英语；`engine.js` 的 `parseChapter` 支持英语「册 + 全册 + 领域：话题」的章节写法，`chapter` 参数仍可用。
+- `diagnose/index.html`：标题与说明同步两科。
+
+### 版本说明（关于“2024 版课标”）
+
+沪教版《英语》依据**《义务教育英语课程标准（2022 年版）》**修订，**2024 年**经国家教材委员会专家委员会审核通过。教育部现行英语课标是 2022 年版，**不存在“2024 年版英语课标”**。数据中因此分开标注：`source.year = 2022`（课标）、`source.textbook_year = 2024`（教材审定）。
+
+### 校验
+
+`python3 _builder/build_english.py` → 63 知识点 / 61 边 / 252 题；`python3 scripts/validate.py` → `VALIDATION PASSED`（396 个节点、421 条边、173 条课标、1536 题）；`python3 scripts/verify_questions.py` → `VERIFICATION PASSED`（auto_verified 917，mismatch 0）；`node tests/test_engine.js` → 68 passed, 0 failed。
+
 ## 2026-10-22 — 扩展到初中：六至九年级（沪教版五四学制，28 章）
 
 在小学（1-5 年级）图谱的基础上，按同一套数据格式补齐**沪教版初中数学 8 册 28 章**，形成 1-9 年级贯通的先修图。

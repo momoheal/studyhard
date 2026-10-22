@@ -1,6 +1,8 @@
 # 题库说明（data/questions.json）
 
-每个正式知识点（321 个：小学 157、初中 164）配套 4 题，共 1284 题，供诊断工具“每点最多 2 题”出题策略使用。题目由 AI 基于课本生成，**未经教师审核**，正确性主要靠机器核验。
+每个正式知识点（384 个：数学小学 157、数学初中 164、英语 3-9 年级 63）配套 4 题，共 1536 题，供诊断工具“每点最多 2 题”出题策略使用。题目由 AI 基于课本生成，**未经教师审核**，正确性主要靠机器核验。
+
+> 英语题只出**笔试题**（选择、拼写、填空、词形变化），**不出听力与口语题**；选择题 2 个（含 1 道 basic）、短答题 2 个，短答题普遍带 `accept` 等价答案列表。
 
 ## 1. 格式
 
@@ -20,13 +22,15 @@
 
 ## 2. 统计
 
-- 总数 **1284 题**，覆盖 321 个正式点，每点 4 题。
-  - 小学 628 题（numeric 425，choice 197，short 6；basic 314，standard 157，advanced 157）。
-  - 初中 656 题（numeric 492，choice 164；basic 328，standard 164，advanced 164）。初中的 basic/standard/advanced 比例为 2:1:1，每点至少两道 basic。
-- 按 type：numeric 917，choice 361，short 6；numeric+choice 占 99.5%（≥60% 达标）。
-- 按 difficulty：basic 478，standard 485，advanced 321；每点含 basic 与 standard。
+- 总数 **1536 题**，覆盖 384 个正式点，每点 4 题。
+  - 数学小学 628 题（numeric 425，choice 197，short 6；basic 314，standard 157，advanced 157）。
+  - 数学初中 656 题（numeric 492，choice 164；basic 328，standard 164，advanced 164）。初中的 basic/standard/advanced 比例为 2:1:1，每点至少两道 basic。
+  - 英语 252 题（`cne_*`：choice 126、short 126；basic 126、standard 63、advanced 63）。英语题全部为人工可读的英文题干，不依赖配图与音频。
+- 按 type：numeric 917，choice 487，short 132；可自动判分（numeric + choice + short）占 100%。
+- 按 difficulty：basic 768，standard 384，advanced 384；每点含 basic 与 standard。
 - choice 正确选项分布大致均匀。
 - 初中的 `verify` 表达式覆盖全部数值题（492 题），用到 `sqrt`、`sin/cos/tan`（弧度制）、`round`、`Fraction`、列表推导式等受限名字，机器核验 mismatch 0。
+- 英语题不带 `verify`（语言题无法用表达式核验），与数学的文字类选择题一样计入 `unverifiable`，依赖 `accept` 列表与人工审读。
 
 ## 3. 核验方法
 
@@ -41,15 +45,15 @@ numeric 与 choice 题可带 `verify` 表达式，脚本在受限环境（AST �
 
 | 项 | 数量 |
 |---|---|
-| auto_verified | 425 |
+| auto_verified | 917 |
 | mismatch | 0 |
-| unverifiable | 203（choice 197 + short 6） |
+| unverifiable | 619（choice 487 + short 132） |
 
 `mismatch 0` 表示有 `verify` 的题目均通过；`unverifiable` 为无 `verify` 的题目（主要为干扰项为文字的选择题与带单位/时间的 short 题），依赖人工审核或后续第二遍独立复核。
 
 ### 3.2 格式校验（`python3 scripts/validate.py`）
 
-检查题 id 唯一、topicId 存在且非外部、`difficulty/type` 合法、choice 选项格式、`numeric` 答案可解析、每点 ≥3 题且含 basic+standard、`q1` 与诊断题一致等。
+检查题 id 唯一、topicId 存在且非外部、`difficulty/type` 合法、choice 选项格式、`numeric` 答案可解析、每点 ≥3 题且含 basic+standard、`q1` 与诊断题一致等；题 id 前缀同时接受 `cnm_`（数学）与 `cne_`（英语）。
 
 ## 4. 局限
 
@@ -58,3 +62,4 @@ numeric 与 choice 题可带 `verify` 表达式，脚本在受限环境（AST �
 - **无配图题**：几何题用文字描述数量关系，无作图与证明题。
 - **verify 同源风险**：`verify` 与答案同为 AI 生成，若算法同错则无法暴露；已通过统计与多样化题型尽量降低。
 - **short 题**：带单位（“10角”）、时间（“9:05”）、角度（“90°”）等答案为 short 类型，判题时需人工或诊断工具的文本规范化逻辑辅助，不在自动核验范围内。
+- **英语题**：判题按大小写、空格、标点规范化后精确匹配，`accept` 覆盖同义写法（如 `I’m` / `I am`、`doesn't` / `does not`）；开放式表达题（如“写一句介绍公园位置的话”）只做宽松匹配，**不能代替教师批改**。

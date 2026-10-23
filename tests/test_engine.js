@@ -814,6 +814,37 @@ test('真实数据：章节名可解析', () => {
   });
 });
 
+test('真实数据：数学贯通 1-12 年级，英语贯通 1-12 年级（起点为一年级）', () => {
+  const math = formal.filter((t) => (t.subject || 'math') === 'math');
+  const eng = formal.filter((t) => t.subject === 'english');
+  const mg = new Set(math.map((t) => t.grade));
+  const eg = new Set(eng.map((t) => t.grade));
+  [1, 6, 9, 10, 12].forEach((g) => assert.ok(mg.has(g), '数学缺 ' + g + ' 年级'));
+  [1, 2, 3, 9, 10, 12].forEach((g) => assert.ok(eg.has(g), '英语缺 ' + g + ' 年级'));
+  // 高中数学按教材册名分卷，且先修链能跨学段回溯到小学
+  const hsBooks = ['必修第一册', '必修第二册', '必修第三册', '选择性必修第一册', '选择性必修第二册', '选择性必修第三册'];
+  hsBooks.forEach((b) => {
+    const ts = math.filter((t) => t.grade >= 10 && E.parseChapter(t.chapter).volume === b);
+    assert.ok(ts.length > 0, '缺高中数学册次 ' + b);
+    ts.forEach((t) => assert.ok(t.chapter.indexOf(b + ' 第') === 0, t.chapter));
+  });
+  const high = math.filter((t) => t.grade >= 10);
+  const cross = high.some((t) => {
+    const seen = new Set();
+    const stack = (RG.prereqs[t.id] || []).map((x) => x.id);
+    while (stack.length) {
+      const id = stack.pop();
+      if (seen.has(id)) continue;
+      seen.add(id);
+      const p = RG.byId[id];
+      if (p && p.grade <= 9) return true;
+      (RG.prereqs[id] || []).forEach((x) => stack.push(x.id));
+    }
+    return false;
+  });
+  assert.ok(cross, '高中数学没有一条先修链通回义务教育段');
+});
+
 /* ------------------------------------------------------------ 题库数据（data/questions.json） */
 console.log('题库数据');
 
@@ -867,7 +898,9 @@ test('判题：exact 的填空题对不上即判错，普通 short 题留给自�
 
 test('册末卷：每册 1 套、每套 10 题，只与册首与册末 Unit 以 soft 边相连', () => {
   const papers = topics.filter((t) => t.level === 'paper');
-  assert.strictEqual(papers.length, 21);
+  // 每册有 Unit 的册次都应恰好有一套册末卷（2024 版一、二年级为后补，共 25 册）
+  const volumes = [...new Set(topics.filter((t) => t.level === 'unit').map((t) => t.chapter.split(' ')[0]))];
+  assert.strictEqual(papers.length, volumes.length);
   const byVol = {};
   papers.forEach((p) => {
     const vol = p.chapter.split(' ')[0];

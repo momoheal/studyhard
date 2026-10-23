@@ -13,7 +13,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TOPICS = os.path.join(ROOT, "data", "topics.json")
 OUT = os.path.join(ROOT, "docs", "english-chapters.md")
 
-BOOK_ORDER = ["三年级上", "三年级下", "四年级上", "四年级下", "五年级上", "五年级下",
+BOOK_ORDER = ["一年级上", "一年级下", "二年级上", "二年级下",
+              "三年级上", "三年级下", "四年级上", "四年级下", "五年级上", "五年级下",
               "六年级上", "六年级下", "七年级上", "七年级下", "八年级上", "八年级下",
               "九年级上", "九年级下", "必修第一册", "必修第二册", "必修第三册",
               "选择性必修第一册", "选择性必修第二册", "选择性必修第三册", "选择性必修第四册"]
@@ -36,17 +37,17 @@ def main():
 
     lines = []
     add = lines.append
-    add("# 英语（三至十二年级，含高中）册次、Unit 与册末卷知识点清单")
+    add("# 英语（一至十二年级，含高中）册次、Unit 与册末卷知识点清单")
     add("")
     add("> 由 `python3 scripts/gen_english_doc.py` 从 `data/topics.json` 自动生成；"
         "共 **%d 个知识点**（%d 个教材 Unit + %d 套册末卷）。" % (len(eng), len(units), len(papers)))
-    add("> 教材：沪教版《英语》（上海教育出版社；义教段三年级起点，高中 2020 年经教育部审核通过）。"
+    add("> 教材：沪教版《英语》（上海教育出版社；义教段**一年级起点**，高中 2020 年经教育部审核通过）。"
         "义教段依据《义务教育英语课程标准（2022 年版）》，高中依据《普通高中英语课程标准（2017 年版 2020 年修订）》。")
     add("> 单元名称按公开电子课本与教辅目录整理，未逐页核对课本，教师使用前请以课本为准。")
     add("")
     add("所有英语知识点 id 以 `cne_` 开头，`subject: \"english\"`；Unit 级 `level: \"unit\"`、"
-        "`chapter` 形如「三年级上 Unit 1 Hello!」；册末卷 `level: \"paper\"`、"
-        "`chapter` 形如「三年级上 册末卷 期末模拟」。领域取 **语音 / 词汇 / 语法 / 日常表达 / 读写** 之一；"
+        "`chapter` 形如「一年级上 Unit 1 Hello!」；册末卷 `level: \"paper\"`、"
+        "`chapter` 形如「一年级上 册末卷 期末模拟」。领域取 **语音 / 词汇 / 语法 / 日常表达 / 读写** 之一；"
         "与数学图不连边。")
     add("")
     add("先修边规则：同册「上一 Unit → 本 Unit」为 hard；「上一册末 Unit → 本册首 Unit」为 hard；"

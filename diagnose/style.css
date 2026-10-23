@@ -122,3 +122,24 @@ textarea.ans-input { font: inherit; font-size: 15px; padding: 8px 10px; border: 
 .stat.shaky { background: #fef3c7; }
 svg.graph .n.shaky rect.body { fill: #fef3c7; stroke: #d97706; }
 .legend i.s { background: #fef3c7; border-color: #d97706; }
+
+/* 上海味儿幽默 */
+.sh-humor { 
+  font-style: italic; 
+  color: #b45309; 
+  background: #fefce8; 
+  border: 1px dashed #fde68a; 
+  border-radius: 8px; 
+  padding: 10px 14px; 
+  margin: 10px 0; 
+  font-size: 14px;
+  line-height: 1.7;
+}
+.sh-humor::before { content: "📣 "; }
+.banner.sh-humor { 
+  background: #fdf4ed; 
+  border-color: #fdba74; 
+  font-size: 15px; 
+  font-weight: 500;
+}
+.banner.sh-humor::before { content: "🎤 "; }

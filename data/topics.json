@@ -15299,6 +15299,6238 @@
     }
   },
   {
+    "id": "cnm_322",
+    "name": "集合的概念与表示",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第1章 集合与逻辑 1.1 集合初步",
+    "type": "conceptual",
+    "description": "理解集合与元素的含义，知道集合元素的确定性、互异性与无序性，会用列举法和描述法表示集合，认识常用数集 N、N*、Z、Q、R。",
+    "mastery_criteria": [
+      "能判断一组对象能否构成集合，并说出理由",
+      "会用列举法与描述法表示给定集合",
+      "能判断元素与集合的属于关系，知道常用数集的记号"
+    ],
+    "diagnostic_question": {
+      "question": "下列各组对象中，能构成集合的是（　）。",
+      "answer": "方程 x²＝1 的实数根"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能判断一组对象能否构成集合，并说出理由",
+        "会用列举法与描述法表示给定集合",
+        "能判断元素与集合的属于关系，知道常用数集的记号"
+      ],
+      "worked_example": {
+        "problem": "用列举法表示“大于 1 且小于 6 的整数”组成的集合。",
+        "steps": [
+          "大于 1 且小于 6 的整数有 2、3、4、5",
+          "把它们一一列举在花括号内",
+          "所以集合为 {2,3,4,5}"
+        ],
+        "answer": "{2,3,4,5}"
+      },
+      "common_mistakes": [
+        "把 {1,1,2} 当成含三个元素的集合（违反互异性）",
+        "混淆“∈”（元素属于集合）与“⊆”（集合包含于集合）"
+      ],
+      "coaching_tip": "判断能否构成集合，只问一句话：对象是否确定。说不清“到底算不算”的，就不是集合。"
+    }
+  },
+  {
+    "id": "cnm_323",
+    "name": "集合之间的关系与运算",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第1章 集合与逻辑 1.1 集合初步",
+    "type": "conceptual",
+    "description": "理解子集、真子集与集合相等的含义，会求两个集合的交集、并集与补集，能用韦恩图表示集合关系。",
+    "mastery_criteria": [
+      "能判断两个集合的包含关系，会写子集",
+      "会求有限集合的子集个数",
+      "会用区间表示数集并求交、并、补"
+    ],
+    "diagnostic_question": {
+      "question": "若 A⊆B，则 A∩B 等于（　）。",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能判断两个集合的包含关系，会写子集",
+        "会求有限集合的子集个数",
+        "会用区间表示数集并求交、并、补"
+      ],
+      "worked_example": {
+        "problem": "设 A＝{1,2,3}，B＝{2,3,4}，求 A∩B 与 A∪B。",
+        "steps": [
+          "公共元素是 2、3，所以 A∩B＝{2,3}",
+          "两个集合的全部元素是 1、2、3、4",
+          "所以 A∪B＝{1,2,3,4}"
+        ],
+        "answer": "A∩B＝{2,3}；A∪B＝{1,2,3,4}"
+      },
+      "common_mistakes": [
+        "求并集时把重复元素写两遍",
+        "忘记空集是任何集合的子集"
+      ],
+      "coaching_tip": "交集找“公共的”，并集找“全部的”；数集运算先画数轴，端点是否取到要逐个核对。"
+    }
+  },
+  {
+    "id": "cnm_324",
+    "name": "命题与量词",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第1章 集合与逻辑 1.2 常用逻辑用语",
+    "type": "conceptual",
+    "description": "理解命题的概念，能判断简单命题的真假；理解全称量词与存在量词，能写出含一个量词的命题的否定。",
+    "mastery_criteria": [
+      "能判断语句是否为命题，并判断真假",
+      "能识别全称命题与存在命题",
+      "能正确写出含有一个量词的命题的否定"
+    ],
+    "diagnostic_question": {
+      "question": "下列语句中是命题的是（　）。",
+      "answer": "3 是素数"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能判断语句是否为命题，并判断真假",
+        "能识别全称命题与存在命题",
+        "能正确写出含有一个量词的命题的否定"
+      ],
+      "worked_example": {
+        "problem": "写出命题“所有偶数都是合数”的否定。",
+        "steps": [
+          "原命题是全称命题：∀偶数 x，x 是合数",
+          "全称命题的否定是存在命题",
+          "所以否定为：存在一个偶数不是合数（2 就是反例）"
+        ],
+        "answer": "存在一个偶数不是合数。"
+      },
+      "common_mistakes": [
+        "否定全称命题时只否定结论，忘记把“所有”改成“存在”",
+        "把“x＞1”这类含变量的开语句当成命题"
+      ],
+      "coaching_tip": "否定口诀：改量词、否结论——“所有”变“存在”，“是”变“不是”。"
+    }
+  },
+  {
+    "id": "cnm_325",
+    "name": "充分条件与必要条件",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第1章 集合与逻辑 1.2 常用逻辑用语",
+    "type": "reasoning",
+    "description": "理解“若 p 则 q”的命题结构，掌握充分条件、必要条件与充要条件的判断方法，能借助集合的包含关系分析条件。",
+    "mastery_criteria": [
+      "能判断 p 是 q 的充分条件、必要条件还是充要条件",
+      "能把条件关系转化为集合的包含关系",
+      "能根据条件关系求参数的取值范围"
+    ],
+    "diagnostic_question": {
+      "question": "“x＞0”是“x²＞0”的（　）。",
+      "answer": "充分不必要条件"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.04",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能判断 p 是 q 的充分条件、必要条件还是充要条件",
+        "能把条件关系转化为集合的包含关系",
+        "能根据条件关系求参数的取值范围"
+      ],
+      "worked_example": {
+        "problem": "判断“x＞0”是“x²＞0”的什么条件。",
+        "steps": [
+          "x＞0 ⇒ x²＞0，所以是充分条件",
+          "x²＞0 也可能 x＜0，不能推出 x＞0，所以不是必要条件",
+          "因此是充分不必要条件"
+        ],
+        "answer": "充分不必要条件"
+      },
+      "common_mistakes": [
+        "把“p 是 q 的充分条件”误记成“q ⇒ p”",
+        "忽略 x＝0 等特殊值，导致判断错误"
+      ],
+      "coaching_tip": "小范围推出大范围：p 对应的集合越小，p 越是充分的；拿不准就举反例。"
+    }
+  },
+  {
+    "id": "cnm_326",
+    "name": "反证法",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第1章 集合与逻辑 1.2 常用逻辑用语",
+    "type": "reasoning",
+    "description": "理解反证法的基本思路：假设结论不成立，推出矛盾，从而肯定结论；能用反证法证明简单的代数与几何命题。",
+    "mastery_criteria": [
+      "能正确写出待证结论的否定",
+      "能由假设出发推出与已知、公理或定义矛盾",
+      "能规范书写“假设—推出矛盾—结论成立”的过程"
+    ],
+    "diagnostic_question": {
+      "question": "用反证法证明命题时，第一步通常是（　）。",
+      "answer": "假设结论不成立"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.04",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能正确写出待证结论的否定",
+        "能由假设出发推出与已知、公理或定义矛盾",
+        "能规范书写“假设—推出矛盾—结论成立”的过程"
+      ],
+      "worked_example": {
+        "problem": "用反证法证明：若 a＋b＞2，则 a、b 中至少有一个大于 1。",
+        "steps": [
+          "假设结论不成立，即 a≤1 且 b≤1",
+          "两式相加得 a＋b≤2",
+          "这与已知 a＋b＞2 矛盾",
+          "所以假设不成立，a、b 中至少有一个大于 1"
+        ],
+        "answer": "证明见步骤。"
+      },
+      "common_mistakes": [
+        "反设时把“至少有一个”否定成“一个也没有”却漏掉“至多”的情形",
+        "只否定结论的一部分，导致假设不完整"
+      ],
+      "coaching_tip": "反证法的关键是“否定要彻底”：“至少一个”的反面是“一个也没有”，“至多一个”的反面是“至少两个”。"
+    }
+  },
+  {
+    "id": "cnm_327",
+    "name": "不等式的基本性质",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第2章 等式与不等式 2.1 等式与不等式的性质",
+    "type": "conceptual",
+    "description": "梳理等式与不等式的基本性质，理解不等式两边同乘（除以）一个数时不等号方向的变化，能用作差法比较两个代数式的大小。",
+    "mastery_criteria": [
+      "能正确运用不等式的传递性、可加性与可乘性",
+      "知道不等式两边同乘负数要改变不等号方向",
+      "会用作差法比较两个实数或代数式的大小"
+    ],
+    "diagnostic_question": {
+      "question": "若 a＞b，则下列不等式一定成立的是（　）。",
+      "answer": "a－3＞b－3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.05",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能正确运用不等式的传递性、可加性与可乘性",
+        "知道不等式两边同乘负数要改变不等号方向",
+        "会用作差法比较两个实数或代数式的大小"
+      ],
+      "worked_example": {
+        "problem": "若 a＞b，比较 a－3 与 b－3 的大小。",
+        "steps": [
+          "不等式两边同时减去 3",
+          "由性质得 a－3＞b－3"
+        ],
+        "answer": "a－3＞b－3。"
+      },
+      "common_mistakes": [
+        "两边同乘负数时忘记改变不等号方向",
+        "把 a＞b 直接平方，忽略符号"
+      ],
+      "coaching_tip": "作差比较的通用套路：作差 → 变形（因式分解或配方）→ 判断符号 → 下结论。"
+    }
+  },
+  {
+    "id": "cnm_328",
+    "name": "一元二次不等式",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第2章 等式与不等式 2.2 不等式的求解",
+    "type": "procedural",
+    "description": "能借助二次函数的图像求解一元二次不等式，理解“大于取两边、小于取中间”的规律，并能用集合表示解集。",
+    "mastery_criteria": [
+      "会把一元二次不等式化为标准形式并求相应方程的根",
+      "能结合开口方向写出解集",
+      "能处理判别式小于等于 0 的情形"
+    ],
+    "diagnostic_question": {
+      "question": "不等式 x²－3x＋2＜0 的解集中整数有多少个？",
+      "answer": "0"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.06",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会把一元二次不等式化为标准形式并求相应方程的根",
+        "能结合开口方向写出解集",
+        "能处理判别式小于等于 0 的情形"
+      ],
+      "worked_example": {
+        "problem": "解不等式 x²－3x＋2＜0。",
+        "steps": [
+          "方程 x²－3x＋2＝0 的根为 1 和 2",
+          "二次项系数为正，图像开口向上，小于 0 取两根之间",
+          "所以解集为 {x | 1＜x＜2}"
+        ],
+        "answer": "{x | 1＜x＜2}"
+      },
+      "common_mistakes": [
+        "忘记先化为一边为 0 的标准形式",
+        "开口方向判断错误导致解集取反"
+      ],
+      "coaching_tip": "先求根、再画草图、最后写解集；含参数时对判别式与开口方向分类讨论。"
+    }
+  },
+  {
+    "id": "cnm_329",
+    "name": "含绝对值的不等式",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第2章 等式与不等式 2.2 不等式的求解",
+    "type": "procedural",
+    "description": "理解绝对值的几何意义，掌握 |x|＜a 与 |x|＞a 型不等式的解法，会解简单的含两个绝对值的不等式。",
+    "mastery_criteria": [
+      "能熟练求解 |ax＋b|＜c 与 |ax＋b|＞c 型不等式",
+      "能利用数轴或几何意义处理含两个绝对值的问题",
+      "会用集合或区间表示解集"
+    ],
+    "diagnostic_question": {
+      "question": "不等式 |x|＜3 的解集是（　）。",
+      "answer": "(-3,3)"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.06",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能熟练求解 |ax＋b|＜c 与 |ax＋b|＞c 型不等式",
+        "能利用数轴或几何意义处理含两个绝对值的问题",
+        "会用集合或区间表示解集"
+      ],
+      "worked_example": {
+        "problem": "解不等式 |2x－1|＞3。",
+        "steps": [
+          "原不等式等价于 2x－1＞3 或 2x－1＜-3",
+          "解得 x＞2 或 x＜-1",
+          "所以解集为 {x | x＜-1 或 x＞2}"
+        ],
+        "answer": "{x | x＜-1 或 x＞2}"
+      },
+      "common_mistakes": [
+        "把 |2x－1|＞3 只解成 2x－1＞3，漏掉小于 -3 的情况",
+        "去绝对值时忘记讨论符号"
+      ],
+      "coaching_tip": "口诀：小于号取中间，大于号取两边；|x－a| 表示数轴上点到 a 的距离。"
+    }
+  },
+  {
+    "id": "cnm_330",
+    "name": "基本不等式与三角不等式",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第2章 等式与不等式 2.3 基本不等式及其应用",
+    "type": "procedural",
+    "description": "理解基本不等式（平均值不等式）及其等号成立的条件，会用基本不等式求简单的最值；了解三角不等式及其几何意义。",
+    "mastery_criteria": [
+      "能写出基本不等式并说明等号成立条件",
+      "会用“积定和最小、和定积最大”求最值",
+      "了解三角不等式并能用它估计绝对值表达式的最值"
+    ],
+    "diagnostic_question": {
+      "question": "若 a＞0，则 a＋4/a 的最小值是多少？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.07",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能写出基本不等式并说明等号成立条件",
+        "会用“积定和最小、和定积最大”求最值",
+        "了解三角不等式并能用它估计绝对值表达式的最值"
+      ],
+      "worked_example": {
+        "problem": "若 a＞0，求 a＋4/a 的最小值。",
+        "steps": [
+          "由基本不等式，a＋4/a≥2√(a·4/a)＝4",
+          "当且仅当 a＝4/a，即 a＝2 时取等号",
+          "所以最小值为 4"
+        ],
+        "answer": "4"
+      },
+      "common_mistakes": [
+        "使用基本不等式前不验证“一正二定三相等”",
+        "把等号成立条件算错，导致最值取不到"
+      ],
+      "coaching_tip": "用基本不等式求最值必须三查：各项为正、和或积为定值、等号能取到。"
+    }
+  },
+  {
+    "id": "cnm_331",
+    "name": "实数指数幂",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第3章 幂、指数与对数 3.1 幂与指数",
+    "type": "procedural",
+    "description": "理解 n 次方根与分数指数幂的意义，掌握实数指数幂的运算性质，能进行简单的指数运算与化简。",
+    "mastery_criteria": [
+      "会把根式化为分数指数幂",
+      "能运用 a^m·a^n＝a^(m+n)、(a^m)^n＝a^(mn) 等性质化简",
+      "会处理负指数幂与零指数幂"
+    ],
+    "diagnostic_question": {
+      "question": "计算 8^(2/3) 的值。",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.08",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会把根式化为分数指数幂",
+        "能运用 a^m·a^n＝a^(m+n)、(a^m)^n＝a^(mn) 等性质化简",
+        "会处理负指数幂与零指数幂"
+      ],
+      "worked_example": {
+        "problem": "计算 8^(2/3)。",
+        "steps": [
+          "8^(2/3)＝(2³)^(2/3)",
+          "由幂的乘方得 2^(3×2/3)＝2²",
+          "所以结果为 4"
+        ],
+        "answer": "4"
+      },
+      "common_mistakes": [
+        "把 8^(2/3) 算成 (8²)/3",
+        "负指数幂与倒数混淆：2^(-2) 写成 -4"
+      ],
+      "coaching_tip": "分数指数幂口诀：分母开方、分子乘方；负指数先取倒数。"
+    }
+  },
+  {
+    "id": "cnm_332",
+    "name": "对数与对数运算",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第3章 幂、指数与对数 3.2 对数",
+    "type": "procedural",
+    "description": "理解对数的概念及其与指数的互化关系，掌握对数的运算性质（积、商、幂的对数），能进行简单的对数计算。",
+    "mastery_criteria": [
+      "能进行指数式与对数式的互化",
+      "掌握 log_a(MN)、log_a(M/N)、log_a M^n 的运算性质",
+      "会求简单对数值并处理 lg、ln 记号"
+    ],
+    "diagnostic_question": {
+      "question": "计算 log₂8 的值。",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.08",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能进行指数式与对数式的互化",
+        "掌握 log_a(MN)、log_a(M/N)、log_a M^n 的运算性质",
+        "会求简单对数值并处理 lg、ln 记号"
+      ],
+      "worked_example": {
+        "problem": "计算 log₂8。",
+        "steps": [
+          "设 log₂8＝x，则 2^x＝8",
+          "因为 2³＝8",
+          "所以 log₂8＝3"
+        ],
+        "answer": "3"
+      },
+      "common_mistakes": [
+        "把 log₂8 与 8÷2 混淆",
+        "忽略真数必须大于 0 的限制"
+      ],
+      "coaching_tip": "对数就是“问指数”：log_a N 表示 a 的多少次方等于 N；先化为指数式再算。"
+    }
+  },
+  {
+    "id": "cnm_333",
+    "name": "换底公式",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第3章 幂、指数与对数 3.2 对数",
+    "type": "procedural",
+    "description": "掌握换底公式 log_a b＝log_c b / log_c a，能用它把不同底的对数化为同底，解决化简与比较大小问题。",
+    "mastery_criteria": [
+      "能熟练写出换底公式并说明条件",
+      "会用换底公式计算非标准底的对数",
+      "会用换底公式处理对数乘积、比较大小"
+    ],
+    "diagnostic_question": {
+      "question": "计算 log₄8 的值。",
+      "answer": "3/2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.08",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能熟练写出换底公式并说明条件",
+        "会用换底公式计算非标准底的对数",
+        "会用换底公式处理对数乘积、比较大小"
+      ],
+      "worked_example": {
+        "problem": "计算 log₄8。",
+        "steps": [
+          "由换底公式，log₄8＝log₂8 / log₂4",
+          "＝3/2"
+        ],
+        "answer": "3/2"
+      },
+      "common_mistakes": [
+        "换底时分子分母颠倒",
+        "忽略底数大于 0 且不等于 1 的条件"
+      ],
+      "coaching_tip": "换底公式的记忆：新底在下面，真数在上面；常用底取 2、10 或 e。"
+    }
+  },
+  {
+    "id": "cnm_334",
+    "name": "幂函数的图像与性质",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第4章 幂函数、指数函数与对数函数 4.1 幂函数",
+    "type": "conceptual",
+    "description": "了解幂函数 y＝x^α 的概念，掌握常见幂函数（α＝1,2,3,1/2,-1）的图像与性质，能比较幂值的大小。",
+    "mastery_criteria": [
+      "能画出常见幂函数的图像并说出定义域、值域、奇偶性、单调性",
+      "会根据条件求幂函数的解析式",
+      "能利用单调性比较幂值的大小"
+    ],
+    "diagnostic_question": {
+      "question": "下列函数中，在 (0,+∞) 上单调递减的是（　）。",
+      "answer": "y＝x^(-1)"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.11",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能画出常见幂函数的图像并说出定义域、值域、奇偶性、单调性",
+        "会根据条件求幂函数的解析式",
+        "能利用单调性比较幂值的大小"
+      ],
+      "worked_example": {
+        "problem": "已知幂函数 y＝x^α 的图像过点 (4,2)，求 α。",
+        "steps": [
+          "把点代入：4^α＝2",
+          "即 2^(2α)＝2¹",
+          "所以 2α＝1，α＝1/2"
+        ],
+        "answer": "α＝1/2"
+      },
+      "common_mistakes": [
+        "把 y＝2x 之类的函数误认为幂函数",
+        "忽略幂函数在第一象限的公共点 (1,1)"
+      ],
+      "coaching_tip": "幂函数只看“底是变量、指数是常数”；α＞0 时在 (0,+∞) 递增，α＜0 时递减。"
+    }
+  },
+  {
+    "id": "cnm_335",
+    "name": "指数函数的图像与性质",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第4章 幂函数、指数函数与对数函数 4.2 指数函数",
+    "type": "conceptual",
+    "description": "理解指数函数 y＝a^x（a＞0 且 a≠1）的概念，掌握其定义域、值域、定点与单调性，能解决简单的指数方程与比较大小问题。",
+    "mastery_criteria": [
+      "能根据底数 a 与 1 的大小关系说出单调性",
+      "知道图像恒过点 (0,1)，值域为 (0,+∞)",
+      "会解简单的指数方程并比较指数式的大小"
+    ],
+    "diagnostic_question": {
+      "question": "函数 y＝2^x 在 R 上（　）。",
+      "answer": "单调递增"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.11",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能根据底数 a 与 1 的大小关系说出单调性",
+        "知道图像恒过点 (0,1)，值域为 (0,+∞)",
+        "会解简单的指数方程并比较指数式的大小"
+      ],
+      "worked_example": {
+        "problem": "解方程 2^(x-1)＝8。",
+        "steps": [
+          "8＝2³，所以 2^(x-1)＝2³",
+          "底数相同，指数相等：x－1＝3",
+          "所以 x＝4"
+        ],
+        "answer": "x＝4"
+      },
+      "common_mistakes": [
+        "把 a^x 的值域写成 R",
+        "底数 0＜a＜1 时误判为递增"
+      ],
+      "coaching_tip": "指数函数看底数：a＞1 递增，0＜a＜1 递减；解方程先化同底。"
+    }
+  },
+  {
+    "id": "cnm_336",
+    "name": "对数函数的图像与性质",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第4章 幂函数、指数函数与对数函数 4.3 对数函数",
+    "type": "conceptual",
+    "description": "理解对数函数 y＝log_a x 的概念，掌握其定义域、值域、定点与单调性，能解简单的对数方程与比较大小问题。",
+    "mastery_criteria": [
+      "能说出对数函数的定义域为 (0,+∞)、图像过 (1,0)",
+      "能根据底数判断单调性",
+      "会解简单的对数方程并检验真数为正"
+    ],
+    "diagnostic_question": {
+      "question": "函数 y＝log₂x 的定义域是（　）。",
+      "answer": "(0,+∞)"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.11",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能说出对数函数的定义域为 (0,+∞)、图像过 (1,0)",
+        "能根据底数判断单调性",
+        "会解简单的对数方程并检验真数为正"
+      ],
+      "worked_example": {
+        "problem": "解方程 log₂(x－1)＝2。",
+        "steps": [
+          "化为指数式：x－1＝2²",
+          "x－1＝4，x＝5",
+          "检验 x－1＝4＞0，成立"
+        ],
+        "answer": "x＝5"
+      },
+      "common_mistakes": [
+        "忽略真数大于 0 的定义域限制",
+        "底数 0＜a＜1 时单调性判断反了"
+      ],
+      "coaching_tip": "解对数方程必须验根：真数大于 0 才算数。"
+    }
+  },
+  {
+    "id": "cnm_337",
+    "name": "函数的概念与表示",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第5章 函数的概念、性质及应用 5.1 函数",
+    "type": "conceptual",
+    "description": "理解函数的概念（定义域、值域、对应关系），会求简单函数的定义域与函数值，能根据情境选择解析式、图像或表格表示函数。",
+    "mastery_criteria": [
+      "能判断两个变量之间是否构成函数关系",
+      "会求简单函数的定义域与函数值",
+      "能选择合适的函数表示方法"
+    ],
+    "diagnostic_question": {
+      "question": "已知 f(x)＝2x＋1，则 f(3) 等于多少？",
+      "answer": "7"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.09",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能判断两个变量之间是否构成函数关系",
+        "会求简单函数的定义域与函数值",
+        "能选择合适的函数表示方法"
+      ],
+      "worked_example": {
+        "problem": "已知 f(x)＝2x＋1，求 f(3)。",
+        "steps": [
+          "把 x＝3 代入解析式",
+          "f(3)＝2×3＋1＝7"
+        ],
+        "answer": "7"
+      },
+      "common_mistakes": [
+        "求定义域时漏掉分母不为 0、偶次根号下非负",
+        "把 f(x＋1) 与 f(x)＋1 混淆"
+      ],
+      "coaching_tip": "定义域三查：分母不为 0、偶次根号下≥0、对数真数＞0。"
+    }
+  },
+  {
+    "id": "cnm_338",
+    "name": "函数的奇偶性",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第5章 函数的概念、性质及应用 5.2 函数的基本性质",
+    "type": "conceptual",
+    "description": "理解奇函数与偶函数的定义，能利用定义或图像判断函数的奇偶性，知道奇偶函数的图像特征。",
+    "mastery_criteria": [
+      "能判断函数是否具有奇偶性，并说明定义域必须关于原点对称",
+      "掌握奇函数满足 f(-x)＝-f(x)、偶函数满足 f(-x)＝f(x)",
+      "能利用奇偶性求函数值或解析式"
+    ],
+    "diagnostic_question": {
+      "question": "下列函数中是偶函数的是（　）。",
+      "answer": "y＝x²"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.10",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能判断函数是否具有奇偶性，并说明定义域必须关于原点对称",
+        "掌握奇函数满足 f(-x)＝-f(x)、偶函数满足 f(-x)＝f(x)",
+        "能利用奇偶性求函数值或解析式"
+      ],
+      "worked_example": {
+        "problem": "判断 f(x)＝x³＋x 的奇偶性。",
+        "steps": [
+          "定义域为 R，关于原点对称",
+          "f(-x)＝(-x)³＋(-x)＝-(x³＋x)＝-f(x)",
+          "所以是奇函数"
+        ],
+        "answer": "奇函数"
+      },
+      "common_mistakes": [
+        "不先检查定义域是否关于原点对称",
+        "把 f(-x) 的符号化简错"
+      ],
+      "coaching_tip": "先看定义域，再算 f(-x)；偶函数图像关于 y 轴对称，奇函数关于原点对称。"
+    }
+  },
+  {
+    "id": "cnm_339",
+    "name": "函数的单调性",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第5章 函数的概念、性质及应用 5.2 函数的基本性质",
+    "type": "reasoning",
+    "description": "理解函数单调性的定义，能利用定义或图像判断单调性，掌握常见函数（一次、二次、反比例）的单调区间。",
+    "mastery_criteria": [
+      "能用定义证明函数在区间上的单调性",
+      "能写出二次函数、反比例函数的单调区间",
+      "能根据单调性求参数范围"
+    ],
+    "diagnostic_question": {
+      "question": "函数 f(x)＝-2x＋1 在 R 上（　）。",
+      "answer": "单调递减"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.10",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能用定义证明函数在区间上的单调性",
+        "能写出二次函数、反比例函数的单调区间",
+        "能根据单调性求参数范围"
+      ],
+      "worked_example": {
+        "problem": "判断 f(x)＝x²－2x 在 [1,+∞) 上的单调性。",
+        "steps": [
+          "配方得 f(x)＝(x－1)²－1",
+          "对称轴为 x＝1，开口向上",
+          "所以在 [1,+∞) 上单调递增"
+        ],
+        "answer": "在 [1,+∞) 上单调递增"
+      },
+      "common_mistakes": [
+        "单调区间用并集符号连接",
+        "忽略二次函数的对称轴，直接说“在 R 上递增”"
+      ],
+      "coaching_tip": "二次函数看对称轴，反比例函数看象限；写单调区间要用“区间”，多个区间之间不能用“∪”。"
+    }
+  },
+  {
+    "id": "cnm_340",
+    "name": "函数的最值",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第5章 函数的概念、性质及应用 5.2 函数的基本性质",
+    "type": "reasoning",
+    "description": "理解函数最大值、最小值的概念，会利用图像、配方或单调性求二次函数与简单函数在给定区间上的最值。",
+    "mastery_criteria": [
+      "能区分“最大值”与“上确界”，知道最值必须在定义域内取到",
+      "会用配方法求二次函数的最值",
+      "会讨论对称轴与区间的位置关系"
+    ],
+    "diagnostic_question": {
+      "question": "函数 f(x)＝x²－4x＋5 的最小值是多少？",
+      "answer": "1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.10",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能区分“最大值”与“上确界”，知道最值必须在定义域内取到",
+        "会用配方法求二次函数的最值",
+        "会讨论对称轴与区间的位置关系"
+      ],
+      "worked_example": {
+        "problem": "求 f(x)＝x²－4x＋5 的最小值。",
+        "steps": [
+          "配方：f(x)＝(x－2)²＋1",
+          "当 x＝2 时取最小值 1"
+        ],
+        "answer": "1"
+      },
+      "common_mistakes": [
+        "闭区间上求二次函数最值不比较端点",
+        "把最小值写成顶点纵坐标却不检验顶点是否在区间内"
+      ],
+      "coaching_tip": "闭区间最值三步：配方定对称轴 → 看对称轴是否在区间内 → 比较顶点与端点。"
+    }
+  },
+  {
+    "id": "cnm_341",
+    "name": "函数关系的建立",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第5章 函数的概念、性质及应用 5.3 函数的应用",
+    "type": "modeling",
+    "description": "能根据实际情境确定变量关系，建立函数模型（一次、二次、分段函数），并用模型解决简单的实际问题。",
+    "mastery_criteria": [
+      "能从文字描述中找出变量与等量关系",
+      "能写出函数的解析式并注明定义域",
+      "会利用函数模型求值或最值"
+    ],
+    "diagnostic_question": {
+      "question": "出租车起步价 14 元含 3 公里，之后每公里 2.5 元。行驶 8 公里需付多少元？",
+      "answer": "26.5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.12",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能从文字描述中找出变量与等量关系",
+        "能写出函数的解析式并注明定义域",
+        "会利用函数模型求值或最值"
+      ],
+      "worked_example": {
+        "problem": "出租车起步价 14 元含 3 公里，超过部分每公里 2.5 元。求行驶 x（x＞3）公里的车费。",
+        "steps": [
+          "前 3 公里收费 14 元",
+          "超过部分为 (x－3) 公里，每公里 2.5 元",
+          "所以 y＝14＋2.5(x－3)，x＞3"
+        ],
+        "answer": "y＝14＋2.5(x－3)（x＞3）"
+      },
+      "common_mistakes": [
+        "忽略分段计费的起点，直接把全部里程乘单价",
+        "写出解析式却不写定义域"
+      ],
+      "coaching_tip": "建模四步：设变量 → 找等量关系 → 写解析式（带定义域）→ 检验实际意义。"
+    }
+  },
+  {
+    "id": "cnm_342",
+    "name": "用函数观点解方程与不等式",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第5章 函数的概念、性质及应用 5.3 函数的应用",
+    "type": "reasoning",
+    "description": "理解方程 f(x)＝0 的根就是函数图像与 x 轴交点的横坐标，不等式的解集对应图像在 x 轴上（下）方的部分，能用函数观点处理方程与不等式。",
+    "mastery_criteria": [
+      "能把方程、不等式问题转化为函数图像问题",
+      "会根据图像写出不等式解集",
+      "会利用函数零点判断方程根的个数"
+    ],
+    "diagnostic_question": {
+      "question": "不等式 f(x)＞0 的解集，在函数 y＝f(x) 的图像上对应（　）。",
+      "answer": "x 轴上方的部分"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.12",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能把方程、不等式问题转化为函数图像问题",
+        "会根据图像写出不等式解集",
+        "会利用函数零点判断方程根的个数"
+      ],
+      "worked_example": {
+        "problem": "用函数观点说明方程 x²－3x＋2＝0 的根。",
+        "steps": [
+          "设 f(x)＝x²－3x＋2",
+          "令 f(x)＝0，即图像与 x 轴交点",
+          "解得 x＝1 或 x＝2"
+        ],
+        "answer": "x＝1 或 x＝2"
+      },
+      "common_mistakes": [
+        "把不等式 f(x)＞0 的解集与 f(x) 递增区间混淆",
+        "画图不标出交点，导致区间端点写错"
+      ],
+      "coaching_tip": "方程看交点，不等式看上下；先画草图，再读区间。"
+    }
+  },
+  {
+    "id": "cnm_343",
+    "name": "二分法求函数的零点",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第5章 函数的概念、性质及应用 5.3 函数的应用",
+    "type": "procedural",
+    "description": "理解二分法求方程近似解的原理，能按步骤缩小区间并估计近似解，知道二分法的适用条件。",
+    "mastery_criteria": [
+      "能判断二分法适用的条件（连续、端点函数值异号）",
+      "会按“取中点—判符号—缩区间”的步骤计算",
+      "能估计达到给定精度所需的次数"
+    ],
+    "diagnostic_question": {
+      "question": "下列函数中，能用二分法在给定区间上求零点的是（　）。",
+      "answer": "f(x)＝x²－2，区间 [1,2]"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.12",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能判断二分法适用的条件（连续、端点函数值异号）",
+        "会按“取中点—判符号—缩区间”的步骤计算",
+        "能估计达到给定精度所需的次数"
+      ],
+      "worked_example": {
+        "problem": "用二分法求 f(x)＝x²－2 在 [1,2] 内的零点，第一次取哪个点？",
+        "steps": [
+          "取区间中点 (1＋2)/2＝1.5",
+          "计算 f(1.5)＝0.25＞0，零点在 [1,1.5] 内"
+        ],
+        "answer": "1.5"
+      },
+      "common_mistakes": [
+        "对端点函数值同号的区间使用二分法",
+        "只算中点不判断符号，区间没有缩小"
+      ],
+      "coaching_tip": "二分法每次把区间长度减半；算到区间长度小于精度即可停止。"
+    }
+  },
+  {
+    "id": "cnm_344",
+    "name": "反函数的概念与图像",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修第一册 第5章 函数的概念、性质及应用 5.4 反函数",
+    "type": "conceptual",
+    "description": "了解反函数的概念，知道只有一一对应的函数才有反函数，理解互为反函数的两个函数图像关于直线 y＝x 对称。",
+    "mastery_criteria": [
+      "能判断一个函数是否存在反函数",
+      "会求简单函数的反函数",
+      "知道原函数与反函数定义域、值域互换，图像关于 y＝x 对称"
+    ],
+    "diagnostic_question": {
+      "question": "函数 y＝2x＋1 的反函数是（　）。",
+      "answer": "y＝(x－1)/2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.12",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能判断一个函数是否存在反函数",
+        "会求简单函数的反函数",
+        "知道原函数与反函数定义域、值域互换，图像关于 y＝x 对称"
+      ],
+      "worked_example": {
+        "problem": "求 f(x)＝2x＋1 的反函数。",
+        "steps": [
+          "令 y＝2x＋1，解出 x",
+          "x＝(y－1)/2",
+          "交换 x、y 得 f⁻¹(x)＝(x－1)/2"
+        ],
+        "answer": "f⁻¹(x)＝(x－1)/2"
+      },
+      "common_mistakes": [
+        "忘记交换 x 与 y",
+        "认为所有函数都有反函数（如 y＝x² 在 R 上就没有）"
+      ],
+      "coaching_tip": "求反函数三步：解出 x → 交换 x、y → 写出定义域（原函数的值域）。"
+    }
+  },
+  {
+    "id": "cnm_345",
+    "name": "任意角与弧度制",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "必修第二册 第6章 三角 6.1 正弦、余弦、正切、余切",
+    "type": "conceptual",
+    "description": "了解任意角（正角、负角、零角）与象限角的概念，理解弧度制的意义，能熟练进行角度与弧度的换算，掌握弧长与扇形面积公式。",
+    "mastery_criteria": [
+      "能判断角所在的象限，会写与已知角终边相同的角",
+      "能进行角度与弧度的换算",
+      "会运用 l＝|α|r 与 S＝(1/2)|α|r² 计算弧长与扇形面积"
+    ],
+    "diagnostic_question": {
+      "question": "150° 化为弧度是（　）。",
+      "answer": "5π/6"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.13",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能判断角所在的象限，会写与已知角终边相同的角",
+        "能进行角度与弧度的换算",
+        "会运用 l＝|α|r 与 S＝(1/2)|α|r² 计算弧长与扇形面积"
+      ],
+      "worked_example": {
+        "problem": "把 150° 化为弧度。",
+        "steps": [
+          "180°＝π 弧度",
+          "150°＝150×π/180＝5π/6"
+        ],
+        "answer": "5π/6"
+      },
+      "common_mistakes": [
+        "弧度制与角度制混用，如 150＝5π/6",
+        "扇形面积公式漏掉 1/2"
+      ],
+      "coaching_tip": "换算口诀：度化弧度乘 π/180，弧度化度乘 180/π；弧长 l＝|α|r 中的 α 必须是弧度。"
+    }
+  },
+  {
+    "id": "cnm_346",
+    "name": "任意角的三角比",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "必修第二册 第6章 三角 6.1 正弦、余弦、正切、余切",
+    "type": "conceptual",
+    "description": "理解任意角的正弦、余弦、正切、余切的定义，知道各象限三角比的符号规律，会求特殊角的三角比值。",
+    "mastery_criteria": [
+      "能根据终边上一点的坐标求六个三角比",
+      "掌握“一全正、二正弦、三正切、四余弦”的符号规律",
+      "会求 0、π/6、π/4、π/3、π/2 等特殊角的三角比"
+    ],
+    "diagnostic_question": {
+      "question": "sin(π/6) 的值是多少？",
+      "answer": "1/2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.13",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能根据终边上一点的坐标求六个三角比",
+        "掌握“一全正、二正弦、三正切、四余弦”的符号规律",
+        "会求 0、π/6、π/4、π/3、π/2 等特殊角的三角比"
+      ],
+      "worked_example": {
+        "problem": "求 sin(π/6)。",
+        "steps": [
+          "π/6＝30°",
+          "30° 角所对直角边是斜边的一半",
+          "所以 sin(π/6)＝1/2"
+        ],
+        "answer": "1/2"
+      },
+      "common_mistakes": [
+        "把 sin 与 cos 的定义记反",
+        "忽略象限符号，只记特殊角的绝对值"
+      ],
+      "coaching_tip": "定义法：在终边上取点 P(x,y)，r＝√(x²＋y²)，则 sinα＝y/r，cosα＝x/r，tanα＝y/x。"
+    }
+  },
+  {
+    "id": "cnm_347",
+    "name": "同角三角比的关系与诱导公式",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "必修第二册 第6章 三角 6.1 正弦、余弦、正切、余切",
+    "type": "procedural",
+    "description": "掌握同角三角比的基本关系 sin²α＋cos²α＝1 与 tanα＝sinα/cosα，掌握 π±α、2kπ±α 的诱导公式，能进行简单化简与求值。",
+    "mastery_criteria": [
+      "能由已知一个三角比求其余三角比（注意符号）",
+      "能运用诱导公式把任意角的三角比化为锐角三角比",
+      "会进行简单的三角式化简"
+    ],
+    "diagnostic_question": {
+      "question": "已知 sinα＝3/5，α 为锐角，则 cosα 等于多少？",
+      "answer": "4/5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.14",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能由已知一个三角比求其余三角比（注意符号）",
+        "能运用诱导公式把任意角的三角比化为锐角三角比",
+        "会进行简单的三角式化简"
+      ],
+      "worked_example": {
+        "problem": "已知 sinα＝3/5，α 为锐角，求 cosα。",
+        "steps": [
+          "由 sin²α＋cos²α＝1 得 cos²α＝1－9/25＝16/25",
+          "α 为锐角，cosα＞0",
+          "所以 cosα＝4/5"
+        ],
+        "answer": "4/5"
+      },
+      "common_mistakes": [
+        "开方时忽略象限导致符号错误",
+        "诱导公式中符号记错，如 cos(π＋α)＝cosα"
+      ],
+      "coaching_tip": "诱导公式口诀：奇变偶不变，符号看象限；先用平方关系求值，再按象限定符号。"
+    }
+  },
+  {
+    "id": "cnm_348",
+    "name": "两角和与差的三角公式",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "必修第二册 第6章 三角 6.2 常用三角公式",
+    "type": "procedural",
+    "description": "掌握两角和与差的正弦、余弦、正切公式，能进行简单的求值与化简，理解公式的内在联系。",
+    "mastery_criteria": [
+      "能写出 cos(α±β)、sin(α±β)、tan(α±β) 公式",
+      "会由已知三角比求两角和差的三角比",
+      "能正用、逆用公式进行化简"
+    ],
+    "diagnostic_question": {
+      "question": "已知 α、β 为锐角，sinα＝3/5，cosβ＝5/13，则 cos(α－β) 等于多少？",
+      "answer": "56/65"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.14",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能写出 cos(α±β)、sin(α±β)、tan(α±β) 公式",
+        "会由已知三角比求两角和差的三角比",
+        "能正用、逆用公式进行化简"
+      ],
+      "worked_example": {
+        "problem": "已知 tanα＝1/2，tanβ＝1/3，求 tan(α＋β)。",
+        "steps": [
+          "tan(α＋β)＝(tanα＋tanβ)/(1－tanαtanβ)",
+          "＝(1/2＋1/3)/(1－1/6)＝(5/6)/(5/6)",
+          "＝1"
+        ],
+        "answer": "1"
+      },
+      "common_mistakes": [
+        "余弦公式中符号记反：cos(α－β) 写成 cosαcosβ－sinαsinβ",
+        "使用 tan(α±β) 公式时不检查分母是否为零"
+      ],
+      "coaching_tip": "余弦“符号相反”，正弦“符号相同”；正切公式分母是 1∓tanαtanβ。"
+    }
+  },
+  {
+    "id": "cnm_349",
+    "name": "二倍角与半角公式",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "必修第二册 第6章 三角 6.2 常用三角公式",
+    "type": "procedural",
+    "description": "掌握二倍角的正弦、余弦、正切公式，了解半角公式，能进行降幂、升幂与简单求值。",
+    "mastery_criteria": [
+      "能写出 sin2α、cos2α、tan2α 公式",
+      "会用 cos2α 的三种形式进行降幂",
+      "会由已知三角比求二倍角的值"
+    ],
+    "diagnostic_question": {
+      "question": "已知 sinα＝3/5，cosα＝4/5，则 sin2α 等于多少？",
+      "answer": "24/25"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.14",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能写出 sin2α、cos2α、tan2α 公式",
+        "会用 cos2α 的三种形式进行降幂",
+        "会由已知三角比求二倍角的值"
+      ],
+      "worked_example": {
+        "problem": "已知 sinα＝3/5，cosα＝4/5，求 sin2α。",
+        "steps": [
+          "sin2α＝2sinαcosα",
+          "＝2×(3/5)×(4/5)＝24/25"
+        ],
+        "answer": "24/25"
+      },
+      "common_mistakes": [
+        "cos2α 的三个形式混用导致符号错误",
+        "tan2α 公式分母写成 1＋tan²α"
+      ],
+      "coaching_tip": "看到平方想降幂：cos2α＝2cos²α－1＝1－2sin²α；看到倍角想公式。"
+    }
+  },
+  {
+    "id": "cnm_350",
+    "name": "正弦定理与余弦定理",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "必修第二册 第6章 三角 6.3 解三角形",
+    "type": "procedural",
+    "description": "掌握正弦定理与余弦定理，能根据已知边角解三角形，理解两个定理的适用情形。",
+    "mastery_criteria": [
+      "能写出正弦定理、余弦定理及其变形",
+      "能根据已知条件选择合适定理求解边或角",
+      "会判断解三角形的多解情形"
+    ],
+    "diagnostic_question": {
+      "question": "在 △ABC 中，A＝30°，B＝90°，a＝2，则 b 等于多少？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.16",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能写出正弦定理、余弦定理及其变形",
+        "能根据已知条件选择合适定理求解边或角",
+        "会判断解三角形的多解情形"
+      ],
+      "worked_example": {
+        "problem": "在 △ABC 中，A＝30°，B＝90°，a＝2，求 b。",
+        "steps": [
+          "由正弦定理 a/sinA＝b/sinB",
+          "b＝a sinB/sinA＝2×1/(1/2)",
+          "＝4"
+        ],
+        "answer": "b＝4"
+      },
+      "common_mistakes": [
+        "用正弦定理求角时忽略锐角与钝角两种可能",
+        "余弦定理中夹角用错"
+      ],
+      "coaching_tip": "已知两角一边用正弦定理，已知两边夹角或三边用余弦定理；求角优先用余弦定理避免多解。"
+    }
+  },
+  {
+    "id": "cnm_351",
+    "name": "解三角形的应用",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "必修第二册 第6章 三角 6.3 解三角形",
+    "type": "application",
+    "description": "能运用正弦定理、余弦定理解决测量距离、高度、角度等实际问题，会建立三角形模型。",
+    "mastery_criteria": [
+      "能根据实际情境画出示意图并标出已知量",
+      "能选择合适的定理求解不可直接测量的距离或高度",
+      "能注意仰角、俯角、方位角的含义"
+    ],
+    "diagnostic_question": {
+      "question": "在点 A 测得塔顶仰角为 45°，A 到塔底的距离为 30 m，则塔高是多少米？",
+      "answer": "30"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.16",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能根据实际情境画出示意图并标出已知量",
+        "能选择合适的定理求解不可直接测量的距离或高度",
+        "能注意仰角、俯角、方位角的含义"
+      ],
+      "worked_example": {
+        "problem": "在点 A 测得塔顶仰角为 45°，A 到塔底的距离为 30 m，求塔高。",
+        "steps": [
+          "设塔高为 h，则 tan45°＝h/30",
+          "h＝30×1＝30"
+        ],
+        "answer": "30 m"
+      },
+      "common_mistakes": [
+        "把仰角与俯角混淆",
+        "示意图中角的位置标错，导致用错定理"
+      ],
+      "coaching_tip": "应用题先画图：铅垂线、水平线、视线三者的夹角就是仰角或俯角。"
+    }
+  },
+  {
+    "id": "cnm_352",
+    "name": "正弦、余弦函数的图像与性质",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "必修第二册 第7章 三角函数 7.1 正弦函数的图像与性质",
+    "type": "conceptual",
+    "description": "能画出正弦、余弦函数的图像，理解其周期性、奇偶性、单调性与最值，会用“五点法”作简图。",
+    "mastery_criteria": [
+      "能说出正弦、余弦函数的周期、奇偶性与值域",
+      "能写出它们在 [0,2π] 上的单调区间与最值点",
+      "会用五点法画出简图"
+    ],
+    "diagnostic_question": {
+      "question": "函数 y＝sinx 的最小正周期是（　）。",
+      "answer": "2π"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.15",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能说出正弦、余弦函数的周期、奇偶性与值域",
+        "能写出它们在 [0,2π] 上的单调区间与最值点",
+        "会用五点法画出简图"
+      ],
+      "worked_example": {
+        "problem": "求 y＝3sin x＋4cos x 的最大值。",
+        "steps": [
+          "设 y＝5sin(x＋φ)，其中 5＝√(3²＋4²)",
+          "所以最大值为 5"
+        ],
+        "answer": "5"
+      },
+      "common_mistakes": [
+        "把周期写成 π",
+        "求最值时忘记振幅对结果的影响"
+      ],
+      "coaching_tip": "正弦、余弦的周期都是 2π；y＝asinx＋bcosx 的最大值为 √(a²＋b²)。"
+    }
+  },
+  {
+    "id": "cnm_353",
+    "name": "函数 y＝Asin(ωx＋φ) 的图像",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "必修第二册 第7章 三角函数 7.3 函数 y＝Asin(ωx＋φ) 的图像",
+    "type": "procedural",
+    "description": "理解 A、ω、φ 对函数 y＝Asin(ωx＋φ) 图像的影响，掌握振幅、周期、频率、初相的概念，能进行图像的平移与伸缩变换。",
+    "mastery_criteria": [
+      "能由解析式读出振幅、周期与初相",
+      "能说明图像变换的顺序与方向",
+      "会根据图像或条件确定解析式"
+    ],
+    "diagnostic_question": {
+      "question": "函数 y＝3sin(2x＋π/3) 的振幅是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.15",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能由解析式读出振幅、周期与初相",
+        "能说明图像变换的顺序与方向",
+        "会根据图像或条件确定解析式"
+      ],
+      "worked_example": {
+        "problem": "求 y＝3sin(2x＋π/3) 的振幅与周期。",
+        "steps": [
+          "振幅 A＝3",
+          "周期 T＝2π/|ω|＝2π/2＝π"
+        ],
+        "answer": "振幅 3，周期 π"
+      },
+      "common_mistakes": [
+        "平移时没有先提取 ω，导致平移量算错",
+        "把周期写成 2π/ω 却忘记绝对值"
+      ],
+      "coaching_tip": "变换口诀：先平移后伸缩与先伸缩后平移，平移量不同；提取 ω 后再看平移。"
+    }
+  },
+  {
+    "id": "cnm_354",
+    "name": "正切函数的图像与性质",
+    "domain": "数与代数",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "必修第二册 第7章 三角函数 7.4 正切函数的图像与性质",
+    "type": "conceptual",
+    "description": "能画出正切函数的图像，理解其定义域、周期、奇偶性与单调性，会求简单正切函数的周期与定义域。",
+    "mastery_criteria": [
+      "能说出 y＝tanx 的定义域、值域与周期",
+      "知道正切函数是奇函数，在每个区间 (-π/2＋kπ, π/2＋kπ) 内递增",
+      "会求 y＝tan(ωx＋φ) 的周期与定义域"
+    ],
+    "diagnostic_question": {
+      "question": "函数 y＝tanx 的定义域是（　）。",
+      "answer": "x≠π/2＋kπ"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.NA.15",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能说出 y＝tanx 的定义域、值域与周期",
+        "知道正切函数是奇函数，在每个区间 (-π/2＋kπ, π/2＋kπ) 内递增",
+        "会求 y＝tan(ωx＋φ) 的周期与定义域"
+      ],
+      "worked_example": {
+        "problem": "求 y＝tanx 的定义域。",
+        "steps": [
+          "正切在 x＝π/2＋kπ 处无意义",
+          "所以定义域为 {x | x≠π/2＋kπ，k∈Z}"
+        ],
+        "answer": "{x | x≠π/2＋kπ，k∈Z}"
+      },
+      "common_mistakes": [
+        "把正切的周期写成 2π",
+        "忽略渐近线，误认为正切在 R 上递增"
+      ],
+      "coaching_tip": "正切周期是 π，不是 2π；它的图像被一条条渐近线隔开，只能说“在每个区间内递增”。"
+    }
+  },
+  {
+    "id": "cnm_355",
+    "name": "向量的概念与线性运算",
+    "domain": "图形与几何",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "必修第二册 第8章 平面向量 8.1 向量的概念和线性运算",
+    "type": "conceptual",
+    "description": "理解向量的概念（大小与方向），掌握向量的加法、减法与数乘运算及其几何意义，理解共线向量定理。",
+    "mastery_criteria": [
+      "能区分向量与数量，会表示相等向量、相反向量",
+      "会用三角形法则、平行四边形法则作向量的和与差",
+      "会判断两个向量是否共线并求参数"
+    ],
+    "diagnostic_question": {
+      "question": "已知 a＝(1,2)，b＝(3,4)，则 a＋b 的横坐标是多少？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.GG.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能区分向量与数量，会表示相等向量、相反向量",
+        "会用三角形法则、平行四边形法则作向量的和与差",
+        "会判断两个向量是否共线并求参数"
+      ],
+      "worked_example": {
+        "problem": "已知 a＝(1,2)，b＝(3,4)，求 a＋b。",
+        "steps": [
+          "向量加法按坐标对应相加",
+          "a＋b＝(1＋3, 2＋4)＝(4,6)"
+        ],
+        "answer": "(4,6)"
+      },
+      "common_mistakes": [
+        "把向量相等只理解成模相等，忽略方向",
+        "数乘负数时忘记方向相反"
+      ],
+      "coaching_tip": "向量加法的三角形法则“首尾相接”，减法“共起点、指向被减”；坐标运算逐分量进行。"
+    }
+  },
+  {
+    "id": "cnm_356",
+    "name": "向量的数量积",
+    "domain": "图形与几何",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "必修第二册 第8章 平面向量 8.2 向量的数量积",
+    "type": "procedural",
+    "description": "理解平面向量数量积的定义与几何意义，掌握数量积的运算性质、坐标公式以及垂直、夹角的判定方法。",
+    "mastery_criteria": [
+      "能写出 a·b＝|a||b|cosθ 及坐标公式",
+      "会用数量积判断垂直、求夹角与模",
+      "理解数量积不满足结合律"
+    ],
+    "diagnostic_question": {
+      "question": "已知 a＝(1,2)，b＝(3,4)，则 a·b 等于多少？",
+      "answer": "11"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.GG.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能写出 a·b＝|a||b|cosθ 及坐标公式",
+        "会用数量积判断垂直、求夹角与模",
+        "理解数量积不满足结合律"
+      ],
+      "worked_example": {
+        "problem": "已知 |a|＝2，|b|＝3，夹角为 60°，求 a·b。",
+        "steps": [
+          "a·b＝|a||b|cosθ",
+          "＝2×3×1/2＝3"
+        ],
+        "answer": "3"
+      },
+      "common_mistakes": [
+        "把数量积当成向量（结果应是实数）",
+        "用坐标公式时对应分量相乘后忘记相加"
+      ],
+      "coaching_tip": "数量积看夹角：θ 为锐角时为正，钝角时为负，垂直时为 0。"
+    }
+  },
+  {
+    "id": "cnm_357",
+    "name": "向量的坐标表示",
+    "domain": "图形与几何",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "必修第二册 第8章 平面向量 8.3 向量的坐标表示",
+    "type": "procedural",
+    "description": "掌握向量的坐标表示与坐标运算，会用坐标判断平行、垂直，会求向量的模、夹角与单位向量。",
+    "mastery_criteria": [
+      "会由点的坐标求向量的坐标",
+      "能用坐标法判断平行与垂直",
+      "会求向量的模、夹角与投影"
+    ],
+    "diagnostic_question": {
+      "question": "已知 A(1,2)、B(4,6)，则 |AB| 等于多少？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.GG.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会由点的坐标求向量的坐标",
+        "能用坐标法判断平行与垂直",
+        "会求向量的模、夹角与投影"
+      ],
+      "worked_example": {
+        "problem": "已知 A(1,2)、B(4,6)，求向量 AB 的坐标。",
+        "steps": [
+          "向量 AB＝(x_B－x_A, y_B－y_A)",
+          "＝(4－1, 6－2)＝(3,4)"
+        ],
+        "answer": "(3,4)"
+      },
+      "common_mistakes": [
+        "把点的坐标与向量的坐标混为一谈",
+        "平行条件写成 x1x2－y1y2＝0"
+      ],
+      "coaching_tip": "向量 AB＝终点减起点；平行看叉积为零，垂直看点积为零。"
+    }
+  },
+  {
+    "id": "cnm_358",
+    "name": "向量的应用",
+    "domain": "图形与几何",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "必修第二册 第8章 平面向量 8.4 向量的应用",
+    "type": "application",
+    "description": "能用平面向量解决平面几何中的平行、垂直、长度与夹角问题，能用向量方法处理简单的物理问题（如力的合成、做功）。",
+    "mastery_criteria": [
+      "能用向量证明线段平行、垂直或求长度",
+      "能用向量方法求夹角与判断共线",
+      "能把力、位移等物理量用向量表示并计算"
+    ],
+    "diagnostic_question": {
+      "question": "力 F＝(3,4) 作用下，物体位移 s＝(2,1)，则力做的功是多少？",
+      "answer": "10"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.GG.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能用向量证明线段平行、垂直或求长度",
+        "能用向量方法求夹角与判断共线",
+        "能把力、位移等物理量用向量表示并计算"
+      ],
+      "worked_example": {
+        "problem": "已知 a＝(3,4)，b＝(3,-4)，求 |a＋b|。",
+        "steps": [
+          "a＋b＝(6,0)",
+          "|a＋b|＝6"
+        ],
+        "answer": "6"
+      },
+      "common_mistakes": [
+        "建立坐标系后把点的坐标写错",
+        "用向量解决几何问题时忘记说明向量关系与位置关系的对应"
+      ],
+      "coaching_tip": "几何问题向量化三步：建系写坐标 → 把条件翻译成向量关系 → 用坐标运算求解。"
+    }
+  },
+  {
+    "id": "cnm_359",
+    "name": "复数的概念与四则运算",
+    "domain": "图形与几何",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "必修第二册 第9章 复数 9.1 复数及其四则运算",
+    "type": "conceptual",
+    "description": "理解复数的概念、实部与虚部，掌握复数相等的条件，能进行复数的加、减、乘、除运算，理解共轭复数。",
+    "mastery_criteria": [
+      "能写出复数的实部、虚部并判断实数与虚数",
+      "会进行复数四则运算，会把结果化为 a＋bi 的形式",
+      "理解共轭复数并会化简分母含 i 的式子"
+    ],
+    "diagnostic_question": {
+      "question": "复数 (2＋3i)＋(1－2i) 的实部是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.GG.04",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能写出复数的实部、虚部并判断实数与虚数",
+        "会进行复数四则运算，会把结果化为 a＋bi 的形式",
+        "理解共轭复数并会化简分母含 i 的式子"
+      ],
+      "worked_example": {
+        "problem": "计算 (1＋i)(2－i)。",
+        "steps": [
+          "按多项式乘法展开：2－i＋2i－i²",
+          "由 i²＝-1 得 2＋i＋1",
+          "＝3＋i"
+        ],
+        "answer": "3＋i"
+      },
+      "common_mistakes": [
+        "把 i² 写成 1",
+        "除法时不乘共轭复数，分母仍含 i"
+      ],
+      "coaching_tip": "复数运算把 i 当字母算，最后用 i²＝-1 化简；除法分子分母同乘分母的共轭复数。"
+    }
+  },
+  {
+    "id": "cnm_360",
+    "name": "复数的几何意义",
+    "domain": "图形与几何",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "必修第二册 第9章 复数 9.2 复数的几何意义",
+    "type": "conceptual",
+    "description": "理解复数与复平面上的点、向量的一一对应关系，理解复数的模与共轭复数的几何意义。",
+    "mastery_criteria": [
+      "能把复数表示成复平面上的点或向量",
+      "会求复数的模并解释其几何意义",
+      "理解共轭复数关于实轴对称"
+    ],
+    "diagnostic_question": {
+      "question": "复数 z＝3＋4i 的模是多少？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.GG.05",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能把复数表示成复平面上的点或向量",
+        "会求复数的模并解释其几何意义",
+        "理解共轭复数关于实轴对称"
+      ],
+      "worked_example": {
+        "problem": "求复数 z＝3＋4i 的模。",
+        "steps": [
+          "|z|＝√(3²＋4²)",
+          "＝5"
+        ],
+        "answer": "5"
+      },
+      "common_mistakes": [
+        "把虚轴与实轴弄反",
+        "认为 |z| 可以为负"
+      ],
+      "coaching_tip": "复数 z＝a＋bi 对应点 (a,b)；模就是该点到原点的距离。"
+    }
+  },
+  {
+    "id": "cnm_361",
+    "name": "实系数一元二次方程与复数的三角形式",
+    "domain": "图形与几何",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "必修第二册 第9章 复数 9.3 实系数一元二次方程",
+    "type": "procedural",
+    "description": "理解实系数一元二次方程在复数集内的解法，知道虚根成共轭出现；了解复数的三角形式与模、辐角的概念。",
+    "mastery_criteria": [
+      "会在判别式小于 0 时求一元二次方程的复数根",
+      "知道实系数方程的虚根共轭成对",
+      "了解复数三角形式 r(cosθ＋isinθ) 及模、辐角"
+    ],
+    "diagnostic_question": {
+      "question": "方程 x²＋1＝0 在复数集上的解是（　）。",
+      "answer": "x＝±i"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.GG.05",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会在判别式小于 0 时求一元二次方程的复数根",
+        "知道实系数方程的虚根共轭成对",
+        "了解复数三角形式 r(cosθ＋isinθ) 及模、辐角"
+      ],
+      "worked_example": {
+        "problem": "解方程 x²－2x＋5＝0。",
+        "steps": [
+          "判别式 Δ＝4－20＝-16＜0",
+          "x＝(2±4i)/2",
+          "所以 x＝1±2i"
+        ],
+        "answer": "x＝1±2i"
+      },
+      "common_mistakes": [
+        "判别式小于 0 时直接写“无解”",
+        "求根公式中漏写 i"
+      ],
+      "coaching_tip": "实系数一元二次方程 Δ＜0 时有一对共轭虚根；复数范围内“无解”要改成“有两个虚根”。"
+    }
+  },
+  {
+    "id": "cnm_362",
+    "name": "平面及其基本性质",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第三册 第10章 空间直线与平面 10.1 平面及其基本性质",
+    "type": "conceptual",
+    "description": "认识平面的表示与画法，理解平面的三条基本性质（公理），能用文字语言、图形语言、符号语言描述点、线、面的位置关系。",
+    "mastery_criteria": [
+      "能画出平面并用符号表示点、线、面的关系",
+      "理解“不共线三点确定一个平面”等基本性质",
+      "知道两个平面的交线是一条直线"
+    ],
+    "diagnostic_question": {
+      "question": "下列条件中，能确定一个平面的是（　）。",
+      "answer": "不共线的三点"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.GG.06",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能画出平面并用符号表示点、线、面的关系",
+        "理解“不共线三点确定一个平面”等基本性质",
+        "知道两个平面的交线是一条直线"
+      ],
+      "worked_example": {
+        "problem": "说明为什么“不共线的三点确定一个平面”。",
+        "steps": [
+          "取不共线的 A、B、C 三点",
+          "由公理，经过这三点的平面有且只有一个",
+          "所以不共线的三点确定一个平面"
+        ],
+        "answer": "由平面基本性质公理可得。"
+      },
+      "common_mistakes": [
+        "把“三点确定一个平面”中的“不共线”漏掉",
+        "画平面时只画一个平行四边形就认为平面有边界"
+      ],
+      "coaching_tip": "立体几何三种语言要会互译：图形语言画出来、文字语言说清楚、符号语言写规范（如 A∈α）。"
+    }
+  },
+  {
+    "id": "cnm_363",
+    "name": "空间两条直线的位置关系",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第三册 第10章 空间直线与平面 10.2 直线与直线间的位置关系",
+    "type": "conceptual",
+    "description": "理解空间中两条直线的三种位置关系（相交、平行、异面），掌握平行公理与异面直线的概念。",
+    "mastery_criteria": [
+      "能判断空间中两条直线的位置关系",
+      "知道平行于同一条直线的两条直线平行",
+      "能在正方体中数出与已知棱平行、相交、异面的棱"
+    ],
+    "diagnostic_question": {
+      "question": "空间中两条直线的位置关系共有（　）。",
+      "answer": "相交、平行、异面三种"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.GG.06",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能判断空间中两条直线的位置关系",
+        "知道平行于同一条直线的两条直线平行",
+        "能在正方体中数出与已知棱平行、相交、异面的棱"
+      ],
+      "worked_example": {
+        "problem": "在正方体 ABCD-A₁B₁C₁D₁ 中，判断 AB 与 CC₁ 的位置关系。",
+        "steps": [
+          "AB 在底面内，CC₁ 是竖直棱",
+          "两直线不平行也不相交",
+          "所以是异面直线"
+        ],
+        "answer": "异面直线"
+      },
+      "common_mistakes": [
+        "把所有“不相交”的直线都当成平行",
+        "数异面棱时遗漏或重复"
+      ],
+      "coaching_tip": "判断异面：看两条直线能否被同一个平面包含；不能同面的两直线就是异面直线。"
+    }
+  },
+  {
+    "id": "cnm_364",
+    "name": "直线与平面的位置关系",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第三册 第10章 空间直线与平面 10.3 直线与平面间的位置关系",
+    "type": "reasoning",
+    "description": "理解直线与平面的三种位置关系，掌握线面平行、线面垂直的判定定理与性质定理，会求直线与平面所成的角。",
+    "mastery_criteria": [
+      "能判断直线与平面的位置关系",
+      "能运用判定定理证明线面平行或垂直",
+      "会求直线与平面所成的角"
+    ],
+    "diagnostic_question": {
+      "question": "若直线 l 平行于平面 α 内的一条直线，则 l 与 α 的位置关系是（　）。",
+      "answer": "可能平行也可能在平面内"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.GG.06",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能判断直线与平面的位置关系",
+        "能运用判定定理证明线面平行或垂直",
+        "会求直线与平面所成的角"
+      ],
+      "worked_example": {
+        "problem": "正方体棱长为 1，求直线 A₁B 与平面 ABCD 所成的角。",
+        "steps": [
+          "A₁ 在平面 ABCD 上的射影为 A",
+          "所以 ∠A₁BA 就是所求角",
+          "在直角三角形 A₁AB 中，tan∠A₁BA＝AA₁/AB＝1",
+          "所以角为 45°"
+        ],
+        "answer": "45°"
+      },
+      "common_mistakes": [
+        "线面平行判定时漏掉“直线在平面外”",
+        "把线面角当成斜线与平面内任意直线的夹角"
+      ],
+      "coaching_tip": "线面角的关键是找射影：斜足与垂足连线即为射影，斜线与射影的夹角就是线面角。"
+    }
+  },
+  {
+    "id": "cnm_365",
+    "name": "平面与平面的位置关系",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第三册 第10章 空间直线与平面 10.4 平面与平面间的位置关系",
+    "type": "reasoning",
+    "description": "理解两个平面的位置关系，掌握面面平行与面面垂直的判定定理和性质定理，理解二面角及其平面角。",
+    "mastery_criteria": [
+      "能判断两个平面的位置关系",
+      "能运用判定定理证明面面平行或垂直",
+      "会求简单二面角的大小"
+    ],
+    "diagnostic_question": {
+      "question": "判定两个平面平行，下列条件中正确的是（　）。",
+      "answer": "一个平面内有两条相交直线分别平行于另一个平面"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.GG.06",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能判断两个平面的位置关系",
+        "能运用判定定理证明面面平行或垂直",
+        "会求简单二面角的大小"
+      ],
+      "worked_example": {
+        "problem": "正方体中，求平面 ABCD 与平面 ABB₁A₁ 所成二面角的大小。",
+        "steps": [
+          "两平面的交线为 AB",
+          "BC⊥AB，BB₁⊥AB",
+          "所以 ∠B₁BC 是二面角的平面角",
+          "∠B₁BC＝90°"
+        ],
+        "answer": "90°"
+      },
+      "common_mistakes": [
+        "面面垂直判定时漏掉“一个平面经过另一个平面的垂线”",
+        "二面角的平面角顶点没有取在交线上"
+      ],
+      "coaching_tip": "面面关系最终化归为线面、线线关系；找二面角先找交线，再在两个面内作交线的垂线。"
+    }
+  },
+  {
+    "id": "cnm_366",
+    "name": "异面直线所成的角与距离",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第三册 第10章 空间直线与平面 10.5 异面直线间的距离",
+    "type": "procedural",
+    "description": "理解异面直线所成角的定义（平移法），会求简单几何体中异面直线所成的角与距离。",
+    "mastery_criteria": [
+      "会用平移法把异面直线所成角转化为相交直线所成角",
+      "知道异面直线所成角的范围是 (0°,90°]",
+      "会求简单几何体中异面直线的距离"
+    ],
+    "diagnostic_question": {
+      "question": "正方体中，异面直线 A₁B 与 B₁C 所成的角是多少度？",
+      "answer": "60"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.GG.06",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会用平移法把异面直线所成角转化为相交直线所成角",
+        "知道异面直线所成角的范围是 (0°,90°]",
+        "会求简单几何体中异面直线的距离"
+      ],
+      "worked_example": {
+        "problem": "在正方体 ABCD-A₁B₁C₁D₁ 中，求异面直线 A₁B 与 B₁C 所成的角。",
+        "steps": [
+          "平移 B₁C 到 A₁D（B₁C∥A₁D）",
+          "∠BA₁D 即所求角",
+          "△A₁BD 中三边都是正方体的面对角线，是等边三角形",
+          "所以角为 60°"
+        ],
+        "answer": "60°"
+      },
+      "common_mistakes": [
+        "求出的角大于 90° 却不取补角",
+        "平移时方向弄反，得到的是补角"
+      ],
+      "coaching_tip": "异面直线所成角一律取锐角或直角；平移后构造三角形，用余弦定理算角。"
+    }
+  },
+  {
+    "id": "cnm_367",
+    "name": "柱体、锥体、台体的表面积与体积",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第三册 第11章 简单几何体 11.1 柱体",
+    "type": "procedural",
+    "description": "认识棱柱、圆柱、棱锥、圆锥、台体，掌握它们的表面积与体积公式，能解决简单的计算问题。",
+    "mastery_criteria": [
+      "能说出柱、锥、台的体积公式及相互关系",
+      "会求简单几何体的表面积与体积",
+      "会在组合体中分解出基本几何体"
+    ],
+    "diagnostic_question": {
+      "question": "长方体的长、宽、高分别为 2、3、4，则它的体积是多少？",
+      "answer": "24"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.GG.07",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能说出柱、锥、台的体积公式及相互关系",
+        "会求简单几何体的表面积与体积",
+        "会在组合体中分解出基本几何体"
+      ],
+      "worked_example": {
+        "problem": "圆锥的底面半径为 3，高为 4，求它的母线长。",
+        "steps": [
+          "母线、半径、高构成直角三角形",
+          "l＝√(r²＋h²)＝√(9＋16)",
+          "＝5"
+        ],
+        "answer": "5"
+      },
+      "common_mistakes": [
+        "把圆锥的母线当成高",
+        "体积公式中的 1/3 漏乘"
+      ],
+      "coaching_tip": "柱体 V＝Sh，锥体 V＝(1/3)Sh，台体 V＝(1/3)h(S₁＋√(S₁S₂)＋S₂)；先认准底面积与高。"
+    }
+  },
+  {
+    "id": "cnm_368",
+    "name": "球与简单组合体",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第三册 第11章 简单几何体 11.2 锥体",
+    "type": "procedural",
+    "description": "掌握球的表面积与体积公式，理解正方体、长方体与球的内接、外接关系，能解决简单的组合体问题。",
+    "mastery_criteria": [
+      "能运用 S＝4πR² 与 V＝(4/3)πR³ 计算",
+      "会求正方体的外接球半径",
+      "能把组合体分解为简单几何体求体积"
+    ],
+    "diagnostic_question": {
+      "question": "半径为 3 的球，表面积除以 π 等于多少？",
+      "answer": "36"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.GG.07",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能运用 S＝4πR² 与 V＝(4/3)πR³ 计算",
+        "会求正方体的外接球半径",
+        "能把组合体分解为简单几何体求体积"
+      ],
+      "worked_example": {
+        "problem": "求半径为 3 的球的表面积。",
+        "steps": [
+          "S＝4πR²",
+          "＝4π×9＝36π"
+        ],
+        "answer": "36π"
+      },
+      "common_mistakes": [
+        "球的体积公式漏乘 4/3",
+        "把直径当半径代入公式"
+      ],
+      "coaching_tip": "外接球问题先找球心：正方体的外接球球心在体对角线中点，R 等于体对角线的一半。"
+    }
+  },
+  {
+    "id": "cnm_369",
+    "name": "随机现象与样本空间",
+    "domain": "统计与概率",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第三册 第12章 概率初步 12.1 随机现象与样本空间",
+    "type": "conceptual",
+    "description": "了解随机现象，理解样本空间与随机事件的概念，能写出简单随机试验的样本空间并判断事件的包含、互斥与对立关系。",
+    "mastery_criteria": [
+      "能区分必然现象与随机现象",
+      "会写出简单试验的样本空间",
+      "能判断事件的包含、相等、互斥与对立关系"
+    ],
+    "diagnostic_question": {
+      "question": "掷一枚骰子一次，样本空间是（　）。",
+      "answer": "{1,2,3,4,5,6}"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.SP.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能区分必然现象与随机现象",
+        "会写出简单试验的样本空间",
+        "能判断事件的包含、相等、互斥与对立关系"
+      ],
+      "worked_example": {
+        "problem": "写出掷一枚骰子一次试验的样本空间。",
+        "steps": [
+          "骰子可能出现的点数 1 到 6",
+          "所以样本空间 Ω＝{1,2,3,4,5,6}"
+        ],
+        "answer": "Ω＝{1,2,3,4,5,6}"
+      },
+      "common_mistakes": [
+        "把样本空间写成“点数为 1”这类事件",
+        "两个事件的并集与交集混淆"
+      ],
+      "coaching_tip": "样本空间是“所有可能结果”的集合；事件是样本空间的子集。"
+    }
+  },
+  {
+    "id": "cnm_370",
+    "name": "古典概率",
+    "domain": "统计与概率",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第三册 第12章 概率初步 12.2 古典概率",
+    "type": "procedural",
+    "description": "理解古典概型的两个特征（有限性、等可能性），掌握古典概率公式 P(A)＝m/n，会用列举法计算简单事件的概率。",
+    "mastery_criteria": [
+      "能判断一个试验是否为古典概型",
+      "会用列举法（列表、树状图）写出样本空间",
+      "能计算简单事件的古典概率"
+    ],
+    "diagnostic_question": {
+      "question": "掷一枚均匀骰子，掷出偶数的概率是多少？",
+      "answer": "1/2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.SP.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能判断一个试验是否为古典概型",
+        "会用列举法（列表、树状图）写出样本空间",
+        "能计算简单事件的古典概率"
+      ],
+      "worked_example": {
+        "problem": "掷一枚骰子，求掷出偶数的概率。",
+        "steps": [
+          "样本空间共 6 个等可能结果",
+          "偶数有 2、4、6，共 3 个",
+          "所以 P＝3/6＝1/2"
+        ],
+        "answer": "1/2"
+      },
+      "common_mistakes": [
+        "没有验证等可能性就直接用 m/n",
+        "列举时重复或遗漏样本点"
+      ],
+      "coaching_tip": "古典概型两步：先数总结果 n（等可能、有限），再数目标结果 m，P＝m/n。"
+    }
+  },
+  {
+    "id": "cnm_371",
+    "name": "频率与概率",
+    "domain": "统计与概率",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第三册 第12章 概率初步 12.3 频率与概率",
+    "type": "conceptual",
+    "description": "理解频率与概率的区别与联系，知道频率具有随机性而概率是客观属性，能用频率估计概率。",
+    "mastery_criteria": [
+      "能区分频率与概率",
+      "会由试验数据计算频率",
+      "能用频率估计概率并解释其合理性"
+    ],
+    "diagnostic_question": {
+      "question": "关于频率与概率，下列说法正确的是（　）。",
+      "answer": "频率随试验变化，概率是确定的"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.SP.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能区分频率与概率",
+        "会由试验数据计算频率",
+        "能用频率估计概率并解释其合理性"
+      ],
+      "worked_example": {
+        "problem": "抛硬币 100 次，正面出现 48 次，求正面出现的频率。",
+        "steps": [
+          "频率＝频数/试验次数",
+          "＝48/100＝0.48"
+        ],
+        "answer": "0.48"
+      },
+      "common_mistakes": [
+        "认为频率就是概率，二者完全相等",
+        "认为试验次数越多频率一定越大"
+      ],
+      "coaching_tip": "频率是“做出来的”，概率是“定下来的”；试验次数越多，频率通常越接近概率。"
+    }
+  },
+  {
+    "id": "cnm_372",
+    "name": "随机事件的独立性",
+    "domain": "统计与概率",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第三册 第12章 概率初步 12.4 随机事件的独立性",
+    "type": "procedural",
+    "description": "理解两个事件相互独立的含义，掌握独立事件的概率乘法公式，会求相互独立事件同时发生的概率。",
+    "mastery_criteria": [
+      "能判断两个事件是否相互独立",
+      "会用 P(AB)＝P(A)P(B) 计算同时发生的概率",
+      "会求“至少有一个发生”的概率"
+    ],
+    "diagnostic_question": {
+      "question": "已知 P(A)＝0.5，P(B)＝0.4，A 与 B 相互独立，则 P(AB) 等于多少？",
+      "answer": "0.2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.SP.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能判断两个事件是否相互独立",
+        "会用 P(AB)＝P(A)P(B) 计算同时发生的概率",
+        "会求“至少有一个发生”的概率"
+      ],
+      "worked_example": {
+        "problem": "甲、乙两人独立射击，命中率分别为 0.8 和 0.5，求两人都命中的概率。",
+        "steps": [
+          "两事件相互独立",
+          "P＝0.8×0.5＝0.4"
+        ],
+        "answer": "0.4"
+      },
+      "common_mistakes": [
+        "把互斥事件与独立事件混淆",
+        "求“至少一个”时直接相加，重复计算同时发生的情形"
+      ],
+      "coaching_tip": "独立用乘法，互斥用加法；至少一个常用对立事件：1－P(都不发生)。"
+    }
+  },
+  {
+    "id": "cnm_373",
+    "name": "总体、样本与抽样方法",
+    "domain": "统计与概率",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第三册 第13章 统计 13.3 抽样方法",
+    "type": "procedural",
+    "description": "理解总体、个体、样本、样本量的概念，掌握简单随机抽样、分层随机抽样与系统抽样的基本方法。",
+    "mastery_criteria": [
+      "能说出总体、样本、样本量分别指什么",
+      "会用抽签法、随机数法进行简单随机抽样",
+      "会按比例进行分层抽样并计算抽样比"
+    ],
+    "diagnostic_question": {
+      "question": "简单随机抽样的特点是（　）。",
+      "answer": "每个个体被抽到的机会相等"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.SP.04",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能说出总体、样本、样本量分别指什么",
+        "会用抽签法、随机数法进行简单随机抽样",
+        "会按比例进行分层抽样并计算抽样比"
+      ],
+      "worked_example": {
+        "problem": "某校有男生 300 人、女生 200 人，用分层抽样抽取 50 人，求男生应抽多少人。",
+        "steps": [
+          "总人数 500，抽样比为 50/500＝1/10",
+          "男生应抽 300×1/10＝30 人"
+        ],
+        "answer": "30"
+      },
+      "common_mistakes": [
+        "分层抽样不按比例分配",
+        "把样本量当成总体容量"
+      ],
+      "coaching_tip": "分层抽样按比例：各层抽取数＝该层人数×抽样比；抽样比＝样本量/总体容量。"
+    }
+  },
+  {
+    "id": "cnm_374",
+    "name": "统计图表",
+    "domain": "统计与概率",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第三册 第13章 统计 13.4 统计图表",
+    "type": "procedural",
+    "description": "理解频率分布表、频率分布直方图、茎叶图与扇形图的作用，能从中读取数据并作简单计算。",
+    "mastery_criteria": [
+      "知道频率分布直方图中各小矩形面积之和为 1",
+      "会由频率与样本量求频数",
+      "能从茎叶图、扇形图中读取中位数、百分比等信息"
+    ],
+    "diagnostic_question": {
+      "question": "频率分布直方图中，各组频率之和是多少？",
+      "answer": "1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.SP.04",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "知道频率分布直方图中各小矩形面积之和为 1",
+        "会由频率与样本量求频数",
+        "能从茎叶图、扇形图中读取中位数、百分比等信息"
+      ],
+      "worked_example": {
+        "problem": "某频率分布直方图中，某一组的频率为 0.2，样本量为 50，求该组频数。",
+        "steps": [
+          "频数＝频率×样本量",
+          "＝0.2×50＝10"
+        ],
+        "answer": "10"
+      },
+      "common_mistakes": [
+        "把直方图的高当成频率（应为面积）",
+        "扇形图的百分比与圆心角换算错误"
+      ],
+      "coaching_tip": "直方图看面积，条形图看高度；扇形图圆心角＝百分比×360°。"
+    }
+  },
+  {
+    "id": "cnm_375",
+    "name": "统计估计",
+    "domain": "统计与概率",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修第三册 第13章 统计 13.5 统计估计",
+    "type": "procedural",
+    "description": "会用样本平均数、方差估计总体的集中趋势与离散程度，理解样本估计总体的随机性与合理性。",
+    "mastery_criteria": [
+      "会计算平均数与方差",
+      "理解平均数、方差在数据平移与缩放下的变化",
+      "能用样本估计总体并作出解释"
+    ],
+    "diagnostic_question": {
+      "question": "数据 2、4、6、8 的平均数是多少？",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:1.SP.05",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "会计算平均数与方差",
+        "理解平均数、方差在数据平移与缩放下的变化",
+        "能用样本估计总体并作出解释"
+      ],
+      "worked_example": {
+        "problem": "求数据 2、4、6、8 的平均数。",
+        "steps": [
+          "平均数＝(2＋4＋6＋8)/4",
+          "＝5"
+        ],
+        "answer": "5"
+      },
+      "common_mistakes": [
+        "方差公式漏除以 n",
+        "数据整体加常数时误以为方差也改变"
+      ],
+      "coaching_tip": "平均数随数据平移而平移，方差不变；数据乘 k，平均数乘 k，方差乘 k²。"
+    }
+  },
+  {
+    "id": "cnm_376",
+    "name": "直线的倾斜角与斜率",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "选择性必修第一册 第1章 平面直角坐标系中的直线 1.1 直线的倾斜角与斜率",
+    "type": "conceptual",
+    "description": "理解直线的倾斜角与斜率的概念，掌握斜率公式 k＝(y₂－y₁)/(x₂－x₁) 与 k＝tanα，能由倾斜角或两点求斜率。",
+    "mastery_criteria": [
+      "能说出倾斜角的范围 [0°,180°)",
+      "会用两点坐标求斜率并判断斜率不存在的情形",
+      "理解斜率与倾斜角的对应关系"
+    ],
+    "diagnostic_question": {
+      "question": "过点 (0,0) 与 (1,1) 的直线的斜率是多少？",
+      "answer": "1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:2.GG.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能说出倾斜角的范围 [0°,180°)",
+        "会用两点坐标求斜率并判断斜率不存在的情形",
+        "理解斜率与倾斜角的对应关系"
+      ],
+      "worked_example": {
+        "problem": "求过点 (1,2)、(3,8) 的直线的斜率。",
+        "steps": [
+          "k＝(y₂－y₁)/(x₂－x₁)",
+          "＝(8－2)/(3－1)",
+          "＝3"
+        ],
+        "answer": "3"
+      },
+      "common_mistakes": [
+        "倾斜角为 90° 时误写斜率为 0（应为不存在）",
+        "两点斜率公式中坐标相减顺序不一致"
+      ],
+      "coaching_tip": "斜率看倾斜角：0° 斜率为 0，90° 斜率不存在，钝角斜率为负。"
+    }
+  },
+  {
+    "id": "cnm_377",
+    "name": "直线的方程",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "选择性必修第一册 第1章 平面直角坐标系中的直线 1.2 直线的方程",
+    "type": "procedural",
+    "description": "掌握直线方程的点斜式、斜截式、两点式与一般式，能根据条件选择合适形式求直线方程。",
+    "mastery_criteria": [
+      "能写出点斜式与斜截式方程",
+      "会把一般式化为斜截式并读出斜率与截距",
+      "会求直线在坐标轴上的截距"
+    ],
+    "diagnostic_question": {
+      "question": "过点 (0,2) 且斜率为 3 的直线方程是（　）。",
+      "answer": "y＝3x＋2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:2.GG.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能写出点斜式与斜截式方程",
+        "会把一般式化为斜截式并读出斜率与截距",
+        "会求直线在坐标轴上的截距"
+      ],
+      "worked_example": {
+        "problem": "求过点 (0,2) 且斜率为 3 的直线方程。",
+        "steps": [
+          "由斜截式 y＝kx＋b",
+          "k＝3，b＝2",
+          "所以 y＝3x＋2"
+        ],
+        "answer": "y＝3x＋2"
+      },
+      "common_mistakes": [
+        "点斜式 y－y₀＝k(x－x₀) 中符号写反",
+        "把截距当成距离（截距可为负）"
+      ],
+      "coaching_tip": "已知一点和斜率用点斜式；已知两点先求斜率；最后按题目要求化为一般式。"
+    }
+  },
+  {
+    "id": "cnm_378",
+    "name": "两条直线的位置关系与距离",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "选择性必修第一册 第1章 平面直角坐标系中的直线 1.3 两条直线的位置关系",
+    "type": "procedural",
+    "description": "能判断两条直线平行、重合与垂直，会求两条直线的交点，掌握点到直线的距离公式与平行线间的距离公式。",
+    "mastery_criteria": [
+      "能由斜率或一般式系数判断平行与垂直",
+      "会求两条直线的交点",
+      "会用点到直线距离公式求距离"
+    ],
+    "diagnostic_question": {
+      "question": "点 (0,0) 到直线 3x＋4y－10＝0 的距离是多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:2.GG.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能由斜率或一般式系数判断平行与垂直",
+        "会求两条直线的交点",
+        "会用点到直线距离公式求距离"
+      ],
+      "worked_example": {
+        "problem": "求点 (0,0) 到直线 3x＋4y－10＝0 的距离。",
+        "steps": [
+          "d＝|Ax₀＋By₀＋C|/√(A²＋B²)",
+          "＝|3×0＋4×0－10|/√(9＋16)",
+          "＝10/5＝2"
+        ],
+        "answer": "2"
+      },
+      "common_mistakes": [
+        "平行与垂直的条件记混（垂直是 A₁A₂＋B₁B₂＝0）",
+        "距离公式中忘记加绝对值"
+      ],
+      "coaching_tip": "一般式下：平行看 A₁B₂－A₂B₁＝0，垂直看 A₁A₂＋B₁B₂＝0；距离公式先加绝对值再除以模。"
+    }
+  },
+  {
+    "id": "cnm_379",
+    "name": "曲线与方程",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "选择性必修第一册 第2章 圆锥曲线 2.1 曲线与方程",
+    "type": "conceptual",
+    "description": "理解曲线与方程的对应关系：曲线上的点的坐标都是方程的解，以方程的解为坐标的点都在曲线上。",
+    "mastery_criteria": [
+      "能判断点是否在给定曲线上",
+      "能说明方程与曲线的对应关系",
+      "会根据几何条件求简单的曲线方程"
+    ],
+    "diagnostic_question": {
+      "question": "方程 x²＋y²＝4 所表示的曲线是（　）。",
+      "answer": "圆"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:2.GG.07",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能判断点是否在给定曲线上",
+        "能说明方程与曲线的对应关系",
+        "会根据几何条件求简单的曲线方程"
+      ],
+      "worked_example": {
+        "problem": "判断点 (1,2) 是否在曲线 x²＋y²＝5 上。",
+        "steps": [
+          "把点代入方程左边：1²＋2²＝5",
+          "左边等于右边",
+          "所以点在曲线上"
+        ],
+        "answer": "在曲线上"
+      },
+      "common_mistakes": [
+        "只验证一个点就断定整条曲线",
+        "忽略方程变形前后的等价性"
+      ],
+      "coaching_tip": "判断点是否在曲线上，只需代入验证；求轨迹方程要注意“补漏去杂”。"
+    }
+  },
+  {
+    "id": "cnm_380",
+    "name": "圆的方程",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "选择性必修第一册 第2章 圆锥曲线 2.2 圆的方程",
+    "type": "procedural",
+    "description": "掌握圆的标准方程与一般方程，能由条件求圆的方程，会判断点与圆、直线与圆的位置关系。",
+    "mastery_criteria": [
+      "能写出圆的标准方程并读出圆心与半径",
+      "会把一般方程化为标准方程",
+      "会求圆的弦长与切线问题"
+    ],
+    "diagnostic_question": {
+      "question": "圆 (x－1)²＋(y－2)²＝9 的半径是多少？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:2.GG.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能写出圆的标准方程并读出圆心与半径",
+        "会把一般方程化为标准方程",
+        "会求圆的弦长与切线问题"
+      ],
+      "worked_example": {
+        "problem": "求以 (1,1) 为圆心且过原点的圆的方程。",
+        "steps": [
+          "半径 r 等于圆心到原点的距离",
+          "r＝√(1²＋1²)＝√2",
+          "所以 (x－1)²＋(y－1)²＝2"
+        ],
+        "answer": "(x－1)²＋(y－1)²＝2"
+      },
+      "common_mistakes": [
+        "一般方程 x²＋y²＋Dx＋Ey＋F＝0 中忘记配方",
+        "判断直线与圆的位置关系时算错圆心到直线的距离"
+      ],
+      "coaching_tip": "圆的两要素：圆心与半径；一般式配方时两边同时加上 (D/2)²＋(E/2)²。"
+    }
+  },
+  {
+    "id": "cnm_381",
+    "name": "椭圆",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "选择性必修第一册 第2章 圆锥曲线 2.3 椭圆",
+    "type": "conceptual",
+    "description": "理解椭圆的定义、标准方程与几何性质（焦点、长轴、短轴、离心率），能解决简单的椭圆问题。",
+    "mastery_criteria": [
+      "能由方程读出 a、b、c 并求焦点坐标",
+      "理解椭圆定义并会用“到两焦点距离之和为 2a”",
+      "会求离心率并说明其几何意义"
+    ],
+    "diagnostic_question": {
+      "question": "椭圆 x²/25＋y²/9＝1 的焦距是多少？",
+      "answer": "8"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:2.GG.04",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能由方程读出 a、b、c 并求焦点坐标",
+        "理解椭圆定义并会用“到两焦点距离之和为 2a”",
+        "会求离心率并说明其几何意义"
+      ],
+      "worked_example": {
+        "problem": "求椭圆 x²/25＋y²/9＝1 的焦距。",
+        "steps": [
+          "a²＝25，b²＝9",
+          "c²＝a²－b²＝16，c＝4",
+          "焦距 2c＝8"
+        ],
+        "answer": "8"
+      },
+      "common_mistakes": [
+        "把 a² 与 b² 弄反",
+        "焦点位置判断错误（看分母大的对应轴）"
+      ],
+      "coaching_tip": "椭圆看“大分母”：分母大的在 x 轴下则焦点在 x 轴；c²＝a²－b²，离心率 e＝c/a。"
+    }
+  },
+  {
+    "id": "cnm_382",
+    "name": "双曲线",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "选择性必修第一册 第2章 圆锥曲线 2.4 双曲线",
+    "type": "conceptual",
+    "description": "理解双曲线的定义、标准方程与几何性质（焦点、实轴、虚轴、渐近线、离心率），能解决简单的双曲线问题。",
+    "mastery_criteria": [
+      "能由方程读出 a、b、c 并求焦点与渐近线",
+      "理解双曲线定义中的距离之差的绝对值",
+      "会求离心率并说明 e＞1"
+    ],
+    "diagnostic_question": {
+      "question": "双曲线 x²/9－y²/16＝1 的一条渐近线的斜率是多少？",
+      "answer": "4/3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:2.GG.05",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能由方程读出 a、b、c 并求焦点与渐近线",
+        "理解双曲线定义中的距离之差的绝对值",
+        "会求离心率并说明 e＞1"
+      ],
+      "worked_example": {
+        "problem": "求双曲线 x²/9－y²/16＝1 的一条渐近线的斜率。",
+        "steps": [
+          "渐近线方程为 y＝±(b/a)x",
+          "a＝3，b＝4",
+          "斜率为 ±4/3，取正的一条为 4/3"
+        ],
+        "answer": "4/3"
+      },
+      "common_mistakes": [
+        "把 a² 与 b² 弄反导致渐近线斜率错",
+        "忘记 c²＝a²＋b²（双曲线是加号）"
+      ],
+      "coaching_tip": "双曲线 c²＝a²＋b²，渐近线 y＝±(b/a)x，离心率 e＝c/a＞1。"
+    }
+  },
+  {
+    "id": "cnm_383",
+    "name": "抛物线",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "选择性必修第一册 第2章 圆锥曲线 2.5 抛物线",
+    "type": "conceptual",
+    "description": "理解抛物线的定义、标准方程与几何性质（焦点、准线），会由方程求焦点、准线并解决简单的距离问题。",
+    "mastery_criteria": [
+      "能由 y²＝2px 读出 p、焦点与准线",
+      "理解抛物线定义：到焦点与准线距离相等",
+      "会利用定义转化距离问题"
+    ],
+    "diagnostic_question": {
+      "question": "抛物线 y²＝8x 的焦点到准线的距离是多少？",
+      "answer": "4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:2.GG.06",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能由 y²＝2px 读出 p、焦点与准线",
+        "理解抛物线定义：到焦点与准线距离相等",
+        "会利用定义转化距离问题"
+      ],
+      "worked_example": {
+        "problem": "求抛物线 y²＝8x 的焦点到准线的距离。",
+        "steps": [
+          "2p＝8，p＝4",
+          "焦点到准线的距离为 p",
+          "所以为 4"
+        ],
+        "answer": "4"
+      },
+      "common_mistakes": [
+        "把 2p 当成 p",
+        "焦点坐标写成 (0,p/2)（应为 (p/2,0)）"
+      ],
+      "coaching_tip": "抛物线看“一次项”：y²＝2px 的焦点为 (p/2,0)，准线 x＝-p/2，距离为 p。"
+    }
+  },
+  {
+    "id": "cnm_384",
+    "name": "直线与圆锥曲线的位置关系",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "选择性必修第一册 第2章 圆锥曲线 2.6 直线与圆锥曲线的位置关系",
+    "type": "reasoning",
+    "description": "会用联立方程与判别式判断直线与圆锥曲线的位置关系，会处理弦长、中点等简单综合问题。",
+    "mastery_criteria": [
+      "能通过联立方程判断交点个数",
+      "会用判别式判断相交、相切、相离",
+      "会利用韦达定理求弦长或中点"
+    ],
+    "diagnostic_question": {
+      "question": "直线与抛物线联立后得到一元二次方程，若判别式大于 0，则它们（　）。",
+      "answer": "相交于两点"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:2.GG.07",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能通过联立方程判断交点个数",
+        "会用判别式判断相交、相切、相离",
+        "会利用韦达定理求弦长或中点"
+      ],
+      "worked_example": {
+        "problem": "判断直线 y＝x 与抛物线 y²＝4x 的交点个数。",
+        "steps": [
+          "联立得 x²＝4x",
+          "即 x(x－4)＝0",
+          "解得 x＝0 或 x＝4，有两个交点"
+        ],
+        "answer": "2 个"
+      },
+      "common_mistakes": [
+        "联立后忘记讨论二次项系数为 0 的情形",
+        "弦长公式中忘记乘 √(1＋k²)"
+      ],
+      "coaching_tip": "联立 → 消元 → 判别式；弦长用 √(1＋k²)·|x₁－x₂|，配合韦达定理。"
+    }
+  },
+  {
+    "id": "cnm_385",
+    "name": "空间向量及其运算",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "选择性必修第一册 第3章 空间向量及其应用 3.1 空间向量及其运算",
+    "type": "conceptual",
+    "description": "理解空间向量的概念与线性运算，掌握空间向量的数量积及其运算性质，会求向量的模与夹角。",
+    "mastery_criteria": [
+      "能进行空间向量的加、减、数乘与数量积运算",
+      "会用 a·b＝|a||b|cos<a,b> 求夹角",
+      "理解空间向量基本定理"
+    ],
+    "diagnostic_question": {
+      "question": "已知 a＝(1,0,2)，b＝(0,1,1)，则 a·b 等于多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:2.GG.08",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能进行空间向量的加、减、数乘与数量积运算",
+        "会用 a·b＝|a||b|cos<a,b> 求夹角",
+        "理解空间向量基本定理"
+      ],
+      "worked_example": {
+        "problem": "已知 a＝(1,0,2)，b＝(0,1,1)，求 a·b。",
+        "steps": [
+          "数量积按坐标对应相乘再相加",
+          "a·b＝1×0＋0×1＋2×1",
+          "＝2"
+        ],
+        "answer": "2"
+      },
+      "common_mistakes": [
+        "把数量积算成向量",
+        "求模时漏掉某个分量"
+      ],
+      "coaching_tip": "空间向量与平面向量运算完全类似，只是多了一个 z 分量；数量积结果是实数。"
+    }
+  },
+  {
+    "id": "cnm_386",
+    "name": "空间向量的坐标表示",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "选择性必修第一册 第3章 空间向量及其应用 3.2 空间向量的坐标表示",
+    "type": "procedural",
+    "description": "掌握空间直角坐标系中点的坐标与向量坐标的表示，会用坐标进行空间向量的运算，会求两点间距离。",
+    "mastery_criteria": [
+      "能由点的坐标求向量坐标",
+      "会用坐标计算空间向量的模与数量积",
+      "会求中点坐标与点到坐标平面的距离"
+    ],
+    "diagnostic_question": {
+      "question": "已知 A(1,0,0)、B(0,1,0)，则 |AB|² 等于多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:2.GG.08",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能由点的坐标求向量坐标",
+        "会用坐标计算空间向量的模与数量积",
+        "会求中点坐标与点到坐标平面的距离"
+      ],
+      "worked_example": {
+        "problem": "已知 A(1,0,0)、B(0,1,0)，求 |AB|²。",
+        "steps": [
+          "AB＝(-1,1,0)",
+          "|AB|²＝1＋1＝2"
+        ],
+        "answer": "2"
+      },
+      "common_mistakes": [
+        "向量坐标用“起点减终点”",
+        "点到 xOy 平面的距离写成横坐标"
+      ],
+      "coaching_tip": "空间向量坐标＝终点坐标－起点坐标；点 (x,y,z) 到 xOy 平面的距离是 |z|。"
+    }
+  },
+  {
+    "id": "cnm_387",
+    "name": "空间向量的应用",
+    "domain": "图形与几何",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "选择性必修第一册 第3章 空间向量及其应用 3.3 空间向量的应用",
+    "type": "application",
+    "description": "能用空间向量证明平行与垂直关系，会用方向向量与法向量求线面角、二面角与空间距离。",
+    "mastery_criteria": [
+      "能用向量语言表示线线、线面、面面关系",
+      "会求平面的法向量",
+      "会用向量公式求线面角与二面角"
+    ],
+    "diagnostic_question": {
+      "question": "正方体棱长为 1，直线 A₁B 与平面 ABCD 所成角是多少度？",
+      "answer": "45"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:2.GG.09",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能用向量语言表示线线、线面、面面关系",
+        "会求平面的法向量",
+        "会用向量公式求线面角与二面角"
+      ],
+      "worked_example": {
+        "problem": "正方体棱长为 1，求直线 A₁B 与平面 ABCD 所成角。",
+        "steps": [
+          "以 A 为原点建系，底面为 xOy 平面",
+          "平面 ABCD 的法向量 n＝(0,0,1)",
+          "A₁B 的方向向量为 (1,0,-1)",
+          "sinθ＝|n·d|/(|n||d|)＝1/√2，θ＝45°"
+        ],
+        "answer": "45°"
+      },
+      "common_mistakes": [
+        "线面角公式误写成 cosθ（应为 sinθ）",
+        "法向量求错或取反导致角度成补角"
+      ],
+      "coaching_tip": "线面角用 sinθ＝|n·d|/(|n||d|)；二面角要先判断是锐角还是钝角，再决定取正或取负。"
+    }
+  },
+  {
+    "id": "cnm_388",
+    "name": "数列的概念与通项公式",
+    "domain": "数与代数",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "选择性必修第一册 第4章 数列 4.1 数列的概念",
+    "type": "conceptual",
+    "description": "理解数列的概念与表示方法，会由通项公式写出数列的项，能根据递推关系写出数列的前几项。",
+    "mastery_criteria": [
+      "能说出数列的项与序号的关系",
+      "会由通项公式求指定项",
+      "能由递推公式逐项计算"
+    ],
+    "diagnostic_question": {
+      "question": "已知 aₙ＝2n＋1，则 a₅ 等于多少？",
+      "answer": "11"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:2.NA.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能说出数列的项与序号的关系",
+        "会由通项公式求指定项",
+        "能由递推公式逐项计算"
+      ],
+      "worked_example": {
+        "problem": "已知 aₙ＝2n＋1，求 a₅。",
+        "steps": [
+          "把 n＝5 代入通项公式",
+          "a₅＝2×5＋1＝11"
+        ],
+        "answer": "11"
+      },
+      "common_mistakes": [
+        "把 aₙ 中的 n 当成常数",
+        "递推数列计算时用错前一项"
+      ],
+      "coaching_tip": "通项公式就是“序号到项的映射”；递推公式要一项一项往前推。"
+    }
+  },
+  {
+    "id": "cnm_389",
+    "name": "等差数列",
+    "domain": "数与代数",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "选择性必修第一册 第4章 数列 4.2 等差数列",
+    "type": "procedural",
+    "description": "理解等差数列的概念，掌握通项公式 aₙ＝a₁＋(n－1)d 与前 n 项和公式，能解决简单的等差问题。",
+    "mastery_criteria": [
+      "能判断等差数列并求公差",
+      "会用通项公式与前 n 项和公式计算",
+      "理解中项性质与下标和性质"
+    ],
+    "diagnostic_question": {
+      "question": "等差数列首项为 2、公差为 3，则 a₅ 等于多少？",
+      "answer": "14"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:2.NA.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能判断等差数列并求公差",
+        "会用通项公式与前 n 项和公式计算",
+        "理解中项性质与下标和性质"
+      ],
+      "worked_example": {
+        "problem": "已知等差数列首项为 2、公差为 3，求 a₅。",
+        "steps": [
+          "aₙ＝a₁＋(n－1)d",
+          "a₅＝2＋4×3＝14"
+        ],
+        "answer": "14"
+      },
+      "common_mistakes": [
+        "通项公式中项数写成 n 而不是 n－1",
+        "求和公式中末项用错"
+      ],
+      "coaching_tip": "等差看“差恒定”：通项是一次函数，前 n 项和是二次函数（无常数项）。"
+    }
+  },
+  {
+    "id": "cnm_390",
+    "name": "等比数列",
+    "domain": "数与代数",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "选择性必修第一册 第4章 数列 4.3 等比数列",
+    "type": "procedural",
+    "description": "理解等比数列的概念，掌握通项公式与前 n 项和公式，能解决简单的等比问题。",
+    "mastery_criteria": [
+      "能判断等比数列并求公比",
+      "会用通项公式与前 n 项和公式计算",
+      "理解等比中项及下标和性质"
+    ],
+    "diagnostic_question": {
+      "question": "等比数列首项为 1、公比为 2，则 a₅ 等于多少？",
+      "answer": "16"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:2.NA.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能判断等比数列并求公比",
+        "会用通项公式与前 n 项和公式计算",
+        "理解等比中项及下标和性质"
+      ],
+      "worked_example": {
+        "problem": "已知等比数列首项为 1、公比为 2，求 a₅。",
+        "steps": [
+          "aₙ＝a₁qⁿ⁻¹",
+          "a₅＝1×2⁴＝16"
+        ],
+        "answer": "16"
+      },
+      "common_mistakes": [
+        "通项公式指数写成 n",
+        "公比为 1 时直接套用求和公式导致分母为 0"
+      ],
+      "coaching_tip": "等比看“比恒定”：项增长快，注意 q 的正负与 |q| 是否大于 1。"
+    }
+  },
+  {
+    "id": "cnm_391",
+    "name": "数学归纳法与数列综合",
+    "domain": "数与代数",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "选择性必修第一册 第4章 数列 4.4 数学归纳法",
+    "type": "reasoning",
+    "description": "理解数学归纳法的原理与步骤，能用它证明与正整数有关的简单命题，能综合运用数列公式求和。",
+    "mastery_criteria": [
+      "能规范书写“奠基—假设—递推”三步",
+      "理解第二步必须用到归纳假设",
+      "会综合运用等差、等比求和公式与裂项求和"
+    ],
+    "diagnostic_question": {
+      "question": "用数学归纳法证明与正整数 n 有关的命题，第一步应验证（　）。",
+      "answer": "n＝1 时命题成立"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:2.NA.04",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能规范书写“奠基—假设—递推”三步",
+        "理解第二步必须用到归纳假设",
+        "会综合运用等差、等比求和公式与裂项求和"
+      ],
+      "worked_example": {
+        "problem": "用数学归纳法证明 1＋2＋…＋n＝n(n＋1)/2 时，第一步验证什么？",
+        "steps": [
+          "取最小的正整数 n＝1",
+          "左边＝1，右边＝1×2/2＝1，等式成立",
+          "所以奠基成立"
+        ],
+        "answer": "验证 n＝1 时等式成立"
+      },
+      "common_mistakes": [
+        "第二步中不用归纳假设，直接另起炉灶",
+        "从 n＝k 到 n＝k＋1 的变形方向错误"
+      ],
+      "coaching_tip": "数学归纳法两步一结论：奠基要真，递推要“用上假设”。"
+    }
+  },
+  {
+    "id": "cnm_392",
+    "name": "导数的概念与几何意义",
+    "domain": "数与代数",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第5章 导数及其应用 5.1 导数的概念及意义",
+    "type": "conceptual",
+    "description": "理解平均变化率与瞬时变化率，理解导数 f′(x₀) 的定义及其几何意义（曲线在点 (x₀,f(x₀)) 处切线的斜率），会求简单函数的导数。",
+    "mastery_criteria": [
+      "能说出导数与切线斜率的关系",
+      "会用定义或公式求幂函数的导数",
+      "能由切线斜率求切线方程"
+    ],
+    "diagnostic_question": {
+      "question": "f(x)＝x² 在 x＝3 处的导数是多少？",
+      "answer": "6"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:2.NA.05",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能说出导数与切线斜率的关系",
+        "会用定义或公式求幂函数的导数",
+        "能由切线斜率求切线方程"
+      ],
+      "worked_example": {
+        "problem": "求 f(x)＝x² 在 x＝3 处的导数。",
+        "steps": [
+          "f′(x)＝2x",
+          "f′(3)＝2×3＝6",
+          "即曲线在 x＝3 处切线斜率为 6"
+        ],
+        "answer": "6"
+      },
+      "common_mistakes": [
+        "把导数当成函数值 f(3)",
+        "切线方程漏写切点坐标"
+      ],
+      "coaching_tip": "导数就是“瞬时变化率”，几何上等于切线斜率；求切线必须同时有切点与斜率。"
+    }
+  },
+  {
+    "id": "cnm_393",
+    "name": "导数的运算",
+    "domain": "数与代数",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第5章 导数及其应用 5.2 导数的运算",
+    "type": "procedural",
+    "description": "掌握基本初等函数的导数公式与导数的四则运算法则，能求简单函数的导数。",
+    "mastery_criteria": [
+      "记住 (xⁿ)′＝nxⁿ⁻¹、(sinx)′＝cosx、(eˣ)′＝eˣ、(lnx)′＝1/x",
+      "会用和差、积、商的求导法则",
+      "能求简单复合函数的导数"
+    ],
+    "diagnostic_question": {
+      "question": "f(x)＝x³ 的导数在 x＝2 处的值是多少？",
+      "answer": "12"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:2.NA.06",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "记住 (xⁿ)′＝nxⁿ⁻¹、(sinx)′＝cosx、(eˣ)′＝eˣ、(lnx)′＝1/x",
+        "会用和差、积、商的求导法则",
+        "能求简单复合函数的导数"
+      ],
+      "worked_example": {
+        "problem": "求 f(x)＝x³＋2x 的导数。",
+        "steps": [
+          "逐项求导：(x³)′＝3x²，(2x)′＝2",
+          "所以 f′(x)＝3x²＋2"
+        ],
+        "answer": "3x²＋2"
+      },
+      "common_mistakes": [
+        "商的求导法则分子顺序写反",
+        "(xⁿ)′ 的指数忘记减 1"
+      ],
+      "coaching_tip": "求导先看结构：和差逐项、积用 (uv)′＝u′v＋uv′、商用 (u/v)′＝(u′v－uv′)/v²。"
+    }
+  },
+  {
+    "id": "cnm_394",
+    "name": "导数与函数的单调性、极值",
+    "domain": "数与代数",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第5章 导数及其应用 5.3 导数的应用",
+    "type": "reasoning",
+    "description": "能用导数判断函数的单调性，会求函数的极大值、极小值与闭区间上的最值，能解决简单的优化问题。",
+    "mastery_criteria": [
+      "能由 f′(x) 的符号确定单调区间",
+      "会求极值点并区分极大值与极小值",
+      "会求闭区间上的最值并解决简单最优化问题"
+    ],
+    "diagnostic_question": {
+      "question": "f(x)＝x²－2x 的极小值是多少？",
+      "answer": "-1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:2.NA.07",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能由 f′(x) 的符号确定单调区间",
+        "会求极值点并区分极大值与极小值",
+        "会求闭区间上的最值并解决简单最优化问题"
+      ],
+      "worked_example": {
+        "problem": "求 f(x)＝x³－3x 的极小值。",
+        "steps": [
+          "f′(x)＝3x²－3＝3(x＋1)(x－1)",
+          "x＝-1 时取极大值，x＝1 时取极小值",
+          "f(1)＝1－3＝-2"
+        ],
+        "answer": "-2"
+      },
+      "common_mistakes": [
+        "极值点与端点混淆，把端点也算作极值",
+        "只解 f′(x)＝0 不检验两侧符号"
+      ],
+      "coaching_tip": "三步走：求导 → 找 f′(x)＝0 的点并列表看符号变化 → 判断极值与最值（闭区间要比较端点）。"
+    }
+  },
+  {
+    "id": "cnm_395",
+    "name": "分类加法计数原理与分步乘法计数原理",
+    "domain": "统计与概率",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第6章 计数原理 6.1 乘法原理和加法原理",
+    "type": "conceptual",
+    "description": "理解分类加法计数原理与分步乘法计数原理，能区分“分类”与“分步”并解决简单的计数问题。",
+    "mastery_criteria": [
+      "能判断问题属于分类还是分步",
+      "会用两个原理直接计数",
+      "能处理两个原理综合的计数问题"
+    ],
+    "diagnostic_question": {
+      "question": "从甲到乙有 3 条路，从乙到丙有 4 条路，从甲经乙到丙共有多少种走法？",
+      "answer": "12"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:2.SP.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能判断问题属于分类还是分步",
+        "会用两个原理直接计数",
+        "能处理两个原理综合的计数问题"
+      ],
+      "worked_example": {
+        "problem": "从甲地到乙地有 3 条路，从乙地到丙地有 4 条路，从甲地经乙地到丙地共有多少种走法？",
+        "steps": [
+          "这是分步问题",
+          "由乘法原理，3×4＝12"
+        ],
+        "answer": "12"
+      },
+      "common_mistakes": [
+        "分类与分步混淆，该乘的用了加",
+        "分类时出现重复计数"
+      ],
+      "coaching_tip": "分类用加法（每类都能独立完成任务），分步用乘法（每步只完成一部分）。"
+    }
+  },
+  {
+    "id": "cnm_396",
+    "name": "排列与组合",
+    "domain": "统计与概率",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第6章 计数原理 6.2 排列与组合",
+    "type": "procedural",
+    "description": "理解排列与组合的概念与区别，掌握排列数、组合数公式及组合数性质，能解决简单的排列组合问题。",
+    "mastery_criteria": [
+      "能区分排列（有序）与组合（无序）",
+      "会用 A(n,m) 与 C(n,m) 公式计算",
+      "会处理相邻、不相邻等常见模型"
+    ],
+    "diagnostic_question": {
+      "question": "从 5 人中选 2 人排成一排，共有多少种排法？",
+      "answer": "20"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:2.SP.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能区分排列（有序）与组合（无序）",
+        "会用 A(n,m) 与 C(n,m) 公式计算",
+        "会处理相邻、不相邻等常见模型"
+      ],
+      "worked_example": {
+        "problem": "从 5 人中选 2 人排成一排，有多少种排法？",
+        "steps": [
+          "有序，用排列数 A(5,2)",
+          "A(5,2)＝5×4＝20"
+        ],
+        "answer": "20"
+      },
+      "common_mistakes": [
+        "该用组合时用了排列（重复计数）",
+        "相邻问题忘记用“捆绑法”"
+      ],
+      "coaching_tip": "有序用排列，无序用组合；相邻捆绑、不相邻插空。"
+    }
+  },
+  {
+    "id": "cnm_397",
+    "name": "二项式定理",
+    "domain": "统计与概率",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第6章 计数原理 6.3 二项式定理",
+    "type": "procedural",
+    "description": "掌握二项式定理与二项展开式的通项公式，理解二项式系数的性质，会求指定项或指定项的系数。",
+    "mastery_criteria": [
+      "能写出 (a＋b)ⁿ 的展开式与通项",
+      "会求指定项的系数",
+      "知道二项式系数之和为 2ⁿ"
+    ],
+    "diagnostic_question": {
+      "question": "(x＋1)⁴ 展开式中 x² 的系数是多少？",
+      "answer": "6"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:2.SP.03",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能写出 (a＋b)ⁿ 的展开式与通项",
+        "会求指定项的系数",
+        "知道二项式系数之和为 2ⁿ"
+      ],
+      "worked_example": {
+        "problem": "求 (x＋1)⁴ 展开式中 x² 的系数。",
+        "steps": [
+          "通项 T(r+1)＝C(4,r)x^(4-r)",
+          "令 4－r＝2 得 r＝2",
+          "系数为 C(4,2)＝6"
+        ],
+        "answer": "6"
+      },
+      "common_mistakes": [
+        "二项式系数与项的系数混淆",
+        "通项中 r 与 r＋1 的对应关系写错"
+      ],
+      "coaching_tip": "通项 T(r+1)＝C(n,r)a^(n-r)b^r，注意“第几项”与 r 差 1。"
+    }
+  },
+  {
+    "id": "cnm_398",
+    "name": "条件概率与乘法公式",
+    "domain": "统计与概率",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第7章 概率初步（续） 7.1 条件概率",
+    "type": "procedural",
+    "description": "理解条件概率的概念，掌握条件概率公式 P(B|A)＝P(AB)/P(A) 与乘法公式，能解决简单的条件概率问题。",
+    "mastery_criteria": [
+      "能写出条件概率公式并正确代入",
+      "会用乘法公式求积事件概率",
+      "能区分条件概率与普通概率"
+    ],
+    "diagnostic_question": {
+      "question": "已知 P(A)＝0.5，P(AB)＝0.2，则 P(B|A) 等于多少？",
+      "answer": "0.4"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:2.SP.04",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能写出条件概率公式并正确代入",
+        "会用乘法公式求积事件概率",
+        "能区分条件概率与普通概率"
+      ],
+      "worked_example": {
+        "problem": "已知 P(A)＝0.5，P(AB)＝0.2，求 P(B|A)。",
+        "steps": [
+          "P(B|A)＝P(AB)/P(A)",
+          "＝0.2/0.5",
+          "＝0.4"
+        ],
+        "answer": "0.4"
+      },
+      "common_mistakes": [
+        "把 P(B|A) 与 P(A|B) 混淆",
+        "条件概率中分母用错样本空间"
+      ],
+      "coaching_tip": "条件概率就是“缩小样本空间”：分母是已知事件 A 的概率，不是 1。"
+    }
+  },
+  {
+    "id": "cnm_399",
+    "name": "随机变量及其分布",
+    "domain": "统计与概率",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第7章 概率初步（续） 7.2 随机变量及其分布",
+    "type": "procedural",
+    "description": "理解离散型随机变量及其分布列，掌握数学期望与方差的计算，能解决简单的实际问题。",
+    "mastery_criteria": [
+      "能写出简单随机变量的分布列并检验概率和为 1",
+      "会求数学期望 E(X)",
+      "会求方差 D(X)"
+    ],
+    "diagnostic_question": {
+      "question": "P(X＝1)＝0.3，P(X＝2)＝0.7，则 E(X) 等于多少？",
+      "answer": "1.7"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:2.SP.05",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能写出简单随机变量的分布列并检验概率和为 1",
+        "会求数学期望 E(X)",
+        "会求方差 D(X)"
+      ],
+      "worked_example": {
+        "problem": "随机变量 X 的分布列为 P(X＝1)＝0.3，P(X＝2)＝0.7，求 E(X)。",
+        "steps": [
+          "E(X)＝1×0.3＋2×0.7",
+          "＝0.3＋1.4＝1.7"
+        ],
+        "answer": "1.7"
+      },
+      "common_mistakes": [
+        "分布列概率之和不为 1",
+        "期望与方差公式中的项漏乘概率"
+      ],
+      "coaching_tip": "期望是“加权平均”，方差是“偏离期望的加权平方和”；先查概率和是否为 1。"
+    }
+  },
+  {
+    "id": "cnm_400",
+    "name": "二项分布与正态分布",
+    "domain": "统计与概率",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第7章 概率初步（续） 7.3 二项分布与正态分布",
+    "type": "application",
+    "description": "理解 n 次独立重复试验与二项分布，掌握二项分布的期望与方差；了解正态分布的特征与 3σ 原则。",
+    "mastery_criteria": [
+      "能判断问题是否服从二项分布 B(n,p)",
+      "会用 P(X＝k)＝C(n,k)p^k(1-p)^(n-k) 计算",
+      "知道 E(X)＝np，D(X)＝np(1－p)，了解 3σ 原则"
+    ],
+    "diagnostic_question": {
+      "question": "X～B(4,0.5)，则 E(X) 等于多少？",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:2.SP.06",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能判断问题是否服从二项分布 B(n,p)",
+        "会用 P(X＝k)＝C(n,k)p^k(1-p)^(n-k) 计算",
+        "知道 E(X)＝np，D(X)＝np(1－p)，了解 3σ 原则"
+      ],
+      "worked_example": {
+        "problem": "某试验成功率为 0.5，独立重复 4 次，求恰好成功 2 次的概率。",
+        "steps": [
+          "X～B(4,0.5)",
+          "P(X＝2)＝C(4,2)×0.5⁴",
+          "＝6/16＝3/8"
+        ],
+        "answer": "3/8"
+      },
+      "common_mistakes": [
+        "把二项分布当成超几何分布",
+        "漏乘组合数 C(n,k)"
+      ],
+      "coaching_tip": "有放回或独立重复用二项分布；无放回小样本用超几何分布。"
+    }
+  },
+  {
+    "id": "cnm_401",
+    "name": "相关关系与相关系数",
+    "domain": "统计与概率",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第8章 成对数据的统计分析 8.1 成对数据的相关分析",
+    "type": "conceptual",
+    "description": "理解相关关系与散点图，会计算样本相关系数 r，能根据 |r| 判断相关性的强弱与正负。",
+    "mastery_criteria": [
+      "能由散点图判断正相关、负相关",
+      "知道 r∈[-1,1] 及其含义",
+      "会用 r 比较两组数据的相关性"
+    ],
+    "diagnostic_question": {
+      "question": "样本相关系数 r 的取值范围是（　）。",
+      "answer": "[-1,1]"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:2.SP.07",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能由散点图判断正相关、负相关",
+        "知道 r∈[-1,1] 及其含义",
+        "会用 r 比较两组数据的相关性"
+      ],
+      "worked_example": {
+        "problem": "若样本相关系数 r＝-0.9，说明两个变量之间是什么关系？",
+        "steps": [
+          "r＜0 表示负相关",
+          "|r|＝0.9 接近 1，说明负相关程度较强"
+        ],
+        "answer": "较强的负相关"
+      },
+      "common_mistakes": [
+        "认为 r 就是回归直线的斜率",
+        "把 r＝0 理解成“没有关系”（只是没有线性相关）"
+      ],
+      "coaching_tip": "r 只看线性相关：|r| 越接近 1 越强，接近 0 越弱；符号表示正负相关。"
+    }
+  },
+  {
+    "id": "cnm_402",
+    "name": "一元线性回归模型",
+    "domain": "统计与概率",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第8章 成对数据的统计分析 8.2 一元线性回归分析",
+    "type": "application",
+    "description": "理解一元线性回归模型，会用最小二乘法思想求回归方程，能用回归方程进行简单预测并解释其含义。",
+    "mastery_criteria": [
+      "能说出回归直线必过样本中心点 (x̄,ȳ)",
+      "会由回归方程做预测",
+      "理解“预测”不是“确定”"
+    ],
+    "diagnostic_question": {
+      "question": "回归方程 ŷ＝2x＋1，x＝3 时的预测值是多少？",
+      "answer": "7"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:2.SP.07",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能说出回归直线必过样本中心点 (x̄,ȳ)",
+        "会由回归方程做预测",
+        "理解“预测”不是“确定”"
+      ],
+      "worked_example": {
+        "problem": "已知回归方程 ŷ＝2x＋1，当 x＝3 时预测值是多少？",
+        "steps": [
+          "把 x＝3 代入",
+          "ŷ＝2×3＋1＝7"
+        ],
+        "answer": "7"
+      },
+      "common_mistakes": [
+        "把回归方程当成确定的函数关系",
+        "忘记回归直线过样本中心点"
+      ],
+      "coaching_tip": "回归直线过 (x̄,ȳ)；预测值只是“平均趋势”，不能保证每个个体都符合。"
+    }
+  },
+  {
+    "id": "cnm_403",
+    "name": "独立性检验",
+    "domain": "统计与概率",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "选择性必修第二册 第8章 成对数据的统计分析 8.3 独立性检验",
+    "type": "application",
+    "description": "了解 2×2 列联表，理解独立性检验的基本思想，会计算 χ² 统计量并对照临界值作出判断。",
+    "mastery_criteria": [
+      "能由列联表读出各类频数",
+      "会计算 χ²＝n(ad－bc)²/[(a+b)(c+d)(a+c)(b+d)]",
+      "能对照临界值说明“有 95% 把握认为有关”等结论"
+    ],
+    "diagnostic_question": {
+      "question": "独立性检验中，χ² 的值越大，说明（　）。",
+      "answer": "两个变量有关的把握越大"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:2.SP.08",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能由列联表读出各类频数",
+        "会计算 χ²＝n(ad－bc)²/[(a+b)(c+d)(a+c)(b+d)]",
+        "能对照临界值说明“有 95% 把握认为有关”等结论"
+      ],
+      "worked_example": {
+        "problem": "2×2 列联表中 n＝100，ad－bc＝10，各边际和均为 50，求 χ²。",
+        "steps": [
+          "χ²＝100×10²/(50×50×50×50)",
+          "＝10000/6250000×100",
+          "＝100×100/6250000＝0.16"
+        ],
+        "answer": "0.16"
+      },
+      "common_mistakes": [
+        "把 χ² 的大小直接解释为“相关程度高低”",
+        "结论表述为“有 95% 概率有关”"
+      ],
+      "coaching_tip": "χ² 越大，认为两变量有关的把握越大；规范表述是“有 95% 的把握认为有关”，不是“概率”。"
+    }
+  },
+  {
+    "id": "cnm_404",
+    "name": "数学建模的一般流程",
+    "domain": "综合与实践",
+    "grade": 12,
+    "semester": "下",
+    "chapter": "选择性必修第三册 第1章 数学建模活动 1.1 数学建模的一般流程",
+    "type": "modeling",
+    "description": "经历“实际问题—数学问题—数学模型—求解检验—回到实际”的完整过程，理解建模各环节的作用与相互关系。",
+    "mastery_criteria": [
+      "能说出建模的五个基本环节",
+      "能把一个实际问题转化为明确的数学问题",
+      "能对模型结果作出检验与解释"
+    ],
+    "diagnostic_question": {
+      "question": "数学建模的一般流程中，紧跟“建立模型”之后的环节是（　）。",
+      "answer": "求解模型"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:2.IP.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能说出建模的五个基本环节",
+        "能把一个实际问题转化为明确的数学问题",
+        "能对模型结果作出检验与解释"
+      ],
+      "worked_example": {
+        "problem": "用一句话概括数学建模的核心思路。",
+        "steps": [
+          "从实际问题中抽象出数学关系",
+          "建立模型并求解",
+          "再把结果返回到实际情境中检验与解释"
+        ],
+        "answer": "实际问题数学化 → 求解 → 结果实际化"
+      },
+      "common_mistakes": [
+        "跳过“检验”环节，直接把答案当结论",
+        "把模型假设当成已知事实"
+      ],
+      "coaching_tip": "建模的关键是“假设要合理、检验要回到实际”：模型只是对现实的近似。"
+    }
+  },
+  {
+    "id": "cnm_405",
+    "name": "函数模型的应用",
+    "domain": "综合与实践",
+    "grade": 12,
+    "semester": "下",
+    "chapter": "选择性必修第三册 第1章 数学建模活动 1.2 函数模型",
+    "type": "modeling",
+    "description": "能根据实际数据选择一次、二次、指数或分段函数模型进行拟合，并用模型作出预测与优化。",
+    "mastery_criteria": [
+      "能由数据的变化趋势选择函数类型",
+      "会由已知条件确定模型中的参数",
+      "能用函数模型求最优方案"
+    ],
+    "diagnostic_question": {
+      "question": "某商品成本 20 元，售价 x 元时日销量为 160－2x 件，则利润函数在 x 等于多少时最大？",
+      "answer": "50"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:2.IP.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "cmh-2017:1.IP.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能由数据的变化趋势选择函数类型",
+        "会由已知条件确定模型中的参数",
+        "能用函数模型求最优方案"
+      ],
+      "worked_example": {
+        "problem": "某商品成本 20 元，售价 x 元时日销量为 100－2(x－30) 件，求售价使利润最大时的定价。",
+        "steps": [
+          "利润 L＝(x－20)[100－2(x－30)]",
+          "＝(x－20)(160－2x)＝-2(x－20)(x－80)",
+          "顶点在 x＝50，所以定价 50 元时利润最大"
+        ],
+        "answer": "50 元"
+      },
+      "common_mistakes": [
+        "只求函数值不检验取值范围（如销量不能为负）",
+        "把一次增长误当指数增长"
+      ],
+      "coaching_tip": "选模型先看“增长方式”：匀速增长用一次，先增后减用二次，按比例增长用指数。"
+    }
+  },
+  {
+    "id": "cnm_406",
+    "name": "统计模型与数据分析",
+    "domain": "综合与实践",
+    "grade": 12,
+    "semester": "下",
+    "chapter": "选择性必修第三册 第1章 数学建模活动 1.3 统计模型",
+    "type": "modeling",
+    "description": "能用平均数、方差、频率分布与回归分析等统计工具处理实际数据，用样本估计总体并作出合理决策。",
+    "mastery_criteria": [
+      "能用样本平均数、方差比较两组数据",
+      "能用频率估计概率并作决策",
+      "能用回归方程预测并说明其局限"
+    ],
+    "diagnostic_question": {
+      "question": "甲、乙两组平均数相同，方差分别为 2 和 5，则更稳定的是哪一组（甲用 1 表示，乙用 2 表示）？",
+      "answer": "1"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:2.IP.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "cmh-2017:2.SP.07",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能用样本平均数、方差比较两组数据",
+        "能用频率估计概率并作决策",
+        "能用回归方程预测并说明其局限"
+      ],
+      "worked_example": {
+        "problem": "甲、乙两组数据平均数相同，方差分别为 2 与 5，哪组数据更稳定？",
+        "steps": [
+          "方差越小越稳定",
+          "2＜5",
+          "所以甲组更稳定"
+        ],
+        "answer": "甲组"
+      },
+      "common_mistakes": [
+        "只看平均数不看离散程度",
+        "由小样本数据直接下总体结论"
+      ],
+      "coaching_tip": "比较数据要“平均数看水平、方差看稳定”；用样本推断总体时要注意样本的代表性与容量。"
+    }
+  },
+  {
+    "id": "cnm_407",
+    "name": "几何与优化模型",
+    "domain": "综合与实践",
+    "grade": 12,
+    "semester": "下",
+    "chapter": "选择性必修第三册 第1章 数学建模活动 1.4 几何与优化模型",
+    "type": "modeling",
+    "description": "能把实际中的长度、面积、体积、角度问题转化为几何模型，并用几何或代数方法求最优方案。",
+    "mastery_criteria": [
+      "能把实际情境抽象为几何图形并标注已知量",
+      "会用勾股定理、相似、面积体积公式建立关系",
+      "会用函数或不等式求最值"
+    ],
+    "diagnostic_question": {
+      "question": "用 12 米篱笆靠墙围矩形菜园（墙为一边），宽为多少米时面积最大？",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": [
+      {
+        "id": "cmh-2017:2.IP.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "cmh-2017:1.IP.01",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能把实际情境抽象为几何图形并标注已知量",
+        "会用勾股定理、相似、面积体积公式建立关系",
+        "会用函数或不等式求最值"
+      ],
+      "worked_example": {
+        "problem": "用 12 米长的篱笆靠墙围一个矩形菜园（墙作为一边），求面积最大时的宽。",
+        "steps": [
+          "设宽为 x，则长为 12－2x",
+          "面积 S＝x(12－2x)＝-2x²＋12x",
+          "顶点 x＝3，所以宽 3 米时面积最大"
+        ],
+        "answer": "3 米"
+      },
+      "common_mistakes": [
+        "靠墙问题中把墙也计入篱笆长度",
+        "求最值时忽略变量的实际范围"
+      ],
+      "coaching_tip": "几何优化四步：设元 → 用已知量表示目标 → 写出定义域 → 求最值并检验。"
+    }
+  },
+  {
+    "id": "cne_190",
+    "name": "问候与自我介绍（Unit 1 Greetings）",
+    "domain": "日常表达",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上 Unit 1 Greetings",
+    "type": "application",
+    "description": "本知识点对应沪教版《英语》一年级上 Unit 1 Greetings，主题为问候与自我介绍。本单元核心词：hello（你好）、hi（嗨）、morning（早上）、goodbye（再见）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：hello、hi、morning、goodbye。",
+      "能在本单元情境中完成问答、请求与翻译。"
+    ],
+    "diagnostic_question": {
+      "question": "「你好」的英文是（　）。",
+      "answer": "hello"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "一年级上",
+    "unit_no": 1,
+    "standards": [
+      {
+        "id": "ces-2022:1.PU.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.PH.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：hello、hi、morning、goodbye。",
+        "能在本单元情境中完成问答、请求与翻译。"
+      ],
+      "worked_example": {
+        "problem": "Good ____, Miss Fang.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "上午见面用 Good morning；晚上用 Good evening。",
+          "因此填 morning。"
+        ],
+        "answer": "morning"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 hello 漏写或写错字母。",
+        "问答时漏掉助动词或答语与问句不匹配。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 hello 造两个句子，最后完成 4 道练习。"
+    },
+    "root_reason": "沪教版英语从一年级起开设（一年级起点），本知识点是全图英语部分的起点，前面没有更早的英语知识点。"
+  },
+  {
+    "id": "cne_191",
+    "name": "认识新朋友（Unit 2 New friends）",
+    "domain": "日常表达",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上 Unit 2 New friends",
+    "type": "application",
+    "description": "本知识点对应沪教版《英语》一年级上 Unit 2 New friends，主题为认识新朋友。本单元核心词：friend（朋友）、name（名字）、nice（好的）、meet（遇见）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：friend、name、nice、meet。",
+      "能在本单元情境中完成问答、请求与翻译。"
+    ],
+    "diagnostic_question": {
+      "question": "「名字」的英文是（　）。",
+      "answer": "name"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "一年级上",
+    "unit_no": 2,
+    "standards": [
+      {
+        "id": "ces-2022:1.PU.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：friend、name、nice、meet。",
+        "能在本单元情境中完成问答、请求与翻译。"
+      ],
+      "worked_example": {
+        "problem": "Nice to ____ you.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "初次见面说 Nice to meet you.（很高兴见到你。）",
+          "因此填 meet。"
+        ],
+        "answer": "meet"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 friend 漏写或写错字母。",
+        "问答时漏掉助动词或答语与问句不匹配。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 friend 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_192",
+    "name": "书包与学习用品（Unit 3 My schoolbag）",
+    "domain": "词汇",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上 Unit 3 My schoolbag",
+    "type": "conceptual",
+    "description": "本知识点对应沪教版《英语》一年级上 Unit 3 My schoolbag，主题为书包与学习用品。本单元核心词：schoolbag（书包）、book（书）、pencil（铅笔）、ruler（尺子）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：schoolbag、book、pencil、ruler。",
+      "能根据中文提示写出本单元核心词，并在句中正确使用。"
+    ],
+    "diagnostic_question": {
+      "question": "「铅笔」的英文是（　）。",
+      "answer": "pencil"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "一年级上",
+    "unit_no": 3,
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：schoolbag、book、pencil、ruler。",
+        "能根据中文提示写出本单元核心词，并在句中正确使用。"
+      ],
+      "worked_example": {
+        "problem": "This is my ____. I put books in it.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "装书的是 schoolbag（书包）。",
+          "因此填 schoolbag。"
+        ],
+        "answer": "schoolbag"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 schoolbag 漏写或写错字母。",
+        "可数名词单复数与冠词漏用（如 a apple、two cat）。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 schoolbag 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_193",
+    "name": "教室与简单指令（Unit 4 My classroom）",
+    "domain": "词汇",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上 Unit 4 My classroom",
+    "type": "conceptual",
+    "description": "本知识点对应沪教版《英语》一年级上 Unit 4 My classroom，主题为教室与简单指令。本单元核心词：classroom（教室）、desk（课桌）、chair（椅子）、door（门）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：classroom、desk、chair、door。",
+      "能根据中文提示写出本单元核心词，并在句中正确使用。"
+    ],
+    "diagnostic_question": {
+      "question": "「门」的英文是（　）。",
+      "answer": "door"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "一年级上",
+    "unit_no": 4,
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：classroom、desk、chair、door。",
+        "能根据中文提示写出本单元核心词，并在句中正确使用。"
+      ],
+      "worked_example": {
+        "problem": "Please open the ____.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "open the door 意为“开门”。",
+          "因此填 door。"
+        ],
+        "answer": "door"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 classroom 漏写或写错字母。",
+        "可数名词单复数与冠词漏用（如 a apple、two cat）。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 classroom 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_194",
+    "name": "五官与外貌（Unit 5 Lovely faces）",
+    "domain": "词汇",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上 Unit 5 Lovely faces",
+    "type": "conceptual",
+    "description": "本知识点对应沪教版《英语》一年级上 Unit 5 Lovely faces，主题为五官与外貌。本单元核心词：face（脸）、eye（眼睛）、ear（耳朵）、nose（鼻子）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：face、eye、ear、nose。",
+      "能根据中文提示写出本单元核心词，并在句中正确使用。"
+    ],
+    "diagnostic_question": {
+      "question": "「脸」的英文是（　）。",
+      "answer": "face"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "一年级上",
+    "unit_no": 5,
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：face、eye、ear、nose。",
+        "能根据中文提示写出本单元核心词，并在句中正确使用。"
+      ],
+      "worked_example": {
+        "problem": "I have two big ____.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "two 后接可数名词复数，eye 的复数是 eyes。",
+          "因此填 eyes。"
+        ],
+        "answer": "eyes"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 face 漏写或写错字母。",
+        "可数名词单复数与冠词漏用（如 a apple、two cat）。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 face 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_195",
+    "name": "家庭成员（Unit 6 My family）",
+    "domain": "词汇",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上 Unit 6 My family",
+    "type": "conceptual",
+    "description": "本知识点对应沪教版《英语》一年级上 Unit 6 My family，主题为家庭成员。本单元核心词：father（父亲）、mother（母亲）、brother（兄弟）、sister（姐妹）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：father、mother、brother、sister。",
+      "能根据中文提示写出本单元核心词，并在句中正确使用。"
+    ],
+    "diagnostic_question": {
+      "question": "「母亲」的英文是（　）。",
+      "answer": "mother"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "一年级上",
+    "unit_no": 6,
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：father、mother、brother、sister。",
+        "能根据中文提示写出本单元核心词，并在句中正确使用。"
+      ],
+      "worked_example": {
+        "problem": "This is my ____. She is a teacher.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "she 指女性，所以填 mother。",
+          "因此填 mother。"
+        ],
+        "answer": "mother"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 father 漏写或写错字母。",
+        "可数名词单复数与冠词漏用（如 a apple、two cat）。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 father 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_196",
+    "name": "身边的动物（Unit 7 Animals in our lives）",
+    "domain": "词汇",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上 Unit 7 Animals in our lives",
+    "type": "conceptual",
+    "description": "本知识点对应沪教版《英语》一年级上 Unit 7 Animals in our lives，主题为身边的动物。本单元核心词：cat（猫）、dog（狗）、bird（鸟）、fish（鱼）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：cat、dog、bird、fish。",
+      "能根据中文提示写出本单元核心词，并在句中正确使用。"
+    ],
+    "diagnostic_question": {
+      "question": "「鸟」的英文是（　）。",
+      "answer": "bird"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "一年级上",
+    "unit_no": 7,
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：cat、dog、bird、fish。",
+        "能根据中文提示写出本单元核心词，并在句中正确使用。"
+      ],
+      "worked_example": {
+        "problem": "The ____ can fly in the sky.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "会飞的是鸟 bird。",
+          "因此填 bird。"
+        ],
+        "answer": "bird"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 cat 漏写或写错字母。",
+        "可数名词单复数与冠词漏用（如 a apple、two cat）。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 cat 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_197",
+    "name": "动作与鼓励（Unit 8 Have a go!）",
+    "domain": "日常表达",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上 Unit 8 Have a go!",
+    "type": "application",
+    "description": "本知识点对应沪教版《英语》一年级上 Unit 8 Have a go!，主题为动作与鼓励。本单元核心词：try（尝试）、run（跑）、jump（跳）、swim（游泳）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：try、run、jump、swim。",
+      "能在本单元情境中完成问答、请求与翻译。"
+    ],
+    "diagnostic_question": {
+      "question": "「游泳」的英文是（　）。",
+      "answer": "swim"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "一年级上",
+    "unit_no": 8,
+    "standards": [
+      {
+        "id": "ces-2022:1.PU.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：try、run、jump、swim。",
+        "能在本单元情境中完成问答、请求与翻译。"
+      ],
+      "worked_example": {
+        "problem": "I can ____ fast. Look!",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "run fast 意为“跑得快”。",
+          "因此填 run。"
+        ],
+        "answer": "run"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 try 漏写或写错字母。",
+        "问答时漏掉助动词或答语与问句不匹配。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 try 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_198",
+    "name": "能力与 can 的用法（Unit 9 Yes, I can!）",
+    "domain": "语法",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上 Unit 9 Yes, I can!",
+    "type": "procedural",
+    "description": "本知识点对应沪教版《英语》一年级上 Unit 9 Yes, I can!，主题为能力与 can 的用法。本单元核心词：can（能；会）、sing（唱歌）、dance（跳舞）、draw（画画）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：can、sing、dance、draw。",
+      "能识别本单元语法点在句中的形式，并正确完成填空。"
+    ],
+    "diagnostic_question": {
+      "question": "「能；会」的英文是（　）。",
+      "answer": "can"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "一年级上",
+    "unit_no": 9,
+    "standards": [
+      {
+        "id": "ces-2022:1.GR.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：can、sing、dance、draw。",
+        "能识别本单元语法点在句中的形式，并正确完成填空。"
+      ],
+      "worked_example": {
+        "problem": "I ____ sing. Listen!",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "can 表示“会、能”，后接动词原形。",
+          "因此填 can。"
+        ],
+        "answer": "can"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 can 漏写或写错字母。",
+        "忽略时态与人称，谓语形式用错。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 can 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_199",
+    "name": "数字 1—10（Unit 10 Fun numbers）",
+    "domain": "词汇",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上 Unit 10 Fun numbers",
+    "type": "conceptual",
+    "description": "本知识点对应沪教版《英语》一年级上 Unit 10 Fun numbers，主题为数字 1—10。本单元核心词：one（一）、five（五）、ten（十）、count（数数）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：one、five、ten、count。",
+      "能根据中文提示写出本单元核心词，并在句中正确使用。"
+    ],
+    "diagnostic_question": {
+      "question": "「五」的英文是（　）。",
+      "answer": "five"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "一年级上",
+    "unit_no": 10,
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：one、five、ten、count。",
+        "能根据中文提示写出本单元核心词，并在句中正确使用。"
+      ],
+      "worked_example": {
+        "problem": "There are ____ fingers on one hand.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "一只手有 5 根手指，用 five。",
+          "因此填 five。"
+        ],
+        "answer": "five"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 one 漏写或写错字母。",
+        "可数名词单复数与冠词漏用（如 a apple、two cat）。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 one 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_200",
+    "name": "返校与问候（Unit 1 Back to school）",
+    "domain": "日常表达",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下 Unit 1 Back to school",
+    "type": "application",
+    "description": "本知识点对应沪教版《英语》一年级下 Unit 1 Back to school，主题为返校与问候。本单元核心词：welcome（欢迎）、back（回来）、school（学校）、again（再次）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：welcome、back、school、again。",
+      "能在本单元情境中完成问答、请求与翻译。"
+    ],
+    "diagnostic_question": {
+      "question": "「欢迎」的英文是（　）。",
+      "answer": "welcome"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "一年级下",
+    "unit_no": 1,
+    "standards": [
+      {
+        "id": "ces-2022:1.PU.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：welcome、back、school、again。",
+        "能在本单元情境中完成问答、请求与翻译。"
+      ],
+      "worked_example": {
+        "problem": "Welcome ____ to school!",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "Welcome back to school! 意为“欢迎回到学校”。",
+          "因此填 back。"
+        ],
+        "answer": "back"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 welcome 漏写或写错字母。",
+        "问答时漏掉助动词或答语与问句不匹配。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 welcome 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_201",
+    "name": "午餐与食物（Unit 2 Lunch time）",
+    "domain": "词汇",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下 Unit 2 Lunch time",
+    "type": "conceptual",
+    "description": "本知识点对应沪教版《英语》一年级下 Unit 2 Lunch time，主题为午餐与食物。本单元核心词：rice（米饭）、noodles（面条）、apple（苹果）、milk（牛奶）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：rice、noodles、apple、milk。",
+      "能根据中文提示写出本单元核心词，并在句中正确使用。"
+    ],
+    "diagnostic_question": {
+      "question": "「面条」的英文是（　）。",
+      "answer": "noodles"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "一年级下",
+    "unit_no": 2,
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：rice、noodles、apple、milk。",
+        "能根据中文提示写出本单元核心词，并在句中正确使用。"
+      ],
+      "worked_example": {
+        "problem": "I am hungry. I would like some ____.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "hungry 时想吃饭，rice 是米饭。",
+          "因此填 rice。"
+        ],
+        "answer": "rice"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 rice 漏写或写错字母。",
+        "可数名词单复数与冠词漏用（如 a apple、two cat）。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 rice 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_202",
+    "name": "颜色（Unit 3 Colours in the park）",
+    "domain": "词汇",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下 Unit 3 Colours in the park",
+    "type": "conceptual",
+    "description": "本知识点对应沪教版《英语》一年级下 Unit 3 Colours in the park，主题为颜色。本单元核心词：red（红色）、blue（蓝色）、green（绿色）、yellow（黄色）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：red、blue、green、yellow。",
+      "能根据中文提示写出本单元核心词，并在句中正确使用。"
+    ],
+    "diagnostic_question": {
+      "question": "「绿色」的英文是（　）。",
+      "answer": "green"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "一年级下",
+    "unit_no": 3,
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：red、blue、green、yellow。",
+        "能根据中文提示写出本单元核心词，并在句中正确使用。"
+      ],
+      "worked_example": {
+        "problem": "The grass is ____.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "草是绿色的，用 green。",
+          "因此填 green。"
+        ],
+        "answer": "green"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 red 漏写或写错字母。",
+        "可数名词单复数与冠词漏用（如 a apple、two cat）。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 red 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_203",
+    "name": "游乐场与活动（Unit 4 In the playground）",
+    "domain": "日常表达",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下 Unit 4 In the playground",
+    "type": "application",
+    "description": "本知识点对应沪教版《英语》一年级下 Unit 4 In the playground，主题为游乐场与活动。本单元核心词：slide（滑梯）、swing（秋千）、run（跑）、play（玩）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：slide、swing、run、play。",
+      "能在本单元情境中完成问答、请求与翻译。"
+    ],
+    "diagnostic_question": {
+      "question": "「玩」的英文是（　）。",
+      "answer": "play"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "一年级下",
+    "unit_no": 4,
+    "standards": [
+      {
+        "id": "ces-2022:1.PU.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：slide、swing、run、play。",
+        "能在本单元情境中完成问答、请求与翻译。"
+      ],
+      "worked_example": {
+        "problem": "I like the ____. It is high.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "荡秋千是 play on the swing；高的设施是 swing。",
+          "因此填 swing。"
+        ],
+        "answer": "swing"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 slide 漏写或写错字母。",
+        "问答时漏掉助动词或答语与问句不匹配。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 slide 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_204",
+    "name": "天气（Unit 5 Weather）",
+    "domain": "词汇",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下 Unit 5 Weather",
+    "type": "conceptual",
+    "description": "本知识点对应沪教版《英语》一年级下 Unit 5 Weather，主题为天气。本单元核心词：sunny（晴朗的）、rainy（下雨的）、windy（有风的）、cloudy（多云的）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：sunny、rainy、windy、cloudy。",
+      "能根据中文提示写出本单元核心词，并在句中正确使用。"
+    ],
+    "diagnostic_question": {
+      "question": "「晴朗的」的英文是（　）。",
+      "answer": "sunny"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "一年级下",
+    "unit_no": 5,
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：sunny、rainy、windy、cloudy。",
+        "能根据中文提示写出本单元核心词，并在句中正确使用。"
+      ],
+      "worked_example": {
+        "problem": "It is ____ today. Take an umbrella.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "要带伞说明下雨，用 rainy。",
+          "因此填 rainy。"
+        ],
+        "answer": "rainy"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 sunny 漏写或写错字母。",
+        "可数名词单复数与冠词漏用（如 a apple、two cat）。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 sunny 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_205",
+    "name": "衣物（Unit 6 Clothes）",
+    "domain": "词汇",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下 Unit 6 Clothes",
+    "type": "conceptual",
+    "description": "本知识点对应沪教版《英语》一年级下 Unit 6 Clothes，主题为衣物。本单元核心词：coat（外套）、hat（帽子）、shoes（鞋子）、dress（连衣裙）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：coat、hat、shoes、dress。",
+      "能根据中文提示写出本单元核心词，并在句中正确使用。"
+    ],
+    "diagnostic_question": {
+      "question": "「帽子」的英文是（　）。",
+      "answer": "hat"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "一年级下",
+    "unit_no": 6,
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：coat、hat、shoes、dress。",
+        "能根据中文提示写出本单元核心词，并在句中正确使用。"
+      ],
+      "worked_example": {
+        "problem": "Put on your ____. It is cold outside.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "天冷要穿外套 coat。",
+          "因此填 coat。"
+        ],
+        "answer": "coat"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 coat 漏写或写错字母。",
+        "可数名词单复数与冠词漏用（如 a apple、two cat）。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 coat 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_206",
+    "name": "课后活动（Unit 7 After school）",
+    "domain": "日常表达",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下 Unit 7 After school",
+    "type": "application",
+    "description": "本知识点对应沪教版《英语》一年级下 Unit 7 After school，主题为课后活动。本单元核心词：homework（作业）、read（读）、draw（画）、play（玩）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：homework、read、draw、play。",
+      "能在本单元情境中完成问答、请求与翻译。"
+    ],
+    "diagnostic_question": {
+      "question": "「画」的英文是（　）。",
+      "answer": "draw"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "一年级下",
+    "unit_no": 7,
+    "standards": [
+      {
+        "id": "ces-2022:1.PU.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：homework、read、draw、play。",
+        "能在本单元情境中完成问答、请求与翻译。"
+      ],
+      "worked_example": {
+        "problem": "I do my ____ after school.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "do one's homework 意为“做作业”。",
+          "因此填 homework。"
+        ],
+        "answer": "homework"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 homework 漏写或写错字母。",
+        "问答时漏掉助动词或答语与问句不匹配。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 homework 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_207",
+    "name": "交通安全（Unit 8 Traffic safety）",
+    "domain": "日常表达",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下 Unit 8 Traffic safety",
+    "type": "application",
+    "description": "本知识点对应沪教版《英语》一年级下 Unit 8 Traffic safety，主题为交通安全。本单元核心词：stop（停）、go（走）、red（红色）、green（绿色）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：stop、go、red、green。",
+      "能在本单元情境中完成问答、请求与翻译。"
+    ],
+    "diagnostic_question": {
+      "question": "「绿色」的英文是（　）。",
+      "answer": "green"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "一年级下",
+    "unit_no": 8,
+    "standards": [
+      {
+        "id": "ces-2022:1.PU.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：stop、go、red、green。",
+        "能在本单元情境中完成问答、请求与翻译。"
+      ],
+      "worked_example": {
+        "problem": "The light is ____. We must stop.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "红灯停：red light 表示停止。",
+          "因此填 red。"
+        ],
+        "answer": "red"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 stop 漏写或写错字母。",
+        "问答时漏掉助动词或答语与问句不匹配。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 stop 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_208",
+    "name": "动物园里的动物（Unit 9 I see animals）",
+    "domain": "词汇",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下 Unit 9 I see animals",
+    "type": "conceptual",
+    "description": "本知识点对应沪教版《英语》一年级下 Unit 9 I see animals，主题为动物园里的动物。本单元核心词：panda（熊猫）、monkey（猴子）、tiger（老虎）、elephant（大象）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：panda、monkey、tiger、elephant。",
+      "能根据中文提示写出本单元核心词，并在句中正确使用。"
+    ],
+    "diagnostic_question": {
+      "question": "「熊猫」的英文是（　）。",
+      "answer": "panda"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "一年级下",
+    "unit_no": 9,
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：panda、monkey、tiger、elephant。",
+        "能根据中文提示写出本单元核心词，并在句中正确使用。"
+      ],
+      "worked_example": {
+        "problem": "The ____ is black and white.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "黑白相间的动物是熊猫 panda。",
+          "因此填 panda。"
+        ],
+        "answer": "panda"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 panda 漏写或写错字母。",
+        "可数名词单复数与冠词漏用（如 a apple、two cat）。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 panda 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_209",
+    "name": "玩具与喜好（Unit 10 I like toys）",
+    "domain": "语法",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下 Unit 10 I like toys",
+    "type": "procedural",
+    "description": "本知识点对应沪教版《英语》一年级下 Unit 10 I like toys，主题为玩具与喜好。本单元核心词：toy（玩具）、doll（玩偶）、ball（球）、like（喜欢）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：toy、doll、ball、like。",
+      "能识别本单元语法点在句中的形式，并正确完成填空。"
+    ],
+    "diagnostic_question": {
+      "question": "「玩偶」的英文是（　）。",
+      "answer": "doll"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "一年级下",
+    "unit_no": 10,
+    "standards": [
+      {
+        "id": "ces-2022:1.GR.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：toy、doll、ball、like。",
+        "能识别本单元语法点在句中的形式，并正确完成填空。"
+      ],
+      "worked_example": {
+        "problem": "I ____ my ball. I play with it every day.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "like 表示“喜欢”，主语 I 后用原形。",
+          "因此填 like。"
+        ],
+        "answer": "like"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 toy 漏写或写错字母。",
+        "忽略时态与人称，谓语形式用错。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 toy 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_210",
+    "name": "早晨的日常（Unit 1 My morning）",
+    "domain": "日常表达",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上 Unit 1 My morning",
+    "type": "application",
+    "description": "本知识点对应沪教版《英语》二年级上 Unit 1 My morning，主题为早晨的日常。本单元核心词：get up（起床）、wash（洗）、breakfast（早饭）、school（学校）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：get up、wash、breakfast、school。",
+      "能在本单元情境中完成问答、请求与翻译。"
+    ],
+    "diagnostic_question": {
+      "question": "「起床」的英文是（　）。",
+      "answer": "get up"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "二年级上",
+    "unit_no": 1,
+    "standards": [
+      {
+        "id": "ces-2022:1.PU.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：get up、wash、breakfast、school。",
+        "能在本单元情境中完成问答、请求与翻译。"
+      ],
+      "worked_example": {
+        "problem": "I ____ at seven in the morning.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "get up 意为“起床”，主语 I 后用原形。",
+          "因此填 get up。"
+        ],
+        "answer": "get up"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 get up 漏写或写错字母。",
+        "问答时漏掉助动词或答语与问句不匹配。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 get up 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_211",
+    "name": "房间物品（Unit 2 My room）",
+    "domain": "词汇",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上 Unit 2 My room",
+    "type": "conceptual",
+    "description": "本知识点对应沪教版《英语》二年级上 Unit 2 My room，主题为房间物品。本单元核心词：bed（床）、desk（书桌）、box（盒子）、window（窗户）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：bed、desk、box、window。",
+      "能根据中文提示写出本单元核心词，并在句中正确使用。"
+    ],
+    "diagnostic_question": {
+      "question": "「书桌」的英文是（　）。",
+      "answer": "desk"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "二年级上",
+    "unit_no": 2,
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：bed、desk、box、window。",
+        "能根据中文提示写出本单元核心词，并在句中正确使用。"
+      ],
+      "worked_example": {
+        "problem": "My books are on the ____.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "书放在书桌 desk 上。",
+          "因此填 desk。"
+        ],
+        "answer": "desk"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 bed 漏写或写错字母。",
+        "可数名词单复数与冠词漏用（如 a apple、two cat）。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 bed 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_212",
+    "name": "上学路上（Unit 3 On the way）",
+    "domain": "日常表达",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上 Unit 3 On the way",
+    "type": "application",
+    "description": "本知识点对应沪教版《英语》二年级上 Unit 3 On the way，主题为上学路上。本单元核心词：bus（公共汽车）、bike（自行车）、walk（步行）、road（路）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：bus、bike、walk、road。",
+      "能在本单元情境中完成问答、请求与翻译。"
+    ],
+    "diagnostic_question": {
+      "question": "「步行」的英文是（　）。",
+      "answer": "walk"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "二年级上",
+    "unit_no": 3,
+    "standards": [
+      {
+        "id": "ces-2022:1.PU.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：bus、bike、walk、road。",
+        "能在本单元情境中完成问答、请求与翻译。"
+      ],
+      "worked_example": {
+        "problem": "I go to school by ____. It is a big yellow bus.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "by bus 意为“乘公共汽车”。",
+          "因此填 bus。"
+        ],
+        "answer": "bus"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 bus 漏写或写错字母。",
+        "问答时漏掉助动词或答语与问句不匹配。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 bus 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_213",
+    "name": "运动（Unit 4 Playing sports）",
+    "domain": "词汇",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上 Unit 4 Playing sports",
+    "type": "conceptual",
+    "description": "本知识点对应沪教版《英语》二年级上 Unit 4 Playing sports，主题为运动。本单元核心词：football（足球）、basketball（篮球）、swim（游泳）、run（跑）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：football、basketball、swim、run。",
+      "能根据中文提示写出本单元核心词，并在句中正确使用。"
+    ],
+    "diagnostic_question": {
+      "question": "「跑」的英文是（　）。",
+      "answer": "run"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "二年级上",
+    "unit_no": 4,
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：football、basketball、swim、run。",
+        "能根据中文提示写出本单元核心词，并在句中正确使用。"
+      ],
+      "worked_example": {
+        "problem": "I play ____ with my friends after school.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "play football 意为“踢足球”，球类前不加 the。",
+          "因此填 football。"
+        ],
+        "answer": "football"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 football 漏写或写错字母。",
+        "可数名词单复数与冠词漏用（如 a apple、two cat）。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 football 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_214",
+    "name": "天空与天体（Unit 5 In the sky）",
+    "domain": "词汇",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上 Unit 5 In the sky",
+    "type": "conceptual",
+    "description": "本知识点对应沪教版《英语》二年级上 Unit 5 In the sky，主题为天空与天体。本单元核心词：sun（太阳）、moon（月亮）、star（星星）、cloud（云）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：sun、moon、star、cloud。",
+      "能根据中文提示写出本单元核心词，并在句中正确使用。"
+    ],
+    "diagnostic_question": {
+      "question": "「太阳」的英文是（　）。",
+      "answer": "sun"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "二年级上",
+    "unit_no": 5,
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：sun、moon、star、cloud。",
+        "能根据中文提示写出本单元核心词，并在句中正确使用。"
+      ],
+      "worked_example": {
+        "problem": "The ____ is bright at night.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "晚上明亮的是月亮 moon。",
+          "因此填 moon。"
+        ],
+        "answer": "moon"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 sun 漏写或写错字母。",
+        "可数名词单复数与冠词漏用（如 a apple、two cat）。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 sun 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_215",
+    "name": "海洋生物（Unit 6 In the sea）",
+    "domain": "词汇",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上 Unit 6 In the sea",
+    "type": "conceptual",
+    "description": "本知识点对应沪教版《英语》二年级上 Unit 6 In the sea，主题为海洋生物。本单元核心词：fish（鱼）、whale（鲸）、crab（蟹）、sea（海）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：fish、whale、crab、sea。",
+      "能根据中文提示写出本单元核心词，并在句中正确使用。"
+    ],
+    "diagnostic_question": {
+      "question": "「鲸」的英文是（　）。",
+      "answer": "whale"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "二年级上",
+    "unit_no": 6,
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：fish、whale、crab、sea。",
+        "能根据中文提示写出本单元核心词，并在句中正确使用。"
+      ],
+      "worked_example": {
+        "problem": "A ____ is very big and lives in the sea.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "生活在海里的大型动物是鲸 whale。",
+          "因此填 whale。"
+        ],
+        "answer": "whale"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 fish 漏写或写错字母。",
+        "可数名词单复数与冠词漏用（如 a apple、two cat）。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 fish 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_216",
+    "name": "四季（Unit 7 Seasons）",
+    "domain": "词汇",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上 Unit 7 Seasons",
+    "type": "conceptual",
+    "description": "本知识点对应沪教版《英语》二年级上 Unit 7 Seasons，主题为四季。本单元核心词：spring（春天）、summer（夏天）、autumn（秋天）、winter（冬天）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：spring、summer、autumn、winter。",
+      "能根据中文提示写出本单元核心词，并在句中正确使用。"
+    ],
+    "diagnostic_question": {
+      "question": "「秋天」的英文是（　）。",
+      "answer": "autumn"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "二年级上",
+    "unit_no": 7,
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：spring、summer、autumn、winter。",
+        "能根据中文提示写出本单元核心词，并在句中正确使用。"
+      ],
+      "worked_example": {
+        "problem": "It is hot in ____.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "夏天炎热，用 summer。",
+          "因此填 summer。"
+        ],
+        "answer": "summer"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 spring 漏写或写错字母。",
+        "可数名词单复数与冠词漏用（如 a apple、two cat）。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 spring 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_217",
+    "name": "水果（Unit 8 Yummy fruit）",
+    "domain": "词汇",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上 Unit 8 Yummy fruit",
+    "type": "conceptual",
+    "description": "本知识点对应沪教版《英语》二年级上 Unit 8 Yummy fruit，主题为水果。本单元核心词：apple（苹果）、banana（香蕉）、orange（橙子）、grape（葡萄）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：apple、banana、orange、grape。",
+      "能根据中文提示写出本单元核心词，并在句中正确使用。"
+    ],
+    "diagnostic_question": {
+      "question": "「葡萄」的英文是（　）。",
+      "answer": "grape"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "二年级上",
+    "unit_no": 8,
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：apple、banana、orange、grape。",
+        "能根据中文提示写出本单元核心词，并在句中正确使用。"
+      ],
+      "worked_example": {
+        "problem": "A ____ is long and yellow.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "又长又黄的水果是香蕉 banana。",
+          "因此填 banana。"
+        ],
+        "answer": "banana"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 apple 漏写或写错字母。",
+        "可数名词单复数与冠词漏用（如 a apple、two cat）。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 apple 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_218",
+    "name": "五种感觉与感官动词（Unit 9 The five senses）",
+    "domain": "语法",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上 Unit 9 The five senses",
+    "type": "procedural",
+    "description": "本知识点对应沪教版《英语》二年级上 Unit 9 The five senses，主题为五种感觉与感官动词。本单元核心词：see（看见）、hear（听见）、smell（闻）、taste（尝）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：see、hear、smell、taste。",
+      "能识别本单元语法点在句中的形式，并正确完成填空。"
+    ],
+    "diagnostic_question": {
+      "question": "「看见」的英文是（　）。",
+      "answer": "see"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "二年级上",
+    "unit_no": 9,
+    "standards": [
+      {
+        "id": "ces-2022:1.GR.03",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：see、hear、smell、taste。",
+        "能识别本单元语法点在句中的形式，并正确完成填空。"
+      ],
+      "worked_example": {
+        "problem": "I ____ with my ears.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "用耳朵听，动词是 hear。",
+          "因此填 hear。"
+        ],
+        "answer": "hear"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 see 漏写或写错字母。",
+        "忽略时态与人称，谓语形式用错。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 see 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_219",
+    "name": "自我介绍（Unit 10 This is me）",
+    "domain": "日常表达",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上 Unit 10 This is me",
+    "type": "application",
+    "description": "本知识点对应沪教版《英语》二年级上 Unit 10 This is me，主题为自我介绍。本单元核心词：tall（高的）、short（矮的）、hair（头发）、eyes（眼睛）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：tall、short、hair、eyes。",
+      "能在本单元情境中完成问答、请求与翻译。"
+    ],
+    "diagnostic_question": {
+      "question": "「矮的」的英文是（　）。",
+      "answer": "short"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "二年级上",
+    "unit_no": 10,
+    "standards": [
+      {
+        "id": "ces-2022:1.PU.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：tall、short、hair、eyes。",
+        "能在本单元情境中完成问答、请求与翻译。"
+      ],
+      "worked_example": {
+        "problem": "I have long ____.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "hair 作“头发”讲通常不可数，不加 -s。",
+          "因此填 hair。"
+        ],
+        "answer": "hair"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 tall 漏写或写错字母。",
+        "问答时漏掉助动词或答语与问句不匹配。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 tall 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_220",
+    "name": "假期与出游（Unit 1 Holidays）",
+    "domain": "日常表达",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下 Unit 1 Holidays",
+    "type": "application",
+    "description": "本知识点对应沪教版《英语》二年级下 Unit 1 Holidays，主题为假期与出游。本单元核心词：holiday（假期）、park（公园）、beach（海滩）、visit（参观）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：holiday、park、beach、visit。",
+      "能在本单元情境中完成问答、请求与翻译。"
+    ],
+    "diagnostic_question": {
+      "question": "「假期」的英文是（　）。",
+      "answer": "holiday"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "二年级下",
+    "unit_no": 1,
+    "standards": [
+      {
+        "id": "ces-2022:1.PU.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：holiday、park、beach、visit。",
+        "能在本单元情境中完成问答、请求与翻译。"
+      ],
+      "worked_example": {
+        "problem": "We go to the ____ in summer. We swim there.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "可以游泳的度假地是海滩 beach。",
+          "因此填 beach。"
+        ],
+        "answer": "beach"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 holiday 漏写或写错字母。",
+        "问答时漏掉助动词或答语与问句不匹配。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 holiday 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_221",
+    "name": "家务劳动（Unit 2 Housework）",
+    "domain": "日常表达",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下 Unit 2 Housework",
+    "type": "application",
+    "description": "本知识点对应沪教版《英语》二年级下 Unit 2 Housework，主题为家务劳动。本单元核心词：clean（打扫）、sweep（扫）、wash（洗）、help（帮助）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：clean、sweep、wash、help。",
+      "能在本单元情境中完成问答、请求与翻译。"
+    ],
+    "diagnostic_question": {
+      "question": "「扫」的英文是（　）。",
+      "answer": "sweep"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "二年级下",
+    "unit_no": 2,
+    "standards": [
+      {
+        "id": "ces-2022:1.PU.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：clean、sweep、wash、help。",
+        "能在本单元情境中完成问答、请求与翻译。"
+      ],
+      "worked_example": {
+        "problem": "I ____ the floor with a broom.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "用扫帚 broom 做的是扫地 sweep。",
+          "因此填 sweep。"
+        ],
+        "answer": "sweep"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 clean 漏写或写错字母。",
+        "问答时漏掉助动词或答语与问句不匹配。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 clean 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_222",
+    "name": "情绪（Unit 3 Feelings）",
+    "domain": "词汇",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下 Unit 3 Feelings",
+    "type": "conceptual",
+    "description": "本知识点对应沪教版《英语》二年级下 Unit 3 Feelings，主题为情绪。本单元核心词：happy（开心的）、sad（难过的）、angry（生气的）、tired（累的）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：happy、sad、angry、tired。",
+      "能根据中文提示写出本单元核心词，并在句中正确使用。"
+    ],
+    "diagnostic_question": {
+      "question": "「生气的」的英文是（　）。",
+      "answer": "angry"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "二年级下",
+    "unit_no": 3,
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：happy、sad、angry、tired。",
+        "能根据中文提示写出本单元核心词，并在句中正确使用。"
+      ],
+      "worked_example": {
+        "problem": "I am ____. I want to sleep.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "想睡觉说明累了，用 tired。",
+          "因此填 tired。"
+        ],
+        "answer": "tired"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 happy 漏写或写错字母。",
+        "可数名词单复数与冠词漏用（如 a apple、two cat）。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 happy 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_223",
+    "name": "机器人与 can（Unit 4 I like robots）",
+    "domain": "语法",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下 Unit 4 I like robots",
+    "type": "procedural",
+    "description": "本知识点对应沪教版《英语》二年级下 Unit 4 I like robots，主题为机器人与 can。本单元核心词：robot（机器人）、can（能；会）、walk（走）、talk（说话）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：robot、can、walk、talk。",
+      "能识别本单元语法点在句中的形式，并正确完成填空。"
+    ],
+    "diagnostic_question": {
+      "question": "「说话」的英文是（　）。",
+      "answer": "talk"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "二年级下",
+    "unit_no": 4,
+    "standards": [
+      {
+        "id": "ces-2022:1.GR.04",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：robot、can、walk、talk。",
+        "能识别本单元语法点在句中的形式，并正确完成填空。"
+      ],
+      "worked_example": {
+        "problem": "The robot ____ walk and talk.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "第三人称单数后用 can 时仍保持原形，不变成 cans。",
+          "因此填 can。"
+        ],
+        "answer": "can"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 robot 漏写或写错字母。",
+        "忽略时态与人称，谓语形式用错。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 robot 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_224",
+    "name": "朋友与分享（Unit 5 Friends）",
+    "domain": "日常表达",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下 Unit 5 Friends",
+    "type": "application",
+    "description": "本知识点对应沪教版《英语》二年级下 Unit 5 Friends，主题为朋友与分享。本单元核心词：friend（朋友）、play（玩）、share（分享）、together（一起）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：friend、play、share、together。",
+      "能在本单元情境中完成问答、请求与翻译。"
+    ],
+    "diagnostic_question": {
+      "question": "「朋友」的英文是（　）。",
+      "answer": "friend"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "二年级下",
+    "unit_no": 5,
+    "standards": [
+      {
+        "id": "ces-2022:1.PU.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：friend、play、share、together。",
+        "能在本单元情境中完成问答、请求与翻译。"
+      ],
+      "worked_example": {
+        "problem": "Let's ____ the toys.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "share 意为“分享”，Let's 后接动词原形。",
+          "因此填 share。"
+        ],
+        "answer": "share"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 friend 漏写或写错字母。",
+        "问答时漏掉助动词或答语与问句不匹配。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 friend 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_225",
+    "name": "母亲节（Unit 6 Mothers）",
+    "domain": "日常表达",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下 Unit 6 Mothers",
+    "type": "application",
+    "description": "本知识点对应沪教版《英语》二年级下 Unit 6 Mothers，主题为母亲节。本单元核心词：mother（母亲）、card（卡片）、flower（花）、love（爱）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：mother、card、flower、love。",
+      "能在本单元情境中完成问答、请求与翻译。"
+    ],
+    "diagnostic_question": {
+      "question": "「卡片」的英文是（　）。",
+      "answer": "card"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "二年级下",
+    "unit_no": 6,
+    "standards": [
+      {
+        "id": "ces-2022:1.PU.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：mother、card、flower、love。",
+        "能在本单元情境中完成问答、请求与翻译。"
+      ],
+      "worked_example": {
+        "problem": "I make a ____ for my mother.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "母亲节做贺卡：make a card。",
+          "因此填 card。"
+        ],
+        "answer": "card"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 mother 漏写或写错字母。",
+        "问答时漏掉助动词或答语与问句不匹配。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 mother 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_226",
+    "name": "植物（Unit 7 Plants）",
+    "domain": "词汇",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下 Unit 7 Plants",
+    "type": "conceptual",
+    "description": "本知识点对应沪教版《英语》二年级下 Unit 7 Plants，主题为植物。本单元核心词：tree（树）、flower（花）、leaf（叶子）、seed（种子）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：tree、flower、leaf、seed。",
+      "能根据中文提示写出本单元核心词，并在句中正确使用。"
+    ],
+    "diagnostic_question": {
+      "question": "「叶子」的英文是（　）。",
+      "answer": "leaf"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "二年级下",
+    "unit_no": 7,
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：tree、flower、leaf、seed。",
+        "能根据中文提示写出本单元核心词，并在句中正确使用。"
+      ],
+      "worked_example": {
+        "problem": "A ____ grows from a seed.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "由种子长成的大植物是树 tree。",
+          "因此填 tree。"
+        ],
+        "answer": "tree"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 tree 漏写或写错字母。",
+        "可数名词单复数与冠词漏用（如 a apple、two cat）。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 tree 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_227",
+    "name": "水边景物（Unit 8 Near the water）",
+    "domain": "词汇",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下 Unit 8 Near the water",
+    "type": "conceptual",
+    "description": "本知识点对应沪教版《英语》二年级下 Unit 8 Near the water，主题为水边景物。本单元核心词：river（河）、boat（小船）、duck（鸭子）、swim（游泳）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：river、boat、duck、swim。",
+      "能根据中文提示写出本单元核心词，并在句中正确使用。"
+    ],
+    "diagnostic_question": {
+      "question": "「游泳」的英文是（　）。",
+      "answer": "swim"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "二年级下",
+    "unit_no": 8,
+    "standards": [
+      {
+        "id": "ces-2022:1.VO.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：river、boat、duck、swim。",
+        "能根据中文提示写出本单元核心词，并在句中正确使用。"
+      ],
+      "worked_example": {
+        "problem": "A ____ is on the river.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "河上的交通工具是 boat。",
+          "因此填 boat。"
+        ],
+        "answer": "boat"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 river 漏写或写错字母。",
+        "可数名词单复数与冠词漏用（如 a apple、two cat）。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 river 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_228",
+    "name": "卫生习惯（Unit 9 Wash my hands）",
+    "domain": "日常表达",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下 Unit 9 Wash my hands",
+    "type": "application",
+    "description": "本知识点对应沪教版《英语》二年级下 Unit 9 Wash my hands，主题为卫生习惯。本单元核心词：wash（洗）、soap（肥皂）、water（水）、clean（干净的）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：wash、soap、water、clean。",
+      "能在本单元情境中完成问答、请求与翻译。"
+    ],
+    "diagnostic_question": {
+      "question": "「洗」的英文是（　）。",
+      "answer": "wash"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "二年级下",
+    "unit_no": 9,
+    "standards": [
+      {
+        "id": "ces-2022:1.PU.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.01",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：wash、soap、water、clean。",
+        "能在本单元情境中完成问答、请求与翻译。"
+      ],
+      "worked_example": {
+        "problem": "I wash my hands with ____.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "洗手要用肥皂 soap。",
+          "因此填 soap。"
+        ],
+        "answer": "soap"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 wash 漏写或写错字母。",
+        "问答时漏掉助动词或答语与问句不匹配。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 wash 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
+    "id": "cne_229",
+    "name": "睡前活动（Unit 10 Good night）",
+    "domain": "日常表达",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下 Unit 10 Good night",
+    "type": "application",
+    "description": "本知识点对应沪教版《英语》二年级下 Unit 10 Good night，主题为睡前活动。本单元核心词：night（夜晚）、sleep（睡觉）、bed（床）、good night（晚安）。",
+    "mastery_criteria": [
+      "能认读并运用本单元核心词：night、sleep、bed、good night。",
+      "能在本单元情境中完成问答、请求与翻译。"
+    ],
+    "diagnostic_question": {
+      "question": "「睡觉」的英文是（　）。",
+      "answer": "sleep"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "unit",
+    "book": "二年级下",
+    "unit_no": 10,
+    "standards": [
+      {
+        "id": "ces-2022:1.PU.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      },
+      {
+        "id": "ces-2022:1.DS.02",
+        "confidence": "inferred",
+        "note": "一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》一级目标（3—4 年级）的入门要求，属于下位参照。"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读并运用本单元核心词：night、sleep、bed、good night。",
+        "能在本单元情境中完成问答、请求与翻译。"
+      ],
+      "worked_example": {
+        "problem": "It is nine o'clock. I go to ____.",
+        "steps": [
+          "先判断空格在句中的成分与语境。",
+          "go to bed 意为“上床睡觉”。",
+          "因此填 bed。"
+        ],
+        "answer": "bed"
+      },
+      "common_mistakes": [
+        "核心词拼写不准确，如 night 漏写或写错字母。",
+        "问答时漏掉助动词或答语与问句不匹配。"
+      ],
+      "coaching_tip": "先跟读本单元对话，再用 night 造两个句子，最后完成 4 道练习。"
+    }
+  },
+  {
     "id": "cne_001",
     "name": "问候与自我介绍（Unit 1 Hello!）",
     "domain": "日常表达",
@@ -15328,10 +21560,6 @@
       {
         "id": "ces-2022:1.DS.01",
         "confidence": "inferred"
-      },
-      {
-        "id": "ces-2022:1.PH.02",
-        "confidence": "inferred"
       }
     ],
     "tutoring": {
@@ -15353,8 +21581,7 @@
         "问答时漏掉助动词或答语与问句不匹配。"
       ],
       "coaching_tip": "先跟读本单元对话，再用 hello 造两个句子，最后完成 4 道练习。"
-    },
-    "root_reason": "沪教版英语从三年级起开设（三年级起点），本知识点是全图英语部分的起点，前面没有更早的英语知识点。"
+    }
   },
   {
     "id": "cne_002",
@@ -24261,6 +30488,230 @@
     }
   },
   {
+    "id": "cne_230",
+    "name": "期末模拟（一年级上册末卷）",
+    "domain": "读写",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "一年级上 册末卷 期末模拟",
+    "type": "application",
+    "description": "一年级上册册末 mini 卷：问候、新朋友、书包、教室、五官、家庭、动物、能力与数字，共 10 题。",
+    "mastery_criteria": [
+      "能认读一上 10 个 Unit 的核心词并完成简单的选词与翻译题",
+      "能用 Hello! / Good morning! / I can ... 完成最基本的问候与自我介绍"
+    ],
+    "diagnostic_question": {
+      "question": "“你好！”的英文是（　）。",
+      "answer": "Hello!"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "paper",
+    "book": "一年级上",
+    "standards": [
+      {
+        "id": "ces-2022:1.PU.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:1.DS.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:1.PH.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读一上 10 个 Unit 的核心词并完成简单的选词与翻译题",
+        "能用 Hello! / Good morning! / I can ... 完成最基本的问候与自我介绍"
+      ],
+      "worked_example": {
+        "problem": "选出正确的词：Good ______, Miss Fang!",
+        "steps": [
+          "上午见面用 Good morning",
+          "下午用 Good afternoon",
+          "晚上用 Good evening"
+        ],
+        "answer": "morning"
+      },
+      "common_mistakes": [
+        "把 Good morning 与 Good night 用错场合",
+        "I can 后误加 -s（I cans sing）"
+      ],
+      "coaching_tip": "一年级先听音跟读，再认词形；每做完一题都大声读一遍完整句子。"
+    }
+  },
+  {
+    "id": "cne_231",
+    "name": "期末模拟（一年级下册末卷）",
+    "domain": "读写",
+    "grade": 1,
+    "semester": "下",
+    "chapter": "一年级下 册末卷 期末模拟",
+    "type": "application",
+    "description": "一年级下册册末 mini 卷：返校、午餐、颜色、游乐场、天气、衣物、课后活动、交通安全、动物与玩具，共 10 题。",
+    "mastery_criteria": [
+      "能认读一下 10 个 Unit 的核心词并完成简单的选词与翻译题",
+      "能用 What colour ...? / It is ... / I like ... 描述颜色、天气与喜好"
+    ],
+    "diagnostic_question": {
+      "question": "Welcome ______ to school!",
+      "answer": "back"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "paper",
+    "book": "一年级下",
+    "standards": [
+      {
+        "id": "ces-2022:1.PU.02",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:1.DS.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:1.GR.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读一下 10 个 Unit 的核心词并完成简单的选词与翻译题",
+        "能用 What colour ...? / It is ... / I like ... 描述颜色、天气与喜好"
+      ],
+      "worked_example": {
+        "problem": "选出正确的词：The grass is ______.",
+        "steps": [
+          "草是绿色的",
+          "green 表示绿色",
+          "blue 表示蓝色"
+        ],
+        "answer": "green"
+      },
+      "common_mistakes": [
+        "颜色词拼写错误（如 gren、yello）",
+        "It is rain 与 It is rainy 混淆"
+      ],
+      "coaching_tip": "把颜色、天气、衣物三类词做成卡片，先分类认读，再做卷。"
+    }
+  },
+  {
+    "id": "cne_232",
+    "name": "期末模拟（二年级上册末卷）",
+    "domain": "读写",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "二年级上 册末卷 期末模拟",
+    "type": "application",
+    "description": "二年级上册册末 mini 卷：早晨日常、房间、上学路上、运动、天空、海洋、四季、水果、五感与自我介绍，共 10 题。",
+    "mastery_criteria": [
+      "能认读二上 10 个 Unit 的核心词并完成选词与翻译题",
+      "能用 I get up at ... / I ... with my ... 描述日常与感官"
+    ],
+    "diagnostic_question": {
+      "question": "I ______ at seven in the morning.",
+      "answer": "get up"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "paper",
+    "book": "二年级上",
+    "standards": [
+      {
+        "id": "ces-2022:1.PU.02",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:1.DS.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:1.DS.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读二上 10 个 Unit 的核心词并完成选词与翻译题",
+        "能用 I get up at ... / I ... with my ... 描述日常与感官"
+      ],
+      "worked_example": {
+        "problem": "选出正确的词：I ______ with my ears.",
+        "steps": [
+          "耳朵用来听",
+          "hear 表示听见",
+          "see 表示看见"
+        ],
+        "answer": "hear"
+      },
+      "common_mistakes": [
+        "go to school by bus 误写成 by a bus",
+        "感官动词后介词 with 漏写"
+      ],
+      "coaching_tip": "按“早晨—上学—运动—自然”的顺序复习，把每个 Unit 的一句话串成小短文。"
+    }
+  },
+  {
+    "id": "cne_233",
+    "name": "期末模拟（二年级下册末卷）",
+    "domain": "读写",
+    "grade": 2,
+    "semester": "下",
+    "chapter": "二年级下 册末卷 期末模拟",
+    "type": "application",
+    "description": "二年级下册册末 mini 卷：假期、家务、情绪、机器人、朋友、母亲节、植物、水边、卫生与睡前，共 10 题。",
+    "mastery_criteria": [
+      "能认读二下 10 个 Unit 的核心词并完成选词与翻译题",
+      "能用 I help ... / I feel ... / The robot can ... 表达日常行为与感受"
+    ],
+    "diagnostic_question": {
+      "question": "We go to the ______ in summer. We swim there.",
+      "answer": "beach"
+    },
+    "external": false,
+    "subject": "english",
+    "level": "paper",
+    "book": "二年级下",
+    "standards": [
+      {
+        "id": "ces-2022:1.PU.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:1.DS.01",
+        "confidence": "exact"
+      },
+      {
+        "id": "ces-2022:1.PU.02",
+        "confidence": "exact"
+      }
+    ],
+    "tutoring": {
+      "key_points": [
+        "能认读二下 10 个 Unit 的核心词并完成选词与翻译题",
+        "能用 I help ... / I feel ... / The robot can ... 表达日常行为与感受"
+      ],
+      "worked_example": {
+        "problem": "选出正确的词：I am ______. I want to sleep.",
+        "steps": [
+          "想睡觉说明累了",
+          "tired 表示疲倦",
+          "angry 表示生气"
+        ],
+        "answer": "tired"
+      },
+      "common_mistakes": [
+        "feelings 类形容词与 be 动词搭配遗漏（I happy）",
+        "can 后误用动词过去式"
+      ],
+      "coaching_tip": "把每个 Unit 的核心词配上动作演一演，再用完整句子说一说，最后做卷。"
+    }
+  },
+  {
     "id": "cne_169",
     "name": "期末模拟（三年级上册末卷）",
     "domain": "读写",
@@ -24288,10 +30739,6 @@
       },
       {
         "id": "ces-2022:1.DS.01",
-        "confidence": "exact"
-      },
-      {
-        "id": "ces-2022:1.PH.02",
         "confidence": "exact"
       }
     ],

@@ -20,7 +20,9 @@ import eu_high
 import eu_junior
 import eu_primary
 
+NEW_ELEMENTARY_VOLUMES = ["1上", "1下", "2上", "2下"]
 ELEMENTARY_VOLUMES = ["3上", "3下", "4上", "4下", "5上", "5下", "6上", "6下"]
+ALL_ELEMENTARY_VOLUMES = NEW_ELEMENTARY_VOLUMES + ELEMENTARY_VOLUMES
 JUNIOR_VOLUMES = ["7上", "7下", "8上", "8下", "9上", "9下"]
 
 DOMAIN_CODE = {"语音": "PH", "词汇": "VO", "语法": "GR", "日常表达": "PU", "读写": "DS"}
@@ -49,10 +51,15 @@ for _sid, _stage, _dom, _theme, _text in estandards.ITEMS:
 DOMAIN_CODE_DOMAIN = {"语音": "语音", "词汇": "词汇", "语法": "语法",
                       "日常表达": "语用", "读写": "语篇"}
 
-STAGE_OF_GRADE = {3: "一级", 4: "一级", 5: "二级", 6: "二级", 7: "三级", 8: "三级", 9: "三级"}
+STAGE_OF_GRADE = {1: "一级", 2: "一级", 3: "一级", 4: "一级",
+                  5: "二级", 6: "二级", 7: "三级", 8: "三级", 9: "三级"}
 
-ROOT_REASON = ("沪教版英语从三年级起开设（三年级起点），本知识点是全图英语部分的起点，"
+ROOT_REASON = ("沪教版英语从一年级起开设（一年级起点），本知识点是全图英语部分的起点，"
                "前面没有更早的英语知识点。")
+
+# 一、二年级为后补内容，id 从 190 起编号，避免改变既有一至九年级/高中知识点的 id
+NEW_VOLUME_ID_START = 190
+NEW_PAPER_ID_START = 230
 
 
 def _assign_standards(meta):
@@ -162,6 +169,11 @@ def _questions_from_tuples(rows):
 
 def _pack(rec, num, prereqs, stds, root=False):
     vol, no, unit, theme, dom, words, blank, trans = rec
+    note = None
+    if vol in NEW_ELEMENTARY_VOLUMES:
+        stds = [(sid, "inferred") for sid, _conf in stds]
+        note = ("一年级起点地区：一、二年级参照《义务教育英语课程标准（2022 年版）》"
+                "一级目标（3—4 年级）的入门要求，属于下位参照。")
     book = VOLUME_ZH[vol]
     grade = VOLUMES[vol][0]
     word_list = "、".join("%s（%s）" % (e, z) for e, z in words)
@@ -181,13 +193,13 @@ def _pack(rec, num, prereqs, stds, root=False):
 
     rows = _primary_questions(rec)
     qs = _questions_from_tuples(rows)
-    if vol in ELEMENTARY_VOLUMES:
+    if vol in ALL_ELEMENTARY_VOLUMES:
         qs += eextra.primary_questions(vol, no)
     else:
         qs += eextra.junior_questions(vol, no)
     return eunit(num, vol, no, unit, theme, dom, DOMAIN_TYPE[dom], desc, mastery, ex,
                  mistakes, tip, prereqs, stds, qs,
-                 std_prefix="ces-2022:",
+                 std_prefix="ces-2022:", note=note,
                  root_reason=ROOT_REASON if root else None)
 
 
@@ -222,11 +234,11 @@ def build():
     """返回 (packs, volumes)。volumes 为按册次排列的 [(册, 起止编号)]，供统计用。"""
     packs = []
     order = [(vol, None) for vol in
-             ELEMENTARY_VOLUMES + JUNIOR_VOLUMES +
+             ALL_ELEMENTARY_VOLUMES + JUNIOR_VOLUMES +
              ["必修一", "必修二", "必修三", "选必一", "选必二", "选必三", "选必四"]]
 
     records = []
-    for vol in ELEMENTARY_VOLUMES:
+    for vol in ALL_ELEMENTARY_VOLUMES:
         records += [(vol, rec) for rec in eu_primary.UNITS if rec[0] == vol]
     for vol in JUNIOR_VOLUMES:
         records += [(vol, rec) for rec in eu_junior.UNITS if rec[0] == vol]
@@ -234,8 +246,18 @@ def build():
         records += [(vol, rec) for rec in eu_high.UNITS if rec["vol"] == vol]
 
     ids_by_vol = {}
-    for i, (vol, rec) in enumerate(records, 1):
-        ids_by_vol.setdefault(vol, []).append("cne_%03d" % i)
+    ids_in_order = []
+    old_num, new_num = 1, NEW_VOLUME_ID_START
+    for vol, rec in records:
+        # 一、二年级为后补内容，单独从 190 起编号；三至九年级与高中沿用原编号
+        num = new_num if vol in NEW_ELEMENTARY_VOLUMES else old_num
+        tid = "cne_%03d" % num
+        ids_by_vol.setdefault(vol, []).append(tid)
+        ids_in_order.append(tid)
+        if vol in NEW_ELEMENTARY_VOLUMES:
+            new_num += 1
+        else:
+            old_num += 1
 
     meta = []
     for vol, rec in records:
@@ -249,7 +271,8 @@ def build():
     last_domain_unit = {}      # domain -> 最近的 Unit id
     prev_vol_last = None
     for i, (vol, rec) in enumerate(records, 1):
-        tid = "cne_%03d" % i
+        tid = ids_in_order[i - 1]
+        num = int(tid.split("_")[1])
         no = rec[1] if isinstance(rec, tuple) else rec["no"]
         dom = rec[4] if isinstance(rec, tuple) else rec["dom"]
         prereqs = []
@@ -271,16 +294,23 @@ def build():
         prev_vol_last = tid
 
         if isinstance(rec, tuple):
-            pack = _pack(rec, i, prereqs, auto_stds.pop(0), root)
+            pack = _pack(rec, num, prereqs, auto_stds.pop(0), root)
         else:
-            pack = _pack_high(rec, i, prereqs, root)
+            pack = _pack_high(rec, num, prereqs, root)
         packs.append(pack)
 
     # 册末卷：每册 1 个 level:"paper" 知识点，与本册首、末 Unit 各连一条 soft 边
-    next_num = len(records) + 1
+    old_paper = 169
+    new_paper = NEW_PAPER_ID_START
     for paper in epapers.PAPERS:
         vol = paper["vol"]
         units = ids_by_vol[vol]
+        if vol in NEW_ELEMENTARY_VOLUMES:
+            paper_num = new_paper
+            new_paper += 1
+        else:
+            paper_num = old_paper
+            old_paper += 1
         stds = []
         for tid in (units[0], units[-1]):
             for s in next(p for p in packs if p["topic"]["id"] == tid)["topic"]["standards"]:
@@ -289,10 +319,9 @@ def build():
                     stds.append(sid)
         prefix = "chs-2017:" if vol.startswith(("必修", "选必")) else "ces-2022:"
         packs.append(epaper(
-            next_num, vol, paper["title"], paper["desc"], paper["mastery"], paper["tip"],
+            paper_num, vol, paper["title"], paper["desc"], paper["mastery"], paper["tip"],
             [_paper_question(it) for it in paper["items"]],
             [(units[0], "soft"), (units[-1], "soft")], ",".join(stds[:3]),
             paper["mistakes"], paper["ex"], std_prefix=prefix))
-        next_num += 1
 
     return packs, order

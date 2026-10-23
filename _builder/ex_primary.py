@@ -7,6 +7,217 @@
 
 EXTRA = {
 
+
+    # ==================================================== 一年级上（2024 审定版）
+    ("1上", 1): dict(
+        p="Good ___1___! I am Kitty. In the afternoon I say “Good ___2___!” to Miss Fang. "
+          "When I go home, I say “___3___!” My friend says “___4___!” to me.",
+        a=["morning", "afternoon", "goodbye", "hi"],
+        s=("I / Kitty / am / .", "I am Kitty.", ["I'm Kitty"])),
+    ("1上", 2): dict(
+        p="This is my new ___1___. Her ___2___ is Lily. I say “Nice to ___3___ you.” "
+          "We ___4___ together every day.",
+        a=["friend", "name", "meet", "play"],
+        s=("is / This / my / friend / .", "This is my friend.", ["This's my friend"])),
+    ("1上", 3): dict(
+        p="Look at my ___1___. It is blue. I have a ___2___, a pencil and a ___3___ in it. "
+          "I write with the ___4___.",
+        a=["schoolbag", "book", "ruler", "pencil"],
+        s=("have / I / a / pencil / .", "I have a pencil.", ["I have got a pencil"])),
+    ("1上", 4): dict(
+        p="This is my ___1___. There is a big ___2___ for the teacher. I sit on a ___3___. "
+          "Please close the ___4___; it is cold.",
+        a=["classroom", "desk", "chair", "door"],
+        s=("is / This / classroom / my / .", "This is my classroom.", ["This's my classroom"])),
+    ("1上", 5): dict(
+        p="Look at my ___1___. I have two big ___2___ to see. I have one ___3___ to smell "
+          "and two ___4___ to hear.",
+        a=["face", "eyes", "nose", "ears"],
+        s=("have / I / eyes / two / .", "I have two eyes.", ["I have got two eyes"])),
+    ("1上", 6): dict(
+        p="This is my ___1___. My ___2___ is a doctor and my mother is a teacher. "
+          "I have a little ___3___ and a big ___4___.",
+        a=["family", "father", "brother", "sister"],
+        s=("is / This / my / mother / .", "This is my mother.", ["This's my mother"])),
+    ("1上", 7): dict(
+        p="I have a ___1___ at home. It says “meow”. A ___2___ says “woof”. A ___3___ can fly, "
+          "and a ___4___ can swim in water.",
+        a=["cat", "dog", "bird", "fish"],
+        s=("like / I / cat / this / .", "I like this cat.", ["I like this kitty"])),
+    ("1上", 8): dict(
+        p="I can ___1___ fast. I can ___2___ high. I can ___3___ in the pool. "
+          "“Have a go!” says Mum. “Just ___4___!”",
+        a=["run", "jump", "swim", "try"],
+        s=("can / I / run / .", "I can run.", ["I can run fast"])),
+    ("1上", 9): dict(
+        p="I can ___1___ a song. My sister can ___2___. My brother can ___3___ a picture. "
+          "“Yes, you ___4___!” says Dad.",
+        a=["sing", "dance", "draw", "can"],
+        s=("can / dance / I / .", "I can dance.", ["I can dance well"])),
+    ("1上", 10): dict(
+        p="I can ___1___ from one to ten. One, two, three, four, ___2___. Six, seven, eight, "
+          "nine, ___3___. There are ___4___ seasons in a year.",
+        a=["count", "five", "ten", "four"],
+        s=("to / count / I / can / ten / .", "I can count to ten.", ["I can count to 10"])),
+
+    # ==================================================== 一年级下（2024 审定版）
+    ("1下", 1): dict(
+        p="___1___ back to school! Our ___2___ is big and clean. I see my friends ___3___. "
+          "We play ___4___.",
+        a=["Welcome", "school", "again", "together"],
+        s=("Welcome / to / school / back / !", "Welcome back to school!", ["Welcome back to school"])),
+    ("1下", 2): dict(
+        p="It is lunch time. I am hungry. I would like some ___1___ and an ___2___. "
+          "I drink some ___3___. The food is ___4___.",
+        a=["rice", "apple", "milk", "nice"],
+        s=("like / I / rice / would / some / .", "I would like some rice.",
+           ["I'd like some rice", "I want some rice"])),
+    ("1下", 3): dict(
+        p="Look at the park. The grass is ___1___. The sky is ___2___. The flower is ___3___. "
+          "The sun is ___4___.",
+        a=["green", "blue", "red", "yellow"],
+        s=("is / The / red / flower / .", "The flower is red.", ["This flower is red"])),
+    ("1下", 4): dict(
+        p="I am in the ___1___. I play on the ___2___. It is high. My friend likes the ___3___. "
+          "We ___4___ together.",
+        a=["playground", "swing", "slide", "play"],
+        s=("play / We / the / in / playground / .", "We play in the playground.",
+           ["We play on the playground"])),
+    ("1下", 5): dict(
+        p="Today is a ___1___ day. The sun is out. Yesterday it was ___2___, so I took an umbrella. "
+          "It is ___3___ today; my kite flies high. Look at the ___4___ sky; it may rain.",
+        a=["sunny", "rainy", "windy", "cloudy"],
+        s=("is / It / today / sunny / .", "It is sunny today.", ["It's sunny today"])),
+    ("1下", 6): dict(
+        p="It is cold. Put on your ___1___. Put on your ___2___ too. My sister wears a new "
+          "___3___. She has new ___4___ on her feet.",
+        a=["coat", "hat", "dress", "shoes"],
+        s=("is / This / dress / my / new / .", "This is my new dress.", ["This's my new dress"])),
+    ("1下", 7): dict(
+        p="I go home after school. I do my ___1___ first. Then I ___2___ a book. I ___3___ a "
+          "picture for Mum. After that I ___4___ with my ball.",
+        a=["homework", "read", "draw", "play"],
+        s=("read / I / school / after / .", "I read after school.", ["I read books after school"])),
+    ("1下", 8): dict(
+        p="Look at the light. ___1___ means stop. Green means ___2___. We must wait for the green "
+          "___3___. We must not ___4___ on the road.",
+        a=["Red", "go", "light", "run"],
+        s=("can / We / go / now / .", "We can go now.", ["We can go"])),
+    ("1下", 9): dict(
+        p="I go to the zoo. I see a ___1___. It is black and white. I see a ___2___ in the tree. "
+          "The ___3___ is big and strong. The ___4___ has a long nose.",
+        a=["panda", "monkey", "tiger", "elephant"],
+        s=("see / I / monkey / a / .", "I see a monkey.", ["I can see a monkey"])),
+    ("1下", 10): dict(
+        p="I have many ___1___. I like this ___2___; she has long hair. I like my ___3___ too. "
+          "I ___4___ playing with them.",
+        a=["toys", "doll", "ball", "like"],
+        s=("like / I / toy / this / .", "I like this toy.", ["I like this toy very much"])),
+
+    # ==================================================== 二年级上（2024 审定版）
+    ("2上", 1): dict(
+        p="I ___1___ at seven. I ___2___ my face and hands. I have ___3___ at half past seven. "
+          "Then I go to ___4___.",
+        a=["get up", "wash", "breakfast", "school"],
+        s=("have / I / breakfast / at / seven / .", "I have breakfast at seven.",
+           ["I have breakfast at 7", "I eat breakfast at seven"])),
+    ("2上", 2): dict(
+        p="This is my ___1___. My ___2___ is near the window; I do my homework at it. I put my "
+          "toys in a ___3___. I can see a tree from my ___4___.",
+        a=["room", "desk", "box", "window"],
+        s=("room / My / is / small / .", "My room is small.", ["My room is very small"])),
+    ("2上", 3): dict(
+        p="I go to school by ___1___ on rainy days. On sunny days I ride my ___2___. Sometimes I "
+          "___3___ to school. Look at the ___4___; there are many cars.",
+        a=["bus", "bike", "walk", "road"],
+        s=("to / I / school / walk / .", "I walk to school.", ["I go to school on foot"])),
+    ("2上", 4): dict(
+        p="I like sports. I play ___1___ with my feet. I play ___2___ with my hands. In summer I "
+          "___3___ in the pool. I ___4___ every morning.",
+        a=["football", "basketball", "swim", "run"],
+        s=("like / I / swimming / .", "I like swimming.", ["I like to swim"])),
+    ("2上", 5): dict(
+        p="In the day, the ___1___ is bright. At night, the ___2___ and the ___3___ are in the sky. "
+          "A white ___4___ looks like a sheep.",
+        a=["sun", "moon", "star", "cloud"],
+        s=("are / There / stars / many / .", "There are many stars.", ["There are lots of stars"])),
+    ("2上", 6): dict(
+        p="The ___1___ is blue. A ___2___ swims fast. A big ___3___ jumps out of the water. "
+          "A ___4___ walks sideways on the sand.",
+        a=["sea", "fish", "whale", "crab"],
+        s=("is / There / a / fish / .", "There is a fish.", ["There's a fish"])),
+    ("2上", 7): dict(
+        p="There are four seasons. ___1___ is green. ___2___ is hot. ___3___ is cool and yellow. "
+          "___4___ is cold and white.",
+        a=["Spring", "Summer", "Autumn", "Winter"],
+        s=("is / It / in / warm / spring / .", "It is warm in spring.", ["It's warm in spring"])),
+    ("2上", 8): dict(
+        p="I like fruit. An ___1___ is red. A ___2___ is long and yellow. An ___3___ is orange. "
+          "A ___4___ is small and purple.",
+        a=["apple", "banana", "orange", "grape"],
+        s=("like / I / grapes / .", "I like grapes.", ["I like eating grapes"])),
+    ("2上", 9): dict(
+        p="I ___1___ with my eyes. I ___2___ with my ears. I ___3___ with my nose. "
+          "I ___4___ with my tongue.",
+        a=["see", "hear", "smell", "taste"],
+        s=("smell / I / my / with / nose / .", "I smell with my nose.", ["I smell with my nose"])),
+    ("2上", 10): dict(
+        p="Hello! I am Ben. I am ___1___ and thin. I have short ___2___. My ___3___ are big. "
+          "I like my ___4___, too.",
+        a=["tall", "hair", "eyes", "face"],
+        s=("am / I / tall / .", "I am tall.", ["I am tall and thin"])),
+
+    # ==================================================== 二年级下（2024 审定版）
+    ("2下", 1): dict(
+        p="It is the summer ___1___. We go to the ___2___. We play on the sand. We also ___3___ "
+          "my grandmother. We have a good ___4___.",
+        a=["holiday", "beach", "visit", "time"],
+        s=("to / I / the / go / park / .", "I go to the park.", ["I go to the park on holiday"])),
+    ("2下", 2): dict(
+        p="I help at home. I ___1___ the floor. I ___2___ my clothes. I ___3___ the table with a "
+          "cloth. My mother says, “You are a good ___4___!”",
+        a=["sweep", "wash", "clean", "helper"],
+        s=("mother / I / my / help / .", "I help my mother.", ["I help my mum"])),
+    ("2下", 3): dict(
+        p="Today is my birthday. I am ___1___. My brother loses his toy. He is ___2___. The big "
+          "dog barks at my sister. She is ___3___. After a long walk, I am ___4___.",
+        a=["happy", "sad", "angry", "tired"],
+        s=("is / He / sad / .", "He is sad.", ["He's sad"])),
+    ("2下", 4): dict(
+        p="This is my ___1___. It ___2___ walk and ___3___. It can sing, too. I ___4___ it very much.",
+        a=["robot", "can", "talk", "like"],
+        s=("can / The / sing / robot / .", "The robot can sing.", ["The robot can sing songs"])),
+    ("2下", 5): dict(
+        p="Tom is my good ___1___. We ___2___ together every day. We ___3___ our toys. "
+          "We are good ___4___.",
+        a=["friend", "play", "share", "friends"],
+        s=("are / We / friends / good / .", "We are good friends.", ["We're good friends"])),
+    ("2下", 6): dict(
+        p="Today is Mother's Day. I make a ___1___ for my mother. I give her a ___2___. I say, "
+          "“I ___3___ you, Mum!” She is very happy. I love my ___4___.",
+        a=["card", "flower", "love", "mother"],
+        s=("love / I / mother / my / .", "I love my mother.", ["I love my mum", "I love my mom"])),
+    ("2下", 7): dict(
+        p="A plant needs water and sun. A big ___1___ has many leaves. A ___2___ is red or yellow. "
+          "A green ___3___ falls in autumn. A small ___4___ can grow into a plant.",
+        a=["tree", "flower", "leaf", "seed"],
+        s=("is / The / beautiful / flower / .", "The flower is beautiful.",
+           ["This flower is beautiful"])),
+    ("2下", 8): dict(
+        p="We are near the ___1___. A ___2___ is on the water. A ___3___ swims in the river. "
+          "A boy can ___4___ in summer.",
+        a=["river", "boat", "duck", "swim"],
+        s=("swims / The / in / duck / river / the / .", "The duck swims in the river.",
+           ["The duck is swimming in the river"])),
+    ("2下", 9): dict(
+        p="Before lunch, I ___1___ my hands. I use ___2___ and ___3___. Now my hands are ___4___.",
+        a=["wash", "soap", "water", "clean"],
+        s=("hands / Wash / your / .", "Wash your hands.", ["Wash your hands before meals"])),
+    ("2下", 10): dict(
+        p="It is nine o'clock at ___1___. I am in ___2___. I say “___3___ night, Mum!” Then I ___4___.",
+        a=["night", "bed", "Good", "sleep"],
+        s=("night / Good / Mum / .", "Good night, Mum.", ["Good night, Mom", "Good night Mother"])),
+
     # ==================================================== 三年级上册
     ("3上", 1): dict(
         p="Good ___1___! My ___2___ is Kitty. In the morning I say ___3___ to my teacher. "

@@ -6,6 +6,20 @@
   const LS_SETTINGS = 'cnmDiagnose.settings.v2';
   const LS_SEEN = 'cnmDiagnose.seen.v1';
   const LIMIT_MIN = 8, LIMIT_MAX = 30;
+
+  // 上海味儿幽默快捷方式
+  const sh = {
+    opener: E.shOpener,
+    correct: E.shCorrect,
+    wrong: E.shWrong,
+    skip: E.shSkip,
+    weak: E.shWeak,
+    shaky: E.shShaky,
+    mastered: E.shMastered,
+    finish: E.shFinish,
+    encourage: E.shEncourage
+  };
+
   const VOLUMES = [
     ['一年级上', '一年级上册'], ['一年级下', '一年级下册'],
     ['二年级上', '二年级上册'], ['二年级下', '二年级下册'],
@@ -215,13 +229,15 @@
   /* ------------------------------------------------------------ 开始页 */
   function renderStart(errMsg) {
     const page = h('div');
+    // 上海味儿开场白
+    page.append(h('div', { class: 'banner sh-humor' }, sh.opener()));
     const saved = lsGet(LS_SESSION);
     if (saved && saved.targets && D.graph.byId[saved.targets[0]]) {
       page.append(h('div', { class: 'banner' },
         h('b', { text: '有一份未清除的诊断：' }), saved.label || saved.targets.map(nameOf).join('、'),
         '（已答 ' + (saved.answers || []).length + ' 题）　',
         h('button', { class: 'primary', onclick: function () { if (restoreSession(saved)) render(); else { lsDel(LS_SESSION); renderStart('存档无法恢复，已清除。'); } } }, '继续'),
-        ' ', h('button', { onclick: function () { lsDel(LS_SESSION); renderStart(); } }, '放弃存档')));
+        ' ', h('button', { onclick: function () { lsDel(LS_SESSION); renderStart(); } }, '放弃存档')));<|reserved_token_163666|>
     }
     if (errMsg) page.append(h('p', { class: 'err', text: errMsg }));
 
@@ -405,9 +421,11 @@
         h('button', { id: 'btn-skip', onclick: function () { ui.phase = 'skip'; renderQuestion(item); } }, '不会')));
     } else if (ui.phase === 'auto') {
       const ok = ui.verdict.verdict === 'correct';
+      const humor = ok ? sh.correct() : sh.wrong();
       card.append(
         h('div', { class: 'muted' }, '你的答案：' + (q.type === 'choice' ? answerOfKey(q, ui.answer) : ui.answer)),
         h('div', { class: 'verdict ' + (ok ? 'ok' : 'no') }, ok ? '自动判定：正确' : '自动判定：不正确'),
+        h('div', { class: 'sh-humor' }, humor),
         feedbackBlock(q),
         h('div', { class: 'row' },
           h('button', { class: 'primary', id: 'btn-next', onclick: function () { commit(ok ? 'correct' : 'wrong'); } }, '下一题'),
@@ -416,6 +434,7 @@
     } else if (ui.phase === 'skip') {
       card.append(
         h('div', { class: 'muted' }, '你选择了「不会」。看一下答案和解析再继续：'),
+        h('div', { class: 'sh-humor' }, sh.skip()),
         feedbackBlock(q),
         h('div', { class: 'row' }, h('button', { class: 'primary', id: 'btn-next', onclick: function () { commit('skip'); } }, '下一题')));
     } else {
@@ -510,15 +529,25 @@
     if (demo) page.append(demoBanner());
 
     const targetsMastered = session.targets.every(function (id) { return E.statusOf(session, id) === 'mastered'; });
-    let headline;
-    if (!sum.roots.length && !sum.shaky.length && targetsMastered) headline = '目标知识点已掌握，没有发现需要补的先修。';
-    else if (!sum.roots.length && !sum.shaky.length) headline = '没有判出薄弱点，但目标尚未全部测到。';
-    else if (!sum.roots.length) headline = '没有判出薄弱点，但有 ' + sum.shaky.length + ' 个知识点「不稳」（第一题没答对、第二题答对），建议巩固。';
-    else headline = '共发现 ' + sum.roots.length + ' 个薄弱根因' + (sum.shaky.length ? '、' + sum.shaky.length + ' 个不稳的知识点' : '') + '，按下面的学习路径从前往后补。';
+    let headline, humorLine;
+    if (!sum.roots.length && !sum.shaky.length && targetsMastered) {
+      headline = '目标知识点已掌握，没有发现需要补的先修。';
+      humorLine = sh.mastered() + ' ' + sh.finish();
+    } else if (!sum.roots.length && !sum.shaky.length) {
+      headline = '没有判出薄弱点，但目标尚未全部测到。';
+      humorLine = sh.encourage();
+    } else if (!sum.roots.length) {
+      headline = '没有判出薄弱点，但有 ' + sum.shaky.length + ' 个知识点「不稳」（第一题没答对、第二题答对），建议巩固。';
+      humorLine = sh.shaky();
+    } else {
+      headline = '共发现 ' + sum.roots.length + ' 个薄弱根因' + (sum.shaky.length ? '、' + sum.shaky.length + ' 个不稳的知识点' : '') + '，按下面的学习路径从前往后补。';
+      humorLine = sh.weak();
+    }
 
     const summaryCard = h('div', { class: 'card', id: 'summary' },
       h('h2', { text: '诊断结果：' + sessionMeta.label }),
       h('p', null, headline),
+      h('p', { class: 'sh-humor' }, humorLine),
       h('div', { class: 'stats' },
         stat('ask', sum.asked, '已答题数'),
         stat('bad', sum.weak.length, '薄弱'),

@@ -19,6 +19,93 @@
 })(typeof self !== 'undefined' ? self : this, function () {
   'use strict';
 
+  /* ------------------------------------------------------------------ 上海味儿幽默（沪教版专属，向“册那队长”致敬）
+ * 上海话关键词对照（语音+语法）：
+ *   吾(ng) = 我，  阿拉 = 我们，  侬 = 你
+ *   勿/伐 = 不，  晓得 = 知道，  啥 = 什么，  啥样 = 怎么
+ *   老卵 = 厉害/棒（褒义），  册那 = 那个，  模子 = 套路/模式
+ *   脑瓜子 = 脑袋/头脑，  拿捏 = 掌握，  琢磨 = 思考，  搭上 = 对上/扣上
+ *   栽跟头 = 失败，  七拐八拐 = 乱七八糟/不走直路，  拎拎清 = 清清楚楚
+ *   杠杠的 = 很棒，  标标准准 = 很标准，  硬骨头 = 难题
+ *   啃下来 = 攻克，  对症下药 = 对症下药，  磨 = 磨练/钻研
+ *   今朝 = 今天，  搿 = 这/此，  伊拉 = 他们
+ *   句尾常加：咯/啰/嘞/哇/哇赛
+ */
+  const SH_HUMOR = {
+    // 开场白
+    openers: [
+      '阿拉来给侬诊断一下，看看底子厚勿厚～',
+      '侬好啊，吾是册那队长，今朝来给侬把脉问诊！',
+      '别紧张，吾只是来看看侬个数学模子正伐正～',
+      '来来来，侬坐好，吾要开始“查户口”咯～',
+      '沪教版老卵出题，侬要跟紧咯！'
+    ],
+    // 答对
+    correct: [
+      '漂亮！侬个脑瓜子转得快，吾佩服～',
+      '对头！吾就晓得侬这知识点没白学～',
+      '稳！这一下子拿捏住咯，继续加油！',
+      '正确！侬个模子练得挺标准嘛～',
+      '牛！吾给侬点个赞，这波不亏！'
+    ],
+    // 答错
+    wrong: [
+      '哎呀，侬个脑筋卡住咯？再动动脑子～',
+      '不对哦，册那队长提示侬：回去翻翻书本～',
+      '这题栽跟头咯，别灰心，吾带侬找找根因～',
+      '模子没搭上啊，侬再琢磨琢磨？',
+      '老卵摇头：侬这个步骤有点“七拐八拐”哦～'
+    ],
+    // 不会
+    skip: [
+      '不会？老老实实说“不会”也算本事，吾记下咯～',
+      '跳过？吾帮侬标记薄弱点，回头再攻克！',
+      '不懂就直说，硬蒙可不行，册那队长最恨蒙的～'
+    ],
+    // 薄弱
+    weak: [
+      '唉呀，这下真“老卵”咯——根因拎拎清咯，侬得从头补起～',
+      '薄弱点锁定！吾建议侬按学习路径，一步步把模子搭稳～',
+      '这根基不牢，地动山摇啊！赶紧按路径补课去～'
+    ],
+    // 不稳
+    shaky: [
+      '嗯？第一题栽跟头，第二题倒是对咯——这叫“不稳”，侬自己琢磨～',
+      '有点悬啊，侬这掌握度“三分像七分不像”，回头巩固巩固！'
+    ],
+    // 掌握
+    mastered: [
+      '稳如老狗！侬个知识点杠杠的，吾放心咯～',
+      '掌握！侬个模子搭得标标准准，没得说～'
+    ],
+    // 完成
+    finish: [
+      '诊断结束咯！吾给侬出份“处方单”，对症下药最管用～',
+      '好了，册那队长下班咯。侬拿着学习路径，慢慢磨吧～',
+      '收工！记牢：薄弱点不补，模子永远搭不稳。吾等侬下次再来！'
+    ],
+    // 鼓励
+    encourage: [
+      '侬要相信吾，沪教版这套模子，熟能生巧！',
+      '别急，数学讲究个“悟”，多做两遍就通咯～',
+      '吾陪侬一起啃，硬骨头也能啃下来！'
+    ]
+  };
+
+  function shPick(arr) {
+    return arr[Math.floor(Math.random() * arr.length)];
+  }
+
+  function shOpener() { return shPick(SH_HUMOR.openers); }
+  function shCorrect() { return shPick(SH_HUMOR.correct); }
+  function shWrong() { return shPick(SH_HUMOR.wrong); }
+  function shSkip() { return shPick(SH_HUMOR.skip); }
+  function shWeak() { return shPick(SH_HUMOR.weak); }
+  function shShaky() { return shPick(SH_HUMOR.shaky); }
+  function shMastered() { return shPick(SH_HUMOR.mastered); }
+  function shFinish() { return shPick(SH_HUMOR.finish); }
+  function shEncourage() { return shPick(SH_HUMOR.encourage); }
+
   /* ------------------------------------------------------------------ 图 */
 
   const DIFF_RANK = { basic: 0, standard: 1, advanced: 2 };
@@ -790,6 +877,16 @@
     layout: layout,
     parseChapter: parseChapter,
     normalizeText: normalizeText,
-    judgeAnswer: judgeAnswer
+    judgeAnswer: judgeAnswer,
+    // 上海味儿幽默（沪教版专属）
+    shOpener: shOpener,
+    shCorrect: shCorrect,
+    shWrong: shWrong,
+    shSkip: shSkip,
+    shWeak: shWeak,
+    shShaky: shShaky,
+    shMastered: shMastered,
+    shFinish: shFinish,
+    shEncourage: shEncourage
   };
 });
